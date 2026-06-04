@@ -15,6 +15,8 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference
 	cdktn.ComplexObject
 	ApiKey() BedrockagentcoreGatewayTargetCredentialProviderConfigurationApiKeyList
 	ApiKeyInput() interface{}
+	CallerIamCredentials() BedrockagentcoreGatewayTargetCredentialProviderConfigurationCallerIamCredentialsList
+	CallerIamCredentialsInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -36,6 +38,8 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference
 	GatewayIamRoleInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	JwtPassthrough() BedrockagentcoreGatewayTargetCredentialProviderConfigurationJwtPassthroughList
+	JwtPassthroughInput() interface{}
 	Oauth() BedrockagentcoreGatewayTargetCredentialProviderConfigurationOauthList
 	OauthInput() interface{}
 	// Experimental.
@@ -71,10 +75,14 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutApiKey(value interface{})
+	PutCallerIamCredentials(value interface{})
 	PutGatewayIamRole(value interface{})
+	PutJwtPassthrough(value interface{})
 	PutOauth(value interface{})
 	ResetApiKey()
+	ResetCallerIamCredentials()
 	ResetGatewayIamRole()
+	ResetJwtPassthrough()
 	ResetOauth()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -106,6 +114,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	_jsii_.Get(
 		j,
 		"apiKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) CallerIamCredentials() BedrockagentcoreGatewayTargetCredentialProviderConfigurationCallerIamCredentialsList {
+	var returns BedrockagentcoreGatewayTargetCredentialProviderConfigurationCallerIamCredentialsList
+	_jsii_.Get(
+		j,
+		"callerIamCredentials",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) CallerIamCredentialsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"callerIamCredentialsInput",
 		&returns,
 	)
 	return returns
@@ -176,6 +204,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) JwtPassthrough() BedrockagentcoreGatewayTargetCredentialProviderConfigurationJwtPassthroughList {
+	var returns BedrockagentcoreGatewayTargetCredentialProviderConfigurationJwtPassthroughList
+	_jsii_.Get(
+		j,
+		"jwtPassthrough",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) JwtPassthroughInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"jwtPassthroughInput",
 		&returns,
 	)
 	return returns
@@ -501,6 +549,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) PutCallerIamCredentials(value interface{}) {
+	if err := b.validatePutCallerIamCredentialsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCallerIamCredentials",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) PutGatewayIamRole(value interface{}) {
 	if err := b.validatePutGatewayIamRoleParameters(value); err != nil {
 		panic(err)
@@ -508,6 +567,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	_jsii_.InvokeVoid(
 		b,
 		"putGatewayIamRole",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) PutJwtPassthrough(value interface{}) {
+	if err := b.validatePutJwtPassthroughParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putJwtPassthrough",
 		[]interface{}{value},
 	)
 }
@@ -531,10 +601,26 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) ResetCallerIamCredentials() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCallerIamCredentials",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) ResetGatewayIamRole() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetGatewayIamRole",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) ResetJwtPassthrough() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetJwtPassthrough",
 		nil, // no parameters
 	)
 }

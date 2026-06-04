@@ -5,7 +5,7 @@ package ekscluster
 
 
 type EksClusterControlPlaneScalingConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/eks_cluster#tier EksCluster#tier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/eks_cluster#tier EksCluster#tier}.
 	Tier *string `field:"optional" json:"tier" yaml:"tier"`
 }
 

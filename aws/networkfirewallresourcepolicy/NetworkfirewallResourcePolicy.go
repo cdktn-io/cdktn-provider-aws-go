@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/networkfirewall_resource_policy aws_networkfirewall_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/networkfirewall_resource_policy aws_networkfirewall_resource_policy}.
 type NetworkfirewallResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_NetworkfirewallResourcePolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Resource.
 func NewNetworkfirewallResourcePolicy(scope constructs.Construct, id *string, config *NetworkfirewallResourcePolicyConfig) NetworkfirewallResourcePolicy {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewNetworkfirewallResourcePolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/networkfirewall_resource_policy aws_networkfirewall_resource_policy} Resource.
 func NewNetworkfirewallResourcePolicy_Override(n NetworkfirewallResourcePolicy, scope constructs.Construct, id *string, config *NetworkfirewallResourcePolicyConfig) {
 	_init_.Initialize()
 

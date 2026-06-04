@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/odb_network aws_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/odb_network aws_odb_network}.
 type OdbNetwork interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -60,6 +60,7 @@ type OdbNetwork interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	Ec2PlacementGroupIds() *[]*string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -464,6 +465,16 @@ func (j *jsiiProxy_OdbNetwork) DisplayNameInput() *string {
 	_jsii_.Get(
 		j,
 		"displayNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbNetwork) Ec2PlacementGroupIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"ec2PlacementGroupIds",
 		&returns,
 	)
 	return returns
@@ -910,7 +921,7 @@ func (j *jsiiProxy_OdbNetwork) ZeroEtlAccessInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkConfig) OdbNetwork {
 	_init_.Initialize()
 
@@ -928,7 +939,7 @@ func NewOdbNetwork(scope constructs.Construct, id *string, config *OdbNetworkCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/odb_network aws_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/odb_network aws_odb_network} Resource.
 func NewOdbNetwork_Override(o OdbNetwork, scope constructs.Construct, id *string, config *OdbNetworkConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group}.
 type DataAwsWafv2ManagedRuleGroup interface {
 	cdktn.TerraformDataSource
 	AvailableLabels() DataAwsWafv2ManagedRuleGroupAvailableLabelsList
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataAwsWafv2ManagedRuleGroup) VersionNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
 func NewDataAwsWafv2ManagedRuleGroup(scope constructs.Construct, id *string, config *DataAwsWafv2ManagedRuleGroupConfig) DataAwsWafv2ManagedRuleGroup {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataAwsWafv2ManagedRuleGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/wafv2_managed_rule_group aws_wafv2_managed_rule_group} Data Source.
 func NewDataAwsWafv2ManagedRuleGroup_Override(d DataAwsWafv2ManagedRuleGroup, scope constructs.Construct, id *string, config *DataAwsWafv2ManagedRuleGroupConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule}.
 type ChimesdkvoiceSipRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_ChimesdkvoiceSipRule) TriggerValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule} Resource.
 func NewChimesdkvoiceSipRule(scope constructs.Construct, id *string, config *ChimesdkvoiceSipRuleConfig) ChimesdkvoiceSipRule {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewChimesdkvoiceSipRule(scope constructs.Construct, id *string, config *Chi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/chimesdkvoice_sip_rule aws_chimesdkvoice_sip_rule} Resource.
 func NewChimesdkvoiceSipRule_Override(c ChimesdkvoiceSipRule, scope constructs.Construct, id *string, config *ChimesdkvoiceSipRuleConfig) {
 	_init_.Initialize()
 

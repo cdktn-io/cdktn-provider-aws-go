@@ -93,6 +93,37 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) validatePutHttpParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*BedrockagentcoreGatewayTargetTargetConfigurationHttp:
+		value := value.(*[]*BedrockagentcoreGatewayTargetTargetConfigurationHttp)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentcoreGatewayTargetTargetConfigurationHttp:
+		value_ := value.([]*BedrockagentcoreGatewayTargetTargetConfigurationHttp)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreGatewayTargetTargetConfigurationHttp; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) validatePutMcpParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

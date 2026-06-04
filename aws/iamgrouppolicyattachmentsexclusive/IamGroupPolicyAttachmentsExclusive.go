@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive}.
 type IamGroupPolicyAttachmentsExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_IamGroupPolicyAttachmentsExclusive) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
 func NewIamGroupPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentsExclusiveConfig) IamGroupPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewIamGroupPolicyAttachmentsExclusive(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iam_group_policy_attachments_exclusive aws_iam_group_policy_attachments_exclusive} Resource.
 func NewIamGroupPolicyAttachmentsExclusive_Override(i IamGroupPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *IamGroupPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 

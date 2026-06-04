@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation}.
 type IamOutboundWebIdentityFederation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -306,7 +306,7 @@ func (j *jsiiProxy_IamOutboundWebIdentityFederation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
 func NewIamOutboundWebIdentityFederation(scope constructs.Construct, id *string, config *IamOutboundWebIdentityFederationConfig) IamOutboundWebIdentityFederation {
 	_init_.Initialize()
 
@@ -324,7 +324,7 @@ func NewIamOutboundWebIdentityFederation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Resource.
 func NewIamOutboundWebIdentityFederation_Override(i IamOutboundWebIdentityFederation, scope constructs.Construct, id *string, config *IamOutboundWebIdentityFederationConfig) {
 	_init_.Initialize()
 

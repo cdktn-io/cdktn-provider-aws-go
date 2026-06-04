@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group}.
 type DataAwsCodeguruprofilerProfilingGroup interface {
 	cdktn.TerraformDataSource
 	AgentOrchestrationConfig() DataAwsCodeguruprofilerProfilingGroupAgentOrchestrationConfigList
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsCodeguruprofilerProfilingGroup) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Data Source.
 func NewDataAwsCodeguruprofilerProfilingGroup(scope constructs.Construct, id *string, config *DataAwsCodeguruprofilerProfilingGroupConfig) DataAwsCodeguruprofilerProfilingGroup {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsCodeguruprofilerProfilingGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Data Source.
 func NewDataAwsCodeguruprofilerProfilingGroup_Override(d DataAwsCodeguruprofilerProfilingGroup, scope constructs.Construct, id *string, config *DataAwsCodeguruprofilerProfilingGroupConfig) {
 	_init_.Initialize()
 

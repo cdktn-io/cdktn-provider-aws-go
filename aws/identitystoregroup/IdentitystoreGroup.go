@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/identitystore_group aws_identitystore_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/identitystore_group aws_identitystore_group}.
 type IdentitystoreGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_IdentitystoreGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
 func NewIdentitystoreGroup(scope constructs.Construct, id *string, config *IdentitystoreGroupConfig) IdentitystoreGroup {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewIdentitystoreGroup(scope constructs.Construct, id *string, config *Ident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/identitystore_group aws_identitystore_group} Resource.
 func NewIdentitystoreGroup_Override(i IdentitystoreGroup, scope constructs.Construct, id *string, config *IdentitystoreGroupConfig) {
 	_init_.Initialize()
 

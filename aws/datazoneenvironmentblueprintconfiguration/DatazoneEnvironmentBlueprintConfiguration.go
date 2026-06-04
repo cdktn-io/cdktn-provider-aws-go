@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration}.
 type DatazoneEnvironmentBlueprintConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -48,6 +48,9 @@ type DatazoneEnvironmentBlueprintConfiguration interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	GlobalParameters() *map[string]*string
+	SetGlobalParameters(val *map[string]*string)
+	GlobalParametersInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -125,6 +128,7 @@ type DatazoneEnvironmentBlueprintConfiguration interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	ResetGlobalParameters()
 	ResetManageAccessRoleArn()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -299,6 +303,26 @@ func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) FriendlyUniqueId()
 	return returns
 }
 
+func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) GlobalParameters() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"globalParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) GlobalParametersInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"globalParametersInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -460,7 +484,7 @@ func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration} Resource.
 func NewDatazoneEnvironmentBlueprintConfiguration(scope constructs.Construct, id *string, config *DatazoneEnvironmentBlueprintConfigurationConfig) DatazoneEnvironmentBlueprintConfiguration {
 	_init_.Initialize()
 
@@ -478,7 +502,7 @@ func NewDatazoneEnvironmentBlueprintConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/datazone_environment_blueprint_configuration aws_datazone_environment_blueprint_configuration} Resource.
 func NewDatazoneEnvironmentBlueprintConfiguration_Override(d DatazoneEnvironmentBlueprintConfiguration, scope constructs.Construct, id *string, config *DatazoneEnvironmentBlueprintConfigurationConfig) {
 	_init_.Initialize()
 
@@ -556,6 +580,17 @@ func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration)SetForEach(val cdkt
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration)SetGlobalParameters(val *map[string]*string) {
+	if err := j.validateSetGlobalParametersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"globalParameters",
 		val,
 	)
 }
@@ -984,6 +1019,14 @@ func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) OverrideLogicalId(
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) ResetGlobalParameters() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetGlobalParameters",
+		nil, // no parameters
 	)
 }
 

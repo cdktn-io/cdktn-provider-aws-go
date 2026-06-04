@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/kinesis_stream aws_kinesis_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/kinesis_stream aws_kinesis_stream}.
 type KinesisStream interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -104,6 +104,9 @@ type KinesisStream interface {
 	TerraformResourceType() *string
 	Timeouts() KinesisStreamTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WarmThroughputMibPs() *float64
+	SetWarmThroughputMibPs(val *float64)
+	WarmThroughputMibPsInput() *float64
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -166,6 +169,7 @@ type KinesisStream interface {
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
+	ResetWarmThroughputMibPs()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -653,8 +657,28 @@ func (j *jsiiProxy_KinesisStream) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_KinesisStream) WarmThroughputMibPs() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"warmThroughputMibPs",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+func (j *jsiiProxy_KinesisStream) WarmThroughputMibPsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"warmThroughputMibPsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStreamConfig) KinesisStream {
 	_init_.Initialize()
 
@@ -672,7 +696,7 @@ func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream_Override(k KinesisStream, scope constructs.Construct, id *string, config *KinesisStreamConfig) {
 	_init_.Initialize()
 
@@ -890,6 +914,17 @@ func (j *jsiiProxy_KinesisStream)SetTagsAll(val *map[string]*string) {
 	_jsii_.Set(
 		j,
 		"tagsAll",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KinesisStream)SetWarmThroughputMibPs(val *float64) {
+	if err := j.validateSetWarmThroughputMibPsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"warmThroughputMibPs",
 		val,
 	)
 }
@@ -1385,6 +1420,14 @@ func (k *jsiiProxy_KinesisStream) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KinesisStream) ResetWarmThroughputMibPs() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetWarmThroughputMibPs",
 		nil, // no parameters
 	)
 }

@@ -79,6 +79,10 @@ func (l *jsiiProxy_LambdaAlias) validatePutRoutingConfigParameters(value *Lambda
 	return nil
 }
 
+func (l *jsiiProxy_LambdaAlias) validatePutTimeoutsParameters(value *LambdaAliasTimeouts) error {
+	return nil
+}
+
 func validateLambdaAlias_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

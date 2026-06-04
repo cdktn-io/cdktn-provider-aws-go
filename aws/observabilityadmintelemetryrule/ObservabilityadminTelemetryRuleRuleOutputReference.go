@@ -13,6 +13,12 @@ import (
 
 type ObservabilityadminTelemetryRuleRuleOutputReference interface {
 	cdktn.ComplexObject
+	AllowFieldUpdates() interface{}
+	SetAllowFieldUpdates(val interface{})
+	AllowFieldUpdatesInput() interface{}
+	AllRegions() interface{}
+	SetAllRegions(val interface{})
+	AllRegionsInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,13 +34,27 @@ type ObservabilityadminTelemetryRuleRuleOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DestinationConfiguration() ObservabilityadminTelemetryRuleRuleDestinationConfigurationList
+	DestinationConfigurationInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Regions() *[]*string
+	SetRegions(val *[]*string)
+	RegionsInput() *[]*string
 	ResourceType() *string
 	SetResourceType(val *string)
 	ResourceTypeInput() *string
+	Scope() *string
+	SetScope(val *string)
+	ScopeInput() *string
+	SelectionCriteria() *string
+	SetSelectionCriteria(val *string)
+	SelectionCriteriaInput() *string
+	TelemetrySourceTypes() *[]*string
+	SetTelemetrySourceTypes(val *[]*string)
+	TelemetrySourceTypesInput() *[]*string
 	TelemetryType() *string
 	SetTelemetryType(val *string)
 	TelemetryTypeInput() *string
@@ -70,7 +90,15 @@ type ObservabilityadminTelemetryRuleRuleOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDestinationConfiguration(value interface{})
+	ResetAllowFieldUpdates()
+	ResetAllRegions()
+	ResetDestinationConfiguration()
+	ResetRegions()
 	ResetResourceType()
+	ResetScope()
+	ResetSelectionCriteria()
+	ResetTelemetrySourceTypes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -84,6 +112,46 @@ type ObservabilityadminTelemetryRuleRuleOutputReference interface {
 // The jsii proxy struct for ObservabilityadminTelemetryRuleRuleOutputReference
 type jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) AllowFieldUpdates() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowFieldUpdates",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) AllowFieldUpdatesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowFieldUpdatesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) AllRegions() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allRegions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) AllRegionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allRegionsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -116,6 +184,26 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) CreationS
 	return returns
 }
 
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) DestinationConfiguration() ObservabilityadminTelemetryRuleRuleDestinationConfigurationList {
+	var returns ObservabilityadminTelemetryRuleRuleDestinationConfigurationList
+	_jsii_.Get(
+		j,
+		"destinationConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) DestinationConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"destinationConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -136,6 +224,26 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) InternalV
 	return returns
 }
 
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) Regions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"regions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) RegionsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"regionsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResourceType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -151,6 +259,66 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResourceT
 	_jsii_.Get(
 		j,
 		"resourceTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) Scope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scope",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ScopeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scopeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) SelectionCriteria() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"selectionCriteria",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) SelectionCriteriaInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"selectionCriteriaInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) TelemetrySourceTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"telemetrySourceTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) TelemetrySourceTypesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"telemetrySourceTypesInput",
 		&returns,
 	)
 	return returns
@@ -224,6 +392,28 @@ func NewObservabilityadminTelemetryRuleRuleOutputReference_Override(o Observabil
 	)
 }
 
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetAllowFieldUpdates(val interface{}) {
+	if err := j.validateSetAllowFieldUpdatesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowFieldUpdates",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetAllRegions(val interface{}) {
+	if err := j.validateSetAllRegionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allRegions",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -257,6 +447,17 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetInterna
 	)
 }
 
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetRegions(val *[]*string) {
+	if err := j.validateSetRegionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"regions",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetResourceType(val *string) {
 	if err := j.validateSetResourceTypeParameters(val); err != nil {
 		panic(err)
@@ -264,6 +465,39 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetResourc
 	_jsii_.Set(
 		j,
 		"resourceType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetScope(val *string) {
+	if err := j.validateSetScopeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scope",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetSelectionCriteria(val *string) {
+	if err := j.validateSetSelectionCriteriaParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"selectionCriteria",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference)SetTelemetrySourceTypes(val *[]*string) {
+	if err := j.validateSetTelemetrySourceTypesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"telemetrySourceTypes",
 		val,
 	)
 }
@@ -487,10 +721,77 @@ func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) Interpola
 	return returns
 }
 
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) PutDestinationConfiguration(value interface{}) {
+	if err := o.validatePutDestinationConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putDestinationConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetAllowFieldUpdates() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetAllowFieldUpdates",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetAllRegions() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetAllRegions",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetDestinationConfiguration() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDestinationConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetRegions() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetRegions",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetResourceType() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetResourceType",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetScope() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetScope",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetSelectionCriteria() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetSelectionCriteria",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) ResetTelemetrySourceTypes() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetTelemetrySourceTypes",
 		nil, // no parameters
 	)
 }

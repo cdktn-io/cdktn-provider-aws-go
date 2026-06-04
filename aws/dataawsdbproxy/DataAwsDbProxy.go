@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/db_proxy aws_db_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/db_proxy aws_db_proxy}.
 type DataAwsDbProxy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -475,7 +475,7 @@ func (j *jsiiProxy_DataAwsDbProxy) VpcSubnetIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
 func NewDataAwsDbProxy(scope constructs.Construct, id *string, config *DataAwsDbProxyConfig) DataAwsDbProxy {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewDataAwsDbProxy(scope constructs.Construct, id *string, config *DataAwsDb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/db_proxy aws_db_proxy} Data Source.
 func NewDataAwsDbProxy_Override(d DataAwsDbProxy, scope constructs.Construct, id *string, config *DataAwsDbProxyConfig) {
 	_init_.Initialize()
 

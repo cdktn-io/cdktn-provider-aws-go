@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/kinesis_stream aws_kinesis_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/kinesis_stream aws_kinesis_stream}.
 type DataAwsKinesisStream interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -76,6 +76,7 @@ type DataAwsKinesisStream interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	WarmThroughput() DataAwsKinesisStreamWarmThroughputList
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
@@ -465,8 +466,18 @@ func (j *jsiiProxy_DataAwsKinesisStream) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsKinesisStream) WarmThroughput() DataAwsKinesisStreamWarmThroughputList {
+	var returns DataAwsKinesisStreamWarmThroughputList
+	_jsii_.Get(
+		j,
+		"warmThroughput",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/kinesis_stream aws_kinesis_stream} Data Source.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/kinesis_stream aws_kinesis_stream} Data Source.
 func NewDataAwsKinesisStream(scope constructs.Construct, id *string, config *DataAwsKinesisStreamConfig) DataAwsKinesisStream {
 	_init_.Initialize()
 
@@ -484,7 +495,7 @@ func NewDataAwsKinesisStream(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/kinesis_stream aws_kinesis_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/kinesis_stream aws_kinesis_stream} Data Source.
 func NewDataAwsKinesisStream_Override(d DataAwsKinesisStream, scope constructs.Construct, id *string, config *DataAwsKinesisStreamConfig) {
 	_init_.Initialize()
 

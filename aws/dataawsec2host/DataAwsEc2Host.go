@@ -12,13 +12,17 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ec2_host aws_ec2_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_host aws_ec2_host}.
 type DataAwsEc2Host interface {
 	cdktn.TerraformDataSource
+	AllocationTime() *string
+	AllowsMultipleInstanceTypes() *string
 	Arn() *string
 	AssetId() *string
 	AutoPlacement() *string
 	AvailabilityZone() *string
+	AvailabilityZoneId() *string
+	AvailableCapacity() DataAwsEc2HostAvailableCapacityList
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -45,16 +49,20 @@ type DataAwsEc2Host interface {
 	HostId() *string
 	SetHostId(val *string)
 	HostIdInput() *string
+	HostMaintenance() *string
 	HostRecovery() *string
+	HostReservationId() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
 	InstanceFamily() *string
+	Instances() DataAwsEc2HostInstancesList
 	InstanceType() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MemberOfServiceLinkedResourceGroup() cdktn.IResolvable
 	// The tree node.
 	Node() constructs.Node
 	OutpostArn() *string
@@ -68,7 +76,9 @@ type DataAwsEc2Host interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ReleaseTime() *string
 	Sockets() *float64
+	State() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -145,6 +155,26 @@ type jsiiProxy_DataAwsEc2Host struct {
 	internal.Type__cdktnTerraformDataSource
 }
 
+func (j *jsiiProxy_DataAwsEc2Host) AllocationTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"allocationTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEc2Host) AllowsMultipleInstanceTypes() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"allowsMultipleInstanceTypes",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEc2Host) Arn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -180,6 +210,26 @@ func (j *jsiiProxy_DataAwsEc2Host) AvailabilityZone() *string {
 	_jsii_.Get(
 		j,
 		"availabilityZone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEc2Host) AvailabilityZoneId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"availabilityZoneId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEc2Host) AvailableCapacity() DataAwsEc2HostAvailableCapacityList {
+	var returns DataAwsEc2HostAvailableCapacityList
+	_jsii_.Get(
+		j,
+		"availableCapacity",
 		&returns,
 	)
 	return returns
@@ -305,11 +355,31 @@ func (j *jsiiProxy_DataAwsEc2Host) HostIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsEc2Host) HostMaintenance() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hostMaintenance",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEc2Host) HostRecovery() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"hostRecovery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEc2Host) HostReservationId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hostReservationId",
 		&returns,
 	)
 	return returns
@@ -345,6 +415,16 @@ func (j *jsiiProxy_DataAwsEc2Host) InstanceFamily() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsEc2Host) Instances() DataAwsEc2HostInstancesList {
+	var returns DataAwsEc2HostInstancesList
+	_jsii_.Get(
+		j,
+		"instances",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEc2Host) InstanceType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -360,6 +440,16 @@ func (j *jsiiProxy_DataAwsEc2Host) Lifecycle() *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEc2Host) MemberOfServiceLinkedResourceGroup() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"memberOfServiceLinkedResourceGroup",
 		&returns,
 	)
 	return returns
@@ -435,11 +525,31 @@ func (j *jsiiProxy_DataAwsEc2Host) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsEc2Host) ReleaseTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"releaseTime",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEc2Host) Sockets() *float64 {
 	var returns *float64
 	_jsii_.Get(
 		j,
 		"sockets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEc2Host) State() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"state",
 		&returns,
 	)
 	return returns
@@ -526,7 +636,7 @@ func (j *jsiiProxy_DataAwsEc2Host) TotalVcpus() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ec2_host aws_ec2_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_host aws_ec2_host} Data Source.
 func NewDataAwsEc2Host(scope constructs.Construct, id *string, config *DataAwsEc2HostConfig) DataAwsEc2Host {
 	_init_.Initialize()
 
@@ -544,7 +654,7 @@ func NewDataAwsEc2Host(scope constructs.Construct, id *string, config *DataAwsEc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ec2_host aws_ec2_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_host aws_ec2_host} Data Source.
 func NewDataAwsEc2Host_Override(d DataAwsEc2Host, scope constructs.Construct, id *string, config *DataAwsEc2HostConfig) {
 	_init_.Initialize()
 

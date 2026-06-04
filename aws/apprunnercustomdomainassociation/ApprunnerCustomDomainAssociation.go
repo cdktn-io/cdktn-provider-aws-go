@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association}.
 type ApprunnerCustomDomainAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_ApprunnerCustomDomainAssociation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
 func NewApprunnerCustomDomainAssociation(scope constructs.Construct, id *string, config *ApprunnerCustomDomainAssociationConfig) ApprunnerCustomDomainAssociation {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewApprunnerCustomDomainAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/apprunner_custom_domain_association aws_apprunner_custom_domain_association} Resource.
 func NewApprunnerCustomDomainAssociation_Override(a ApprunnerCustomDomainAssociation, scope constructs.Construct, id *string, config *ApprunnerCustomDomainAssociationConfig) {
 	_init_.Initialize()
 

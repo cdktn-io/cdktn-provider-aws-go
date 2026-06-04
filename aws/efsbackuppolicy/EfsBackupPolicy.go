@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/efs_backup_policy aws_efs_backup_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/efs_backup_policy aws_efs_backup_policy}.
 type EfsBackupPolicy interface {
 	cdktn.TerraformResource
 	BackupPolicy() EfsBackupPolicyBackupPolicyOutputReference
@@ -389,7 +389,7 @@ func (j *jsiiProxy_EfsBackupPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
 func NewEfsBackupPolicy(scope constructs.Construct, id *string, config *EfsBackupPolicyConfig) EfsBackupPolicy {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewEfsBackupPolicy(scope constructs.Construct, id *string, config *EfsBacku
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/efs_backup_policy aws_efs_backup_policy} Resource.
 func NewEfsBackupPolicy_Override(e EfsBackupPolicy, scope constructs.Construct, id *string, config *EfsBackupPolicyConfig) {
 	_init_.Initialize()
 

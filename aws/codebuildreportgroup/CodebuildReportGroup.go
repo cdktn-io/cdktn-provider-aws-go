@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/codebuild_report_group aws_codebuild_report_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/codebuild_report_group aws_codebuild_report_group}.
 type CodebuildReportGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_CodebuildReportGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
 func NewCodebuildReportGroup(scope constructs.Construct, id *string, config *CodebuildReportGroupConfig) CodebuildReportGroup {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewCodebuildReportGroup(scope constructs.Construct, id *string, config *Cod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/codebuild_report_group aws_codebuild_report_group} Resource.
 func NewCodebuildReportGroup_Override(c CodebuildReportGroup, scope constructs.Construct, id *string, config *CodebuildReportGroupConfig) {
 	_init_.Initialize()
 

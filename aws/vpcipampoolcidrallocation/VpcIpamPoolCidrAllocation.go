@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation}.
 type VpcIpamPoolCidrAllocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -80,6 +80,12 @@ type VpcIpamPoolCidrAllocation interface {
 	ResourceId() *string
 	ResourceOwner() *string
 	ResourceType() *string
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsAll() *map[string]*string
+	SetTagsAll(val *map[string]*string)
+	TagsAllInput() *map[string]*string
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -138,6 +144,8 @@ type VpcIpamPoolCidrAllocation interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetTags()
+	ResetTagsAll()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -475,6 +483,46 @@ func (j *jsiiProxy_VpcIpamPoolCidrAllocation) ResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation) TagsAll() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsAll",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation) TagsAllInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsAllInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VpcIpamPoolCidrAllocation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -506,7 +554,7 @@ func (j *jsiiProxy_VpcIpamPoolCidrAllocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
 func NewVpcIpamPoolCidrAllocation(scope constructs.Construct, id *string, config *VpcIpamPoolCidrAllocationConfig) VpcIpamPoolCidrAllocation {
 	_init_.Initialize()
 
@@ -524,7 +572,7 @@ func NewVpcIpamPoolCidrAllocation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/vpc_ipam_pool_cidr_allocation aws_vpc_ipam_pool_cidr_allocation} Resource.
 func NewVpcIpamPoolCidrAllocation_Override(v VpcIpamPoolCidrAllocation, scope constructs.Construct, id *string, config *VpcIpamPoolCidrAllocationConfig) {
 	_init_.Initialize()
 
@@ -676,6 +724,28 @@ func (j *jsiiProxy_VpcIpamPoolCidrAllocation)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation)SetTagsAll(val *map[string]*string) {
+	if err := j.validateSetTagsAllParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tagsAll",
 		val,
 	)
 }
@@ -1085,6 +1155,22 @@ func (v *jsiiProxy_VpcIpamPoolCidrAllocation) ResetRegion() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcIpamPoolCidrAllocation) ResetTags() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpcIpamPoolCidrAllocation) ResetTagsAll() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetTagsAll",
 		nil, // no parameters
 	)
 }

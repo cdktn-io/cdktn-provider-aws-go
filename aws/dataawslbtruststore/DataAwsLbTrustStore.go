@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/lb_trust_store aws_lb_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/lb_trust_store aws_lb_trust_store}.
 type DataAwsLbTrustStore interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAwsLbTrustStore) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
 func NewDataAwsLbTrustStore(scope constructs.Construct, id *string, config *DataAwsLbTrustStoreConfig) DataAwsLbTrustStore {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewDataAwsLbTrustStore(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/lb_trust_store aws_lb_trust_store} Data Source.
 func NewDataAwsLbTrustStore_Override(d DataAwsLbTrustStore, scope constructs.Construct, id *string, config *DataAwsLbTrustStoreConfig) {
 	_init_.Initialize()
 

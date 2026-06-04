@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWarmThroughputMibPs", GoMethod: "ResetWarmThroughputMibPs"},
 			_jsii_.MemberProperty{JsiiProperty: "retentionPeriod", GoGetter: "RetentionPeriod"},
 			_jsii_.MemberProperty{JsiiProperty: "retentionPeriodInput", GoGetter: "RetentionPeriodInput"},
 			_jsii_.MemberProperty{JsiiProperty: "shardCount", GoGetter: "ShardCount"},
@@ -101,6 +102,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "warmThroughputMibPs", GoGetter: "WarmThroughputMibPs"},
+			_jsii_.MemberProperty{JsiiProperty: "warmThroughputMibPsInput", GoGetter: "WarmThroughputMibPsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {

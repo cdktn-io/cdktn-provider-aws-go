@@ -32,6 +32,12 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleO
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Region() *string
+	SetRegion(val *string)
+	RegionInput() *string
+	Service() *string
+	SetService(val *string)
+	ServiceInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -64,6 +70,8 @@ type BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleO
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetRegion()
+	ResetService()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -124,6 +132,46 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) Region() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"region",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) RegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"regionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) Service() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"service",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) ServiceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceInput",
 		&returns,
 	)
 	return returns
@@ -206,6 +254,28 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference)SetRegion(val *string) {
+	if err := j.validateSetRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference)SetService(val *string) {
+	if err := j.validateSetServiceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"service",
 		val,
 	)
 }
@@ -416,6 +486,22 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) ResetRegion() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) ResetService() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetService",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

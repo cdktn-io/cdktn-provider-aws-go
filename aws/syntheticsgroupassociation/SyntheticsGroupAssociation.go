@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/synthetics_group_association aws_synthetics_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/synthetics_group_association aws_synthetics_group_association}.
 type SyntheticsGroupAssociation interface {
 	cdktn.TerraformResource
 	CanaryArn() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_SyntheticsGroupAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/synthetics_group_association aws_synthetics_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/synthetics_group_association aws_synthetics_group_association} Resource.
 func NewSyntheticsGroupAssociation(scope constructs.Construct, id *string, config *SyntheticsGroupAssociationConfig) SyntheticsGroupAssociation {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewSyntheticsGroupAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/synthetics_group_association aws_synthetics_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/synthetics_group_association aws_synthetics_group_association} Resource.
 func NewSyntheticsGroupAssociation_Override(s SyntheticsGroupAssociation, scope constructs.Construct, id *string, config *SyntheticsGroupAssociationConfig) {
 	_init_.Initialize()
 

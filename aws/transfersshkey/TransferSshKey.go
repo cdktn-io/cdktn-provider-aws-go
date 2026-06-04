@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key}.
 type TransferSshKey interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_TransferSshKey) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
 func NewTransferSshKey(scope constructs.Construct, id *string, config *TransferSshKeyConfig) TransferSshKey {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewTransferSshKey(scope constructs.Construct, id *string, config *TransferS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/transfer_ssh_key aws_transfer_ssh_key} Resource.
 func NewTransferSshKey_Override(t TransferSshKey, scope constructs.Construct, id *string, config *TransferSshKeyConfig) {
 	_init_.Initialize()
 

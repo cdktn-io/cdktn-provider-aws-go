@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association}.
 type ShieldProtectionHealthCheckAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_ShieldProtectionHealthCheckAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
 func NewShieldProtectionHealthCheckAssociation(scope constructs.Construct, id *string, config *ShieldProtectionHealthCheckAssociationConfig) ShieldProtectionHealthCheckAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewShieldProtectionHealthCheckAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/shield_protection_health_check_association aws_shield_protection_health_check_association} Resource.
 func NewShieldProtectionHealthCheckAssociation_Override(s ShieldProtectionHealthCheckAssociation, scope constructs.Construct, id *string, config *ShieldProtectionHealthCheckAssociationConfig) {
 	_init_.Initialize()
 

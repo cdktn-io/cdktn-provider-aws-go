@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/alb aws_alb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/alb aws_alb}.
 type Alb interface {
 	cdktn.TerraformResource
 	AccessLogs() AlbAccessLogsOutputReference
@@ -62,6 +62,9 @@ type Alb interface {
 	EnableHttp2() interface{}
 	SetEnableHttp2(val interface{})
 	EnableHttp2Input() interface{}
+	EnablePrefixForIpv6SourceNat() *string
+	SetEnablePrefixForIpv6SourceNat(val *string)
+	EnablePrefixForIpv6SourceNatInput() *string
 	EnableTlsVersionAndCipherSuiteHeaders() interface{}
 	SetEnableTlsVersionAndCipherSuiteHeaders(val interface{})
 	EnableTlsVersionAndCipherSuiteHeadersInput() interface{}
@@ -224,6 +227,7 @@ type Alb interface {
 	ResetEnableCrossZoneLoadBalancing()
 	ResetEnableDeletionProtection()
 	ResetEnableHttp2()
+	ResetEnablePrefixForIpv6SourceNat()
 	ResetEnableTlsVersionAndCipherSuiteHeaders()
 	ResetEnableWafFailOpen()
 	ResetEnableXffClientPort()
@@ -554,6 +558,26 @@ func (j *jsiiProxy_Alb) EnableHttp2Input() interface{} {
 	_jsii_.Get(
 		j,
 		"enableHttp2Input",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Alb) EnablePrefixForIpv6SourceNat() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"enablePrefixForIpv6SourceNat",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Alb) EnablePrefixForIpv6SourceNatInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"enablePrefixForIpv6SourceNatInput",
 		&returns,
 	)
 	return returns
@@ -1190,7 +1214,7 @@ func (j *jsiiProxy_Alb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/alb aws_alb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/alb aws_alb} Resource.
 func NewAlb(scope constructs.Construct, id *string, config *AlbConfig) Alb {
 	_init_.Initialize()
 
@@ -1208,7 +1232,7 @@ func NewAlb(scope constructs.Construct, id *string, config *AlbConfig) Alb {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/alb aws_alb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/alb aws_alb} Resource.
 func NewAlb_Override(a Alb, scope constructs.Construct, id *string, config *AlbConfig) {
 	_init_.Initialize()
 
@@ -1333,6 +1357,17 @@ func (j *jsiiProxy_Alb)SetEnableHttp2(val interface{}) {
 	_jsii_.Set(
 		j,
 		"enableHttp2",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Alb)SetEnablePrefixForIpv6SourceNat(val *string) {
+	if err := j.validateSetEnablePrefixForIpv6SourceNatParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enablePrefixForIpv6SourceNat",
 		val,
 	)
 }
@@ -2101,6 +2136,14 @@ func (a *jsiiProxy_Alb) ResetEnableHttp2() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetEnableHttp2",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_Alb) ResetEnablePrefixForIpv6SourceNat() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnablePrefixForIpv6SourceNat",
 		nil, // no parameters
 	)
 }

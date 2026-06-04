@@ -1,0 +1,1179 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package pinpointsmsvoicev2eventdestination
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/pinpointsmsvoicev2eventdestination/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination}.
+type Pinpointsmsvoicev2EventDestination interface {
+	cdktn.TerraformResource
+	// Experimental.
+	CdktfStack() cdktn.TerraformStack
+	CloudwatchLogsDestination() Pinpointsmsvoicev2EventDestinationCloudwatchLogsDestinationList
+	CloudwatchLogsDestinationInput() interface{}
+	ConfigurationSetArn() *string
+	ConfigurationSetName() *string
+	SetConfigurationSetName(val *string)
+	ConfigurationSetNameInput() *string
+	// Experimental.
+	Connection() interface{}
+	// Experimental.
+	SetConnection(val interface{})
+	// Experimental.
+	ConstructNodeMetadata() *map[string]interface{}
+	// Experimental.
+	Count() interface{}
+	// Experimental.
+	SetCount(val interface{})
+	// Experimental.
+	DependsOn() *[]*string
+	// Experimental.
+	SetDependsOn(val *[]*string)
+	Enabled() interface{}
+	SetEnabled(val interface{})
+	EnabledInput() interface{}
+	EventDestinationName() *string
+	SetEventDestinationName(val *string)
+	EventDestinationNameInput() *string
+	// Experimental.
+	ForEach() cdktn.ITerraformIterator
+	// Experimental.
+	SetForEach(val cdktn.ITerraformIterator)
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	FriendlyUniqueId() *string
+	KinesisFirehoseDestination() Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestinationList
+	KinesisFirehoseDestinationInput() interface{}
+	// Experimental.
+	Lifecycle() *cdktn.TerraformResourceLifecycle
+	// Experimental.
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MatchingEventTypes() *[]*string
+	SetMatchingEventTypes(val *[]*string)
+	MatchingEventTypesInput() *[]*string
+	// The tree node.
+	Node() constructs.Node
+	// Experimental.
+	Provider() cdktn.TerraformProvider
+	// Experimental.
+	SetProvider(val cdktn.TerraformProvider)
+	// Experimental.
+	Provisioners() *[]interface{}
+	// Experimental.
+	SetProvisioners(val *[]interface{})
+	// Experimental.
+	RawOverrides() interface{}
+	Region() *string
+	SetRegion(val *string)
+	RegionInput() *string
+	SnsDestination() Pinpointsmsvoicev2EventDestinationSnsDestinationList
+	SnsDestinationInput() interface{}
+	// Experimental.
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	// Experimental.
+	TerraformMetaArguments() *map[string]interface{}
+	// Experimental.
+	TerraformResourceType() *string
+	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+	// Experimental.
+	AddMoveTarget(moveTarget *string)
+	// Experimental.
+	AddOverride(path *string, value interface{})
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	HasResourceMove() interface{}
+	// Experimental.
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Move the resource corresponding to "id" to this resource.
+	//
+	// Note that the resource being moved from must be marked as moved using it's instance function.
+	// Experimental.
+	MoveFromId(id *string)
+	// Moves this resource to the target resource given by moveTarget.
+	// Experimental.
+	MoveTo(moveTarget *string, index interface{})
+	// Moves this resource to the resource corresponding to "id".
+	// Experimental.
+	MoveToId(id *string)
+	// Overrides the auto-generated logical ID with a specific ID.
+	// Experimental.
+	OverrideLogicalId(newLogicalId *string)
+	PutCloudwatchLogsDestination(value interface{})
+	PutKinesisFirehoseDestination(value interface{})
+	PutSnsDestination(value interface{})
+	ResetCloudwatchLogsDestination()
+	ResetEnabled()
+	ResetKinesisFirehoseDestination()
+	// Resets a previously passed logical Id to use the auto-generated logical id again.
+	// Experimental.
+	ResetOverrideLogicalId()
+	ResetRegion()
+	ResetSnsDestination()
+	SynthesizeAttributes() *map[string]interface{}
+	SynthesizeHclAttributes() *map[string]interface{}
+	// Experimental.
+	ToHclTerraform() interface{}
+	// Experimental.
+	ToMetadata() interface{}
+	// Returns a string representation of this construct.
+	ToString() *string
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
+}
+
+// The jsii proxy struct for Pinpointsmsvoicev2EventDestination
+type jsiiProxy_Pinpointsmsvoicev2EventDestination struct {
+	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
+	_jsii_.Get(
+		j,
+		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) CloudwatchLogsDestination() Pinpointsmsvoicev2EventDestinationCloudwatchLogsDestinationList {
+	var returns Pinpointsmsvoicev2EventDestinationCloudwatchLogsDestinationList
+	_jsii_.Get(
+		j,
+		"cloudwatchLogsDestination",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) CloudwatchLogsDestinationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cloudwatchLogsDestinationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) ConfigurationSetArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"configurationSetArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) ConfigurationSetName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"configurationSetName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) ConfigurationSetNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"configurationSetNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Connection() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) ConstructNodeMetadata() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Count() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) DependsOn() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Enabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) EnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) EventDestinationName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"eventDestinationName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) EventDestinationNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"eventDestinationNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
+	_jsii_.Get(
+		j,
+		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) FriendlyUniqueId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) KinesisFirehoseDestination() Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestinationList {
+	var returns Pinpointsmsvoicev2EventDestinationKinesisFirehoseDestinationList
+	_jsii_.Get(
+		j,
+		"kinesisFirehoseDestination",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) KinesisFirehoseDestinationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"kinesisFirehoseDestinationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
+	_jsii_.Get(
+		j,
+		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) MatchingEventTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"matchingEventTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) MatchingEventTypesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"matchingEventTypesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
+	_jsii_.Get(
+		j,
+		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Provisioners() *[]interface{} {
+	var returns *[]interface{}
+	_jsii_.Get(
+		j,
+		"provisioners",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) RawOverrides() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) Region() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"region",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) RegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"regionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) SnsDestination() Pinpointsmsvoicev2EventDestinationSnsDestinationList {
+	var returns Pinpointsmsvoicev2EventDestinationSnsDestinationList
+	_jsii_.Get(
+		j,
+		"snsDestination",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) SnsDestinationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"snsDestinationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
+	_jsii_.Get(
+		j,
+		"terraformGeneratorMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) TerraformMetaArguments() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"terraformMetaArguments",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) TerraformResourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformResourceType",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination} Resource.
+func NewPinpointsmsvoicev2EventDestination(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2EventDestinationConfig) Pinpointsmsvoicev2EventDestination {
+	_init_.Initialize()
+
+	if err := validateNewPinpointsmsvoicev2EventDestinationParameters(scope, id, config); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_Pinpointsmsvoicev2EventDestination{}
+
+	_jsii_.Create(
+		"@cdktn/provider-aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination",
+		[]interface{}{scope, id, config},
+		&j,
+	)
+
+	return &j
+}
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination} Resource.
+func NewPinpointsmsvoicev2EventDestination_Override(p Pinpointsmsvoicev2EventDestination, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2EventDestinationConfig) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination",
+		[]interface{}{scope, id, config},
+		p,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetConfigurationSetName(val *string) {
+	if err := j.validateSetConfigurationSetNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"configurationSetName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetConnection(val interface{}) {
+	if err := j.validateSetConnectionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetDependsOn(val *[]*string) {
+	_jsii_.Set(
+		j,
+		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetEnabled(val interface{}) {
+	if err := j.validateSetEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetEventDestinationName(val *string) {
+	if err := j.validateSetEventDestinationNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"eventDestinationName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetForEach(val cdktn.ITerraformIterator) {
+	_jsii_.Set(
+		j,
+		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
+	if err := j.validateSetLifecycleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetMatchingEventTypes(val *[]*string) {
+	if err := j.validateSetMatchingEventTypesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"matchingEventTypes",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetProvider(val cdktn.TerraformProvider) {
+	_jsii_.Set(
+		j,
+		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetProvisioners(val *[]interface{}) {
+	if err := j.validateSetProvisionersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination)SetRegion(val *string) {
+	if err := j.validateSetRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"region",
+		val,
+	)
+}
+
+// Generates CDKTN code for importing a Pinpointsmsvoicev2EventDestination resource upon running "cdktn plan <stack-name>".
+func Pinpointsmsvoicev2EventDestination_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
+	_init_.Initialize()
+
+	if err := validatePinpointsmsvoicev2EventDestination_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
+		panic(err)
+	}
+	var returns cdktn.ImportableResource
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination",
+		"generateConfigForImport",
+		[]interface{}{scope, importToId, importFromId, provider},
+		&returns,
+	)
+
+	return returns
+}
+
+// Checks if `x` is a construct.
+//
+// Use this method instead of `instanceof` to properly detect `Construct`
+// instances, even when the construct library is symlinked.
+//
+// Explanation: in JavaScript, multiple copies of the `constructs` library on
+// disk are seen as independent, completely different libraries. As a
+// consequence, the class `Construct` in each copy of the `constructs` library
+// is seen as a different class, and an instance of one class will not test as
+// `instanceof` the other class. `npm install` will not create installations
+// like this, but users may manually symlink construct libraries together or
+// use a monorepo tool: in those cases, multiple copies of the `constructs`
+// library can be accidentally installed, and `instanceof` will behave
+// unpredictably. It is safest to avoid using `instanceof`, and using
+// this type-testing method instead.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+func Pinpointsmsvoicev2EventDestination_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validatePinpointsmsvoicev2EventDestination_IsConstructParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Pinpointsmsvoicev2EventDestination_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validatePinpointsmsvoicev2EventDestination_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func Pinpointsmsvoicev2EventDestination_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validatePinpointsmsvoicev2EventDestination_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination",
+		"isTerraformResource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+func Pinpointsmsvoicev2EventDestination_TfResourceType() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdktn/provider-aws.pinpointsmsvoicev2EventDestination.Pinpointsmsvoicev2EventDestination",
+		"tfResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) AddMoveTarget(moveTarget *string) {
+	if err := p.validateAddMoveTargetParameters(moveTarget); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"addMoveTarget",
+		[]interface{}{moveTarget},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) AddOverride(path *string, value interface{}) {
+	if err := p.validateAddOverrideParameters(path, value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"addOverride",
+		[]interface{}{path, value},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := p.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		p,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		p,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := p.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		p,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := p.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		p,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := p.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		p,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := p.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		p,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := p.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		p,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetStringAttribute(terraformAttribute *string) *string {
+	if err := p.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		p,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := p.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		p,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) HasResourceMove() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		p,
+		"hasResourceMove",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ImportFrom(id *string, provider cdktn.TerraformProvider) {
+	if err := p.validateImportFromParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"importFrom",
+		[]interface{}{id, provider},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		p,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) MoveFromId(id *string) {
+	if err := p.validateMoveFromIdParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"moveFromId",
+		[]interface{}{id},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) MoveTo(moveTarget *string, index interface{}) {
+	if err := p.validateMoveToParameters(moveTarget, index); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"moveTo",
+		[]interface{}{moveTarget, index},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) MoveToId(id *string) {
+	if err := p.validateMoveToIdParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"moveToId",
+		[]interface{}{id},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) OverrideLogicalId(newLogicalId *string) {
+	if err := p.validateOverrideLogicalIdParameters(newLogicalId); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"overrideLogicalId",
+		[]interface{}{newLogicalId},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) PutCloudwatchLogsDestination(value interface{}) {
+	if err := p.validatePutCloudwatchLogsDestinationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putCloudwatchLogsDestination",
+		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) PutKinesisFirehoseDestination(value interface{}) {
+	if err := p.validatePutKinesisFirehoseDestinationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putKinesisFirehoseDestination",
+		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) PutSnsDestination(value interface{}) {
+	if err := p.validatePutSnsDestinationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putSnsDestination",
+		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ResetCloudwatchLogsDestination() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetCloudwatchLogsDestination",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ResetEnabled() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ResetKinesisFirehoseDestination() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetKinesisFirehoseDestination",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ResetOverrideLogicalId() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ResetRegion() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ResetSnsDestination() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetSnsDestination",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) SynthesizeAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		p,
+		"synthesizeAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) SynthesizeHclAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		p,
+		"synthesizeHclAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ToHclTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		p,
+		"toHclTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ToMetadata() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		p,
+		"toMetadata",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		p,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) ToTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		p,
+		"toTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
+		&returns,
+	)
+
+	return returns
+}
+

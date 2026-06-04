@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/alb aws_alb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/alb aws_alb}.
 type DataAwsAlb interface {
 	cdktn.TerraformDataSource
 	AccessLogs() DataAwsAlbAccessLogsList
@@ -42,6 +42,7 @@ type DataAwsAlb interface {
 	EnableCrossZoneLoadBalancing() cdktn.IResolvable
 	EnableDeletionProtection() cdktn.IResolvable
 	EnableHttp2() cdktn.IResolvable
+	EnablePrefixForIpv6SourceNat() *string
 	EnableTlsVersionAndCipherSuiteHeaders() cdktn.IResolvable
 	EnableWafFailOpen() cdktn.IResolvable
 	EnableXffClientPort() cdktn.IResolvable
@@ -339,6 +340,16 @@ func (j *jsiiProxy_DataAwsAlb) EnableHttp2() cdktn.IResolvable {
 	_jsii_.Get(
 		j,
 		"enableHttp2",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsAlb) EnablePrefixForIpv6SourceNat() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"enablePrefixForIpv6SourceNat",
 		&returns,
 	)
 	return returns
@@ -735,7 +746,7 @@ func (j *jsiiProxy_DataAwsAlb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/alb aws_alb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/alb aws_alb} Data Source.
 func NewDataAwsAlb(scope constructs.Construct, id *string, config *DataAwsAlbConfig) DataAwsAlb {
 	_init_.Initialize()
 
@@ -753,7 +764,7 @@ func NewDataAwsAlb(scope constructs.Construct, id *string, config *DataAwsAlbCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/alb aws_alb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/alb aws_alb} Data Source.
 func NewDataAwsAlb_Override(d DataAwsAlb, scope constructs.Construct, id *string, config *DataAwsAlbConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles}.
 type DataAwsAppconfigConfigurationProfiles interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsAppconfigConfigurationProfiles) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
 func NewDataAwsAppconfigConfigurationProfiles(scope constructs.Construct, id *string, config *DataAwsAppconfigConfigurationProfilesConfig) DataAwsAppconfigConfigurationProfiles {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsAppconfigConfigurationProfiles(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/appconfig_configuration_profiles aws_appconfig_configuration_profiles} Data Source.
 func NewDataAwsAppconfigConfigurationProfiles_Override(d DataAwsAppconfigConfigurationProfiles, scope constructs.Construct, id *string, config *DataAwsAppconfigConfigurationProfilesConfig) {
 	_init_.Initialize()
 

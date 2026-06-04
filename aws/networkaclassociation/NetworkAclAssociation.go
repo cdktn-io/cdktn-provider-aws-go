@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/network_acl_association aws_network_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/network_acl_association aws_network_acl_association}.
 type NetworkAclAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_NetworkAclAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
 func NewNetworkAclAssociation(scope constructs.Construct, id *string, config *NetworkAclAssociationConfig) NetworkAclAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewNetworkAclAssociation(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
 func NewNetworkAclAssociation_Override(n NetworkAclAssociation, scope constructs.Construct, id *string, config *NetworkAclAssociationConfig) {
 	_init_.Initialize()
 

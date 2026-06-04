@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/lexv2models_intent aws_lexv2models_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lexv2models_intent aws_lexv2models_intent}.
 type Lexv2ModelsIntent interface {
 	cdktn.TerraformResource
 	BotId() *string
@@ -791,7 +791,7 @@ func (j *jsiiProxy_Lexv2ModelsIntent) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
 func NewLexv2ModelsIntent(scope constructs.Construct, id *string, config *Lexv2ModelsIntentConfig) Lexv2ModelsIntent {
 	_init_.Initialize()
 
@@ -809,7 +809,7 @@ func NewLexv2ModelsIntent(scope constructs.Construct, id *string, config *Lexv2M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lexv2models_intent aws_lexv2models_intent} Resource.
 func NewLexv2ModelsIntent_Override(l Lexv2ModelsIntent, scope constructs.Construct, id *string, config *Lexv2ModelsIntentConfig) {
 	_init_.Initialize()
 

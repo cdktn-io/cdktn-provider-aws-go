@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/s3control_multi_region_access_points aws_s3control_multi_region_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/s3control_multi_region_access_points aws_s3control_multi_region_access_points}.
 type DataAwsS3ControlMultiRegionAccessPoints interface {
 	cdktn.TerraformDataSource
 	AccessPoints() DataAwsS3ControlMultiRegionAccessPointsAccessPointsList
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsS3ControlMultiRegionAccessPoints) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/s3control_multi_region_access_points aws_s3control_multi_region_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/s3control_multi_region_access_points aws_s3control_multi_region_access_points} Data Source.
 func NewDataAwsS3ControlMultiRegionAccessPoints(scope constructs.Construct, id *string, config *DataAwsS3ControlMultiRegionAccessPointsConfig) DataAwsS3ControlMultiRegionAccessPoints {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataAwsS3ControlMultiRegionAccessPoints(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/s3control_multi_region_access_points aws_s3control_multi_region_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/s3control_multi_region_access_points aws_s3control_multi_region_access_points} Data Source.
 func NewDataAwsS3ControlMultiRegionAccessPoints_Override(d DataAwsS3ControlMultiRegionAccessPoints, scope constructs.Construct, id *string, config *DataAwsS3ControlMultiRegionAccessPointsConfig) {
 	_init_.Initialize()
 

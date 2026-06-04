@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/iam_policy_document aws_iam_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/iam_policy_document aws_iam_policy_document}.
 type DataAwsIamPolicyDocument interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -464,7 +464,7 @@ func (j *jsiiProxy_DataAwsIamPolicyDocument) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
 func NewDataAwsIamPolicyDocument(scope constructs.Construct, id *string, config *DataAwsIamPolicyDocumentConfig) DataAwsIamPolicyDocument {
 	_init_.Initialize()
 
@@ -482,7 +482,7 @@ func NewDataAwsIamPolicyDocument(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/iam_policy_document aws_iam_policy_document} Data Source.
 func NewDataAwsIamPolicyDocument_Override(d DataAwsIamPolicyDocument, scope constructs.Construct, id *string, config *DataAwsIamPolicyDocumentConfig) {
 	_init_.Initialize()
 

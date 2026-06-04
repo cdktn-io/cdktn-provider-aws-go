@@ -529,6 +529,14 @@ func (j *jsiiProxy_KinesisStream) validateSetTagsAllParameters(val *map[string]*
 	return nil
 }
 
+func (j *jsiiProxy_KinesisStream) validateSetWarmThroughputMibPsParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewKinesisStreamParameters(scope constructs.Construct, id *string, config *KinesisStreamConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

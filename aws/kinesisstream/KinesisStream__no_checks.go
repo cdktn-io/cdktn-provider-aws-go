@@ -167,6 +167,10 @@ func (j *jsiiProxy_KinesisStream) validateSetTagsAllParameters(val *map[string]*
 	return nil
 }
 
+func (j *jsiiProxy_KinesisStream) validateSetWarmThroughputMibPsParameters(val *float64) error {
+	return nil
+}
+
 func validateNewKinesisStreamParameters(scope constructs.Construct, id *string, config *KinesisStreamConfig) error {
 	return nil
 }

@@ -159,6 +159,10 @@ func (j *jsiiProxy_Alb) validateSetEnableHttp2Parameters(val interface{}) error 
 	return nil
 }
 
+func (j *jsiiProxy_Alb) validateSetEnablePrefixForIpv6SourceNatParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Alb) validateSetEnableTlsVersionAndCipherSuiteHeadersParameters(val interface{}) error {
 	return nil
 }

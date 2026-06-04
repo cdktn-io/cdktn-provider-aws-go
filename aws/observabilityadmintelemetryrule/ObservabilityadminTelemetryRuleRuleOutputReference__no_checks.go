@@ -47,7 +47,19 @@ func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateI
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validatePutDestinationConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateSetAllowFieldUpdatesParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateSetAllRegionsParameters(val interface{}) error {
 	return nil
 }
 
@@ -63,7 +75,23 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateSetRegionsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateSetResourceTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateSetScopeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateSetSelectionCriteriaParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleOutputReference) validateSetTelemetrySourceTypesParameters(val *[]*string) error {
 	return nil
 }
 

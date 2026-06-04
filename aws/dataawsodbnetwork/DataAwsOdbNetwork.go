@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/odb_network aws_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/odb_network aws_odb_network}.
 type DataAwsOdbNetwork interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -36,6 +36,7 @@ type DataAwsOdbNetwork interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DisplayName() *string
+	Ec2PlacementGroupIds() *[]*string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -262,6 +263,16 @@ func (j *jsiiProxy_DataAwsOdbNetwork) DisplayName() *string {
 	_jsii_.Get(
 		j,
 		"displayName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOdbNetwork) Ec2PlacementGroupIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"ec2PlacementGroupIds",
 		&returns,
 	)
 	return returns
@@ -528,7 +539,7 @@ func (j *jsiiProxy_DataAwsOdbNetwork) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/odb_network aws_odb_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/odb_network aws_odb_network} Data Source.
 func NewDataAwsOdbNetwork(scope constructs.Construct, id *string, config *DataAwsOdbNetworkConfig) DataAwsOdbNetwork {
 	_init_.Initialize()
 
@@ -546,7 +557,7 @@ func NewDataAwsOdbNetwork(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/odb_network aws_odb_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/odb_network aws_odb_network} Data Source.
 func NewDataAwsOdbNetwork_Override(d DataAwsOdbNetwork, scope constructs.Construct, id *string, config *DataAwsOdbNetworkConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/eks_addon_version aws_eks_addon_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/eks_addon_version aws_eks_addon_version}.
 type DataAwsEksAddonVersion interface {
 	cdktn.TerraformDataSource
 	AddonName() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAwsEksAddonVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
 func NewDataAwsEksAddonVersion(scope constructs.Construct, id *string, config *DataAwsEksAddonVersionConfig) DataAwsEksAddonVersion {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataAwsEksAddonVersion(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/eks_addon_version aws_eks_addon_version} Data Source.
 func NewDataAwsEksAddonVersion_Override(d DataAwsEksAddonVersion, scope constructs.Construct, id *string, config *DataAwsEksAddonVersionConfig) {
 	_init_.Initialize()
 

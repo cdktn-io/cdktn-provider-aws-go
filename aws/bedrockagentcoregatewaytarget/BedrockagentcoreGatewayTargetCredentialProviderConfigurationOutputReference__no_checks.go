@@ -51,7 +51,15 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationO
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) validatePutCallerIamCredentialsParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) validatePutGatewayIamRoleParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationOutputReference) validatePutJwtPassthroughParameters(value interface{}) error {
 	return nil
 }
 

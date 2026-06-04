@@ -22,11 +22,11 @@ type UxcAccountCustomizationsConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/uxc_account_customizations#account_color UxcAccountCustomizations#account_color}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/uxc_account_customizations#account_color UxcAccountCustomizations#account_color}.
 	AccountColor *string `field:"optional" json:"accountColor" yaml:"accountColor"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/uxc_account_customizations#visible_regions UxcAccountCustomizations#visible_regions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/uxc_account_customizations#visible_regions UxcAccountCustomizations#visible_regions}.
 	VisibleRegions *[]*string `field:"optional" json:"visibleRegions" yaml:"visibleRegions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/uxc_account_customizations#visible_services UxcAccountCustomizations#visible_services}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/uxc_account_customizations#visible_services UxcAccountCustomizations#visible_services}.
 	VisibleServices *[]*string `field:"optional" json:"visibleServices" yaml:"visibleServices"`
 }
 

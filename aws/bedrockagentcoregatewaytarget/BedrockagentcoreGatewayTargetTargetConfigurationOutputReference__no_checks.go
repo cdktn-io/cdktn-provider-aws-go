@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) validatePutHttpParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) validatePutMcpParameters(value interface{}) error {
 	return nil
 }

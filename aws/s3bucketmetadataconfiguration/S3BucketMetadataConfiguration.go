@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration}.
 type S3BucketMetadataConfiguration interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_S3BucketMetadataConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
 func NewS3BucketMetadataConfiguration(scope constructs.Construct, id *string, config *S3BucketMetadataConfigurationConfig) S3BucketMetadataConfiguration {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewS3BucketMetadataConfiguration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3_bucket_metadata_configuration aws_s3_bucket_metadata_configuration} Resource.
 func NewS3BucketMetadataConfiguration_Override(s S3BucketMetadataConfiguration, scope constructs.Construct, id *string, config *S3BucketMetadataConfigurationConfig) {
 	_init_.Initialize()
 

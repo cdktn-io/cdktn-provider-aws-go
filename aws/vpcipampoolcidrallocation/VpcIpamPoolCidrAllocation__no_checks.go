@@ -135,6 +135,14 @@ func (j *jsiiProxy_VpcIpamPoolCidrAllocation) validateSetRegionParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_VpcIpamPoolCidrAllocation) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewVpcIpamPoolCidrAllocationParameters(scope constructs.Construct, id *string, config *VpcIpamPoolCidrAllocationConfig) error {
 	return nil
 }

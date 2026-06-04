@@ -111,6 +111,10 @@ func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateSetEnviron
 	return nil
 }
 
+func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateSetGlobalParametersParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

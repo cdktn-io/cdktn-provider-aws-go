@@ -63,6 +63,14 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationG
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) validateSetServiceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetCredentialProviderConfigurationGatewayIamRoleOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

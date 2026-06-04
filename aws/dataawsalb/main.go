@@ -33,6 +33,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "enableCrossZoneLoadBalancing", GoGetter: "EnableCrossZoneLoadBalancing"},
 			_jsii_.MemberProperty{JsiiProperty: "enableDeletionProtection", GoGetter: "EnableDeletionProtection"},
 			_jsii_.MemberProperty{JsiiProperty: "enableHttp2", GoGetter: "EnableHttp2"},
+			_jsii_.MemberProperty{JsiiProperty: "enablePrefixForIpv6SourceNat", GoGetter: "EnablePrefixForIpv6SourceNat"},
 			_jsii_.MemberProperty{JsiiProperty: "enableTlsVersionAndCipherSuiteHeaders", GoGetter: "EnableTlsVersionAndCipherSuiteHeaders"},
 			_jsii_.MemberProperty{JsiiProperty: "enableWafFailOpen", GoGetter: "EnableWafFailOpen"},
 			_jsii_.MemberProperty{JsiiProperty: "enableXffClientPort", GoGetter: "EnableXffClientPort"},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ec2_transit_gateway_peering_attachment aws_ec2_transit_gateway_peering_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_transit_gateway_peering_attachment aws_ec2_transit_gateway_peering_attachment}.
 type DataAwsEc2TransitGatewayPeeringAttachment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayPeeringAttachment) TransitGatewayId()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ec2_transit_gateway_peering_attachment aws_ec2_transit_gateway_peering_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_transit_gateway_peering_attachment aws_ec2_transit_gateway_peering_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayPeeringAttachment(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayPeeringAttachmentConfig) DataAwsEc2TransitGatewayPeeringAttachment {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewDataAwsEc2TransitGatewayPeeringAttachment(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/data-sources/ec2_transit_gateway_peering_attachment aws_ec2_transit_gateway_peering_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/ec2_transit_gateway_peering_attachment aws_ec2_transit_gateway_peering_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayPeeringAttachment_Override(d DataAwsEc2TransitGatewayPeeringAttachment, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayPeeringAttachmentConfig) {
 	_init_.Initialize()
 

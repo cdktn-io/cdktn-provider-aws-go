@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account}.
 type VpcIpamOrganizationAdminAccount interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -386,7 +386,7 @@ func (j *jsiiProxy_VpcIpamOrganizationAdminAccount) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
 func NewVpcIpamOrganizationAdminAccount(scope constructs.Construct, id *string, config *VpcIpamOrganizationAdminAccountConfig) VpcIpamOrganizationAdminAccount {
 	_init_.Initialize()
 
@@ -404,7 +404,7 @@ func NewVpcIpamOrganizationAdminAccount(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/vpc_ipam_organization_admin_account aws_vpc_ipam_organization_admin_account} Resource.
 func NewVpcIpamOrganizationAdminAccount_Override(v VpcIpamOrganizationAdminAccount, scope constructs.Construct, id *string, config *VpcIpamOrganizationAdminAccountConfig) {
 	_init_.Initialize()
 

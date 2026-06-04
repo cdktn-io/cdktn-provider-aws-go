@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/lambda_alias aws_lambda_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lambda_alias aws_lambda_alias}.
 type LambdaAlias interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -83,6 +83,8 @@ type LambdaAlias interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() LambdaAliasTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -127,6 +129,7 @@ type LambdaAlias interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutRoutingConfig(value *LambdaAliasRoutingConfig)
+	PutTimeouts(value *LambdaAliasTimeouts)
 	ResetDescription()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -134,6 +137,7 @@ type LambdaAlias interface {
 	ResetOverrideLogicalId()
 	ResetRegion()
 	ResetRoutingConfig()
+	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -481,8 +485,28 @@ func (j *jsiiProxy_LambdaAlias) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_LambdaAlias) Timeouts() LambdaAliasTimeoutsOutputReference {
+	var returns LambdaAliasTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
+func (j *jsiiProxy_LambdaAlias) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
 func NewLambdaAlias(scope constructs.Construct, id *string, config *LambdaAliasConfig) LambdaAlias {
 	_init_.Initialize()
 
@@ -500,7 +524,7 @@ func NewLambdaAlias(scope constructs.Construct, id *string, config *LambdaAliasC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.47.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lambda_alias aws_lambda_alias} Resource.
 func NewLambdaAlias_Override(l LambdaAlias, scope constructs.Construct, id *string, config *LambdaAliasConfig) {
 	_init_.Initialize()
 
@@ -1009,6 +1033,17 @@ func (l *jsiiProxy_LambdaAlias) PutRoutingConfig(value *LambdaAliasRoutingConfig
 	)
 }
 
+func (l *jsiiProxy_LambdaAlias) PutTimeouts(value *LambdaAliasTimeouts) {
+	if err := l.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		l,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (l *jsiiProxy_LambdaAlias) ResetDescription() {
 	_jsii_.InvokeVoid(
 		l,
@@ -1045,6 +1080,14 @@ func (l *jsiiProxy_LambdaAlias) ResetRoutingConfig() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetRoutingConfig",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaAlias) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetTimeouts",
 		nil, // no parameters
 	)
 }

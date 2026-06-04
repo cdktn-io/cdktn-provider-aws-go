@@ -30,6 +30,8 @@ type BedrockagentcoreGatewayTargetTargetConfigurationOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	Http() BedrockagentcoreGatewayTargetTargetConfigurationHttpList
+	HttpInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	Mcp() BedrockagentcoreGatewayTargetTargetConfigurationMcpList
@@ -66,7 +68,9 @@ type BedrockagentcoreGatewayTargetTargetConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutHttp(value interface{})
 	PutMcp(value interface{})
+	ResetHttp()
 	ResetMcp()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -118,6 +122,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) Http() BedrockagentcoreGatewayTargetTargetConfigurationHttpList {
+	var returns BedrockagentcoreGatewayTargetTargetConfigurationHttpList
+	_jsii_.Get(
+		j,
+		"http",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) HttpInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"httpInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) PutHttp(value interface{}) {
+	if err := b.validatePutHttpParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putHttp",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) PutMcp(value interface{}) {
 	if err := b.validatePutMcpParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 		b,
 		"putMcp",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) ResetHttp() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetHttp",
+		nil, // no parameters
 	)
 }
 
