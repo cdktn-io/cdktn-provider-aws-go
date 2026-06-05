@@ -7,7 +7,7 @@ package wafv2webaclrule
 type Wafv2WebAclRuleStatementByteMatchStatementFieldToMatchSingleQueryArgument struct {
 	// Query argument name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

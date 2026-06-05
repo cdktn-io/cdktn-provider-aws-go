@@ -135,6 +135,14 @@ func (j *jsiiProxy_CloudfrontFunction) validateSetRuntimeParameters(val *string)
 	return nil
 }
 
+func (j *jsiiProxy_CloudfrontFunction) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFunction) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewCloudfrontFunctionParameters(scope constructs.Construct, id *string, config *CloudfrontFunctionConfig) error {
 	return nil
 }

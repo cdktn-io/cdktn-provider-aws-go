@@ -459,6 +459,22 @@ func (j *jsiiProxy_CloudfrontFunction) validateSetRuntimeParameters(val *string)
 	return nil
 }
 
+func (j *jsiiProxy_CloudfrontFunction) validateSetTagsParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFunction) validateSetTagsAllParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewCloudfrontFunctionParameters(scope constructs.Construct, id *string, config *CloudfrontFunctionConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

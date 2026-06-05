@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3control_multi_region_access_point_routes aws_s3control_multi_region_access_point_routes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3control_multi_region_access_point_routes aws_s3control_multi_region_access_point_routes}.
 type S3ControlMultiRegionAccessPointRoutes interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_S3ControlMultiRegionAccessPointRoutes) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3control_multi_region_access_point_routes aws_s3control_multi_region_access_point_routes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3control_multi_region_access_point_routes aws_s3control_multi_region_access_point_routes} Resource.
 func NewS3ControlMultiRegionAccessPointRoutes(scope constructs.Construct, id *string, config *S3ControlMultiRegionAccessPointRoutesConfig) S3ControlMultiRegionAccessPointRoutes {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewS3ControlMultiRegionAccessPointRoutes(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3control_multi_region_access_point_routes aws_s3control_multi_region_access_point_routes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3control_multi_region_access_point_routes aws_s3control_multi_region_access_point_routes} Resource.
 func NewS3ControlMultiRegionAccessPointRoutes_Override(s S3ControlMultiRegionAccessPointRoutes, scope constructs.Construct, id *string, config *S3ControlMultiRegionAccessPointRoutesConfig) {
 	_init_.Initialize()
 

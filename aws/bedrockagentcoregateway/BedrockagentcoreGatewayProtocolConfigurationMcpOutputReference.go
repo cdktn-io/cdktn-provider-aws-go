@@ -38,6 +38,10 @@ type BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference interface {
 	SearchType() *string
 	SetSearchType(val *string)
 	SearchTypeInput() *string
+	SessionConfiguration() BedrockagentcoreGatewayProtocolConfigurationMcpSessionConfigurationList
+	SessionConfigurationInput() interface{}
+	StreamingConfiguration() BedrockagentcoreGatewayProtocolConfigurationMcpStreamingConfigurationList
+	StreamingConfigurationInput() interface{}
 	SupportedVersions() *[]*string
 	SetSupportedVersions(val *[]*string)
 	SupportedVersionsInput() *[]*string
@@ -73,8 +77,12 @@ type BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSessionConfiguration(value interface{})
+	PutStreamingConfiguration(value interface{})
 	ResetInstructions()
 	ResetSearchType()
+	ResetSessionConfiguration()
+	ResetStreamingConfiguration()
 	ResetSupportedVersions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -176,6 +184,46 @@ func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 	_jsii_.Get(
 		j,
 		"searchTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) SessionConfiguration() BedrockagentcoreGatewayProtocolConfigurationMcpSessionConfigurationList {
+	var returns BedrockagentcoreGatewayProtocolConfigurationMcpSessionConfigurationList
+	_jsii_.Get(
+		j,
+		"sessionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) SessionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sessionConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) StreamingConfiguration() BedrockagentcoreGatewayProtocolConfigurationMcpStreamingConfigurationList {
+	var returns BedrockagentcoreGatewayProtocolConfigurationMcpStreamingConfigurationList
+	_jsii_.Get(
+		j,
+		"streamingConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) StreamingConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"streamingConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +571,28 @@ func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) PutSessionConfiguration(value interface{}) {
+	if err := b.validatePutSessionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSessionConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) PutStreamingConfiguration(value interface{}) {
+	if err := b.validatePutStreamingConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putStreamingConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) ResetInstructions() {
 	_jsii_.InvokeVoid(
 		b,
@@ -535,6 +605,22 @@ func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 	_jsii_.InvokeVoid(
 		b,
 		"resetSearchType",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) ResetSessionConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSessionConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) ResetStreamingConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetStreamingConfiguration",
 		nil, // no parameters
 	)
 }

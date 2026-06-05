@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter}.
 type NetworkfirewallFirewallTransitGatewayAttachmentAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) Tran
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
 func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter(scope constructs.Construct, id *string, config *NetworkfirewallFirewallTransitGatewayAttachmentAccepterConfig) NetworkfirewallFirewallTransitGatewayAttachmentAccepter {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/networkfirewall_firewall_transit_gateway_attachment_accepter aws_networkfirewall_firewall_transit_gateway_attachment_accepter} Resource.
 func NewNetworkfirewallFirewallTransitGatewayAttachmentAccepter_Override(n NetworkfirewallFirewallTransitGatewayAttachmentAccepter, scope constructs.Construct, id *string, config *NetworkfirewallFirewallTransitGatewayAttachmentAccepterConfig) {
 	_init_.Initialize()
 

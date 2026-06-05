@@ -5,7 +5,7 @@ package bedrockagentcoreonlineevaluationconfig
 
 
 type BedrockagentcoreOnlineEvaluationConfigRuleSessionConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/bedrockagentcore_online_evaluation_config#session_timeout_minutes BedrockagentcoreOnlineEvaluationConfig#session_timeout_minutes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_online_evaluation_config#session_timeout_minutes BedrockagentcoreOnlineEvaluationConfig#session_timeout_minutes}.
 	SessionTimeoutMinutes *float64 `field:"required" json:"sessionTimeoutMinutes" yaml:"sessionTimeoutMinutes"`
 }
 

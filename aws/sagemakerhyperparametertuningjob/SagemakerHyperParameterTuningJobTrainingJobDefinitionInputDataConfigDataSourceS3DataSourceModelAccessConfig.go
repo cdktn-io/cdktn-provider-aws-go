@@ -5,7 +5,7 @@ package sagemakerhyperparametertuningjob
 
 
 type SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sagemaker_hyper_parameter_tuning_job#accept_eula SagemakerHyperParameterTuningJob#accept_eula}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_hyper_parameter_tuning_job#accept_eula SagemakerHyperParameterTuningJob#accept_eula}.
 	AcceptEula interface{} `field:"required" json:"acceptEula" yaml:"acceptEula"`
 }
 

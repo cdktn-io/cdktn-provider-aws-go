@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/chime_voice_connector_group aws_chime_voice_connector_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/chime_voice_connector_group aws_chime_voice_connector_group}.
 type ChimeVoiceConnectorGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/chime_voice_connector_group aws_chime_voice_connector_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/chime_voice_connector_group aws_chime_voice_connector_group} Resource.
 func NewChimeVoiceConnectorGroup(scope constructs.Construct, id *string, config *ChimeVoiceConnectorGroupConfig) ChimeVoiceConnectorGroup {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewChimeVoiceConnectorGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/chime_voice_connector_group aws_chime_voice_connector_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/chime_voice_connector_group aws_chime_voice_connector_group} Resource.
 func NewChimeVoiceConnectorGroup_Override(c ChimeVoiceConnectorGroup, scope constructs.Construct, id *string, config *ChimeVoiceConnectorGroupConfig) {
 	_init_.Initialize()
 

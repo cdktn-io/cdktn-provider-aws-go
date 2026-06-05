@@ -33,6 +33,7 @@ type DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference int
 	Fqn() *string
 	InternalValue() *DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptions
 	SetInternalValue(val *DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptions)
+	JwksUrl() *string
 	PublicKey() *string
 	RolesKey() *string
 	SubjectKey() *string
@@ -138,6 +139,16 @@ func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsOutpu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference) JwksUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"jwksUrl",
 		&returns,
 	)
 	return returns

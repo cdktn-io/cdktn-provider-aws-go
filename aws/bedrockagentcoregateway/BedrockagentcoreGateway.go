@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway}.
 type BedrockagentcoreGateway interface {
 	cdktn.TerraformResource
 	AuthorizerConfiguration() BedrockagentcoreGatewayAuthorizerConfigurationList
@@ -659,7 +659,7 @@ func (j *jsiiProxy_BedrockagentcoreGateway) WorkloadIdentityDetails() Bedrockage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) BedrockagentcoreGateway {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway_Override(b BedrockagentcoreGateway, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) {
 	_init_.Initialize()
 

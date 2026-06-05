@@ -5,7 +5,7 @@ package sagemakeralgorithm
 
 
 type SagemakerAlgorithmValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sagemaker_algorithm#accept_eula SagemakerAlgorithm#accept_eula}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_algorithm#accept_eula SagemakerAlgorithm#accept_eula}.
 	AcceptEula interface{} `field:"optional" json:"acceptEula" yaml:"acceptEula"`
 }
 

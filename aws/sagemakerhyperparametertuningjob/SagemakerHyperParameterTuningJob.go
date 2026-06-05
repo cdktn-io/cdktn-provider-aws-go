@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job}.
 type SagemakerHyperParameterTuningJob interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_SagemakerHyperParameterTuningJob) WarmStartConfigInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
 func NewSagemakerHyperParameterTuningJob(scope constructs.Construct, id *string, config *SagemakerHyperParameterTuningJobConfig) SagemakerHyperParameterTuningJob {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewSagemakerHyperParameterTuningJob(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
 func NewSagemakerHyperParameterTuningJob_Override(s SagemakerHyperParameterTuningJob, scope constructs.Construct, id *string, config *SagemakerHyperParameterTuningJobConfig) {
 	_init_.Initialize()
 

@@ -35,6 +35,9 @@ type OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference interface 
 	Fqn() *string
 	InternalValue() *OpensearchDomainAdvancedSecurityOptionsJwtOptions
 	SetInternalValue(val *OpensearchDomainAdvancedSecurityOptionsJwtOptions)
+	JwksUrl() *string
+	SetJwksUrl(val *string)
+	JwksUrlInput() *string
 	PublicKey() *string
 	SetPublicKey(val *string)
 	PublicKeyInput() *string
@@ -77,6 +80,7 @@ type OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference interface 
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
+	ResetJwksUrl()
 	ResetPublicKey()
 	ResetRolesKey()
 	ResetSubjectKey()
@@ -160,6 +164,26 @@ func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputRefere
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference) JwksUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"jwksUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference) JwksUrlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"jwksUrlInput",
 		&returns,
 	)
 	return returns
@@ -313,6 +337,17 @@ func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputRefere
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference)SetJwksUrl(val *string) {
+	if err := j.validateSetJwksUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"jwksUrl",
 		val,
 	)
 }
@@ -562,6 +597,14 @@ func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputRefere
 	_jsii_.InvokeVoid(
 		o,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchDomainAdvancedSecurityOptionsJwtOptionsOutputReference) ResetJwksUrl() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetJwksUrl",
 		nil, // no parameters
 	)
 }

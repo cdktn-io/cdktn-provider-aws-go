@@ -5,9 +5,9 @@ package opensearchapplication
 
 
 type OpensearchApplicationAppConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/opensearch_application#key OpensearchApplication#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/opensearch_application#key OpensearchApplication#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/opensearch_application#value OpensearchApplication#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/opensearch_application#value OpensearchApplication#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket}.
 type S3DirectoryBucket interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_S3DirectoryBucket) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
 func NewS3DirectoryBucket(scope constructs.Construct, id *string, config *S3DirectoryBucketConfig) S3DirectoryBucket {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewS3DirectoryBucket(scope constructs.Construct, id *string, config *S3Dire
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3_directory_bucket aws_s3_directory_bucket} Resource.
 func NewS3DirectoryBucket_Override(s S3DirectoryBucket, scope constructs.Construct, id *string, config *S3DirectoryBucketConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/cloudwatch_event_connection aws_cloudwatch_event_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_event_connection aws_cloudwatch_event_connection}.
 type CloudwatchEventConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_CloudwatchEventConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/cloudwatch_event_connection aws_cloudwatch_event_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_event_connection aws_cloudwatch_event_connection} Resource.
 func NewCloudwatchEventConnection(scope constructs.Construct, id *string, config *CloudwatchEventConnectionConfig) CloudwatchEventConnection {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewCloudwatchEventConnection(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/cloudwatch_event_connection aws_cloudwatch_event_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_event_connection aws_cloudwatch_event_connection} Resource.
 func NewCloudwatchEventConnection_Override(c CloudwatchEventConnection, scope constructs.Construct, id *string, config *CloudwatchEventConnectionConfig) {
 	_init_.Initialize()
 

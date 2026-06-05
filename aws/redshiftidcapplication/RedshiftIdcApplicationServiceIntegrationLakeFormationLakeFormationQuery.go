@@ -5,7 +5,7 @@ package redshiftidcapplication
 
 
 type RedshiftIdcApplicationServiceIntegrationLakeFormationLakeFormationQuery struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.
 	Authorization *string `field:"required" json:"authorization" yaml:"authorization"`
 }
 

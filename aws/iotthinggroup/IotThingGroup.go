@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iot_thing_group aws_iot_thing_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/iot_thing_group aws_iot_thing_group}.
 type IotThingGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_IotThingGroup) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
 func NewIotThingGroup(scope constructs.Construct, id *string, config *IotThingGroupConfig) IotThingGroup {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewIotThingGroup(scope constructs.Construct, id *string, config *IotThingGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/iot_thing_group aws_iot_thing_group} Resource.
 func NewIotThingGroup_Override(i IotThingGroup, scope constructs.Construct, id *string, config *IotThingGroupConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReferenc
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) validatePutSessionConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) validatePutStreamingConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayProtocolConfigurationMcpOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

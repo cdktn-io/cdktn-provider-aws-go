@@ -107,6 +107,10 @@ func (j *jsiiProxy_OpensearchserverlessCollectionGroup) validateSetDescriptionPa
 	return nil
 }
 
+func (j *jsiiProxy_OpensearchserverlessCollectionGroup) validateSetGenerationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OpensearchserverlessCollectionGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

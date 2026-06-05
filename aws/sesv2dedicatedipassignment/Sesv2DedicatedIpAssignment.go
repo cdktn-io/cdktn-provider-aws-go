@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment}.
 type Sesv2DedicatedIpAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Sesv2DedicatedIpAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
 func NewSesv2DedicatedIpAssignment(scope constructs.Construct, id *string, config *Sesv2DedicatedIpAssignmentConfig) Sesv2DedicatedIpAssignment {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSesv2DedicatedIpAssignment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
 func NewSesv2DedicatedIpAssignment_Override(s Sesv2DedicatedIpAssignment, scope constructs.Construct, id *string, config *Sesv2DedicatedIpAssignmentConfig) {
 	_init_.Initialize()
 

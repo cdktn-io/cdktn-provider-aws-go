@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/connect_queue aws_connect_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/connect_queue aws_connect_queue}.
 type DataAwsConnectQueue interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DataAwsConnectQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/connect_queue aws_connect_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/connect_queue aws_connect_queue} Data Source.
 func NewDataAwsConnectQueue(scope constructs.Construct, id *string, config *DataAwsConnectQueueConfig) DataAwsConnectQueue {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDataAwsConnectQueue(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/connect_queue aws_connect_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/connect_queue aws_connect_queue} Data Source.
 func NewDataAwsConnectQueue_Override(d DataAwsConnectQueue, scope constructs.Construct, id *string, config *DataAwsConnectQueueConfig) {
 	_init_.Initialize()
 

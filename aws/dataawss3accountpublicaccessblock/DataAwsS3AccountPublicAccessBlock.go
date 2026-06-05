@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/s3_account_public_access_block aws_s3_account_public_access_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/s3_account_public_access_block aws_s3_account_public_access_block}.
 type DataAwsS3AccountPublicAccessBlock interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -342,7 +342,7 @@ func (j *jsiiProxy_DataAwsS3AccountPublicAccessBlock) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/s3_account_public_access_block aws_s3_account_public_access_block} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/s3_account_public_access_block aws_s3_account_public_access_block} Data Source.
 func NewDataAwsS3AccountPublicAccessBlock(scope constructs.Construct, id *string, config *DataAwsS3AccountPublicAccessBlockConfig) DataAwsS3AccountPublicAccessBlock {
 	_init_.Initialize()
 
@@ -360,7 +360,7 @@ func NewDataAwsS3AccountPublicAccessBlock(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/data-sources/s3_account_public_access_block aws_s3_account_public_access_block} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/s3_account_public_access_block aws_s3_account_public_access_block} Data Source.
 func NewDataAwsS3AccountPublicAccessBlock_Override(d DataAwsS3AccountPublicAccessBlock, scope constructs.Construct, id *string, config *DataAwsS3AccountPublicAccessBlockConfig) {
 	_init_.Initialize()
 

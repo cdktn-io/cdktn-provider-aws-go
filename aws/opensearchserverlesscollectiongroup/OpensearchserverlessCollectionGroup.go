@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/opensearchserverless_collection_group aws_opensearchserverless_collection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/opensearchserverless_collection_group aws_opensearchserverless_collection_group}.
 type OpensearchserverlessCollectionGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -46,6 +46,9 @@ type OpensearchserverlessCollectionGroup interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	Generation() *string
+	SetGeneration(val *string)
+	GenerationInput() *string
 	Id() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -128,6 +131,7 @@ type OpensearchserverlessCollectionGroup interface {
 	PutCapacityLimits(value interface{})
 	ResetCapacityLimits()
 	ResetDescription()
+	ResetGeneration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -295,6 +299,26 @@ func (j *jsiiProxy_OpensearchserverlessCollectionGroup) FriendlyUniqueId() *stri
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollectionGroup) Generation() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"generation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollectionGroup) GenerationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"generationInput",
 		&returns,
 	)
 	return returns
@@ -481,7 +505,7 @@ func (j *jsiiProxy_OpensearchserverlessCollectionGroup) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/opensearchserverless_collection_group aws_opensearchserverless_collection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/opensearchserverless_collection_group aws_opensearchserverless_collection_group} Resource.
 func NewOpensearchserverlessCollectionGroup(scope constructs.Construct, id *string, config *OpensearchserverlessCollectionGroupConfig) OpensearchserverlessCollectionGroup {
 	_init_.Initialize()
 
@@ -499,7 +523,7 @@ func NewOpensearchserverlessCollectionGroup(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/opensearchserverless_collection_group aws_opensearchserverless_collection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/opensearchserverless_collection_group aws_opensearchserverless_collection_group} Resource.
 func NewOpensearchserverlessCollectionGroup_Override(o OpensearchserverlessCollectionGroup, scope constructs.Construct, id *string, config *OpensearchserverlessCollectionGroupConfig) {
 	_init_.Initialize()
 
@@ -555,6 +579,17 @@ func (j *jsiiProxy_OpensearchserverlessCollectionGroup)SetForEach(val cdktn.ITer
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OpensearchserverlessCollectionGroup)SetGeneration(val *string) {
+	if err := j.validateSetGenerationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"generation",
 		val,
 	)
 }
@@ -1009,6 +1044,14 @@ func (o *jsiiProxy_OpensearchserverlessCollectionGroup) ResetDescription() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchserverlessCollectionGroup) ResetGeneration() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetGeneration",
 		nil, // no parameters
 	)
 }

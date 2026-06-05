@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lex_intent aws_lex_intent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/lex_intent aws_lex_intent}.
 type LexIntent interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -708,7 +708,7 @@ func (j *jsiiProxy_LexIntent) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lex_intent aws_lex_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/lex_intent aws_lex_intent} Resource.
 func NewLexIntent(scope constructs.Construct, id *string, config *LexIntentConfig) LexIntent {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewLexIntent(scope constructs.Construct, id *string, config *LexIntentConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/lex_intent aws_lex_intent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/lex_intent aws_lex_intent} Resource.
 func NewLexIntent_Override(l LexIntent, scope constructs.Construct, id *string, config *LexIntentConfig) {
 	_init_.Initialize()
 

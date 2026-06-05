@@ -5,7 +5,7 @@ package bedrockagentcoreagentruntime
 
 
 type BedrockagentcoreAgentRuntimeFilesystemConfigurationSessionStorage struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_agent_runtime#mount_path BedrockagentcoreAgentRuntime#mount_path}.
 	MountPath *string `field:"required" json:"mountPath" yaml:"mountPath"`
 }
 

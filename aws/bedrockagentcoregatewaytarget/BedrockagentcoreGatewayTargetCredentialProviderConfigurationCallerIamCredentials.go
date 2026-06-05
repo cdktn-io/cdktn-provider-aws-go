@@ -5,9 +5,9 @@ package bedrockagentcoregatewaytarget
 
 
 type BedrockagentcoreGatewayTargetCredentialProviderConfigurationCallerIamCredentials struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/bedrockagentcore_gateway_target#service BedrockagentcoreGatewayTarget#service}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway_target#service BedrockagentcoreGatewayTarget#service}.
 	Service *string `field:"required" json:"service" yaml:"service"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/bedrockagentcore_gateway_target#region BedrockagentcoreGatewayTarget#region}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway_target#region BedrockagentcoreGatewayTarget#region}.
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

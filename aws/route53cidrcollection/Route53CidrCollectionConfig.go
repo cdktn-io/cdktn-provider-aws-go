@@ -22,7 +22,7 @@ type Route53CidrCollectionConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

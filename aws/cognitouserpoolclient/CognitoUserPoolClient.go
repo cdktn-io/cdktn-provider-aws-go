@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client}.
 type CognitoUserPoolClient interface {
 	cdktn.TerraformResource
 	AccessTokenValidity() *float64
@@ -891,7 +891,7 @@ func (j *jsiiProxy_CognitoUserPoolClient) WriteAttributesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
 func NewCognitoUserPoolClient(scope constructs.Construct, id *string, config *CognitoUserPoolClientConfig) CognitoUserPoolClient {
 	_init_.Initialize()
 
@@ -909,7 +909,7 @@ func NewCognitoUserPoolClient(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cognito_user_pool_client aws_cognito_user_pool_client} Resource.
 func NewCognitoUserPoolClient_Override(c CognitoUserPoolClient, scope constructs.Construct, id *string, config *CognitoUserPoolClientConfig) {
 	_init_.Initialize()
 

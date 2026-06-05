@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/dx_gateway_association_proposal aws_dx_gateway_association_proposal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/dx_gateway_association_proposal aws_dx_gateway_association_proposal}.
 type DxGatewayAssociationProposal interface {
 	cdktn.TerraformResource
 	AllowedPrefixes() *[]*string
@@ -458,7 +458,7 @@ func (j *jsiiProxy_DxGatewayAssociationProposal) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/dx_gateway_association_proposal aws_dx_gateway_association_proposal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/dx_gateway_association_proposal aws_dx_gateway_association_proposal} Resource.
 func NewDxGatewayAssociationProposal(scope constructs.Construct, id *string, config *DxGatewayAssociationProposalConfig) DxGatewayAssociationProposal {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewDxGatewayAssociationProposal(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/dx_gateway_association_proposal aws_dx_gateway_association_proposal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/dx_gateway_association_proposal aws_dx_gateway_association_proposal} Resource.
 func NewDxGatewayAssociationProposal_Override(d DxGatewayAssociationProposal, scope constructs.Construct, id *string, config *DxGatewayAssociationProposalConfig) {
 	_init_.Initialize()
 

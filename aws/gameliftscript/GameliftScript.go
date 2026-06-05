@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/gamelift_script aws_gamelift_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/gamelift_script aws_gamelift_script}.
 type GameliftScript interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_GameliftScript) ZipFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
 func NewGameliftScript(scope constructs.Construct, id *string, config *GameliftScriptConfig) GameliftScript {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewGameliftScript(scope constructs.Construct, id *string, config *GameliftS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.48.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/gamelift_script aws_gamelift_script} Resource.
 func NewGameliftScript_Override(g GameliftScript, scope constructs.Construct, id *string, config *GameliftScriptConfig) {
 	_init_.Initialize()
 
