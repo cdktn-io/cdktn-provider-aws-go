@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/servicequotas_auto_management aws_servicequotas_auto_management}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/servicequotas_auto_management aws_servicequotas_auto_management}.
 type ServicequotasAutoManagement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_ServicequotasAutoManagement) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/servicequotas_auto_management aws_servicequotas_auto_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/servicequotas_auto_management aws_servicequotas_auto_management} Resource.
 func NewServicequotasAutoManagement(scope constructs.Construct, id *string, config *ServicequotasAutoManagementConfig) ServicequotasAutoManagement {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewServicequotasAutoManagement(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/servicequotas_auto_management aws_servicequotas_auto_management} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/servicequotas_auto_management aws_servicequotas_auto_management} Resource.
 func NewServicequotasAutoManagement_Override(s ServicequotasAutoManagement, scope constructs.Construct, id *string, config *ServicequotasAutoManagementConfig) {
 	_init_.Initialize()
 

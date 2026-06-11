@@ -207,6 +207,68 @@ func (b *jsiiProxy_BedrockagentcoreMemory) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemory) validatePutIndexedKeyParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*BedrockagentcoreMemoryIndexedKey:
+		value := value.(*[]*BedrockagentcoreMemoryIndexedKey)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentcoreMemoryIndexedKey:
+		value_ := value.([]*BedrockagentcoreMemoryIndexedKey)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreMemoryIndexedKey; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemory) validatePutStreamDeliveryResourcesParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*BedrockagentcoreMemoryStreamDeliveryResources:
+		value := value.(*[]*BedrockagentcoreMemoryStreamDeliveryResources)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentcoreMemoryStreamDeliveryResources:
+		value_ := value.([]*BedrockagentcoreMemoryStreamDeliveryResources)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreMemoryStreamDeliveryResources; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemory) validatePutTimeoutsParameters(value *BedrockagentcoreMemoryTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

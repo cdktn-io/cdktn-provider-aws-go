@@ -5,7 +5,7 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobInputDataConfigDataSourceS3DataSourceHubAccessConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_training_job#hub_content_arn SagemakerTrainingJob#hub_content_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/sagemaker_training_job#hub_content_arn SagemakerTrainingJob#hub_content_arn}.
 	HubContentArn *string `field:"required" json:"hubContentArn" yaml:"hubContentArn"`
 }
 

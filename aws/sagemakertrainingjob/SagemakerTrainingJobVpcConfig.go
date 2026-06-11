@@ -5,9 +5,9 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobVpcConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_training_job#security_group_ids SagemakerTrainingJob#security_group_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/sagemaker_training_job#security_group_ids SagemakerTrainingJob#security_group_ids}.
 	SecurityGroupIds *[]*string `field:"required" json:"securityGroupIds" yaml:"securityGroupIds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/sagemaker_training_job#subnets SagemakerTrainingJob#subnets}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/sagemaker_training_job#subnets SagemakerTrainingJob#subnets}.
 	Subnets *[]*string `field:"required" json:"subnets" yaml:"subnets"`
 }
 

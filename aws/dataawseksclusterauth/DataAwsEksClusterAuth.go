@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth}.
 type DataAwsEksClusterAuth interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsEksClusterAuth) Token() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
 func NewDataAwsEksClusterAuth(scope constructs.Construct, id *string, config *DataAwsEksClusterAuthConfig) DataAwsEksClusterAuth {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsEksClusterAuth(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/eks_cluster_auth aws_eks_cluster_auth} Data Source.
 func NewDataAwsEksClusterAuth_Override(d DataAwsEksClusterAuth, scope constructs.Construct, id *string, config *DataAwsEksClusterAuthConfig) {
 	_init_.Initialize()
 

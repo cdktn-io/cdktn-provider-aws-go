@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/connect_security_profile aws_connect_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/connect_security_profile aws_connect_security_profile}.
 type ConnectSecurityProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_ConnectSecurityProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/connect_security_profile aws_connect_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/connect_security_profile aws_connect_security_profile} Resource.
 func NewConnectSecurityProfile(scope constructs.Construct, id *string, config *ConnectSecurityProfileConfig) ConnectSecurityProfile {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewConnectSecurityProfile(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/connect_security_profile aws_connect_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/connect_security_profile aws_connect_security_profile} Resource.
 func NewConnectSecurityProfile_Override(c ConnectSecurityProfile, scope constructs.Construct, id *string, config *ConnectSecurityProfileConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/workmail_domain aws_workmail_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/workmail_domain aws_workmail_domain}.
 type WorkmailDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -420,7 +420,7 @@ func (j *jsiiProxy_WorkmailDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/workmail_domain aws_workmail_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/workmail_domain aws_workmail_domain} Resource.
 func NewWorkmailDomain(scope constructs.Construct, id *string, config *WorkmailDomainConfig) WorkmailDomain {
 	_init_.Initialize()
 
@@ -438,7 +438,7 @@ func NewWorkmailDomain(scope constructs.Construct, id *string, config *WorkmailD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/workmail_domain aws_workmail_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/workmail_domain aws_workmail_domain} Resource.
 func NewWorkmailDomain_Override(w WorkmailDomain, scope constructs.Construct, id *string, config *WorkmailDomainConfig) {
 	_init_.Initialize()
 

@@ -35,6 +35,9 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ListingMode() *string
+	SetListingMode(val *string)
+	ListingModeInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetListingMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +151,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ListingMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"listingMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ListingModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"listingModeInput",
 		&returns,
 	)
 	return returns
@@ -240,6 +264,17 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference)SetListingMode(val *string) {
+	if err := j.validateSetListingModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"listingMode",
 		val,
 	)
 }
@@ -450,6 +485,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ResetListingMode() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetListingMode",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

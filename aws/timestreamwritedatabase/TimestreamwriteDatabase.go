@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database}.
 type TimestreamwriteDatabase interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_TimestreamwriteDatabase) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
 func NewTimestreamwriteDatabase(scope constructs.Construct, id *string, config *TimestreamwriteDatabaseConfig) TimestreamwriteDatabase {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewTimestreamwriteDatabase(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/timestreamwrite_database aws_timestreamwrite_database} Resource.
 func NewTimestreamwriteDatabase_Override(t TimestreamwriteDatabase, scope constructs.Construct, id *string, config *TimestreamwriteDatabaseConfig) {
 	_init_.Initialize()
 

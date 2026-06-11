@@ -67,6 +67,10 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) validateSetListingModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package bedrockagentcoregateway
+
+
+type BedrockagentcoreGatewayPolicyEngineConfiguration struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway#arn BedrockagentcoreGateway#arn}.
+	Arn *string `field:"required" json:"arn" yaml:"arn"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway#mode BedrockagentcoreGateway#mode}.
+	Mode *string `field:"required" json:"mode" yaml:"mode"`
+}
+

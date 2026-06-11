@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/service_principal aws_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/service_principal aws_service_principal}.
 type DataAwsServicePrincipal interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsServicePrincipal) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/service_principal aws_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/service_principal aws_service_principal} Data Source.
 func NewDataAwsServicePrincipal(scope constructs.Construct, id *string, config *DataAwsServicePrincipalConfig) DataAwsServicePrincipal {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsServicePrincipal(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/data-sources/service_principal aws_service_principal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/service_principal aws_service_principal} Data Source.
 func NewDataAwsServicePrincipal_Override(d DataAwsServicePrincipal, scope constructs.Construct, id *string, config *DataAwsServicePrincipalConfig) {
 	_init_.Initialize()
 

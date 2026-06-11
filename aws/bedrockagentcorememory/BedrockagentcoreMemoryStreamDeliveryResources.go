@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package bedrockagentcorememory
+
+
+type BedrockagentcoreMemoryStreamDeliveryResources struct {
+	// resource block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory#resource BedrockagentcoreMemory#resource}
+	Resource interface{} `field:"optional" json:"resource" yaml:"resource"`
+}
+

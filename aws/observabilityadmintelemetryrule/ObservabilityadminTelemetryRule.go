@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/observabilityadmin_telemetry_rule aws_observabilityadmin_telemetry_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/observabilityadmin_telemetry_rule aws_observabilityadmin_telemetry_rule}.
 type ObservabilityadminTelemetryRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRule) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/observabilityadmin_telemetry_rule aws_observabilityadmin_telemetry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/observabilityadmin_telemetry_rule aws_observabilityadmin_telemetry_rule} Resource.
 func NewObservabilityadminTelemetryRule(scope constructs.Construct, id *string, config *ObservabilityadminTelemetryRuleConfig) ObservabilityadminTelemetryRule {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewObservabilityadminTelemetryRule(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/observabilityadmin_telemetry_rule aws_observabilityadmin_telemetry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/observabilityadmin_telemetry_rule aws_observabilityadmin_telemetry_rule} Resource.
 func NewObservabilityadminTelemetryRule_Override(o ObservabilityadminTelemetryRule, scope constructs.Construct, id *string, config *ObservabilityadminTelemetryRuleConfig) {
 	_init_.Initialize()
 

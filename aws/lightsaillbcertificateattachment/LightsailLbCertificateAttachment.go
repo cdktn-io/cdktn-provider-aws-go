@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment}.
 type LightsailLbCertificateAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_LightsailLbCertificateAttachment) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
 func NewLightsailLbCertificateAttachment(scope constructs.Construct, id *string, config *LightsailLbCertificateAttachmentConfig) LightsailLbCertificateAttachment {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewLightsailLbCertificateAttachment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/lightsail_lb_certificate_attachment aws_lightsail_lb_certificate_attachment} Resource.
 func NewLightsailLbCertificateAttachment_Override(l LightsailLbCertificateAttachment, scope constructs.Construct, id *string, config *LightsailLbCertificateAttachmentConfig) {
 	_init_.Initialize()
 

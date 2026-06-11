@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway}.
 type BedrockagentcoreGateway interface {
 	cdktn.TerraformResource
 	AuthorizerConfiguration() BedrockagentcoreGatewayAuthorizerConfigurationList
@@ -67,6 +67,8 @@ type BedrockagentcoreGateway interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PolicyEngineConfiguration() BedrockagentcoreGatewayPolicyEngineConfigurationList
+	PolicyEngineConfigurationInput() interface{}
 	ProtocolConfiguration() BedrockagentcoreGatewayProtocolConfigurationList
 	ProtocolConfigurationInput() interface{}
 	ProtocolType() *string
@@ -146,6 +148,7 @@ type BedrockagentcoreGateway interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAuthorizerConfiguration(value interface{})
 	PutInterceptorConfiguration(value interface{})
+	PutPolicyEngineConfiguration(value interface{})
 	PutProtocolConfiguration(value interface{})
 	PutTimeouts(value *BedrockagentcoreGatewayTimeouts)
 	ResetAuthorizerConfiguration()
@@ -156,6 +159,7 @@ type BedrockagentcoreGateway interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPolicyEngineConfiguration()
 	ResetProtocolConfiguration()
 	ResetProtocolType()
 	ResetRegion()
@@ -458,6 +462,26 @@ func (j *jsiiProxy_BedrockagentcoreGateway) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGateway) PolicyEngineConfiguration() BedrockagentcoreGatewayPolicyEngineConfigurationList {
+	var returns BedrockagentcoreGatewayPolicyEngineConfigurationList
+	_jsii_.Get(
+		j,
+		"policyEngineConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGateway) PolicyEngineConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"policyEngineConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGateway) ProtocolConfiguration() BedrockagentcoreGatewayProtocolConfigurationList {
 	var returns BedrockagentcoreGatewayProtocolConfigurationList
 	_jsii_.Get(
@@ -659,7 +683,7 @@ func (j *jsiiProxy_BedrockagentcoreGateway) WorkloadIdentityDetails() Bedrockage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) BedrockagentcoreGateway {
 	_init_.Initialize()
 
@@ -677,7 +701,7 @@ func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway_Override(b BedrockagentcoreGateway, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) {
 	_init_.Initialize()
 
@@ -1230,6 +1254,17 @@ func (b *jsiiProxy_BedrockagentcoreGateway) PutInterceptorConfiguration(value in
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGateway) PutPolicyEngineConfiguration(value interface{}) {
+	if err := b.validatePutPolicyEngineConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPolicyEngineConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGateway) PutProtocolConfiguration(value interface{}) {
 	if err := b.validatePutProtocolConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1296,6 +1331,14 @@ func (b *jsiiProxy_BedrockagentcoreGateway) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGateway) ResetPolicyEngineConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPolicyEngineConfiguration",
 		nil, // no parameters
 	)
 }

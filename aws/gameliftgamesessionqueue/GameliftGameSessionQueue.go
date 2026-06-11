@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue}.
 type GameliftGameSessionQueue interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_GameliftGameSessionQueue) TimeoutInSecondsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
 func NewGameliftGameSessionQueue(scope constructs.Construct, id *string, config *GameliftGameSessionQueueConfig) GameliftGameSessionQueue {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewGameliftGameSessionQueue(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/gamelift_game_session_queue aws_gamelift_game_session_queue} Resource.
 func NewGameliftGameSessionQueue_Override(g GameliftGameSessionQueue, scope constructs.Construct, id *string, config *GameliftGameSessionQueueConfig) {
 	_init_.Initialize()
 

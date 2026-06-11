@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set}.
 type Wafv2RegexPatternSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_Wafv2RegexPatternSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Resource.
 func NewWafv2RegexPatternSet(scope constructs.Construct, id *string, config *Wafv2RegexPatternSetConfig) Wafv2RegexPatternSet {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewWafv2RegexPatternSet(scope constructs.Construct, id *string, config *Waf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Resource.
 func NewWafv2RegexPatternSet_Override(w Wafv2RegexPatternSet, scope constructs.Construct, id *string, config *Wafv2RegexPatternSetConfig) {
 	_init_.Initialize()
 

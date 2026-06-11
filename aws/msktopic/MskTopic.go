@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/msk_topic aws_msk_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/msk_topic aws_msk_topic}.
 type MskTopic interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_MskTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/msk_topic aws_msk_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/msk_topic aws_msk_topic} Resource.
 func NewMskTopic(scope constructs.Construct, id *string, config *MskTopicConfig) MskTopic {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewMskTopic(scope constructs.Construct, id *string, config *MskTopicConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/msk_topic aws_msk_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/msk_topic aws_msk_topic} Resource.
 func NewMskTopic_Override(m MskTopic, scope constructs.Construct, id *string, config *MskTopicConfig) {
 	_init_.Initialize()
 

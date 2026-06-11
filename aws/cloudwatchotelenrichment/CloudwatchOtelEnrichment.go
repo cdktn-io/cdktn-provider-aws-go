@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment}.
 type CloudwatchOtelEnrichment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -354,7 +354,7 @@ func (j *jsiiProxy_CloudwatchOtelEnrichment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
 func NewCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config *CloudwatchOtelEnrichmentConfig) CloudwatchOtelEnrichment {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
 func NewCloudwatchOtelEnrichment_Override(c CloudwatchOtelEnrichment, scope constructs.Construct, id *string, config *CloudwatchOtelEnrichmentConfig) {
 	_init_.Initialize()
 

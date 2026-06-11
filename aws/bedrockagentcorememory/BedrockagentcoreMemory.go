@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory}.
 type BedrockagentcoreMemory interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -50,6 +50,8 @@ type BedrockagentcoreMemory interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
+	IndexedKey() BedrockagentcoreMemoryIndexedKeyList
+	IndexedKeyInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -75,6 +77,8 @@ type BedrockagentcoreMemory interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	StreamDeliveryResources() BedrockagentcoreMemoryStreamDeliveryResourcesList
+	StreamDeliveryResourcesInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() cdktn.StringMap
@@ -130,14 +134,18 @@ type BedrockagentcoreMemory interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutIndexedKey(value interface{})
+	PutStreamDeliveryResources(value interface{})
 	PutTimeouts(value *BedrockagentcoreMemoryTimeouts)
 	ResetDescription()
 	ResetEncryptionKeyArn()
+	ResetIndexedKey()
 	ResetMemoryExecutionRoleArn()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetStreamDeliveryResources()
 	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -327,6 +335,26 @@ func (j *jsiiProxy_BedrockagentcoreMemory) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreMemory) IndexedKey() BedrockagentcoreMemoryIndexedKeyList {
+	var returns BedrockagentcoreMemoryIndexedKeyList
+	_jsii_.Get(
+		j,
+		"indexedKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemory) IndexedKeyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"indexedKeyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreMemory) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -437,6 +465,26 @@ func (j *jsiiProxy_BedrockagentcoreMemory) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreMemory) StreamDeliveryResources() BedrockagentcoreMemoryStreamDeliveryResourcesList {
+	var returns BedrockagentcoreMemoryStreamDeliveryResourcesList
+	_jsii_.Get(
+		j,
+		"streamDeliveryResources",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemory) StreamDeliveryResourcesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"streamDeliveryResourcesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreMemory) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -518,7 +566,7 @@ func (j *jsiiProxy_BedrockagentcoreMemory) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) BedrockagentcoreMemory {
 	_init_.Initialize()
 
@@ -536,7 +584,7 @@ func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory aws_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory_Override(b BedrockagentcoreMemory, scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) {
 	_init_.Initialize()
 
@@ -1045,6 +1093,28 @@ func (b *jsiiProxy_BedrockagentcoreMemory) OverrideLogicalId(newLogicalId *strin
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemory) PutIndexedKey(value interface{}) {
+	if err := b.validatePutIndexedKeyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putIndexedKey",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemory) PutStreamDeliveryResources(value interface{}) {
+	if err := b.validatePutStreamDeliveryResourcesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putStreamDeliveryResources",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemory) PutTimeouts(value *BedrockagentcoreMemoryTimeouts) {
 	if err := b.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1072,6 +1142,14 @@ func (b *jsiiProxy_BedrockagentcoreMemory) ResetEncryptionKeyArn() {
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemory) ResetIndexedKey() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetIndexedKey",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemory) ResetMemoryExecutionRoleArn() {
 	_jsii_.InvokeVoid(
 		b,
@@ -1092,6 +1170,14 @@ func (b *jsiiProxy_BedrockagentcoreMemory) ResetRegion() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemory) ResetStreamDeliveryResources() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetStreamDeliveryResources",
 		nil, // no parameters
 	)
 }

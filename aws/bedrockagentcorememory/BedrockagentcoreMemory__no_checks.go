@@ -75,6 +75,14 @@ func (b *jsiiProxy_BedrockagentcoreMemory) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemory) validatePutIndexedKeyParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemory) validatePutStreamDeliveryResourcesParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemory) validatePutTimeoutsParameters(value *BedrockagentcoreMemoryTimeouts) error {
 	return nil
 }

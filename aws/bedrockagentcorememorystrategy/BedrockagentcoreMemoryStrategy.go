@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy}.
 type BedrockagentcoreMemoryStrategy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
 func NewBedrockagentcoreMemoryStrategy(scope constructs.Construct, id *string, config *BedrockagentcoreMemoryStrategyConfig) BedrockagentcoreMemoryStrategy {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewBedrockagentcoreMemoryStrategy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
 func NewBedrockagentcoreMemoryStrategy_Override(b BedrockagentcoreMemoryStrategy, scope constructs.Construct, id *string, config *BedrockagentcoreMemoryStrategyConfig) {
 	_init_.Initialize()
 

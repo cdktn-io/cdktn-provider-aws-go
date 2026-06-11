@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target}.
 type BedrockagentcoreGatewayTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -58,6 +58,8 @@ type BedrockagentcoreGatewayTarget interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PrivateEndpoint() BedrockagentcoreGatewayTargetPrivateEndpointList
+	PrivateEndpointInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -127,6 +129,7 @@ type BedrockagentcoreGatewayTarget interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutCredentialProviderConfiguration(value interface{})
 	PutMetadataConfiguration(value interface{})
+	PutPrivateEndpoint(value interface{})
 	PutTargetConfiguration(value interface{})
 	PutTimeouts(value *BedrockagentcoreGatewayTargetTimeouts)
 	ResetCredentialProviderConfiguration()
@@ -135,6 +138,7 @@ type BedrockagentcoreGatewayTarget interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPrivateEndpoint()
 	ResetRegion()
 	ResetTargetConfiguration()
 	ResetTimeouts()
@@ -365,6 +369,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTarget) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayTarget) PrivateEndpoint() BedrockagentcoreGatewayTargetPrivateEndpointList {
+	var returns BedrockagentcoreGatewayTargetPrivateEndpointList
+	_jsii_.Get(
+		j,
+		"privateEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTarget) PrivateEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayTarget) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -496,7 +520,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTarget) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) BedrockagentcoreGatewayTarget {
 	_init_.Initialize()
 
@@ -514,7 +538,7 @@ func NewBedrockagentcoreGatewayTarget(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_gateway_target aws_bedrockagentcore_gateway_target} Resource.
 func NewBedrockagentcoreGatewayTarget_Override(b BedrockagentcoreGatewayTarget, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayTargetConfig) {
 	_init_.Initialize()
 
@@ -1012,6 +1036,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTarget) PutMetadataConfiguration(value
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTarget) PutPrivateEndpoint(value interface{}) {
+	if err := b.validatePutPrivateEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPrivateEndpoint",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTarget) PutTargetConfiguration(value interface{}) {
 	if err := b.validatePutTargetConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1062,6 +1097,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTarget) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTarget) ResetPrivateEndpoint() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPrivateEndpoint",
 		nil, // no parameters
 	)
 }

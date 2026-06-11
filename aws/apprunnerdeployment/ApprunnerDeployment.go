@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/apprunner_deployment aws_apprunner_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/apprunner_deployment aws_apprunner_deployment}.
 type ApprunnerDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_ApprunnerDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
 func NewApprunnerDeployment(scope constructs.Construct, id *string, config *ApprunnerDeploymentConfig) ApprunnerDeployment {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewApprunnerDeployment(scope constructs.Construct, id *string, config *Appr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/apprunner_deployment aws_apprunner_deployment} Resource.
 func NewApprunnerDeployment_Override(a ApprunnerDeployment, scope constructs.Construct, id *string, config *ApprunnerDeploymentConfig) {
 	_init_.Initialize()
 

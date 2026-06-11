@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3files_file_system aws_s3files_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/s3files_file_system aws_s3files_file_system}.
 type S3FilesFileSystem interface {
 	cdktn.TerraformResource
 	AcceptBucketWarning() interface{}
@@ -573,7 +573,7 @@ func (j *jsiiProxy_S3FilesFileSystem) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
 func NewS3FilesFileSystem(scope constructs.Construct, id *string, config *S3FilesFileSystemConfig) S3FilesFileSystem {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewS3FilesFileSystem(scope constructs.Construct, id *string, config *S3File
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/s3files_file_system aws_s3files_file_system} Resource.
 func NewS3FilesFileSystem_Override(s S3FilesFileSystem, scope constructs.Construct, id *string, config *S3FilesFileSystemConfig) {
 	_init_.Initialize()
 

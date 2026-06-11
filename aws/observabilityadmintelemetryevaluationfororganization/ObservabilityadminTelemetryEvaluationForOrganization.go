@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/observabilityadmin_telemetry_evaluation_for_organization aws_observabilityadmin_telemetry_evaluation_for_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/observabilityadmin_telemetry_evaluation_for_organization aws_observabilityadmin_telemetry_evaluation_for_organization}.
 type ObservabilityadminTelemetryEvaluationForOrganization interface {
 	cdktn.TerraformResource
 	AllRegions() interface{}
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ObservabilityadminTelemetryEvaluationForOrganization) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/observabilityadmin_telemetry_evaluation_for_organization aws_observabilityadmin_telemetry_evaluation_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/observabilityadmin_telemetry_evaluation_for_organization aws_observabilityadmin_telemetry_evaluation_for_organization} Resource.
 func NewObservabilityadminTelemetryEvaluationForOrganization(scope constructs.Construct, id *string, config *ObservabilityadminTelemetryEvaluationForOrganizationConfig) ObservabilityadminTelemetryEvaluationForOrganization {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewObservabilityadminTelemetryEvaluationForOrganization(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/observabilityadmin_telemetry_evaluation_for_organization aws_observabilityadmin_telemetry_evaluation_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/observabilityadmin_telemetry_evaluation_for_organization aws_observabilityadmin_telemetry_evaluation_for_organization} Resource.
 func NewObservabilityadminTelemetryEvaluationForOrganization_Override(o ObservabilityadminTelemetryEvaluationForOrganization, scope constructs.Construct, id *string, config *ObservabilityadminTelemetryEvaluationForOrganizationConfig) {
 	_init_.Initialize()
 

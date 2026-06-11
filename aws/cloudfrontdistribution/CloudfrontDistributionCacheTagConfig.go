@@ -5,7 +5,7 @@ package cloudfrontdistribution
 
 
 type CloudfrontDistributionCacheTagConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudfront_distribution#header_name CloudfrontDistribution#header_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/cloudfront_distribution#header_name CloudfrontDistribution#header_name}.
 	HeaderName *string `field:"required" json:"headerName" yaml:"headerName"`
 }
 

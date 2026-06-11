@@ -7,7 +7,7 @@ package arcregionswitchplan
 type ArcregionswitchPlanReportConfiguration struct {
 	// report_output block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/arcregionswitch_plan#report_output ArcregionswitchPlan#report_output}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/arcregionswitch_plan#report_output ArcregionswitchPlan#report_output}
 	ReportOutput interface{} `field:"optional" json:"reportOutput" yaml:"reportOutput"`
 }
 

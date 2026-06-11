@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_event_endpoint aws_cloudwatch_event_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/cloudwatch_event_endpoint aws_cloudwatch_event_endpoint}.
 type CloudwatchEventEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_CloudwatchEventEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_event_endpoint aws_cloudwatch_event_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/cloudwatch_event_endpoint aws_cloudwatch_event_endpoint} Resource.
 func NewCloudwatchEventEndpoint(scope constructs.Construct, id *string, config *CloudwatchEventEndpointConfig) CloudwatchEventEndpoint {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewCloudwatchEventEndpoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.49.0/docs/resources/cloudwatch_event_endpoint aws_cloudwatch_event_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/cloudwatch_event_endpoint aws_cloudwatch_event_endpoint} Resource.
 func NewCloudwatchEventEndpoint_Override(c CloudwatchEventEndpoint, scope constructs.Construct, id *string, config *CloudwatchEventEndpointConfig) {
 	_init_.Initialize()
 
