@@ -33,6 +33,7 @@ type DataAwsEksClusterOutpostConfigControlPlanePlacementOutputReference interfac
 	GroupName() *string
 	InternalValue() *DataAwsEksClusterOutpostConfigControlPlanePlacement
 	SetInternalValue(val *DataAwsEksClusterOutpostConfigControlPlanePlacement)
+	SpreadLevel() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataAwsEksClusterOutpostConfigControlPlanePlacementOutputRefe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksClusterOutpostConfigControlPlanePlacementOutputReference) SpreadLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spreadLevel",
 		&returns,
 	)
 	return returns

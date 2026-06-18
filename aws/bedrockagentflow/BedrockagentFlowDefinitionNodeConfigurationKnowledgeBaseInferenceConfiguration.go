@@ -7,7 +7,7 @@ package bedrockagentflow
 type BedrockagentFlowDefinitionNodeConfigurationKnowledgeBaseInferenceConfiguration struct {
 	// text block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/bedrockagent_flow#text BedrockagentFlow#text}
 	Text interface{} `field:"optional" json:"text" yaml:"text"`
 }
 

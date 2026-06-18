@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set}.
 type SesActiveReceiptRuleSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_SesActiveReceiptRuleSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
 func NewSesActiveReceiptRuleSet(scope constructs.Construct, id *string, config *SesActiveReceiptRuleSetConfig) SesActiveReceiptRuleSet {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewSesActiveReceiptRuleSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
 func NewSesActiveReceiptRuleSet_Override(s SesActiveReceiptRuleSet, scope constructs.Construct, id *string, config *SesActiveReceiptRuleSetConfig) {
 	_init_.Initialize()
 

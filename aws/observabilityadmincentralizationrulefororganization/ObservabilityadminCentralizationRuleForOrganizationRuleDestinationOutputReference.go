@@ -33,6 +33,8 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputRef
 	CreationStack() *[]*string
 	DestinationLogsConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationLogsConfigurationList
 	DestinationLogsConfigurationInput() interface{}
+	DestinationMetricsConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationMetricsConfigurationList
+	DestinationMetricsConfigurationInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -73,7 +75,9 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputRef
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDestinationLogsConfiguration(value interface{})
+	PutDestinationMetricsConfiguration(value interface{})
 	ResetDestinationLogsConfiguration()
+	ResetDestinationMetricsConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -154,6 +158,26 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	_jsii_.Get(
 		j,
 		"destinationLogsConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) DestinationMetricsConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationMetricsConfigurationList {
+	var returns ObservabilityadminCentralizationRuleForOrganizationRuleDestinationDestinationMetricsConfigurationList
+	_jsii_.Get(
+		j,
+		"destinationMetricsConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) DestinationMetricsConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"destinationMetricsConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -521,10 +545,29 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestin
 	)
 }
 
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) PutDestinationMetricsConfiguration(value interface{}) {
+	if err := o.validatePutDestinationMetricsConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putDestinationMetricsConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) ResetDestinationLogsConfiguration() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetDestinationLogsConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleDestinationOutputReference) ResetDestinationMetricsConfiguration() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetDestinationMetricsConfiguration",
 		nil, // no parameters
 	)
 }

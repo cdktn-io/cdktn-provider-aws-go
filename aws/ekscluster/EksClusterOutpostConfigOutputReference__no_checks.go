@@ -51,6 +51,10 @@ func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) validatePutControlPla
 	return nil
 }
 
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) validatePutEtcdPlacementParameters(value *EksClusterOutpostConfigEtcdPlacement) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -64,6 +68,10 @@ func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) validateSetComplexObj
 }
 
 func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) validateSetControlPlaneInstanceTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) validateSetEtcdInstanceTypeParameters(val *string) error {
 	return nil
 }
 

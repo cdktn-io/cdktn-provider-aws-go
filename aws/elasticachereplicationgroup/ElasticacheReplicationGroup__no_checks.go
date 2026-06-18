@@ -147,6 +147,10 @@ func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetDescriptionParameters
 	return nil
 }
 
+func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetDurabilityParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetEngineParameters(val *string) error {
 	return nil
 }

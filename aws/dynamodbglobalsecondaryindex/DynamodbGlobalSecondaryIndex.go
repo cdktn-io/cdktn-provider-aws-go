@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/dynamodb_global_secondary_index aws_dynamodb_global_secondary_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dynamodb_global_secondary_index aws_dynamodb_global_secondary_index}.
 type DynamodbGlobalSecondaryIndex interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DynamodbGlobalSecondaryIndex) WarmThroughputInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/dynamodb_global_secondary_index aws_dynamodb_global_secondary_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dynamodb_global_secondary_index aws_dynamodb_global_secondary_index} Resource.
 func NewDynamodbGlobalSecondaryIndex(scope constructs.Construct, id *string, config *DynamodbGlobalSecondaryIndexConfig) DynamodbGlobalSecondaryIndex {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDynamodbGlobalSecondaryIndex(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/dynamodb_global_secondary_index aws_dynamodb_global_secondary_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dynamodb_global_secondary_index aws_dynamodb_global_secondary_index} Resource.
 func NewDynamodbGlobalSecondaryIndex_Override(d DynamodbGlobalSecondaryIndex, scope constructs.Construct, id *string, config *DynamodbGlobalSecondaryIndexConfig) {
 	_init_.Initialize()
 

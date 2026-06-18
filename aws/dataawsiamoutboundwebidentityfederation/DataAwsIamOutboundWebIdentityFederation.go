@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation}.
 type DataAwsIamOutboundWebIdentityFederation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -261,7 +261,7 @@ func (j *jsiiProxy_DataAwsIamOutboundWebIdentityFederation) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Data Source.
 func NewDataAwsIamOutboundWebIdentityFederation(scope constructs.Construct, id *string, config *DataAwsIamOutboundWebIdentityFederationConfig) DataAwsIamOutboundWebIdentityFederation {
 	_init_.Initialize()
 
@@ -279,7 +279,7 @@ func NewDataAwsIamOutboundWebIdentityFederation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/iam_outbound_web_identity_federation aws_iam_outbound_web_identity_federation} Data Source.
 func NewDataAwsIamOutboundWebIdentityFederation_Override(d DataAwsIamOutboundWebIdentityFederation, scope constructs.Construct, id *string, config *DataAwsIamOutboundWebIdentityFederationConfig) {
 	_init_.Initialize()
 

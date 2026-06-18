@@ -40,6 +40,8 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReferenc
 	ScopeInput() *string
 	SourceLogsConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceLogsConfigurationList
 	SourceLogsConfigurationInput() interface{}
+	SourceMetricsConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceMetricsConfigurationList
+	SourceMetricsConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,7 +75,9 @@ type ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReferenc
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSourceLogsConfiguration(value interface{})
+	PutSourceMetricsConfiguration(value interface{})
 	ResetSourceLogsConfiguration()
+	ResetSourceMetricsConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -194,6 +198,26 @@ func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	_jsii_.Get(
 		j,
 		"sourceLogsConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReference) SourceMetricsConfiguration() ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceMetricsConfigurationList {
+	var returns ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceMetricsConfigurationList
+	_jsii_.Get(
+		j,
+		"sourceMetricsConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReference) SourceMetricsConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sourceMetricsConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -521,10 +545,29 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	)
 }
 
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReference) PutSourceMetricsConfiguration(value interface{}) {
+	if err := o.validatePutSourceMetricsConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putSourceMetricsConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReference) ResetSourceLogsConfiguration() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetSourceLogsConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReference) ResetSourceMetricsConfiguration() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetSourceMetricsConfiguration",
 		nil, // no parameters
 	)
 }

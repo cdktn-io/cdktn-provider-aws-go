@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings}.
 type Ec2AllowedImagesSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_Ec2AllowedImagesSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
 func NewEc2AllowedImagesSettings(scope constructs.Construct, id *string, config *Ec2AllowedImagesSettingsConfig) Ec2AllowedImagesSettings {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewEc2AllowedImagesSettings(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_allowed_images_settings aws_ec2_allowed_images_settings} Resource.
 func NewEc2AllowedImagesSettings_Override(e Ec2AllowedImagesSettings, scope constructs.Construct, id *string, config *Ec2AllowedImagesSettingsConfig) {
 	_init_.Initialize()
 

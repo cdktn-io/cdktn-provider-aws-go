@@ -51,6 +51,10 @@ func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSource
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReference) validatePutSourceMetricsConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminCentralizationRuleForOrganizationRuleSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

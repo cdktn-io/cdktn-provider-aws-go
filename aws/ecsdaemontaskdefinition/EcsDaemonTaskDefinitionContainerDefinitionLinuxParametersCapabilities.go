@@ -5,9 +5,9 @@ package ecsdaemontaskdefinition
 
 
 type EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersCapabilities struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ecs_daemon_task_definition#add EcsDaemonTaskDefinition#add}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#add EcsDaemonTaskDefinition#add}.
 	Add *[]*string `field:"optional" json:"add" yaml:"add"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ecs_daemon_task_definition#drop EcsDaemonTaskDefinition#drop}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#drop EcsDaemonTaskDefinition#drop}.
 	Drop *[]*string `field:"optional" json:"drop" yaml:"drop"`
 }
 

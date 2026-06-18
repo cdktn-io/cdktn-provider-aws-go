@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline}.
 type ImagebuilderImagePipeline interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -791,7 +791,7 @@ func (j *jsiiProxy_ImagebuilderImagePipeline) WorkflowInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
 func NewImagebuilderImagePipeline(scope constructs.Construct, id *string, config *ImagebuilderImagePipelineConfig) ImagebuilderImagePipeline {
 	_init_.Initialize()
 
@@ -809,7 +809,7 @@ func NewImagebuilderImagePipeline(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/imagebuilder_image_pipeline aws_imagebuilder_image_pipeline} Resource.
 func NewImagebuilderImagePipeline_Override(i ImagebuilderImagePipeline, scope constructs.Construct, id *string, config *ImagebuilderImagePipelineConfig) {
 	_init_.Initialize()
 

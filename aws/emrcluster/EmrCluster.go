@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/emr_cluster aws_emr_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/emr_cluster aws_emr_cluster}.
 type EmrCluster interface {
 	cdktn.TerraformResource
 	AdditionalInfo() *string
@@ -1165,7 +1165,7 @@ func (j *jsiiProxy_EmrCluster) VisibleToAllUsersInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
 func NewEmrCluster(scope constructs.Construct, id *string, config *EmrClusterConfig) EmrCluster {
 	_init_.Initialize()
 
@@ -1183,7 +1183,7 @@ func NewEmrCluster(scope constructs.Construct, id *string, config *EmrClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/emr_cluster aws_emr_cluster} Resource.
 func NewEmrCluster_Override(e EmrCluster, scope constructs.Construct, id *string, config *EmrClusterConfig) {
 	_init_.Initialize()
 

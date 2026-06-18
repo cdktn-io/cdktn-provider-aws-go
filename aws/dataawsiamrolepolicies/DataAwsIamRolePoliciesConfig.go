@@ -22,7 +22,7 @@ type DataAwsIamRolePoliciesConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/iam_role_policies#role_name DataAwsIamRolePolicies#role_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/iam_role_policies#role_name DataAwsIamRolePolicies#role_name}.
 	RoleName *string `field:"required" json:"roleName" yaml:"roleName"`
 }
 

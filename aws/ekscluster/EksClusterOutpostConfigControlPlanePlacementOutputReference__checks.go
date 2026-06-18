@@ -182,6 +182,14 @@ func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateSetSpreadLevelParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

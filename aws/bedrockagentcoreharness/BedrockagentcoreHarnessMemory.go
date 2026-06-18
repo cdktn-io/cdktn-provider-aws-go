@@ -7,7 +7,7 @@ package bedrockagentcoreharness
 type BedrockagentcoreHarnessMemory struct {
 	// agentcore_memory_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/bedrockagentcore_harness#agentcore_memory_configuration BedrockagentcoreHarness#agentcore_memory_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/bedrockagentcore_harness#agentcore_memory_configuration BedrockagentcoreHarness#agentcore_memory_configuration}
 	AgentcoreMemoryConfiguration interface{} `field:"optional" json:"agentcoreMemoryConfiguration" yaml:"agentcoreMemoryConfiguration"`
 }
 

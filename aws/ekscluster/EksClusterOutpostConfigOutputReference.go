@@ -33,6 +33,11 @@ type EksClusterOutpostConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EtcdInstanceType() *string
+	SetEtcdInstanceType(val *string)
+	EtcdInstanceTypeInput() *string
+	EtcdPlacement() EksClusterOutpostConfigEtcdPlacementOutputReference
+	EtcdPlacementInput() *EksClusterOutpostConfigEtcdPlacement
 	// Experimental.
 	Fqn() *string
 	InternalValue() *EksClusterOutpostConfig
@@ -73,7 +78,10 @@ type EksClusterOutpostConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutControlPlanePlacement(value *EksClusterOutpostConfigControlPlanePlacement)
+	PutEtcdPlacement(value *EksClusterOutpostConfigEtcdPlacement)
 	ResetControlPlanePlacement()
+	ResetEtcdInstanceType()
+	ResetEtcdPlacement()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -154,6 +162,46 @@ func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) CreationStack() *[]*s
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdInstanceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"etcdInstanceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdInstanceTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"etcdInstanceTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdPlacement() EksClusterOutpostConfigEtcdPlacementOutputReference {
+	var returns EksClusterOutpostConfigEtcdPlacementOutputReference
+	_jsii_.Get(
+		j,
+		"etcdPlacement",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdPlacementInput() *EksClusterOutpostConfigEtcdPlacement {
+	var returns *EksClusterOutpostConfigEtcdPlacement
+	_jsii_.Get(
+		j,
+		"etcdPlacementInput",
 		&returns,
 	)
 	return returns
@@ -276,6 +324,17 @@ func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetControlPlaneInstanc
 	_jsii_.Set(
 		j,
 		"controlPlaneInstanceType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetEtcdInstanceType(val *string) {
+	if err := j.validateSetEtcdInstanceTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"etcdInstanceType",
 		val,
 	)
 }
@@ -521,10 +580,37 @@ func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) PutControlPlanePlacem
 	)
 }
 
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) PutEtcdPlacement(value *EksClusterOutpostConfigEtcdPlacement) {
+	if err := e.validatePutEtcdPlacementParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putEtcdPlacement",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetControlPlanePlacement() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetControlPlanePlacement",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetEtcdInstanceType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetEtcdInstanceType",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetEtcdPlacement() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetEtcdPlacement",
 		nil, // no parameters
 	)
 }

@@ -35,6 +35,9 @@ type EksClusterOutpostConfigControlPlanePlacementOutputReference interface {
 	GroupNameInput() *string
 	InternalValue() *EksClusterOutpostConfigControlPlanePlacement
 	SetInternalValue(val *EksClusterOutpostConfigControlPlanePlacement)
+	SpreadLevel() *string
+	SetSpreadLevel(val *string)
+	SpreadLevelInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,8 @@ type EksClusterOutpostConfigControlPlanePlacementOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetGroupName()
+	ResetSpreadLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +152,26 @@ func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) 
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) SpreadLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spreadLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) SpreadLevelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spreadLevelInput",
 		&returns,
 	)
 	return returns
@@ -240,6 +265,17 @@ func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference)S
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference)SetSpreadLevel(val *string) {
+	if err := j.validateSetSpreadLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"spreadLevel",
 		val,
 	)
 }
@@ -450,6 +486,22 @@ func (e *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) 
 	)
 
 	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) ResetGroupName() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetGroupName",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) ResetSpreadLevel() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetSpreadLevel",
+		nil, // no parameters
+	)
 }
 
 func (e *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -47,6 +47,10 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutp
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference) validatePutOriginMtlsConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

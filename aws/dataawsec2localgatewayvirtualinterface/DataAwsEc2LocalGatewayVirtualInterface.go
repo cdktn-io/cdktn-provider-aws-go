@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/ec2_local_gateway_virtual_interface aws_ec2_local_gateway_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/ec2_local_gateway_virtual_interface aws_ec2_local_gateway_virtual_interface}.
 type DataAwsEc2LocalGatewayVirtualInterface interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterface) Vlan() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/ec2_local_gateway_virtual_interface aws_ec2_local_gateway_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/ec2_local_gateway_virtual_interface aws_ec2_local_gateway_virtual_interface} Data Source.
 func NewDataAwsEc2LocalGatewayVirtualInterface(scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayVirtualInterfaceConfig) DataAwsEc2LocalGatewayVirtualInterface {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewDataAwsEc2LocalGatewayVirtualInterface(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/data-sources/ec2_local_gateway_virtual_interface aws_ec2_local_gateway_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/ec2_local_gateway_virtual_interface aws_ec2_local_gateway_virtual_interface} Data Source.
 func NewDataAwsEc2LocalGatewayVirtualInterface_Override(d DataAwsEc2LocalGatewayVirtualInterface, scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewayVirtualInterfaceConfig) {
 	_init_.Initialize()
 

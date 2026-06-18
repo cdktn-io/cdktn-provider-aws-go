@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy}.
 type AppautoscalingPolicy interface {
 	cdktn.TerraformResource
 	AlarmArns() *[]*string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_AppautoscalingPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
 func NewAppautoscalingPolicy(scope constructs.Construct, id *string, config *AppautoscalingPolicyConfig) AppautoscalingPolicy {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewAppautoscalingPolicy(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/appautoscaling_policy aws_appautoscaling_policy} Resource.
 func NewAppautoscalingPolicy_Override(a AppautoscalingPolicy, scope constructs.Construct, id *string, config *AppautoscalingPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package observabilityadmintelemetrypipeline
 
 
 type ObservabilityadminTelemetryPipelineConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/observabilityadmin_telemetry_pipeline#body ObservabilityadminTelemetryPipeline#body}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/observabilityadmin_telemetry_pipeline#body ObservabilityadminTelemetryPipeline#body}.
 	Body *string `field:"required" json:"body" yaml:"body"`
 }
 

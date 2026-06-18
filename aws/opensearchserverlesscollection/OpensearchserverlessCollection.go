@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection}.
 type OpensearchserverlessCollection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -92,6 +92,8 @@ type OpensearchserverlessCollection interface {
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
+	VectorOptions() OpensearchserverlessCollectionVectorOptionsList
+	VectorOptionsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -137,6 +139,7 @@ type OpensearchserverlessCollection interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEncryptionConfig(value interface{})
 	PutTimeouts(value *OpensearchserverlessCollectionTimeouts)
+	PutVectorOptions(value interface{})
 	ResetCollectionGroupName()
 	ResetDescription()
 	ResetEncryptionConfig()
@@ -148,6 +151,7 @@ type OpensearchserverlessCollection interface {
 	ResetTags()
 	ResetTimeouts()
 	ResetType()
+	ResetVectorOptions()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -575,8 +579,28 @@ func (j *jsiiProxy_OpensearchserverlessCollection) TypeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_OpensearchserverlessCollection) VectorOptions() OpensearchserverlessCollectionVectorOptionsList {
+	var returns OpensearchserverlessCollectionVectorOptionsList
+	_jsii_.Get(
+		j,
+		"vectorOptions",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
+func (j *jsiiProxy_OpensearchserverlessCollection) VectorOptionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"vectorOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
 func NewOpensearchserverlessCollection(scope constructs.Construct, id *string, config *OpensearchserverlessCollectionConfig) OpensearchserverlessCollection {
 	_init_.Initialize()
 
@@ -594,7 +618,7 @@ func NewOpensearchserverlessCollection(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/opensearchserverless_collection aws_opensearchserverless_collection} Resource.
 func NewOpensearchserverlessCollection_Override(o OpensearchserverlessCollection, scope constructs.Construct, id *string, config *OpensearchserverlessCollectionConfig) {
 	_init_.Initialize()
 
@@ -1125,6 +1149,17 @@ func (o *jsiiProxy_OpensearchserverlessCollection) PutTimeouts(value *Opensearch
 	)
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollection) PutVectorOptions(value interface{}) {
+	if err := o.validatePutVectorOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putVectorOptions",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_OpensearchserverlessCollection) ResetCollectionGroupName() {
 	_jsii_.InvokeVoid(
 		o,
@@ -1193,6 +1228,14 @@ func (o *jsiiProxy_OpensearchserverlessCollection) ResetType() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetType",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchserverlessCollection) ResetVectorOptions() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetVectorOptions",
 		nil, // no parameters
 	)
 }

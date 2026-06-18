@@ -22,19 +22,19 @@ type Ec2SecondaryNetworkConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_secondary_network#ipv4_cidr_block Ec2SecondaryNetwork#ipv4_cidr_block}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_secondary_network#ipv4_cidr_block Ec2SecondaryNetwork#ipv4_cidr_block}.
 	Ipv4CidrBlock *string `field:"required" json:"ipv4CidrBlock" yaml:"ipv4CidrBlock"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}.
 	NetworkType *string `field:"required" json:"networkType" yaml:"networkType"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_secondary_network#region Ec2SecondaryNetwork#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_secondary_network#region Ec2SecondaryNetwork#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ec2_secondary_network#timeouts Ec2SecondaryNetwork#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ec2_secondary_network#timeouts Ec2SecondaryNetwork#timeouts}
 	Timeouts *Ec2SecondaryNetworkTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

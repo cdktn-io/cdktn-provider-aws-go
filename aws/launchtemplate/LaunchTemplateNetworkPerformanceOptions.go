@@ -5,7 +5,7 @@ package launchtemplate
 
 
 type LaunchTemplateNetworkPerformanceOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/launch_template#bandwidth_weighting LaunchTemplate#bandwidth_weighting}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/launch_template#bandwidth_weighting LaunchTemplate#bandwidth_weighting}.
 	BandwidthWeighting *string `field:"optional" json:"bandwidthWeighting" yaml:"bandwidthWeighting"`
 }
 

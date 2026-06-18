@@ -5,7 +5,7 @@ package ecsdaemontaskdefinition
 
 
 type EcsDaemonTaskDefinitionVolumeHost struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/ecs_daemon_task_definition#source_path EcsDaemonTaskDefinition#source_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#source_path EcsDaemonTaskDefinition#source_path}.
 	SourcePath *string `field:"optional" json:"sourcePath" yaml:"sourcePath"`
 }
 

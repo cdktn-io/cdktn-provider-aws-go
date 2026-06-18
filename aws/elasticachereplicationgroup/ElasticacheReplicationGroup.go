@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group}.
 type ElasticacheReplicationGroup interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -61,6 +61,9 @@ type ElasticacheReplicationGroup interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	Durability() *string
+	SetDurability(val *string)
+	DurabilityInput() *string
 	Engine() *string
 	SetEngine(val *string)
 	EngineInput() *string
@@ -251,6 +254,7 @@ type ElasticacheReplicationGroup interface {
 	ResetAutoMinorVersionUpgrade()
 	ResetClusterMode()
 	ResetDataTieringEnabled()
+	ResetDurability()
 	ResetEngine()
 	ResetEngineVersion()
 	ResetFinalSnapshotIdentifier()
@@ -570,6 +574,26 @@ func (j *jsiiProxy_ElasticacheReplicationGroup) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup) Durability() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"durability",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup) DurabilityInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"durabilityInput",
 		&returns,
 	)
 	return returns
@@ -1426,7 +1450,7 @@ func (j *jsiiProxy_ElasticacheReplicationGroup) UserGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
 func NewElasticacheReplicationGroup(scope constructs.Construct, id *string, config *ElasticacheReplicationGroupConfig) ElasticacheReplicationGroup {
 	_init_.Initialize()
 
@@ -1444,7 +1468,7 @@ func NewElasticacheReplicationGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
 func NewElasticacheReplicationGroup_Override(e ElasticacheReplicationGroup, scope constructs.Construct, id *string, config *ElasticacheReplicationGroupConfig) {
 	_init_.Initialize()
 
@@ -1580,6 +1604,17 @@ func (j *jsiiProxy_ElasticacheReplicationGroup)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup)SetDurability(val *string) {
+	if err := j.validateSetDurabilityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"durability",
 		val,
 	)
 }
@@ -2420,6 +2455,14 @@ func (e *jsiiProxy_ElasticacheReplicationGroup) ResetDataTieringEnabled() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetDataTieringEnabled",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheReplicationGroup) ResetDurability() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDurability",
 		nil, // no parameters
 	)
 }

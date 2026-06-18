@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy}.
 type ProxyProtocolPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ProxyProtocolPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
 func NewProxyProtocolPolicy(scope constructs.Construct, id *string, config *ProxyProtocolPolicyConfig) ProxyProtocolPolicy {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewProxyProtocolPolicy(scope constructs.Construct, id *string, config *Prox
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/proxy_protocol_policy aws_proxy_protocol_policy} Resource.
 func NewProxyProtocolPolicy_Override(p ProxyProtocolPolicy, scope constructs.Construct, id *string, config *ProxyProtocolPolicyConfig) {
 	_init_.Initialize()
 

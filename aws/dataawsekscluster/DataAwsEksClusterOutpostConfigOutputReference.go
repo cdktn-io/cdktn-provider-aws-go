@@ -30,6 +30,8 @@ type DataAwsEksClusterOutpostConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EtcdInstanceType() *string
+	EtcdPlacement() DataAwsEksClusterOutpostConfigEtcdPlacementList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsEksClusterOutpostConfig
@@ -127,6 +129,26 @@ func (j *jsiiProxy_DataAwsEksClusterOutpostConfigOutputReference) CreationStack(
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksClusterOutpostConfigOutputReference) EtcdInstanceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"etcdInstanceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksClusterOutpostConfigOutputReference) EtcdPlacement() DataAwsEksClusterOutpostConfigEtcdPlacementList {
+	var returns DataAwsEksClusterOutpostConfigEtcdPlacementList
+	_jsii_.Get(
+		j,
+		"etcdPlacement",
 		&returns,
 	)
 	return returns

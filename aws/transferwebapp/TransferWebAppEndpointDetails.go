@@ -7,7 +7,7 @@ package transferwebapp
 type TransferWebAppEndpointDetails struct {
 	// vpc block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
 	Vpc interface{} `field:"optional" json:"vpc" yaml:"vpc"`
 }
 

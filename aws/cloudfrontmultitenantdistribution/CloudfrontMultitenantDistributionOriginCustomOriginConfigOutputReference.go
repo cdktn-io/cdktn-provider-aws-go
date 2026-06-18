@@ -44,6 +44,8 @@ type CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference in
 	OriginKeepaliveTimeout() *float64
 	SetOriginKeepaliveTimeout(val *float64)
 	OriginKeepaliveTimeoutInput() *float64
+	OriginMtlsConfig() CloudfrontMultitenantDistributionOriginCustomOriginConfigOriginMtlsConfigList
+	OriginMtlsConfigInput() interface{}
 	OriginProtocolPolicy() *string
 	SetOriginProtocolPolicy(val *string)
 	OriginProtocolPolicyInput() *string
@@ -85,8 +87,10 @@ type CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOriginMtlsConfig(value interface{})
 	ResetIpAddressType()
 	ResetOriginKeepaliveTimeout()
+	ResetOriginMtlsConfig()
 	ResetOriginReadTimeout()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutp
 	_jsii_.Get(
 		j,
 		"originKeepaliveTimeoutInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference) OriginMtlsConfig() CloudfrontMultitenantDistributionOriginCustomOriginConfigOriginMtlsConfigList {
+	var returns CloudfrontMultitenantDistributionOriginCustomOriginConfigOriginMtlsConfigList
+	_jsii_.Get(
+		j,
+		"originMtlsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference) OriginMtlsConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"originMtlsConfigInput",
 		&returns,
 	)
 	return returns
@@ -659,6 +683,17 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutp
 	return returns
 }
 
+func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference) PutOriginMtlsConfig(value interface{}) {
+	if err := c.validatePutOriginMtlsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putOriginMtlsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference) ResetIpAddressType() {
 	_jsii_.InvokeVoid(
 		c,
@@ -671,6 +706,14 @@ func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutp
 	_jsii_.InvokeVoid(
 		c,
 		"resetOriginKeepaliveTimeout",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudfrontMultitenantDistributionOriginCustomOriginConfigOutputReference) ResetOriginMtlsConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOriginMtlsConfig",
 		nil, // no parameters
 	)
 }

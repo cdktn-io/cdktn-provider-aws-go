@@ -5,9 +5,9 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanWorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSet struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/arcregionswitch_plan#record_set_identifier ArcregionswitchPlan#record_set_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/arcregionswitch_plan#record_set_identifier ArcregionswitchPlan#record_set_identifier}.
 	RecordSetIdentifier *string `field:"required" json:"recordSetIdentifier" yaml:"recordSetIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.50.0/docs/resources/arcregionswitch_plan#region ArcregionswitchPlan#region}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/arcregionswitch_plan#region ArcregionswitchPlan#region}.
 	Region *string `field:"required" json:"region" yaml:"region"`
 }
 

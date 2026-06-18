@@ -67,6 +67,10 @@ func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateSetSpreadLevelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EksClusterOutpostConfigControlPlanePlacementOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

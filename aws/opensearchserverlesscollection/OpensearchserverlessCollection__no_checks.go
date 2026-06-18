@@ -83,6 +83,10 @@ func (o *jsiiProxy_OpensearchserverlessCollection) validatePutTimeoutsParameters
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollection) validatePutVectorOptionsParameters(value interface{}) error {
+	return nil
+}
+
 func validateOpensearchserverlessCollection_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

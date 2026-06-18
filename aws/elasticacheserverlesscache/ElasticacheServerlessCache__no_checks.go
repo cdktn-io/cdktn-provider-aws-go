@@ -135,6 +135,10 @@ func (j *jsiiProxy_ElasticacheServerlessCache) validateSetNameParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_ElasticacheServerlessCache) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ElasticacheServerlessCache) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }
