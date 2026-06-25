@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/iam_service_linked_role aws_iam_service_linked_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iam_service_linked_role aws_iam_service_linked_role}.
 type IamServiceLinkedRole interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_IamServiceLinkedRole) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/iam_service_linked_role aws_iam_service_linked_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iam_service_linked_role aws_iam_service_linked_role} Resource.
 func NewIamServiceLinkedRole(scope constructs.Construct, id *string, config *IamServiceLinkedRoleConfig) IamServiceLinkedRole {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewIamServiceLinkedRole(scope constructs.Construct, id *string, config *Iam
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/iam_service_linked_role aws_iam_service_linked_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/iam_service_linked_role aws_iam_service_linked_role} Resource.
 func NewIamServiceLinkedRole_Override(i IamServiceLinkedRole, scope constructs.Construct, id *string, config *IamServiceLinkedRoleConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
 type CeCostAllocationTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -376,7 +376,7 @@ func (j *jsiiProxy_CeCostAllocationTag) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) CeCostAllocationTag {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag_Override(c CeCostAllocationTag, scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) {
 	_init_.Initialize()
 

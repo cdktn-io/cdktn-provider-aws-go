@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/appstream_user aws_appstream_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appstream_user aws_appstream_user}.
 type AppstreamUser interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_AppstreamUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/appstream_user aws_appstream_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appstream_user aws_appstream_user} Resource.
 func NewAppstreamUser(scope constructs.Construct, id *string, config *AppstreamUserConfig) AppstreamUser {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewAppstreamUser(scope constructs.Construct, id *string, config *AppstreamU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/appstream_user aws_appstream_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/appstream_user aws_appstream_user} Resource.
 func NewAppstreamUser_Override(a AppstreamUser, scope constructs.Construct, id *string, config *AppstreamUserConfig) {
 	_init_.Initialize()
 

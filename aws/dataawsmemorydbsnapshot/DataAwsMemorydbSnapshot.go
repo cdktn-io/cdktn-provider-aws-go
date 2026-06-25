@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/memorydb_snapshot aws_memorydb_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/memorydb_snapshot aws_memorydb_snapshot}.
 type DataAwsMemorydbSnapshot interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataAwsMemorydbSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/memorydb_snapshot aws_memorydb_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/memorydb_snapshot aws_memorydb_snapshot} Data Source.
 func NewDataAwsMemorydbSnapshot(scope constructs.Construct, id *string, config *DataAwsMemorydbSnapshotConfig) DataAwsMemorydbSnapshot {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewDataAwsMemorydbSnapshot(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/memorydb_snapshot aws_memorydb_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/memorydb_snapshot aws_memorydb_snapshot} Data Source.
 func NewDataAwsMemorydbSnapshot_Override(d DataAwsMemorydbSnapshot, scope constructs.Construct, id *string, config *DataAwsMemorydbSnapshotConfig) {
 	_init_.Initialize()
 

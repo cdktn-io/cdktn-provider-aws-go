@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/network_acls aws_network_acls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/network_acls aws_network_acls}.
 type DataAwsNetworkAcls interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataAwsNetworkAcls) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) DataAwsNetworkAcls {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls_Override(d DataAwsNetworkAcls, scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) {
 	_init_.Initialize()
 

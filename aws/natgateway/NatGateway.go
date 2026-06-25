@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/nat_gateway aws_nat_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/nat_gateway aws_nat_gateway}.
 type NatGateway interface {
 	cdktn.TerraformResource
 	AllocationId() *string
@@ -743,7 +743,7 @@ func (j *jsiiProxy_NatGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/nat_gateway aws_nat_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/nat_gateway aws_nat_gateway} Resource.
 func NewNatGateway(scope constructs.Construct, id *string, config *NatGatewayConfig) NatGateway {
 	_init_.Initialize()
 
@@ -761,7 +761,7 @@ func NewNatGateway(scope constructs.Construct, id *string, config *NatGatewayCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/nat_gateway aws_nat_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/nat_gateway aws_nat_gateway} Resource.
 func NewNatGateway_Override(n NatGateway, scope constructs.Construct, id *string, config *NatGatewayConfig) {
 	_init_.Initialize()
 

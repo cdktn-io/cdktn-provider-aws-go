@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table}.
 type DynamodbGlobalTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DynamodbGlobalTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) DynamodbGlobalTable {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *Dyna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dynamodb_global_table aws_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable_Override(d DynamodbGlobalTable, scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) {
 	_init_.Initialize()
 

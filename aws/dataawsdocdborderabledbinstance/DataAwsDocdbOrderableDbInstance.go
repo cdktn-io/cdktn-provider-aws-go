@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance}.
 type DataAwsDocdbOrderableDbInstance interface {
 	cdktn.TerraformDataSource
 	AvailabilityZones() *[]*string
@@ -453,7 +453,7 @@ func (j *jsiiProxy_DataAwsDocdbOrderableDbInstance) VpcInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
 func NewDataAwsDocdbOrderableDbInstance(scope constructs.Construct, id *string, config *DataAwsDocdbOrderableDbInstanceConfig) DataAwsDocdbOrderableDbInstance {
 	_init_.Initialize()
 
@@ -471,7 +471,7 @@ func NewDataAwsDocdbOrderableDbInstance(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/docdb_orderable_db_instance aws_docdb_orderable_db_instance} Data Source.
 func NewDataAwsDocdbOrderableDbInstance_Override(d DataAwsDocdbOrderableDbInstance, scope constructs.Construct, id *string, config *DataAwsDocdbOrderableDbInstanceConfig) {
 	_init_.Initialize()
 

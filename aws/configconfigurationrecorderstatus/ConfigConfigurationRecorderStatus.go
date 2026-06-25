@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/config_configuration_recorder_status aws_config_configuration_recorder_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/config_configuration_recorder_status aws_config_configuration_recorder_status}.
 type ConfigConfigurationRecorderStatus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ConfigConfigurationRecorderStatus) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/config_configuration_recorder_status aws_config_configuration_recorder_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/config_configuration_recorder_status aws_config_configuration_recorder_status} Resource.
 func NewConfigConfigurationRecorderStatus(scope constructs.Construct, id *string, config *ConfigConfigurationRecorderStatusConfig) ConfigConfigurationRecorderStatus {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewConfigConfigurationRecorderStatus(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/config_configuration_recorder_status aws_config_configuration_recorder_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/config_configuration_recorder_status aws_config_configuration_recorder_status} Resource.
 func NewConfigConfigurationRecorderStatus_Override(c ConfigConfigurationRecorderStatus, scope constructs.Construct, id *string, config *ConfigConfigurationRecorderStatusConfig) {
 	_init_.Initialize()
 

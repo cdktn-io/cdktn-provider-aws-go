@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dx_connection_association aws_dx_connection_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dx_connection_association aws_dx_connection_association}.
 type DxConnectionAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DxConnectionAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
 func NewDxConnectionAssociation(scope constructs.Construct, id *string, config *DxConnectionAssociationConfig) DxConnectionAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDxConnectionAssociation(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dx_connection_association aws_dx_connection_association} Resource.
 func NewDxConnectionAssociation_Override(d DxConnectionAssociation, scope constructs.Construct, id *string, config *DxConnectionAssociationConfig) {
 	_init_.Initialize()
 

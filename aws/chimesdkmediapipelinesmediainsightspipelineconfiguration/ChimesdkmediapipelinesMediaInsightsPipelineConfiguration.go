@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration}.
 type ChimesdkmediapipelinesMediaInsightsPipelineConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) Tim
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
 func NewChimesdkmediapipelinesMediaInsightsPipelineConfiguration(scope constructs.Construct, id *string, config *ChimesdkmediapipelinesMediaInsightsPipelineConfigurationConfig) ChimesdkmediapipelinesMediaInsightsPipelineConfiguration {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewChimesdkmediapipelinesMediaInsightsPipelineConfiguration(scope construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/chimesdkmediapipelines_media_insights_pipeline_configuration aws_chimesdkmediapipelines_media_insights_pipeline_configuration} Resource.
 func NewChimesdkmediapipelinesMediaInsightsPipelineConfiguration_Override(c ChimesdkmediapipelinesMediaInsightsPipelineConfiguration, scope constructs.Construct, id *string, config *ChimesdkmediapipelinesMediaInsightsPipelineConfigurationConfig) {
 	_init_.Initialize()
 

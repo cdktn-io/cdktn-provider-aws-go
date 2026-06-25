@@ -5,15 +5,15 @@ package ecsdaemontaskdefinition
 
 
 type EcsDaemonTaskDefinitionContainerDefinitionHealthCheck struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#command EcsDaemonTaskDefinition#command}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_daemon_task_definition#command EcsDaemonTaskDefinition#command}.
 	Command *[]*string `field:"required" json:"command" yaml:"command"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#interval EcsDaemonTaskDefinition#interval}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_daemon_task_definition#interval EcsDaemonTaskDefinition#interval}.
 	Interval *float64 `field:"optional" json:"interval" yaml:"interval"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#retries EcsDaemonTaskDefinition#retries}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_daemon_task_definition#retries EcsDaemonTaskDefinition#retries}.
 	Retries *float64 `field:"optional" json:"retries" yaml:"retries"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#start_period EcsDaemonTaskDefinition#start_period}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_daemon_task_definition#start_period EcsDaemonTaskDefinition#start_period}.
 	StartPeriod *float64 `field:"optional" json:"startPeriod" yaml:"startPeriod"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/ecs_daemon_task_definition#timeout EcsDaemonTaskDefinition#timeout}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/ecs_daemon_task_definition#timeout EcsDaemonTaskDefinition#timeout}.
 	Timeout *float64 `field:"optional" json:"timeout" yaml:"timeout"`
 }
 

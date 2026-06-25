@@ -5,7 +5,7 @@ package eksaddon
 
 
 type EksAddonNamespaceConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/eks_addon#namespace EksAddon#namespace}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/eks_addon#namespace EksAddon#namespace}.
 	Namespace *string `field:"optional" json:"namespace" yaml:"namespace"`
 }
 

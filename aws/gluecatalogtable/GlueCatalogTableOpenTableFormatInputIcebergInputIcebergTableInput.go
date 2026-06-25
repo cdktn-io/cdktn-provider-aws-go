@@ -5,21 +5,21 @@ package gluecatalogtable
 
 
 type GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/glue_catalog_table#location GlueCatalogTable#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog_table#location GlueCatalogTable#location}.
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// schema block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/glue_catalog_table#schema GlueCatalogTable#schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog_table#schema GlueCatalogTable#schema}
 	Schema *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSchema `field:"required" json:"schema" yaml:"schema"`
 	// partition_spec block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/glue_catalog_table#partition_spec GlueCatalogTable#partition_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog_table#partition_spec GlueCatalogTable#partition_spec}
 	PartitionSpec *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputPartitionSpec `field:"optional" json:"partitionSpec" yaml:"partitionSpec"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/glue_catalog_table#properties GlueCatalogTable#properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog_table#properties GlueCatalogTable#properties}.
 	Properties *map[string]*string `field:"optional" json:"properties" yaml:"properties"`
 	// sort_order block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/glue_catalog_table#sort_order GlueCatalogTable#sort_order}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/glue_catalog_table#sort_order GlueCatalogTable#sort_order}
 	SortOrder *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInputSortOrder `field:"optional" json:"sortOrder" yaml:"sortOrder"`
 }
 

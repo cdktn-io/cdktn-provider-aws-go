@@ -24,6 +24,9 @@ type EksClusterVpcConfigOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ControlPlaneEgressMode() *string
+	SetControlPlaneEgressMode(val *string)
+	ControlPlaneEgressModeInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -81,6 +84,7 @@ type EksClusterVpcConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetControlPlaneEgressMode()
 	ResetEndpointPrivateAccess()
 	ResetEndpointPublicAccess()
 	ResetPublicAccessCidrs()
@@ -125,6 +129,26 @@ func (j *jsiiProxy_EksClusterVpcConfigOutputReference) ComplexObjectIsFromSet() 
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterVpcConfigOutputReference) ControlPlaneEgressMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"controlPlaneEgressMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterVpcConfigOutputReference) ControlPlaneEgressModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"controlPlaneEgressModeInput",
 		&returns,
 	)
 	return returns
@@ -336,6 +360,17 @@ func (j *jsiiProxy_EksClusterVpcConfigOutputReference)SetComplexObjectIsFromSet(
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterVpcConfigOutputReference)SetControlPlaneEgressMode(val *string) {
+	if err := j.validateSetControlPlaneEgressModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"controlPlaneEgressMode",
 		val,
 	)
 }
@@ -612,6 +647,14 @@ func (e *jsiiProxy_EksClusterVpcConfigOutputReference) InterpolationForAttribute
 	)
 
 	return returns
+}
+
+func (e *jsiiProxy_EksClusterVpcConfigOutputReference) ResetControlPlaneEgressMode() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetControlPlaneEgressMode",
+		nil, // no parameters
+	)
 }
 
 func (e *jsiiProxy_EksClusterVpcConfigOutputReference) ResetEndpointPrivateAccess() {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access}.
 type OrganizationsAwsServiceAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -329,7 +329,7 @@ func (j *jsiiProxy_OrganizationsAwsServiceAccess) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
 func NewOrganizationsAwsServiceAccess(scope constructs.Construct, id *string, config *OrganizationsAwsServiceAccessConfig) OrganizationsAwsServiceAccess {
 	_init_.Initialize()
 
@@ -347,7 +347,7 @@ func NewOrganizationsAwsServiceAccess(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
 func NewOrganizationsAwsServiceAccess_Override(o OrganizationsAwsServiceAccess, scope constructs.Construct, id *string, config *OrganizationsAwsServiceAccessConfig) {
 	_init_.Initialize()
 

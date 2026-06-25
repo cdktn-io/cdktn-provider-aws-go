@@ -5,7 +5,7 @@ package sagemakerdomain
 
 
 type SagemakerDomainDomainSettingsTrustedIdentityPropagationSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/sagemaker_domain#status SagemakerDomain#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_domain#status SagemakerDomain#status}.
 	Status *string `field:"required" json:"status" yaml:"status"`
 }
 

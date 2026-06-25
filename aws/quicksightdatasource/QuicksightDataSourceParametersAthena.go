@@ -5,9 +5,9 @@ package quicksightdatasource
 
 
 type QuicksightDataSourceParametersAthena struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_data_source#role_arn QuicksightDataSource#role_arn}.
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_data_source#work_group QuicksightDataSource#work_group}.
 	WorkGroup *string `field:"optional" json:"workGroup" yaml:"workGroup"`
 }
 

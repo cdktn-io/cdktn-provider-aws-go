@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/auditmanager_control aws_auditmanager_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/auditmanager_control aws_auditmanager_control}.
 type AuditmanagerControl interface {
 	cdktn.TerraformResource
 	ActionPlanInstructions() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_AuditmanagerControl) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
 func NewAuditmanagerControl(scope constructs.Construct, id *string, config *AuditmanagerControlConfig) AuditmanagerControl {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewAuditmanagerControl(scope constructs.Construct, id *string, config *Audi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/auditmanager_control aws_auditmanager_control} Resource.
 func NewAuditmanagerControl_Override(a AuditmanagerControl, scope constructs.Construct, id *string, config *AuditmanagerControlConfig) {
 	_init_.Initialize()
 

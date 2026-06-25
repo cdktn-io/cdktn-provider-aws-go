@@ -166,6 +166,14 @@ func (j *jsiiProxy_EksClusterVpcConfigOutputReference) validateSetComplexObjectI
 	return nil
 }
 
+func (j *jsiiProxy_EksClusterVpcConfigOutputReference) validateSetControlPlaneEgressModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_EksClusterVpcConfigOutputReference) validateSetEndpointPrivateAccessParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

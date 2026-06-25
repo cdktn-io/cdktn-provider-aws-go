@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition}.
 type CloudwatchQueryDefinition interface {
 	cdktn.TerraformResource
+	Arn() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -151,6 +152,16 @@ type CloudwatchQueryDefinition interface {
 // The jsii proxy struct for CloudwatchQueryDefinition
 type jsiiProxy_CloudwatchQueryDefinition struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_CloudwatchQueryDefinition) Arn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"arn",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_CloudwatchQueryDefinition) CdktfStack() cdktn.TerraformStack {
@@ -424,7 +435,7 @@ func (j *jsiiProxy_CloudwatchQueryDefinition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
 func NewCloudwatchQueryDefinition(scope constructs.Construct, id *string, config *CloudwatchQueryDefinitionConfig) CloudwatchQueryDefinition {
 	_init_.Initialize()
 
@@ -442,7 +453,7 @@ func NewCloudwatchQueryDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_query_definition aws_cloudwatch_query_definition} Resource.
 func NewCloudwatchQueryDefinition_Override(c CloudwatchQueryDefinition, scope constructs.Construct, id *string, config *CloudwatchQueryDefinitionConfig) {
 	_init_.Initialize()
 

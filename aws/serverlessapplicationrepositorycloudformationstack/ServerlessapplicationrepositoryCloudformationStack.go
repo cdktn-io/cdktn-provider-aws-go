@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack}.
 type ServerlessapplicationrepositoryCloudformationStack interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -135,6 +135,7 @@ type ServerlessapplicationrepositoryCloudformationStack interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *ServerlessapplicationrepositoryCloudformationStackTimeouts)
+	ResetCapabilities()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -543,7 +544,7 @@ func (j *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
 func NewServerlessapplicationrepositoryCloudformationStack(scope constructs.Construct, id *string, config *ServerlessapplicationrepositoryCloudformationStackConfig) ServerlessapplicationrepositoryCloudformationStack {
 	_init_.Initialize()
 
@@ -561,7 +562,7 @@ func NewServerlessapplicationrepositoryCloudformationStack(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/serverlessapplicationrepository_cloudformation_stack aws_serverlessapplicationrepository_cloudformation_stack} Resource.
 func NewServerlessapplicationrepositoryCloudformationStack_Override(s ServerlessapplicationrepositoryCloudformationStack, scope constructs.Construct, id *string, config *ServerlessapplicationrepositoryCloudformationStackConfig) {
 	_init_.Initialize()
 
@@ -1100,6 +1101,14 @@ func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) PutTimeou
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) ResetCapabilities() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetCapabilities",
+		nil, // no parameters
 	)
 }
 

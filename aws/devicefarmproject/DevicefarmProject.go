@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/devicefarm_project aws_devicefarm_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/devicefarm_project aws_devicefarm_project}.
 type DevicefarmProject interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_DevicefarmProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/devicefarm_project aws_devicefarm_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/devicefarm_project aws_devicefarm_project} Resource.
 func NewDevicefarmProject(scope constructs.Construct, id *string, config *DevicefarmProjectConfig) DevicefarmProject {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewDevicefarmProject(scope constructs.Construct, id *string, config *Device
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/devicefarm_project aws_devicefarm_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/devicefarm_project aws_devicefarm_project} Resource.
 func NewDevicefarmProject_Override(d DevicefarmProject, scope constructs.Construct, id *string, config *DevicefarmProjectConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package s3bucketabac
 
 
 type S3BucketAbacAbacStatus struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/s3_bucket_abac#status S3BucketAbac#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/s3_bucket_abac#status S3BucketAbac#status}.
 	Status *string `field:"required" json:"status" yaml:"status"`
 }
 

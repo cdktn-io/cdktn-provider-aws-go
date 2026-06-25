@@ -5,7 +5,7 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobInputDataConfigShuffleConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_training_job#seed SagemakerTrainingJob#seed}.
 	Seed *float64 `field:"optional" json:"seed" yaml:"seed"`
 }
 

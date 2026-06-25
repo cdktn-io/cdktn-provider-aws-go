@@ -59,6 +59,10 @@ func (j *jsiiProxy_EksClusterVpcConfigOutputReference) validateSetComplexObjectI
 	return nil
 }
 
+func (j *jsiiProxy_EksClusterVpcConfigOutputReference) validateSetControlPlaneEgressModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EksClusterVpcConfigOutputReference) validateSetEndpointPrivateAccessParameters(val interface{}) error {
 	return nil
 }

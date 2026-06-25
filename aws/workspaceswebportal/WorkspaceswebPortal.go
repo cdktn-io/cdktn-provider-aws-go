@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal}.
 type WorkspaceswebPortal interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -700,7 +700,7 @@ func (j *jsiiProxy_WorkspaceswebPortal) UserSettingsArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) WorkspaceswebPortal {
 	_init_.Initialize()
 
@@ -718,7 +718,7 @@ func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspacesweb_portal aws_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal_Override(w WorkspaceswebPortal, scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) {
 	_init_.Initialize()
 

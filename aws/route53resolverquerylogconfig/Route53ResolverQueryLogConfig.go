@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_resolver_query_log_config aws_route53_resolver_query_log_config}.
 type Route53ResolverQueryLogConfig interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_Route53ResolverQueryLogConfig) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Resource.
 func NewRoute53ResolverQueryLogConfig(scope constructs.Construct, id *string, config *Route53ResolverQueryLogConfigConfig) Route53ResolverQueryLogConfig {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewRoute53ResolverQueryLogConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/route53_resolver_query_log_config aws_route53_resolver_query_log_config} Resource.
 func NewRoute53ResolverQueryLogConfig_Override(r Route53ResolverQueryLogConfig, scope constructs.Construct, id *string, config *Route53ResolverQueryLogConfigConfig) {
 	_init_.Initialize()
 

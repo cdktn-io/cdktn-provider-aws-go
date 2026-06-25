@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/quicksight_role_membership aws_quicksight_role_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_role_membership aws_quicksight_role_membership}.
 type QuicksightRoleMembership interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_QuicksightRoleMembership) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/quicksight_role_membership aws_quicksight_role_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_role_membership aws_quicksight_role_membership} Resource.
 func NewQuicksightRoleMembership(scope constructs.Construct, id *string, config *QuicksightRoleMembershipConfig) QuicksightRoleMembership {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewQuicksightRoleMembership(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/quicksight_role_membership aws_quicksight_role_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_role_membership aws_quicksight_role_membership} Resource.
 func NewQuicksightRoleMembership_Override(q QuicksightRoleMembership, scope constructs.Construct, id *string, config *QuicksightRoleMembershipConfig) {
 	_init_.Initialize()
 

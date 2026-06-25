@@ -5,9 +5,9 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessToolConfigInlineFunction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/bedrockagentcore_harness#description BedrockagentcoreHarness#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_harness#description BedrockagentcoreHarness#description}.
 	Description *string `field:"required" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/bedrockagentcore_harness#input_schema BedrockagentcoreHarness#input_schema}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_harness#input_schema BedrockagentcoreHarness#input_schema}.
 	InputSchema *string `field:"required" json:"inputSchema" yaml:"inputSchema"`
 }
 

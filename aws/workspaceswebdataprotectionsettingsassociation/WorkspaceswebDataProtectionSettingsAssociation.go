@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association}.
 type WorkspaceswebDataProtectionSettingsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -365,7 +365,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
 func NewWorkspaceswebDataProtectionSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsAssociationConfig) WorkspaceswebDataProtectionSettingsAssociation {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewWorkspaceswebDataProtectionSettingsAssociation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.51.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
 func NewWorkspaceswebDataProtectionSettingsAssociation_Override(w WorkspaceswebDataProtectionSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsAssociationConfig) {
 	_init_.Initialize()
 
