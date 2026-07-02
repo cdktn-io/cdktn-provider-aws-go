@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance}.
 type DataAwsRdsOrderableDbInstance interface {
 	cdktn.TerraformDataSource
 	AvailabilityZoneGroup() *string
@@ -948,7 +948,7 @@ func (j *jsiiProxy_DataAwsRdsOrderableDbInstance) VpcInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance} Data Source.
 func NewDataAwsRdsOrderableDbInstance(scope constructs.Construct, id *string, config *DataAwsRdsOrderableDbInstanceConfig) DataAwsRdsOrderableDbInstance {
 	_init_.Initialize()
 
@@ -966,7 +966,7 @@ func NewDataAwsRdsOrderableDbInstance(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/rds_orderable_db_instance aws_rds_orderable_db_instance} Data Source.
 func NewDataAwsRdsOrderableDbInstance_Override(d DataAwsRdsOrderableDbInstance, scope constructs.Construct, id *string, config *DataAwsRdsOrderableDbInstanceConfig) {
 	_init_.Initialize()
 

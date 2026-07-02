@@ -12,13 +12,17 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser}.
 type BedrockagentcoreBrowser interface {
 	cdktn.TerraformResource
 	BrowserArn() *string
 	BrowserId() *string
+	BrowserSigning() BedrockagentcoreBrowserBrowserSigningList
+	BrowserSigningInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	Certificate() BedrockagentcoreBrowserCertificateList
+	CertificateInput() interface{}
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,6 +40,8 @@ type BedrockagentcoreBrowser interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	EnterprisePolicy() BedrockagentcoreBrowserEnterprisePolicyList
+	EnterprisePolicyInput() interface{}
 	ExecutionRoleArn() *string
 	SetExecutionRoleArn(val *string)
 	ExecutionRoleArnInput() *string
@@ -128,10 +134,16 @@ type BedrockagentcoreBrowser interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutBrowserSigning(value interface{})
+	PutCertificate(value interface{})
+	PutEnterprisePolicy(value interface{})
 	PutNetworkConfiguration(value interface{})
 	PutRecording(value interface{})
 	PutTimeouts(value *BedrockagentcoreBrowserTimeouts)
+	ResetBrowserSigning()
+	ResetCertificate()
 	ResetDescription()
+	ResetEnterprisePolicy()
 	ResetExecutionRoleArn()
 	ResetNetworkConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -188,11 +200,51 @@ func (j *jsiiProxy_BedrockagentcoreBrowser) BrowserId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreBrowser) BrowserSigning() BedrockagentcoreBrowserBrowserSigningList {
+	var returns BedrockagentcoreBrowserBrowserSigningList
+	_jsii_.Get(
+		j,
+		"browserSigning",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreBrowser) BrowserSigningInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"browserSigningInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreBrowser) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreBrowser) Certificate() BedrockagentcoreBrowserCertificateList {
+	var returns BedrockagentcoreBrowserCertificateList
+	_jsii_.Get(
+		j,
+		"certificate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreBrowser) CertificateInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"certificateInput",
 		&returns,
 	)
 	return returns
@@ -253,6 +305,26 @@ func (j *jsiiProxy_BedrockagentcoreBrowser) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreBrowser) EnterprisePolicy() BedrockagentcoreBrowserEnterprisePolicyList {
+	var returns BedrockagentcoreBrowserEnterprisePolicyList
+	_jsii_.Get(
+		j,
+		"enterprisePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreBrowser) EnterprisePolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enterprisePolicyInput",
 		&returns,
 	)
 	return returns
@@ -519,7 +591,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowser) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
 func NewBedrockagentcoreBrowser(scope constructs.Construct, id *string, config *BedrockagentcoreBrowserConfig) BedrockagentcoreBrowser {
 	_init_.Initialize()
 
@@ -537,7 +609,7 @@ func NewBedrockagentcoreBrowser(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser aws_bedrockagentcore_browser} Resource.
 func NewBedrockagentcoreBrowser_Override(b BedrockagentcoreBrowser, scope constructs.Construct, id *string, config *BedrockagentcoreBrowserConfig) {
 	_init_.Initialize()
 
@@ -1024,6 +1096,39 @@ func (b *jsiiProxy_BedrockagentcoreBrowser) OverrideLogicalId(newLogicalId *stri
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreBrowser) PutBrowserSigning(value interface{}) {
+	if err := b.validatePutBrowserSigningParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putBrowserSigning",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreBrowser) PutCertificate(value interface{}) {
+	if err := b.validatePutCertificateParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCertificate",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreBrowser) PutEnterprisePolicy(value interface{}) {
+	if err := b.validatePutEnterprisePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putEnterprisePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreBrowser) PutNetworkConfiguration(value interface{}) {
 	if err := b.validatePutNetworkConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1057,10 +1162,34 @@ func (b *jsiiProxy_BedrockagentcoreBrowser) PutTimeouts(value *BedrockagentcoreB
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreBrowser) ResetBrowserSigning() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetBrowserSigning",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreBrowser) ResetCertificate() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCertificate",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreBrowser) ResetDescription() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreBrowser) ResetEnterprisePolicy() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetEnterprisePolicy",
 		nil, // no parameters
 	)
 }

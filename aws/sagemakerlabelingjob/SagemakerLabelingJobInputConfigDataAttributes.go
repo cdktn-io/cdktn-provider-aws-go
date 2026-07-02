@@ -5,7 +5,7 @@ package sagemakerlabelingjob
 
 
 type SagemakerLabelingJobInputConfigDataAttributes struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_labeling_job#content_classifiers SagemakerLabelingJob#content_classifiers}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_labeling_job#content_classifiers SagemakerLabelingJob#content_classifiers}.
 	ContentClassifiers *[]*string `field:"optional" json:"contentClassifiers" yaml:"contentClassifiers"`
 }
 

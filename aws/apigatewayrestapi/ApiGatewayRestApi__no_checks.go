@@ -123,6 +123,10 @@ func (j *jsiiProxy_ApiGatewayRestApi) validateSetDisableExecuteApiEndpointParame
 	return nil
 }
 
+func (j *jsiiProxy_ApiGatewayRestApi) validateSetEndpointAccessModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApiGatewayRestApi) validateSetFailOnWarningsParameters(val interface{}) error {
 	return nil
 }
@@ -160,6 +164,10 @@ func (j *jsiiProxy_ApiGatewayRestApi) validateSetPutRestApiModeParameters(val *s
 }
 
 func (j *jsiiProxy_ApiGatewayRestApi) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ApiGatewayRestApi) validateSetSecurityPolicyParameters(val *string) error {
 	return nil
 }
 

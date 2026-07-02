@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/s3files_file_systems aws_s3files_file_systems}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3files_file_systems aws_s3files_file_systems}.
 type DataAwsS3FilesFileSystems interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsS3FilesFileSystems) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/s3files_file_systems aws_s3files_file_systems} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3files_file_systems aws_s3files_file_systems} Data Source.
 func NewDataAwsS3FilesFileSystems(scope constructs.Construct, id *string, config *DataAwsS3FilesFileSystemsConfig) DataAwsS3FilesFileSystems {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataAwsS3FilesFileSystems(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/s3files_file_systems aws_s3files_file_systems} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/s3files_file_systems aws_s3files_file_systems} Data Source.
 func NewDataAwsS3FilesFileSystems_Override(d DataAwsS3FilesFileSystems, scope constructs.Construct, id *string, config *DataAwsS3FilesFileSystemsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number}.
 type Pinpointsmsvoicev2PhoneNumber interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -35,6 +35,9 @@ type Pinpointsmsvoicev2PhoneNumber interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	ForceDisassociate() interface{}
+	SetForceDisassociate(val interface{})
+	ForceDisassociateInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -152,6 +155,7 @@ type Pinpointsmsvoicev2PhoneNumber interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *Pinpointsmsvoicev2PhoneNumberTimeouts)
 	ResetDeletionProtectionEnabled()
+	ResetForceDisassociate()
 	ResetOptOutListName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -266,6 +270,26 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) ForceDisassociate() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceDisassociate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) ForceDisassociateInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"forceDisassociateInput",
 		&returns,
 	)
 	return returns
@@ -682,7 +706,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) TwoWayChannelRoleInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
 func NewPinpointsmsvoicev2PhoneNumber(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PhoneNumberConfig) Pinpointsmsvoicev2PhoneNumber {
 	_init_.Initialize()
 
@@ -700,7 +724,7 @@ func NewPinpointsmsvoicev2PhoneNumber(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
 func NewPinpointsmsvoicev2PhoneNumber_Override(p Pinpointsmsvoicev2PhoneNumber, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PhoneNumberConfig) {
 	_init_.Initialize()
 
@@ -748,6 +772,17 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber)SetForceDisassociate(val interface{}) {
+	if err := j.validateSetForceDisassociateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forceDisassociate",
 		val,
 	)
 }
@@ -1290,6 +1325,14 @@ func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) ResetDeletionProtectionEnabled
 	_jsii_.InvokeVoid(
 		p,
 		"resetDeletionProtectionEnabled",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) ResetForceDisassociate() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetForceDisassociate",
 		nil, // no parameters
 	)
 }

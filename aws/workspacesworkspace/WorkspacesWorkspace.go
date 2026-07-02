@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspaces_workspace aws_workspaces_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace aws_workspaces_workspace}.
 type WorkspacesWorkspace interface {
 	cdktn.TerraformResource
 	BundleId() *string
@@ -613,7 +613,7 @@ func (j *jsiiProxy_WorkspacesWorkspace) WorkspacePropertiesInput() *WorkspacesWo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
 func NewWorkspacesWorkspace(scope constructs.Construct, id *string, config *WorkspacesWorkspaceConfig) WorkspacesWorkspace {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewWorkspacesWorkspace(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/workspaces_workspace aws_workspaces_workspace} Resource.
 func NewWorkspacesWorkspace_Override(w WorkspacesWorkspace, scope constructs.Construct, id *string, config *WorkspacesWorkspaceConfig) {
 	_init_.Initialize()
 

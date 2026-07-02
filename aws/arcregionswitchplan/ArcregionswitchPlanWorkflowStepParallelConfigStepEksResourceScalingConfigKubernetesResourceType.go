@@ -5,9 +5,9 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanWorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceType struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/arcregionswitch_plan#api_version ArcregionswitchPlan#api_version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arcregionswitch_plan#api_version ArcregionswitchPlan#api_version}.
 	ApiVersion *string `field:"required" json:"apiVersion" yaml:"apiVersion"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/arcregionswitch_plan#kind ArcregionswitchPlan#kind}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arcregionswitch_plan#kind ArcregionswitchPlan#kind}.
 	Kind *string `field:"required" json:"kind" yaml:"kind"`
 }
 

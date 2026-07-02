@@ -5,7 +5,7 @@ package mskconnectworkerconfiguration
 
 
 type MskconnectWorkerConfigurationTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/mskconnect_worker_configuration#delete MskconnectWorkerConfiguration#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mskconnect_worker_configuration#delete MskconnectWorkerConfiguration#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
 }
 

@@ -400,6 +400,14 @@ func (j *jsiiProxy_ApiGatewayRestApi) validateSetDisableExecuteApiEndpointParame
 	return nil
 }
 
+func (j *jsiiProxy_ApiGatewayRestApi) validateSetEndpointAccessModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ApiGatewayRestApi) validateSetFailOnWarningsParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -523,6 +531,14 @@ func (j *jsiiProxy_ApiGatewayRestApi) validateSetPutRestApiModeParameters(val *s
 }
 
 func (j *jsiiProxy_ApiGatewayRestApi) validateSetRegionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ApiGatewayRestApi) validateSetSecurityPolicyParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

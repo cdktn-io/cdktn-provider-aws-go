@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_template aws_quicksight_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template aws_quicksight_template}.
 type QuicksightTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -646,7 +646,7 @@ func (j *jsiiProxy_QuicksightTemplate) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
 func NewQuicksightTemplate(scope constructs.Construct, id *string, config *QuicksightTemplateConfig) QuicksightTemplate {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewQuicksightTemplate(scope constructs.Construct, id *string, config *Quick
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/quicksight_template aws_quicksight_template} Resource.
 func NewQuicksightTemplate_Override(q QuicksightTemplate, scope constructs.Construct, id *string, config *QuicksightTemplateConfig) {
 	_init_.Initialize()
 

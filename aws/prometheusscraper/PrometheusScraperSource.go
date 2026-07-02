@@ -7,11 +7,11 @@ package prometheusscraper
 type PrometheusScraperSource struct {
 	// eks block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/prometheus_scraper#eks PrometheusScraper#eks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/prometheus_scraper#eks PrometheusScraper#eks}
 	Eks interface{} `field:"optional" json:"eks" yaml:"eks"`
 	// vpc block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/prometheus_scraper#vpc PrometheusScraper#vpc}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/prometheus_scraper#vpc PrometheusScraper#vpc}
 	Vpc interface{} `field:"optional" json:"vpc" yaml:"vpc"`
 }
 

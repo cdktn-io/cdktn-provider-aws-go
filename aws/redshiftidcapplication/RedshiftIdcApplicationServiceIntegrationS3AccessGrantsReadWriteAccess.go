@@ -5,7 +5,7 @@ package redshiftidcapplication
 
 
 type RedshiftIdcApplicationServiceIntegrationS3AccessGrantsReadWriteAccess struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshift_idc_application#authorization RedshiftIdcApplication#authorization}.
 	Authorization *string `field:"required" json:"authorization" yaml:"authorization"`
 }
 

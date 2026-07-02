@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group}.
 type GameliftGameServerGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -671,7 +671,7 @@ func (j *jsiiProxy_GameliftGameServerGroup) VpcSubnetsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) GameliftGameServerGroup {
 	_init_.Initialize()
 
@@ -689,7 +689,7 @@ func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup_Override(g GameliftGameServerGroup, scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) {
 	_init_.Initialize()
 

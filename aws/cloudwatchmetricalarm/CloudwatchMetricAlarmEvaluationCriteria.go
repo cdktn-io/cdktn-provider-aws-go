@@ -7,7 +7,7 @@ package cloudwatchmetricalarm
 type CloudwatchMetricAlarmEvaluationCriteria struct {
 	// promql_criteria block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/cloudwatch_metric_alarm#promql_criteria CloudwatchMetricAlarm#promql_criteria}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudwatch_metric_alarm#promql_criteria CloudwatchMetricAlarm#promql_criteria}
 	PromqlCriteria *CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteria `field:"required" json:"promqlCriteria" yaml:"promqlCriteria"`
 }
 

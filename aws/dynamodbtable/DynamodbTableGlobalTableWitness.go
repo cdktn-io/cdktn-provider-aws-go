@@ -5,7 +5,7 @@ package dynamodbtable
 
 
 type DynamodbTableGlobalTableWitness struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.
 	RegionName *string `field:"optional" json:"regionName" yaml:"regionName"`
 }
 

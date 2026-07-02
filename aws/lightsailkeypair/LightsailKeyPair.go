@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair}.
 type LightsailKeyPair interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_LightsailKeyPair) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
 func NewLightsailKeyPair(scope constructs.Construct, id *string, config *LightsailKeyPairConfig) LightsailKeyPair {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewLightsailKeyPair(scope constructs.Construct, id *string, config *Lightsa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lightsail_key_pair aws_lightsail_key_pair} Resource.
 func NewLightsailKeyPair_Override(l LightsailKeyPair, scope constructs.Construct, id *string, config *LightsailKeyPairConfig) {
 	_init_.Initialize()
 

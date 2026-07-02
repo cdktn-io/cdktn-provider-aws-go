@@ -107,6 +107,10 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateSetDeletionProtectionE
 	return nil
 }
 
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateSetForceDisassociateParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateSetIsoCountryCodeParameters(val *string) error {
 	return nil
 }

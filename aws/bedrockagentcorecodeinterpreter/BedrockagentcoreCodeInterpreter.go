@@ -12,11 +12,13 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter}.
 type BedrockagentcoreCodeInterpreter interface {
 	cdktn.TerraformResource
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	Certificate() BedrockagentcoreCodeInterpreterCertificateList
+	CertificateInput() interface{}
 	CodeInterpreterArn() *string
 	CodeInterpreterId() *string
 	// Experimental.
@@ -126,8 +128,10 @@ type BedrockagentcoreCodeInterpreter interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCertificate(value interface{})
 	PutNetworkConfiguration(value interface{})
 	PutTimeouts(value *BedrockagentcoreCodeInterpreterTimeouts)
+	ResetCertificate()
 	ResetDescription()
 	ResetExecutionRoleArn()
 	ResetNetworkConfiguration()
@@ -169,6 +173,26 @@ func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) CdktfStack() cdktn.Terraform
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) Certificate() BedrockagentcoreCodeInterpreterCertificateList {
+	var returns BedrockagentcoreCodeInterpreterCertificateList
+	_jsii_.Get(
+		j,
+		"certificate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) CertificateInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"certificateInput",
 		&returns,
 	)
 	return returns
@@ -495,7 +519,7 @@ func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
 func NewBedrockagentcoreCodeInterpreter(scope constructs.Construct, id *string, config *BedrockagentcoreCodeInterpreterConfig) BedrockagentcoreCodeInterpreter {
 	_init_.Initialize()
 
@@ -513,7 +537,7 @@ func NewBedrockagentcoreCodeInterpreter(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
 func NewBedrockagentcoreCodeInterpreter_Override(b BedrockagentcoreCodeInterpreter, scope constructs.Construct, id *string, config *BedrockagentcoreCodeInterpreterConfig) {
 	_init_.Initialize()
 
@@ -1000,6 +1024,17 @@ func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) OverrideLogicalId(newLogical
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) PutCertificate(value interface{}) {
+	if err := b.validatePutCertificateParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCertificate",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) PutNetworkConfiguration(value interface{}) {
 	if err := b.validatePutNetworkConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1019,6 +1054,14 @@ func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) PutTimeouts(value *Bedrockag
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) ResetCertificate() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCertificate",
+		nil, // no parameters
 	)
 }
 

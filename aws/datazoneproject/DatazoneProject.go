@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/datazone_project aws_datazone_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_project aws_datazone_project}.
 type DatazoneProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_DatazoneProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/datazone_project aws_datazone_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_project aws_datazone_project} Resource.
 func NewDatazoneProject(scope constructs.Construct, id *string, config *DatazoneProjectConfig) DatazoneProject {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewDatazoneProject(scope constructs.Construct, id *string, config *Datazone
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/datazone_project aws_datazone_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/datazone_project aws_datazone_project} Resource.
 func NewDatazoneProject_Override(d DatazoneProject, scope constructs.Construct, id *string, config *DatazoneProjectConfig) {
 	_init_.Initialize()
 

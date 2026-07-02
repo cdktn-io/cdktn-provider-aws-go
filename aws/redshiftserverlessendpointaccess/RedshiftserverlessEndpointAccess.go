@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/redshiftserverless_endpoint_access aws_redshiftserverless_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftserverless_endpoint_access aws_redshiftserverless_endpoint_access}.
 type RedshiftserverlessEndpointAccess interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -504,7 +504,7 @@ func (j *jsiiProxy_RedshiftserverlessEndpointAccess) WorkgroupNameInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/redshiftserverless_endpoint_access aws_redshiftserverless_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftserverless_endpoint_access aws_redshiftserverless_endpoint_access} Resource.
 func NewRedshiftserverlessEndpointAccess(scope constructs.Construct, id *string, config *RedshiftserverlessEndpointAccessConfig) RedshiftserverlessEndpointAccess {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewRedshiftserverlessEndpointAccess(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/redshiftserverless_endpoint_access aws_redshiftserverless_endpoint_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/redshiftserverless_endpoint_access aws_redshiftserverless_endpoint_access} Resource.
 func NewRedshiftserverlessEndpointAccess_Override(r RedshiftserverlessEndpointAccess, scope constructs.Construct, id *string, config *RedshiftserverlessEndpointAccessConfig) {
 	_init_.Initialize()
 

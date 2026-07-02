@@ -207,6 +207,37 @@ func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) validatePutCertificateParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*BedrockagentcoreCodeInterpreterCertificate:
+		value := value.(*[]*BedrockagentcoreCodeInterpreterCertificate)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentcoreCodeInterpreterCertificate:
+		value_ := value.([]*BedrockagentcoreCodeInterpreterCertificate)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreCodeInterpreterCertificate; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) validatePutNetworkConfigurationParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

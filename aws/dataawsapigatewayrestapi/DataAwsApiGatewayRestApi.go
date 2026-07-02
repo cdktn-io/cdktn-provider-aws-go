@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/api_gateway_rest_api aws_api_gateway_rest_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/api_gateway_rest_api aws_api_gateway_rest_api}.
 type DataAwsApiGatewayRestApi interface {
 	cdktn.TerraformDataSource
 	ApiKeySource() *string
@@ -31,6 +31,7 @@ type DataAwsApiGatewayRestApi interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
+	EndpointAccessMode() *string
 	EndpointConfiguration() DataAwsApiGatewayRestApiEndpointConfigurationList
 	ExecutionArn() *string
 	// Experimental.
@@ -65,6 +66,7 @@ type DataAwsApiGatewayRestApi interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	RootResourceId() *string
+	SecurityPolicy() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -208,6 +210,16 @@ func (j *jsiiProxy_DataAwsApiGatewayRestApi) Description() *string {
 	_jsii_.Get(
 		j,
 		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsApiGatewayRestApi) EndpointAccessMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointAccessMode",
 		&returns,
 	)
 	return returns
@@ -393,6 +405,16 @@ func (j *jsiiProxy_DataAwsApiGatewayRestApi) RootResourceId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsApiGatewayRestApi) SecurityPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"securityPolicy",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsApiGatewayRestApi) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -444,7 +466,7 @@ func (j *jsiiProxy_DataAwsApiGatewayRestApi) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/api_gateway_rest_api aws_api_gateway_rest_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/api_gateway_rest_api aws_api_gateway_rest_api} Data Source.
 func NewDataAwsApiGatewayRestApi(scope constructs.Construct, id *string, config *DataAwsApiGatewayRestApiConfig) DataAwsApiGatewayRestApi {
 	_init_.Initialize()
 
@@ -462,7 +484,7 @@ func NewDataAwsApiGatewayRestApi(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/data-sources/api_gateway_rest_api aws_api_gateway_rest_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/api_gateway_rest_api aws_api_gateway_rest_api} Data Source.
 func NewDataAwsApiGatewayRestApi_Override(d DataAwsApiGatewayRestApi, scope constructs.Construct, id *string, config *DataAwsApiGatewayRestApiConfig) {
 	_init_.Initialize()
 

@@ -75,6 +75,18 @@ func (b *jsiiProxy_BedrockagentcoreBrowser) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreBrowser) validatePutBrowserSigningParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreBrowser) validatePutCertificateParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreBrowser) validatePutEnterprisePolicyParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreBrowser) validatePutNetworkConfigurationParameters(value interface{}) error {
 	return nil
 }

@@ -75,6 +75,10 @@ func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) validatePutCertificateParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreCodeInterpreter) validatePutNetworkConfigurationParameters(value interface{}) error {
 	return nil
 }

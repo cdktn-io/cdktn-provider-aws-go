@@ -5,11 +5,11 @@ package sagemakeralgorithm
 
 
 type SagemakerAlgorithmValidationSpecification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#validation_role SagemakerAlgorithm#validation_role}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_algorithm#validation_role SagemakerAlgorithm#validation_role}.
 	ValidationRole *string `field:"required" json:"validationRole" yaml:"validationRole"`
 	// validation_profiles block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/sagemaker_algorithm#validation_profiles SagemakerAlgorithm#validation_profiles}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_algorithm#validation_profiles SagemakerAlgorithm#validation_profiles}
 	ValidationProfiles interface{} `field:"optional" json:"validationProfiles" yaml:"validationProfiles"`
 }
 

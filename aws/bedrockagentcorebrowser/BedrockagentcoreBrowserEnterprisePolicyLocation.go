@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package bedrockagentcorebrowser
+
+
+type BedrockagentcoreBrowserEnterprisePolicyLocation struct {
+	// s3 block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser#s3 BedrockagentcoreBrowser#s3}
+	S3 interface{} `field:"optional" json:"s3" yaml:"s3"`
+}
+

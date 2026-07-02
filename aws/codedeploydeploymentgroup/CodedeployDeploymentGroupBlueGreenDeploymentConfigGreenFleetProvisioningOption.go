@@ -5,7 +5,7 @@ package codedeploydeploymentgroup
 
 
 type CodedeployDeploymentGroupBlueGreenDeploymentConfigGreenFleetProvisioningOption struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}.
 	Action *string `field:"optional" json:"action" yaml:"action"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api}.
 type ApiGatewayRestApi interface {
 	cdktn.TerraformResource
 	ApiKeySource() *string
@@ -48,6 +48,9 @@ type ApiGatewayRestApi interface {
 	DisableExecuteApiEndpoint() interface{}
 	SetDisableExecuteApiEndpoint(val interface{})
 	DisableExecuteApiEndpointInput() interface{}
+	EndpointAccessMode() *string
+	SetEndpointAccessMode(val *string)
+	EndpointAccessModeInput() *string
 	EndpointConfiguration() ApiGatewayRestApiEndpointConfigurationOutputReference
 	EndpointConfigurationInput() *ApiGatewayRestApiEndpointConfiguration
 	ExecutionArn() *string
@@ -100,6 +103,9 @@ type ApiGatewayRestApi interface {
 	SetRegion(val *string)
 	RegionInput() *string
 	RootResourceId() *string
+	SecurityPolicy() *string
+	SetSecurityPolicy(val *string)
+	SecurityPolicyInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -161,6 +167,7 @@ type ApiGatewayRestApi interface {
 	ResetBody()
 	ResetDescription()
 	ResetDisableExecuteApiEndpoint()
+	ResetEndpointAccessMode()
 	ResetEndpointConfiguration()
 	ResetFailOnWarnings()
 	ResetId()
@@ -172,6 +179,7 @@ type ApiGatewayRestApi interface {
 	ResetPolicy()
 	ResetPutRestApiMode()
 	ResetRegion()
+	ResetSecurityPolicy()
 	ResetTags()
 	ResetTagsAll()
 	SynthesizeAttributes() *map[string]interface{}
@@ -366,6 +374,26 @@ func (j *jsiiProxy_ApiGatewayRestApi) DisableExecuteApiEndpointInput() interface
 	_jsii_.Get(
 		j,
 		"disableExecuteApiEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiGatewayRestApi) EndpointAccessMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointAccessMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiGatewayRestApi) EndpointAccessModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointAccessModeInput",
 		&returns,
 	)
 	return returns
@@ -651,6 +679,26 @@ func (j *jsiiProxy_ApiGatewayRestApi) RootResourceId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ApiGatewayRestApi) SecurityPolicy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"securityPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiGatewayRestApi) SecurityPolicyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"securityPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApiGatewayRestApi) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -722,7 +770,7 @@ func (j *jsiiProxy_ApiGatewayRestApi) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
 func NewApiGatewayRestApi(scope constructs.Construct, id *string, config *ApiGatewayRestApiConfig) ApiGatewayRestApi {
 	_init_.Initialize()
 
@@ -740,7 +788,7 @@ func NewApiGatewayRestApi(scope constructs.Construct, id *string, config *ApiGat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.52.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.
 func NewApiGatewayRestApi_Override(a ApiGatewayRestApi, scope constructs.Construct, id *string, config *ApiGatewayRestApiConfig) {
 	_init_.Initialize()
 
@@ -832,6 +880,17 @@ func (j *jsiiProxy_ApiGatewayRestApi)SetDisableExecuteApiEndpoint(val interface{
 	_jsii_.Set(
 		j,
 		"disableExecuteApiEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiGatewayRestApi)SetEndpointAccessMode(val *string) {
+	if err := j.validateSetEndpointAccessModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endpointAccessMode",
 		val,
 	)
 }
@@ -958,6 +1017,17 @@ func (j *jsiiProxy_ApiGatewayRestApi)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiGatewayRestApi)SetSecurityPolicy(val *string) {
+	if err := j.validateSetSecurityPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"securityPolicy",
 		val,
 	)
 }
@@ -1388,6 +1458,14 @@ func (a *jsiiProxy_ApiGatewayRestApi) ResetDisableExecuteApiEndpoint() {
 	)
 }
 
+func (a *jsiiProxy_ApiGatewayRestApi) ResetEndpointAccessMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEndpointAccessMode",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApiGatewayRestApi) ResetEndpointConfiguration() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1456,6 +1534,14 @@ func (a *jsiiProxy_ApiGatewayRestApi) ResetRegion() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiGatewayRestApi) ResetSecurityPolicy() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetSecurityPolicy",
 		nil, // no parameters
 	)
 }
