@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration}.
 type PrometheusWorkspaceConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -47,6 +47,9 @@ type PrometheusWorkspaceConfiguration interface {
 	LimitsPerLabelSetInput() interface{}
 	// The tree node.
 	Node() constructs.Node
+	OutOfOrderTimeWindowInSeconds() *float64
+	SetOutOfOrderTimeWindowInSeconds(val *float64)
+	OutOfOrderTimeWindowInSecondsInput() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -63,6 +66,9 @@ type PrometheusWorkspaceConfiguration interface {
 	RetentionPeriodInDays() *float64
 	SetRetentionPeriodInDays(val *float64)
 	RetentionPeriodInDaysInput() *float64
+	RuleQueryOffsetInSeconds() *float64
+	SetRuleQueryOffsetInSeconds(val *float64)
+	RuleQueryOffsetInSecondsInput() *float64
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -120,11 +126,13 @@ type PrometheusWorkspaceConfiguration interface {
 	PutLimitsPerLabelSet(value interface{})
 	PutTimeouts(value *PrometheusWorkspaceConfigurationTimeouts)
 	ResetLimitsPerLabelSet()
+	ResetOutOfOrderTimeWindowInSeconds()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
 	ResetRetentionPeriodInDays()
+	ResetRuleQueryOffsetInSeconds()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -273,6 +281,26 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) OutOfOrderTimeWindowInSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"outOfOrderTimeWindowInSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) OutOfOrderTimeWindowInSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"outOfOrderTimeWindowInSecondsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PrometheusWorkspaceConfiguration) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -338,6 +366,26 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) RetentionPeriodInDaysInput(
 	_jsii_.Get(
 		j,
 		"retentionPeriodInDaysInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) RuleQueryOffsetInSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ruleQueryOffsetInSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) RuleQueryOffsetInSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ruleQueryOffsetInSecondsInput",
 		&returns,
 	)
 	return returns
@@ -414,7 +462,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) WorkspaceIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
 func NewPrometheusWorkspaceConfiguration(scope constructs.Construct, id *string, config *PrometheusWorkspaceConfigurationConfig) PrometheusWorkspaceConfiguration {
 	_init_.Initialize()
 
@@ -432,7 +480,7 @@ func NewPrometheusWorkspaceConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
 func NewPrometheusWorkspaceConfiguration_Override(p PrometheusWorkspaceConfiguration, scope constructs.Construct, id *string, config *PrometheusWorkspaceConfigurationConfig) {
 	_init_.Initialize()
 
@@ -492,6 +540,17 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetLifecycle(val *cdktn.Terr
 	)
 }
 
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetOutOfOrderTimeWindowInSeconds(val *float64) {
+	if err := j.validateSetOutOfOrderTimeWindowInSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"outOfOrderTimeWindowInSeconds",
+		val,
+	)
+}
+
 func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
@@ -529,6 +588,17 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetRetentionPeriodInDays(val
 	_jsii_.Set(
 		j,
 		"retentionPeriodInDays",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration)SetRuleQueryOffsetInSeconds(val *float64) {
+	if err := j.validateSetRuleQueryOffsetInSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ruleQueryOffsetInSeconds",
 		val,
 	)
 }
@@ -927,6 +997,14 @@ func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ResetLimitsPerLabelSet() {
 	)
 }
 
+func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ResetOutOfOrderTimeWindowInSeconds() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetOutOfOrderTimeWindowInSeconds",
+		nil, // no parameters
+	)
+}
+
 func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		p,
@@ -947,6 +1025,14 @@ func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ResetRetentionPeriodInDays(
 	_jsii_.InvokeVoid(
 		p,
 		"resetRetentionPeriodInDays",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrometheusWorkspaceConfiguration) ResetRuleQueryOffsetInSeconds() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetRuleQueryOffsetInSeconds",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/mq_broker aws_mq_broker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/mq_broker aws_mq_broker}.
 type DataAwsMqBroker interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -73,7 +73,9 @@ type DataAwsMqBroker interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ResourceShareArns() *[]*string
 	SecurityGroups() *[]*string
+	SharedResources() DataAwsMqBrokerSharedResourcesList
 	StorageType() *string
 	SubnetIds() *[]*string
 	Tags() *map[string]*string
@@ -477,11 +479,31 @@ func (j *jsiiProxy_DataAwsMqBroker) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsMqBroker) ResourceShareArns() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"resourceShareArns",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsMqBroker) SecurityGroups() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"securityGroups",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsMqBroker) SharedResources() DataAwsMqBrokerSharedResourcesList {
+	var returns DataAwsMqBrokerSharedResourcesList
+	_jsii_.Get(
+		j,
+		"sharedResources",
 		&returns,
 	)
 	return returns
@@ -568,7 +590,7 @@ func (j *jsiiProxy_DataAwsMqBroker) User() DataAwsMqBrokerUserList {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
 func NewDataAwsMqBroker(scope constructs.Construct, id *string, config *DataAwsMqBrokerConfig) DataAwsMqBroker {
 	_init_.Initialize()
 
@@ -586,7 +608,7 @@ func NewDataAwsMqBroker(scope constructs.Construct, id *string, config *DataAwsM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/mq_broker aws_mq_broker} Data Source.
 func NewDataAwsMqBroker_Override(d DataAwsMqBroker, scope constructs.Construct, id *string, config *DataAwsMqBrokerConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mq_broker aws_mq_broker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mq_broker aws_mq_broker}.
 type MqBroker interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -107,9 +107,13 @@ type MqBroker interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	ResourceShareArns() *[]*string
+	SetResourceShareArns(val *[]*string)
+	ResourceShareArnsInput() *[]*string
 	SecurityGroups() *[]*string
 	SetSecurityGroups(val *[]*string)
 	SecurityGroupsInput() *[]*string
+	SharedResources() MqBrokerSharedResourcesList
 	StorageType() *string
 	SetStorageType(val *string)
 	StorageTypeInput() *string
@@ -199,6 +203,7 @@ type MqBroker interface {
 	ResetOverrideLogicalId()
 	ResetPubliclyAccessible()
 	ResetRegion()
+	ResetResourceShareArns()
 	ResetSecurityGroups()
 	ResetStorageType()
 	ResetSubnetIds()
@@ -753,6 +758,26 @@ func (j *jsiiProxy_MqBroker) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MqBroker) ResourceShareArns() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"resourceShareArns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MqBroker) ResourceShareArnsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"resourceShareArnsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MqBroker) SecurityGroups() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -768,6 +793,16 @@ func (j *jsiiProxy_MqBroker) SecurityGroupsInput() *[]*string {
 	_jsii_.Get(
 		j,
 		"securityGroupsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MqBroker) SharedResources() MqBrokerSharedResourcesList {
+	var returns MqBrokerSharedResourcesList
+	_jsii_.Get(
+		j,
+		"sharedResources",
 		&returns,
 	)
 	return returns
@@ -924,7 +959,7 @@ func (j *jsiiProxy_MqBroker) UserInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mq_broker aws_mq_broker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mq_broker aws_mq_broker} Resource.
 func NewMqBroker(scope constructs.Construct, id *string, config *MqBrokerConfig) MqBroker {
 	_init_.Initialize()
 
@@ -942,7 +977,7 @@ func NewMqBroker(scope constructs.Construct, id *string, config *MqBrokerConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/mq_broker aws_mq_broker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mq_broker aws_mq_broker} Resource.
 func NewMqBroker_Override(m MqBroker, scope constructs.Construct, id *string, config *MqBrokerConfig) {
 	_init_.Initialize()
 
@@ -1160,6 +1195,17 @@ func (j *jsiiProxy_MqBroker)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MqBroker)SetResourceShareArns(val *[]*string) {
+	if err := j.validateSetResourceShareArnsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourceShareArns",
 		val,
 	)
 }
@@ -1765,6 +1811,14 @@ func (m *jsiiProxy_MqBroker) ResetRegion() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MqBroker) ResetResourceShareArns() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetResourceShareArns",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/msk_scram_secret_association aws_msk_scram_secret_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/msk_scram_secret_association aws_msk_scram_secret_association}.
 type MskScramSecretAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_MskScramSecretAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/msk_scram_secret_association aws_msk_scram_secret_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/msk_scram_secret_association aws_msk_scram_secret_association} Resource.
 func NewMskScramSecretAssociation(scope constructs.Construct, id *string, config *MskScramSecretAssociationConfig) MskScramSecretAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewMskScramSecretAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/msk_scram_secret_association aws_msk_scram_secret_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/msk_scram_secret_association aws_msk_scram_secret_association} Resource.
 func NewMskScramSecretAssociation_Override(m MskScramSecretAssociation, scope constructs.Construct, id *string, config *MskScramSecretAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function aws_lambda_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function aws_lambda_function}.
 type LambdaFunction interface {
 	cdktn.TerraformResource
 	Architectures() *[]*string
@@ -184,6 +184,9 @@ type LambdaFunction interface {
 	TimeoutsInput() interface{}
 	TracingConfig() LambdaFunctionTracingConfigOutputReference
 	TracingConfigInput() *LambdaFunctionTracingConfig
+	UseResourceTimeoutForPropagation() interface{}
+	SetUseResourceTimeoutForPropagation(val interface{})
+	UseResourceTimeoutForPropagationInput() interface{}
 	Version() *string
 	VpcConfig() LambdaFunctionVpcConfigOutputReference
 	VpcConfigInput() *LambdaFunctionVpcConfig
@@ -286,6 +289,7 @@ type LambdaFunction interface {
 	ResetTimeout()
 	ResetTimeouts()
 	ResetTracingConfig()
+	ResetUseResourceTimeoutForPropagation()
 	ResetVpcConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -1404,6 +1408,26 @@ func (j *jsiiProxy_LambdaFunction) TracingConfigInput() *LambdaFunctionTracingCo
 	return returns
 }
 
+func (j *jsiiProxy_LambdaFunction) UseResourceTimeoutForPropagation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useResourceTimeoutForPropagation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaFunction) UseResourceTimeoutForPropagationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useResourceTimeoutForPropagationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LambdaFunction) Version() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1435,7 +1459,7 @@ func (j *jsiiProxy_LambdaFunction) VpcConfigInput() *LambdaFunctionVpcConfig {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function aws_lambda_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function aws_lambda_function} Resource.
 func NewLambdaFunction(scope constructs.Construct, id *string, config *LambdaFunctionConfig) LambdaFunction {
 	_init_.Initialize()
 
@@ -1453,7 +1477,7 @@ func NewLambdaFunction(scope constructs.Construct, id *string, config *LambdaFun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_function aws_lambda_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_function aws_lambda_function} Resource.
 func NewLambdaFunction_Override(l LambdaFunction, scope constructs.Construct, id *string, config *LambdaFunctionConfig) {
 	_init_.Initialize()
 
@@ -1858,6 +1882,17 @@ func (j *jsiiProxy_LambdaFunction)SetTimeout(val *float64) {
 	_jsii_.Set(
 		j,
 		"timeout",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaFunction)SetUseResourceTimeoutForPropagation(val interface{}) {
+	if err := j.validateSetUseResourceTimeoutForPropagationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useResourceTimeoutForPropagation",
 		val,
 	)
 }
@@ -2682,6 +2717,14 @@ func (l *jsiiProxy_LambdaFunction) ResetTracingConfig() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetTracingConfig",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaFunction) ResetUseResourceTimeoutForPropagation() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetUseResourceTimeoutForPropagation",
 		nil, // no parameters
 	)
 }

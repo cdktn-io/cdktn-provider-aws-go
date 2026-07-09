@@ -123,6 +123,10 @@ func (j *jsiiProxy_RdsCluster) validateSetApplyImmediatelyParameters(val interfa
 	return nil
 }
 
+func (j *jsiiProxy_RdsCluster) validateSetAutoMinorVersionUpgradeParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_RdsCluster) validateSetAvailabilityZonesParameters(val *[]*string) error {
 	return nil
 }

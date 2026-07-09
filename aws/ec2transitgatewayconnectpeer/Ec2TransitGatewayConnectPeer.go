@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer}.
 type Ec2TransitGatewayConnectPeer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_Ec2TransitGatewayConnectPeer) TransitGatewayAttachmentIdInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Resource.
 func NewEc2TransitGatewayConnectPeer(scope constructs.Construct, id *string, config *Ec2TransitGatewayConnectPeerConfig) Ec2TransitGatewayConnectPeer {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewEc2TransitGatewayConnectPeer(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ec2_transit_gateway_connect_peer aws_ec2_transit_gateway_connect_peer} Resource.
 func NewEc2TransitGatewayConnectPeer_Override(e Ec2TransitGatewayConnectPeer, scope constructs.Construct, id *string, config *Ec2TransitGatewayConnectPeerConfig) {
 	_init_.Initialize()
 

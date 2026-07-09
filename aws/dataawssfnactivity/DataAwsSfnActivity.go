@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/sfn_activity aws_sfn_activity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/sfn_activity aws_sfn_activity}.
 type DataAwsSfnActivity interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsSfnActivity) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
 func NewDataAwsSfnActivity(scope constructs.Construct, id *string, config *DataAwsSfnActivityConfig) DataAwsSfnActivity {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewDataAwsSfnActivity(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/sfn_activity aws_sfn_activity} Data Source.
 func NewDataAwsSfnActivity_Override(d DataAwsSfnActivity, scope constructs.Construct, id *string, config *DataAwsSfnActivityConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package bedrockagentcorebrowser
 
 
 type BedrockagentcoreBrowserCertificateLocationSecretsManager struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser#secret_arn BedrockagentcoreBrowser#secret_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_browser#secret_arn BedrockagentcoreBrowser#secret_arn}.
 	SecretArn *string `field:"required" json:"secretArn" yaml:"secretArn"`
 }
 

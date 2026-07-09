@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_permission aws_lambda_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_permission aws_lambda_permission}.
 type LambdaPermission interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -103,6 +103,8 @@ type LambdaPermission interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() LambdaPermissionTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -146,6 +148,7 @@ type LambdaPermission interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutTimeouts(value *LambdaPermissionTimeouts)
 	ResetEventSourceToken()
 	ResetFunctionUrlAuthType()
 	ResetId()
@@ -160,6 +163,7 @@ type LambdaPermission interface {
 	ResetSourceArn()
 	ResetStatementId()
 	ResetStatementIdPrefix()
+	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -627,8 +631,28 @@ func (j *jsiiProxy_LambdaPermission) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_LambdaPermission) Timeouts() LambdaPermissionTimeoutsOutputReference {
+	var returns LambdaPermissionTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
+func (j *jsiiProxy_LambdaPermission) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
 func NewLambdaPermission(scope constructs.Construct, id *string, config *LambdaPermissionConfig) LambdaPermission {
 	_init_.Initialize()
 
@@ -646,7 +670,7 @@ func NewLambdaPermission(scope constructs.Construct, id *string, config *LambdaP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_permission aws_lambda_permission} Resource.
 func NewLambdaPermission_Override(l LambdaPermission, scope constructs.Construct, id *string, config *LambdaPermissionConfig) {
 	_init_.Initialize()
 
@@ -1232,6 +1256,17 @@ func (l *jsiiProxy_LambdaPermission) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (l *jsiiProxy_LambdaPermission) PutTimeouts(value *LambdaPermissionTimeouts) {
+	if err := l.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		l,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (l *jsiiProxy_LambdaPermission) ResetEventSourceToken() {
 	_jsii_.InvokeVoid(
 		l,
@@ -1324,6 +1359,14 @@ func (l *jsiiProxy_LambdaPermission) ResetStatementIdPrefix() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetStatementIdPrefix",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaPermission) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetTimeouts",
 		nil, // no parameters
 	)
 }

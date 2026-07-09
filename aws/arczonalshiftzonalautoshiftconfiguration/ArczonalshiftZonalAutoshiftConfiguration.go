@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration}.
 type ArczonalshiftZonalAutoshiftConfiguration interface {
 	cdktn.TerraformResource
 	AllowedWindows() *[]*string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) ZonalAutoshiftStatu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration} Resource.
 func NewArczonalshiftZonalAutoshiftConfiguration(scope constructs.Construct, id *string, config *ArczonalshiftZonalAutoshiftConfigurationConfig) ArczonalshiftZonalAutoshiftConfiguration {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewArczonalshiftZonalAutoshiftConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arczonalshift_zonal_autoshift_configuration aws_arczonalshift_zonal_autoshift_configuration} Resource.
 func NewArczonalshiftZonalAutoshiftConfiguration_Override(a ArczonalshiftZonalAutoshiftConfiguration, scope constructs.Construct, id *string, config *ArczonalshiftZonalAutoshiftConfigurationConfig) {
 	_init_.Initialize()
 

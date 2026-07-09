@@ -7,7 +7,7 @@ package wafv2webaclrule
 type Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementRegexPatternSetReferenceStatementFieldToMatchSingleHeader struct {
 	// Header name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

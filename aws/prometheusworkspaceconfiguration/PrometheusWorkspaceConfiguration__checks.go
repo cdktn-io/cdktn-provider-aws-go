@@ -387,6 +387,14 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetLifecycleParamet
 	return nil
 }
 
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetOutOfOrderTimeWindowInSecondsParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {
@@ -442,6 +450,14 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetRegionParameters
 }
 
 func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetRetentionPeriodInDaysParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetRuleQueryOffsetInSecondsParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

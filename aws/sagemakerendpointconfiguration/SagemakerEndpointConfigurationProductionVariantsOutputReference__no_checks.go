@@ -47,6 +47,10 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationProductionVariantsOutputReferen
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerEndpointConfigurationProductionVariantsOutputReference) validatePutCapacityReservationConfigParameters(value *SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerEndpointConfigurationProductionVariantsOutputReference) validatePutCoreDumpConfigParameters(value *SagemakerEndpointConfigurationProductionVariantsCoreDumpConfig) error {
 	return nil
 }

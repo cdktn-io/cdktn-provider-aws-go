@@ -442,6 +442,48 @@ func init() {
 		reflect.TypeOf((*SagemakerEndpointConfigurationProductionVariants)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig",
+		reflect.TypeOf((*SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference",
+		reflect.TypeOf((*SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreference", GoGetter: "CapacityReservationPreference"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreferenceInput", GoGetter: "CapacityReservationPreferenceInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mlReservationArn", GoGetter: "MlReservationArn"},
+			_jsii_.MemberProperty{JsiiProperty: "mlReservationArnInput", GoGetter: "MlReservationArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCapacityReservationPreference", GoMethod: "ResetCapacityReservationPreference"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMlReservationArn", GoMethod: "ResetMlReservationArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCoreDumpConfig",
 		reflect.TypeOf((*SagemakerEndpointConfigurationProductionVariantsCoreDumpConfig)(nil)).Elem(),
 	)
@@ -555,6 +597,8 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorTypeInput", GoGetter: "AcceleratorTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationConfig", GoGetter: "CapacityReservationConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationConfigInput", GoGetter: "CapacityReservationConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -592,11 +636,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "modelDataDownloadTimeoutInSecondsInput", GoGetter: "ModelDataDownloadTimeoutInSecondsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "modelName", GoGetter: "ModelName"},
 			_jsii_.MemberProperty{JsiiProperty: "modelNameInput", GoGetter: "ModelNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putCapacityReservationConfig", GoMethod: "PutCapacityReservationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putCoreDumpConfig", GoMethod: "PutCoreDumpConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putManagedInstanceScaling", GoMethod: "PutManagedInstanceScaling"},
 			_jsii_.MemberMethod{JsiiMethod: "putRoutingConfig", GoMethod: "PutRoutingConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putServerlessConfig", GoMethod: "PutServerlessConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAcceleratorType", GoMethod: "ResetAcceleratorType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCapacityReservationConfig", GoMethod: "ResetCapacityReservationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContainerStartupHealthCheckTimeoutInSeconds", GoMethod: "ResetContainerStartupHealthCheckTimeoutInSeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCoreDumpConfig", GoMethod: "ResetCoreDumpConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableSsmAccess", GoMethod: "ResetEnableSsmAccess"},
@@ -738,6 +784,48 @@ func init() {
 		reflect.TypeOf((*SagemakerEndpointConfigurationShadowProductionVariants)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig",
+		reflect.TypeOf((*SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference",
+		reflect.TypeOf((*SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreference", GoGetter: "CapacityReservationPreference"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreferenceInput", GoGetter: "CapacityReservationPreferenceInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mlReservationArn", GoGetter: "MlReservationArn"},
+			_jsii_.MemberProperty{JsiiProperty: "mlReservationArnInput", GoGetter: "MlReservationArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCapacityReservationPreference", GoMethod: "ResetCapacityReservationPreference"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMlReservationArn", GoMethod: "ResetMlReservationArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfig",
 		reflect.TypeOf((*SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfig)(nil)).Elem(),
 	)
@@ -850,6 +938,8 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorTypeInput", GoGetter: "AcceleratorTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationConfig", GoGetter: "CapacityReservationConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityReservationConfigInput", GoGetter: "CapacityReservationConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -887,11 +977,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "modelDataDownloadTimeoutInSecondsInput", GoGetter: "ModelDataDownloadTimeoutInSecondsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "modelName", GoGetter: "ModelName"},
 			_jsii_.MemberProperty{JsiiProperty: "modelNameInput", GoGetter: "ModelNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putCapacityReservationConfig", GoMethod: "PutCapacityReservationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putCoreDumpConfig", GoMethod: "PutCoreDumpConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putManagedInstanceScaling", GoMethod: "PutManagedInstanceScaling"},
 			_jsii_.MemberMethod{JsiiMethod: "putRoutingConfig", GoMethod: "PutRoutingConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putServerlessConfig", GoMethod: "PutServerlessConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAcceleratorType", GoMethod: "ResetAcceleratorType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCapacityReservationConfig", GoMethod: "ResetCapacityReservationConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContainerStartupHealthCheckTimeoutInSeconds", GoMethod: "ResetContainerStartupHealthCheckTimeoutInSeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCoreDumpConfig", GoMethod: "ResetCoreDumpConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableSsmAccess", GoMethod: "ResetEnableSsmAccess"},

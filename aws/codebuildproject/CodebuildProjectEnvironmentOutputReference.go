@@ -42,6 +42,9 @@ type CodebuildProjectEnvironmentOutputReference interface {
 	FleetInput() *CodebuildProjectEnvironmentFleet
 	// Experimental.
 	Fqn() *string
+	HostKernel() *string
+	SetHostKernel(val *string)
+	HostKernelInput() *string
 	Image() *string
 	SetImage(val *string)
 	ImageInput() *string
@@ -98,6 +101,7 @@ type CodebuildProjectEnvironmentOutputReference interface {
 	ResetDockerServer()
 	ResetEnvironmentVariable()
 	ResetFleet()
+	ResetHostKernel()
 	ResetImagePullCredentialsType()
 	ResetPrivilegedMode()
 	ResetRegistryCredential()
@@ -251,6 +255,26 @@ func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference) Fqn() *string {
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference) HostKernel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hostKernel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference) HostKernelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hostKernelInput",
 		&returns,
 	)
 	return returns
@@ -454,6 +478,17 @@ func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference)SetComputeType(val
 	_jsii_.Set(
 		j,
 		"computeType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference)SetHostKernel(val *string) {
+	if err := j.validateSetHostKernelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"hostKernel",
 		val,
 	)
 }
@@ -793,6 +828,14 @@ func (c *jsiiProxy_CodebuildProjectEnvironmentOutputReference) ResetFleet() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetFleet",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CodebuildProjectEnvironmentOutputReference) ResetHostKernel() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetHostKernel",
 		nil, // no parameters
 	)
 }

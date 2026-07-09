@@ -83,6 +83,10 @@ func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference) validateSetComput
 	return nil
 }
 
+func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference) validateSetHostKernelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CodebuildProjectEnvironmentOutputReference) validateSetImageParameters(val *string) error {
 	return nil
 }

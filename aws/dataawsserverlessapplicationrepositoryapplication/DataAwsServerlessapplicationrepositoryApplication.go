@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/serverlessapplicationrepository_application aws_serverlessapplicationrepository_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/serverlessapplicationrepository_application aws_serverlessapplicationrepository_application}.
 type DataAwsServerlessapplicationrepositoryApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataAwsServerlessapplicationrepositoryApplication) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/serverlessapplicationrepository_application aws_serverlessapplicationrepository_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/serverlessapplicationrepository_application aws_serverlessapplicationrepository_application} Data Source.
 func NewDataAwsServerlessapplicationrepositoryApplication(scope constructs.Construct, id *string, config *DataAwsServerlessapplicationrepositoryApplicationConfig) DataAwsServerlessapplicationrepositoryApplication {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDataAwsServerlessapplicationrepositoryApplication(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/serverlessapplicationrepository_application aws_serverlessapplicationrepository_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/serverlessapplicationrepository_application aws_serverlessapplicationrepository_application} Data Source.
 func NewDataAwsServerlessapplicationrepositoryApplication_Override(d DataAwsServerlessapplicationrepositoryApplication, scope constructs.Construct, id *string, config *DataAwsServerlessapplicationrepositoryApplicationConfig) {
 	_init_.Initialize()
 

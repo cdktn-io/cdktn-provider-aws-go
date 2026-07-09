@@ -7,7 +7,7 @@ package bedrockagentcorebrowser
 type BedrockagentcoreBrowserCertificate struct {
 	// location block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_browser#location BedrockagentcoreBrowser#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_browser#location BedrockagentcoreBrowser#location}
 	Location interface{} `field:"optional" json:"location" yaml:"location"`
 }
 

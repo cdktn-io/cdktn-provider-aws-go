@@ -24,25 +24,25 @@ type S3FilesAccessPointConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// File system ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
 	FileSystemId *string `field:"required" json:"fileSystemId" yaml:"fileSystemId"`
 	// posix_user block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
 	PosixUser interface{} `field:"optional" json:"posixUser" yaml:"posixUser"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_access_point#region S3FilesAccessPoint#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_access_point#region S3FilesAccessPoint#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// root_directory block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
 	RootDirectory interface{} `field:"optional" json:"rootDirectory" yaml:"rootDirectory"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/s3files_access_point#timeouts S3FilesAccessPoint#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3files_access_point#timeouts S3FilesAccessPoint#timeouts}
 	Timeouts *S3FilesAccessPointTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

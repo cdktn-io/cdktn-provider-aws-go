@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool}.
 type Pinpointsmsvoicev2Pool interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -638,7 +638,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2Pool) TwoWayEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool} Resource.
 func NewPinpointsmsvoicev2Pool(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PoolConfig) Pinpointsmsvoicev2Pool {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewPinpointsmsvoicev2Pool(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool aws_pinpointsmsvoicev2_pool} Resource.
 func NewPinpointsmsvoicev2Pool_Override(p Pinpointsmsvoicev2Pool, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PoolConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/secretsmanager_tag aws_secretsmanager_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/secretsmanager_tag aws_secretsmanager_tag}.
 type SecretsmanagerTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_SecretsmanagerTag) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/secretsmanager_tag aws_secretsmanager_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/secretsmanager_tag aws_secretsmanager_tag} Resource.
 func NewSecretsmanagerTag(scope constructs.Construct, id *string, config *SecretsmanagerTagConfig) SecretsmanagerTag {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewSecretsmanagerTag(scope constructs.Construct, id *string, config *Secret
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/secretsmanager_tag aws_secretsmanager_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/secretsmanager_tag aws_secretsmanager_tag} Resource.
 func NewSecretsmanagerTag_Override(s SecretsmanagerTag, scope constructs.Construct, id *string, config *SecretsmanagerTagConfig) {
 	_init_.Initialize()
 

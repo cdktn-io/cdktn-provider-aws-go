@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces}.
 type DataAwsPrometheusWorkspaces interface {
 	cdktn.TerraformDataSource
 	Aliases() *[]*string
@@ -355,7 +355,7 @@ func (j *jsiiProxy_DataAwsPrometheusWorkspaces) WorkspaceIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
 func NewDataAwsPrometheusWorkspaces(scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspacesConfig) DataAwsPrometheusWorkspaces {
 	_init_.Initialize()
 
@@ -373,7 +373,7 @@ func NewDataAwsPrometheusWorkspaces(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/prometheus_workspaces aws_prometheus_workspaces} Data Source.
 func NewDataAwsPrometheusWorkspaces_Override(d DataAwsPrometheusWorkspaces, scope constructs.Construct, id *string, config *DataAwsPrometheusWorkspacesConfig) {
 	_init_.Initialize()
 

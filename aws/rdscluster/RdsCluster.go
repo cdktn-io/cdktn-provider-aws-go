@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/rds_cluster aws_rds_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/rds_cluster aws_rds_cluster}.
 type RdsCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -25,6 +25,9 @@ type RdsCluster interface {
 	SetApplyImmediately(val interface{})
 	ApplyImmediatelyInput() interface{}
 	Arn() *string
+	AutoMinorVersionUpgrade() interface{}
+	SetAutoMinorVersionUpgrade(val interface{})
+	AutoMinorVersionUpgradeInput() interface{}
 	AvailabilityZones() *[]*string
 	SetAvailabilityZones(val *[]*string)
 	AvailabilityZonesInput() *[]*string
@@ -320,6 +323,7 @@ type RdsCluster interface {
 	ResetAllocatedStorage()
 	ResetAllowMajorVersionUpgrade()
 	ResetApplyImmediately()
+	ResetAutoMinorVersionUpgrade()
 	ResetAvailabilityZones()
 	ResetBacktrackWindow()
 	ResetBackupRetentionPeriod()
@@ -479,6 +483,26 @@ func (j *jsiiProxy_RdsCluster) Arn() *string {
 	_jsii_.Get(
 		j,
 		"arn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsCluster) AutoMinorVersionUpgrade() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoMinorVersionUpgrade",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsCluster) AutoMinorVersionUpgradeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoMinorVersionUpgradeInput",
 		&returns,
 	)
 	return returns
@@ -2025,7 +2049,7 @@ func (j *jsiiProxy_RdsCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
 func NewRdsCluster(scope constructs.Construct, id *string, config *RdsClusterConfig) RdsCluster {
 	_init_.Initialize()
 
@@ -2043,7 +2067,7 @@ func NewRdsCluster(scope constructs.Construct, id *string, config *RdsClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
 func NewRdsCluster_Override(r RdsCluster, scope constructs.Construct, id *string, config *RdsClusterConfig) {
 	_init_.Initialize()
 
@@ -2083,6 +2107,17 @@ func (j *jsiiProxy_RdsCluster)SetApplyImmediately(val interface{}) {
 	_jsii_.Set(
 		j,
 		"applyImmediately",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsCluster)SetAutoMinorVersionUpgrade(val interface{}) {
+	if err := j.validateSetAutoMinorVersionUpgradeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoMinorVersionUpgrade",
 		val,
 	)
 }
@@ -3243,6 +3278,14 @@ func (r *jsiiProxy_RdsCluster) ResetApplyImmediately() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetApplyImmediately",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsCluster) ResetAutoMinorVersionUpgrade() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetAutoMinorVersionUpgrade",
 		nil, // no parameters
 	)
 }

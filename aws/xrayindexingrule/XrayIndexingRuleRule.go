@@ -7,7 +7,7 @@ package xrayindexingrule
 type XrayIndexingRuleRule struct {
 	// probabilistic block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
 	Probabilistic interface{} `field:"optional" json:"probabilistic" yaml:"probabilistic"`
 }
 

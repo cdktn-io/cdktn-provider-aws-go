@@ -115,6 +115,10 @@ func (l *jsiiProxy_LambdaEventSourceMapping) validatePutSourceAccessConfiguratio
 	return nil
 }
 
+func (l *jsiiProxy_LambdaEventSourceMapping) validatePutTimeoutsParameters(value *LambdaEventSourceMappingTimeouts) error {
+	return nil
+}
+
 func validateLambdaEventSourceMapping_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }
@@ -224,6 +228,10 @@ func (j *jsiiProxy_LambdaEventSourceMapping) validateSetTopicsParameters(val *[]
 }
 
 func (j *jsiiProxy_LambdaEventSourceMapping) validateSetTumblingWindowInSecondsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_LambdaEventSourceMapping) validateSetUseResourceTimeoutForPropagationParameters(val interface{}) error {
 	return nil
 }
 

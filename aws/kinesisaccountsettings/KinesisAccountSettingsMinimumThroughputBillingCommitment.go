@@ -5,7 +5,7 @@ package kinesisaccountsettings
 
 
 type KinesisAccountSettingsMinimumThroughputBillingCommitment struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kinesis_account_settings#status KinesisAccountSettings#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kinesis_account_settings#status KinesisAccountSettings#status}.
 	Status *string `field:"required" json:"status" yaml:"status"`
 }
 

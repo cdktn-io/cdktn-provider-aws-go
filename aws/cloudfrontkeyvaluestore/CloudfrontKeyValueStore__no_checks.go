@@ -119,6 +119,10 @@ func (j *jsiiProxy_CloudfrontKeyValueStore) validateSetProvisionersParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_CloudfrontKeyValueStore) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewCloudfrontKeyValueStoreParameters(scope constructs.Construct, id *string, config *CloudfrontKeyValueStoreConfig) error {
 	return nil
 }

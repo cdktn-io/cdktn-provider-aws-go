@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ec2_managed_prefix_list aws_ec2_managed_prefix_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ec2_managed_prefix_list aws_ec2_managed_prefix_list}.
 type DataAwsEc2ManagedPrefixList interface {
 	cdktn.TerraformDataSource
 	AddressFamily() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DataAwsEc2ManagedPrefixList) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ec2_managed_prefix_list aws_ec2_managed_prefix_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ec2_managed_prefix_list aws_ec2_managed_prefix_list} Data Source.
 func NewDataAwsEc2ManagedPrefixList(scope constructs.Construct, id *string, config *DataAwsEc2ManagedPrefixListConfig) DataAwsEc2ManagedPrefixList {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewDataAwsEc2ManagedPrefixList(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/ec2_managed_prefix_list aws_ec2_managed_prefix_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ec2_managed_prefix_list aws_ec2_managed_prefix_list} Data Source.
 func NewDataAwsEc2ManagedPrefixList_Override(d DataAwsEc2ManagedPrefixList, scope constructs.Construct, id *string, config *DataAwsEc2ManagedPrefixListConfig) {
 	_init_.Initialize()
 

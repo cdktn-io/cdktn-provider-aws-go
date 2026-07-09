@@ -279,6 +279,10 @@ func (j *jsiiProxy_LambdaFunction) validateSetTimeoutParameters(val *float64) er
 	return nil
 }
 
+func (j *jsiiProxy_LambdaFunction) validateSetUseResourceTimeoutForPropagationParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewLambdaFunctionParameters(scope constructs.Construct, id *string, config *LambdaFunctionConfig) error {
 	return nil
 }

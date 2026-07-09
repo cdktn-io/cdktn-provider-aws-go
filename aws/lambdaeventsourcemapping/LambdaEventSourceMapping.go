@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping}.
 type LambdaEventSourceMapping interface {
 	cdktn.TerraformResource
 	AmazonManagedKafkaEventSourceConfig() LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigOutputReference
@@ -141,12 +141,17 @@ type LambdaEventSourceMapping interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() LambdaEventSourceMappingTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	Topics() *[]*string
 	SetTopics(val *[]*string)
 	TopicsInput() *[]*string
 	TumblingWindowInSeconds() *float64
 	SetTumblingWindowInSeconds(val *float64)
 	TumblingWindowInSecondsInput() *float64
+	UseResourceTimeoutForPropagation() interface{}
+	SetUseResourceTimeoutForPropagation(val interface{})
+	UseResourceTimeoutForPropagationInput() interface{}
 	Uuid() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -201,6 +206,7 @@ type LambdaEventSourceMapping interface {
 	PutSelfManagedEventSource(value *LambdaEventSourceMappingSelfManagedEventSource)
 	PutSelfManagedKafkaEventSourceConfig(value *LambdaEventSourceMappingSelfManagedKafkaEventSourceConfig)
 	PutSourceAccessConfiguration(value interface{})
+	PutTimeouts(value *LambdaEventSourceMappingTimeouts)
 	ResetAmazonManagedKafkaEventSourceConfig()
 	ResetBatchSize()
 	ResetBisectBatchOnFunctionError()
@@ -231,8 +237,10 @@ type LambdaEventSourceMapping interface {
 	ResetStartingPositionTimestamp()
 	ResetTags()
 	ResetTagsAll()
+	ResetTimeouts()
 	ResetTopics()
 	ResetTumblingWindowInSeconds()
+	ResetUseResourceTimeoutForPropagation()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -1040,6 +1048,26 @@ func (j *jsiiProxy_LambdaEventSourceMapping) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_LambdaEventSourceMapping) Timeouts() LambdaEventSourceMappingTimeoutsOutputReference {
+	var returns LambdaEventSourceMappingTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaEventSourceMapping) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LambdaEventSourceMapping) Topics() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -1080,6 +1108,26 @@ func (j *jsiiProxy_LambdaEventSourceMapping) TumblingWindowInSecondsInput() *flo
 	return returns
 }
 
+func (j *jsiiProxy_LambdaEventSourceMapping) UseResourceTimeoutForPropagation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useResourceTimeoutForPropagation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaEventSourceMapping) UseResourceTimeoutForPropagationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useResourceTimeoutForPropagationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LambdaEventSourceMapping) Uuid() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1091,7 +1139,7 @@ func (j *jsiiProxy_LambdaEventSourceMapping) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
 func NewLambdaEventSourceMapping(scope constructs.Construct, id *string, config *LambdaEventSourceMappingConfig) LambdaEventSourceMapping {
 	_init_.Initialize()
 
@@ -1109,7 +1157,7 @@ func NewLambdaEventSourceMapping(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.
 func NewLambdaEventSourceMapping_Override(l LambdaEventSourceMapping, scope constructs.Construct, id *string, config *LambdaEventSourceMappingConfig) {
 	_init_.Initialize()
 
@@ -1404,6 +1452,17 @@ func (j *jsiiProxy_LambdaEventSourceMapping)SetTumblingWindowInSeconds(val *floa
 	_jsii_.Set(
 		j,
 		"tumblingWindowInSeconds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaEventSourceMapping)SetUseResourceTimeoutForPropagation(val interface{}) {
+	if err := j.validateSetUseResourceTimeoutForPropagationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useResourceTimeoutForPropagation",
 		val,
 	)
 }
@@ -1871,6 +1930,17 @@ func (l *jsiiProxy_LambdaEventSourceMapping) PutSourceAccessConfiguration(value 
 	)
 }
 
+func (l *jsiiProxy_LambdaEventSourceMapping) PutTimeouts(value *LambdaEventSourceMappingTimeouts) {
+	if err := l.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		l,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (l *jsiiProxy_LambdaEventSourceMapping) ResetAmazonManagedKafkaEventSourceConfig() {
 	_jsii_.InvokeVoid(
 		l,
@@ -2095,6 +2165,14 @@ func (l *jsiiProxy_LambdaEventSourceMapping) ResetTagsAll() {
 	)
 }
 
+func (l *jsiiProxy_LambdaEventSourceMapping) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
 func (l *jsiiProxy_LambdaEventSourceMapping) ResetTopics() {
 	_jsii_.InvokeVoid(
 		l,
@@ -2107,6 +2185,14 @@ func (l *jsiiProxy_LambdaEventSourceMapping) ResetTumblingWindowInSeconds() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetTumblingWindowInSeconds",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaEventSourceMapping) ResetUseResourceTimeoutForPropagation() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetUseResourceTimeoutForPropagation",
 		nil, // no parameters
 	)
 }

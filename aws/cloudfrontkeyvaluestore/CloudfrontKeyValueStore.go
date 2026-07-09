@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_key_value_store aws_cloudfront_key_value_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_key_value_store aws_cloudfront_key_value_store}.
 type CloudfrontKeyValueStore interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -65,6 +65,10 @@ type CloudfrontKeyValueStore interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsAll() cdktn.StringMap
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -121,6 +125,7 @@ type CloudfrontKeyValueStore interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -359,6 +364,36 @@ func (j *jsiiProxy_CloudfrontKeyValueStore) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_CloudfrontKeyValueStore) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontKeyValueStore) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tagsAll",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudfrontKeyValueStore) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudfrontKeyValueStore) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -410,7 +445,7 @@ func (j *jsiiProxy_CloudfrontKeyValueStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_key_value_store aws_cloudfront_key_value_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_key_value_store aws_cloudfront_key_value_store} Resource.
 func NewCloudfrontKeyValueStore(scope constructs.Construct, id *string, config *CloudfrontKeyValueStoreConfig) CloudfrontKeyValueStore {
 	_init_.Initialize()
 
@@ -428,7 +463,7 @@ func NewCloudfrontKeyValueStore(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudfront_key_value_store aws_cloudfront_key_value_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_key_value_store aws_cloudfront_key_value_store} Resource.
 func NewCloudfrontKeyValueStore_Override(c CloudfrontKeyValueStore, scope constructs.Construct, id *string, config *CloudfrontKeyValueStoreConfig) {
 	_init_.Initialize()
 
@@ -525,6 +560,17 @@ func (j *jsiiProxy_CloudfrontKeyValueStore)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudfrontKeyValueStore)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -905,6 +951,14 @@ func (c *jsiiProxy_CloudfrontKeyValueStore) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudfrontKeyValueStore) ResetTags() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTags",
 		nil, // no parameters
 	)
 }

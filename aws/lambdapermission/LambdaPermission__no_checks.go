@@ -75,6 +75,10 @@ func (l *jsiiProxy_LambdaPermission) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func (l *jsiiProxy_LambdaPermission) validatePutTimeoutsParameters(value *LambdaPermissionTimeouts) error {
+	return nil
+}
+
 func validateLambdaPermission_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

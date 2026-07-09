@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kinesis_account_settings aws_kinesis_account_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kinesis_account_settings aws_kinesis_account_settings}.
 type KinesisAccountSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -354,7 +354,7 @@ func (j *jsiiProxy_KinesisAccountSettings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kinesis_account_settings aws_kinesis_account_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kinesis_account_settings aws_kinesis_account_settings} Resource.
 func NewKinesisAccountSettings(scope constructs.Construct, id *string, config *KinesisAccountSettingsConfig) KinesisAccountSettings {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewKinesisAccountSettings(scope constructs.Construct, id *string, config *K
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kinesis_account_settings aws_kinesis_account_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kinesis_account_settings aws_kinesis_account_settings} Resource.
 func NewKinesisAccountSettings_Override(k KinesisAccountSettings, scope constructs.Construct, id *string, config *KinesisAccountSettingsConfig) {
 	_init_.Initialize()
 

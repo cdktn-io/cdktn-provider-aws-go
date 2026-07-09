@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account}.
 type CloudtrailOrganizationDelegatedAdminAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -373,7 +373,7 @@ func (j *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
 func NewCloudtrailOrganizationDelegatedAdminAccount(scope constructs.Construct, id *string, config *CloudtrailOrganizationDelegatedAdminAccountConfig) CloudtrailOrganizationDelegatedAdminAccount {
 	_init_.Initialize()
 
@@ -391,7 +391,7 @@ func NewCloudtrailOrganizationDelegatedAdminAccount(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudtrail_organization_delegated_admin_account aws_cloudtrail_organization_delegated_admin_account} Resource.
 func NewCloudtrailOrganizationDelegatedAdminAccount_Override(c CloudtrailOrganizationDelegatedAdminAccount, scope constructs.Construct, id *string, config *CloudtrailOrganizationDelegatedAdminAccountConfig) {
 	_init_.Initialize()
 

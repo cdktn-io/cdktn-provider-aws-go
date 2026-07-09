@@ -111,6 +111,10 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetLifecycleParamet
 	return nil
 }
 
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetOutOfOrderTimeWindowInSecondsParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetRegionParameters
 }
 
 func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetRetentionPeriodInDaysParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_PrometheusWorkspaceConfiguration) validateSetRuleQueryOffsetInSecondsParameters(val *float64) error {
 	return nil
 }
 

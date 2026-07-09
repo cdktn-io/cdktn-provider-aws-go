@@ -5,9 +5,9 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryIndexedKey struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}.
 	Key *string `field:"required" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

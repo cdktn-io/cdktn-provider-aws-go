@@ -16,6 +16,8 @@ type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference inter
 	AcceleratorType() *string
 	SetAcceleratorType(val *string)
 	AcceleratorTypeInput() *string
+	CapacityReservationConfig() SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference
+	CapacityReservationConfigInput() *SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -105,11 +107,13 @@ type SagemakerEndpointConfigurationShadowProductionVariantsOutputReference inter
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCapacityReservationConfig(value *SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig)
 	PutCoreDumpConfig(value *SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfig)
 	PutManagedInstanceScaling(value *SagemakerEndpointConfigurationShadowProductionVariantsManagedInstanceScaling)
 	PutRoutingConfig(value interface{})
 	PutServerlessConfig(value *SagemakerEndpointConfigurationShadowProductionVariantsServerlessConfig)
 	ResetAcceleratorType()
+	ResetCapacityReservationConfig()
 	ResetContainerStartupHealthCheckTimeoutInSeconds()
 	ResetCoreDumpConfig()
 	ResetEnableSsmAccess()
@@ -154,6 +158,26 @@ func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	_jsii_.Get(
 		j,
 		"acceleratorTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) CapacityReservationConfig() SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference {
+	var returns SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfigOutputReference
+	_jsii_.Get(
+		j,
+		"capacityReservationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) CapacityReservationConfigInput() *SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig {
+	var returns *SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig
+	_jsii_.Get(
+		j,
+		"capacityReservationConfigInput",
 		&returns,
 	)
 	return returns
@@ -899,6 +923,17 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	return returns
 }
 
+func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) PutCapacityReservationConfig(value *SagemakerEndpointConfigurationShadowProductionVariantsCapacityReservationConfig) {
+	if err := s.validatePutCapacityReservationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putCapacityReservationConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) PutCoreDumpConfig(value *SagemakerEndpointConfigurationShadowProductionVariantsCoreDumpConfig) {
 	if err := s.validatePutCoreDumpConfigParameters(value); err != nil {
 		panic(err)
@@ -947,6 +982,14 @@ func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputR
 	_jsii_.InvokeVoid(
 		s,
 		"resetAcceleratorType",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerEndpointConfigurationShadowProductionVariantsOutputReference) ResetCapacityReservationConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetCapacityReservationConfig",
 		nil, // no parameters
 	)
 }

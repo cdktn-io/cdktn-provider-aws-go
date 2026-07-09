@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/billing_service_account aws_billing_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/billing_service_account aws_billing_service_account}.
 type DataAwsBillingServiceAccount interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsBillingServiceAccount) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
 func NewDataAwsBillingServiceAccount(scope constructs.Construct, id *string, config *DataAwsBillingServiceAccountConfig) DataAwsBillingServiceAccount {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsBillingServiceAccount(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/billing_service_account aws_billing_service_account} Data Source.
 func NewDataAwsBillingServiceAccount_Override(d DataAwsBillingServiceAccount, scope constructs.Construct, id *string, config *DataAwsBillingServiceAccountConfig) {
 	_init_.Initialize()
 
