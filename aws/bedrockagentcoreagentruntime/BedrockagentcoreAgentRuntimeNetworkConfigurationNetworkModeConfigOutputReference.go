@@ -32,6 +32,7 @@ type BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputRefe
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	RequireServiceS3Endpoint() cdktn.IResolvable
 	SecurityGroups() *[]*string
 	SetSecurityGroups(val *[]*string)
 	SecurityGroupsInput() *[]*string
@@ -130,6 +131,16 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeCo
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeNetworkConfigurationNetworkModeConfigOutputReference) RequireServiceS3Endpoint() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"requireServiceS3Endpoint",
 		&returns,
 	)
 	return returns

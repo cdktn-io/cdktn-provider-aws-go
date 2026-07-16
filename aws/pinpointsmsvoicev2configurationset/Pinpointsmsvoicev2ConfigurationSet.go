@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set}.
 type Pinpointsmsvoicev2ConfigurationSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2ConfigurationSet) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
 func NewPinpointsmsvoicev2ConfigurationSet(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2ConfigurationSetConfig) Pinpointsmsvoicev2ConfigurationSet {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewPinpointsmsvoicev2ConfigurationSet(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pinpointsmsvoicev2_configuration_set aws_pinpointsmsvoicev2_configuration_set} Resource.
 func NewPinpointsmsvoicev2ConfigurationSet_Override(p Pinpointsmsvoicev2ConfigurationSet, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2ConfigurationSetConfig) {
 	_init_.Initialize()
 

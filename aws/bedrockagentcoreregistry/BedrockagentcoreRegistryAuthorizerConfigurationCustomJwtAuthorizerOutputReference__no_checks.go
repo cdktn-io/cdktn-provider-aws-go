@@ -47,7 +47,19 @@ func (b *jsiiProxy_BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAutho
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validatePutAllowedWorkloadConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validatePutCustomClaimParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validatePutPrivateEndpointParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validatePutPrivateEndpointOverridesParameters(value interface{}) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy}.
 type RedshiftSnapshotCopy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_RedshiftSnapshotCopy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
 func NewRedshiftSnapshotCopy(scope constructs.Construct, id *string, config *RedshiftSnapshotCopyConfig) RedshiftSnapshotCopy {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewRedshiftSnapshotCopy(scope constructs.Construct, id *string, config *Red
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/redshift_snapshot_copy aws_redshift_snapshot_copy} Resource.
 func NewRedshiftSnapshotCopy_Override(r RedshiftSnapshotCopy, scope constructs.Construct, id *string, config *RedshiftSnapshotCopyConfig) {
 	_init_.Initialize()
 

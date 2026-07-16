@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint}.
 type VpcRouteServerEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -479,7 +479,7 @@ func (j *jsiiProxy_VpcRouteServerEndpoint) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
 func NewVpcRouteServerEndpoint(scope constructs.Construct, id *string, config *VpcRouteServerEndpointConfig) VpcRouteServerEndpoint {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewVpcRouteServerEndpoint(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpc_route_server_endpoint aws_vpc_route_server_endpoint} Resource.
 func NewVpcRouteServerEndpoint_Override(v VpcRouteServerEndpoint, scope constructs.Construct, id *string, config *VpcRouteServerEndpointConfig) {
 	_init_.Initialize()
 

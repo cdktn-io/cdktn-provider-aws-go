@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template}.
 type IotProvisioningTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_IotProvisioningTemplate) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) IotProvisioningTemplate {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_provisioning_template aws_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate_Override(i IotProvisioningTemplate, scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) {
 	_init_.Initialize()
 

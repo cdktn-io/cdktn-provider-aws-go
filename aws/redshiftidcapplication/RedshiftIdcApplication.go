@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application aws_redshift_idc_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/redshift_idc_application aws_redshift_idc_application}.
 type RedshiftIdcApplication interface {
 	cdktn.TerraformResource
 	ApplicationType() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_RedshiftIdcApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
 func NewRedshiftIdcApplication(scope constructs.Construct, id *string, config *RedshiftIdcApplicationConfig) RedshiftIdcApplication {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewRedshiftIdcApplication(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/redshift_idc_application aws_redshift_idc_application} Resource.
 func NewRedshiftIdcApplication_Override(r RedshiftIdcApplication, scope constructs.Construct, id *string, config *RedshiftIdcApplicationConfig) {
 	_init_.Initialize()
 

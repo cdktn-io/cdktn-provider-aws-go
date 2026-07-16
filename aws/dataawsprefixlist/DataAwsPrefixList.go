@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/prefix_list aws_prefix_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/prefix_list aws_prefix_list}.
 type DataAwsPrefixList interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataAwsPrefixList) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/prefix_list aws_prefix_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/prefix_list aws_prefix_list} Data Source.
 func NewDataAwsPrefixList(scope constructs.Construct, id *string, config *DataAwsPrefixListConfig) DataAwsPrefixList {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDataAwsPrefixList(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/prefix_list aws_prefix_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/prefix_list aws_prefix_list} Data Source.
 func NewDataAwsPrefixList_Override(d DataAwsPrefixList, scope constructs.Construct, id *string, config *DataAwsPrefixListConfig) {
 	_init_.Initialize()
 

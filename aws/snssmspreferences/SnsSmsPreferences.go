@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences}.
 type SnsSmsPreferences interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -487,7 +487,7 @@ func (j *jsiiProxy_SnsSmsPreferences) UsageReportS3BucketInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences} Resource.
 func NewSnsSmsPreferences(scope constructs.Construct, id *string, config *SnsSmsPreferencesConfig) SnsSmsPreferences {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewSnsSmsPreferences(scope constructs.Construct, id *string, config *SnsSms
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sns_sms_preferences aws_sns_sms_preferences} Resource.
 func NewSnsSmsPreferences_Override(s SnsSmsPreferences, scope constructs.Construct, id *string, config *SnsSmsPreferencesConfig) {
 	_init_.Initialize()
 

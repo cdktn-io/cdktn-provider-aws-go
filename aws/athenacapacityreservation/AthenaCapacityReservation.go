@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation}.
 type AthenaCapacityReservation interface {
 	cdktn.TerraformResource
 	AllocatedDpus() *float64
@@ -457,7 +457,7 @@ func (j *jsiiProxy_AthenaCapacityReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
 func NewAthenaCapacityReservation(scope constructs.Construct, id *string, config *AthenaCapacityReservationConfig) AthenaCapacityReservation {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewAthenaCapacityReservation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/athena_capacity_reservation aws_athena_capacity_reservation} Resource.
 func NewAthenaCapacityReservation_Override(a AthenaCapacityReservation, scope constructs.Construct, id *string, config *AthenaCapacityReservationConfig) {
 	_init_.Initialize()
 

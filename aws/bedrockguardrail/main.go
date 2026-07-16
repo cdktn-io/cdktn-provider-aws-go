@@ -104,6 +104,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "topicPolicyConfigInput", GoGetter: "TopicPolicyConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "updatedAt", GoGetter: "UpdatedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "wordPolicyConfig", GoGetter: "WordPolicyConfig"},

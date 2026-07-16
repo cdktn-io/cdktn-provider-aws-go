@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job}.
 type SagemakerTrainingJob interface {
 	cdktn.TerraformResource
 	AlgorithmSpecification() SagemakerTrainingJobAlgorithmSpecificationList
@@ -1083,7 +1083,7 @@ func (j *jsiiProxy_SagemakerTrainingJob) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job} Resource.
 func NewSagemakerTrainingJob(scope constructs.Construct, id *string, config *SagemakerTrainingJobConfig) SagemakerTrainingJob {
 	_init_.Initialize()
 
@@ -1101,7 +1101,7 @@ func NewSagemakerTrainingJob(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_training_job aws_sagemaker_training_job} Resource.
 func NewSagemakerTrainingJob_Override(s SagemakerTrainingJob, scope constructs.Construct, id *string, config *SagemakerTrainingJobConfig) {
 	_init_.Initialize()
 

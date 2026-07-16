@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ec2_service_link_virtual_interfaces aws_ec2_service_link_virtual_interfaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ec2_service_link_virtual_interfaces aws_ec2_service_link_virtual_interfaces}.
 type DataAwsEc2ServiceLinkVirtualInterfaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -333,7 +333,7 @@ func (j *jsiiProxy_DataAwsEc2ServiceLinkVirtualInterfaces) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ec2_service_link_virtual_interfaces aws_ec2_service_link_virtual_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ec2_service_link_virtual_interfaces aws_ec2_service_link_virtual_interfaces} Data Source.
 func NewDataAwsEc2ServiceLinkVirtualInterfaces(scope constructs.Construct, id *string, config *DataAwsEc2ServiceLinkVirtualInterfacesConfig) DataAwsEc2ServiceLinkVirtualInterfaces {
 	_init_.Initialize()
 
@@ -351,7 +351,7 @@ func NewDataAwsEc2ServiceLinkVirtualInterfaces(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/ec2_service_link_virtual_interfaces aws_ec2_service_link_virtual_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/ec2_service_link_virtual_interfaces aws_ec2_service_link_virtual_interfaces} Data Source.
 func NewDataAwsEc2ServiceLinkVirtualInterfaces_Override(d DataAwsEc2ServiceLinkVirtualInterfaces, scope constructs.Construct, id *string, config *DataAwsEc2ServiceLinkVirtualInterfacesConfig) {
 	_init_.Initialize()
 

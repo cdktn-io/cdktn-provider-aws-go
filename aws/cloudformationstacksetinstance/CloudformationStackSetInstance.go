@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudformation_stack_set_instance aws_cloudformation_stack_set_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudformation_stack_set_instance aws_cloudformation_stack_set_instance}.
 type CloudformationStackSetInstance interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -591,7 +591,7 @@ func (j *jsiiProxy_CloudformationStackSetInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudformation_stack_set_instance aws_cloudformation_stack_set_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudformation_stack_set_instance aws_cloudformation_stack_set_instance} Resource.
 func NewCloudformationStackSetInstance(scope constructs.Construct, id *string, config *CloudformationStackSetInstanceConfig) CloudformationStackSetInstance {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewCloudformationStackSetInstance(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudformation_stack_set_instance aws_cloudformation_stack_set_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudformation_stack_set_instance aws_cloudformation_stack_set_instance} Resource.
 func NewCloudformationStackSetInstance_Override(c CloudformationStackSetInstance, scope constructs.Construct, id *string, config *CloudformationStackSetInstanceConfig) {
 	_init_.Initialize()
 

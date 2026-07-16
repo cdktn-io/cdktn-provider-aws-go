@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssoadmin_instance_access_control_attributes aws_ssoadmin_instance_access_control_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ssoadmin_instance_access_control_attributes aws_ssoadmin_instance_access_control_attributes}.
 type SsoadminInstanceAccessControlAttributes interface {
 	cdktn.TerraformResource
 	Attribute() SsoadminInstanceAccessControlAttributesAttributeList
@@ -411,7 +411,7 @@ func (j *jsiiProxy_SsoadminInstanceAccessControlAttributes) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssoadmin_instance_access_control_attributes aws_ssoadmin_instance_access_control_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ssoadmin_instance_access_control_attributes aws_ssoadmin_instance_access_control_attributes} Resource.
 func NewSsoadminInstanceAccessControlAttributes(scope constructs.Construct, id *string, config *SsoadminInstanceAccessControlAttributesConfig) SsoadminInstanceAccessControlAttributes {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewSsoadminInstanceAccessControlAttributes(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssoadmin_instance_access_control_attributes aws_ssoadmin_instance_access_control_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ssoadmin_instance_access_control_attributes aws_ssoadmin_instance_access_control_attributes} Resource.
 func NewSsoadminInstanceAccessControlAttributes_Override(s SsoadminInstanceAccessControlAttributes, scope constructs.Construct, id *string, config *SsoadminInstanceAccessControlAttributesConfig) {
 	_init_.Initialize()
 

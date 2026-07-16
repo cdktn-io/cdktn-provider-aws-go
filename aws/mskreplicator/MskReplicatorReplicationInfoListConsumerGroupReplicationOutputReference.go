@@ -23,6 +23,9 @@ type MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference int
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConsumerGroupOffsetSyncMode() *string
+	SetConsumerGroupOffsetSyncMode(val *string)
+	ConsumerGroupOffsetSyncModeInput() *string
 	ConsumerGroupsToExclude() *[]*string
 	SetConsumerGroupsToExclude(val *[]*string)
 	ConsumerGroupsToExcludeInput() *[]*string
@@ -76,6 +79,7 @@ type MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference int
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetConsumerGroupOffsetSyncMode()
 	ResetConsumerGroupsToExclude()
 	ResetDetectAndCopyNewConsumerGroups()
 	ResetSynchroniseConsumerGroupOffsets()
@@ -109,6 +113,26 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutpu
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference) ConsumerGroupOffsetSyncMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerGroupOffsetSyncMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference) ConsumerGroupOffsetSyncModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerGroupOffsetSyncModeInput",
 		&returns,
 	)
 	return returns
@@ -290,6 +314,17 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutpu
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference)SetConsumerGroupOffsetSyncMode(val *string) {
+	if err := j.validateSetConsumerGroupOffsetSyncModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consumerGroupOffsetSyncMode",
 		val,
 	)
 }
@@ -555,6 +590,14 @@ func (m *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutpu
 	)
 
 	return returns
+}
+
+func (m *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference) ResetConsumerGroupOffsetSyncMode() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetConsumerGroupOffsetSyncMode",
+		nil, // no parameters
+	)
 }
 
 func (m *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference) ResetConsumerGroupsToExclude() {

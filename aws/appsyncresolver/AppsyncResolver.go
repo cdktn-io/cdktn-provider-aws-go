@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver aws_appsync_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_resolver aws_appsync_resolver}.
 type AppsyncResolver interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -663,7 +663,7 @@ func (j *jsiiProxy_AppsyncResolver) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver aws_appsync_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_resolver aws_appsync_resolver} Resource.
 func NewAppsyncResolver(scope constructs.Construct, id *string, config *AppsyncResolverConfig) AppsyncResolver {
 	_init_.Initialize()
 
@@ -681,7 +681,7 @@ func NewAppsyncResolver(scope constructs.Construct, id *string, config *AppsyncR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appsync_resolver aws_appsync_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appsync_resolver aws_appsync_resolver} Resource.
 func NewAppsyncResolver_Override(a AppsyncResolver, scope constructs.Construct, id *string, config *AppsyncResolverConfig) {
 	_init_.Initialize()
 

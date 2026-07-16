@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_indexing_rule aws_xray_indexing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/xray_indexing_rule aws_xray_indexing_rule}.
 type XrayIndexingRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_XrayIndexingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_indexing_rule aws_xray_indexing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/xray_indexing_rule aws_xray_indexing_rule} Resource.
 func NewXrayIndexingRule(scope constructs.Construct, id *string, config *XrayIndexingRuleConfig) XrayIndexingRule {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewXrayIndexingRule(scope constructs.Construct, id *string, config *XrayInd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_indexing_rule aws_xray_indexing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/xray_indexing_rule aws_xray_indexing_rule} Resource.
 func NewXrayIndexingRule_Override(x XrayIndexingRule, scope constructs.Construct, id *string, config *XrayIndexingRuleConfig) {
 	_init_.Initialize()
 

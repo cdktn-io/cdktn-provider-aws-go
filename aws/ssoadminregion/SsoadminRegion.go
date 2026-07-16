@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssoadmin_region aws_ssoadmin_region}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ssoadmin_region aws_ssoadmin_region}.
 type SsoadminRegion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_SsoadminRegion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssoadmin_region aws_ssoadmin_region} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ssoadmin_region aws_ssoadmin_region} Resource.
 func NewSsoadminRegion(scope constructs.Construct, id *string, config *SsoadminRegionConfig) SsoadminRegion {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewSsoadminRegion(scope constructs.Construct, id *string, config *SsoadminR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ssoadmin_region aws_ssoadmin_region} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ssoadmin_region aws_ssoadmin_region} Resource.
 func NewSsoadminRegion_Override(s SsoadminRegion, scope constructs.Construct, id *string, config *SsoadminRegionConfig) {
 	_init_.Initialize()
 

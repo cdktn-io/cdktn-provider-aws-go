@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/customer_gateway aws_customer_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/customer_gateway aws_customer_gateway}.
 type DataAwsCustomerGateway interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_DataAwsCustomerGateway) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/customer_gateway aws_customer_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/customer_gateway aws_customer_gateway} Data Source.
 func NewDataAwsCustomerGateway(scope constructs.Construct, id *string, config *DataAwsCustomerGatewayConfig) DataAwsCustomerGateway {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewDataAwsCustomerGateway(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/customer_gateway aws_customer_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/customer_gateway aws_customer_gateway} Data Source.
 func NewDataAwsCustomerGateway_Override(d DataAwsCustomerGateway, scope constructs.Construct, id *string, config *DataAwsCustomerGatewayConfig) {
 	_init_.Initialize()
 

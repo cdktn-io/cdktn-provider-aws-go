@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_policy aws_bedrockagentcore_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_policy aws_bedrockagentcore_policy}.
 type BedrockagentcorePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_BedrockagentcorePolicy) ValidationModeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_policy aws_bedrockagentcore_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_policy aws_bedrockagentcore_policy} Resource.
 func NewBedrockagentcorePolicy(scope constructs.Construct, id *string, config *BedrockagentcorePolicyConfig) BedrockagentcorePolicy {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewBedrockagentcorePolicy(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_policy aws_bedrockagentcore_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_policy aws_bedrockagentcore_policy} Resource.
 func NewBedrockagentcorePolicy_Override(b BedrockagentcorePolicy, scope constructs.Construct, id *string, config *BedrockagentcorePolicyConfig) {
 	_init_.Initialize()
 

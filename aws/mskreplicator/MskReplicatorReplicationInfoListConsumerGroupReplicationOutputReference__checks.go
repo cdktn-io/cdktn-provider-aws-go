@@ -166,6 +166,14 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutpu
 	return nil
 }
 
+func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference) validateSetConsumerGroupOffsetSyncModeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_MskReplicatorReplicationInfoListConsumerGroupReplicationOutputReference) validateSetConsumerGroupsToExcludeParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

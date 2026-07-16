@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination}.
 type XrayTraceSegmentDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_XrayTraceSegmentDestination) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
 func NewXrayTraceSegmentDestination(scope constructs.Construct, id *string, config *XrayTraceSegmentDestinationConfig) XrayTraceSegmentDestination {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewXrayTraceSegmentDestination(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
 func NewXrayTraceSegmentDestination_Override(x XrayTraceSegmentDestination, scope constructs.Construct, id *string, config *XrayTraceSegmentDestinationConfig) {
 	_init_.Initialize()
 

@@ -22,6 +22,8 @@ type BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutpu
 	AllowedScopes() *[]*string
 	SetAllowedScopes(val *[]*string)
 	AllowedScopesInput() *[]*string
+	AllowedWorkloadConfiguration() BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerAllowedWorkloadConfigurationList
+	AllowedWorkloadConfigurationInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,6 +48,10 @@ type BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutpu
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PrivateEndpoint() BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList
+	PrivateEndpointInput() interface{}
+	PrivateEndpointOverrides() BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesList
+	PrivateEndpointOverridesInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -78,11 +84,17 @@ type BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutpu
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAllowedWorkloadConfiguration(value interface{})
 	PutCustomClaim(value interface{})
+	PutPrivateEndpoint(value interface{})
+	PutPrivateEndpointOverrides(value interface{})
 	ResetAllowedAudience()
 	ResetAllowedClients()
 	ResetAllowedScopes()
+	ResetAllowedWorkloadConfiguration()
 	ResetCustomClaim()
+	ResetPrivateEndpoint()
+	ResetPrivateEndpointOverrides()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -153,6 +165,26 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	_jsii_.Get(
 		j,
 		"allowedScopesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AllowedWorkloadConfiguration() BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerAllowedWorkloadConfigurationList {
+	var returns BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerAllowedWorkloadConfigurationList
+	_jsii_.Get(
+		j,
+		"allowedWorkloadConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AllowedWorkloadConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowedWorkloadConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +275,46 @@ func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpoint() BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList {
+	var returns BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList
+	_jsii_.Get(
+		j,
+		"privateEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointOverrides() BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesList {
+	var returns BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesList
+	_jsii_.Get(
+		j,
+		"privateEndpointOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointOverridesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointOverridesInput",
 		&returns,
 	)
 	return returns
@@ -581,6 +653,17 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutAllowedWorkloadConfiguration(value interface{}) {
+	if err := b.validatePutAllowedWorkloadConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putAllowedWorkloadConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutCustomClaim(value interface{}) {
 	if err := b.validatePutCustomClaimParameters(value); err != nil {
 		panic(err)
@@ -588,6 +671,28 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	_jsii_.InvokeVoid(
 		b,
 		"putCustomClaim",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutPrivateEndpoint(value interface{}) {
+	if err := b.validatePutPrivateEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPrivateEndpoint",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutPrivateEndpointOverrides(value interface{}) {
+	if err := b.validatePutPrivateEndpointOverridesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPrivateEndpointOverrides",
 		[]interface{}{value},
 	)
 }
@@ -616,10 +721,34 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetAllowedWorkloadConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAllowedWorkloadConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetCustomClaim() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetCustomClaim",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetPrivateEndpoint() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPrivateEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetPrivateEndpointOverrides() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPrivateEndpointOverrides",
 		nil, // no parameters
 	)
 }

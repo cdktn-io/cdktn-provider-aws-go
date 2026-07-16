@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile}.
 type DevicefarmNetworkProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -688,7 +688,7 @@ func (j *jsiiProxy_DevicefarmNetworkProfile) UplinkLossPercentInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
 func NewDevicefarmNetworkProfile(scope constructs.Construct, id *string, config *DevicefarmNetworkProfileConfig) DevicefarmNetworkProfile {
 	_init_.Initialize()
 
@@ -706,7 +706,7 @@ func NewDevicefarmNetworkProfile(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_network_profile aws_devicefarm_network_profile} Resource.
 func NewDevicefarmNetworkProfile_Override(d DevicefarmNetworkProfile, scope constructs.Construct, id *string, config *DevicefarmNetworkProfileConfig) {
 	_init_.Initialize()
 

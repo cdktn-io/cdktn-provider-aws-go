@@ -7,7 +7,7 @@ package bedrockagentcorebrowser
 type BedrockagentcoreBrowserCertificateLocation struct {
 	// secrets_manager block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_browser#secrets_manager BedrockagentcoreBrowser#secrets_manager}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_browser#secrets_manager BedrockagentcoreBrowser#secrets_manager}
 	SecretsManager interface{} `field:"optional" json:"secretsManager" yaml:"secretsManager"`
 }
 

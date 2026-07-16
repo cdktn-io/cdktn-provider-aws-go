@@ -7,7 +7,7 @@ package bedrockagentcorebrowser
 type BedrockagentcoreBrowserEnterprisePolicyLocation struct {
 	// s3 block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagentcore_browser#s3 BedrockagentcoreBrowser#s3}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_browser#s3 BedrockagentcoreBrowser#s3}
 	S3 interface{} `field:"optional" json:"s3" yaml:"s3"`
 }
 

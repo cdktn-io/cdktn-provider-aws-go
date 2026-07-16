@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access}.
 type BedrockUseCaseForModelAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -318,7 +318,7 @@ func (j *jsiiProxy_BedrockUseCaseForModelAccess) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
 func NewBedrockUseCaseForModelAccess(scope constructs.Construct, id *string, config *BedrockUseCaseForModelAccessConfig) BedrockUseCaseForModelAccess {
 	_init_.Initialize()
 
@@ -336,7 +336,7 @@ func NewBedrockUseCaseForModelAccess(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
 func NewBedrockUseCaseForModelAccess_Override(b BedrockUseCaseForModelAccess, scope constructs.Construct, id *string, config *BedrockUseCaseForModelAccessConfig) {
 	_init_.Initialize()
 

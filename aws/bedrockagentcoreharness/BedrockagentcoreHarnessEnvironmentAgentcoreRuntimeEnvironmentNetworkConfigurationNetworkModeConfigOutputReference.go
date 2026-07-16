@@ -32,6 +32,9 @@ type BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigu
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	RequireServiceS3Endpoint() interface{}
+	SetRequireServiceS3Endpoint(val interface{})
+	RequireServiceS3EndpointInput() interface{}
 	SecurityGroups() *[]*string
 	SetSecurityGroups(val *[]*string)
 	SecurityGroupsInput() *[]*string
@@ -70,6 +73,7 @@ type BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigu
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetRequireServiceS3Endpoint()
 	ResetSecurityGroups()
 	ResetSubnets()
 	// Produce the Token's value at resolution time.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigOutputReference) RequireServiceS3Endpoint() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"requireServiceS3Endpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigOutputReference) RequireServiceS3EndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"requireServiceS3EndpointInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigOutputReference)SetRequireServiceS3Endpoint(val interface{}) {
+	if err := j.validateSetRequireServiceS3EndpointParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"requireServiceS3Endpoint",
 		val,
 	)
 }
@@ -486,6 +521,14 @@ func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigOutputReference) ResetRequireServiceS3Endpoint() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetRequireServiceS3Endpoint",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigOutputReference) ResetSecurityGroups() {

@@ -63,6 +63,10 @@ func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigOutputReference) validateSetRequireServiceS3EndpointParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigOutputReference) validateSetSecurityGroupsParameters(val *[]*string) error {
 	return nil
 }

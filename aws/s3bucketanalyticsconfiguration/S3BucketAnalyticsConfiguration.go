@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_analytics_configuration aws_s3_bucket_analytics_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_bucket_analytics_configuration aws_s3_bucket_analytics_configuration}.
 type S3BucketAnalyticsConfiguration interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_S3BucketAnalyticsConfiguration) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_analytics_configuration aws_s3_bucket_analytics_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_bucket_analytics_configuration aws_s3_bucket_analytics_configuration} Resource.
 func NewS3BucketAnalyticsConfiguration(scope constructs.Construct, id *string, config *S3BucketAnalyticsConfigurationConfig) S3BucketAnalyticsConfiguration {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewS3BucketAnalyticsConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/s3_bucket_analytics_configuration aws_s3_bucket_analytics_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_bucket_analytics_configuration aws_s3_bucket_analytics_configuration} Resource.
 func NewS3BucketAnalyticsConfiguration_Override(s S3BucketAnalyticsConfiguration, scope constructs.Construct, id *string, config *S3BucketAnalyticsConfigurationConfig) {
 	_init_.Initialize()
 

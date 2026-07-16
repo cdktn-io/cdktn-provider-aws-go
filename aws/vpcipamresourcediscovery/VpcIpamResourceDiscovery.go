@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery}.
 type VpcIpamResourceDiscovery interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_VpcIpamResourceDiscovery) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
 func NewVpcIpamResourceDiscovery(scope constructs.Construct, id *string, config *VpcIpamResourceDiscoveryConfig) VpcIpamResourceDiscovery {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewVpcIpamResourceDiscovery(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpc_ipam_resource_discovery aws_vpc_ipam_resource_discovery} Resource.
 func NewVpcIpamResourceDiscovery_Override(v VpcIpamResourceDiscovery, scope constructs.Construct, id *string, config *VpcIpamResourceDiscoveryConfig) {
 	_init_.Initialize()
 

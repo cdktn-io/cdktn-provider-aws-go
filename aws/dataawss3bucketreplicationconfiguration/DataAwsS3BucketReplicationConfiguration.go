@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration}.
 type DataAwsS3BucketReplicationConfiguration interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsS3BucketReplicationConfiguration) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Data Source.
 func NewDataAwsS3BucketReplicationConfiguration(scope constructs.Construct, id *string, config *DataAwsS3BucketReplicationConfigurationConfig) DataAwsS3BucketReplicationConfiguration {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsS3BucketReplicationConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/data-sources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/s3_bucket_replication_configuration aws_s3_bucket_replication_configuration} Data Source.
 func NewDataAwsS3BucketReplicationConfiguration_Override(d DataAwsS3BucketReplicationConfiguration, scope constructs.Construct, id *string, config *DataAwsS3BucketReplicationConfigurationConfig) {
 	_init_.Initialize()
 

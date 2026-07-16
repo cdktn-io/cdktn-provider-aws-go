@@ -7,11 +7,11 @@ package wafv2webaclrule
 type Wafv2WebAclRuleOverrideActionA struct {
 	// count block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_web_acl_rule#count Wafv2WebAclRuleA#count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/wafv2_web_acl_rule#count Wafv2WebAclRuleA#count}
 	Count interface{} `field:"optional" json:"count" yaml:"count"`
 	// none block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_web_acl_rule#none Wafv2WebAclRuleA#none}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/wafv2_web_acl_rule#none Wafv2WebAclRuleA#none}
 	None interface{} `field:"optional" json:"none" yaml:"none"`
 }
 
