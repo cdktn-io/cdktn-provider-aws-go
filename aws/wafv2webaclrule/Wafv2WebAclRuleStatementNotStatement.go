@@ -7,7 +7,7 @@ package wafv2webaclrule
 type Wafv2WebAclRuleStatementNotStatement struct {
 	// statement block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
 	Statement interface{} `field:"optional" json:"statement" yaml:"statement"`
 }
 

@@ -32,6 +32,9 @@ type S3TablesTableMetadataIcebergOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Properties() *map[string]*string
+	SetProperties(val *map[string]*string)
+	PropertiesInput() *map[string]*string
 	Schema() S3TablesTableMetadataIcebergSchemaList
 	SchemaInput() interface{}
 	// Experimental.
@@ -67,6 +70,7 @@ type S3TablesTableMetadataIcebergOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSchema(value interface{})
+	ResetProperties()
 	ResetSchema()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) InternalValue() 
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) Properties() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"properties",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) PropertiesInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"propertiesInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference)SetInternalValue(
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference)SetProperties(val *map[string]*string) {
+	if err := j.validateSetPropertiesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"properties",
 		val,
 	)
 }
@@ -450,6 +485,14 @@ func (s *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) PutSchema(value 
 		s,
 		"putSchema",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) ResetProperties() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetProperties",
+		nil, // no parameters
 	)
 }
 

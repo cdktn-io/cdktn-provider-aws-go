@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ecs_daemon aws_ecs_daemon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon aws_ecs_daemon}.
 type EcsDaemon interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -600,7 +600,7 @@ func (j *jsiiProxy_EcsDaemon) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ecs_daemon aws_ecs_daemon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon aws_ecs_daemon} Resource.
 func NewEcsDaemon(scope constructs.Construct, id *string, config *EcsDaemonConfig) EcsDaemon {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewEcsDaemon(scope constructs.Construct, id *string, config *EcsDaemonConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ecs_daemon aws_ecs_daemon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon aws_ecs_daemon} Resource.
 func NewEcsDaemon_Override(e EcsDaemon, scope constructs.Construct, id *string, config *EcsDaemonConfig) {
 	_init_.Initialize()
 

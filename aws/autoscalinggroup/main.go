@@ -70,6 +70,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "importFrom", GoMethod: "ImportFrom"},
 			_jsii_.MemberProperty{JsiiProperty: "initialLifecycleHook", GoGetter: "InitialLifecycleHook"},
 			_jsii_.MemberProperty{JsiiProperty: "initialLifecycleHookInput", GoGetter: "InitialLifecycleHookInput"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceLifecyclePolicy", GoGetter: "InstanceLifecyclePolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceLifecyclePolicyInput", GoGetter: "InstanceLifecyclePolicyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceMaintenancePolicy", GoGetter: "InstanceMaintenancePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceMaintenancePolicyInput", GoGetter: "InstanceMaintenancePolicyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceRefresh", GoGetter: "InstanceRefresh"},
@@ -113,6 +115,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putAvailabilityZoneDistribution", GoMethod: "PutAvailabilityZoneDistribution"},
 			_jsii_.MemberMethod{JsiiMethod: "putCapacityReservationSpecification", GoMethod: "PutCapacityReservationSpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "putInitialLifecycleHook", GoMethod: "PutInitialLifecycleHook"},
+			_jsii_.MemberMethod{JsiiMethod: "putInstanceLifecyclePolicy", GoMethod: "PutInstanceLifecyclePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putInstanceMaintenancePolicy", GoMethod: "PutInstanceMaintenancePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putInstanceRefresh", GoMethod: "PutInstanceRefresh"},
 			_jsii_.MemberMethod{JsiiMethod: "putLaunchTemplate", GoMethod: "PutLaunchTemplate"},
@@ -141,6 +144,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIgnoreFailedScalingActivities", GoMethod: "ResetIgnoreFailedScalingActivities"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInitialLifecycleHook", GoMethod: "ResetInitialLifecycleHook"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInstanceLifecyclePolicy", GoMethod: "ResetInstanceLifecyclePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInstanceMaintenancePolicy", GoMethod: "ResetInstanceMaintenancePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInstanceRefresh", GoMethod: "ResetInstanceRefresh"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLaunchConfiguration", GoMethod: "ResetLaunchConfiguration"},
@@ -408,6 +412,85 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_AutoscalingGroupInitialLifecycleHookOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicy",
+		reflect.TypeOf((*AutoscalingGroupInstanceLifecyclePolicy)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicyOutputReference",
+		reflect.TypeOf((*AutoscalingGroupInstanceLifecyclePolicyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putRetentionTriggers", GoMethod: "PutRetentionTriggers"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRetentionTriggers", GoMethod: "ResetRetentionTriggers"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "retentionTriggers", GoGetter: "RetentionTriggers"},
+			_jsii_.MemberProperty{JsiiProperty: "retentionTriggersInput", GoGetter: "RetentionTriggersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_AutoscalingGroupInstanceLifecyclePolicyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicyRetentionTriggers",
+		reflect.TypeOf((*AutoscalingGroupInstanceLifecyclePolicyRetentionTriggers)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicyRetentionTriggersOutputReference",
+		reflect.TypeOf((*AutoscalingGroupInstanceLifecyclePolicyRetentionTriggersOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTerminateHookAbandon", GoMethod: "ResetTerminateHookAbandon"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terminateHookAbandon", GoGetter: "TerminateHookAbandon"},
+			_jsii_.MemberProperty{JsiiProperty: "terminateHookAbandonInput", GoGetter: "TerminateHookAbandonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_AutoscalingGroupInstanceLifecyclePolicyRetentionTriggersOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

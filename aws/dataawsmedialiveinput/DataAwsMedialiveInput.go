@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/medialive_input aws_medialive_input}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/medialive_input aws_medialive_input}.
 type DataAwsMedialiveInput interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsMedialiveInput) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
 func NewDataAwsMedialiveInput(scope constructs.Construct, id *string, config *DataAwsMedialiveInputConfig) DataAwsMedialiveInput {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsMedialiveInput(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/medialive_input aws_medialive_input} Data Source.
 func NewDataAwsMedialiveInput_Override(d DataAwsMedialiveInput, scope constructs.Construct, id *string, config *DataAwsMedialiveInputConfig) {
 	_init_.Initialize()
 

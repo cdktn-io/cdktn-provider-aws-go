@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/media_packagev2_channel_group aws_media_packagev2_channel_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/media_packagev2_channel_group aws_media_packagev2_channel_group}.
 type MediaPackagev2ChannelGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_MediaPackagev2ChannelGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/media_packagev2_channel_group aws_media_packagev2_channel_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/media_packagev2_channel_group aws_media_packagev2_channel_group} Resource.
 func NewMediaPackagev2ChannelGroup(scope constructs.Construct, id *string, config *MediaPackagev2ChannelGroupConfig) MediaPackagev2ChannelGroup {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewMediaPackagev2ChannelGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/media_packagev2_channel_group aws_media_packagev2_channel_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/media_packagev2_channel_group aws_media_packagev2_channel_group} Resource.
 func NewMediaPackagev2ChannelGroup_Override(m MediaPackagev2ChannelGroup, scope constructs.Construct, id *string, config *MediaPackagev2ChannelGroupConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint}.
 type DbProxyEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -576,7 +576,7 @@ func (j *jsiiProxy_DbProxyEndpoint) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
 func NewDbProxyEndpoint(scope constructs.Construct, id *string, config *DbProxyEndpointConfig) DbProxyEndpoint {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewDbProxyEndpoint(scope constructs.Construct, id *string, config *DbProxyE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/db_proxy_endpoint aws_db_proxy_endpoint} Resource.
 func NewDbProxyEndpoint_Override(d DbProxyEndpoint, scope constructs.Construct, id *string, config *DbProxyEndpointConfig) {
 	_init_.Initialize()
 

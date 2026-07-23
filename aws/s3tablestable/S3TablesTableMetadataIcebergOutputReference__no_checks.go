@@ -67,6 +67,10 @@ func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) validateSetInter
 	return nil
 }
 
+func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) validateSetPropertiesParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_S3TablesTableMetadataIcebergOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

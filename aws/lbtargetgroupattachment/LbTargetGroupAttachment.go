@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment}.
 type LbTargetGroupAttachment interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_LbTargetGroupAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
 func NewLbTargetGroupAttachment(scope constructs.Construct, id *string, config *LbTargetGroupAttachmentConfig) LbTargetGroupAttachment {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewLbTargetGroupAttachment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_target_group_attachment aws_lb_target_group_attachment} Resource.
 func NewLbTargetGroupAttachment_Override(l LbTargetGroupAttachment, scope constructs.Construct, id *string, config *LbTargetGroupAttachmentConfig) {
 	_init_.Initialize()
 

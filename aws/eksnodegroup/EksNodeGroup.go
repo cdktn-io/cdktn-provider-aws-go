@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_node_group aws_eks_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group aws_eks_node_group}.
 type EksNodeGroup interface {
 	cdktn.TerraformResource
 	AmiType() *string
@@ -129,6 +129,8 @@ type EksNodeGroup interface {
 	Version() *string
 	SetVersion(val *string)
 	VersionInput() *string
+	WarmPoolConfig() EksNodeGroupWarmPoolConfigOutputReference
+	WarmPoolConfigInput() *EksNodeGroupWarmPoolConfig
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -179,6 +181,7 @@ type EksNodeGroup interface {
 	PutTaint(value interface{})
 	PutTimeouts(value *EksNodeGroupTimeouts)
 	PutUpdateConfig(value *EksNodeGroupUpdateConfig)
+	PutWarmPoolConfig(value *EksNodeGroupWarmPoolConfig)
 	ResetAmiType()
 	ResetCapacityType()
 	ResetDiskSize()
@@ -202,6 +205,7 @@ type EksNodeGroup interface {
 	ResetTimeouts()
 	ResetUpdateConfig()
 	ResetVersion()
+	ResetWarmPoolConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -899,8 +903,28 @@ func (j *jsiiProxy_EksNodeGroup) VersionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_EksNodeGroup) WarmPoolConfig() EksNodeGroupWarmPoolConfigOutputReference {
+	var returns EksNodeGroupWarmPoolConfigOutputReference
+	_jsii_.Get(
+		j,
+		"warmPoolConfig",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
+func (j *jsiiProxy_EksNodeGroup) WarmPoolConfigInput() *EksNodeGroupWarmPoolConfig {
+	var returns *EksNodeGroupWarmPoolConfig
+	_jsii_.Get(
+		j,
+		"warmPoolConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
 func NewEksNodeGroup(scope constructs.Construct, id *string, config *EksNodeGroupConfig) EksNodeGroup {
 	_init_.Initialize()
 
@@ -918,7 +942,7 @@ func NewEksNodeGroup(scope constructs.Construct, id *string, config *EksNodeGrou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group aws_eks_node_group} Resource.
 func NewEksNodeGroup_Override(e EksNodeGroup, scope constructs.Construct, id *string, config *EksNodeGroupConfig) {
 	_init_.Initialize()
 
@@ -1614,6 +1638,17 @@ func (e *jsiiProxy_EksNodeGroup) PutUpdateConfig(value *EksNodeGroupUpdateConfig
 	)
 }
 
+func (e *jsiiProxy_EksNodeGroup) PutWarmPoolConfig(value *EksNodeGroupWarmPoolConfig) {
+	if err := e.validatePutWarmPoolConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putWarmPoolConfig",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EksNodeGroup) ResetAmiType() {
 	_jsii_.InvokeVoid(
 		e,
@@ -1778,6 +1813,14 @@ func (e *jsiiProxy_EksNodeGroup) ResetVersion() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetVersion",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksNodeGroup) ResetWarmPoolConfig() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetWarmPoolConfig",
 		nil, // no parameters
 	)
 }

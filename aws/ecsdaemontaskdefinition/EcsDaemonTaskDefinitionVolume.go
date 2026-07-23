@@ -5,11 +5,11 @@ package ecsdaemontaskdefinition
 
 
 type EcsDaemonTaskDefinitionVolume struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// host block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ecs_daemon_task_definition#host EcsDaemonTaskDefinition#host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#host EcsDaemonTaskDefinition#host}
 	Host interface{} `field:"optional" json:"host" yaml:"host"`
 }
 

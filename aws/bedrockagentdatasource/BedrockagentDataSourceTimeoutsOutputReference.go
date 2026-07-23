@@ -46,6 +46,9 @@ type BedrockagentDataSourceTimeoutsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Update() *string
+	SetUpdate(val *string)
+	UpdateInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type BedrockagentDataSourceTimeoutsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
+	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference) TerraformResou
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference) Update() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"update",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference) UpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewBedrockagentDataSourceTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BedrockagentDataSourceTimeoutsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference)SetTerraformRes
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference)SetUpdate(val *string) {
+	if err := j.validateSetUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"update",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (b *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference) ResetDelete() 
 	_jsii_.InvokeVoid(
 		b,
 		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetUpdate",
 		nil, // no parameters
 	)
 }

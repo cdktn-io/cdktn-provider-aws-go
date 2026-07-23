@@ -12,17 +12,21 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/msk_cluster aws_msk_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster aws_msk_cluster}.
 type MskCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
 	BootstrapBrokers() *string
+	BootstrapBrokersIpv6() *string
 	BootstrapBrokersPublicSaslIam() *string
 	BootstrapBrokersPublicSaslScram() *string
 	BootstrapBrokersPublicTls() *string
 	BootstrapBrokersSaslIam() *string
+	BootstrapBrokersSaslIamIpv6() *string
 	BootstrapBrokersSaslScram() *string
+	BootstrapBrokersSaslScramIpv6() *string
 	BootstrapBrokersTls() *string
+	BootstrapBrokersTlsIpv6() *string
 	BootstrapBrokersVpcConnectivitySaslIam() *string
 	BootstrapBrokersVpcConnectivitySaslScram() *string
 	BootstrapBrokersVpcConnectivityTls() *string
@@ -234,6 +238,16 @@ func (j *jsiiProxy_MskCluster) BootstrapBrokers() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MskCluster) BootstrapBrokersIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MskCluster) BootstrapBrokersPublicSaslIam() *string {
 	var returns *string
 	_jsii_.Get(
@@ -274,6 +288,16 @@ func (j *jsiiProxy_MskCluster) BootstrapBrokersSaslIam() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MskCluster) BootstrapBrokersSaslIamIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersSaslIamIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MskCluster) BootstrapBrokersSaslScram() *string {
 	var returns *string
 	_jsii_.Get(
@@ -284,11 +308,31 @@ func (j *jsiiProxy_MskCluster) BootstrapBrokersSaslScram() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MskCluster) BootstrapBrokersSaslScramIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersSaslScramIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MskCluster) BootstrapBrokersTls() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"bootstrapBrokersTls",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskCluster) BootstrapBrokersTlsIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersTlsIpv6",
 		&returns,
 	)
 	return returns
@@ -875,7 +919,7 @@ func (j *jsiiProxy_MskCluster) ZookeeperConnectStringTls() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/msk_cluster aws_msk_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster aws_msk_cluster} Resource.
 func NewMskCluster(scope constructs.Construct, id *string, config *MskClusterConfig) MskCluster {
 	_init_.Initialize()
 
@@ -893,7 +937,7 @@ func NewMskCluster(scope constructs.Construct, id *string, config *MskClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/msk_cluster aws_msk_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster aws_msk_cluster} Resource.
 func NewMskCluster_Override(m MskCluster, scope constructs.Construct, id *string, config *MskClusterConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status}.
 type ComputeoptimizerEnrollmentStatus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_ComputeoptimizerEnrollmentStatus) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
 func NewComputeoptimizerEnrollmentStatus(scope constructs.Construct, id *string, config *ComputeoptimizerEnrollmentStatusConfig) ComputeoptimizerEnrollmentStatus {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewComputeoptimizerEnrollmentStatus(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/computeoptimizer_enrollment_status aws_computeoptimizer_enrollment_status} Resource.
 func NewComputeoptimizerEnrollmentStatus_Override(c ComputeoptimizerEnrollmentStatus, scope constructs.Construct, id *string, config *ComputeoptimizerEnrollmentStatusConfig) {
 	_init_.Initialize()
 

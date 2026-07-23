@@ -222,6 +222,14 @@ func (j *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentDataSourceTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewBedrockagentDataSourceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")

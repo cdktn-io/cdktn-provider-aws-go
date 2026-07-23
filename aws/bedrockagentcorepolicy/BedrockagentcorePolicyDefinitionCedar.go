@@ -5,7 +5,7 @@ package bedrockagentcorepolicy
 
 
 type BedrockagentcorePolicyDefinitionCedar struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.
 	Statement *string `field:"required" json:"statement" yaml:"statement"`
 }
 

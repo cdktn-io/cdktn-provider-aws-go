@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes}.
 type DataAwsOdbDbSystemShapes interface {
 	cdktn.TerraformDataSource
 	AvailabilityZoneId() *string
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsOdbDbSystemShapes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
 func NewDataAwsOdbDbSystemShapes(scope constructs.Construct, id *string, config *DataAwsOdbDbSystemShapesConfig) DataAwsOdbDbSystemShapes {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataAwsOdbDbSystemShapes(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
 func NewDataAwsOdbDbSystemShapes_Override(d DataAwsOdbDbSystemShapes, scope constructs.Construct, id *string, config *DataAwsOdbDbSystemShapesConfig) {
 	_init_.Initialize()
 

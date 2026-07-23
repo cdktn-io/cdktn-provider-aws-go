@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt}.
 type BedrockagentPrompt interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_BedrockagentPrompt) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
 func NewBedrockagentPrompt(scope constructs.Construct, id *string, config *BedrockagentPromptConfig) BedrockagentPrompt {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewBedrockagentPrompt(scope constructs.Construct, id *string, config *Bedro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_prompt aws_bedrockagent_prompt} Resource.
 func NewBedrockagentPrompt_Override(b BedrockagentPrompt, scope constructs.Construct, id *string, config *BedrockagentPromptConfig) {
 	_init_.Initialize()
 

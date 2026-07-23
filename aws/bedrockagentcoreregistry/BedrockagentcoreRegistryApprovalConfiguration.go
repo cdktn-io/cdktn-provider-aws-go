@@ -5,7 +5,7 @@ package bedrockagentcoreregistry
 
 
 type BedrockagentcoreRegistryApprovalConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_registry#auto_approval BedrockagentcoreRegistry#auto_approval}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_registry#auto_approval BedrockagentcoreRegistry#auto_approval}.
 	AutoApproval interface{} `field:"optional" json:"autoApproval" yaml:"autoApproval"`
 }
 

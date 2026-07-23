@@ -114,6 +114,68 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validatePutIamFederationOptionsParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*DataAwsOpensearchserverlessSecurityConfigIamFederationOptions:
+		value := value.(*[]*DataAwsOpensearchserverlessSecurityConfigIamFederationOptions)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DataAwsOpensearchserverlessSecurityConfigIamFederationOptions:
+		value_ := value.([]*DataAwsOpensearchserverlessSecurityConfigIamFederationOptions)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsOpensearchserverlessSecurityConfigIamFederationOptions; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validatePutIamIdentityCenterOptionsParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions:
+		value := value.(*[]*DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions:
+		value_ := value.([]*DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validatePutSamlOptionsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

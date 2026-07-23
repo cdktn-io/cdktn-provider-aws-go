@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool}.
 type DevicefarmDevicePool interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_DevicefarmDevicePool) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
 func NewDevicefarmDevicePool(scope constructs.Construct, id *string, config *DevicefarmDevicePoolConfig) DevicefarmDevicePool {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewDevicefarmDevicePool(scope constructs.Construct, id *string, config *Dev
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/devicefarm_device_pool aws_devicefarm_device_pool} Resource.
 func NewDevicefarmDevicePool_Override(d DevicefarmDevicePool, scope constructs.Construct, id *string, config *DevicefarmDevicePoolConfig) {
 	_init_.Initialize()
 

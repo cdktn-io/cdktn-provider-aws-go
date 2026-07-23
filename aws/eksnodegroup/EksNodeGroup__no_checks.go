@@ -103,6 +103,10 @@ func (e *jsiiProxy_EksNodeGroup) validatePutUpdateConfigParameters(value *EksNod
 	return nil
 }
 
+func (e *jsiiProxy_EksNodeGroup) validatePutWarmPoolConfigParameters(value *EksNodeGroupWarmPoolConfig) error {
+	return nil
+}
+
 func validateEksNodeGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

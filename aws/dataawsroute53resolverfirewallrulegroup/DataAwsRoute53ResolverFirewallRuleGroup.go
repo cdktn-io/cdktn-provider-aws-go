@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group}.
 type DataAwsRoute53ResolverFirewallRuleGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -431,7 +431,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRuleGroup) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Data Source.
 func NewDataAwsRoute53ResolverFirewallRuleGroup(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRuleGroupConfig) DataAwsRoute53ResolverFirewallRuleGroup {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewDataAwsRoute53ResolverFirewallRuleGroup(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/route53_resolver_firewall_rule_group aws_route53_resolver_firewall_rule_group} Data Source.
 func NewDataAwsRoute53ResolverFirewallRuleGroup_Override(d DataAwsRoute53ResolverFirewallRuleGroup, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRuleGroupConfig) {
 	_init_.Initialize()
 

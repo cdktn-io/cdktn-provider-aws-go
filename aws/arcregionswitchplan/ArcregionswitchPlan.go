@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan}.
 type ArcregionswitchPlan interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_ArcregionswitchPlan) WorkflowInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
 func NewArcregionswitchPlan(scope constructs.Construct, id *string, config *ArcregionswitchPlanConfig) ArcregionswitchPlan {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewArcregionswitchPlan(scope constructs.Construct, id *string, config *Arcr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan aws_arcregionswitch_plan} Resource.
 func NewArcregionswitchPlan_Override(a ArcregionswitchPlan, scope constructs.Construct, id *string, config *ArcregionswitchPlanConfig) {
 	_init_.Initialize()
 

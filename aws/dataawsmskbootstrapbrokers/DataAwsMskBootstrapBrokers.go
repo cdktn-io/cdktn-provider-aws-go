@@ -12,16 +12,20 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers}.
 type DataAwsMskBootstrapBrokers interface {
 	cdktn.TerraformDataSource
 	BootstrapBrokers() *string
+	BootstrapBrokersIpv6() *string
 	BootstrapBrokersPublicSaslIam() *string
 	BootstrapBrokersPublicSaslScram() *string
 	BootstrapBrokersPublicTls() *string
 	BootstrapBrokersSaslIam() *string
+	BootstrapBrokersSaslIamIpv6() *string
 	BootstrapBrokersSaslScram() *string
+	BootstrapBrokersSaslScramIpv6() *string
 	BootstrapBrokersTls() *string
+	BootstrapBrokersTlsIpv6() *string
 	BootstrapBrokersVpcConnectivitySaslIam() *string
 	BootstrapBrokersVpcConnectivitySaslScram() *string
 	BootstrapBrokersVpcConnectivityTls() *string
@@ -140,6 +144,16 @@ func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokers() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersPublicSaslIam() *string {
 	var returns *string
 	_jsii_.Get(
@@ -180,6 +194,16 @@ func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersSaslIam() *string
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersSaslIamIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersSaslIamIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersSaslScram() *string {
 	var returns *string
 	_jsii_.Get(
@@ -190,11 +214,31 @@ func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersSaslScram() *stri
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersSaslScramIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersSaslScramIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersTls() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"bootstrapBrokersTls",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsMskBootstrapBrokers) BootstrapBrokersTlsIpv6() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapBrokersTlsIpv6",
 		&returns,
 	)
 	return returns
@@ -431,7 +475,7 @@ func (j *jsiiProxy_DataAwsMskBootstrapBrokers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) DataAwsMskBootstrapBrokers {
 	_init_.Initialize()
 
@@ -449,7 +493,7 @@ func NewDataAwsMskBootstrapBrokers(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/msk_bootstrap_brokers aws_msk_bootstrap_brokers} Data Source.
 func NewDataAwsMskBootstrapBrokers_Override(d DataAwsMskBootstrapBrokers, scope constructs.Construct, id *string, config *DataAwsMskBootstrapBrokersConfig) {
 	_init_.Initialize()
 

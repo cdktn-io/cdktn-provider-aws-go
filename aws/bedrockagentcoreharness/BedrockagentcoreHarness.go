@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_harness aws_bedrockagentcore_harness}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_harness aws_bedrockagentcore_harness}.
 type BedrockagentcoreHarness interface {
 	cdktn.TerraformResource
 	AllowedTools() *[]*string
@@ -782,7 +782,7 @@ func (j *jsiiProxy_BedrockagentcoreHarness) TruncationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_harness aws_bedrockagentcore_harness} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_harness aws_bedrockagentcore_harness} Resource.
 func NewBedrockagentcoreHarness(scope constructs.Construct, id *string, config *BedrockagentcoreHarnessConfig) BedrockagentcoreHarness {
 	_init_.Initialize()
 
@@ -800,7 +800,7 @@ func NewBedrockagentcoreHarness(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagentcore_harness aws_bedrockagentcore_harness} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_harness aws_bedrockagentcore_harness} Resource.
 func NewBedrockagentcoreHarness_Override(b BedrockagentcoreHarness, scope constructs.Construct, id *string, config *BedrockagentcoreHarnessConfig) {
 	_init_.Initialize()
 

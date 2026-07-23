@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts}.
 type DataAwsOrganizationsOrganizationalUnitChildAccounts interface {
 	cdktn.TerraformDataSource
 	Accounts() DataAwsOrganizationsOrganizationalUnitChildAccountsAccountsList
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitChildAccounts) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitChildAccounts(scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitChildAccountsConfig) DataAwsOrganizationsOrganizationalUnitChildAccounts {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsOrganizationsOrganizationalUnitChildAccounts(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitChildAccounts_Override(d DataAwsOrganizationsOrganizationalUnitChildAccounts, scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitChildAccountsConfig) {
 	_init_.Initialize()
 

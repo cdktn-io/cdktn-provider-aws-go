@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/cloudfront_function aws_cloudfront_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/cloudfront_function aws_cloudfront_function}.
 type DataAwsCloudfrontFunction interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -408,7 +408,7 @@ func (j *jsiiProxy_DataAwsCloudfrontFunction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
 func NewDataAwsCloudfrontFunction(scope constructs.Construct, id *string, config *DataAwsCloudfrontFunctionConfig) DataAwsCloudfrontFunction {
 	_init_.Initialize()
 
@@ -426,7 +426,7 @@ func NewDataAwsCloudfrontFunction(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/cloudfront_function aws_cloudfront_function} Data Source.
 func NewDataAwsCloudfrontFunction_Override(d DataAwsCloudfrontFunction, scope constructs.Construct, id *string, config *DataAwsCloudfrontFunctionConfig) {
 	_init_.Initialize()
 

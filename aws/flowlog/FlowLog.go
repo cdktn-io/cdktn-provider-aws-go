@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/flow_log aws_flow_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/flow_log aws_flow_log}.
 type FlowLog interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -91,6 +91,8 @@ type FlowLog interface {
 	SubnetId() *string
 	SetSubnetId(val *string)
 	SubnetIdInput() *string
+	TagFieldSpecification() FlowLogTagFieldSpecificationList
+	TagFieldSpecificationInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() *map[string]*string
@@ -159,6 +161,7 @@ type FlowLog interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutDestinationOptions(value *FlowLogDestinationOptions)
+	PutTagFieldSpecification(value interface{})
 	ResetDeliverCrossAccountRole()
 	ResetDestinationOptions()
 	ResetEniId()
@@ -174,6 +177,7 @@ type FlowLog interface {
 	ResetRegion()
 	ResetRegionalNatGatewayId()
 	ResetSubnetId()
+	ResetTagFieldSpecification()
 	ResetTags()
 	ResetTagsAll()
 	ResetTrafficType()
@@ -587,6 +591,26 @@ func (j *jsiiProxy_FlowLog) SubnetIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_FlowLog) TagFieldSpecification() FlowLogTagFieldSpecificationList {
+	var returns FlowLogTagFieldSpecificationList
+	_jsii_.Get(
+		j,
+		"tagFieldSpecification",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FlowLog) TagFieldSpecificationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagFieldSpecificationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FlowLog) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -738,7 +762,7 @@ func (j *jsiiProxy_FlowLog) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/flow_log aws_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/flow_log aws_flow_log} Resource.
 func NewFlowLog(scope constructs.Construct, id *string, config *FlowLogConfig) FlowLog {
 	_init_.Initialize()
 
@@ -756,7 +780,7 @@ func NewFlowLog(scope constructs.Construct, id *string, config *FlowLogConfig) F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/flow_log aws_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/flow_log aws_flow_log} Resource.
 func NewFlowLog_Override(f FlowLog, scope constructs.Construct, id *string, config *FlowLogConfig) {
 	_init_.Initialize()
 
@@ -1386,6 +1410,17 @@ func (f *jsiiProxy_FlowLog) PutDestinationOptions(value *FlowLogDestinationOptio
 	)
 }
 
+func (f *jsiiProxy_FlowLog) PutTagFieldSpecification(value interface{}) {
+	if err := f.validatePutTagFieldSpecificationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		f,
+		"putTagFieldSpecification",
+		[]interface{}{value},
+	)
+}
+
 func (f *jsiiProxy_FlowLog) ResetDeliverCrossAccountRole() {
 	_jsii_.InvokeVoid(
 		f,
@@ -1486,6 +1521,14 @@ func (f *jsiiProxy_FlowLog) ResetSubnetId() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetSubnetId",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FlowLog) ResetTagFieldSpecification() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetTagFieldSpecification",
 		nil, // no parameters
 	)
 }

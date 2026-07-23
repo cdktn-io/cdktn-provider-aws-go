@@ -87,6 +87,10 @@ func (a *jsiiProxy_AutoscalingGroup) validatePutInitialLifecycleHookParameters(v
 	return nil
 }
 
+func (a *jsiiProxy_AutoscalingGroup) validatePutInstanceLifecyclePolicyParameters(value *AutoscalingGroupInstanceLifecyclePolicy) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutoscalingGroup) validatePutInstanceMaintenancePolicyParameters(value *AutoscalingGroupInstanceMaintenancePolicy) error {
 	return nil
 }

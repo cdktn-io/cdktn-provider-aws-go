@@ -75,6 +75,14 @@ func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validateOverrideLogicalId
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validatePutIamFederationOptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validatePutIamIdentityCenterOptionsParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validatePutSamlOptionsParameters(value interface{}) error {
 	return nil
 }

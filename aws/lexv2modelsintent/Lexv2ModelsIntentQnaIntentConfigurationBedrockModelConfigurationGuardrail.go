@@ -5,9 +5,9 @@ package lexv2modelsintent
 
 
 type Lexv2ModelsIntentQnaIntentConfigurationBedrockModelConfigurationGuardrail struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lexv2models_intent#identifier Lexv2ModelsIntent#identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lexv2models_intent#identifier Lexv2ModelsIntent#identifier}.
 	Identifier *string `field:"required" json:"identifier" yaml:"identifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lexv2models_intent#version Lexv2ModelsIntent#version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lexv2models_intent#version Lexv2ModelsIntent#version}.
 	Version *string `field:"required" json:"version" yaml:"version"`
 }
 

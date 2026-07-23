@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter}.
 type TranscribeVocabularyFilter interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_TranscribeVocabularyFilter) WordsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
 func NewTranscribeVocabularyFilter(scope constructs.Construct, id *string, config *TranscribeVocabularyFilterConfig) TranscribeVocabularyFilter {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewTranscribeVocabularyFilter(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/transcribe_vocabulary_filter aws_transcribe_vocabulary_filter} Resource.
 func NewTranscribeVocabularyFilter_Override(t TranscribeVocabularyFilter, scope constructs.Construct, id *string, config *TranscribeVocabularyFilterConfig) {
 	_init_.Initialize()
 

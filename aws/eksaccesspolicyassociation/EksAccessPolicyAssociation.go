@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association}.
 type EksAccessPolicyAssociation interface {
 	cdktn.TerraformResource
 	AccessScope() EksAccessPolicyAssociationAccessScopeOutputReference
@@ -481,7 +481,7 @@ func (j *jsiiProxy_EksAccessPolicyAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
 func NewEksAccessPolicyAssociation(scope constructs.Construct, id *string, config *EksAccessPolicyAssociationConfig) EksAccessPolicyAssociation {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewEksAccessPolicyAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_access_policy_association aws_eks_access_policy_association} Resource.
 func NewEksAccessPolicyAssociation_Override(e EksAccessPolicyAssociation, scope constructs.Construct, id *string, config *EksAccessPolicyAssociationConfig) {
 	_init_.Initialize()
 

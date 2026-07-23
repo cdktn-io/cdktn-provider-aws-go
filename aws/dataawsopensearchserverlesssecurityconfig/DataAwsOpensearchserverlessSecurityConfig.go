@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config}.
 type DataAwsOpensearchserverlessSecurityConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -38,6 +38,10 @@ type DataAwsOpensearchserverlessSecurityConfig interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	IamFederationOptions() DataAwsOpensearchserverlessSecurityConfigIamFederationOptionsList
+	IamFederationOptionsInput() interface{}
+	IamIdentityCenterOptions() DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptionsList
+	IamIdentityCenterOptionsInput() interface{}
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -91,7 +95,11 @@ type DataAwsOpensearchserverlessSecurityConfig interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutIamFederationOptions(value interface{})
+	PutIamIdentityCenterOptions(value interface{})
 	PutSamlOptions(value interface{})
+	ResetIamFederationOptions()
+	ResetIamIdentityCenterOptions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -220,6 +228,46 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) FriendlyUniqueId()
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) IamFederationOptions() DataAwsOpensearchserverlessSecurityConfigIamFederationOptionsList {
+	var returns DataAwsOpensearchserverlessSecurityConfigIamFederationOptionsList
+	_jsii_.Get(
+		j,
+		"iamFederationOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) IamFederationOptionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"iamFederationOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) IamIdentityCenterOptions() DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptionsList {
+	var returns DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptionsList
+	_jsii_.Get(
+		j,
+		"iamIdentityCenterOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) IamIdentityCenterOptionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"iamIdentityCenterOptionsInput",
 		&returns,
 	)
 	return returns
@@ -376,7 +424,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config} Data Source.
 func NewDataAwsOpensearchserverlessSecurityConfig(scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessSecurityConfigConfig) DataAwsOpensearchserverlessSecurityConfig {
 	_init_.Initialize()
 
@@ -394,7 +442,7 @@ func NewDataAwsOpensearchserverlessSecurityConfig(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config} Data Source.
 func NewDataAwsOpensearchserverlessSecurityConfig_Override(d DataAwsOpensearchserverlessSecurityConfig, scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessSecurityConfigConfig) {
 	_init_.Initialize()
 
@@ -758,6 +806,28 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) OverrideLogicalId(
 	)
 }
 
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) PutIamFederationOptions(value interface{}) {
+	if err := d.validatePutIamFederationOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putIamFederationOptions",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) PutIamIdentityCenterOptions(value interface{}) {
+	if err := d.validatePutIamIdentityCenterOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putIamIdentityCenterOptions",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) PutSamlOptions(value interface{}) {
 	if err := d.validatePutSamlOptionsParameters(value); err != nil {
 		panic(err)
@@ -766,6 +836,22 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) PutSamlOptions(val
 		d,
 		"putSamlOptions",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) ResetIamFederationOptions() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetIamFederationOptions",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) ResetIamIdentityCenterOptions() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetIamIdentityCenterOptions",
+		nil, // no parameters
 	)
 }
 

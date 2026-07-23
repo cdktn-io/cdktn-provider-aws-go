@@ -34,6 +34,8 @@ type BedrockagentDataSourceDataSourceConfigurationOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ManagedKnowledgeBaseConnectorConfiguration() BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationList
+	ManagedKnowledgeBaseConnectorConfigurationInput() interface{}
 	S3Configuration() BedrockagentDataSourceDataSourceConfigurationS3ConfigurationList
 	S3ConfigurationInput() interface{}
 	SalesforceConfiguration() BedrockagentDataSourceDataSourceConfigurationSalesforceConfigurationList
@@ -78,11 +80,13 @@ type BedrockagentDataSourceDataSourceConfigurationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConfluenceConfiguration(value interface{})
+	PutManagedKnowledgeBaseConnectorConfiguration(value interface{})
 	PutS3Configuration(value interface{})
 	PutSalesforceConfiguration(value interface{})
 	PutSharePointConfiguration(value interface{})
 	PutWebConfiguration(value interface{})
 	ResetConfluenceConfiguration()
+	ResetManagedKnowledgeBaseConnectorConfiguration()
 	ResetS3Configuration()
 	ResetSalesforceConfiguration()
 	ResetSharePointConfiguration()
@@ -167,6 +171,26 @@ func (j *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference)
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference) ManagedKnowledgeBaseConnectorConfiguration() BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationList {
+	var returns BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationList
+	_jsii_.Get(
+		j,
+		"managedKnowledgeBaseConnectorConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference) ManagedKnowledgeBaseConnectorConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"managedKnowledgeBaseConnectorConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -583,6 +607,17 @@ func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference)
 	)
 }
 
+func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference) PutManagedKnowledgeBaseConnectorConfiguration(value interface{}) {
+	if err := b.validatePutManagedKnowledgeBaseConnectorConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putManagedKnowledgeBaseConnectorConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference) PutS3Configuration(value interface{}) {
 	if err := b.validatePutS3ConfigurationParameters(value); err != nil {
 		panic(err)
@@ -631,6 +666,14 @@ func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference)
 	_jsii_.InvokeVoid(
 		b,
 		"resetConfluenceConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationOutputReference) ResetManagedKnowledgeBaseConnectorConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetManagedKnowledgeBaseConnectorConfiguration",
 		nil, // no parameters
 	)
 }

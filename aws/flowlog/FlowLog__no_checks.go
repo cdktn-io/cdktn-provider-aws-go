@@ -79,6 +79,10 @@ func (f *jsiiProxy_FlowLog) validatePutDestinationOptionsParameters(value *FlowL
 	return nil
 }
 
+func (f *jsiiProxy_FlowLog) validatePutTagFieldSpecificationParameters(value interface{}) error {
+	return nil
+}
+
 func validateFlowLog_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -55,6 +55,14 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validatePutIamFederationOptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validatePutIamIdentityCenterOptionsParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityConfig) validatePutSamlOptionsParameters(value interface{}) error {
 	return nil
 }

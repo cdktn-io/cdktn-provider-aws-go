@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app}.
 type SagemakerMlflowApp interface {
 	cdktn.TerraformResource
 	AccountDefaultStatus() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_SagemakerMlflowApp) WeeklyMaintenanceWindowStartInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
 func NewSagemakerMlflowApp(scope constructs.Construct, id *string, config *SagemakerMlflowAppConfig) SagemakerMlflowApp {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewSagemakerMlflowApp(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/sagemaker_mlflow_app aws_sagemaker_mlflow_app} Resource.
 func NewSagemakerMlflowApp_Override(s SagemakerMlflowApp, scope constructs.Construct, id *string, config *SagemakerMlflowAppConfig) {
 	_init_.Initialize()
 

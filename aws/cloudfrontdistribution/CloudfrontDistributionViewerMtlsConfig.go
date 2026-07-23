@@ -5,11 +5,11 @@ package cloudfrontdistribution
 
 
 type CloudfrontDistributionViewerMtlsConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_distribution#mode CloudfrontDistribution#mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_distribution#mode CloudfrontDistribution#mode}.
 	Mode *string `field:"optional" json:"mode" yaml:"mode"`
 	// trust_store_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_distribution#trust_store_config CloudfrontDistribution#trust_store_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_distribution#trust_store_config CloudfrontDistribution#trust_store_config}
 	TrustStoreConfig *CloudfrontDistributionViewerMtlsConfigTrustStoreConfig `field:"optional" json:"trustStoreConfig" yaml:"trustStoreConfig"`
 }
 
