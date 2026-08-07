@@ -59,6 +59,10 @@ func (m *jsiiProxy_Macie2ClassificationExportConfiguration) validateInterpolatio
 	return nil
 }
 
+func (m *jsiiProxy_Macie2ClassificationExportConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_Macie2ClassificationExportConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_Macie2ClassificationExportConfiguration) validateOverrideLogi
 }
 
 func (m *jsiiProxy_Macie2ClassificationExportConfiguration) validatePutS3DestinationParameters(value *Macie2ClassificationExportConfigurationS3Destination) error {
+	return nil
+}
+
+func (m *jsiiProxy_Macie2ClassificationExportConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

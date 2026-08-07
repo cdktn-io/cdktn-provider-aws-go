@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsElasticacheReplicationGroup) validateOverrideLogicalId
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsElasticacheReplicationGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsElasticacheReplicationGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

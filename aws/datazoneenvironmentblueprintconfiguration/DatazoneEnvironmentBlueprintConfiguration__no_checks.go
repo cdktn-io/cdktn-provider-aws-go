@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateInterpolat
 	return nil
 }
 
+func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateMoveToIdPa
 }
 
 func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatazoneEnvironmentBlueprintConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

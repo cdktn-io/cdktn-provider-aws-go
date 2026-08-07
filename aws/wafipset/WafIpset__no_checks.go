@@ -59,6 +59,10 @@ func (w *jsiiProxy_WafIpset) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (w *jsiiProxy_WafIpset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WafIpset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WafIpset) validateOverrideLogicalIdParameters(newLogicalId *s
 }
 
 func (w *jsiiProxy_WafIpset) validatePutIpSetDescriptorsParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WafIpset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LightsailBucketResourceAccess) validateInterpolationForAttrib
 	return nil
 }
 
+func (l *jsiiProxy_LightsailBucketResourceAccess) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LightsailBucketResourceAccess) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (l *jsiiProxy_LightsailBucketResourceAccess) validateMoveToIdParameters(id 
 }
 
 func (l *jsiiProxy_LightsailBucketResourceAccess) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailBucketResourceAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

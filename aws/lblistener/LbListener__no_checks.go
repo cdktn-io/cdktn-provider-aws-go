@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbListener) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (l *jsiiProxy_LbListener) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbListener) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (l *jsiiProxy_LbListener) validatePutMutualAuthenticationParameters(value *
 }
 
 func (l *jsiiProxy_LbListener) validatePutTimeoutsParameters(value *LbListenerTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbListener) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

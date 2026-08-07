@@ -122,6 +122,14 @@ func (c *jsiiProxy_ConnectContactFlowModule) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ConnectContactFlowModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ConnectContactFlowModule) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (c *jsiiProxy_ConnectContactFlowModule) validateMoveToIdParameters(id *stri
 func (c *jsiiProxy_ConnectContactFlowModule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_ConnectContactFlowModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

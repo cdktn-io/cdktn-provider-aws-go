@@ -59,6 +59,10 @@ func (l *jsiiProxy_LicensemanagerGrantAccepter) validateInterpolationForAttribut
 	return nil
 }
 
+func (l *jsiiProxy_LicensemanagerGrantAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LicensemanagerGrantAccepter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (l *jsiiProxy_LicensemanagerGrantAccepter) validateMoveToIdParameters(id *s
 }
 
 func (l *jsiiProxy_LicensemanagerGrantAccepter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerGrantAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

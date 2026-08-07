@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockCustomModel) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (b *jsiiProxy_BedrockCustomModel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockCustomModel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (b *jsiiProxy_BedrockCustomModel) validatePutValidationDataConfigParameters
 }
 
 func (b *jsiiProxy_BedrockCustomModel) validatePutVpcConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockCustomModel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

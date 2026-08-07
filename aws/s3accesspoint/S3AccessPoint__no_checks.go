@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3AccessPoint) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (s *jsiiProxy_S3AccessPoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3AccessPoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3AccessPoint) validatePutPublicAccessBlockConfigurationParam
 }
 
 func (s *jsiiProxy_S3AccessPoint) validatePutVpcConfigurationParameters(value *S3AccessPointVpcConfiguration) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3AccessPoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsoadminPermissionSetInlinePolicy) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_SsoadminPermissionSetInlinePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsoadminPermissionSetInlinePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SsoadminPermissionSetInlinePolicy) validateOverrideLogicalIdP
 }
 
 func (s *jsiiProxy_SsoadminPermissionSetInlinePolicy) validatePutTimeoutsParameters(value *SsoadminPermissionSetInlinePolicyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminPermissionSetInlinePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

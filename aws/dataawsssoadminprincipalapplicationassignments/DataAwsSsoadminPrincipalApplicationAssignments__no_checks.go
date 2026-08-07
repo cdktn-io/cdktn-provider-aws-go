@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments) validatePutAp
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSsoadminPrincipalApplicationAssignments) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSsoadminPrincipalApplicationAssignments_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

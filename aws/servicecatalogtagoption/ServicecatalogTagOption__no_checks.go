@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicecatalogTagOption) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_ServicecatalogTagOption) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicecatalogTagOption) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServicecatalogTagOption) validateOverrideLogicalIdParameters(
 }
 
 func (s *jsiiProxy_ServicecatalogTagOption) validatePutTimeoutsParameters(value *ServicecatalogTagOptionTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicecatalogTagOption) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

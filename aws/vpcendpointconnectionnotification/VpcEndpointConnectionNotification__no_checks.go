@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcEndpointConnectionNotification) validateInterpolationForAt
 	return nil
 }
 
+func (v *jsiiProxy_VpcEndpointConnectionNotification) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcEndpointConnectionNotification) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VpcEndpointConnectionNotification) validateMoveToIdParameters
 }
 
 func (v *jsiiProxy_VpcEndpointConnectionNotification) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcEndpointConnectionNotification) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

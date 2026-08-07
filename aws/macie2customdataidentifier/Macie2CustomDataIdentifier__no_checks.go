@@ -59,6 +59,10 @@ func (m *jsiiProxy_Macie2CustomDataIdentifier) validateInterpolationForAttribute
 	return nil
 }
 
+func (m *jsiiProxy_Macie2CustomDataIdentifier) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_Macie2CustomDataIdentifier) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_Macie2CustomDataIdentifier) validateOverrideLogicalIdParamete
 }
 
 func (m *jsiiProxy_Macie2CustomDataIdentifier) validatePutTimeoutsParameters(value *Macie2CustomDataIdentifierTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_Macie2CustomDataIdentifier) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

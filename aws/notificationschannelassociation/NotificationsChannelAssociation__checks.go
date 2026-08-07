@@ -122,6 +122,14 @@ func (n *jsiiProxy_NotificationsChannelAssociation) validateInterpolationForAttr
 	return nil
 }
 
+func (n *jsiiProxy_NotificationsChannelAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NotificationsChannelAssociation) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (n *jsiiProxy_NotificationsChannelAssociation) validateMoveToIdParameters(i
 func (n *jsiiProxy_NotificationsChannelAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (n *jsiiProxy_NotificationsChannelAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

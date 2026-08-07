@@ -59,6 +59,10 @@ func (s *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateOverrideLogicalIdP
 }
 
 func (s *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validatePutTimeoutsParameters(value *ShieldDrtAccessRoleArnAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ShieldDrtAccessRoleArnAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

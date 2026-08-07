@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEc2Host) validatePutTimeoutsParameters(value *DataAwsE
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2Host) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2Host_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

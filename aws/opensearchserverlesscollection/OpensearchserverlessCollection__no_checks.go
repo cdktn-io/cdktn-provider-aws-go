@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchserverlessCollection) validateInterpolationForAttri
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessCollection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (o *jsiiProxy_OpensearchserverlessCollection) validatePutTimeoutsParameters
 }
 
 func (o *jsiiProxy_OpensearchserverlessCollection) validatePutVectorOptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessCollection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

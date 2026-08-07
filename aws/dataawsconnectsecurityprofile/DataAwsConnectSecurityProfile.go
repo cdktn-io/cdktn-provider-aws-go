@@ -5,14 +5,14 @@ package dataawsconnectsecurityprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsconnectsecurityprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsconnectsecurityprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_security_profile aws_connect_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_security_profile aws_connect_security_profile}.
 type DataAwsConnectSecurityProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -100,6 +100,19 @@ type DataAwsConnectSecurityProfile interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -437,7 +450,7 @@ func (j *jsiiProxy_DataAwsConnectSecurityProfile) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_security_profile aws_connect_security_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_security_profile aws_connect_security_profile} Data Source.
 func NewDataAwsConnectSecurityProfile(scope constructs.Construct, id *string, config *DataAwsConnectSecurityProfileConfig) DataAwsConnectSecurityProfile {
 	_init_.Initialize()
 
@@ -455,7 +468,7 @@ func NewDataAwsConnectSecurityProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_security_profile aws_connect_security_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_security_profile aws_connect_security_profile} Data Source.
 func NewDataAwsConnectSecurityProfile_Override(d DataAwsConnectSecurityProfile, scope constructs.Construct, id *string, config *DataAwsConnectSecurityProfileConfig) {
 	_init_.Initialize()
 
@@ -860,6 +873,17 @@ func (d *jsiiProxy_DataAwsConnectSecurityProfile) OverrideLogicalId(newLogicalId
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsConnectSecurityProfile) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

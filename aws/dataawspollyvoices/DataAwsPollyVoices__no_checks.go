@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsPollyVoices) validatePutVoicesParameters(value interfa
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsPollyVoices) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsPollyVoices_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

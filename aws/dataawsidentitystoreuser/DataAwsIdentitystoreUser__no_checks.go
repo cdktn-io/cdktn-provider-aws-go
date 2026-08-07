@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsIdentitystoreUser) validatePutAlternateIdentifierParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsIdentitystoreUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsIdentitystoreUser_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateInt
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateOve
 }
 
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validatePutTimeoutsParameters(value *NetworkmanagerTransitGatewayRouteTableAttachmentTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

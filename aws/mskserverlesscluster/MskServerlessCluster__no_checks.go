@@ -59,6 +59,10 @@ func (m *jsiiProxy_MskServerlessCluster) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (m *jsiiProxy_MskServerlessCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskServerlessCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (m *jsiiProxy_MskServerlessCluster) validatePutTimeoutsParameters(value *Ms
 }
 
 func (m *jsiiProxy_MskServerlessCluster) validatePutVpcConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskServerlessCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

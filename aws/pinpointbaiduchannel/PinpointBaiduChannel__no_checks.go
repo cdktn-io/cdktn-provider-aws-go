@@ -59,6 +59,10 @@ func (p *jsiiProxy_PinpointBaiduChannel) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (p *jsiiProxy_PinpointBaiduChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PinpointBaiduChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_PinpointBaiduChannel) validateMoveToIdParameters(id *string) 
 }
 
 func (p *jsiiProxy_PinpointBaiduChannel) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PinpointBaiduChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

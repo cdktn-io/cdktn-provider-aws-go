@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketRequestPaymentConfiguration) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketRequestPaymentConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketRequestPaymentConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_S3BucketRequestPaymentConfiguration) validateMoveToIdParamete
 }
 
 func (s *jsiiProxy_S3BucketRequestPaymentConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketRequestPaymentConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

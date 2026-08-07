@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkspacesPool) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (w *jsiiProxy_WorkspacesPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkspacesPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (w *jsiiProxy_WorkspacesPool) validatePutTimeoutsParameters(value *Workspac
 }
 
 func (w *jsiiProxy_WorkspacesPool) validatePutTimeoutSettingsParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkspacesPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

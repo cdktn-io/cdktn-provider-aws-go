@@ -5,17 +5,17 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanTriggers struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#action ArcregionswitchPlan#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/arcregionswitch_plan#action ArcregionswitchPlan#action}.
 	Action *string `field:"required" json:"action" yaml:"action"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#min_delay_minutes_between_executions ArcregionswitchPlan#min_delay_minutes_between_executions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/arcregionswitch_plan#min_delay_minutes_between_executions ArcregionswitchPlan#min_delay_minutes_between_executions}.
 	MinDelayMinutesBetweenExecutions *float64 `field:"required" json:"minDelayMinutesBetweenExecutions" yaml:"minDelayMinutesBetweenExecutions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#target_region ArcregionswitchPlan#target_region}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/arcregionswitch_plan#target_region ArcregionswitchPlan#target_region}.
 	TargetRegion *string `field:"required" json:"targetRegion" yaml:"targetRegion"`
 	// conditions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#conditions ArcregionswitchPlan#conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/arcregionswitch_plan#conditions ArcregionswitchPlan#conditions}
 	Conditions interface{} `field:"optional" json:"conditions" yaml:"conditions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#description ArcregionswitchPlan#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/arcregionswitch_plan#description ArcregionswitchPlan#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

@@ -122,6 +122,14 @@ func (w *jsiiProxy_WorkspaceswebDataProtectionSettings) validateInterpolationFor
 	return nil
 }
 
+func (w *jsiiProxy_WorkspaceswebDataProtectionSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (w *jsiiProxy_WorkspaceswebDataProtectionSettings) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (w *jsiiProxy_WorkspaceswebDataProtectionSettings) validatePutInlineRedacti
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkspaceswebDataProtectionSettingsInlineRedactionConfiguration; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_WorkspaceswebDataProtectionSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (r *jsiiProxy_RdsClusterRoleAssociation) validateInterpolationForAttributeP
 	return nil
 }
 
+func (r *jsiiProxy_RdsClusterRoleAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RdsClusterRoleAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RdsClusterRoleAssociation) validateOverrideLogicalIdParameter
 }
 
 func (r *jsiiProxy_RdsClusterRoleAssociation) validatePutTimeoutsParameters(value *RdsClusterRoleAssociationTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RdsClusterRoleAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

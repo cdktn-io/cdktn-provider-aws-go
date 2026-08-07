@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsVpclatticeServiceNetwork) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsVpclatticeServiceNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsVpclatticeServiceNetwork_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

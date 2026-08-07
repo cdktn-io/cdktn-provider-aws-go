@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppsyncChannelNamespace) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_AppsyncChannelNamespace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppsyncChannelNamespace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AppsyncChannelNamespace) validatePutPublishAuthModeParameters
 }
 
 func (a *jsiiProxy_AppsyncChannelNamespace) validatePutSubscribeAuthModeParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppsyncChannelNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

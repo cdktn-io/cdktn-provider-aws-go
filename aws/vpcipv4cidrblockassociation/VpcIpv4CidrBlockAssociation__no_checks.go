@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) validateInterpolationForAttribut
 	return nil
 }
 
+func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) validateOverrideLogicalIdParamet
 }
 
 func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) validatePutTimeoutsParameters(value *VpcIpv4CidrBlockAssociationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcIpv4CidrBlockAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

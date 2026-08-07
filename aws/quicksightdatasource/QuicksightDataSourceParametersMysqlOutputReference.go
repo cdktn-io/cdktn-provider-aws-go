@@ -5,9 +5,9 @@ package quicksightdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/quicksightdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/quicksightdatasource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

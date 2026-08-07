@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcIpamPool) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (v *jsiiProxy_VpcIpamPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcIpamPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VpcIpamPool) validatePutSourceResourceParameters(value *VpcIp
 }
 
 func (v *jsiiProxy_VpcIpamPool) validatePutTimeoutsParameters(value *VpcIpamPoolTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcIpamPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

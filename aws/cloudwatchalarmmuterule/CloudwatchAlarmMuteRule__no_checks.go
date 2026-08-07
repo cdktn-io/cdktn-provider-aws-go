@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudwatchAlarmMuteRule) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchAlarmMuteRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchAlarmMuteRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudwatchAlarmMuteRule) validatePutMuteTargetsParameters(val
 }
 
 func (c *jsiiProxy_CloudwatchAlarmMuteRule) validatePutRuleParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchAlarmMuteRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

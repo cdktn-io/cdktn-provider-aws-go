@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2LocalGatewayRouteTable) validateInterpolationForAttributeP
 	return nil
 }
 
+func (e *jsiiProxy_Ec2LocalGatewayRouteTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2LocalGatewayRouteTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2LocalGatewayRouteTable) validateOverrideLogicalIdParameter
 }
 
 func (e *jsiiProxy_Ec2LocalGatewayRouteTable) validatePutTimeoutsParameters(value *Ec2LocalGatewayRouteTableTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2LocalGatewayRouteTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

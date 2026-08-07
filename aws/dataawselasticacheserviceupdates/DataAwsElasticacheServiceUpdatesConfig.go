@@ -24,9 +24,9 @@ type DataAwsElasticacheServiceUpdatesConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/elasticache_service_updates#region DataAwsElasticacheServiceUpdates#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elasticache_service_updates#region DataAwsElasticacheServiceUpdates#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/elasticache_service_updates#status DataAwsElasticacheServiceUpdates#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elasticache_service_updates#status DataAwsElasticacheServiceUpdates#status}.
 	Status *[]*string `field:"optional" json:"status" yaml:"status"`
 }
 

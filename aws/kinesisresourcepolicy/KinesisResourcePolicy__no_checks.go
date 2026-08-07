@@ -59,6 +59,10 @@ func (k *jsiiProxy_KinesisResourcePolicy) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (k *jsiiProxy_KinesisResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KinesisResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (k *jsiiProxy_KinesisResourcePolicy) validateMoveToIdParameters(id *string)
 }
 
 func (k *jsiiProxy_KinesisResourcePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KinesisResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

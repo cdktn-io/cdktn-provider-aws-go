@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateInterpolationFo
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validatePutStagingDistr
 }
 
 func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validatePutTrafficConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

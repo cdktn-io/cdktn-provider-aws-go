@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsAccountPrimaryContact) validateOverrideLogicalIdParame
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsAccountPrimaryContact) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsAccountPrimaryContact_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

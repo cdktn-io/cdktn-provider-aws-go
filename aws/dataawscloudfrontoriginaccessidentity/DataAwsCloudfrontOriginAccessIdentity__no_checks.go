@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsCloudfrontOriginAccessIdentity) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsCloudfrontOriginAccessIdentity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsCloudfrontOriginAccessIdentity_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

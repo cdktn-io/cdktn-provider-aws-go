@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcEncryptionControl) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (v *jsiiProxy_VpcEncryptionControl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcEncryptionControl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcEncryptionControl) validateOverrideLogicalIdParameters(new
 }
 
 func (v *jsiiProxy_VpcEncryptionControl) validatePutTimeoutsParameters(value *VpcEncryptionControlTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcEncryptionControl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

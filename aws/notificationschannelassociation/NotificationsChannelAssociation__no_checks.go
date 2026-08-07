@@ -59,6 +59,10 @@ func (n *jsiiProxy_NotificationsChannelAssociation) validateInterpolationForAttr
 	return nil
 }
 
+func (n *jsiiProxy_NotificationsChannelAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotificationsChannelAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (n *jsiiProxy_NotificationsChannelAssociation) validateMoveToIdParameters(i
 }
 
 func (n *jsiiProxy_NotificationsChannelAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NotificationsChannelAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

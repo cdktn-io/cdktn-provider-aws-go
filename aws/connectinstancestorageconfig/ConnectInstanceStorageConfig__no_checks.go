@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectInstanceStorageConfig) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ConnectInstanceStorageConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectInstanceStorageConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ConnectInstanceStorageConfig) validateOverrideLogicalIdParame
 }
 
 func (c *jsiiProxy_ConnectInstanceStorageConfig) validatePutStorageConfigParameters(value *ConnectInstanceStorageConfigStorageConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectInstanceStorageConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

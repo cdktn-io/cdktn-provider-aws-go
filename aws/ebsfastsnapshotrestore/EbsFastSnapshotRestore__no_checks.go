@@ -59,6 +59,10 @@ func (e *jsiiProxy_EbsFastSnapshotRestore) validateInterpolationForAttributePara
 	return nil
 }
 
+func (e *jsiiProxy_EbsFastSnapshotRestore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EbsFastSnapshotRestore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EbsFastSnapshotRestore) validateOverrideLogicalIdParameters(n
 }
 
 func (e *jsiiProxy_EbsFastSnapshotRestore) validatePutTimeoutsParameters(value *EbsFastSnapshotRestoreTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EbsFastSnapshotRestore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

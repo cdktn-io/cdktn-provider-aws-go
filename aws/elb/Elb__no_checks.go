@@ -59,6 +59,10 @@ func (e *jsiiProxy_Elb) validateInterpolationForAttributeParameters(terraformAtt
 	return nil
 }
 
+func (e *jsiiProxy_Elb) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Elb) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (e *jsiiProxy_Elb) validatePutListenerParameters(value interface{}) error {
 }
 
 func (e *jsiiProxy_Elb) validatePutTimeoutsParameters(value *ElbTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Elb) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

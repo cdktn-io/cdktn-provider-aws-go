@@ -59,6 +59,10 @@ func (r *jsiiProxy_RdsExportTask) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (r *jsiiProxy_RdsExportTask) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RdsExportTask) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RdsExportTask) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (r *jsiiProxy_RdsExportTask) validatePutTimeoutsParameters(value *RdsExportTaskTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RdsExportTask) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerLabelingJob) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerLabelingJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerLabelingJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_SagemakerLabelingJob) validatePutOutputConfigParameters(value
 }
 
 func (s *jsiiProxy_SagemakerLabelingJob) validatePutStoppingConditionsParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerLabelingJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

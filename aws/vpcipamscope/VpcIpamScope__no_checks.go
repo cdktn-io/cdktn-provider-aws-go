@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcIpamScope) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (v *jsiiProxy_VpcIpamScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcIpamScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcIpamScope) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (v *jsiiProxy_VpcIpamScope) validatePutTimeoutsParameters(value *VpcIpamScopeTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcIpamScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

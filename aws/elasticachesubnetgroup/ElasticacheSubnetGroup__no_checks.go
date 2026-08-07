@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticacheSubnetGroup) validateInterpolationForAttributePara
 	return nil
 }
 
+func (e *jsiiProxy_ElasticacheSubnetGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticacheSubnetGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_ElasticacheSubnetGroup) validateMoveToIdParameters(id *string
 }
 
 func (e *jsiiProxy_ElasticacheSubnetGroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticacheSubnetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

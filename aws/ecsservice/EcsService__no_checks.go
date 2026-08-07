@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsService) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (e *jsiiProxy_EcsService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (e *jsiiProxy_EcsService) validatePutVolumeConfigurationParameters(value *E
 }
 
 func (e *jsiiProxy_EcsService) validatePutVpcLatticeConfigurationsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

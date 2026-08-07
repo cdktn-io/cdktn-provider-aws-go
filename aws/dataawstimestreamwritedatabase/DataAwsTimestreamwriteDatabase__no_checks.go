@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsTimestreamwriteDatabase) validateOverrideLogicalIdPara
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsTimestreamwriteDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsTimestreamwriteDatabase_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

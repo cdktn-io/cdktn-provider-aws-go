@@ -59,6 +59,10 @@ func (k *jsiiProxy_KendraIndex) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (k *jsiiProxy_KendraIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KendraIndex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (k *jsiiProxy_KendraIndex) validatePutUserGroupResolutionConfigurationParam
 }
 
 func (k *jsiiProxy_KendraIndex) validatePutUserTokenConfigurationsParameters(value *KendraIndexUserTokenConfigurations) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

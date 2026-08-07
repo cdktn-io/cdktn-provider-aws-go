@@ -122,6 +122,14 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateInterpolationForAttri
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -238,12 +246,51 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutConfigurationParam
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutReflectionConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*BedrockagentcoreMemoryStrategyReflectionConfiguration:
+		value := value.(*[]*BedrockagentcoreMemoryStrategyReflectionConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentcoreMemoryStrategyReflectionConfiguration:
+		value_ := value.([]*BedrockagentcoreMemoryStrategyReflectionConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreMemoryStrategyReflectionConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutTimeoutsParameters(value *BedrockagentcoreMemoryStrategyTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil
@@ -420,6 +467,14 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) validateSetNameParameters(val
 }
 
 func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) validateSetNamespacesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) validateSetNamespaceTemplatesParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

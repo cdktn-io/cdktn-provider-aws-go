@@ -59,6 +59,10 @@ func (d *jsiiProxy_DynamodbGlobalSecondaryIndex) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbGlobalSecondaryIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbGlobalSecondaryIndex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (d *jsiiProxy_DynamodbGlobalSecondaryIndex) validatePutTimeoutsParameters(v
 }
 
 func (d *jsiiProxy_DynamodbGlobalSecondaryIndex) validatePutWarmThroughputParameters(value *DynamodbGlobalSecondaryIndexWarmThroughput) error {
+	return nil
+}
+
+func (d *jsiiProxy_DynamodbGlobalSecondaryIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

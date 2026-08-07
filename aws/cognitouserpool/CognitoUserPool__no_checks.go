@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoUserPool) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (c *jsiiProxy_CognitoUserPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoUserPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (c *jsiiProxy_CognitoUserPool) validatePutVerificationMessageTemplateParame
 }
 
 func (c *jsiiProxy_CognitoUserPool) validatePutWebAuthnConfigurationParameters(value *CognitoUserPoolWebAuthnConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoUserPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

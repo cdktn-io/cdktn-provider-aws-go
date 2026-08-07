@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxDataRepositoryAssociation) validateInterpolationForAttribu
 	return nil
 }
 
+func (f *jsiiProxy_FsxDataRepositoryAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxDataRepositoryAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FsxDataRepositoryAssociation) validatePutS3Parameters(value *
 }
 
 func (f *jsiiProxy_FsxDataRepositoryAssociation) validatePutTimeoutsParameters(value *FsxDataRepositoryAssociationTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxDataRepositoryAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcIpamResourceDiscoveryAssociation) validateInterpolationFor
 	return nil
 }
 
+func (v *jsiiProxy_VpcIpamResourceDiscoveryAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcIpamResourceDiscoveryAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcIpamResourceDiscoveryAssociation) validateOverrideLogicalI
 }
 
 func (v *jsiiProxy_VpcIpamResourceDiscoveryAssociation) validatePutTimeoutsParameters(value *VpcIpamResourceDiscoveryAssociationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcIpamResourceDiscoveryAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerDevice) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerDevice) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerDevice) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SagemakerDevice) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (s *jsiiProxy_SagemakerDevice) validatePutDeviceParameters(value *SagemakerDeviceDevice) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerDevice) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

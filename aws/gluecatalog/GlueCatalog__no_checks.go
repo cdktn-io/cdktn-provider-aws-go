@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueCatalog) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (g *jsiiProxy_GlueCatalog) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueCatalog) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (g *jsiiProxy_GlueCatalog) validatePutTargetRedshiftCatalogParameters(value
 }
 
 func (g *jsiiProxy_GlueCatalog) validatePutTimeoutsParameters(value *GlueCatalogTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueCatalog) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

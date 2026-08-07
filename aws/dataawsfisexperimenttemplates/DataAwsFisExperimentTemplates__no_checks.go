@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsFisExperimentTemplates) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsFisExperimentTemplates) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsFisExperimentTemplates_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

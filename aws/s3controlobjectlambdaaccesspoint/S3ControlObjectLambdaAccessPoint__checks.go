@@ -122,6 +122,14 @@ func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateInterpolationForAtt
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validatePutConfigurationPar
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

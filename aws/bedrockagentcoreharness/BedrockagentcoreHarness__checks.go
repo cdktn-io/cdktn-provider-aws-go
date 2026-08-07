@@ -122,6 +122,14 @@ func (b *jsiiProxy_BedrockagentcoreHarness) validateInterpolationForAttributePar
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreHarness) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreHarness) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -492,6 +500,14 @@ func (b *jsiiProxy_BedrockagentcoreHarness) validatePutTruncationParameters(valu
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreHarnessTruncation; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarness) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

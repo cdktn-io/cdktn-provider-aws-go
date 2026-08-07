@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsCiphertext) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (k *jsiiProxy_KmsCiphertext) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsCiphertext) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (k *jsiiProxy_KmsCiphertext) validateMoveToIdParameters(id *string) error {
 }
 
 func (k *jsiiProxy_KmsCiphertext) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsCiphertext) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

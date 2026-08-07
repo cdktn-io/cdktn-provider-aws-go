@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsS3FilesAccessPoint) validatePutRootDirectoryParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsS3FilesAccessPoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsS3FilesAccessPoint_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

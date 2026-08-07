@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsBillingViews) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsBillingViews) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsBillingViews_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

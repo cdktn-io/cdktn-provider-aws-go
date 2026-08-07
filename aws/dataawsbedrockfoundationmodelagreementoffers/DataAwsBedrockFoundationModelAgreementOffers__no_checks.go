@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsBedrockFoundationModelAgreementOffers) validateOverrid
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsBedrockFoundationModelAgreementOffers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsBedrockFoundationModelAgreementOffers_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

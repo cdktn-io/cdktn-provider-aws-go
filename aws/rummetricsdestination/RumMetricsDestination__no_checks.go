@@ -59,6 +59,10 @@ func (r *jsiiProxy_RumMetricsDestination) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (r *jsiiProxy_RumMetricsDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RumMetricsDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (r *jsiiProxy_RumMetricsDestination) validateMoveToIdParameters(id *string)
 }
 
 func (r *jsiiProxy_RumMetricsDestination) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RumMetricsDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

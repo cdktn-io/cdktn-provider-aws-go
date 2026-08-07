@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsAutoscalingGroup) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsAutoscalingGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsAutoscalingGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

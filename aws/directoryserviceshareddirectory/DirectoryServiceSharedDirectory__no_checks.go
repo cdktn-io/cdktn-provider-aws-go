@@ -59,6 +59,10 @@ func (d *jsiiProxy_DirectoryServiceSharedDirectory) validateInterpolationForAttr
 	return nil
 }
 
+func (d *jsiiProxy_DirectoryServiceSharedDirectory) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DirectoryServiceSharedDirectory) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DirectoryServiceSharedDirectory) validatePutTargetParameters(
 }
 
 func (d *jsiiProxy_DirectoryServiceSharedDirectory) validatePutTimeoutsParameters(value *DirectoryServiceSharedDirectoryTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DirectoryServiceSharedDirectory) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

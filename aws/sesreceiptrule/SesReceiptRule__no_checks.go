@@ -59,6 +59,10 @@ func (s *jsiiProxy_SesReceiptRule) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_SesReceiptRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SesReceiptRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (s *jsiiProxy_SesReceiptRule) validatePutStopActionParameters(value interfa
 }
 
 func (s *jsiiProxy_SesReceiptRule) validatePutWorkmailActionParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsoadminAccountAssignment) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_SsoadminAccountAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsoadminAccountAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SsoadminAccountAssignment) validateOverrideLogicalIdParameter
 }
 
 func (s *jsiiProxy_SsoadminAccountAssignment) validatePutTimeoutsParameters(value *SsoadminAccountAssignmentTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminAccountAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

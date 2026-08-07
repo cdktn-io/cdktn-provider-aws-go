@@ -59,6 +59,10 @@ func (e *jsiiProxy_Eip) validateInterpolationForAttributeParameters(terraformAtt
 	return nil
 }
 
+func (e *jsiiProxy_Eip) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Eip) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Eip) validateOverrideLogicalIdParameters(newLogicalId *string
 }
 
 func (e *jsiiProxy_Eip) validatePutTimeoutsParameters(value *EipTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Eip) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

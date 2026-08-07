@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateInterpolationForAttrib
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateOverrideLogicalIdParam
 }
 
 func (b *jsiiProxy_BedrockagentcoreTokenVaultCmk) validatePutKmsConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreTokenVaultCmk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

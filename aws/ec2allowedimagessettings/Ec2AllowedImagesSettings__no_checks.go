@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2AllowedImagesSettings) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_Ec2AllowedImagesSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2AllowedImagesSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2AllowedImagesSettings) validateOverrideLogicalIdParameters
 }
 
 func (e *jsiiProxy_Ec2AllowedImagesSettings) validatePutImageCriterionParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2AllowedImagesSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamOutboundWebIdentityFederation) validateInterpolationForAtt
 	return nil
 }
 
+func (i *jsiiProxy_IamOutboundWebIdentityFederation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamOutboundWebIdentityFederation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (i *jsiiProxy_IamOutboundWebIdentityFederation) validateMoveToIdParameters(
 }
 
 func (i *jsiiProxy_IamOutboundWebIdentityFederation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamOutboundWebIdentityFederation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

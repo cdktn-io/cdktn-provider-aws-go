@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsCloudhsmV2Cluster) validateOverrideLogicalIdParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsCloudhsmV2Cluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsCloudhsmV2Cluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

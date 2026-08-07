@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsRoute53ResolverFirewallRuleGroupAssociation) validateO
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRoute53ResolverFirewallRuleGroupAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRoute53ResolverFirewallRuleGroupAssociation_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

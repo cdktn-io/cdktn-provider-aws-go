@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketLoggingA) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketLoggingA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketLoggingA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3BucketLoggingA) validatePutTargetGrantParameters(value inte
 }
 
 func (s *jsiiProxy_S3BucketLoggingA) validatePutTargetObjectKeyFormatParameters(value *S3BucketLoggingTargetObjectKeyFormat) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketLoggingA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

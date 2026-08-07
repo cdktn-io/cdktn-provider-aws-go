@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppfabricIngestionDestination) validateInterpolationForAttrib
 	return nil
 }
 
+func (a *jsiiProxy_AppfabricIngestionDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppfabricIngestionDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AppfabricIngestionDestination) validatePutProcessingConfigura
 }
 
 func (a *jsiiProxy_AppfabricIngestionDestination) validatePutTimeoutsParameters(value *AppfabricIngestionDestinationTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppfabricIngestionDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2SecondarySubnet) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (e *jsiiProxy_Ec2SecondarySubnet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2SecondarySubnet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2SecondarySubnet) validateOverrideLogicalIdParameters(newLo
 }
 
 func (e *jsiiProxy_Ec2SecondarySubnet) validatePutTimeoutsParameters(value *Ec2SecondarySubnetTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondarySubnet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

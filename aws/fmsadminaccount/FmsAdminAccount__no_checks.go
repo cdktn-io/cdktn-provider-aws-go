@@ -59,6 +59,10 @@ func (f *jsiiProxy_FmsAdminAccount) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (f *jsiiProxy_FmsAdminAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FmsAdminAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FmsAdminAccount) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (f *jsiiProxy_FmsAdminAccount) validatePutTimeoutsParameters(value *FmsAdminAccountTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FmsAdminAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

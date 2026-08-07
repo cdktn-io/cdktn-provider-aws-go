@@ -5,14 +5,14 @@ package dataawsbatchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsbatchjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsbatchjobdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/batch_job_definition aws_batch_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/batch_job_definition aws_batch_job_definition}.
 type DataAwsBatchJobDefinition interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -103,6 +103,19 @@ type DataAwsBatchJobDefinition interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetArn()
 	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -480,7 +493,7 @@ func (j *jsiiProxy_DataAwsBatchJobDefinition) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
 func NewDataAwsBatchJobDefinition(scope constructs.Construct, id *string, config *DataAwsBatchJobDefinitionConfig) DataAwsBatchJobDefinition {
 	_init_.Initialize()
 
@@ -498,7 +511,7 @@ func NewDataAwsBatchJobDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/batch_job_definition aws_batch_job_definition} Data Source.
 func NewDataAwsBatchJobDefinition_Override(d DataAwsBatchJobDefinition, scope constructs.Construct, id *string, config *DataAwsBatchJobDefinitionConfig) {
 	_init_.Initialize()
 
@@ -892,6 +905,17 @@ func (d *jsiiProxy_DataAwsBatchJobDefinition) OverrideLogicalId(newLogicalId *st
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerMlflowTrackingServer) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerMlflowTrackingServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerMlflowTrackingServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SagemakerMlflowTrackingServer) validateMoveToIdParameters(id 
 }
 
 func (s *jsiiProxy_SagemakerMlflowTrackingServer) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerMlflowTrackingServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

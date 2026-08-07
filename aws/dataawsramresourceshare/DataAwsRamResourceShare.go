@@ -5,14 +5,14 @@ package dataawsramresourceshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsramresourceshare/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsramresourceshare/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
 type DataAwsRamResourceShare interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -103,6 +103,19 @@ type DataAwsRamResourceShare interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutFilter(value interface{})
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetFilter()
 	ResetId()
 	ResetName()
@@ -461,7 +474,7 @@ func (j *jsiiProxy_DataAwsRamResourceShare) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) DataAwsRamResourceShare {
 	_init_.Initialize()
 
@@ -479,7 +492,7 @@ func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare_Override(d DataAwsRamResourceShare, scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) {
 	_init_.Initialize()
 
@@ -895,6 +908,17 @@ func (d *jsiiProxy_DataAwsRamResourceShare) PutFilter(value interface{}) {
 		d,
 		"putFilter",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsRamResourceShare) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

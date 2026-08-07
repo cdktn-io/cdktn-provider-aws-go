@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsEmrSupportedInstanceTypes) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEmrSupportedInstanceTypes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEmrSupportedInstanceTypes_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

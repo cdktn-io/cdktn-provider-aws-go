@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) validateInt
 	return nil
 }
 
+func (a *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) validateMov
 }
 
 func (a *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

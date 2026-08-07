@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsTaskSet) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (e *jsiiProxy_EcsTaskSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsTaskSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (e *jsiiProxy_EcsTaskSet) validatePutScaleParameters(value *EcsTaskSetScale
 }
 
 func (e *jsiiProxy_EcsTaskSet) validatePutServiceRegistriesParameters(value *EcsTaskSetServiceRegistries) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsTaskSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsS3Object) validateOverrideLogicalIdParameters(newLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsS3Object) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsS3Object_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

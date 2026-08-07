@@ -83,6 +83,10 @@ func (d *jsiiProxy_DataAwsLakeformationPermissions) validatePutTableWithColumnsP
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsLakeformationPermissions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsLakeformationPermissions_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

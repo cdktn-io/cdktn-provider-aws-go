@@ -59,6 +59,10 @@ func (m *jsiiProxy_MainRouteTableAssociation) validateInterpolationForAttributeP
 	return nil
 }
 
+func (m *jsiiProxy_MainRouteTableAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MainRouteTableAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MainRouteTableAssociation) validateOverrideLogicalIdParameter
 }
 
 func (m *jsiiProxy_MainRouteTableAssociation) validatePutTimeoutsParameters(value *MainRouteTableAssociationTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MainRouteTableAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

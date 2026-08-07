@@ -59,6 +59,10 @@ func (d *jsiiProxy_DynamodbKinesisStreamingDestination) validateInterpolationFor
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbKinesisStreamingDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbKinesisStreamingDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DynamodbKinesisStreamingDestination) validateMoveToIdParamete
 }
 
 func (d *jsiiProxy_DynamodbKinesisStreamingDestination) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DynamodbKinesisStreamingDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

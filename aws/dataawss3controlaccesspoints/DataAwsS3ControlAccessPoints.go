@@ -5,14 +5,14 @@ package dataawss3controlaccesspoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawss3controlaccesspoints/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawss3controlaccesspoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/s3control_access_points aws_s3control_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3control_access_points aws_s3control_access_points}.
 type DataAwsS3ControlAccessPoints interface {
 	cdktn.TerraformDataSource
 	AccessPoints() DataAwsS3ControlAccessPointsAccessPointsList
@@ -94,6 +94,19 @@ type DataAwsS3ControlAccessPoints interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccountId()
 	ResetBucket()
 	ResetDataSourceId()
@@ -381,7 +394,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPoints) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) DataAwsS3ControlAccessPoints {
 	_init_.Initialize()
 
@@ -399,7 +412,7 @@ func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints_Override(d DataAwsS3ControlAccessPoints, scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) {
 	_init_.Initialize()
 
@@ -793,6 +806,17 @@ func (d *jsiiProxy_DataAwsS3ControlAccessPoints) OverrideLogicalId(newLogicalId 
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsS3ControlAccessPoints) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

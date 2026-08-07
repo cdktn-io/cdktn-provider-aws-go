@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecuritylakeSubscriberNotification) validateInterpolationForA
 	return nil
 }
 
+func (s *jsiiProxy_SecuritylakeSubscriberNotification) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecuritylakeSubscriberNotification) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SecuritylakeSubscriberNotification) validateOverrideLogicalId
 }
 
 func (s *jsiiProxy_SecuritylakeSubscriberNotification) validatePutConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecuritylakeSubscriberNotification) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

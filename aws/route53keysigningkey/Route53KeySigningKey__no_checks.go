@@ -59,6 +59,10 @@ func (r *jsiiProxy_Route53KeySigningKey) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (r *jsiiProxy_Route53KeySigningKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Route53KeySigningKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_Route53KeySigningKey) validateOverrideLogicalIdParameters(new
 }
 
 func (r *jsiiProxy_Route53KeySigningKey) validatePutTimeoutsParameters(value *Route53KeySigningKeyTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_Route53KeySigningKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

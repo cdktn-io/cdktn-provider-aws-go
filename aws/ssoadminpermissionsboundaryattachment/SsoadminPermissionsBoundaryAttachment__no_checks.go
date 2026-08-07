@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsoadminPermissionsBoundaryAttachment) validateInterpolationF
 	return nil
 }
 
+func (s *jsiiProxy_SsoadminPermissionsBoundaryAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsoadminPermissionsBoundaryAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SsoadminPermissionsBoundaryAttachment) validatePutPermissions
 }
 
 func (s *jsiiProxy_SsoadminPermissionsBoundaryAttachment) validatePutTimeoutsParameters(value *SsoadminPermissionsBoundaryAttachmentTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminPermissionsBoundaryAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

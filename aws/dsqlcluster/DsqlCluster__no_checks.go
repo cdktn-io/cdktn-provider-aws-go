@@ -59,6 +59,10 @@ func (d *jsiiProxy_DsqlCluster) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (d *jsiiProxy_DsqlCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DsqlCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DsqlCluster) validatePutMultiRegionPropertiesParameters(value
 }
 
 func (d *jsiiProxy_DsqlCluster) validatePutTimeoutsParameters(value *DsqlClusterTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DsqlCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

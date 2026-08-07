@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationA) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketReplicationConfigurationA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketReplicationConfigurationA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3BucketReplicationConfigurationA) validateOverrideLogicalIdP
 }
 
 func (s *jsiiProxy_S3BucketReplicationConfigurationA) validatePutRuleParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

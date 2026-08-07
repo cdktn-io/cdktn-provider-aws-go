@@ -5,7 +5,7 @@ package wafv2webaclrule
 
 
 type Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameField struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#identifier Wafv2WebAclRuleA#identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/wafv2_web_acl_rule#identifier Wafv2WebAclRuleA#identifier}.
 	Identifier *string `field:"required" json:"identifier" yaml:"identifier"`
 }
 

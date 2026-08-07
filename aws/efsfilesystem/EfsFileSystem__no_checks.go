@@ -59,6 +59,10 @@ func (e *jsiiProxy_EfsFileSystem) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (e *jsiiProxy_EfsFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EfsFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EfsFileSystem) validatePutLifecyclePolicyParameters(value int
 }
 
 func (e *jsiiProxy_EfsFileSystem) validatePutProtectionParameters(value *EfsFileSystemProtection) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

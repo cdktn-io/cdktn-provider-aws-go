@@ -59,6 +59,10 @@ func (t *jsiiProxy_TransferConnector) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (t *jsiiProxy_TransferConnector) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TransferConnector) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (t *jsiiProxy_TransferConnector) validatePutSftpConfigParameters(value *Tra
 }
 
 func (t *jsiiProxy_TransferConnector) validatePutTimeoutsParameters(value *TransferConnectorTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TransferConnector) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

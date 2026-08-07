@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsCluster) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (e *jsiiProxy_EcsCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (e *jsiiProxy_EcsCluster) validatePutServiceConnectDefaultsParameters(value
 }
 
 func (e *jsiiProxy_EcsCluster) validatePutSettingParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

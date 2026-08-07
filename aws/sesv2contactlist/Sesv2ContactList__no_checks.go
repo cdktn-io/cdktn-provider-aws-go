@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2ContactList) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2ContactList) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2ContactList) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_Sesv2ContactList) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (s *jsiiProxy_Sesv2ContactList) validatePutTopicParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2ContactList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

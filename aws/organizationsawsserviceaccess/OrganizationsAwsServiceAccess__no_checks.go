@@ -59,6 +59,10 @@ func (o *jsiiProxy_OrganizationsAwsServiceAccess) validateInterpolationForAttrib
 	return nil
 }
 
+func (o *jsiiProxy_OrganizationsAwsServiceAccess) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OrganizationsAwsServiceAccess) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (o *jsiiProxy_OrganizationsAwsServiceAccess) validateMoveToIdParameters(id 
 }
 
 func (o *jsiiProxy_OrganizationsAwsServiceAccess) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (o *jsiiProxy_OrganizationsAwsServiceAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

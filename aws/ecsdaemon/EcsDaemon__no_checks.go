@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsDaemon) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (e *jsiiProxy_EcsDaemon) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsDaemon) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EcsDaemon) validatePutDeploymentConfigurationParameters(value
 }
 
 func (e *jsiiProxy_EcsDaemon) validatePutTimeoutsParameters(value *EcsDaemonTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsDaemon) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

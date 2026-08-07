@@ -59,6 +59,10 @@ func (x *jsiiProxy_XrayResourcePolicy) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (x *jsiiProxy_XrayResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (x *jsiiProxy_XrayResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (x *jsiiProxy_XrayResourcePolicy) validateMoveToIdParameters(id *string) er
 }
 
 func (x *jsiiProxy_XrayResourcePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (x *jsiiProxy_XrayResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

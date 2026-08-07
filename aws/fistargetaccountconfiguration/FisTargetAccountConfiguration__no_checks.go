@@ -59,6 +59,10 @@ func (f *jsiiProxy_FisTargetAccountConfiguration) validateInterpolationForAttrib
 	return nil
 }
 
+func (f *jsiiProxy_FisTargetAccountConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FisTargetAccountConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (f *jsiiProxy_FisTargetAccountConfiguration) validateMoveToIdParameters(id 
 }
 
 func (f *jsiiProxy_FisTargetAccountConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (f *jsiiProxy_FisTargetAccountConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

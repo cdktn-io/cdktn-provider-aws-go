@@ -59,6 +59,10 @@ func (d *jsiiProxy_DocdbClusterInstance) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (d *jsiiProxy_DocdbClusterInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DocdbClusterInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DocdbClusterInstance) validateOverrideLogicalIdParameters(new
 }
 
 func (d *jsiiProxy_DocdbClusterInstance) validatePutTimeoutsParameters(value *DocdbClusterInstanceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DocdbClusterInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

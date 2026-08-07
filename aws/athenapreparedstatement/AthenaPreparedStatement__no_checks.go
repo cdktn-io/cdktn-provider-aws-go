@@ -59,6 +59,10 @@ func (a *jsiiProxy_AthenaPreparedStatement) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_AthenaPreparedStatement) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AthenaPreparedStatement) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AthenaPreparedStatement) validateOverrideLogicalIdParameters(
 }
 
 func (a *jsiiProxy_AthenaPreparedStatement) validatePutTimeoutsParameters(value *AthenaPreparedStatementTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AthenaPreparedStatement) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

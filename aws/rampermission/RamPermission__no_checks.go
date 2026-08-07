@@ -59,6 +59,10 @@ func (r *jsiiProxy_RamPermission) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (r *jsiiProxy_RamPermission) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RamPermission) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RamPermission) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (r *jsiiProxy_RamPermission) validatePutTimeoutsParameters(value *RamPermissionTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RamPermission) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

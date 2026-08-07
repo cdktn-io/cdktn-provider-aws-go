@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2ClientVpnAuthorizationRule) validateInterpolationForAttrib
 	return nil
 }
 
+func (e *jsiiProxy_Ec2ClientVpnAuthorizationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2ClientVpnAuthorizationRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2ClientVpnAuthorizationRule) validateOverrideLogicalIdParam
 }
 
 func (e *jsiiProxy_Ec2ClientVpnAuthorizationRule) validatePutTimeoutsParameters(value *Ec2ClientVpnAuthorizationRuleTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2ClientVpnAuthorizationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

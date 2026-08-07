@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsReplicaExternalKey) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (k *jsiiProxy_KmsReplicaExternalKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsReplicaExternalKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (k *jsiiProxy_KmsReplicaExternalKey) validateMoveToIdParameters(id *string)
 }
 
 func (k *jsiiProxy_KmsReplicaExternalKey) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsReplicaExternalKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

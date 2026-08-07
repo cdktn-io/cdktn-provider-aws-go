@@ -59,6 +59,10 @@ func (e *jsiiProxy_EfsMountTarget) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (e *jsiiProxy_EfsMountTarget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EfsMountTarget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EfsMountTarget) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (e *jsiiProxy_EfsMountTarget) validatePutTimeoutsParameters(value *EfsMountTargetTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsMountTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

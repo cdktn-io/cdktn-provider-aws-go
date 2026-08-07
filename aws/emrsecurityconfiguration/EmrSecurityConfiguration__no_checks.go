@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrSecurityConfiguration) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_EmrSecurityConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrSecurityConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_EmrSecurityConfiguration) validateMoveToIdParameters(id *stri
 }
 
 func (e *jsiiProxy_EmrSecurityConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrSecurityConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

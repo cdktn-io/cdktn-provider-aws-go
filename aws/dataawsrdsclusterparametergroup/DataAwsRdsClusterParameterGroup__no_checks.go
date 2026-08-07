@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsRdsClusterParameterGroup) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRdsClusterParameterGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRdsClusterParameterGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FinspaceKxCluster) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (f *jsiiProxy_FinspaceKxCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FinspaceKxCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (f *jsiiProxy_FinspaceKxCluster) validatePutTimeoutsParameters(value *Finsp
 }
 
 func (f *jsiiProxy_FinspaceKxCluster) validatePutVpcConfigurationParameters(value *FinspaceKxClusterVpcConfiguration) error {
+	return nil
+}
+
+func (f *jsiiProxy_FinspaceKxCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) validateInterpolationF
 	return nil
 }
 
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) validatePutRepositoryP
 }
 
 func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) validatePutTimeoutsParameters(value *CodegurureviewerRepositoryAssociationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodegurureviewerRepositoryAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

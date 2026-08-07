@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsCognitoIdentityPool) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsCognitoIdentityPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsCognitoIdentityPool_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

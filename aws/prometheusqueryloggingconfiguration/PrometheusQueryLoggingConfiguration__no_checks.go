@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrometheusQueryLoggingConfiguration) validateInterpolationFor
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusQueryLoggingConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusQueryLoggingConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PrometheusQueryLoggingConfiguration) validatePutDestinationPa
 }
 
 func (p *jsiiProxy_PrometheusQueryLoggingConfiguration) validatePutTimeoutsParameters(value *PrometheusQueryLoggingConfigurationTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrometheusQueryLoggingConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

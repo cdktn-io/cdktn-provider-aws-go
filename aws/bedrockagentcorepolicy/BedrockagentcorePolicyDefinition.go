@@ -7,7 +7,7 @@ package bedrockagentcorepolicy
 type BedrockagentcorePolicyDefinition struct {
 	// cedar block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
 	Cedar interface{} `field:"optional" json:"cedar" yaml:"cedar"`
 }
 

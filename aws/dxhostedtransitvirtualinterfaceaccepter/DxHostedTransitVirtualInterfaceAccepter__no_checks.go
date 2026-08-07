@@ -59,6 +59,10 @@ func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateInterpolatio
 	return nil
 }
 
+func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateOverrideLogi
 }
 
 func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validatePutTimeoutsParameters(value *DxHostedTransitVirtualInterfaceAccepterTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

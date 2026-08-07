@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsRedshiftProducerDataShares) validateOverrideLogicalIdP
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRedshiftProducerDataShares) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRedshiftProducerDataShares_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

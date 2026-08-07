@@ -59,6 +59,10 @@ func (a *jsiiProxy_AcmpcaCertificateAuthority) validateInterpolationForAttribute
 	return nil
 }
 
+func (a *jsiiProxy_AcmpcaCertificateAuthority) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AcmpcaCertificateAuthority) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AcmpcaCertificateAuthority) validatePutRevocationConfiguratio
 }
 
 func (a *jsiiProxy_AcmpcaCertificateAuthority) validatePutTimeoutsParameters(value *AcmpcaCertificateAuthorityTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AcmpcaCertificateAuthority) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

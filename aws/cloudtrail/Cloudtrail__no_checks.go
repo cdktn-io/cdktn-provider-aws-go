@@ -59,6 +59,10 @@ func (c *jsiiProxy_Cloudtrail) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (c *jsiiProxy_Cloudtrail) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_Cloudtrail) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_Cloudtrail) validatePutEventSelectorParameters(value interfac
 }
 
 func (c *jsiiProxy_Cloudtrail) validatePutInsightSelectorParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_Cloudtrail) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

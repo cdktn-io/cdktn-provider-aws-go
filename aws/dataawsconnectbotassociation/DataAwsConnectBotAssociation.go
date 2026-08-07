@@ -5,14 +5,14 @@ package dataawsconnectbotassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsconnectbotassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsconnectbotassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_bot_association aws_connect_bot_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_bot_association aws_connect_bot_association}.
 type DataAwsConnectBotAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -90,6 +90,19 @@ type DataAwsConnectBotAssociation interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutLexBot(value *DataAwsConnectBotAssociationLexBot)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -344,7 +357,7 @@ func (j *jsiiProxy_DataAwsConnectBotAssociation) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
 func NewDataAwsConnectBotAssociation(scope constructs.Construct, id *string, config *DataAwsConnectBotAssociationConfig) DataAwsConnectBotAssociation {
 	_init_.Initialize()
 
@@ -362,7 +375,7 @@ func NewDataAwsConnectBotAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_bot_association aws_connect_bot_association} Data Source.
 func NewDataAwsConnectBotAssociation_Override(d DataAwsConnectBotAssociation, scope constructs.Construct, id *string, config *DataAwsConnectBotAssociationConfig) {
 	_init_.Initialize()
 
@@ -745,6 +758,17 @@ func (d *jsiiProxy_DataAwsConnectBotAssociation) PutLexBot(value *DataAwsConnect
 		d,
 		"putLexBot",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsConnectBotAssociation) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

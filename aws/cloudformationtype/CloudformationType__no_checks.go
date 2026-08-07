@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudformationType) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_CloudformationType) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudformationType) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudformationType) validateOverrideLogicalIdParameters(newLo
 }
 
 func (c *jsiiProxy_CloudformationType) validatePutLoggingConfigParameters(value *CloudformationTypeLoggingConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudformationType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

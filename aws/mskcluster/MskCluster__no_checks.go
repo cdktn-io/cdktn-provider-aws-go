@@ -59,6 +59,10 @@ func (m *jsiiProxy_MskCluster) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (m *jsiiProxy_MskCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (m *jsiiProxy_MskCluster) validatePutRebalancingParameters(value *MskCluste
 }
 
 func (m *jsiiProxy_MskCluster) validatePutTimeoutsParameters(value *MskClusterTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

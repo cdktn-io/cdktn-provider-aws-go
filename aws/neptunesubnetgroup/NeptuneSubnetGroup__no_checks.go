@@ -59,6 +59,10 @@ func (n *jsiiProxy_NeptuneSubnetGroup) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (n *jsiiProxy_NeptuneSubnetGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NeptuneSubnetGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (n *jsiiProxy_NeptuneSubnetGroup) validateMoveToIdParameters(id *string) er
 }
 
 func (n *jsiiProxy_NeptuneSubnetGroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneSubnetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

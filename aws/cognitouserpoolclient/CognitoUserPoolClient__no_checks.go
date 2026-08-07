@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoUserPoolClient) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_CognitoUserPoolClient) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoUserPoolClient) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CognitoUserPoolClient) validatePutRefreshTokenRotationParamet
 }
 
 func (c *jsiiProxy_CognitoUserPoolClient) validatePutTokenValidityUnitsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoUserPoolClient) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

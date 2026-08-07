@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrStudio) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (e *jsiiProxy_EmrStudio) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrStudio) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_EmrStudio) validateMoveToIdParameters(id *string) error {
 }
 
 func (e *jsiiProxy_EmrStudio) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrStudio) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

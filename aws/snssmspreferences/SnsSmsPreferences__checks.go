@@ -122,6 +122,14 @@ func (s *jsiiProxy_SnsSmsPreferences) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_SnsSmsPreferences) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SnsSmsPreferences) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (s *jsiiProxy_SnsSmsPreferences) validateMoveToIdParameters(id *string) err
 func (s *jsiiProxy_SnsSmsPreferences) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SnsSmsPreferences) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

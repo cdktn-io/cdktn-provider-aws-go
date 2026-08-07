@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2DefaultCreditSpecification) validateInterpolationForAttrib
 	return nil
 }
 
+func (e *jsiiProxy_Ec2DefaultCreditSpecification) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2DefaultCreditSpecification) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2DefaultCreditSpecification) validateOverrideLogicalIdParam
 }
 
 func (e *jsiiProxy_Ec2DefaultCreditSpecification) validatePutTimeoutsParameters(value *Ec2DefaultCreditSpecificationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2DefaultCreditSpecification) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

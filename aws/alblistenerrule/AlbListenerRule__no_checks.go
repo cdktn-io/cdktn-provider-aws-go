@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlbListenerRule) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (a *jsiiProxy_AlbListenerRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlbListenerRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AlbListenerRule) validatePutConditionParameters(value interfa
 }
 
 func (a *jsiiProxy_AlbListenerRule) validatePutTransformParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlbListenerRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

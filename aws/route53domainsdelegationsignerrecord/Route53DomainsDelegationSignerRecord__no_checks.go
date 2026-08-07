@@ -59,6 +59,10 @@ func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) validateInterpolationFo
 	return nil
 }
 
+func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) validatePutSigningAttri
 }
 
 func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) validatePutTimeoutsParameters(value *Route53DomainsDelegationSignerRecordTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_Route53DomainsDelegationSignerRecord) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

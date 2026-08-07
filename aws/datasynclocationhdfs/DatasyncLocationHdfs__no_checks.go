@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncLocationHdfs) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationHdfs) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationHdfs) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DatasyncLocationHdfs) validatePutNameNodeParameters(value int
 }
 
 func (d *jsiiProxy_DatasyncLocationHdfs) validatePutQopConfigurationParameters(value *DatasyncLocationHdfsQopConfiguration) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncLocationHdfs) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

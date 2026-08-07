@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsAvailabilityZones) validatePutTimeoutsParameters(value
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsAvailabilityZones) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsAvailabilityZones_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

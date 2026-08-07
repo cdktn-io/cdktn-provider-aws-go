@@ -122,6 +122,14 @@ func (l *jsiiProxy_Lexv2ModelsSlotType) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (l *jsiiProxy_Lexv2ModelsSlotType) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_Lexv2ModelsSlotType) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -337,6 +345,14 @@ func (l *jsiiProxy_Lexv2ModelsSlotType) validatePutValueSelectionSettingParamete
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Lexv2ModelsSlotTypeValueSelectionSetting; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_Lexv2ModelsSlotType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

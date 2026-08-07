@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsArcregionswitchPlan) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsArcregionswitchPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsArcregionswitchPlan_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

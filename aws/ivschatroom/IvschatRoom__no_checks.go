@@ -59,6 +59,10 @@ func (i *jsiiProxy_IvschatRoom) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (i *jsiiProxy_IvschatRoom) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IvschatRoom) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IvschatRoom) validatePutMessageReviewHandlerParameters(value 
 }
 
 func (i *jsiiProxy_IvschatRoom) validatePutTimeoutsParameters(value *IvschatRoomTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvschatRoom) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodedeployDeploymentGroup) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodedeployDeploymentGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutOnPremisesInstanceTagFi
 }
 
 func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutTriggerConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

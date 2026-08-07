@@ -59,6 +59,10 @@ func (k *jsiiProxy_KinesisAccountSettings) validateInterpolationForAttributePara
 	return nil
 }
 
+func (k *jsiiProxy_KinesisAccountSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KinesisAccountSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KinesisAccountSettings) validateOverrideLogicalIdParameters(n
 }
 
 func (k *jsiiProxy_KinesisAccountSettings) validatePutMinimumThroughputBillingCommitmentParameters(value interface{}) error {
+	return nil
+}
+
+func (k *jsiiProxy_KinesisAccountSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

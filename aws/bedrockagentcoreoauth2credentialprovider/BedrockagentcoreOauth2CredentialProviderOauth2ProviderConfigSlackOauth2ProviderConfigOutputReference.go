@@ -5,9 +5,9 @@ package bedrockagentcoreoauth2credentialprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockagentcoreoauth2credentialprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockagentcoreoauth2credentialprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -19,13 +19,17 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOauth2Prov
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ClientIdWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetClientIdWo(val *string)
 	ClientIdWoInput() *string
 	ClientSecret() *string
 	SetClientSecret(val *string)
 	ClientSecretInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ClientSecretWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetClientSecretWo(val *string)
 	ClientSecretWoInput() *string
 	// the index of the complex object in a list.

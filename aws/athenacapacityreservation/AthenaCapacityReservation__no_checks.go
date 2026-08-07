@@ -59,6 +59,10 @@ func (a *jsiiProxy_AthenaCapacityReservation) validateInterpolationForAttributeP
 	return nil
 }
 
+func (a *jsiiProxy_AthenaCapacityReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AthenaCapacityReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AthenaCapacityReservation) validateOverrideLogicalIdParameter
 }
 
 func (a *jsiiProxy_AthenaCapacityReservation) validatePutTimeoutsParameters(value *AthenaCapacityReservationTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AthenaCapacityReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

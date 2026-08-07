@@ -122,6 +122,14 @@ func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateInterpolationFor
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateMoveToIdParamete
 func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

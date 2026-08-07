@@ -5,9 +5,9 @@ package launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/launchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/launchtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -45,6 +45,9 @@ type LaunchTemplateNetworkInterfacesOutputReference interface {
 	DeviceIndex() *float64
 	SetDeviceIndex(val *float64)
 	DeviceIndexInput() *float64
+	EnaQueueCount() *float64
+	SetEnaQueueCount(val *float64)
+	EnaQueueCountInput() *float64
 	EnaSrdSpecification() LaunchTemplateNetworkInterfacesEnaSrdSpecificationOutputReference
 	EnaSrdSpecificationInput() *LaunchTemplateNetworkInterfacesEnaSrdSpecification
 	// Experimental.
@@ -136,6 +139,7 @@ type LaunchTemplateNetworkInterfacesOutputReference interface {
 	ResetDeleteOnTermination()
 	ResetDescription()
 	ResetDeviceIndex()
+	ResetEnaQueueCount()
 	ResetEnaSrdSpecification()
 	ResetInterfaceType()
 	ResetIpv4AddressCount()
@@ -312,6 +316,26 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) DeviceIndexIn
 	_jsii_.Get(
 		j,
 		"deviceIndexInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) EnaQueueCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"enaQueueCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) EnaQueueCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"enaQueueCountInput",
 		&returns,
 	)
 	return returns
@@ -782,6 +806,17 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference)SetDeviceIndex
 	)
 }
 
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference)SetEnaQueueCount(val *float64) {
+	if err := j.validateSetEnaQueueCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enaQueueCount",
+		val,
+	)
+}
+
 func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference)SetInterfaceType(val *string) {
 	if err := j.validateSetInterfaceTypeParameters(val); err != nil {
 		panic(err)
@@ -1232,6 +1267,14 @@ func (l *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) ResetDeviceIn
 	_jsii_.InvokeVoid(
 		l,
 		"resetDeviceIndex",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) ResetEnaQueueCount() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetEnaQueueCount",
 		nil, // no parameters
 	)
 }

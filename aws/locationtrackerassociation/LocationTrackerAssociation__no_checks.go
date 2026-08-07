@@ -59,6 +59,10 @@ func (l *jsiiProxy_LocationTrackerAssociation) validateInterpolationForAttribute
 	return nil
 }
 
+func (l *jsiiProxy_LocationTrackerAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LocationTrackerAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LocationTrackerAssociation) validateOverrideLogicalIdParamete
 }
 
 func (l *jsiiProxy_LocationTrackerAssociation) validatePutTimeoutsParameters(value *LocationTrackerAssociationTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LocationTrackerAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,7 +5,7 @@ package observabilityadmintelemetryrule
 
 
 type ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilterFiltersConditionsActionCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/observabilityadmin_telemetry_rule#action ObservabilityadminTelemetryRule#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/observabilityadmin_telemetry_rule#action ObservabilityadminTelemetryRule#action}.
 	Action *string `field:"required" json:"action" yaml:"action"`
 }
 

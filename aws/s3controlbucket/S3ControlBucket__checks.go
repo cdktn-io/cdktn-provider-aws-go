@@ -122,6 +122,14 @@ func (s *jsiiProxy_S3ControlBucket) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlBucket) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlBucket) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (s *jsiiProxy_S3ControlBucket) validateMoveToIdParameters(id *string) error
 func (s *jsiiProxy_S3ControlBucket) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

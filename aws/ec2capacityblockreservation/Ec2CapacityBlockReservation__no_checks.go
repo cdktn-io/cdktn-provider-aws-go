@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2CapacityBlockReservation) validateInterpolationForAttribut
 	return nil
 }
 
+func (e *jsiiProxy_Ec2CapacityBlockReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2CapacityBlockReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2CapacityBlockReservation) validateOverrideLogicalIdParamet
 }
 
 func (e *jsiiProxy_Ec2CapacityBlockReservation) validatePutTimeoutsParameters(value *Ec2CapacityBlockReservationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2CapacityBlockReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dataawsidentitystoregroupmemberships
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsidentitystoregroupmemberships/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsidentitystoregroupmemberships/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/identitystore_group_memberships aws_identitystore_group_memberships}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/identitystore_group_memberships aws_identitystore_group_memberships}.
 type DataAwsIdentitystoreGroupMemberships interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -88,6 +88,19 @@ type DataAwsIdentitystoreGroupMemberships interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -331,7 +344,7 @@ func (j *jsiiProxy_DataAwsIdentitystoreGroupMemberships) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/identitystore_group_memberships aws_identitystore_group_memberships} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/identitystore_group_memberships aws_identitystore_group_memberships} Data Source.
 func NewDataAwsIdentitystoreGroupMemberships(scope constructs.Construct, id *string, config *DataAwsIdentitystoreGroupMembershipsConfig) DataAwsIdentitystoreGroupMemberships {
 	_init_.Initialize()
 
@@ -349,7 +362,7 @@ func NewDataAwsIdentitystoreGroupMemberships(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/identitystore_group_memberships aws_identitystore_group_memberships} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/identitystore_group_memberships aws_identitystore_group_memberships} Data Source.
 func NewDataAwsIdentitystoreGroupMemberships_Override(d DataAwsIdentitystoreGroupMemberships, scope constructs.Construct, id *string, config *DataAwsIdentitystoreGroupMembershipsConfig) {
 	_init_.Initialize()
 
@@ -721,6 +734,17 @@ func (d *jsiiProxy_DataAwsIdentitystoreGroupMemberships) OverrideLogicalId(newLo
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsIdentitystoreGroupMemberships) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

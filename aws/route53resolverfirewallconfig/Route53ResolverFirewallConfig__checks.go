@@ -122,6 +122,14 @@ func (r *jsiiProxy_Route53ResolverFirewallConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (r *jsiiProxy_Route53ResolverFirewallConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (r *jsiiProxy_Route53ResolverFirewallConfig) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (r *jsiiProxy_Route53ResolverFirewallConfig) validateMoveToIdParameters(id 
 func (r *jsiiProxy_Route53ResolverFirewallConfig) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (r *jsiiProxy_Route53ResolverFirewallConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

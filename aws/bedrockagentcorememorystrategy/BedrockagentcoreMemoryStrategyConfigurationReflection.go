@@ -1,0 +1,15 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package bedrockagentcorememorystrategy
+
+
+type BedrockagentcoreMemoryStrategyConfigurationReflection struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_memory_strategy#append_to_prompt BedrockagentcoreMemoryStrategy#append_to_prompt}.
+	AppendToPrompt *string `field:"required" json:"appendToPrompt" yaml:"appendToPrompt"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_memory_strategy#model_id BedrockagentcoreMemoryStrategy#model_id}.
+	ModelId *string `field:"required" json:"modelId" yaml:"modelId"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_memory_strategy#namespace_templates BedrockagentcoreMemoryStrategy#namespace_templates}.
+	NamespaceTemplates *[]*string `field:"required" json:"namespaceTemplates" yaml:"namespaceTemplates"`
+}
+

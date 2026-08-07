@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validateInterpol
 	return nil
 }
 
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validatePutEndpo
 }
 
 func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validatePutTimeoutsParameters(value *GlobalacceleratorCustomRoutingEndpointGroupTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingEndpointGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontTrustStore) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontTrustStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontTrustStore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudfrontTrustStore) validatePutCaCertificatesBundleSourcePa
 }
 
 func (c *jsiiProxy_CloudfrontTrustStore) validatePutTimeoutsParameters(value *CloudfrontTrustStoreTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontTrustStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

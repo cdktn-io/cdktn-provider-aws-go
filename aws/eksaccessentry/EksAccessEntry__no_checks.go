@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksAccessEntry) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (e *jsiiProxy_EksAccessEntry) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksAccessEntry) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EksAccessEntry) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (e *jsiiProxy_EksAccessEntry) validatePutTimeoutsParameters(value *EksAccessEntryTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksAccessEntry) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

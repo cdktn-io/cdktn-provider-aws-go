@@ -59,6 +59,10 @@ func (k *jsiiProxy_KendraQuerySuggestionsBlockList) validateInterpolationForAttr
 	return nil
 }
 
+func (k *jsiiProxy_KendraQuerySuggestionsBlockList) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KendraQuerySuggestionsBlockList) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KendraQuerySuggestionsBlockList) validatePutSourceS3PathParam
 }
 
 func (k *jsiiProxy_KendraQuerySuggestionsBlockList) validatePutTimeoutsParameters(value *KendraQuerySuggestionsBlockListTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraQuerySuggestionsBlockList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

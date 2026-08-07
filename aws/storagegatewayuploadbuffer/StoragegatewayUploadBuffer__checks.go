@@ -122,6 +122,14 @@ func (s *jsiiProxy_StoragegatewayUploadBuffer) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_StoragegatewayUploadBuffer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_StoragegatewayUploadBuffer) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (s *jsiiProxy_StoragegatewayUploadBuffer) validateMoveToIdParameters(id *st
 func (s *jsiiProxy_StoragegatewayUploadBuffer) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_StoragegatewayUploadBuffer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

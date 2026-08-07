@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) validatePutFilterParame
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRoute53ResolverQueryLogConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRoute53ResolverQueryLogConfig_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

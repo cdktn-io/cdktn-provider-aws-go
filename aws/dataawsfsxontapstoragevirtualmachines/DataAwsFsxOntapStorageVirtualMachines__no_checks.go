@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachines) validatePutFilterParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsFsxOntapStorageVirtualMachines) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsFsxOntapStorageVirtualMachines_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

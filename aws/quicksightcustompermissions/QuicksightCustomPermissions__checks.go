@@ -122,6 +122,14 @@ func (q *jsiiProxy_QuicksightCustomPermissions) validateInterpolationForAttribut
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightCustomPermissions) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightCustomPermissions) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (q *jsiiProxy_QuicksightCustomPermissions) validatePutCapabilitiesParameter
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightCustomPermissionsCapabilities; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

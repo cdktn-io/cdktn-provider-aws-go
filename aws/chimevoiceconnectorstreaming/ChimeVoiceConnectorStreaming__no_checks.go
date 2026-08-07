@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChimeVoiceConnectorStreaming) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ChimeVoiceConnectorStreaming) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChimeVoiceConnectorStreaming) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ChimeVoiceConnectorStreaming) validateOverrideLogicalIdParame
 }
 
 func (c *jsiiProxy_ChimeVoiceConnectorStreaming) validatePutMediaInsightsConfigurationParameters(value *ChimeVoiceConnectorStreamingMediaInsightsConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChimeVoiceConnectorStreaming) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

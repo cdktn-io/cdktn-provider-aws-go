@@ -59,6 +59,10 @@ func (m *jsiiProxy_MemorydbSnapshot) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (m *jsiiProxy_MemorydbSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MemorydbSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MemorydbSnapshot) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (m *jsiiProxy_MemorydbSnapshot) validatePutTimeoutsParameters(value *MemorydbSnapshotTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MemorydbSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

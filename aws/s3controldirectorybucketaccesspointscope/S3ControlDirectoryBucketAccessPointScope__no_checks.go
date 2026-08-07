@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateInterpolati
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateOverrideLog
 }
 
 func (s *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validatePutScopeParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

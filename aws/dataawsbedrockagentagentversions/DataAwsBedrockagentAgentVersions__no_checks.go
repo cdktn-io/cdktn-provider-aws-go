@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsBedrockagentAgentVersions) validatePutAgentVersionSumm
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsBedrockagentAgentVersions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsBedrockagentAgentVersions_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

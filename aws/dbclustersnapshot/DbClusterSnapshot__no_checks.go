@@ -59,6 +59,10 @@ func (d *jsiiProxy_DbClusterSnapshot) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DbClusterSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DbClusterSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DbClusterSnapshot) validateOverrideLogicalIdParameters(newLog
 }
 
 func (d *jsiiProxy_DbClusterSnapshot) validatePutTimeoutsParameters(value *DbClusterSnapshotTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DbClusterSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

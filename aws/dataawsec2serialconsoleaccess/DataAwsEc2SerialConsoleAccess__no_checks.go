@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsEc2SerialConsoleAccess) validatePutTimeoutsParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2SerialConsoleAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2SerialConsoleAccess_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

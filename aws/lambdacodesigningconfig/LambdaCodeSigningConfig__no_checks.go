@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaCodeSigningConfig) validateInterpolationForAttributePar
 	return nil
 }
 
+func (l *jsiiProxy_LambdaCodeSigningConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaCodeSigningConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LambdaCodeSigningConfig) validatePutAllowedPublishersParamete
 }
 
 func (l *jsiiProxy_LambdaCodeSigningConfig) validatePutPoliciesParameters(value *LambdaCodeSigningConfigPolicies) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaCodeSigningConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

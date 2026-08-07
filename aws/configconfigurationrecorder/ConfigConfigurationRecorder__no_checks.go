@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConfigConfigurationRecorder) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_ConfigConfigurationRecorder) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConfigConfigurationRecorder) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ConfigConfigurationRecorder) validatePutRecordingGroupParamet
 }
 
 func (c *jsiiProxy_ConfigConfigurationRecorder) validatePutRecordingModeParameters(value *ConfigConfigurationRecorderRecordingMode) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigurationRecorder) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -7,7 +7,7 @@ package s3tablestablereplication
 type S3TablesTableReplicationRule struct {
 	// destination block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3tables_table_replication#destination S3TablesTableReplication#destination}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_replication#destination S3TablesTableReplication#destination}
 	Destination interface{} `field:"optional" json:"destination" yaml:"destination"`
 }
 

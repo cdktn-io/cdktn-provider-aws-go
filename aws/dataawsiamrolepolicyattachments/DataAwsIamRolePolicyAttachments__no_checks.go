@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsIamRolePolicyAttachments) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsIamRolePolicyAttachments) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsIamRolePolicyAttachments_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

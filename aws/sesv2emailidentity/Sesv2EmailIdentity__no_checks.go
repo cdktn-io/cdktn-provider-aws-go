@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2EmailIdentity) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2EmailIdentity) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2EmailIdentity) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_Sesv2EmailIdentity) validateOverrideLogicalIdParameters(newLo
 }
 
 func (s *jsiiProxy_Sesv2EmailIdentity) validatePutDkimSigningAttributesParameters(value *Sesv2EmailIdentityDkimSigningAttributes) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2EmailIdentity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

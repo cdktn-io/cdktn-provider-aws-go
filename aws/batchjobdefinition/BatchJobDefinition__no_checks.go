@@ -59,6 +59,10 @@ func (b *jsiiProxy_BatchJobDefinition) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (b *jsiiProxy_BatchJobDefinition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchJobDefinition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BatchJobDefinition) validatePutRetryStrategyParameters(value 
 }
 
 func (b *jsiiProxy_BatchJobDefinition) validatePutTimeoutParameters(value *BatchJobDefinitionTimeout) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

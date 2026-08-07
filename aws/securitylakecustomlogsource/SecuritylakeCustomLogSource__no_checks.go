@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecuritylakeCustomLogSource) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_SecuritylakeCustomLogSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecuritylakeCustomLogSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SecuritylakeCustomLogSource) validateOverrideLogicalIdParamet
 }
 
 func (s *jsiiProxy_SecuritylakeCustomLogSource) validatePutConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecuritylakeCustomLogSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

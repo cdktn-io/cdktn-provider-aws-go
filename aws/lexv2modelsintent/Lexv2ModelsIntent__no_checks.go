@@ -59,6 +59,10 @@ func (l *jsiiProxy_Lexv2ModelsIntent) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (l *jsiiProxy_Lexv2ModelsIntent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_Lexv2ModelsIntent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (l *jsiiProxy_Lexv2ModelsIntent) validatePutSlotPriorityParameters(value in
 }
 
 func (l *jsiiProxy_Lexv2ModelsIntent) validatePutTimeoutsParameters(value *Lexv2ModelsIntentTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_Lexv2ModelsIntent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

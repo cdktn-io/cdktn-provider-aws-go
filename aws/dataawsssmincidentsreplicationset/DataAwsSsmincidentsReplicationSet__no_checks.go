@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSsmincidentsReplicationSet) validateOverrideLogicalIdP
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSsmincidentsReplicationSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSsmincidentsReplicationSet_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

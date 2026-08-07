@@ -122,6 +122,14 @@ func (c *jsiiProxy_CostoptimizationhubEnrollmentStatus) validateInterpolationFor
 	return nil
 }
 
+func (c *jsiiProxy_CostoptimizationhubEnrollmentStatus) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CostoptimizationhubEnrollmentStatus) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (c *jsiiProxy_CostoptimizationhubEnrollmentStatus) validateMoveToIdParamete
 func (c *jsiiProxy_CostoptimizationhubEnrollmentStatus) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CostoptimizationhubEnrollmentStatus) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

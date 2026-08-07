@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEc2ClientVpnEndpoint) validatePutTimeoutsParameters(va
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2ClientVpnEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2ClientVpnEndpoint_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

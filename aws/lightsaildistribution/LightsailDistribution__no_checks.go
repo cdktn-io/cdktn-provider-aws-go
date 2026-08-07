@@ -59,6 +59,10 @@ func (l *jsiiProxy_LightsailDistribution) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (l *jsiiProxy_LightsailDistribution) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LightsailDistribution) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (l *jsiiProxy_LightsailDistribution) validatePutOriginParameters(value *Lig
 }
 
 func (l *jsiiProxy_LightsailDistribution) validatePutTimeoutsParameters(value *LightsailDistributionTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistribution) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

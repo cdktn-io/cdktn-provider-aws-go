@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketLifecycleConfiguration) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketLifecycleConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketLifecycleConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3BucketLifecycleConfiguration) validatePutRuleParameters(val
 }
 
 func (s *jsiiProxy_S3BucketLifecycleConfiguration) validatePutTimeoutsParameters(value *S3BucketLifecycleConfigurationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketLifecycleConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

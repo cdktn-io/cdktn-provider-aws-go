@@ -59,6 +59,10 @@ func (d *jsiiProxy_DmsReplicationInstance) validateInterpolationForAttributePara
 	return nil
 }
 
+func (d *jsiiProxy_DmsReplicationInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DmsReplicationInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DmsReplicationInstance) validatePutKerberosAuthenticationSett
 }
 
 func (d *jsiiProxy_DmsReplicationInstance) validatePutTimeoutsParameters(value *DmsReplicationInstanceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DmsReplicationInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

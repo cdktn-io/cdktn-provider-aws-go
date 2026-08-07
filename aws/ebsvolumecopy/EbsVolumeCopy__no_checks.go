@@ -59,6 +59,10 @@ func (e *jsiiProxy_EbsVolumeCopy) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (e *jsiiProxy_EbsVolumeCopy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EbsVolumeCopy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EbsVolumeCopy) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (e *jsiiProxy_EbsVolumeCopy) validatePutTimeoutsParameters(value *EbsVolumeCopyTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EbsVolumeCopy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

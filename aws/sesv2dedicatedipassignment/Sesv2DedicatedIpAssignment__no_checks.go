@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2DedicatedIpAssignment) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2DedicatedIpAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2DedicatedIpAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_Sesv2DedicatedIpAssignment) validateOverrideLogicalIdParamete
 }
 
 func (s *jsiiProxy_Sesv2DedicatedIpAssignment) validatePutTimeoutsParameters(value *Sesv2DedicatedIpAssignmentTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2DedicatedIpAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontOriginAccessControl) validateInterpolationForAttrib
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontOriginAccessControl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontOriginAccessControl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudfrontOriginAccessControl) validateMoveToIdParameters(id 
 }
 
 func (c *jsiiProxy_CloudfrontOriginAccessControl) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontOriginAccessControl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

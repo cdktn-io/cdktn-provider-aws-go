@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3VectorsVectorBucket) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_S3VectorsVectorBucket) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3VectorsVectorBucket) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3VectorsVectorBucket) validateOverrideLogicalIdParameters(ne
 }
 
 func (s *jsiiProxy_S3VectorsVectorBucket) validatePutEncryptionConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3VectorsVectorBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

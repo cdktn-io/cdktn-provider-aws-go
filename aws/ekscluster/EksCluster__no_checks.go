@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksCluster) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (e *jsiiProxy_EksCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (e *jsiiProxy_EksCluster) validatePutVpcConfigParameters(value *EksClusterV
 }
 
 func (e *jsiiProxy_EksCluster) validatePutZonalShiftConfigParameters(value *EksClusterZonalShiftConfig) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MqBroker) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (m *jsiiProxy_MqBroker) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MqBroker) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (m *jsiiProxy_MqBroker) validatePutTimeoutsParameters(value *MqBrokerTimeou
 }
 
 func (m *jsiiProxy_MqBroker) validatePutUserParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MqBroker) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

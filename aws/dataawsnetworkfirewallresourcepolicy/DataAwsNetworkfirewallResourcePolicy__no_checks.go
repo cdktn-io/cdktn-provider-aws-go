@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsNetworkfirewallResourcePolicy) validateOverrideLogical
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsNetworkfirewallResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsNetworkfirewallResourcePolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

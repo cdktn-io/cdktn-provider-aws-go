@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupReportPlan) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (b *jsiiProxy_BackupReportPlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupReportPlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BackupReportPlan) validatePutReportDeliveryChannelParameters(
 }
 
 func (b *jsiiProxy_BackupReportPlan) validatePutReportSettingParameters(value *BackupReportPlanReportSetting) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupReportPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

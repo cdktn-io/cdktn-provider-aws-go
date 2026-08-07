@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxOntapStorageVirtualMachine) validateInterpolationForAttrib
 	return nil
 }
 
+func (f *jsiiProxy_FsxOntapStorageVirtualMachine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxOntapStorageVirtualMachine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FsxOntapStorageVirtualMachine) validatePutActiveDirectoryConf
 }
 
 func (f *jsiiProxy_FsxOntapStorageVirtualMachine) validatePutTimeoutsParameters(value *FsxOntapStorageVirtualMachineTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxOntapStorageVirtualMachine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

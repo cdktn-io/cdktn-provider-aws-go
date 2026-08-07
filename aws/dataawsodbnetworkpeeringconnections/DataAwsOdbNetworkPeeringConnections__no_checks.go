@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnections) validateOverrideLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOdbNetworkPeeringConnections) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsOdbNetworkPeeringConnections_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

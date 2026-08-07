@@ -59,6 +59,10 @@ func (q *jsiiProxy_QldbStream) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (q *jsiiProxy_QldbStream) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QldbStream) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (q *jsiiProxy_QldbStream) validatePutKinesisConfigurationParameters(value *
 }
 
 func (q *jsiiProxy_QldbStream) validatePutTimeoutsParameters(value *QldbStreamTimeouts) error {
+	return nil
+}
+
+func (q *jsiiProxy_QldbStream) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

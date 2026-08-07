@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticacheParameterGroup) validateInterpolationForAttributeP
 	return nil
 }
 
+func (e *jsiiProxy_ElasticacheParameterGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticacheParameterGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_ElasticacheParameterGroup) validateOverrideLogicalIdParameter
 }
 
 func (e *jsiiProxy_ElasticacheParameterGroup) validatePutParameterParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticacheParameterGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

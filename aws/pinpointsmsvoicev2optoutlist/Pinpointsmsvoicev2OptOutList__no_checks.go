@@ -59,6 +59,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateInterpolationForAttribu
 	return nil
 }
 
+func (p *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateMoveToIdParameters(id *
 }
 
 func (p *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2OptOutList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

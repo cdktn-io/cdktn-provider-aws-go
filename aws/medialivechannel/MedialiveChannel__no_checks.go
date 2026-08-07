@@ -59,6 +59,10 @@ func (m *jsiiProxy_MedialiveChannel) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (m *jsiiProxy_MedialiveChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MedialiveChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (m *jsiiProxy_MedialiveChannel) validatePutTimeoutsParameters(value *Medial
 }
 
 func (m *jsiiProxy_MedialiveChannel) validatePutVpcParameters(value *MedialiveChannelVpc) error {
+	return nil
+}
+
+func (m *jsiiProxy_MedialiveChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

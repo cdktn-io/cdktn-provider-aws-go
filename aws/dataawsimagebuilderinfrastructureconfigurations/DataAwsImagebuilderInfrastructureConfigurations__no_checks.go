@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsImagebuilderInfrastructureConfigurations) validatePutF
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsImagebuilderInfrastructureConfigurations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsImagebuilderInfrastructureConfigurations_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

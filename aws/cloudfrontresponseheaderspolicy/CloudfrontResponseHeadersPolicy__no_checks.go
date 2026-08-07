@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontResponseHeadersPolicy) validateInterpolationForAttr
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontResponseHeadersPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontResponseHeadersPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (c *jsiiProxy_CloudfrontResponseHeadersPolicy) validatePutSecurityHeadersCo
 }
 
 func (c *jsiiProxy_CloudfrontResponseHeadersPolicy) validatePutServerTimingHeadersConfigParameters(value *CloudfrontResponseHeadersPolicyServerTimingHeadersConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontResponseHeadersPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2EmailIdentityPolicy) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2EmailIdentityPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2EmailIdentityPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_Sesv2EmailIdentityPolicy) validateMoveToIdParameters(id *stri
 }
 
 func (s *jsiiProxy_Sesv2EmailIdentityPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2EmailIdentityPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsClusterCapacityProviders) validateInterpolationForAttribut
 	return nil
 }
 
+func (e *jsiiProxy_EcsClusterCapacityProviders) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsClusterCapacityProviders) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EcsClusterCapacityProviders) validateOverrideLogicalIdParamet
 }
 
 func (e *jsiiProxy_EcsClusterCapacityProviders) validatePutDefaultCapacityProviderStrategyParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsClusterCapacityProviders) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

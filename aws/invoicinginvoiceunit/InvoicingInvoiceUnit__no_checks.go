@@ -59,6 +59,10 @@ func (i *jsiiProxy_InvoicingInvoiceUnit) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (i *jsiiProxy_InvoicingInvoiceUnit) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_InvoicingInvoiceUnit) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_InvoicingInvoiceUnit) validatePutRuleParameters(value interfa
 }
 
 func (i *jsiiProxy_InvoicingInvoiceUnit) validatePutTimeoutsParameters(value *InvoicingInvoiceUnitTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_InvoicingInvoiceUnit) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

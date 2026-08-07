@@ -59,6 +59,10 @@ func (d *jsiiProxy_DbSnapshot) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (d *jsiiProxy_DbSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DbSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DbSnapshot) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (d *jsiiProxy_DbSnapshot) validatePutTimeoutsParameters(value *DbSnapshotTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DbSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

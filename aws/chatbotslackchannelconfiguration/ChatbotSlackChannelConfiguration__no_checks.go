@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChatbotSlackChannelConfiguration) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_ChatbotSlackChannelConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChatbotSlackChannelConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ChatbotSlackChannelConfiguration) validateOverrideLogicalIdPa
 }
 
 func (c *jsiiProxy_ChatbotSlackChannelConfiguration) validatePutTimeoutsParameters(value *ChatbotSlackChannelConfigurationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChatbotSlackChannelConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

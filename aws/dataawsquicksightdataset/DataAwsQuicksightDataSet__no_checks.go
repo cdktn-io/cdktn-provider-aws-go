@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsQuicksightDataSet) validateOverrideLogicalIdParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsQuicksightDataSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsQuicksightDataSet_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

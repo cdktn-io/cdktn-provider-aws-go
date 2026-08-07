@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaAlias) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (l *jsiiProxy_LambdaAlias) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaAlias) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LambdaAlias) validatePutRoutingConfigParameters(value *Lambda
 }
 
 func (l *jsiiProxy_LambdaAlias) validatePutTimeoutsParameters(value *LambdaAliasTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaAlias) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlbTargetGroup) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (a *jsiiProxy_AlbTargetGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlbTargetGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (a *jsiiProxy_AlbTargetGroup) validatePutTargetGroupHealthParameters(value 
 }
 
 func (a *jsiiProxy_AlbTargetGroup) validatePutTargetHealthStateParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlbTargetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

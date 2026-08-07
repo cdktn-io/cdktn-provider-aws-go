@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsDatapipelinePipeline) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsDatapipelinePipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsDatapipelinePipeline_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

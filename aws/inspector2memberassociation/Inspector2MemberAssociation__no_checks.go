@@ -59,6 +59,10 @@ func (i *jsiiProxy_Inspector2MemberAssociation) validateInterpolationForAttribut
 	return nil
 }
 
+func (i *jsiiProxy_Inspector2MemberAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_Inspector2MemberAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_Inspector2MemberAssociation) validateOverrideLogicalIdParamet
 }
 
 func (i *jsiiProxy_Inspector2MemberAssociation) validatePutTimeoutsParameters(value *Inspector2MemberAssociationTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_Inspector2MemberAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

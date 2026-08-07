@@ -122,6 +122,14 @@ func (l *jsiiProxy_LakeformationOptIn) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (l *jsiiProxy_LakeformationOptIn) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_LakeformationOptIn) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -295,6 +303,14 @@ func (l *jsiiProxy_LakeformationOptIn) validatePutResourceDataParameters(value i
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*LakeformationOptInResourceData; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LakeformationOptIn) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

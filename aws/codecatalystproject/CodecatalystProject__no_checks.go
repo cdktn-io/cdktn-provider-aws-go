@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodecatalystProject) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CodecatalystProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodecatalystProject) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CodecatalystProject) validateOverrideLogicalIdParameters(newL
 }
 
 func (c *jsiiProxy_CodecatalystProject) validatePutTimeoutsParameters(value *CodecatalystProjectTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodecatalystProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

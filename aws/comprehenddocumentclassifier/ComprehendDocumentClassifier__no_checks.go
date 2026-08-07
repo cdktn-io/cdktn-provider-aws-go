@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComprehendDocumentClassifier) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComprehendDocumentClassifier) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_ComprehendDocumentClassifier) validatePutTimeoutsParameters(v
 }
 
 func (c *jsiiProxy_ComprehendDocumentClassifier) validatePutVpcConfigParameters(value *ComprehendDocumentClassifierVpcConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

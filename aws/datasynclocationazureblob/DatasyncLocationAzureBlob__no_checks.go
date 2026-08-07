@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncLocationAzureBlob) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationAzureBlob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationAzureBlob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatasyncLocationAzureBlob) validateOverrideLogicalIdParameter
 }
 
 func (d *jsiiProxy_DatasyncLocationAzureBlob) validatePutSasConfigurationParameters(value *DatasyncLocationAzureBlobSasConfiguration) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncLocationAzureBlob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

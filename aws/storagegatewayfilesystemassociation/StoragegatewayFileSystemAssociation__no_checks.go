@@ -59,6 +59,10 @@ func (s *jsiiProxy_StoragegatewayFileSystemAssociation) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_StoragegatewayFileSystemAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StoragegatewayFileSystemAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StoragegatewayFileSystemAssociation) validatePutCacheAttribut
 }
 
 func (s *jsiiProxy_StoragegatewayFileSystemAssociation) validatePutTimeoutsParameters(value *StoragegatewayFileSystemAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StoragegatewayFileSystemAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

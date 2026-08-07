@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftSnapshotCopy) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftSnapshotCopy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftSnapshotCopy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (r *jsiiProxy_RedshiftSnapshotCopy) validateMoveToIdParameters(id *string) 
 }
 
 func (r *jsiiProxy_RedshiftSnapshotCopy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftSnapshotCopy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

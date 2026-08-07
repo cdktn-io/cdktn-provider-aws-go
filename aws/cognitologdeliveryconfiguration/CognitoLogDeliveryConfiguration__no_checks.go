@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoLogDeliveryConfiguration) validateInterpolationForAttr
 	return nil
 }
 
+func (c *jsiiProxy_CognitoLogDeliveryConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoLogDeliveryConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CognitoLogDeliveryConfiguration) validateOverrideLogicalIdPar
 }
 
 func (c *jsiiProxy_CognitoLogDeliveryConfiguration) validatePutLogConfigurationsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoLogDeliveryConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

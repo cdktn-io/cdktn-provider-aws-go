@@ -122,6 +122,14 @@ func (o *jsiiProxy_OpensearchserverlessSecurityPolicy) validateInterpolationForA
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessSecurityPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessSecurityPolicy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (o *jsiiProxy_OpensearchserverlessSecurityPolicy) validateMoveToIdParameter
 func (o *jsiiProxy_OpensearchserverlessSecurityPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessSecurityPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateOverrideLogicalI
 }
 
 func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validatePutTimeoutsParameters(value *ShieldDrtAccessLogBucketAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ShieldDrtAccessLogBucketAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

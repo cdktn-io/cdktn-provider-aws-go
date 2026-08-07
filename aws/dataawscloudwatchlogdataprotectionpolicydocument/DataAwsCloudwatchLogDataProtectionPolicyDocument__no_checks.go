@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument) validatePut
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsCloudwatchLogDataProtectionPolicyDocument_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

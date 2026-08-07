@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticsearchDomainSamlOptions) validateInterpolationForAttri
 	return nil
 }
 
+func (e *jsiiProxy_ElasticsearchDomainSamlOptions) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticsearchDomainSamlOptions) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ElasticsearchDomainSamlOptions) validatePutSamlOptionsParamet
 }
 
 func (e *jsiiProxy_ElasticsearchDomainSamlOptions) validatePutTimeoutsParameters(value *ElasticsearchDomainSamlOptionsTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticsearchDomainSamlOptions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

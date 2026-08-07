@@ -59,6 +59,10 @@ func (d *jsiiProxy_DetectiveOrganizationAdminAccount) validateInterpolationForAt
 	return nil
 }
 
+func (d *jsiiProxy_DetectiveOrganizationAdminAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DetectiveOrganizationAdminAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DetectiveOrganizationAdminAccount) validateMoveToIdParameters
 }
 
 func (d *jsiiProxy_DetectiveOrganizationAdminAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DetectiveOrganizationAdminAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SyntheticsCanary) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (s *jsiiProxy_SyntheticsCanary) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SyntheticsCanary) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SyntheticsCanary) validatePutScheduleParameters(value *Synthe
 }
 
 func (s *jsiiProxy_SyntheticsCanary) validatePutVpcConfigParameters(value *SyntheticsCanaryVpcConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanary) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

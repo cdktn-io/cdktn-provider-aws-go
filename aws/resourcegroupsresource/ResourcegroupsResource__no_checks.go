@@ -59,6 +59,10 @@ func (r *jsiiProxy_ResourcegroupsResource) validateInterpolationForAttributePara
 	return nil
 }
 
+func (r *jsiiProxy_ResourcegroupsResource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_ResourcegroupsResource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_ResourcegroupsResource) validateOverrideLogicalIdParameters(n
 }
 
 func (r *jsiiProxy_ResourcegroupsResource) validatePutTimeoutsParameters(value *ResourcegroupsResourceTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_ResourcegroupsResource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

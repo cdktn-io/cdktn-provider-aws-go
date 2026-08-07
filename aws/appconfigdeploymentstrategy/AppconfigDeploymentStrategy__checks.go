@@ -122,6 +122,14 @@ func (a *jsiiProxy_AppconfigDeploymentStrategy) validateInterpolationForAttribut
 	return nil
 }
 
+func (a *jsiiProxy_AppconfigDeploymentStrategy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_AppconfigDeploymentStrategy) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (a *jsiiProxy_AppconfigDeploymentStrategy) validateMoveToIdParameters(id *s
 func (a *jsiiProxy_AppconfigDeploymentStrategy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeploymentStrategy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

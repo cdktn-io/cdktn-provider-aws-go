@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsDynamodbTable) validatePutServerSideEncryptionParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsDynamodbTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsDynamodbTable_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

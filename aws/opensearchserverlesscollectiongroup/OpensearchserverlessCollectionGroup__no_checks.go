@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateInterpolationFor
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateOverrideLogicalI
 }
 
 func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validatePutCapacityLimitsParameters(value interface{}) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

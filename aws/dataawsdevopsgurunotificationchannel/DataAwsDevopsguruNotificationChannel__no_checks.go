@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsDevopsguruNotificationChannel) validatePutSnsParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsDevopsguruNotificationChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsDevopsguruNotificationChannel_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

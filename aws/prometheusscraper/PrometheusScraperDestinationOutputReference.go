@@ -5,9 +5,9 @@ package prometheusscraper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/prometheusscraper/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/prometheusscraper/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,8 @@ type PrometheusScraperDestinationOutputReference interface {
 	cdktn.ComplexObject
 	Amp() PrometheusScraperDestinationAmpList
 	AmpInput() interface{}
+	Cloudwatch() PrometheusScraperDestinationCloudwatchList
+	CloudwatchInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -67,7 +69,9 @@ type PrometheusScraperDestinationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAmp(value interface{})
+	PutCloudwatch(value interface{})
 	ResetAmp()
+	ResetCloudwatch()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -98,6 +102,26 @@ func (j *jsiiProxy_PrometheusScraperDestinationOutputReference) AmpInput() inter
 	_jsii_.Get(
 		j,
 		"ampInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusScraperDestinationOutputReference) Cloudwatch() PrometheusScraperDestinationCloudwatchList {
+	var returns PrometheusScraperDestinationCloudwatchList
+	_jsii_.Get(
+		j,
+		"cloudwatch",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusScraperDestinationOutputReference) CloudwatchInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cloudwatchInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (p *jsiiProxy_PrometheusScraperDestinationOutputReference) PutAmp(value int
 	)
 }
 
+func (p *jsiiProxy_PrometheusScraperDestinationOutputReference) PutCloudwatch(value interface{}) {
+	if err := p.validatePutCloudwatchParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putCloudwatch",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PrometheusScraperDestinationOutputReference) ResetAmp() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetAmp",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrometheusScraperDestinationOutputReference) ResetCloudwatch() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetCloudwatch",
 		nil, // no parameters
 	)
 }

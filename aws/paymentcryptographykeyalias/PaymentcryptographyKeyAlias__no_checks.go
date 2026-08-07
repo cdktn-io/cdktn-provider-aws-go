@@ -59,6 +59,10 @@ func (p *jsiiProxy_PaymentcryptographyKeyAlias) validateInterpolationForAttribut
 	return nil
 }
 
+func (p *jsiiProxy_PaymentcryptographyKeyAlias) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PaymentcryptographyKeyAlias) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_PaymentcryptographyKeyAlias) validateMoveToIdParameters(id *s
 }
 
 func (p *jsiiProxy_PaymentcryptographyKeyAlias) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaymentcryptographyKeyAlias) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

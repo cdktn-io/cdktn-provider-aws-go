@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentKnowledgeBase) validateInterpolationForAttributeP
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentKnowledgeBase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentKnowledgeBase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BedrockagentKnowledgeBase) validatePutStorageConfigurationPar
 }
 
 func (b *jsiiProxy_BedrockagentKnowledgeBase) validatePutTimeoutsParameters(value *BedrockagentKnowledgeBaseTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentKnowledgeBase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

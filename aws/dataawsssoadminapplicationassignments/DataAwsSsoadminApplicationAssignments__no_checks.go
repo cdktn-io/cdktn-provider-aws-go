@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSsoadminApplicationAssignments) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSsoadminApplicationAssignments) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSsoadminApplicationAssignments_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

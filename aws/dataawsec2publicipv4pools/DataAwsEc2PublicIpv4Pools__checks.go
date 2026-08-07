@@ -145,6 +145,14 @@ func (d *jsiiProxy_DataAwsEc2PublicIpv4Pools) validatePutFilterParameters(value 
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2PublicIpv4Pools) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateDataAwsEc2PublicIpv4Pools_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsmMaintenanceWindowTask) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_SsmMaintenanceWindowTask) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsmMaintenanceWindowTask) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SsmMaintenanceWindowTask) validatePutTargetsParameters(value 
 }
 
 func (s *jsiiProxy_SsmMaintenanceWindowTask) validatePutTaskInvocationParametersParameters(value *SsmMaintenanceWindowTaskTaskInvocationParameters) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsmMaintenanceWindowTask) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

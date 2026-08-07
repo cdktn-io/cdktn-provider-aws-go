@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsServicecatalogProvisioningArtifacts) validatePutTimeou
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsServicecatalogProvisioningArtifacts) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsServicecatalogProvisioningArtifacts_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

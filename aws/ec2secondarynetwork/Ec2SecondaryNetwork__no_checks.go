@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2SecondaryNetwork) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2SecondaryNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2SecondaryNetwork) validateOverrideLogicalIdParameters(newL
 }
 
 func (e *jsiiProxy_Ec2SecondaryNetwork) validatePutTimeoutsParameters(value *Ec2SecondaryNetworkTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

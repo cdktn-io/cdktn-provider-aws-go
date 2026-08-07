@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2DedicatedIpPool) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2DedicatedIpPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2DedicatedIpPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_Sesv2DedicatedIpPool) validateMoveToIdParameters(id *string) 
 }
 
 func (s *jsiiProxy_Sesv2DedicatedIpPool) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2DedicatedIpPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

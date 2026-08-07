@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTableAssociations) validatePutTi
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTableAssociations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2TransitGatewayRouteTableAssociations_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsKey) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (k *jsiiProxy_KmsKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KmsKey) validateOverrideLogicalIdParameters(newLogicalId *str
 }
 
 func (k *jsiiProxy_KmsKey) validatePutTimeoutsParameters(value *KmsKeyTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

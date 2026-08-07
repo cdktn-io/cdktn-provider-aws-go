@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsConnectQueue) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsConnectQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsConnectQueue_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

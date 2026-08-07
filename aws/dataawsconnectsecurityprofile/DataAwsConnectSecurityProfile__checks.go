@@ -114,6 +114,14 @@ func (d *jsiiProxy_DataAwsConnectSecurityProfile) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsConnectSecurityProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateDataAwsConnectSecurityProfile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

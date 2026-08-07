@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudwatchCompositeAlarm) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchCompositeAlarm) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchCompositeAlarm) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudwatchCompositeAlarm) validateOverrideLogicalIdParameters
 }
 
 func (c *jsiiProxy_CloudwatchCompositeAlarm) validatePutActionsSuppressorParameters(value *CloudwatchCompositeAlarmActionsSuppressor) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchCompositeAlarm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

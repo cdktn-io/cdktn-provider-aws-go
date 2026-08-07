@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) validateI
 	return nil
 }
 
+func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) validateM
 }
 
 func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

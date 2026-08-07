@@ -59,6 +59,10 @@ func (w *jsiiProxy_Wafv2ApiKey) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2ApiKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2ApiKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (w *jsiiProxy_Wafv2ApiKey) validateMoveToIdParameters(id *string) error {
 }
 
 func (w *jsiiProxy_Wafv2ApiKey) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (w *jsiiProxy_Wafv2ApiKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

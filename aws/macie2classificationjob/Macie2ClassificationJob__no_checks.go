@@ -59,6 +59,10 @@ func (m *jsiiProxy_Macie2ClassificationJob) validateInterpolationForAttributePar
 	return nil
 }
 
+func (m *jsiiProxy_Macie2ClassificationJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_Macie2ClassificationJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (m *jsiiProxy_Macie2ClassificationJob) validatePutScheduleFrequencyParamete
 }
 
 func (m *jsiiProxy_Macie2ClassificationJob) validatePutTimeoutsParameters(value *Macie2ClassificationJobTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_Macie2ClassificationJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

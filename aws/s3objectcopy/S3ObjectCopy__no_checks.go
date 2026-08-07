@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3ObjectCopy) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (s *jsiiProxy_S3ObjectCopy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ObjectCopy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3ObjectCopy) validatePutGrantParameters(value interface{}) e
 }
 
 func (s *jsiiProxy_S3ObjectCopy) validatePutOverrideProviderParameters(value *S3ObjectCopyOverrideProvider) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ObjectCopy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

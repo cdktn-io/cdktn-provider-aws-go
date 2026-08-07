@@ -59,6 +59,10 @@ func (g *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateInterpolationFor
 	return nil
 }
 
+func (g *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateMoveToIdParamete
 }
 
 func (g *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GrafanaWorkspaceServiceAccountToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

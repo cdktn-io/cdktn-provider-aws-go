@@ -59,6 +59,10 @@ func (i *jsiiProxy_ImagebuilderDistributionConfiguration) validateInterpolationF
 	return nil
 }
 
+func (i *jsiiProxy_ImagebuilderDistributionConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_ImagebuilderDistributionConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_ImagebuilderDistributionConfiguration) validateOverrideLogica
 }
 
 func (i *jsiiProxy_ImagebuilderDistributionConfiguration) validatePutDistributionParameters(value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_ImagebuilderDistributionConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

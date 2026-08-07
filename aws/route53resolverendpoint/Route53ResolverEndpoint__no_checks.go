@@ -59,6 +59,10 @@ func (r *jsiiProxy_Route53ResolverEndpoint) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_Route53ResolverEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Route53ResolverEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_Route53ResolverEndpoint) validatePutIpAddressParameters(value
 }
 
 func (r *jsiiProxy_Route53ResolverEndpoint) validatePutTimeoutsParameters(value *Route53ResolverEndpointTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_Route53ResolverEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

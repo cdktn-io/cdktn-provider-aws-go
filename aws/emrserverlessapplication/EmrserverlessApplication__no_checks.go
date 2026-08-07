@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrserverlessApplication) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_EmrserverlessApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrserverlessApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (e *jsiiProxy_EmrserverlessApplication) validatePutRuntimeConfigurationPara
 }
 
 func (e *jsiiProxy_EmrserverlessApplication) validatePutSchedulerConfigurationParameters(value *EmrserverlessApplicationSchedulerConfiguration) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

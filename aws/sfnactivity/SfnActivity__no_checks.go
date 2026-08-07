@@ -59,6 +59,10 @@ func (s *jsiiProxy_SfnActivity) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (s *jsiiProxy_SfnActivity) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SfnActivity) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SfnActivity) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (s *jsiiProxy_SfnActivity) validatePutEncryptionConfigurationParameters(value *SfnActivityEncryptionConfiguration) error {
+	return nil
+}
+
+func (s *jsiiProxy_SfnActivity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

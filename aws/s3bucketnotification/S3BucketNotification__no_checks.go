@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketNotification) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketNotification) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketNotification) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_S3BucketNotification) validatePutQueueParameters(value interf
 }
 
 func (s *jsiiProxy_S3BucketNotification) validatePutTopicParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketNotification) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

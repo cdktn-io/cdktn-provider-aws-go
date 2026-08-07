@@ -79,6 +79,10 @@ func (j *jsiiProxy_BedrockagentcoreMemoryTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreMemoryTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewBedrockagentcoreMemoryTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

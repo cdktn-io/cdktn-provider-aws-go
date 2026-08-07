@@ -59,6 +59,10 @@ func (l *jsiiProxy_LakeformationResourceLfTags) validateInterpolationForAttribut
 	return nil
 }
 
+func (l *jsiiProxy_LakeformationResourceLfTags) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LakeformationResourceLfTags) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (l *jsiiProxy_LakeformationResourceLfTags) validatePutTableWithColumnsParam
 }
 
 func (l *jsiiProxy_LakeformationResourceLfTags) validatePutTimeoutsParameters(value *LakeformationResourceLfTagsTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LakeformationResourceLfTags) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (r *jsiiProxy_RekognitionStreamProcessor) validateInterpolationForAttribute
 	return nil
 }
 
+func (r *jsiiProxy_RekognitionStreamProcessor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RekognitionStreamProcessor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (r *jsiiProxy_RekognitionStreamProcessor) validatePutSettingsParameters(val
 }
 
 func (r *jsiiProxy_RekognitionStreamProcessor) validatePutTimeoutsParameters(value *RekognitionStreamProcessorTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RekognitionStreamProcessor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

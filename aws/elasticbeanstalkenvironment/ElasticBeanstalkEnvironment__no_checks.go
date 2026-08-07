@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticBeanstalkEnvironment) validateInterpolationForAttribut
 	return nil
 }
 
+func (e *jsiiProxy_ElasticBeanstalkEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticBeanstalkEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_ElasticBeanstalkEnvironment) validateOverrideLogicalIdParamet
 }
 
 func (e *jsiiProxy_ElasticBeanstalkEnvironment) validatePutSettingParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticBeanstalkEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

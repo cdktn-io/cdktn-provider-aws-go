@@ -59,6 +59,10 @@ func (s *jsiiProxy_SfnAlias) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (s *jsiiProxy_SfnAlias) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SfnAlias) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SfnAlias) validatePutRoutingConfigurationParameters(value int
 }
 
 func (s *jsiiProxy_SfnAlias) validatePutTimeoutsParameters(value *SfnAliasTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SfnAlias) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

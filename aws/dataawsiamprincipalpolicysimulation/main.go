@@ -52,6 +52,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberMethod{JsiiMethod: "putContext", GoMethod: "PutContext"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalPoliciesJson", GoMethod: "ResetAdditionalPoliciesJson"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCallerArn", GoMethod: "ResetCallerArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContext", GoMethod: "ResetContext"},

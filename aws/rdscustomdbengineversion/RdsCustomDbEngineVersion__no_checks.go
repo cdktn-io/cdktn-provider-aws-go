@@ -59,6 +59,10 @@ func (r *jsiiProxy_RdsCustomDbEngineVersion) validateInterpolationForAttributePa
 	return nil
 }
 
+func (r *jsiiProxy_RdsCustomDbEngineVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RdsCustomDbEngineVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RdsCustomDbEngineVersion) validateOverrideLogicalIdParameters
 }
 
 func (r *jsiiProxy_RdsCustomDbEngineVersion) validatePutTimeoutsParameters(value *RdsCustomDbEngineVersionTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RdsCustomDbEngineVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

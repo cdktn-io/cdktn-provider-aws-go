@@ -51,6 +51,10 @@ func (p *jsiiProxy_PrometheusScraperDestinationOutputReference) validatePutAmpPa
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusScraperDestinationOutputReference) validatePutCloudwatchParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusScraperDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

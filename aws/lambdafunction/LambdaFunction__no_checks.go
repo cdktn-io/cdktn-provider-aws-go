@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaFunction) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (l *jsiiProxy_LambdaFunction) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaFunction) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (l *jsiiProxy_LambdaFunction) validatePutTracingConfigParameters(value *Lam
 }
 
 func (l *jsiiProxy_LambdaFunction) validatePutVpcConfigParameters(value *LambdaFunctionVpcConfig) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaFunction) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

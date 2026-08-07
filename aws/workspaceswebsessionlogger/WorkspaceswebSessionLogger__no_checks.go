@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkspaceswebSessionLogger) validateInterpolationForAttribute
 	return nil
 }
 
+func (w *jsiiProxy_WorkspaceswebSessionLogger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkspaceswebSessionLogger) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (w *jsiiProxy_WorkspaceswebSessionLogger) validatePutEventFilterParameters(
 }
 
 func (w *jsiiProxy_WorkspaceswebSessionLogger) validatePutLogConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkspaceswebSessionLogger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

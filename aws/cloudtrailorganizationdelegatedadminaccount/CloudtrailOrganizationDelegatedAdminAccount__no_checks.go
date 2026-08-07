@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateInterpol
 	return nil
 }
 
+func (c *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateMoveToId
 }
 
 func (c *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudtrailOrganizationDelegatedAdminAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

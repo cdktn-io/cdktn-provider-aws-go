@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) validateInterpolatio
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) validatePutFilterPar
 }
 
 func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) validatePutTieringParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketIntelligentTieringConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

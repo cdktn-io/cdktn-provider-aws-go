@@ -122,6 +122,14 @@ func (w *jsiiProxy_WorkspaceswebTrustStore) validateInterpolationForAttributePar
 	return nil
 }
 
+func (w *jsiiProxy_WorkspaceswebTrustStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (w *jsiiProxy_WorkspaceswebTrustStore) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (w *jsiiProxy_WorkspaceswebTrustStore) validatePutCertificateParameters(val
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WorkspaceswebTrustStoreCertificate; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_WorkspaceswebTrustStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

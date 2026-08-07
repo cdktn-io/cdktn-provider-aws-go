@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksAddon) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (e *jsiiProxy_EksAddon) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksAddon) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (e *jsiiProxy_EksAddon) validatePutPodIdentityAssociationParameters(value i
 }
 
 func (e *jsiiProxy_EksAddon) validatePutTimeoutsParameters(value *EksAddonTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksAddon) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

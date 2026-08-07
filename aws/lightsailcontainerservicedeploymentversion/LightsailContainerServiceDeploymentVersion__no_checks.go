@@ -59,6 +59,10 @@ func (l *jsiiProxy_LightsailContainerServiceDeploymentVersion) validateInterpola
 	return nil
 }
 
+func (l *jsiiProxy_LightsailContainerServiceDeploymentVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LightsailContainerServiceDeploymentVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (l *jsiiProxy_LightsailContainerServiceDeploymentVersion) validatePutPublic
 }
 
 func (l *jsiiProxy_LightsailContainerServiceDeploymentVersion) validatePutTimeoutsParameters(value *LightsailContainerServiceDeploymentVersionTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailContainerServiceDeploymentVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

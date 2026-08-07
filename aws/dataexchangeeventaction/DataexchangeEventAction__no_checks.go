@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataexchangeEventAction) validateInterpolationForAttributePar
 	return nil
 }
 
+func (d *jsiiProxy_DataexchangeEventAction) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataexchangeEventAction) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataexchangeEventAction) validatePutActionParameters(value in
 }
 
 func (d *jsiiProxy_DataexchangeEventAction) validatePutEventParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataexchangeEventAction) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

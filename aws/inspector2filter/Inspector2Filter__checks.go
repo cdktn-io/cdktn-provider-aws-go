@@ -122,6 +122,14 @@ func (i *jsiiProxy_Inspector2Filter) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (i *jsiiProxy_Inspector2Filter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (i *jsiiProxy_Inspector2Filter) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (i *jsiiProxy_Inspector2Filter) validatePutFilterCriteriaParameters(value i
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Inspector2FilterFilterCriteria; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (i *jsiiProxy_Inspector2Filter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

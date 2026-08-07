@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchserverlessVpcEndpoint) validateInterpolationForAttr
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessVpcEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessVpcEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OpensearchserverlessVpcEndpoint) validateOverrideLogicalIdPar
 }
 
 func (o *jsiiProxy_OpensearchserverlessVpcEndpoint) validatePutTimeoutsParameters(value *OpensearchserverlessVpcEndpointTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessVpcEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_Macie2FindingsFilter) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (m *jsiiProxy_Macie2FindingsFilter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_Macie2FindingsFilter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_Macie2FindingsFilter) validatePutFindingCriteriaParameters(va
 }
 
 func (m *jsiiProxy_Macie2FindingsFilter) validatePutTimeoutsParameters(value *Macie2FindingsFilterTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_Macie2FindingsFilter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueTrigger) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (g *jsiiProxy_GlueTrigger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueTrigger) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GlueTrigger) validatePutPredicateParameters(value *GlueTrigge
 }
 
 func (g *jsiiProxy_GlueTrigger) validatePutTimeoutsParameters(value *GlueTriggerTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueTrigger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

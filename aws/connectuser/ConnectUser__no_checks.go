@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectUser) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (c *jsiiProxy_ConnectUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ConnectUser) validatePutIdentityInfoParameters(value *Connect
 }
 
 func (c *jsiiProxy_ConnectUser) validatePutPhoneConfigParameters(value *ConnectUserPhoneConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

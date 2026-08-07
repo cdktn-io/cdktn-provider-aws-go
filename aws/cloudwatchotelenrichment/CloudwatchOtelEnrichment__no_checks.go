@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudwatchOtelEnrichment) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchOtelEnrichment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchOtelEnrichment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudwatchOtelEnrichment) validateOverrideLogicalIdParameters
 }
 
 func (c *jsiiProxy_CloudwatchOtelEnrichment) validatePutTimeoutsParameters(value *CloudwatchOtelEnrichmentTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchOtelEnrichment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrometheusAlertManagerDefinition) validateInterpolationForAtt
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusAlertManagerDefinition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusAlertManagerDefinition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_PrometheusAlertManagerDefinition) validateMoveToIdParameters(
 }
 
 func (p *jsiiProxy_PrometheusAlertManagerDefinition) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrometheusAlertManagerDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

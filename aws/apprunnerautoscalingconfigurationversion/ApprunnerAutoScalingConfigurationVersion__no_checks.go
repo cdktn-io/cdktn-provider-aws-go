@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateInterpolati
 	return nil
 }
 
+func (a *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateMoveToIdPar
 }
 
 func (a *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApprunnerAutoScalingConfigurationVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

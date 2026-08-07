@@ -59,6 +59,10 @@ func (m *jsiiProxy_MediaConvertQueue) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (m *jsiiProxy_MediaConvertQueue) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaConvertQueue) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MediaConvertQueue) validateOverrideLogicalIdParameters(newLog
 }
 
 func (m *jsiiProxy_MediaConvertQueue) validatePutReservationPlanSettingsParameters(value *MediaConvertQueueReservationPlanSettings) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaConvertQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

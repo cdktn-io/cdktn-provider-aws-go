@@ -59,6 +59,10 @@ func (i *jsiiProxy_IvschatLoggingConfiguration) validateInterpolationForAttribut
 	return nil
 }
 
+func (i *jsiiProxy_IvschatLoggingConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IvschatLoggingConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IvschatLoggingConfiguration) validatePutDestinationConfigurat
 }
 
 func (i *jsiiProxy_IvschatLoggingConfiguration) validatePutTimeoutsParameters(value *IvschatLoggingConfigurationTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvschatLoggingConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

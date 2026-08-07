@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrometheusWorkspace) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusWorkspace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusWorkspace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PrometheusWorkspace) validateOverrideLogicalIdParameters(newL
 }
 
 func (p *jsiiProxy_PrometheusWorkspace) validatePutLoggingConfigurationParameters(value *PrometheusWorkspaceLoggingConfiguration) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrometheusWorkspace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

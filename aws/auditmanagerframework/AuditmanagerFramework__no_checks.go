@@ -59,6 +59,10 @@ func (a *jsiiProxy_AuditmanagerFramework) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (a *jsiiProxy_AuditmanagerFramework) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AuditmanagerFramework) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AuditmanagerFramework) validateOverrideLogicalIdParameters(ne
 }
 
 func (a *jsiiProxy_AuditmanagerFramework) validatePutControlSetsParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerFramework) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentcoreBrowserProfile) validateInterpolationForAttri
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreBrowserProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreBrowserProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BedrockagentcoreBrowserProfile) validateOverrideLogicalIdPara
 }
 
 func (b *jsiiProxy_BedrockagentcoreBrowserProfile) validatePutTimeoutsParameters(value *BedrockagentcoreBrowserProfileTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreBrowserProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

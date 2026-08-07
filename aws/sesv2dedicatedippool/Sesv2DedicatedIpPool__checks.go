@@ -122,6 +122,14 @@ func (s *jsiiProxy_Sesv2DedicatedIpPool) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2DedicatedIpPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2DedicatedIpPool) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (s *jsiiProxy_Sesv2DedicatedIpPool) validateMoveToIdParameters(id *string) 
 func (s *jsiiProxy_Sesv2DedicatedIpPool) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2DedicatedIpPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (t *jsiiProxy_TimestreamwriteDatabase) validateInterpolationForAttributePar
 	return nil
 }
 
+func (t *jsiiProxy_TimestreamwriteDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TimestreamwriteDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (t *jsiiProxy_TimestreamwriteDatabase) validateMoveToIdParameters(id *strin
 }
 
 func (t *jsiiProxy_TimestreamwriteDatabase) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TimestreamwriteDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

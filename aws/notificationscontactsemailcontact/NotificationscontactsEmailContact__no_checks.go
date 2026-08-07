@@ -59,6 +59,10 @@ func (n *jsiiProxy_NotificationscontactsEmailContact) validateInterpolationForAt
 	return nil
 }
 
+func (n *jsiiProxy_NotificationscontactsEmailContact) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotificationscontactsEmailContact) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (n *jsiiProxy_NotificationscontactsEmailContact) validateMoveToIdParameters
 }
 
 func (n *jsiiProxy_NotificationscontactsEmailContact) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NotificationscontactsEmailContact) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

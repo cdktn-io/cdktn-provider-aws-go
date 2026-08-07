@@ -59,6 +59,10 @@ func (u *jsiiProxy_UxcAccountCustomizations) validateInterpolationForAttributePa
 	return nil
 }
 
+func (u *jsiiProxy_UxcAccountCustomizations) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (u *jsiiProxy_UxcAccountCustomizations) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (u *jsiiProxy_UxcAccountCustomizations) validateMoveToIdParameters(id *stri
 }
 
 func (u *jsiiProxy_UxcAccountCustomizations) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (u *jsiiProxy_UxcAccountCustomizations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

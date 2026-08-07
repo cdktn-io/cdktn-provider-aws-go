@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerPipeline) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerPipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SagemakerPipeline) validatePutParallelismConfigurationParamet
 }
 
 func (s *jsiiProxy_SagemakerPipeline) validatePutPipelineDefinitionS3LocationParameters(value *SagemakerPipelinePipelineDefinitionS3Location) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

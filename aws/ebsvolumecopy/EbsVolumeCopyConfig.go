@@ -22,25 +22,25 @@ type EbsVolumeCopyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#source_volume_id EbsVolumeCopy#source_volume_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#source_volume_id EbsVolumeCopy#source_volume_id}.
 	SourceVolumeId *string `field:"required" json:"sourceVolumeId" yaml:"sourceVolumeId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#iops EbsVolumeCopy#iops}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#iops EbsVolumeCopy#iops}.
 	Iops *float64 `field:"optional" json:"iops" yaml:"iops"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#region EbsVolumeCopy#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#region EbsVolumeCopy#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#size EbsVolumeCopy#size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#size EbsVolumeCopy#size}.
 	Size *float64 `field:"optional" json:"size" yaml:"size"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#tags EbsVolumeCopy#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#tags EbsVolumeCopy#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#throughput EbsVolumeCopy#throughput}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#throughput EbsVolumeCopy#throughput}.
 	Throughput *float64 `field:"optional" json:"throughput" yaml:"throughput"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#timeouts EbsVolumeCopy#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#timeouts EbsVolumeCopy#timeouts}
 	Timeouts *EbsVolumeCopyTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ebs_volume_copy#volume_type EbsVolumeCopy#volume_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ebs_volume_copy#volume_type EbsVolumeCopy#volume_type}.
 	VolumeType *string `field:"optional" json:"volumeType" yaml:"volumeType"`
 }
 

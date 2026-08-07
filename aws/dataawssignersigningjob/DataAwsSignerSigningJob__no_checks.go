@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSignerSigningJob) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSignerSigningJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSignerSigningJob_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

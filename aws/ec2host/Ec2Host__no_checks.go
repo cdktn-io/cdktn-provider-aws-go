@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2Host) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (e *jsiiProxy_Ec2Host) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2Host) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2Host) validateOverrideLogicalIdParameters(newLogicalId *st
 }
 
 func (e *jsiiProxy_Ec2Host) validatePutTimeoutsParameters(value *Ec2HostTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2Host) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

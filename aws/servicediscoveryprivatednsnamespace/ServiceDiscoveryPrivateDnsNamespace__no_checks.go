@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceDiscoveryPrivateDnsNamespace) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_ServiceDiscoveryPrivateDnsNamespace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceDiscoveryPrivateDnsNamespace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_ServiceDiscoveryPrivateDnsNamespace) validateMoveToIdParamete
 }
 
 func (s *jsiiProxy_ServiceDiscoveryPrivateDnsNamespace) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceDiscoveryPrivateDnsNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

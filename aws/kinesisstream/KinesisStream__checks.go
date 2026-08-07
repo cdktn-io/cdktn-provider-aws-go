@@ -122,6 +122,14 @@ func (k *jsiiProxy_KinesisStream) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (k *jsiiProxy_KinesisStream) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (k *jsiiProxy_KinesisStream) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -224,6 +232,14 @@ func (k *jsiiProxy_KinesisStream) validatePutTimeoutsParameters(value *KinesisSt
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (k *jsiiProxy_KinesisStream) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

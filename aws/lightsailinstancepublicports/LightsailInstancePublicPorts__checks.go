@@ -122,6 +122,14 @@ func (l *jsiiProxy_LightsailInstancePublicPorts) validateInterpolationForAttribu
 	return nil
 }
 
+func (l *jsiiProxy_LightsailInstancePublicPorts) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_LightsailInstancePublicPorts) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (l *jsiiProxy_LightsailInstancePublicPorts) validatePutPortInfoParameters(v
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*LightsailInstancePublicPortsPortInfo; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LightsailInstancePublicPorts) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

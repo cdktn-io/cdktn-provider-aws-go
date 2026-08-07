@@ -59,6 +59,10 @@ func (l *jsiiProxy_LakeformationIdentityCenterConfiguration) validateInterpolati
 	return nil
 }
 
+func (l *jsiiProxy_LakeformationIdentityCenterConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LakeformationIdentityCenterConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (l *jsiiProxy_LakeformationIdentityCenterConfiguration) validateMoveToIdPar
 }
 
 func (l *jsiiProxy_LakeformationIdentityCenterConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LakeformationIdentityCenterConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

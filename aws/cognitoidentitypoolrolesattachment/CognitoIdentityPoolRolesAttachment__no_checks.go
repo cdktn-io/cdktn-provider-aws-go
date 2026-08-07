@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateInterpolationForA
 	return nil
 }
 
+func (c *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateOverrideLogicalId
 }
 
 func (c *jsiiProxy_CognitoIdentityPoolRolesAttachment) validatePutRoleMappingParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoIdentityPoolRolesAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

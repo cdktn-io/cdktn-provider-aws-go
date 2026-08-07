@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3VectorsIndex) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_S3VectorsIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3VectorsIndex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3VectorsIndex) validatePutEncryptionConfigurationParameters(
 }
 
 func (s *jsiiProxy_S3VectorsIndex) validatePutMetadataConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3VectorsIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayPeeringAttachment) validatePutTimeout
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2TransitGatewayPeeringAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2TransitGatewayPeeringAttachment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (s *jsiiProxy_StoragegatewayNfsFileShare) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_StoragegatewayNfsFileShare) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StoragegatewayNfsFileShare) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_StoragegatewayNfsFileShare) validatePutNfsFileShareDefaultsPa
 }
 
 func (s *jsiiProxy_StoragegatewayNfsFileShare) validatePutTimeoutsParameters(value *StoragegatewayNfsFileShareTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StoragegatewayNfsFileShare) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

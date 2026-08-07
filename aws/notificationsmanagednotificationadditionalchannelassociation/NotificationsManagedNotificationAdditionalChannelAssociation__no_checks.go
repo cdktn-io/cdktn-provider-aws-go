@@ -59,6 +59,10 @@ func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 	return nil
 }
 
+func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 }
 
 func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

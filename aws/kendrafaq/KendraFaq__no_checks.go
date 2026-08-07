@@ -59,6 +59,10 @@ func (k *jsiiProxy_KendraFaq) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (k *jsiiProxy_KendraFaq) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KendraFaq) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KendraFaq) validatePutS3PathParameters(value *KendraFaqS3Path
 }
 
 func (k *jsiiProxy_KendraFaq) validatePutTimeoutsParameters(value *KendraFaqTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraFaq) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

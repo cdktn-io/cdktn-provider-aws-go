@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupVaultNotifications) validateInterpolationForAttributePa
 	return nil
 }
 
+func (b *jsiiProxy_BackupVaultNotifications) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupVaultNotifications) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (b *jsiiProxy_BackupVaultNotifications) validateMoveToIdParameters(id *stri
 }
 
 func (b *jsiiProxy_BackupVaultNotifications) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupVaultNotifications) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

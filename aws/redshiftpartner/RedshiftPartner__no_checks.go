@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftPartner) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftPartner) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftPartner) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (r *jsiiProxy_RedshiftPartner) validateMoveToIdParameters(id *string) error
 }
 
 func (r *jsiiProxy_RedshiftPartner) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftPartner) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

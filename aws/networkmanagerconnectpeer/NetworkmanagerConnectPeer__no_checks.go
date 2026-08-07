@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkmanagerConnectPeer) validateInterpolationForAttributeP
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerConnectPeer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerConnectPeer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetworkmanagerConnectPeer) validatePutBgpOptionsParameters(va
 }
 
 func (n *jsiiProxy_NetworkmanagerConnectPeer) validatePutTimeoutsParameters(value *NetworkmanagerConnectPeerTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerConnectPeer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

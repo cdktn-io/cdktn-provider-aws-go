@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsoadminApplication) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (s *jsiiProxy_SsoadminApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsoadminApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SsoadminApplication) validateOverrideLogicalIdParameters(newL
 }
 
 func (s *jsiiProxy_SsoadminApplication) validatePutPortalOptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

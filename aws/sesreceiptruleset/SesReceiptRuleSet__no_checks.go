@@ -59,6 +59,10 @@ func (s *jsiiProxy_SesReceiptRuleSet) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_SesReceiptRuleSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SesReceiptRuleSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SesReceiptRuleSet) validateMoveToIdParameters(id *string) err
 }
 
 func (s *jsiiProxy_SesReceiptRuleSet) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptRuleSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

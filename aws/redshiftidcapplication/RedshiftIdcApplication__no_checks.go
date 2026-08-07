@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftIdcApplication) validateInterpolationForAttributePara
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftIdcApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftIdcApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RedshiftIdcApplication) validatePutAuthorizedTokenIssuerParam
 }
 
 func (r *jsiiProxy_RedshiftIdcApplication) validatePutServiceIntegrationParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftIdcApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

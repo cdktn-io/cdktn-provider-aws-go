@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2SubnetCidrReservation) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_Ec2SubnetCidrReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2SubnetCidrReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_Ec2SubnetCidrReservation) validateMoveToIdParameters(id *stri
 }
 
 func (e *jsiiProxy_Ec2SubnetCidrReservation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SubnetCidrReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsDmsReplicationInstance) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsDmsReplicationInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsDmsReplicationInstance_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

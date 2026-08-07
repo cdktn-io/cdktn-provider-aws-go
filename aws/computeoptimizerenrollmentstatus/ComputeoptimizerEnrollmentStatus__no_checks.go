@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateOverrideLogicalIdPa
 }
 
 func (c *jsiiProxy_ComputeoptimizerEnrollmentStatus) validatePutTimeoutsParameters(value *ComputeoptimizerEnrollmentStatusTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeoptimizerEnrollmentStatus) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

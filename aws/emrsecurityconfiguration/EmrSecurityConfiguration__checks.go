@@ -122,6 +122,14 @@ func (e *jsiiProxy_EmrSecurityConfiguration) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_EmrSecurityConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_EmrSecurityConfiguration) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (e *jsiiProxy_EmrSecurityConfiguration) validateMoveToIdParameters(id *stri
 func (e *jsiiProxy_EmrSecurityConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (e *jsiiProxy_EmrSecurityConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

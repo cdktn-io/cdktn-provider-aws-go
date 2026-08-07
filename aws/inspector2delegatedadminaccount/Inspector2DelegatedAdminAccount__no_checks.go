@@ -59,6 +59,10 @@ func (i *jsiiProxy_Inspector2DelegatedAdminAccount) validateInterpolationForAttr
 	return nil
 }
 
+func (i *jsiiProxy_Inspector2DelegatedAdminAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_Inspector2DelegatedAdminAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_Inspector2DelegatedAdminAccount) validateOverrideLogicalIdPar
 }
 
 func (i *jsiiProxy_Inspector2DelegatedAdminAccount) validatePutTimeoutsParameters(value *Inspector2DelegatedAdminAccountTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_Inspector2DelegatedAdminAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiGatewayDomainName) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_ApiGatewayDomainName) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiGatewayDomainName) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_ApiGatewayDomainName) validatePutMutualTlsAuthenticationParam
 }
 
 func (a *jsiiProxy_ApiGatewayDomainName) validatePutTimeoutsParameters(value *ApiGatewayDomainNameTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiGatewayDomainName) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

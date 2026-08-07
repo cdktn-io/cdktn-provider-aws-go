@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSecurityhubStandardsControlAssociations) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSecurityhubStandardsControlAssociations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSecurityhubStandardsControlAssociations_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

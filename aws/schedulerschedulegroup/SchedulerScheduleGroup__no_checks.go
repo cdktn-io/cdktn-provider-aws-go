@@ -59,6 +59,10 @@ func (s *jsiiProxy_SchedulerScheduleGroup) validateInterpolationForAttributePara
 	return nil
 }
 
+func (s *jsiiProxy_SchedulerScheduleGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SchedulerScheduleGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SchedulerScheduleGroup) validateOverrideLogicalIdParameters(n
 }
 
 func (s *jsiiProxy_SchedulerScheduleGroup) validatePutTimeoutsParameters(value *SchedulerScheduleGroupTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

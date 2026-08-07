@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudhsmV2Cluster) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (c *jsiiProxy_CloudhsmV2Cluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudhsmV2Cluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudhsmV2Cluster) validateOverrideLogicalIdParameters(newLog
 }
 
 func (c *jsiiProxy_CloudhsmV2Cluster) validatePutTimeoutsParameters(value *CloudhsmV2ClusterTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudhsmV2Cluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

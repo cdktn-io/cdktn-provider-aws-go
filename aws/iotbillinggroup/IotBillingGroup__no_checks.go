@@ -59,6 +59,10 @@ func (i *jsiiProxy_IotBillingGroup) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (i *jsiiProxy_IotBillingGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotBillingGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IotBillingGroup) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (i *jsiiProxy_IotBillingGroup) validatePutPropertiesParameters(value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotBillingGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

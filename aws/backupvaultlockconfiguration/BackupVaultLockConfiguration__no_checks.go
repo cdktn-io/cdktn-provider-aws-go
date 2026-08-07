@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupVaultLockConfiguration) validateInterpolationForAttribu
 	return nil
 }
 
+func (b *jsiiProxy_BackupVaultLockConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupVaultLockConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (b *jsiiProxy_BackupVaultLockConfiguration) validateMoveToIdParameters(id *
 }
 
 func (b *jsiiProxy_BackupVaultLockConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupVaultLockConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

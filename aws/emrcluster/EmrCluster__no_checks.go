@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrCluster) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (e *jsiiProxy_EmrCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (e *jsiiProxy_EmrCluster) validatePutPlacementGroupConfigParameters(value i
 }
 
 func (e *jsiiProxy_EmrCluster) validatePutStepParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

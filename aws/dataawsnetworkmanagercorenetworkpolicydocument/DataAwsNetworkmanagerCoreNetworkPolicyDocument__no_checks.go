@@ -83,6 +83,10 @@ func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validatePutSe
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsNetworkmanagerCoreNetworkPolicyDocument_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

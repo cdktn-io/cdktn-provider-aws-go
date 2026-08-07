@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpclatticeDomainVerification) validateInterpolationForAttribu
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeDomainVerification) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeDomainVerification) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VpclatticeDomainVerification) validateMoveToIdParameters(id *
 }
 
 func (v *jsiiProxy_VpclatticeDomainVerification) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpclatticeDomainVerification) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

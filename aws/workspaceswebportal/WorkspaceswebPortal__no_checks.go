@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkspaceswebPortal) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (w *jsiiProxy_WorkspaceswebPortal) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkspaceswebPortal) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WorkspaceswebPortal) validateOverrideLogicalIdParameters(newL
 }
 
 func (w *jsiiProxy_WorkspaceswebPortal) validatePutTimeoutsParameters(value *WorkspaceswebPortalTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkspaceswebPortal) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

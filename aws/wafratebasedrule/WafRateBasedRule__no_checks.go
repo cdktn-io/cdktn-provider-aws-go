@@ -59,6 +59,10 @@ func (w *jsiiProxy_WafRateBasedRule) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (w *jsiiProxy_WafRateBasedRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WafRateBasedRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WafRateBasedRule) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (w *jsiiProxy_WafRateBasedRule) validatePutPredicatesParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WafRateBasedRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

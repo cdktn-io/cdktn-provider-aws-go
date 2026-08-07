@@ -59,6 +59,10 @@ func (d *jsiiProxy_DbProxy) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (d *jsiiProxy_DbProxy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DbProxy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DbProxy) validatePutAuthParameters(value interface{}) error {
 }
 
 func (d *jsiiProxy_DbProxy) validatePutTimeoutsParameters(value *DbProxyTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DbProxy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsApprunnerHostedZoneId) validateOverrideLogicalIdParame
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsApprunnerHostedZoneId) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsApprunnerHostedZoneId_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

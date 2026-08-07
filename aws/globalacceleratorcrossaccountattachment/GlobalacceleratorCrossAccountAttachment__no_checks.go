@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateInterpolatio
 	return nil
 }
 
+func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateOverrideLogi
 }
 
 func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validatePutResourceParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlobalacceleratorCrossAccountAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

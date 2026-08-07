@@ -59,6 +59,10 @@ func (m *jsiiProxy_M2Application) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (m *jsiiProxy_M2Application) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_M2Application) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_M2Application) validatePutDefinitionParameters(value interfac
 }
 
 func (m *jsiiProxy_M2Application) validatePutTimeoutsParameters(value *M2ApplicationTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_M2Application) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

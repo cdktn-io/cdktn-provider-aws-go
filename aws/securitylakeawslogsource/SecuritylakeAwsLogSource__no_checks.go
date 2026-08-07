@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecuritylakeAwsLogSource) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_SecuritylakeAwsLogSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecuritylakeAwsLogSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SecuritylakeAwsLogSource) validateOverrideLogicalIdParameters
 }
 
 func (s *jsiiProxy_SecuritylakeAwsLogSource) validatePutSourceParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecuritylakeAwsLogSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

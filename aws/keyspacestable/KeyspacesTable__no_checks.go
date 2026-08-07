@@ -59,6 +59,10 @@ func (k *jsiiProxy_KeyspacesTable) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (k *jsiiProxy_KeyspacesTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KeyspacesTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (k *jsiiProxy_KeyspacesTable) validatePutTimeoutsParameters(value *Keyspace
 }
 
 func (k *jsiiProxy_KeyspacesTable) validatePutTtlParameters(value *KeyspacesTableTtl) error {
+	return nil
+}
+
+func (k *jsiiProxy_KeyspacesTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

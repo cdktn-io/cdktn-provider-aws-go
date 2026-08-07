@@ -59,6 +59,10 @@ func (i *jsiiProxy_IotEventConfigurations) validateInterpolationForAttributePara
 	return nil
 }
 
+func (i *jsiiProxy_IotEventConfigurations) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotEventConfigurations) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (i *jsiiProxy_IotEventConfigurations) validateMoveToIdParameters(id *string
 }
 
 func (i *jsiiProxy_IotEventConfigurations) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotEventConfigurations) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

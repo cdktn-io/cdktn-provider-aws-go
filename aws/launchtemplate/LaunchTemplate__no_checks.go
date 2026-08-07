@@ -59,6 +59,10 @@ func (l *jsiiProxy_LaunchTemplate) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (l *jsiiProxy_LaunchTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LaunchTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -148,6 +152,10 @@ func (l *jsiiProxy_LaunchTemplate) validatePutSecondaryInterfacesParameters(valu
 }
 
 func (l *jsiiProxy_LaunchTemplate) validatePutTagSpecificationsParameters(value interface{}) error {
+	return nil
+}
+
+func (l *jsiiProxy_LaunchTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

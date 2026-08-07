@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElastictranscoderPipeline) validateInterpolationForAttributeP
 	return nil
 }
 
+func (e *jsiiProxy_ElastictranscoderPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElastictranscoderPipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (e *jsiiProxy_ElastictranscoderPipeline) validatePutThumbnailConfigParamete
 }
 
 func (e *jsiiProxy_ElastictranscoderPipeline) validatePutThumbnailConfigPermissionsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElastictranscoderPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

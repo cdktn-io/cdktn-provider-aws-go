@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontMultitenantDistribution) validateInterpolationForAt
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontMultitenantDistribution) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontMultitenantDistribution) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (c *jsiiProxy_CloudfrontMultitenantDistribution) validatePutTimeoutsParamet
 }
 
 func (c *jsiiProxy_CloudfrontMultitenantDistribution) validatePutViewerCertificateParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontMultitenantDistribution) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

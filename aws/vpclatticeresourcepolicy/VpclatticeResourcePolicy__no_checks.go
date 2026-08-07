@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpclatticeResourcePolicy) validateInterpolationForAttributePa
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VpclatticeResourcePolicy) validateMoveToIdParameters(id *stri
 }
 
 func (v *jsiiProxy_VpclatticeResourcePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpclatticeResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

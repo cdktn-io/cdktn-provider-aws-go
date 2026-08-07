@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) validateOverrideLogicalId
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOdbCloudAutonomousVmCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsOdbCloudAutonomousVmCluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

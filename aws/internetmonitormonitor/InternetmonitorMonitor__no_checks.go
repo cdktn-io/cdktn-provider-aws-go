@@ -59,6 +59,10 @@ func (i *jsiiProxy_InternetmonitorMonitor) validateInterpolationForAttributePara
 	return nil
 }
 
+func (i *jsiiProxy_InternetmonitorMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_InternetmonitorMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_InternetmonitorMonitor) validatePutHealthEventsConfigParamete
 }
 
 func (i *jsiiProxy_InternetmonitorMonitor) validatePutInternetMeasurementsLogDeliveryParameters(value *InternetmonitorMonitorInternetMeasurementsLogDelivery) error {
+	return nil
+}
+
+func (i *jsiiProxy_InternetmonitorMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3DirectoryBucket) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_S3DirectoryBucket) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3DirectoryBucket) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3DirectoryBucket) validateOverrideLogicalIdParameters(newLog
 }
 
 func (s *jsiiProxy_S3DirectoryBucket) validatePutLocationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3DirectoryBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

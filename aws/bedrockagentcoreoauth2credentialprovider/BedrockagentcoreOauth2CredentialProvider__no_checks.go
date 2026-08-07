@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateInterpolati
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateOverrideLog
 }
 
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validatePutOauth2ProviderConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

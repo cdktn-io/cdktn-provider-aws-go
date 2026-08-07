@@ -59,6 +59,10 @@ func (b *jsiiProxy_BillingView) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (b *jsiiProxy_BillingView) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BillingView) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BillingView) validatePutDataFilterExpressionParameters(value 
 }
 
 func (b *jsiiProxy_BillingView) validatePutTimeoutsParameters(value *BillingViewTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BillingView) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

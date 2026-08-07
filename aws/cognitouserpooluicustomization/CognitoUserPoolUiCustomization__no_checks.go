@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoUserPoolUiCustomization) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_CognitoUserPoolUiCustomization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoUserPoolUiCustomization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CognitoUserPoolUiCustomization) validateMoveToIdParameters(id
 }
 
 func (c *jsiiProxy_CognitoUserPoolUiCustomization) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoUserPoolUiCustomization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

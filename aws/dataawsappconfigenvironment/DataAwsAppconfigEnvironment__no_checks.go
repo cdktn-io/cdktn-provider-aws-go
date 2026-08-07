@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsAppconfigEnvironment) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsAppconfigEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsAppconfigEnvironment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

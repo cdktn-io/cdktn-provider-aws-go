@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppfabricAppAuthorizationConnection) validateInterpolationFor
 	return nil
 }
 
+func (a *jsiiProxy_AppfabricAppAuthorizationConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppfabricAppAuthorizationConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppfabricAppAuthorizationConnection) validatePutAuthRequestPa
 }
 
 func (a *jsiiProxy_AppfabricAppAuthorizationConnection) validatePutTimeoutsParameters(value *AppfabricAppAuthorizationConnectionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppfabricAppAuthorizationConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

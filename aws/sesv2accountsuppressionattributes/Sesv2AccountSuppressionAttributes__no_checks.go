@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) validateMoveToIdParameters
 }
 
 func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2AccountSuppressionAttributes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

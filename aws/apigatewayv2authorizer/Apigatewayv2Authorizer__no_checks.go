@@ -59,6 +59,10 @@ func (a *jsiiProxy_Apigatewayv2Authorizer) validateInterpolationForAttributePara
 	return nil
 }
 
+func (a *jsiiProxy_Apigatewayv2Authorizer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_Apigatewayv2Authorizer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_Apigatewayv2Authorizer) validatePutJwtConfigurationParameters
 }
 
 func (a *jsiiProxy_Apigatewayv2Authorizer) validatePutTimeoutsParameters(value *Apigatewayv2AuthorizerTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_Apigatewayv2Authorizer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

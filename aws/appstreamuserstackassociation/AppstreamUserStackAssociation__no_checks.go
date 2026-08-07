@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppstreamUserStackAssociation) validateInterpolationForAttrib
 	return nil
 }
 
+func (a *jsiiProxy_AppstreamUserStackAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppstreamUserStackAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_AppstreamUserStackAssociation) validateMoveToIdParameters(id 
 }
 
 func (a *jsiiProxy_AppstreamUserStackAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppstreamUserStackAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

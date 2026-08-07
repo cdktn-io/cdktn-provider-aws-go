@@ -59,6 +59,10 @@ func (n *jsiiProxy_NeptunegraphGraph) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (n *jsiiProxy_NeptunegraphGraph) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NeptunegraphGraph) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NeptunegraphGraph) validatePutTimeoutsParameters(value *Neptu
 }
 
 func (n *jsiiProxy_NeptunegraphGraph) validatePutVectorSearchConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptunegraphGraph) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

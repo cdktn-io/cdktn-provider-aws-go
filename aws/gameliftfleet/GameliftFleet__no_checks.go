@@ -59,6 +59,10 @@ func (g *jsiiProxy_GameliftFleet) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (g *jsiiProxy_GameliftFleet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GameliftFleet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (g *jsiiProxy_GameliftFleet) validatePutRuntimeConfigurationParameters(valu
 }
 
 func (g *jsiiProxy_GameliftFleet) validatePutTimeoutsParameters(value *GameliftFleetTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GameliftFleet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

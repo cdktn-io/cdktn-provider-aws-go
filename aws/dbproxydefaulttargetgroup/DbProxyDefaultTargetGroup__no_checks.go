@@ -59,6 +59,10 @@ func (d *jsiiProxy_DbProxyDefaultTargetGroup) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DbProxyDefaultTargetGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DbProxyDefaultTargetGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DbProxyDefaultTargetGroup) validatePutConnectionPoolConfigPar
 }
 
 func (d *jsiiProxy_DbProxyDefaultTargetGroup) validatePutTimeoutsParameters(value *DbProxyDefaultTargetGroupTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DbProxyDefaultTargetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

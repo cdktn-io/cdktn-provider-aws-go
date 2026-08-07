@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpnConnection) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (v *jsiiProxy_VpnConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpnConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VpnConnection) validatePutTunnel1LogOptionsParameters(value *
 }
 
 func (v *jsiiProxy_VpnConnection) validatePutTunnel2LogOptionsParameters(value *VpnConnectionTunnel2LogOptions) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpnConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

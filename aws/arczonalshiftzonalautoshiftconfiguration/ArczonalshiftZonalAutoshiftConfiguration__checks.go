@@ -122,6 +122,14 @@ func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateInterpolati
 	return nil
 }
 
+func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -264,6 +272,14 @@ func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validatePutOutcomeA
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArczonalshiftZonalAutoshiftConfigurationOutcomeAlarms; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

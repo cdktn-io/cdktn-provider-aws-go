@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicy) validateInterpolationF
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicy) validatePutDetailsPara
 }
 
 func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicy) validatePutTimeoutsParameters(value *S3ControlMultiRegionAccessPointPolicyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlMultiRegionAccessPointPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

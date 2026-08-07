@@ -122,6 +122,14 @@ func (s *jsiiProxy_S3BucketCorsConfiguration) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketCorsConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketCorsConfiguration) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (s *jsiiProxy_S3BucketCorsConfiguration) validatePutCorsRuleParameters(valu
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*S3BucketCorsConfigurationCorsRule; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketCorsConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

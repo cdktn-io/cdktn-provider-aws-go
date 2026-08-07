@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueCatalogTableOptimizer) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GlueCatalogTableOptimizer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueCatalogTableOptimizer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GlueCatalogTableOptimizer) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GlueCatalogTableOptimizer) validatePutConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueCatalogTableOptimizer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateInterp
 	return nil
 }
 
+func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateMoveTo
 }
 
 func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VerifiedaccessInstanceTrustProviderAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

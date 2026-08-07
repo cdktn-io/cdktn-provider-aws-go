@@ -5,14 +5,14 @@ package dataawscloudfrontdistributiontenant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawscloudfrontdistributiontenant/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscloudfrontdistributiontenant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}.
 type DataAwsCloudfrontDistributionTenant interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -100,6 +100,19 @@ type DataAwsCloudfrontDistributionTenant interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetArn()
 	ResetDomain()
 	ResetId()
@@ -456,7 +469,7 @@ func (j *jsiiProxy_DataAwsCloudfrontDistributionTenant) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
 func NewDataAwsCloudfrontDistributionTenant(scope constructs.Construct, id *string, config *DataAwsCloudfrontDistributionTenantConfig) DataAwsCloudfrontDistributionTenant {
 	_init_.Initialize()
 
@@ -474,7 +487,7 @@ func NewDataAwsCloudfrontDistributionTenant(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
 func NewDataAwsCloudfrontDistributionTenant_Override(d DataAwsCloudfrontDistributionTenant, scope constructs.Construct, id *string, config *DataAwsCloudfrontDistributionTenantConfig) {
 	_init_.Initialize()
 
@@ -857,6 +870,17 @@ func (d *jsiiProxy_DataAwsCloudfrontDistributionTenant) OverrideLogicalId(newLog
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsCloudfrontDistributionTenant) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

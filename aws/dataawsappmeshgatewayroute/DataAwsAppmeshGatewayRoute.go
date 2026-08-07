@@ -5,14 +5,14 @@ package dataawsappmeshgatewayroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsappmeshgatewayroute/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsappmeshgatewayroute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/appmesh_gateway_route aws_appmesh_gateway_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/appmesh_gateway_route aws_appmesh_gateway_route}.
 type DataAwsAppmeshGatewayRoute interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -104,6 +104,19 @@ type DataAwsAppmeshGatewayRoute interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetMeshOwner()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -470,7 +483,7 @@ func (j *jsiiProxy_DataAwsAppmeshGatewayRoute) VirtualGatewayNameInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/appmesh_gateway_route aws_appmesh_gateway_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/appmesh_gateway_route aws_appmesh_gateway_route} Data Source.
 func NewDataAwsAppmeshGatewayRoute(scope constructs.Construct, id *string, config *DataAwsAppmeshGatewayRouteConfig) DataAwsAppmeshGatewayRoute {
 	_init_.Initialize()
 
@@ -488,7 +501,7 @@ func NewDataAwsAppmeshGatewayRoute(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/appmesh_gateway_route aws_appmesh_gateway_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/appmesh_gateway_route aws_appmesh_gateway_route} Data Source.
 func NewDataAwsAppmeshGatewayRoute_Override(d DataAwsAppmeshGatewayRoute, scope constructs.Construct, id *string, config *DataAwsAppmeshGatewayRouteConfig) {
 	_init_.Initialize()
 
@@ -904,6 +917,17 @@ func (d *jsiiProxy_DataAwsAppmeshGatewayRoute) OverrideLogicalId(newLogicalId *s
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsAppmeshGatewayRoute) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

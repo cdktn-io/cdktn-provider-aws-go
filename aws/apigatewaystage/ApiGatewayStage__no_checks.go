@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiGatewayStage) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (a *jsiiProxy_ApiGatewayStage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiGatewayStage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ApiGatewayStage) validatePutAccessLogSettingsParameters(value
 }
 
 func (a *jsiiProxy_ApiGatewayStage) validatePutCanarySettingsParameters(value *ApiGatewayStageCanarySettings) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiGatewayStage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

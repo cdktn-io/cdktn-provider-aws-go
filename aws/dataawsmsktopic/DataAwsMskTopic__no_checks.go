@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsMskTopic) validateOverrideLogicalIdParameters(newLogic
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsMskTopic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsMskTopic_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

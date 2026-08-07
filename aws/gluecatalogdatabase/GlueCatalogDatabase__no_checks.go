@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueCatalogDatabase) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (g *jsiiProxy_GlueCatalogDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueCatalogDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GlueCatalogDatabase) validatePutFederatedDatabaseParameters(v
 }
 
 func (g *jsiiProxy_GlueCatalogDatabase) validatePutTargetDatabaseParameters(value *GlueCatalogDatabaseTargetDatabase) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueCatalogDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

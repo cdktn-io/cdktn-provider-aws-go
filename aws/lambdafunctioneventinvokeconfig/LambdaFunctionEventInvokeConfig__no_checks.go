@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) validateInterpolationForAttr
 	return nil
 }
 
+func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) validateOverrideLogicalIdPar
 }
 
 func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) validatePutDestinationConfigParameters(value *LambdaFunctionEventInvokeConfigDestinationConfig) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaFunctionEventInvokeConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

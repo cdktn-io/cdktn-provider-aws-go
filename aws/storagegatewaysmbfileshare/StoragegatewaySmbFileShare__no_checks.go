@@ -59,6 +59,10 @@ func (s *jsiiProxy_StoragegatewaySmbFileShare) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_StoragegatewaySmbFileShare) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StoragegatewaySmbFileShare) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StoragegatewaySmbFileShare) validatePutCacheAttributesParamet
 }
 
 func (s *jsiiProxy_StoragegatewaySmbFileShare) validatePutTimeoutsParameters(value *StoragegatewaySmbFileShareTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StoragegatewaySmbFileShare) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

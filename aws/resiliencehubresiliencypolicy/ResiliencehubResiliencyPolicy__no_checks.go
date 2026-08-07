@@ -59,6 +59,10 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicy) validateInterpolationForAttrib
 	return nil
 }
 
+func (r *jsiiProxy_ResiliencehubResiliencyPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_ResiliencehubResiliencyPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_ResiliencehubResiliencyPolicy) validatePutPolicyParameters(va
 }
 
 func (r *jsiiProxy_ResiliencehubResiliencyPolicy) validatePutTimeoutsParameters(value *ResiliencehubResiliencyPolicyTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_ResiliencehubResiliencyPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

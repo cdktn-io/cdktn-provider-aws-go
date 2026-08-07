@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatazoneEnvironmentProfile) validateInterpolationForAttribute
 	return nil
 }
 
+func (d *jsiiProxy_DatazoneEnvironmentProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatazoneEnvironmentProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatazoneEnvironmentProfile) validateOverrideLogicalIdParamete
 }
 
 func (d *jsiiProxy_DatazoneEnvironmentProfile) validatePutUserParametersParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatazoneEnvironmentProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

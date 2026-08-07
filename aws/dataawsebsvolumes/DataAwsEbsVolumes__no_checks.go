@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEbsVolumes) validatePutTimeoutsParameters(value *DataA
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEbsVolumes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEbsVolumes_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsmincidentsReplicationSet) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_SsmincidentsReplicationSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsmincidentsReplicationSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SsmincidentsReplicationSet) validatePutRegionsParameters(valu
 }
 
 func (s *jsiiProxy_SsmincidentsReplicationSet) validatePutTimeoutsParameters(value *SsmincidentsReplicationSetTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsmincidentsReplicationSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

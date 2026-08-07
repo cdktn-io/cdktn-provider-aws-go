@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3ControlAccessGrantsLocation) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlAccessGrantsLocation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlAccessGrantsLocation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_S3ControlAccessGrantsLocation) validateMoveToIdParameters(id 
 }
 
 func (s *jsiiProxy_S3ControlAccessGrantsLocation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlAccessGrantsLocation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

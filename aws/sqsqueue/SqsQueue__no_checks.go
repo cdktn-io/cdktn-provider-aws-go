@@ -59,6 +59,10 @@ func (s *jsiiProxy_SqsQueue) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (s *jsiiProxy_SqsQueue) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SqsQueue) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SqsQueue) validateOverrideLogicalIdParameters(newLogicalId *s
 }
 
 func (s *jsiiProxy_SqsQueue) validatePutTimeoutsParameters(value *SqsQueueTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsmPatchBaseline) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (s *jsiiProxy_SsmPatchBaseline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsmPatchBaseline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SsmPatchBaseline) validatePutGlobalFilterParameters(value int
 }
 
 func (s *jsiiProxy_SsmPatchBaseline) validatePutSourceParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsmPatchBaseline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

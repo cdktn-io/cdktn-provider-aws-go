@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsoadminTrustedTokenIssuer) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_SsoadminTrustedTokenIssuer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsoadminTrustedTokenIssuer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SsoadminTrustedTokenIssuer) validateOverrideLogicalIdParamete
 }
 
 func (s *jsiiProxy_SsoadminTrustedTokenIssuer) validatePutTrustedTokenIssuerConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminTrustedTokenIssuer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

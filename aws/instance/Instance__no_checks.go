@@ -59,6 +59,10 @@ func (i *jsiiProxy_Instance) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (i *jsiiProxy_Instance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_Instance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (i *jsiiProxy_Instance) validatePutSecondaryNetworkInterfaceParameters(valu
 }
 
 func (i *jsiiProxy_Instance) validatePutTimeoutsParameters(value *InstanceTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_Instance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

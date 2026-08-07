@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsCapacityProvider) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (e *jsiiProxy_EcsCapacityProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsCapacityProvider) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EcsCapacityProvider) validatePutAutoScalingGroupProviderParam
 }
 
 func (e *jsiiProxy_EcsCapacityProvider) validatePutManagedInstancesProviderParameters(value *EcsCapacityProviderManagedInstancesProvider) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsCapacityProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

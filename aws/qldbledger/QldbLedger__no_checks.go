@@ -59,6 +59,10 @@ func (q *jsiiProxy_QldbLedger) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (q *jsiiProxy_QldbLedger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QldbLedger) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (q *jsiiProxy_QldbLedger) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (q *jsiiProxy_QldbLedger) validatePutTimeoutsParameters(value *QldbLedgerTimeouts) error {
+	return nil
+}
+
+func (q *jsiiProxy_QldbLedger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

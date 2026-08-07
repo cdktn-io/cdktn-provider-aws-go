@@ -59,6 +59,10 @@ func (c *jsiiProxy_CeAnomalySubscription) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_CeAnomalySubscription) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CeAnomalySubscription) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CeAnomalySubscription) validatePutSubscriberParameters(value 
 }
 
 func (c *jsiiProxy_CeAnomalySubscription) validatePutThresholdExpressionParameters(value *CeAnomalySubscriptionThresholdExpression) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeAnomalySubscription) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

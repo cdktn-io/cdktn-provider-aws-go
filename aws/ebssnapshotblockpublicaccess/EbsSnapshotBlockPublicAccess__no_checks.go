@@ -59,6 +59,10 @@ func (e *jsiiProxy_EbsSnapshotBlockPublicAccess) validateInterpolationForAttribu
 	return nil
 }
 
+func (e *jsiiProxy_EbsSnapshotBlockPublicAccess) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EbsSnapshotBlockPublicAccess) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_EbsSnapshotBlockPublicAccess) validateMoveToIdParameters(id *
 }
 
 func (e *jsiiProxy_EbsSnapshotBlockPublicAccess) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EbsSnapshotBlockPublicAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

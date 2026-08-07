@@ -59,6 +59,10 @@ func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponse) validateInterpolatio
 	return nil
 }
 
+func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponse) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponse) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponse) validateOverrideLogi
 }
 
 func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponse) validatePutTimeoutsParameters(value *ShieldApplicationLayerAutomaticResponseTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ShieldApplicationLayerAutomaticResponse) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

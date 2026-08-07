@@ -59,6 +59,10 @@ func (r *jsiiProxy_RumAppMonitor) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (r *jsiiProxy_RumAppMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RumAppMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RumAppMonitor) validatePutAppMonitorConfigurationParameters(v
 }
 
 func (r *jsiiProxy_RumAppMonitor) validatePutCustomEventsParameters(value *RumAppMonitorCustomEvents) error {
+	return nil
+}
+
+func (r *jsiiProxy_RumAppMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

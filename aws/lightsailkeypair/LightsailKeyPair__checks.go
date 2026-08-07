@@ -122,6 +122,14 @@ func (l *jsiiProxy_LightsailKeyPair) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (l *jsiiProxy_LightsailKeyPair) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_LightsailKeyPair) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (l *jsiiProxy_LightsailKeyPair) validateMoveToIdParameters(id *string) erro
 func (l *jsiiProxy_LightsailKeyPair) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LightsailKeyPair) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

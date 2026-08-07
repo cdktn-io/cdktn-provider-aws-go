@@ -59,6 +59,10 @@ func (a *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateInt
 	return nil
 }
 
+func (a *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateMov
 }
 
 func (a *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerOrganizationAdminAccountRegistration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

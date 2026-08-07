@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueConnection) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (g *jsiiProxy_GlueConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GlueConnection) validatePutAuthenticationConfigurationParamet
 }
 
 func (g *jsiiProxy_GlueConnection) validatePutPhysicalConnectionRequirementsParameters(value *GlueConnectionPhysicalConnectionRequirements) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

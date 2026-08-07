@@ -59,6 +59,10 @@ func (r *jsiiProxy_RolesanywhereTrustAnchor) validateInterpolationForAttributePa
 	return nil
 }
 
+func (r *jsiiProxy_RolesanywhereTrustAnchor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RolesanywhereTrustAnchor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RolesanywhereTrustAnchor) validatePutNotificationSettingsPara
 }
 
 func (r *jsiiProxy_RolesanywhereTrustAnchor) validatePutSourceParameters(value *RolesanywhereTrustAnchorSource) error {
+	return nil
+}
+
+func (r *jsiiProxy_RolesanywhereTrustAnchor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

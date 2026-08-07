@@ -59,6 +59,10 @@ func (g *jsiiProxy_GluePartitionIndex) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (g *jsiiProxy_GluePartitionIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GluePartitionIndex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GluePartitionIndex) validatePutPartitionIndexParameters(value
 }
 
 func (g *jsiiProxy_GluePartitionIndex) validatePutTimeoutsParameters(value *GluePartitionIndexTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GluePartitionIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

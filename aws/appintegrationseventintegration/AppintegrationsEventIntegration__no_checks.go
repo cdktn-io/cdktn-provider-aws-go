@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppintegrationsEventIntegration) validateInterpolationForAttr
 	return nil
 }
 
+func (a *jsiiProxy_AppintegrationsEventIntegration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppintegrationsEventIntegration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppintegrationsEventIntegration) validateOverrideLogicalIdPar
 }
 
 func (a *jsiiProxy_AppintegrationsEventIntegration) validatePutEventFilterParameters(value *AppintegrationsEventIntegrationEventFilter) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppintegrationsEventIntegration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

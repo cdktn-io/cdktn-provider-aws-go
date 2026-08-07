@@ -122,6 +122,14 @@ func (r *jsiiProxy_RedshiftSnapshotSchedule) validateInterpolationForAttributePa
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftSnapshotSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftSnapshotSchedule) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (r *jsiiProxy_RedshiftSnapshotSchedule) validateMoveToIdParameters(id *stri
 func (r *jsiiProxy_RedshiftSnapshotSchedule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftSnapshotSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

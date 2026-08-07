@@ -59,6 +59,10 @@ func (s *jsiiProxy_SnsSmsPreferences) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_SnsSmsPreferences) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SnsSmsPreferences) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SnsSmsPreferences) validateMoveToIdParameters(id *string) err
 }
 
 func (s *jsiiProxy_SnsSmsPreferences) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SnsSmsPreferences) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

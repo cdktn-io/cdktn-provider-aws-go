@@ -5,14 +5,15 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs aws}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs aws}.
 type AwsProvider interface {
 	cdktn.TerraformProvider
 	AccessKey() *string
@@ -56,6 +57,8 @@ type AwsProvider interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	// Provider-defined functions of the aws provider.
+	Functions() providerfunctions.AwsProviderFunctions
 	HttpProxy() *string
 	SetHttpProxy(val *string)
 	HttpProxyInput() *string
@@ -148,6 +151,19 @@ type AwsProvider interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccessKey()
 	ResetAlias()
 	ResetAllowedAccountIds()
@@ -469,6 +485,16 @@ func (j *jsiiProxy_AwsProvider) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsProvider) Functions() providerfunctions.AwsProviderFunctions {
+	var returns providerfunctions.AwsProviderFunctions
+	_jsii_.Get(
+		j,
+		"functions",
 		&returns,
 	)
 	return returns
@@ -1035,7 +1061,7 @@ func (j *jsiiProxy_AwsProvider) UserAgentInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs aws} Resource.
 func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderConfig) AwsProvider {
 	_init_.Initialize()
 
@@ -1053,7 +1079,7 @@ func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs aws} Resource.
 func NewAwsProvider_Override(a AwsProvider, scope constructs.Construct, id *string, config *AwsProviderConfig) {
 	_init_.Initialize()
 
@@ -1510,6 +1536,17 @@ func (a *jsiiProxy_AwsProvider) OverrideLogicalId(newLogicalId *string) {
 		a,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (a *jsiiProxy_AwsProvider) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := a.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

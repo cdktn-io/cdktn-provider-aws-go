@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxOpenzfsSnapshot) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (f *jsiiProxy_FsxOpenzfsSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxOpenzfsSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FsxOpenzfsSnapshot) validateOverrideLogicalIdParameters(newLo
 }
 
 func (f *jsiiProxy_FsxOpenzfsSnapshot) validatePutTimeoutsParameters(value *FsxOpenzfsSnapshotTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxOpenzfsSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

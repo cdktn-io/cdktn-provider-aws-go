@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsAcmpcaCertificateAuthority) validateOverrideLogicalIdP
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsAcmpcaCertificateAuthority) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsAcmpcaCertificateAuthority_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -122,6 +122,14 @@ func (d *jsiiProxy_DxConnectionAssociation) validateInterpolationForAttributePar
 	return nil
 }
 
+func (d *jsiiProxy_DxConnectionAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DxConnectionAssociation) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (d *jsiiProxy_DxConnectionAssociation) validateMoveToIdParameters(id *strin
 func (d *jsiiProxy_DxConnectionAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DxConnectionAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

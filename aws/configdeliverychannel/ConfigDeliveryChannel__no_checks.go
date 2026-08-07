@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConfigDeliveryChannel) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ConfigDeliveryChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConfigDeliveryChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ConfigDeliveryChannel) validateOverrideLogicalIdParameters(ne
 }
 
 func (c *jsiiProxy_ConfigDeliveryChannel) validatePutSnapshotDeliveryPropertiesParameters(value *ConfigDeliveryChannelSnapshotDeliveryProperties) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigDeliveryChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

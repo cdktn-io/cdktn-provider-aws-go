@@ -59,6 +59,10 @@ func (b *jsiiProxy_BatchComputeEnvironment) validateInterpolationForAttributePar
 	return nil
 }
 
+func (b *jsiiProxy_BatchComputeEnvironment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchComputeEnvironment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BatchComputeEnvironment) validatePutEksConfigurationParameter
 }
 
 func (b *jsiiProxy_BatchComputeEnvironment) validatePutUpdatePolicyParameters(value *BatchComputeEnvironmentUpdatePolicy) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchComputeEnvironment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

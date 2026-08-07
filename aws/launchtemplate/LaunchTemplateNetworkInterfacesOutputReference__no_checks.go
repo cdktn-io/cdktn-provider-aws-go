@@ -87,6 +87,10 @@ func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateSetDe
 	return nil
 }
 
+func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateSetEnaQueueCountParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_LaunchTemplateNetworkInterfacesOutputReference) validateSetInterfaceTypeParameters(val *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxOpenzfsFileSystem) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (f *jsiiProxy_FsxOpenzfsFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxOpenzfsFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (f *jsiiProxy_FsxOpenzfsFileSystem) validatePutRootVolumeConfigurationParam
 }
 
 func (f *jsiiProxy_FsxOpenzfsFileSystem) validatePutTimeoutsParameters(value *FsxOpenzfsFileSystemTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxOpenzfsFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FinspaceKxVolume) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (f *jsiiProxy_FinspaceKxVolume) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FinspaceKxVolume) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FinspaceKxVolume) validatePutNas1ConfigurationParameters(valu
 }
 
 func (f *jsiiProxy_FinspaceKxVolume) validatePutTimeoutsParameters(value *FinspaceKxVolumeTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FinspaceKxVolume) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

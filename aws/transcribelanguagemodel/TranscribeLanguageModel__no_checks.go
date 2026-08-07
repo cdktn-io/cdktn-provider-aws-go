@@ -59,6 +59,10 @@ func (t *jsiiProxy_TranscribeLanguageModel) validateInterpolationForAttributePar
 	return nil
 }
 
+func (t *jsiiProxy_TranscribeLanguageModel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TranscribeLanguageModel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (t *jsiiProxy_TranscribeLanguageModel) validatePutInputDataConfigParameters
 }
 
 func (t *jsiiProxy_TranscribeLanguageModel) validatePutTimeoutsParameters(value *TranscribeLanguageModelTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TranscribeLanguageModel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

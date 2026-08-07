@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsServiceDiscoveryHttpNamespace) validateOverrideLogical
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsServiceDiscoveryHttpNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsServiceDiscoveryHttpNamespace_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

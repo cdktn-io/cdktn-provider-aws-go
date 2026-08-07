@@ -59,6 +59,10 @@ func (s *jsiiProxy_StoragegatewayCachedIscsiVolume) validateInterpolationForAttr
 	return nil
 }
 
+func (s *jsiiProxy_StoragegatewayCachedIscsiVolume) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StoragegatewayCachedIscsiVolume) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_StoragegatewayCachedIscsiVolume) validateMoveToIdParameters(i
 }
 
 func (s *jsiiProxy_StoragegatewayCachedIscsiVolume) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_StoragegatewayCachedIscsiVolume) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

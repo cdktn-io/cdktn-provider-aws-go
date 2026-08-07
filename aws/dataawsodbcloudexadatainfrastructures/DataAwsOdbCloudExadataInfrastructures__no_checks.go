@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsOdbCloudExadataInfrastructures) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOdbCloudExadataInfrastructures) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsOdbCloudExadataInfrastructures_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -122,6 +122,14 @@ func (x *jsiiProxy_XraySamplingRule) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (x *jsiiProxy_XraySamplingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (x *jsiiProxy_XraySamplingRule) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (x *jsiiProxy_XraySamplingRule) validateMoveToIdParameters(id *string) erro
 func (x *jsiiProxy_XraySamplingRule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (x *jsiiProxy_XraySamplingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LaunchConfiguration) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (l *jsiiProxy_LaunchConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LaunchConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (l *jsiiProxy_LaunchConfiguration) validatePutMetadataOptionsParameters(val
 }
 
 func (l *jsiiProxy_LaunchConfiguration) validatePutRootBlockDeviceParameters(value *LaunchConfigurationRootBlockDevice) error {
+	return nil
+}
+
+func (l *jsiiProxy_LaunchConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

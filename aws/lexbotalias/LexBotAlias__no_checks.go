@@ -59,6 +59,10 @@ func (l *jsiiProxy_LexBotAlias) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (l *jsiiProxy_LexBotAlias) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LexBotAlias) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LexBotAlias) validatePutConversationLogsParameters(value *Lex
 }
 
 func (l *jsiiProxy_LexBotAlias) validatePutTimeoutsParameters(value *LexBotAliasTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LexBotAlias) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

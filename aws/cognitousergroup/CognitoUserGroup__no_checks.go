@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoUserGroup) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_CognitoUserGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoUserGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CognitoUserGroup) validateMoveToIdParameters(id *string) erro
 }
 
 func (c *jsiiProxy_CognitoUserGroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoUserGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

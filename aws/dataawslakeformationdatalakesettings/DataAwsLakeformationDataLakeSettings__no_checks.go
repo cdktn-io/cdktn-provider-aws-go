@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) validateOverrideLogical
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsLakeformationDataLakeSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsLakeformationDataLakeSettings_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

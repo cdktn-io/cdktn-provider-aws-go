@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateInterpolationF
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateOverrideLogica
 }
 
 func (s *jsiiProxy_Sesv2ConfigurationSetEventDestination) validatePutEventDestinationParameters(value *Sesv2ConfigurationSetEventDestinationEventDestination) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2ConfigurationSetEventDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

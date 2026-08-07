@@ -59,6 +59,10 @@ func (c *jsiiProxy_CustomerprofilesProfile) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_CustomerprofilesProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CustomerprofilesProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_CustomerprofilesProfile) validatePutMailingAddressParameters(
 }
 
 func (c *jsiiProxy_CustomerprofilesProfile) validatePutShippingAddressParameters(value *CustomerprofilesProfileShippingAddress) error {
+	return nil
+}
+
+func (c *jsiiProxy_CustomerprofilesProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

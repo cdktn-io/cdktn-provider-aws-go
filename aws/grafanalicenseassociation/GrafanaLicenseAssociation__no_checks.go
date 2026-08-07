@@ -59,6 +59,10 @@ func (g *jsiiProxy_GrafanaLicenseAssociation) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GrafanaLicenseAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GrafanaLicenseAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GrafanaLicenseAssociation) validateOverrideLogicalIdParameter
 }
 
 func (g *jsiiProxy_GrafanaLicenseAssociation) validatePutTimeoutsParameters(value *GrafanaLicenseAssociationTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GrafanaLicenseAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

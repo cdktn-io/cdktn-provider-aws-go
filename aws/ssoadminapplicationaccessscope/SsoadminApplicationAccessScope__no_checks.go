@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsoadminApplicationAccessScope) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SsoadminApplicationAccessScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsoadminApplicationAccessScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SsoadminApplicationAccessScope) validateMoveToIdParameters(id
 }
 
 func (s *jsiiProxy_SsoadminApplicationAccessScope) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminApplicationAccessScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

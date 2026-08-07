@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbTargetGroup) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (l *jsiiProxy_LbTargetGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbTargetGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (l *jsiiProxy_LbTargetGroup) validatePutTargetGroupHealthParameters(value *
 }
 
 func (l *jsiiProxy_LbTargetGroup) validatePutTargetHealthStateParameters(value interface{}) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbTargetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

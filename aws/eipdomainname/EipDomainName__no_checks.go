@@ -59,6 +59,10 @@ func (e *jsiiProxy_EipDomainName) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (e *jsiiProxy_EipDomainName) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EipDomainName) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EipDomainName) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (e *jsiiProxy_EipDomainName) validatePutTimeoutsParameters(value *EipDomainNameTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EipDomainName) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

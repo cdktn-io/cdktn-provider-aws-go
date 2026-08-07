@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftserverlessUsageLimit) validateInterpolationForAttribu
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftserverlessUsageLimit) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftserverlessUsageLimit) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (r *jsiiProxy_RedshiftserverlessUsageLimit) validateMoveToIdParameters(id *
 }
 
 func (r *jsiiProxy_RedshiftserverlessUsageLimit) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftserverlessUsageLimit) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppintegrationsDataIntegration) validateInterpolationForAttri
 	return nil
 }
 
+func (a *jsiiProxy_AppintegrationsDataIntegration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppintegrationsDataIntegration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppintegrationsDataIntegration) validateOverrideLogicalIdPara
 }
 
 func (a *jsiiProxy_AppintegrationsDataIntegration) validatePutScheduleConfigParameters(value *AppintegrationsDataIntegrationScheduleConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppintegrationsDataIntegration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

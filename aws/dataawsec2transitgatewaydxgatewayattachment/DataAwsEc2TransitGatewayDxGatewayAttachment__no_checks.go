@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) validatePutTimeo
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2TransitGatewayDxGatewayAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2TransitGatewayDxGatewayAttachment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

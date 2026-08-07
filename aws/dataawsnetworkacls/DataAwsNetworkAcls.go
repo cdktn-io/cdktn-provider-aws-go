@@ -5,14 +5,14 @@ package dataawsnetworkacls
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsnetworkacls/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsnetworkacls/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/network_acls aws_network_acls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/network_acls aws_network_acls}.
 type DataAwsNetworkAcls interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -97,6 +97,19 @@ type DataAwsNetworkAcls interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutFilter(value interface{})
 	PutTimeouts(value *DataAwsNetworkAclsTimeouts)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetFilter()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -405,7 +418,7 @@ func (j *jsiiProxy_DataAwsNetworkAcls) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) DataAwsNetworkAcls {
 	_init_.Initialize()
 
@@ -423,7 +436,7 @@ func NewDataAwsNetworkAcls(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/network_acls aws_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/network_acls aws_network_acls} Data Source.
 func NewDataAwsNetworkAcls_Override(d DataAwsNetworkAcls, scope constructs.Construct, id *string, config *DataAwsNetworkAclsConfig) {
 	_init_.Initialize()
 
@@ -828,6 +841,17 @@ func (d *jsiiProxy_DataAwsNetworkAcls) PutTimeouts(value *DataAwsNetworkAclsTime
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsNetworkAcls) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

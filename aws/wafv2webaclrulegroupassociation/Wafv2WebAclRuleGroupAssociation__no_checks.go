@@ -59,6 +59,10 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validateInterpolationForAttr
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validatePutTimeoutsParameter
 }
 
 func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validatePutVisibilityConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleGroupAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EvidentlyFeature) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (e *jsiiProxy_EvidentlyFeature) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EvidentlyFeature) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EvidentlyFeature) validatePutTimeoutsParameters(value *Eviden
 }
 
 func (e *jsiiProxy_EvidentlyFeature) validatePutVariationsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyFeature) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

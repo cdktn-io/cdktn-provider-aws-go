@@ -59,6 +59,10 @@ func (r *jsiiProxy_Route53RecordsExclusive) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_Route53RecordsExclusive) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Route53RecordsExclusive) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_Route53RecordsExclusive) validatePutResourceRecordSetParamete
 }
 
 func (r *jsiiProxy_Route53RecordsExclusive) validatePutTimeoutsParameters(value *Route53RecordsExclusiveTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_Route53RecordsExclusive) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

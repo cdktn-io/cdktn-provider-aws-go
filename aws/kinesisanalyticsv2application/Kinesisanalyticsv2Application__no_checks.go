@@ -59,6 +59,10 @@ func (k *jsiiProxy_Kinesisanalyticsv2Application) validateInterpolationForAttrib
 	return nil
 }
 
+func (k *jsiiProxy_Kinesisanalyticsv2Application) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_Kinesisanalyticsv2Application) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (k *jsiiProxy_Kinesisanalyticsv2Application) validatePutCloudwatchLoggingOp
 }
 
 func (k *jsiiProxy_Kinesisanalyticsv2Application) validatePutTimeoutsParameters(value *Kinesisanalyticsv2ApplicationTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_Kinesisanalyticsv2Application) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2TenantResourceAssociation) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2TenantResourceAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2TenantResourceAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_Sesv2TenantResourceAssociation) validateMoveToIdParameters(id
 }
 
 func (s *jsiiProxy_Sesv2TenantResourceAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2TenantResourceAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

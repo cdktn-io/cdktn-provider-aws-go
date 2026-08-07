@@ -122,6 +122,14 @@ func (s *jsiiProxy_SecretsmanagerSecret) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_SecretsmanagerSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SecretsmanagerSecret) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (s *jsiiProxy_SecretsmanagerSecret) validatePutReplicaParameters(value inte
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SecretsmanagerSecretReplica; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SecretsmanagerSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil
@@ -515,6 +531,14 @@ func (j *jsiiProxy_SecretsmanagerSecret) validateSetTagsParameters(val *map[stri
 }
 
 func (j *jsiiProxy_SecretsmanagerSecret) validateSetTagsAllParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_SecretsmanagerSecret) validateSetTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

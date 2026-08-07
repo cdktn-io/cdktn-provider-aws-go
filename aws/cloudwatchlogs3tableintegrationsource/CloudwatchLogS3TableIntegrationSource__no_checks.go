@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudwatchLogS3TableIntegrationSource) validateInterpolationF
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchLogS3TableIntegrationSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchLogS3TableIntegrationSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudwatchLogS3TableIntegrationSource) validatePutDataSourceP
 }
 
 func (c *jsiiProxy_CloudwatchLogS3TableIntegrationSource) validatePutTimeoutsParameters(value *CloudwatchLogS3TableIntegrationSourceTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchLogS3TableIntegrationSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GameliftGameSessionQueue) validateInterpolationForAttributePa
 	return nil
 }
 
+func (g *jsiiProxy_GameliftGameSessionQueue) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GameliftGameSessionQueue) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GameliftGameSessionQueue) validateOverrideLogicalIdParameters
 }
 
 func (g *jsiiProxy_GameliftGameSessionQueue) validatePutPlayerLatencyPolicyParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GameliftGameSessionQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

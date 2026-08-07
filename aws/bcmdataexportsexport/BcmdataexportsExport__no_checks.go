@@ -59,6 +59,10 @@ func (b *jsiiProxy_BcmdataexportsExport) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (b *jsiiProxy_BcmdataexportsExport) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BcmdataexportsExport) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BcmdataexportsExport) validatePutExportParameters(value inter
 }
 
 func (b *jsiiProxy_BcmdataexportsExport) validatePutTimeoutsParameters(value *BcmdataexportsExportTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BcmdataexportsExport) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontDistribution) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontDistribution) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontDistribution) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (c *jsiiProxy_CloudfrontDistribution) validatePutViewerCertificateParameter
 }
 
 func (c *jsiiProxy_CloudfrontDistribution) validatePutViewerMtlsConfigParameters(value *CloudfrontDistributionViewerMtlsConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontDistribution) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

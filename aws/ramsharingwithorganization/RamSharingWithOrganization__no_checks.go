@@ -59,6 +59,10 @@ func (r *jsiiProxy_RamSharingWithOrganization) validateInterpolationForAttribute
 	return nil
 }
 
+func (r *jsiiProxy_RamSharingWithOrganization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RamSharingWithOrganization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (r *jsiiProxy_RamSharingWithOrganization) validateMoveToIdParameters(id *st
 }
 
 func (r *jsiiProxy_RamSharingWithOrganization) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RamSharingWithOrganization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

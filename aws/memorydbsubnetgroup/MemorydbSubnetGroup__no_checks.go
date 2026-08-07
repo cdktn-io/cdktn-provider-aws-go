@@ -59,6 +59,10 @@ func (m *jsiiProxy_MemorydbSubnetGroup) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (m *jsiiProxy_MemorydbSubnetGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MemorydbSubnetGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (m *jsiiProxy_MemorydbSubnetGroup) validateMoveToIdParameters(id *string) e
 }
 
 func (m *jsiiProxy_MemorydbSubnetGroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MemorydbSubnetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

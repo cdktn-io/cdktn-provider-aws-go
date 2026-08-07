@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConfigConfigurationAggregator) validateInterpolationForAttrib
 	return nil
 }
 
+func (c *jsiiProxy_ConfigConfigurationAggregator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConfigConfigurationAggregator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ConfigConfigurationAggregator) validatePutAccountAggregationS
 }
 
 func (c *jsiiProxy_ConfigConfigurationAggregator) validatePutOrganizationAggregationSourceParameters(value *ConfigConfigurationAggregatorOrganizationAggregationSource) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigurationAggregator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

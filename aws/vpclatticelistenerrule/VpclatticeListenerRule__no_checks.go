@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpclatticeListenerRule) validateInterpolationForAttributePara
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeListenerRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeListenerRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VpclatticeListenerRule) validatePutMatchParameters(value *Vpc
 }
 
 func (v *jsiiProxy_VpclatticeListenerRule) validatePutTimeoutsParameters(value *VpclatticeListenerRuleTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpclatticeListenerRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

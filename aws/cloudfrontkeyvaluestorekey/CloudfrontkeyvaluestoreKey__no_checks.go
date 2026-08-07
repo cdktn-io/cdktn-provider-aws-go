@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontkeyvaluestoreKey) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontkeyvaluestoreKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontkeyvaluestoreKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudfrontkeyvaluestoreKey) validateMoveToIdParameters(id *st
 }
 
 func (c *jsiiProxy_CloudfrontkeyvaluestoreKey) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontkeyvaluestoreKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

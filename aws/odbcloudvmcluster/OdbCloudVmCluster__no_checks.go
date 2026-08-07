@@ -59,6 +59,10 @@ func (o *jsiiProxy_OdbCloudVmCluster) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (o *jsiiProxy_OdbCloudVmCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OdbCloudVmCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OdbCloudVmCluster) validatePutDataCollectionOptionsParameters
 }
 
 func (o *jsiiProxy_OdbCloudVmCluster) validatePutTimeoutsParameters(value *OdbCloudVmClusterTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OdbCloudVmCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

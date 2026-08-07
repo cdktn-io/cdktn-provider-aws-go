@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppmeshRoute) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (a *jsiiProxy_AppmeshRoute) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppmeshRoute) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppmeshRoute) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (a *jsiiProxy_AppmeshRoute) validatePutSpecParameters(value *AppmeshRouteSpec) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppmeshRoute) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

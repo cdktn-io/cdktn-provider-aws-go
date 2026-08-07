@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChimeVoiceConnectorOrigination) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_ChimeVoiceConnectorOrigination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChimeVoiceConnectorOrigination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ChimeVoiceConnectorOrigination) validateOverrideLogicalIdPara
 }
 
 func (c *jsiiProxy_ChimeVoiceConnectorOrigination) validatePutRouteParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChimeVoiceConnectorOrigination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EbsSnapshotImport) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (e *jsiiProxy_EbsSnapshotImport) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EbsSnapshotImport) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (e *jsiiProxy_EbsSnapshotImport) validatePutDiskContainerParameters(value *
 }
 
 func (e *jsiiProxy_EbsSnapshotImport) validatePutTimeoutsParameters(value *EbsSnapshotImportTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EbsSnapshotImport) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

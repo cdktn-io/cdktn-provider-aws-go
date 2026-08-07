@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateInter
 	return nil
 }
 
+func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateMoveT
 }
 
 func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

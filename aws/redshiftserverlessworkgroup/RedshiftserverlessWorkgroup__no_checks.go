@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftserverlessWorkgroup) validateInterpolationForAttribut
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftserverlessWorkgroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftserverlessWorkgroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (r *jsiiProxy_RedshiftserverlessWorkgroup) validatePutPricePerformanceTarge
 }
 
 func (r *jsiiProxy_RedshiftserverlessWorkgroup) validatePutTimeoutsParameters(value *RedshiftserverlessWorkgroupTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftserverlessWorkgroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

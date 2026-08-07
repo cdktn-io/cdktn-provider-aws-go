@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftScheduledAction) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftScheduledAction) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftScheduledAction) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RedshiftScheduledAction) validateOverrideLogicalIdParameters(
 }
 
 func (r *jsiiProxy_RedshiftScheduledAction) validatePutTargetActionParameters(value *RedshiftScheduledActionTargetAction) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftScheduledAction) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

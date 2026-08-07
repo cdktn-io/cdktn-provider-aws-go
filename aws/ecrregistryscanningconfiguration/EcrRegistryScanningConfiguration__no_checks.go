@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcrRegistryScanningConfiguration) validateInterpolationForAtt
 	return nil
 }
 
+func (e *jsiiProxy_EcrRegistryScanningConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcrRegistryScanningConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EcrRegistryScanningConfiguration) validateOverrideLogicalIdPa
 }
 
 func (e *jsiiProxy_EcrRegistryScanningConfiguration) validatePutRuleParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcrRegistryScanningConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

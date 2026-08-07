@@ -59,6 +59,10 @@ func (q *jsiiProxy_QuicksightRoleCustomPermission) validateInterpolationForAttri
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightRoleCustomPermission) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightRoleCustomPermission) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (q *jsiiProxy_QuicksightRoleCustomPermission) validateMoveToIdParameters(id
 }
 
 func (q *jsiiProxy_QuicksightRoleCustomPermission) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightRoleCustomPermission) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

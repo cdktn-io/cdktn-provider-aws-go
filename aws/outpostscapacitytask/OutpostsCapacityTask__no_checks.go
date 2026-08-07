@@ -59,6 +59,10 @@ func (o *jsiiProxy_OutpostsCapacityTask) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (o *jsiiProxy_OutpostsCapacityTask) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OutpostsCapacityTask) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (o *jsiiProxy_OutpostsCapacityTask) validatePutInstancesToExcludeParameters
 }
 
 func (o *jsiiProxy_OutpostsCapacityTask) validatePutTimeoutsParameters(value *OutpostsCapacityTaskTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OutpostsCapacityTask) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsIamRole) validateOverrideLogicalIdParameters(newLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsIamRole) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsIamRole_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

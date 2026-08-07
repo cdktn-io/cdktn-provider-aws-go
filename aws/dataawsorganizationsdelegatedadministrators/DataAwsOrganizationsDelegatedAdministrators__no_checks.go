@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsOrganizationsDelegatedAdministrators) validateOverride
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOrganizationsDelegatedAdministrators) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsOrganizationsDelegatedAdministrators_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

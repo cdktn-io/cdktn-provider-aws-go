@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsExpressGatewayService) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_EcsExpressGatewayService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsExpressGatewayService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (e *jsiiProxy_EcsExpressGatewayService) validatePutScalingTargetParameters(
 }
 
 func (e *jsiiProxy_EcsExpressGatewayService) validatePutTimeoutsParameters(value *EcsExpressGatewayServiceTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsExpressGatewayService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

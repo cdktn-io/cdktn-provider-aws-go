@@ -59,6 +59,10 @@ func (m *jsiiProxy_MediaStoreContainer) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (m *jsiiProxy_MediaStoreContainer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaStoreContainer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (m *jsiiProxy_MediaStoreContainer) validateMoveToIdParameters(id *string) e
 }
 
 func (m *jsiiProxy_MediaStoreContainer) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaStoreContainer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

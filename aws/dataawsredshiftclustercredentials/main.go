@@ -55,6 +55,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoCreate", GoMethod: "ResetAutoCreate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDbGroups", GoMethod: "ResetDbGroups"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDbName", GoMethod: "ResetDbName"},

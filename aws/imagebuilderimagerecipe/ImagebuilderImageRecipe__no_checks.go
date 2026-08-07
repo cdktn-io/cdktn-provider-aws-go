@@ -59,6 +59,10 @@ func (i *jsiiProxy_ImagebuilderImageRecipe) validateInterpolationForAttributePar
 	return nil
 }
 
+func (i *jsiiProxy_ImagebuilderImageRecipe) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_ImagebuilderImageRecipe) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_ImagebuilderImageRecipe) validatePutComponentParameters(value
 }
 
 func (i *jsiiProxy_ImagebuilderImageRecipe) validatePutSystemsManagerAgentParameters(value *ImagebuilderImageRecipeSystemsManagerAgent) error {
+	return nil
+}
+
+func (i *jsiiProxy_ImagebuilderImageRecipe) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

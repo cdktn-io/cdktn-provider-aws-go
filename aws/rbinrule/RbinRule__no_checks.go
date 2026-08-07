@@ -59,6 +59,10 @@ func (r *jsiiProxy_RbinRule) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (r *jsiiProxy_RbinRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RbinRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (r *jsiiProxy_RbinRule) validatePutRetentionPeriodParameters(value *RbinRul
 }
 
 func (r *jsiiProxy_RbinRule) validatePutTimeoutsParameters(value *RbinRuleTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

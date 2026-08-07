@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicecatalogBudgetResourceAssociation) validateInterpolatio
 	return nil
 }
 
+func (s *jsiiProxy_ServicecatalogBudgetResourceAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicecatalogBudgetResourceAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServicecatalogBudgetResourceAssociation) validateOverrideLogi
 }
 
 func (s *jsiiProxy_ServicecatalogBudgetResourceAssociation) validatePutTimeoutsParameters(value *ServicecatalogBudgetResourceAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicecatalogBudgetResourceAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

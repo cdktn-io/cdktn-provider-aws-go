@@ -5,14 +5,14 @@ package dataawsimagebuilderimagerecipes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsimagebuilderimagerecipes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsimagebuilderimagerecipes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/imagebuilder_image_recipes aws_imagebuilder_image_recipes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/imagebuilder_image_recipes aws_imagebuilder_image_recipes}.
 type DataAwsImagebuilderImageRecipes interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -92,6 +92,19 @@ type DataAwsImagebuilderImageRecipes interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutFilter(value interface{})
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetFilter()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -368,7 +381,7 @@ func (j *jsiiProxy_DataAwsImagebuilderImageRecipes) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/imagebuilder_image_recipes aws_imagebuilder_image_recipes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/imagebuilder_image_recipes aws_imagebuilder_image_recipes} Data Source.
 func NewDataAwsImagebuilderImageRecipes(scope constructs.Construct, id *string, config *DataAwsImagebuilderImageRecipesConfig) DataAwsImagebuilderImageRecipes {
 	_init_.Initialize()
 
@@ -386,7 +399,7 @@ func NewDataAwsImagebuilderImageRecipes(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/imagebuilder_image_recipes aws_imagebuilder_image_recipes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/imagebuilder_image_recipes aws_imagebuilder_image_recipes} Data Source.
 func NewDataAwsImagebuilderImageRecipes_Override(d DataAwsImagebuilderImageRecipes, scope constructs.Construct, id *string, config *DataAwsImagebuilderImageRecipesConfig) {
 	_init_.Initialize()
 
@@ -769,6 +782,17 @@ func (d *jsiiProxy_DataAwsImagebuilderImageRecipes) PutFilter(value interface{})
 		d,
 		"putFilter",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsImagebuilderImageRecipes) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

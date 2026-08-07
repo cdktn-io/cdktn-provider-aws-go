@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketMetric) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketMetric) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketMetric) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3BucketMetric) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (s *jsiiProxy_S3BucketMetric) validatePutFilterParameters(value *S3BucketMetricFilter) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketMetric) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

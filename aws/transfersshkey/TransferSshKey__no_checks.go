@@ -59,6 +59,10 @@ func (t *jsiiProxy_TransferSshKey) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (t *jsiiProxy_TransferSshKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TransferSshKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (t *jsiiProxy_TransferSshKey) validateMoveToIdParameters(id *string) error 
 }
 
 func (t *jsiiProxy_TransferSshKey) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TransferSshKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

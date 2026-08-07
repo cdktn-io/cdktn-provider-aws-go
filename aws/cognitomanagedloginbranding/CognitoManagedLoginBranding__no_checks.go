@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoManagedLoginBranding) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_CognitoManagedLoginBranding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoManagedLoginBranding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CognitoManagedLoginBranding) validateOverrideLogicalIdParamet
 }
 
 func (c *jsiiProxy_CognitoManagedLoginBranding) validatePutAssetParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoManagedLoginBranding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

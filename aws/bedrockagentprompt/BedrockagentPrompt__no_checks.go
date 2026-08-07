@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentPrompt) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentPrompt) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentPrompt) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BedrockagentPrompt) validateOverrideLogicalIdParameters(newLo
 }
 
 func (b *jsiiProxy_BedrockagentPrompt) validatePutVariantParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentPrompt) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

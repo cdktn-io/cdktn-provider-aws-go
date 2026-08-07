@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2NetworkInsightsAccessScope) validateInterpolationForAttrib
 	return nil
 }
 
+func (e *jsiiProxy_Ec2NetworkInsightsAccessScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2NetworkInsightsAccessScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_Ec2NetworkInsightsAccessScope) validatePutExcludePathsParamet
 }
 
 func (e *jsiiProxy_Ec2NetworkInsightsAccessScope) validatePutMatchPathsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2NetworkInsightsAccessScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

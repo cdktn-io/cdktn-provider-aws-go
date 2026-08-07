@@ -5,9 +5,9 @@ package dataawslaunchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawslaunchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawslaunchtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,7 @@ type DataAwsLaunchTemplateNetworkInterfacesOutputReference interface {
 	DeleteOnTermination() *string
 	Description() *string
 	DeviceIndex() *float64
+	EnaQueueCount() *float64
 	// Experimental.
 	Fqn() *string
 	InterfaceType() *string
@@ -185,6 +186,16 @@ func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesOutputReference) Device
 	_jsii_.Get(
 		j,
 		"deviceIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsLaunchTemplateNetworkInterfacesOutputReference) EnaQueueCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"enaQueueCount",
 		&returns,
 	)
 	return returns

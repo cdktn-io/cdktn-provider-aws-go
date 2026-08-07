@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodedeployDeploymentConfig) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_CodedeployDeploymentConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodedeployDeploymentConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CodedeployDeploymentConfig) validatePutTrafficRoutingConfigPa
 }
 
 func (c *jsiiProxy_CodedeployDeploymentConfig) validatePutZonalConfigParameters(value *CodedeployDeploymentConfigZonalConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

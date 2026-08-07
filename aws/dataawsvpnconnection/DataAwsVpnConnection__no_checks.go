@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsVpnConnection) validatePutFilterParameters(value inter
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsVpnConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsVpnConnection_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

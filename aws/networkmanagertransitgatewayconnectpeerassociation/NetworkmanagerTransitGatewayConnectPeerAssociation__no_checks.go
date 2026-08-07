@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) validateI
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) validateO
 }
 
 func (n *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) validatePutTimeoutsParameters(value *NetworkmanagerTransitGatewayConnectPeerAssociationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

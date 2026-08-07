@@ -59,6 +59,10 @@ func (v *jsiiProxy_VerifiedaccessTrustProvider) validateInterpolationForAttribut
 	return nil
 }
 
+func (v *jsiiProxy_VerifiedaccessTrustProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VerifiedaccessTrustProvider) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (v *jsiiProxy_VerifiedaccessTrustProvider) validatePutSseSpecificationParam
 }
 
 func (v *jsiiProxy_VerifiedaccessTrustProvider) validatePutTimeoutsParameters(value *VerifiedaccessTrustProviderTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VerifiedaccessTrustProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

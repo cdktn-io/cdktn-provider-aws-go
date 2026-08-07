@@ -59,6 +59,10 @@ func (m *jsiiProxy_MskSingleScramSecretAssociation) validateInterpolationForAttr
 	return nil
 }
 
+func (m *jsiiProxy_MskSingleScramSecretAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskSingleScramSecretAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (m *jsiiProxy_MskSingleScramSecretAssociation) validateMoveToIdParameters(i
 }
 
 func (m *jsiiProxy_MskSingleScramSecretAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskSingleScramSecretAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

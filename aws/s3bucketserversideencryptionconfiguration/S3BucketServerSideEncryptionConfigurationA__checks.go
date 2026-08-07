@@ -122,6 +122,14 @@ func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateInterpola
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validatePutRulePa
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*S3BucketServerSideEncryptionConfigurationRuleA; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

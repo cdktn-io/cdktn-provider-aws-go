@@ -59,6 +59,10 @@ func (m *jsiiProxy_MskVpcConnection) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (m *jsiiProxy_MskVpcConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskVpcConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (m *jsiiProxy_MskVpcConnection) validateMoveToIdParameters(id *string) erro
 }
 
 func (m *jsiiProxy_MskVpcConnection) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskVpcConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

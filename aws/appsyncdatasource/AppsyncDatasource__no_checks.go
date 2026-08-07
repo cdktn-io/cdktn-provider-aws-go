@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppsyncDatasource) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (a *jsiiProxy_AppsyncDatasource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppsyncDatasource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (a *jsiiProxy_AppsyncDatasource) validatePutOpensearchserviceConfigParamete
 }
 
 func (a *jsiiProxy_AppsyncDatasource) validatePutRelationalDatabaseConfigParameters(value *AppsyncDatasourceRelationalDatabaseConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppsyncDatasource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

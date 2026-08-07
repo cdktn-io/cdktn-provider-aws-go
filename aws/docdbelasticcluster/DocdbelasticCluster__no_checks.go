@@ -59,6 +59,10 @@ func (d *jsiiProxy_DocdbelasticCluster) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DocdbelasticCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DocdbelasticCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DocdbelasticCluster) validateOverrideLogicalIdParameters(newL
 }
 
 func (d *jsiiProxy_DocdbelasticCluster) validatePutTimeoutsParameters(value *DocdbelasticClusterTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DocdbelasticCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LightsailLbAttachment) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (l *jsiiProxy_LightsailLbAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LightsailLbAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (l *jsiiProxy_LightsailLbAttachment) validateMoveToIdParameters(id *string)
 }
 
 func (l *jsiiProxy_LightsailLbAttachment) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailLbAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

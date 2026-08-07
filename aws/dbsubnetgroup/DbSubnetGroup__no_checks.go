@@ -59,6 +59,10 @@ func (d *jsiiProxy_DbSubnetGroup) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (d *jsiiProxy_DbSubnetGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DbSubnetGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DbSubnetGroup) validateMoveToIdParameters(id *string) error {
 }
 
 func (d *jsiiProxy_DbSubnetGroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DbSubnetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

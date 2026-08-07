@@ -59,6 +59,10 @@ func (a *jsiiProxy_Apigatewayv2RoutingRule) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_Apigatewayv2RoutingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_Apigatewayv2RoutingRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_Apigatewayv2RoutingRule) validatePutActionParameters(value in
 }
 
 func (a *jsiiProxy_Apigatewayv2RoutingRule) validatePutConditionParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_Apigatewayv2RoutingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

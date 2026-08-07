@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchserverlessLifecyclePolicy) validateInterpolationFor
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessLifecyclePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessLifecyclePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (o *jsiiProxy_OpensearchserverlessLifecyclePolicy) validateMoveToIdParamete
 }
 
 func (o *jsiiProxy_OpensearchserverlessLifecyclePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessLifecyclePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

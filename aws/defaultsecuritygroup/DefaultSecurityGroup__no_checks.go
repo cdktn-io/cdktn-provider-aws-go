@@ -59,6 +59,10 @@ func (d *jsiiProxy_DefaultSecurityGroup) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (d *jsiiProxy_DefaultSecurityGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DefaultSecurityGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DefaultSecurityGroup) validatePutEgressParameters(value inter
 }
 
 func (d *jsiiProxy_DefaultSecurityGroup) validatePutIngressParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DefaultSecurityGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

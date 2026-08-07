@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsBedrockInferenceProfile) validateOverrideLogicalIdPara
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsBedrockInferenceProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsBedrockInferenceProfile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2ConfigurationSet) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2ConfigurationSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2ConfigurationSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (s *jsiiProxy_Sesv2ConfigurationSet) validatePutTrackingOptionsParameters(v
 }
 
 func (s *jsiiProxy_Sesv2ConfigurationSet) validatePutVdmOptionsParameters(value *Sesv2ConfigurationSetVdmOptions) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2ConfigurationSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

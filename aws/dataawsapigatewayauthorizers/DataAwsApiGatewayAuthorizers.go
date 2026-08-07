@@ -5,14 +5,14 @@ package dataawsapigatewayauthorizers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsapigatewayauthorizers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsapigatewayauthorizers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/api_gateway_authorizers aws_api_gateway_authorizers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/api_gateway_authorizers aws_api_gateway_authorizers}.
 type DataAwsApiGatewayAuthorizers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -88,6 +88,19 @@ type DataAwsApiGatewayAuthorizers interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -332,7 +345,7 @@ func (j *jsiiProxy_DataAwsApiGatewayAuthorizers) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/api_gateway_authorizers aws_api_gateway_authorizers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/api_gateway_authorizers aws_api_gateway_authorizers} Data Source.
 func NewDataAwsApiGatewayAuthorizers(scope constructs.Construct, id *string, config *DataAwsApiGatewayAuthorizersConfig) DataAwsApiGatewayAuthorizers {
 	_init_.Initialize()
 
@@ -350,7 +363,7 @@ func NewDataAwsApiGatewayAuthorizers(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/api_gateway_authorizers aws_api_gateway_authorizers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/api_gateway_authorizers aws_api_gateway_authorizers} Data Source.
 func NewDataAwsApiGatewayAuthorizers_Override(d DataAwsApiGatewayAuthorizers, scope constructs.Construct, id *string, config *DataAwsApiGatewayAuthorizersConfig) {
 	_init_.Initialize()
 
@@ -722,6 +735,17 @@ func (d *jsiiProxy_DataAwsApiGatewayAuthorizers) OverrideLogicalId(newLogicalId 
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsApiGatewayAuthorizers) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

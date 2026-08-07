@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "referenceIdInput", GoGetter: "ReferenceIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCapacityProviderStrategy", GoMethod: "ResetCapacityProviderStrategy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClientToken", GoMethod: "ResetClientToken"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDesiredCount", GoMethod: "ResetDesiredCount"},

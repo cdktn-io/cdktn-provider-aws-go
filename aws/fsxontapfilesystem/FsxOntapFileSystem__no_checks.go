@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxOntapFileSystem) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (f *jsiiProxy_FsxOntapFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxOntapFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FsxOntapFileSystem) validatePutDiskIopsConfigurationParameter
 }
 
 func (f *jsiiProxy_FsxOntapFileSystem) validatePutTimeoutsParameters(value *FsxOntapFileSystemTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxOntapFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

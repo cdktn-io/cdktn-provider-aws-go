@@ -59,6 +59,10 @@ func (a *jsiiProxy_AmiFromInstance) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (a *jsiiProxy_AmiFromInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AmiFromInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AmiFromInstance) validatePutEphemeralBlockDeviceParameters(va
 }
 
 func (a *jsiiProxy_AmiFromInstance) validatePutTimeoutsParameters(value *AmiFromInstanceTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AmiFromInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

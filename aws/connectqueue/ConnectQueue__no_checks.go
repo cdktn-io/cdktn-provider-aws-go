@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectQueue) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (c *jsiiProxy_ConnectQueue) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectQueue) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ConnectQueue) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (c *jsiiProxy_ConnectQueue) validatePutOutboundCallerConfigParameters(value *ConnectQueueOutboundCallerConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

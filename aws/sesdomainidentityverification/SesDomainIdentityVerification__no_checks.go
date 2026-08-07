@@ -59,6 +59,10 @@ func (s *jsiiProxy_SesDomainIdentityVerification) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_SesDomainIdentityVerification) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SesDomainIdentityVerification) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SesDomainIdentityVerification) validateOverrideLogicalIdParam
 }
 
 func (s *jsiiProxy_SesDomainIdentityVerification) validatePutTimeoutsParameters(value *SesDomainIdentityVerificationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesDomainIdentityVerification) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

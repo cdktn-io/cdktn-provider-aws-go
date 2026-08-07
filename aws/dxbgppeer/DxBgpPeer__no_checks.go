@@ -59,6 +59,10 @@ func (d *jsiiProxy_DxBgpPeer) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (d *jsiiProxy_DxBgpPeer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DxBgpPeer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DxBgpPeer) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func (d *jsiiProxy_DxBgpPeer) validatePutTimeoutsParameters(value *DxBgpPeerTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DxBgpPeer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

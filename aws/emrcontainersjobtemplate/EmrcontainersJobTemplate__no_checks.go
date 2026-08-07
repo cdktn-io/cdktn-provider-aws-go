@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrcontainersJobTemplate) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_EmrcontainersJobTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrcontainersJobTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EmrcontainersJobTemplate) validatePutJobTemplateDataParameter
 }
 
 func (e *jsiiProxy_EmrcontainersJobTemplate) validatePutTimeoutsParameters(value *EmrcontainersJobTemplateTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrcontainersJobTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

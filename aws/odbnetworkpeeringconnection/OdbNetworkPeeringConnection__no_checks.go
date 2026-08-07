@@ -59,6 +59,10 @@ func (o *jsiiProxy_OdbNetworkPeeringConnection) validateInterpolationForAttribut
 	return nil
 }
 
+func (o *jsiiProxy_OdbNetworkPeeringConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OdbNetworkPeeringConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OdbNetworkPeeringConnection) validateOverrideLogicalIdParamet
 }
 
 func (o *jsiiProxy_OdbNetworkPeeringConnection) validatePutTimeoutsParameters(value *OdbNetworkPeeringConnectionTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OdbNetworkPeeringConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

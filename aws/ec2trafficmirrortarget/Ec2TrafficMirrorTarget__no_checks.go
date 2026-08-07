@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2TrafficMirrorTarget) validateInterpolationForAttributePara
 	return nil
 }
 
+func (e *jsiiProxy_Ec2TrafficMirrorTarget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2TrafficMirrorTarget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_Ec2TrafficMirrorTarget) validateMoveToIdParameters(id *string
 }
 
 func (e *jsiiProxy_Ec2TrafficMirrorTarget) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TrafficMirrorTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

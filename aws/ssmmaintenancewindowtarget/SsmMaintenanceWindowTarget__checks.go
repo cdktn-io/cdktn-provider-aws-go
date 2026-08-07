@@ -122,6 +122,14 @@ func (s *jsiiProxy_SsmMaintenanceWindowTarget) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_SsmMaintenanceWindowTarget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SsmMaintenanceWindowTarget) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (s *jsiiProxy_SsmMaintenanceWindowTarget) validatePutTargetsParameters(valu
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SsmMaintenanceWindowTargetTargets; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SsmMaintenanceWindowTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

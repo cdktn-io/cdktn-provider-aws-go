@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) validateInterpolationForAtt
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) validateOverrideLogicalIdPa
 }
 
 func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) validatePutTimeoutsParameters(value *NetworkmanagerAttachmentAccepterTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerAttachmentAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

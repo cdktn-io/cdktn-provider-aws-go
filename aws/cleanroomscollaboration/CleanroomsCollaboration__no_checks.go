@@ -59,6 +59,10 @@ func (c *jsiiProxy_CleanroomsCollaboration) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_CleanroomsCollaboration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CleanroomsCollaboration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CleanroomsCollaboration) validatePutMemberParameters(value in
 }
 
 func (c *jsiiProxy_CleanroomsCollaboration) validatePutTimeoutsParameters(value *CleanroomsCollaborationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CleanroomsCollaboration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

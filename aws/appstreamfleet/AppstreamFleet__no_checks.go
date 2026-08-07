@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppstreamFleet) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (a *jsiiProxy_AppstreamFleet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppstreamFleet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AppstreamFleet) validatePutDomainJoinInfoParameters(value *Ap
 }
 
 func (a *jsiiProxy_AppstreamFleet) validatePutVpcConfigParameters(value *AppstreamFleetVpcConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppstreamFleet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

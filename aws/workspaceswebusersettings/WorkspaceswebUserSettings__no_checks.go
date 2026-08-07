@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkspaceswebUserSettings) validateInterpolationForAttributeP
 	return nil
 }
 
+func (w *jsiiProxy_WorkspaceswebUserSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkspaceswebUserSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (w *jsiiProxy_WorkspaceswebUserSettings) validatePutCookieSynchronizationCo
 }
 
 func (w *jsiiProxy_WorkspaceswebUserSettings) validatePutToolbarConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkspaceswebUserSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

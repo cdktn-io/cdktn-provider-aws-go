@@ -122,6 +122,14 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateInterpolati
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validatePutOauth2Pr
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfig; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

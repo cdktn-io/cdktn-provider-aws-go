@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArcregionswitchPlan) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (a *jsiiProxy_ArcregionswitchPlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcregionswitchPlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (a *jsiiProxy_ArcregionswitchPlan) validatePutTriggersParameters(value inte
 }
 
 func (a *jsiiProxy_ArcregionswitchPlan) validatePutWorkflowParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

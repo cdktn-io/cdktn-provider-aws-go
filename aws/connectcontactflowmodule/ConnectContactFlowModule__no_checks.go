@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectContactFlowModule) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ConnectContactFlowModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectContactFlowModule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_ConnectContactFlowModule) validateMoveToIdParameters(id *stri
 }
 
 func (c *jsiiProxy_ConnectContactFlowModule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectContactFlowModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

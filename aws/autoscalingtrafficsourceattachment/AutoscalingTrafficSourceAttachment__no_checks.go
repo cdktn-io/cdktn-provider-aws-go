@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutoscalingTrafficSourceAttachment) validateInterpolationForA
 	return nil
 }
 
+func (a *jsiiProxy_AutoscalingTrafficSourceAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutoscalingTrafficSourceAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AutoscalingTrafficSourceAttachment) validatePutTimeoutsParame
 }
 
 func (a *jsiiProxy_AutoscalingTrafficSourceAttachment) validatePutTrafficSourceParameters(value *AutoscalingTrafficSourceAttachmentTrafficSource) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutoscalingTrafficSourceAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

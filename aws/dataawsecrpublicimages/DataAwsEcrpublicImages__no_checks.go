@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsEcrpublicImages) validatePutImageIdsParameters(value i
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEcrpublicImages) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEcrpublicImages_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

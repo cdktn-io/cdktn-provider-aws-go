@@ -59,6 +59,10 @@ func (a *jsiiProxy_AthenaDatabase) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (a *jsiiProxy_AthenaDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AthenaDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AthenaDatabase) validatePutAclConfigurationParameters(value *
 }
 
 func (a *jsiiProxy_AthenaDatabase) validatePutEncryptionConfigurationParameters(value *AthenaDatabaseEncryptionConfiguration) error {
+	return nil
+}
+
+func (a *jsiiProxy_AthenaDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

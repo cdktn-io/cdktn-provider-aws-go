@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppsyncFunction) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (a *jsiiProxy_AppsyncFunction) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppsyncFunction) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppsyncFunction) validatePutRuntimeParameters(value *AppsyncF
 }
 
 func (a *jsiiProxy_AppsyncFunction) validatePutSyncConfigParameters(value *AppsyncFunctionSyncConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppsyncFunction) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

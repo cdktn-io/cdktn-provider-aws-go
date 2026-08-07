@@ -59,6 +59,10 @@ func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateInterpola
 	return nil
 }
 
+func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateOverrideL
 }
 
 func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validatePutAccessLogsParameters(value *VerifiedaccessInstanceLoggingConfigurationAccessLogs) error {
+	return nil
+}
+
+func (v *jsiiProxy_VerifiedaccessInstanceLoggingConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

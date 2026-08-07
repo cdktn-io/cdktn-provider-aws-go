@@ -59,6 +59,10 @@ func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateInterpolationF
 	return nil
 }
 
+func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateMoveToIdParame
 }
 
 func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

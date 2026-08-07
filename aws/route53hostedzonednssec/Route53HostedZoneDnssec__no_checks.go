@@ -59,6 +59,10 @@ func (r *jsiiProxy_Route53HostedZoneDnssec) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_Route53HostedZoneDnssec) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Route53HostedZoneDnssec) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_Route53HostedZoneDnssec) validateOverrideLogicalIdParameters(
 }
 
 func (r *jsiiProxy_Route53HostedZoneDnssec) validatePutTimeoutsParameters(value *Route53HostedZoneDnssecTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_Route53HostedZoneDnssec) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

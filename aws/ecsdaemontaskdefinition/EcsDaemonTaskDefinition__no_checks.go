@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsDaemonTaskDefinition) validateInterpolationForAttributePar
 	return nil
 }
 
+func (e *jsiiProxy_EcsDaemonTaskDefinition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsDaemonTaskDefinition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EcsDaemonTaskDefinition) validatePutContainerDefinitionParame
 }
 
 func (e *jsiiProxy_EcsDaemonTaskDefinition) validatePutVolumeParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsDaemonTaskDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

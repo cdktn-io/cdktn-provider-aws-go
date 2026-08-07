@@ -122,6 +122,14 @@ func (s *jsiiProxy_S3BucketWebsiteConfiguration) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketWebsiteConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketWebsiteConfiguration) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -266,6 +274,14 @@ func (s *jsiiProxy_S3BucketWebsiteConfiguration) validatePutRoutingRuleParameter
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*S3BucketWebsiteConfigurationRoutingRule; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketWebsiteConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

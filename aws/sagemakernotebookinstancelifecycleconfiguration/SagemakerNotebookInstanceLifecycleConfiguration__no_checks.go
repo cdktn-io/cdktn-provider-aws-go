@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerNotebookInstanceLifecycleConfiguration) validateInte
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerNotebookInstanceLifecycleConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerNotebookInstanceLifecycleConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SagemakerNotebookInstanceLifecycleConfiguration) validateMove
 }
 
 func (s *jsiiProxy_SagemakerNotebookInstanceLifecycleConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerNotebookInstanceLifecycleConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

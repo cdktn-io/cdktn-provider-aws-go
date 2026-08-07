@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2ClientVpnEndpoint) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (e *jsiiProxy_Ec2ClientVpnEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2ClientVpnEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (e *jsiiProxy_Ec2ClientVpnEndpoint) validatePutConnectionLogOptionsParamete
 }
 
 func (e *jsiiProxy_Ec2ClientVpnEndpoint) validatePutTransitGatewayConfigurationParameters(value *Ec2ClientVpnEndpointTransitGatewayConfiguration) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2ClientVpnEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

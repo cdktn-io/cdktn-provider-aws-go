@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftClusterIamRoles) validateInterpolationForAttributePar
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftClusterIamRoles) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftClusterIamRoles) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RedshiftClusterIamRoles) validateOverrideLogicalIdParameters(
 }
 
 func (r *jsiiProxy_RedshiftClusterIamRoles) validatePutTimeoutsParameters(value *RedshiftClusterIamRolesTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftClusterIamRoles) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (k *jsiiProxy_KmsCustomKeyStore) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (k *jsiiProxy_KmsCustomKeyStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KmsCustomKeyStore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KmsCustomKeyStore) validatePutTimeoutsParameters(value *KmsCu
 }
 
 func (k *jsiiProxy_KmsCustomKeyStore) validatePutXksProxyAuthenticationCredentialParameters(value *KmsCustomKeyStoreXksProxyAuthenticationCredential) error {
+	return nil
+}
+
+func (k *jsiiProxy_KmsCustomKeyStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

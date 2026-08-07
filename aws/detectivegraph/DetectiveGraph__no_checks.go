@@ -59,6 +59,10 @@ func (d *jsiiProxy_DetectiveGraph) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (d *jsiiProxy_DetectiveGraph) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DetectiveGraph) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DetectiveGraph) validateMoveToIdParameters(id *string) error 
 }
 
 func (d *jsiiProxy_DetectiveGraph) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DetectiveGraph) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

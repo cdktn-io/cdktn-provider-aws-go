@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerMlflowApp) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerMlflowApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerMlflowApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SagemakerMlflowApp) validateOverrideLogicalIdParameters(newLo
 }
 
 func (s *jsiiProxy_SagemakerMlflowApp) validatePutTimeoutsParameters(value *SagemakerMlflowAppTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerMlflowApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

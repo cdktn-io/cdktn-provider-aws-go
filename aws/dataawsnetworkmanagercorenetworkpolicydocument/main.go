@@ -55,6 +55,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putSegmentActions", GoMethod: "PutSegmentActions"},
 			_jsii_.MemberMethod{JsiiMethod: "putSegments", GoMethod: "PutSegments"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAttachmentPolicies", GoMethod: "ResetAttachmentPolicies"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAttachmentRoutingPolicyRules", GoMethod: "ResetAttachmentRoutingPolicyRules"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},

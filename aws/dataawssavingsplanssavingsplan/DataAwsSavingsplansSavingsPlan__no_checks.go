@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSavingsplansSavingsPlan) validateOverrideLogicalIdPara
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSavingsplansSavingsPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSavingsplansSavingsPlan_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

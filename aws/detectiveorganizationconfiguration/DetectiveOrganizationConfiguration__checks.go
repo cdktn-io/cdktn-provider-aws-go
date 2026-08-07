@@ -122,6 +122,14 @@ func (d *jsiiProxy_DetectiveOrganizationConfiguration) validateInterpolationForA
 	return nil
 }
 
+func (d *jsiiProxy_DetectiveOrganizationConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DetectiveOrganizationConfiguration) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (d *jsiiProxy_DetectiveOrganizationConfiguration) validateMoveToIdParameter
 func (d *jsiiProxy_DetectiveOrganizationConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DetectiveOrganizationConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

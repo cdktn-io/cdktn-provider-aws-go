@@ -59,6 +59,10 @@ func (g *jsiiProxy_GameliftScript) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (g *jsiiProxy_GameliftScript) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GameliftScript) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GameliftScript) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (g *jsiiProxy_GameliftScript) validatePutStorageLocationParameters(value *GameliftScriptStorageLocation) error {
+	return nil
+}
+
+func (g *jsiiProxy_GameliftScript) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

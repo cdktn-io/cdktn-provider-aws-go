@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpotFleetRequest) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (s *jsiiProxy_SpotFleetRequest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpotFleetRequest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SpotFleetRequest) validatePutSpotMaintenanceStrategiesParamet
 }
 
 func (s *jsiiProxy_SpotFleetRequest) validatePutTimeoutsParameters(value *SpotFleetRequestTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpotFleetRequest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

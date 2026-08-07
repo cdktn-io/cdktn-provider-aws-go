@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueClassifier) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (g *jsiiProxy_GlueClassifier) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueClassifier) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GlueClassifier) validatePutJsonClassifierParameters(value *Gl
 }
 
 func (g *jsiiProxy_GlueClassifier) validatePutXmlClassifierParameters(value *GlueClassifierXmlClassifier) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueClassifier) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

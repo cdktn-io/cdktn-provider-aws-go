@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketOwnershipControls) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketOwnershipControls) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketOwnershipControls) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3BucketOwnershipControls) validateOverrideLogicalIdParameter
 }
 
 func (s *jsiiProxy_S3BucketOwnershipControls) validatePutRuleParameters(value *S3BucketOwnershipControlsRule) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketOwnershipControls) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

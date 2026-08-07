@@ -59,6 +59,10 @@ func (f *jsiiProxy_FmsResourceSet) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (f *jsiiProxy_FmsResourceSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FmsResourceSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FmsResourceSet) validatePutResourceSetParameters(value interf
 }
 
 func (f *jsiiProxy_FmsResourceSet) validatePutTimeoutsParameters(value *FmsResourceSetTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FmsResourceSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

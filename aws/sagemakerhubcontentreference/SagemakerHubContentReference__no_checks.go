@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerHubContentReference) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerHubContentReference) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerHubContentReference) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SagemakerHubContentReference) validateOverrideLogicalIdParame
 }
 
 func (s *jsiiProxy_SagemakerHubContentReference) validatePutTimeoutsParameters(value *SagemakerHubContentReferenceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerHubContentReference) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (w *jsiiProxy_WafregionalWebAclAssociation) validateInterpolationForAttribu
 	return nil
 }
 
+func (w *jsiiProxy_WafregionalWebAclAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WafregionalWebAclAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WafregionalWebAclAssociation) validateOverrideLogicalIdParame
 }
 
 func (w *jsiiProxy_WafregionalWebAclAssociation) validatePutTimeoutsParameters(value *WafregionalWebAclAssociationTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WafregionalWebAclAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

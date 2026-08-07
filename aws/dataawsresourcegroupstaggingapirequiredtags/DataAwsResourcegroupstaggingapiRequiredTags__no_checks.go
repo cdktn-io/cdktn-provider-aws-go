@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsResourcegroupstaggingapiRequiredTags) validateOverride
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsResourcegroupstaggingapiRequiredTags) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsResourcegroupstaggingapiRequiredTags_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

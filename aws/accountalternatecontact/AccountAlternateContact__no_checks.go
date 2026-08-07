@@ -59,6 +59,10 @@ func (a *jsiiProxy_AccountAlternateContact) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_AccountAlternateContact) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccountAlternateContact) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AccountAlternateContact) validateOverrideLogicalIdParameters(
 }
 
 func (a *jsiiProxy_AccountAlternateContact) validatePutTimeoutsParameters(value *AccountAlternateContactTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AccountAlternateContact) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

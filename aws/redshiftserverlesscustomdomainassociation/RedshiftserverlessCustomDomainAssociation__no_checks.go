@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedshiftserverlessCustomDomainAssociation) validateInterpolat
 	return nil
 }
 
+func (r *jsiiProxy_RedshiftserverlessCustomDomainAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedshiftserverlessCustomDomainAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (r *jsiiProxy_RedshiftserverlessCustomDomainAssociation) validateMoveToIdPa
 }
 
 func (r *jsiiProxy_RedshiftserverlessCustomDomainAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedshiftserverlessCustomDomainAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

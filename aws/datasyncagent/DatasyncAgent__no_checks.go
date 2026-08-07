@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncAgent) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncAgent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncAgent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatasyncAgent) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (d *jsiiProxy_DatasyncAgent) validatePutTimeoutsParameters(value *DatasyncAgentTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncAgent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

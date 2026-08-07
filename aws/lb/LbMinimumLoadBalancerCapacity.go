@@ -5,7 +5,7 @@ package lb
 
 
 type LbMinimumLoadBalancerCapacity struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb#capacity_units Lb#capacity_units}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lb#capacity_units Lb#capacity_units}.
 	CapacityUnits *float64 `field:"required" json:"capacityUnits" yaml:"capacityUnits"`
 }
 

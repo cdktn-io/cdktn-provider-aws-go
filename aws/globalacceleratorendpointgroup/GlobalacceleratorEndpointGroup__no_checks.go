@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlobalacceleratorEndpointGroup) validateInterpolationForAttri
 	return nil
 }
 
+func (g *jsiiProxy_GlobalacceleratorEndpointGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlobalacceleratorEndpointGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (g *jsiiProxy_GlobalacceleratorEndpointGroup) validatePutPortOverrideParame
 }
 
 func (g *jsiiProxy_GlobalacceleratorEndpointGroup) validatePutTimeoutsParameters(value *GlobalacceleratorEndpointGroupTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlobalacceleratorEndpointGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

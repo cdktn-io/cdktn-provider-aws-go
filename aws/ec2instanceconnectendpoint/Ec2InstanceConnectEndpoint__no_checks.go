@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2InstanceConnectEndpoint) validateInterpolationForAttribute
 	return nil
 }
 
+func (e *jsiiProxy_Ec2InstanceConnectEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2InstanceConnectEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2InstanceConnectEndpoint) validateOverrideLogicalIdParamete
 }
 
 func (e *jsiiProxy_Ec2InstanceConnectEndpoint) validatePutTimeoutsParameters(value *Ec2InstanceConnectEndpointTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2InstanceConnectEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

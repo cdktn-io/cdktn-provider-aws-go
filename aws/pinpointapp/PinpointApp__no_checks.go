@@ -59,6 +59,10 @@ func (p *jsiiProxy_PinpointApp) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (p *jsiiProxy_PinpointApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PinpointApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (p *jsiiProxy_PinpointApp) validatePutLimitsParameters(value *PinpointAppLi
 }
 
 func (p *jsiiProxy_PinpointApp) validatePutQuietTimeParameters(value *PinpointAppQuietTime) error {
+	return nil
+}
+
+func (p *jsiiProxy_PinpointApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

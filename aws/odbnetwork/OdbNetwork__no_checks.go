@@ -59,6 +59,10 @@ func (o *jsiiProxy_OdbNetwork) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (o *jsiiProxy_OdbNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OdbNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OdbNetwork) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (o *jsiiProxy_OdbNetwork) validatePutTimeoutsParameters(value *OdbNetworkTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OdbNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

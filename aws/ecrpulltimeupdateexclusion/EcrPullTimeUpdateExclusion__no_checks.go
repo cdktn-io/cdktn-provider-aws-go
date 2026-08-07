@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcrPullTimeUpdateExclusion) validateInterpolationForAttribute
 	return nil
 }
 
+func (e *jsiiProxy_EcrPullTimeUpdateExclusion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcrPullTimeUpdateExclusion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_EcrPullTimeUpdateExclusion) validateMoveToIdParameters(id *st
 }
 
 func (e *jsiiProxy_EcrPullTimeUpdateExclusion) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcrPullTimeUpdateExclusion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

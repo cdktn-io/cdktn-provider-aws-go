@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppsyncSourceApiAssociation) validateInterpolationForAttribut
 	return nil
 }
 
+func (a *jsiiProxy_AppsyncSourceApiAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppsyncSourceApiAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppsyncSourceApiAssociation) validatePutSourceApiAssociationC
 }
 
 func (a *jsiiProxy_AppsyncSourceApiAssociation) validatePutTimeoutsParameters(value *AppsyncSourceApiAssociationTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppsyncSourceApiAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

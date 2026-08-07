@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcEndpointPolicy) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (v *jsiiProxy_VpcEndpointPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcEndpointPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcEndpointPolicy) validateOverrideLogicalIdParameters(newLog
 }
 
 func (v *jsiiProxy_VpcEndpointPolicy) validatePutTimeoutsParameters(value *VpcEndpointPolicyTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcEndpointPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

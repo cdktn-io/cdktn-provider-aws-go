@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3FilesSynchronizationConfiguration) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_S3FilesSynchronizationConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3FilesSynchronizationConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_S3FilesSynchronizationConfiguration) validatePutExpirationDat
 }
 
 func (s *jsiiProxy_S3FilesSynchronizationConfiguration) validatePutImportDataRuleParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3FilesSynchronizationConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

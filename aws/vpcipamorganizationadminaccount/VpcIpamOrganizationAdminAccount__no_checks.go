@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) validateInterpolationForAttr
 	return nil
 }
 
+func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) validateMoveToIdParameters(i
 }
 
 func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcIpamOrganizationAdminAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

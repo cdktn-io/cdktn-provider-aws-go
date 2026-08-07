@@ -59,6 +59,10 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStream) validateInterpolationForAttrib
 	return nil
 }
 
+func (k *jsiiProxy_KinesisFirehoseDeliveryStream) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KinesisFirehoseDeliveryStream) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (k *jsiiProxy_KinesisFirehoseDeliveryStream) validatePutSplunkConfiguration
 }
 
 func (k *jsiiProxy_KinesisFirehoseDeliveryStream) validatePutTimeoutsParameters(value *KinesisFirehoseDeliveryStreamTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KinesisFirehoseDeliveryStream) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecuritylakeDataLake) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_SecuritylakeDataLake) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecuritylakeDataLake) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SecuritylakeDataLake) validatePutConfigurationParameters(valu
 }
 
 func (s *jsiiProxy_SecuritylakeDataLake) validatePutTimeoutsParameters(value *SecuritylakeDataLakeTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecuritylakeDataLake) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

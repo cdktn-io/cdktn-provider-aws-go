@@ -5,14 +5,14 @@ package dataawsservicecatalogportfolio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsservicecatalogportfolio/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsservicecatalogportfolio/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/servicecatalog_portfolio aws_servicecatalog_portfolio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/servicecatalog_portfolio aws_servicecatalog_portfolio}.
 type DataAwsServicecatalogPortfolio interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -98,6 +98,19 @@ type DataAwsServicecatalogPortfolio interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataAwsServicecatalogPortfolioTimeouts)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAcceptLanguage()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -424,7 +437,7 @@ func (j *jsiiProxy_DataAwsServicecatalogPortfolio) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/servicecatalog_portfolio aws_servicecatalog_portfolio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/servicecatalog_portfolio aws_servicecatalog_portfolio} Data Source.
 func NewDataAwsServicecatalogPortfolio(scope constructs.Construct, id *string, config *DataAwsServicecatalogPortfolioConfig) DataAwsServicecatalogPortfolio {
 	_init_.Initialize()
 
@@ -442,7 +455,7 @@ func NewDataAwsServicecatalogPortfolio(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/servicecatalog_portfolio aws_servicecatalog_portfolio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/servicecatalog_portfolio aws_servicecatalog_portfolio} Data Source.
 func NewDataAwsServicecatalogPortfolio_Override(d DataAwsServicecatalogPortfolio, scope constructs.Construct, id *string, config *DataAwsServicecatalogPortfolioConfig) {
 	_init_.Initialize()
 
@@ -836,6 +849,17 @@ func (d *jsiiProxy_DataAwsServicecatalogPortfolio) PutTimeouts(value *DataAwsSer
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsServicecatalogPortfolio) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

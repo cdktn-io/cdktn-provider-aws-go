@@ -59,6 +59,10 @@ func (i *jsiiProxy_InternetGateway) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (i *jsiiProxy_InternetGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_InternetGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_InternetGateway) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (i *jsiiProxy_InternetGateway) validatePutTimeoutsParameters(value *InternetGatewayTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_InternetGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

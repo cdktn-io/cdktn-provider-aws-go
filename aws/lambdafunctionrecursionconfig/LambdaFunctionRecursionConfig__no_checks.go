@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaFunctionRecursionConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (l *jsiiProxy_LambdaFunctionRecursionConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaFunctionRecursionConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (l *jsiiProxy_LambdaFunctionRecursionConfig) validateMoveToIdParameters(id 
 }
 
 func (l *jsiiProxy_LambdaFunctionRecursionConfig) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaFunctionRecursionConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

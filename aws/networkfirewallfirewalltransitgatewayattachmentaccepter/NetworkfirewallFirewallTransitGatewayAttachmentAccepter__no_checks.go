@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) vali
 	return nil
 }
 
+func (n *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) vali
 }
 
 func (n *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) validatePutTimeoutsParameters(value *NetworkfirewallFirewallTransitGatewayAttachmentAccepterTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallTransitGatewayAttachmentAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

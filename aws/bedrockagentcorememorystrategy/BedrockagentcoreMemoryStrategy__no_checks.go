@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateInterpolationForAttri
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -79,7 +83,15 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutConfigurationParam
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutReflectionConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutTimeoutsParameters(value *BedrockagentcoreMemoryStrategyTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -128,6 +140,10 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) validateSetNameParameters(val
 }
 
 func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) validateSetNamespacesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) validateSetNamespaceTemplatesParameters(val *[]*string) error {
 	return nil
 }
 

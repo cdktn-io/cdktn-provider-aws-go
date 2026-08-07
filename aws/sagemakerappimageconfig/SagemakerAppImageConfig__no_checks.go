@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerAppImageConfig) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerAppImageConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerAppImageConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SagemakerAppImageConfig) validatePutJupyterLabImageConfigPara
 }
 
 func (s *jsiiProxy_SagemakerAppImageConfig) validatePutKernelGatewayImageConfigParameters(value *SagemakerAppImageConfigKernelGatewayImageConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerAppImageConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

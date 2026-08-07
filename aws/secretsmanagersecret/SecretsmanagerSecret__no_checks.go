@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecretsmanagerSecret) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_SecretsmanagerSecret) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecretsmanagerSecret) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SecretsmanagerSecret) validateOverrideLogicalIdParameters(new
 }
 
 func (s *jsiiProxy_SecretsmanagerSecret) validatePutReplicaParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecretsmanagerSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -152,6 +160,10 @@ func (j *jsiiProxy_SecretsmanagerSecret) validateSetTagsParameters(val *map[stri
 }
 
 func (j *jsiiProxy_SecretsmanagerSecret) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecretsmanagerSecret) validateSetTypeParameters(val *string) error {
 	return nil
 }
 

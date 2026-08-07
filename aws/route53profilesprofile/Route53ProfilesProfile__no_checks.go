@@ -59,6 +59,10 @@ func (r *jsiiProxy_Route53ProfilesProfile) validateInterpolationForAttributePara
 	return nil
 }
 
+func (r *jsiiProxy_Route53ProfilesProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Route53ProfilesProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_Route53ProfilesProfile) validateOverrideLogicalIdParameters(n
 }
 
 func (r *jsiiProxy_Route53ProfilesProfile) validatePutTimeoutsParameters(value *Route53ProfilesProfileTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_Route53ProfilesProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

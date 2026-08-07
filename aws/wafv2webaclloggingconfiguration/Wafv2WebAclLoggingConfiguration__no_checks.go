@@ -59,6 +59,10 @@ func (w *jsiiProxy_Wafv2WebAclLoggingConfiguration) validateInterpolationForAttr
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAclLoggingConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2WebAclLoggingConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (w *jsiiProxy_Wafv2WebAclLoggingConfiguration) validatePutLoggingFilterPara
 }
 
 func (w *jsiiProxy_Wafv2WebAclLoggingConfiguration) validatePutRedactedFieldsParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_Wafv2WebAclLoggingConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

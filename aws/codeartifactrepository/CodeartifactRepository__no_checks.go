@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodeartifactRepository) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_CodeartifactRepository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodeartifactRepository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CodeartifactRepository) validatePutExternalConnectionsParamet
 }
 
 func (c *jsiiProxy_CodeartifactRepository) validatePutUpstreamParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodeartifactRepository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

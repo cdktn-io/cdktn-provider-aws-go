@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrcontainersVirtualCluster) validateInterpolationForAttribut
 	return nil
 }
 
+func (e *jsiiProxy_EmrcontainersVirtualCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrcontainersVirtualCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EmrcontainersVirtualCluster) validatePutContainerProviderPara
 }
 
 func (e *jsiiProxy_EmrcontainersVirtualCluster) validatePutTimeoutsParameters(value *EmrcontainersVirtualClusterTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrcontainersVirtualCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

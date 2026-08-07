@@ -59,6 +59,10 @@ func (a *jsiiProxy_Apigatewayv2Integration) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_Apigatewayv2Integration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_Apigatewayv2Integration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_Apigatewayv2Integration) validatePutResponseParametersParamet
 }
 
 func (a *jsiiProxy_Apigatewayv2Integration) validatePutTlsConfigParameters(value *Apigatewayv2IntegrationTlsConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_Apigatewayv2Integration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

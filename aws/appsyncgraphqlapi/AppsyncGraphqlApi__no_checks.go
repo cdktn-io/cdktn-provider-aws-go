@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppsyncGraphqlApi) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (a *jsiiProxy_AppsyncGraphqlApi) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppsyncGraphqlApi) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (a *jsiiProxy_AppsyncGraphqlApi) validatePutOpenidConnectConfigParameters(v
 }
 
 func (a *jsiiProxy_AppsyncGraphqlApi) validatePutUserPoolConfigParameters(value *AppsyncGraphqlApiUserPoolConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppsyncGraphqlApi) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

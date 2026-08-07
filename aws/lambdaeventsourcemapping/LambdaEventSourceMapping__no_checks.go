@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaEventSourceMapping) validateInterpolationForAttributePa
 	return nil
 }
 
+func (l *jsiiProxy_LambdaEventSourceMapping) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaEventSourceMapping) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (l *jsiiProxy_LambdaEventSourceMapping) validatePutSourceAccessConfiguratio
 }
 
 func (l *jsiiProxy_LambdaEventSourceMapping) validatePutTimeoutsParameters(value *LambdaEventSourceMappingTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaEventSourceMapping) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

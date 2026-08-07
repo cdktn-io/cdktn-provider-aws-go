@@ -59,6 +59,10 @@ func (w *jsiiProxy_WafSizeConstraintSet) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (w *jsiiProxy_WafSizeConstraintSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WafSizeConstraintSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WafSizeConstraintSet) validateOverrideLogicalIdParameters(new
 }
 
 func (w *jsiiProxy_WafSizeConstraintSet) validatePutSizeConstraintsParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WafSizeConstraintSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

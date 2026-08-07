@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrInstanceFleet) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (e *jsiiProxy_EmrInstanceFleet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrInstanceFleet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EmrInstanceFleet) validatePutInstanceTypeConfigsParameters(va
 }
 
 func (e *jsiiProxy_EmrInstanceFleet) validatePutLaunchSpecificationsParameters(value *EmrInstanceFleetLaunchSpecifications) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrInstanceFleet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

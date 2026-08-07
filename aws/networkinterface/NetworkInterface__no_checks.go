@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkInterface) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (n *jsiiProxy_NetworkInterface) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkInterface) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetworkInterface) validatePutAttachmentParameters(value inter
 }
 
 func (n *jsiiProxy_NetworkInterface) validatePutEnaSrdSpecificationParameters(value *NetworkInterfaceEnaSrdSpecification) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkInterface) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

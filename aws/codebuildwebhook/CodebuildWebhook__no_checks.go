@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodebuildWebhook) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_CodebuildWebhook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodebuildWebhook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CodebuildWebhook) validatePutPullRequestBuildPolicyParameters
 }
 
 func (c *jsiiProxy_CodebuildWebhook) validatePutScopeConfigurationParameters(value *CodebuildWebhookScopeConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodebuildWebhook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

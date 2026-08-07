@@ -59,6 +59,10 @@ func (q *jsiiProxy_QuicksightDataSet) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightDataSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightDataSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (q *jsiiProxy_QuicksightDataSet) validatePutRowLevelPermissionDataSetParame
 }
 
 func (q *jsiiProxy_QuicksightDataSet) validatePutRowLevelPermissionTagConfigurationParameters(value *QuicksightDataSetRowLevelPermissionTagConfiguration) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

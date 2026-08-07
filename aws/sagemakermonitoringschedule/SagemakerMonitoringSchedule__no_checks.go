@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerMonitoringSchedule) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerMonitoringSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerMonitoringSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SagemakerMonitoringSchedule) validateOverrideLogicalIdParamet
 }
 
 func (s *jsiiProxy_SagemakerMonitoringSchedule) validatePutMonitoringScheduleConfigParameters(value *SagemakerMonitoringScheduleMonitoringScheduleConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerMonitoringSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

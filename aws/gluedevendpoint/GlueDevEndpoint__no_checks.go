@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueDevEndpoint) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (g *jsiiProxy_GlueDevEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueDevEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GlueDevEndpoint) validateMoveToIdParameters(id *string) error
 }
 
 func (g *jsiiProxy_GlueDevEndpoint) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueDevEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudwatchEventTarget) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchEventTarget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchEventTarget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (c *jsiiProxy_CloudwatchEventTarget) validatePutSagemakerPipelineTargetPara
 }
 
 func (c *jsiiProxy_CloudwatchEventTarget) validatePutSqsTargetParameters(value *CloudwatchEventTargetSqsTarget) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchEventTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

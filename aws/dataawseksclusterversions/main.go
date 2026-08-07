@@ -48,6 +48,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClusterType", GoMethod: "ResetClusterType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClusterVersionsOnly", GoMethod: "ResetClusterVersionsOnly"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDefaultOnly", GoMethod: "ResetDefaultOnly"},

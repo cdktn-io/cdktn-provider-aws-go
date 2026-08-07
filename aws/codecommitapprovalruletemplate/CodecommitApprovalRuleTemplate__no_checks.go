@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodecommitApprovalRuleTemplate) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_CodecommitApprovalRuleTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodecommitApprovalRuleTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CodecommitApprovalRuleTemplate) validateMoveToIdParameters(id
 }
 
 func (c *jsiiProxy_CodecommitApprovalRuleTemplate) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodecommitApprovalRuleTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

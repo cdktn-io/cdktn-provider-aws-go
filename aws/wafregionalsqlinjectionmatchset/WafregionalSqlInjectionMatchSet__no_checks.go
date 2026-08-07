@@ -59,6 +59,10 @@ func (w *jsiiProxy_WafregionalSqlInjectionMatchSet) validateInterpolationForAttr
 	return nil
 }
 
+func (w *jsiiProxy_WafregionalSqlInjectionMatchSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WafregionalSqlInjectionMatchSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WafregionalSqlInjectionMatchSet) validateOverrideLogicalIdPar
 }
 
 func (w *jsiiProxy_WafregionalSqlInjectionMatchSet) validatePutSqlInjectionMatchTupleParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WafregionalSqlInjectionMatchSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

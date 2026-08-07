@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkfirewallFirewall) validateInterpolationForAttributePar
 	return nil
 }
 
+func (n *jsiiProxy_NetworkfirewallFirewall) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkfirewallFirewall) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (n *jsiiProxy_NetworkfirewallFirewall) validatePutSubnetMappingParameters(v
 }
 
 func (n *jsiiProxy_NetworkfirewallFirewall) validatePutTimeoutsParameters(value *NetworkfirewallFirewallTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

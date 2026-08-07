@@ -58,6 +58,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "rejectedPatches", GoGetter: "RejectedPatches"},
 			_jsii_.MemberProperty{JsiiProperty: "rejectedPatchesAction", GoGetter: "RejectedPatchesAction"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDefaultBaseline", GoMethod: "ResetDefaultBaseline"},

@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticacheReservedCacheNode) validateInterpolationForAttribu
 	return nil
 }
 
+func (e *jsiiProxy_ElasticacheReservedCacheNode) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticacheReservedCacheNode) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_ElasticacheReservedCacheNode) validateOverrideLogicalIdParame
 }
 
 func (e *jsiiProxy_ElasticacheReservedCacheNode) validatePutTimeoutsParameters(value *ElasticacheReservedCacheNodeTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticacheReservedCacheNode) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (n *jsiiProxy_NatGateway) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (n *jsiiProxy_NatGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NatGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NatGateway) validatePutAvailabilityZoneAddressParameters(valu
 }
 
 func (n *jsiiProxy_NatGateway) validatePutTimeoutsParameters(value *NatGatewayTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NatGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

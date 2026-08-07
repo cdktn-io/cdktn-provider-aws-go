@@ -59,6 +59,10 @@ func (t *jsiiProxy_TranscribeVocabularyFilter) validateInterpolationForAttribute
 	return nil
 }
 
+func (t *jsiiProxy_TranscribeVocabularyFilter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TranscribeVocabularyFilter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (t *jsiiProxy_TranscribeVocabularyFilter) validateMoveToIdParameters(id *st
 }
 
 func (t *jsiiProxy_TranscribeVocabularyFilter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TranscribeVocabularyFilter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

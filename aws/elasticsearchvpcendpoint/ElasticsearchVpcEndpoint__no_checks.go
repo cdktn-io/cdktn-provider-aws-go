@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticsearchVpcEndpoint) validateInterpolationForAttributePa
 	return nil
 }
 
+func (e *jsiiProxy_ElasticsearchVpcEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticsearchVpcEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ElasticsearchVpcEndpoint) validatePutTimeoutsParameters(value
 }
 
 func (e *jsiiProxy_ElasticsearchVpcEndpoint) validatePutVpcOptionsParameters(value *ElasticsearchVpcEndpointVpcOptions) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticsearchVpcEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

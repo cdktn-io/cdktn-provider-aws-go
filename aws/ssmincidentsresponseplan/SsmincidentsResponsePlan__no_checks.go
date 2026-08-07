@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsmincidentsResponsePlan) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_SsmincidentsResponsePlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsmincidentsResponsePlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SsmincidentsResponsePlan) validatePutIncidentTemplateParamete
 }
 
 func (s *jsiiProxy_SsmincidentsResponsePlan) validatePutIntegrationParameters(value *SsmincidentsResponsePlanIntegration) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsmincidentsResponsePlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppautoscalingPolicy) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_AppautoscalingPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppautoscalingPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AppautoscalingPolicy) validatePutStepScalingPolicyConfigurati
 }
 
 func (a *jsiiProxy_AppautoscalingPolicy) validatePutTargetTrackingScalingPolicyConfigurationParameters(value *AppautoscalingPolicyTargetTrackingScalingPolicyConfiguration) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppautoscalingPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

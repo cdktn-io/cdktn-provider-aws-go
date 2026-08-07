@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateInterpolationForA
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateOverrideLogicalId
 }
 
 func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validatePutProtocolParameters(value *DatasyncLocationFsxOntapFileSystemProtocol) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncLocationFsxOntapFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

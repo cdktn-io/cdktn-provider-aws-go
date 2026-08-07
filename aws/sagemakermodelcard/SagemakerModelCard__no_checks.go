@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerModelCard) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerModelCard) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerModelCard) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SagemakerModelCard) validatePutSecurityConfigParameters(value
 }
 
 func (s *jsiiProxy_SagemakerModelCard) validatePutTimeoutsParameters(value *SagemakerModelCardTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelCard) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

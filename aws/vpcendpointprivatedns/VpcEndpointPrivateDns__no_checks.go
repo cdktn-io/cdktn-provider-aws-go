@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcEndpointPrivateDns) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (v *jsiiProxy_VpcEndpointPrivateDns) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcEndpointPrivateDns) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VpcEndpointPrivateDns) validateMoveToIdParameters(id *string)
 }
 
 func (v *jsiiProxy_VpcEndpointPrivateDns) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcEndpointPrivateDns) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

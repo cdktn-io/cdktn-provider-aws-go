@@ -122,6 +122,14 @@ func (w *jsiiProxy_Wafv2RegexPatternSet) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2RegexPatternSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2RegexPatternSet) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (w *jsiiProxy_Wafv2RegexPatternSet) validatePutRegularExpressionParameters(
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2RegexPatternSetRegularExpression; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_Wafv2RegexPatternSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

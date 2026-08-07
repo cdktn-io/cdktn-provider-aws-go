@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkmailOrganization) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (w *jsiiProxy_WorkmailOrganization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkmailOrganization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WorkmailOrganization) validateOverrideLogicalIdParameters(new
 }
 
 func (w *jsiiProxy_WorkmailOrganization) validatePutTimeoutsParameters(value *WorkmailOrganizationTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkmailOrganization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

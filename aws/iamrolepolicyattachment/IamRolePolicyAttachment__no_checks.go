@@ -59,6 +59,10 @@ func (i *jsiiProxy_IamRolePolicyAttachment) validateInterpolationForAttributePar
 	return nil
 }
 
+func (i *jsiiProxy_IamRolePolicyAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IamRolePolicyAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (i *jsiiProxy_IamRolePolicyAttachment) validateMoveToIdParameters(id *strin
 }
 
 func (i *jsiiProxy_IamRolePolicyAttachment) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamRolePolicyAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

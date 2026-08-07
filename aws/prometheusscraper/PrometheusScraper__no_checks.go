@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrometheusScraper) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusScraper) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusScraper) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (p *jsiiProxy_PrometheusScraper) validatePutSourceParameters(value interfac
 }
 
 func (p *jsiiProxy_PrometheusScraper) validatePutTimeoutsParameters(value *PrometheusScraperTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrometheusScraper) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

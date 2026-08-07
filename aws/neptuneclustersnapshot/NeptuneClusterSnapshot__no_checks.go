@@ -59,6 +59,10 @@ func (n *jsiiProxy_NeptuneClusterSnapshot) validateInterpolationForAttributePara
 	return nil
 }
 
+func (n *jsiiProxy_NeptuneClusterSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NeptuneClusterSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NeptuneClusterSnapshot) validateOverrideLogicalIdParameters(n
 }
 
 func (n *jsiiProxy_NeptuneClusterSnapshot) validatePutTimeoutsParameters(value *NeptuneClusterSnapshotTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneClusterSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

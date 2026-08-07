@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerFlowDefinition) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerFlowDefinition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerFlowDefinition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SagemakerFlowDefinition) validatePutHumanLoopRequestSourcePar
 }
 
 func (s *jsiiProxy_SagemakerFlowDefinition) validatePutOutputConfigParameters(value *SagemakerFlowDefinitionOutputConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerFlowDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

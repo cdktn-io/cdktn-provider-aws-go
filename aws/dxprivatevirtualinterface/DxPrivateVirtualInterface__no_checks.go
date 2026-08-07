@@ -59,6 +59,10 @@ func (d *jsiiProxy_DxPrivateVirtualInterface) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DxPrivateVirtualInterface) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DxPrivateVirtualInterface) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DxPrivateVirtualInterface) validateOverrideLogicalIdParameter
 }
 
 func (d *jsiiProxy_DxPrivateVirtualInterface) validatePutTimeoutsParameters(value *DxPrivateVirtualInterfaceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DxPrivateVirtualInterface) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

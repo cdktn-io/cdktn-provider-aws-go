@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevopsguruNotificationChannel) validateInterpolationForAttrib
 	return nil
 }
 
+func (d *jsiiProxy_DevopsguruNotificationChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevopsguruNotificationChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DevopsguruNotificationChannel) validatePutFiltersParameters(v
 }
 
 func (d *jsiiProxy_DevopsguruNotificationChannel) validatePutSnsParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevopsguruNotificationChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

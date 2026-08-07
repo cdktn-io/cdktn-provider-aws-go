@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcEndpointServicePrivateDnsVerification) validateInterpolati
 	return nil
 }
 
+func (v *jsiiProxy_VpcEndpointServicePrivateDnsVerification) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcEndpointServicePrivateDnsVerification) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcEndpointServicePrivateDnsVerification) validateOverrideLog
 }
 
 func (v *jsiiProxy_VpcEndpointServicePrivateDnsVerification) validatePutTimeoutsParameters(value *VpcEndpointServicePrivateDnsVerificationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcEndpointServicePrivateDnsVerification) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

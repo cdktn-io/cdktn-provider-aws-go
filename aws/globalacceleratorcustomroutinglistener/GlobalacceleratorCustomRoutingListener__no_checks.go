@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingListener) validateInterpolation
 	return nil
 }
 
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingListener) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlobalacceleratorCustomRoutingListener) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GlobalacceleratorCustomRoutingListener) validatePutPortRangeP
 }
 
 func (g *jsiiProxy_GlobalacceleratorCustomRoutingListener) validatePutTimeoutsParameters(value *GlobalacceleratorCustomRoutingListenerTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlobalacceleratorCustomRoutingListener) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

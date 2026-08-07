@@ -59,6 +59,10 @@ func (i *jsiiProxy_IotThingGroupMembership) validateInterpolationForAttributePar
 	return nil
 }
 
+func (i *jsiiProxy_IotThingGroupMembership) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotThingGroupMembership) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (i *jsiiProxy_IotThingGroupMembership) validateMoveToIdParameters(id *strin
 }
 
 func (i *jsiiProxy_IotThingGroupMembership) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotThingGroupMembership) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

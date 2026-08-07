@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrometheusWorkspaceConfiguration) validateInterpolationForAtt
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusWorkspaceConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusWorkspaceConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PrometheusWorkspaceConfiguration) validatePutLimitsPerLabelSe
 }
 
 func (p *jsiiProxy_PrometheusWorkspaceConfiguration) validatePutTimeoutsParameters(value *PrometheusWorkspaceConfigurationTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrometheusWorkspaceConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

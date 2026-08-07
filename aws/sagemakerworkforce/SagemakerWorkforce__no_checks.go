@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerWorkforce) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerWorkforce) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerWorkforce) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SagemakerWorkforce) validatePutSourceIpConfigParameters(value
 }
 
 func (s *jsiiProxy_SagemakerWorkforce) validatePutWorkforceVpcConfigParameters(value *SagemakerWorkforceWorkforceVpcConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerWorkforce) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

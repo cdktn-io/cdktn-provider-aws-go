@@ -59,6 +59,10 @@ func (c *jsiiProxy_CleanroomsMembership) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_CleanroomsMembership) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CleanroomsMembership) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CleanroomsMembership) validatePutDefaultResultConfigurationPa
 }
 
 func (c *jsiiProxy_CleanroomsMembership) validatePutPaymentConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CleanroomsMembership) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

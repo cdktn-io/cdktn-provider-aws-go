@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitoRiskConfiguration) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_CognitoRiskConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitoRiskConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CognitoRiskConfiguration) validatePutCompromisedCredentialsRi
 }
 
 func (c *jsiiProxy_CognitoRiskConfiguration) validatePutRiskExceptionConfigurationParameters(value *CognitoRiskConfigurationRiskExceptionConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitoRiskConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

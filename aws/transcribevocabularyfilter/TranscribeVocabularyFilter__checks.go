@@ -122,6 +122,14 @@ func (t *jsiiProxy_TranscribeVocabularyFilter) validateInterpolationForAttribute
 	return nil
 }
 
+func (t *jsiiProxy_TranscribeVocabularyFilter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (t *jsiiProxy_TranscribeVocabularyFilter) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (t *jsiiProxy_TranscribeVocabularyFilter) validateMoveToIdParameters(id *st
 func (t *jsiiProxy_TranscribeVocabularyFilter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (t *jsiiProxy_TranscribeVocabularyFilter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

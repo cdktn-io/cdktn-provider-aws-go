@@ -59,6 +59,10 @@ func (d *jsiiProxy_DirectoryServiceTrust) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (d *jsiiProxy_DirectoryServiceTrust) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DirectoryServiceTrust) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DirectoryServiceTrust) validateMoveToIdParameters(id *string)
 }
 
 func (d *jsiiProxy_DirectoryServiceTrust) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DirectoryServiceTrust) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrInstanceGroup) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (e *jsiiProxy_EmrInstanceGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrInstanceGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EmrInstanceGroup) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (e *jsiiProxy_EmrInstanceGroup) validatePutEbsConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrInstanceGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dataawsbillingviews
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsbillingviews/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsbillingviews/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/billing_views aws_billing_views}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/billing_views aws_billing_views}.
 type DataAwsBillingViews interface {
 	cdktn.TerraformDataSource
 	BillingView() DataAwsBillingViewsBillingViewList
@@ -82,6 +82,19 @@ type DataAwsBillingViews interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetBillingViewTypes()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -285,7 +298,7 @@ func (j *jsiiProxy_DataAwsBillingViews) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/billing_views aws_billing_views} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/billing_views aws_billing_views} Data Source.
 func NewDataAwsBillingViews(scope constructs.Construct, id *string, config *DataAwsBillingViewsConfig) DataAwsBillingViews {
 	_init_.Initialize()
 
@@ -303,7 +316,7 @@ func NewDataAwsBillingViews(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/billing_views aws_billing_views} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/billing_views aws_billing_views} Data Source.
 func NewDataAwsBillingViews_Override(d DataAwsBillingViews, scope constructs.Construct, id *string, config *DataAwsBillingViewsConfig) {
 	_init_.Initialize()
 
@@ -653,6 +666,17 @@ func (d *jsiiProxy_DataAwsBillingViews) OverrideLogicalId(newLogicalId *string) 
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsBillingViews) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DirectoryServiceRadiusSettings) validateInterpolationForAttri
 	return nil
 }
 
+func (d *jsiiProxy_DirectoryServiceRadiusSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DirectoryServiceRadiusSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DirectoryServiceRadiusSettings) validateOverrideLogicalIdPara
 }
 
 func (d *jsiiProxy_DirectoryServiceRadiusSettings) validatePutTimeoutsParameters(value *DirectoryServiceRadiusSettingsTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DirectoryServiceRadiusSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlbListener) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (a *jsiiProxy_AlbListener) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlbListener) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_AlbListener) validatePutMutualAuthenticationParameters(value 
 }
 
 func (a *jsiiProxy_AlbListener) validatePutTimeoutsParameters(value *AlbListenerTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlbListener) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

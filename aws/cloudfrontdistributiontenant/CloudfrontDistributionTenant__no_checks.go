@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontDistributionTenant) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontDistributionTenant) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontDistributionTenant) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (c *jsiiProxy_CloudfrontDistributionTenant) validatePutParameterParameters(
 }
 
 func (c *jsiiProxy_CloudfrontDistributionTenant) validatePutTimeoutsParameters(value *CloudfrontDistributionTenantTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontDistributionTenant) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

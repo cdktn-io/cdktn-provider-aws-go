@@ -59,6 +59,10 @@ func (q *jsiiProxy_QuicksightIngestion) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightIngestion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightIngestion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (q *jsiiProxy_QuicksightIngestion) validateMoveToIdParameters(id *string) e
 }
 
 func (q *jsiiProxy_QuicksightIngestion) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightIngestion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

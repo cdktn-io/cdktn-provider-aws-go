@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsRedshiftClusterCredentials) validateOverrideLogicalIdP
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRedshiftClusterCredentials) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRedshiftClusterCredentials_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

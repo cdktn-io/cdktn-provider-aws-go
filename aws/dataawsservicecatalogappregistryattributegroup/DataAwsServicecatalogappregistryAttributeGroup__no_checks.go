@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) validateOverr
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsServicecatalogappregistryAttributeGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsServicecatalogappregistryAttributeGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

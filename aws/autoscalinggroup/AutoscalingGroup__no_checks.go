@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutoscalingGroup) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (a *jsiiProxy_AutoscalingGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutoscalingGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (a *jsiiProxy_AutoscalingGroup) validatePutTrafficSourceParameters(value in
 }
 
 func (a *jsiiProxy_AutoscalingGroup) validatePutWarmPoolParameters(value *AutoscalingGroupWarmPool) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutoscalingGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

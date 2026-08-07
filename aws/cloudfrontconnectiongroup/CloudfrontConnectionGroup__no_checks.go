@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontConnectionGroup) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontConnectionGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontConnectionGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudfrontConnectionGroup) validateOverrideLogicalIdParameter
 }
 
 func (c *jsiiProxy_CloudfrontConnectionGroup) validatePutTimeoutsParameters(value *CloudfrontConnectionGroupTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontConnectionGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_Codepipeline) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (c *jsiiProxy_Codepipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_Codepipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_Codepipeline) validatePutTriggerParameters(value interface{})
 }
 
 func (c *jsiiProxy_Codepipeline) validatePutVariableParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_Codepipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

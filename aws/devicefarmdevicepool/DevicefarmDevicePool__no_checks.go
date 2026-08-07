@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevicefarmDevicePool) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (d *jsiiProxy_DevicefarmDevicePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevicefarmDevicePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DevicefarmDevicePool) validateOverrideLogicalIdParameters(new
 }
 
 func (d *jsiiProxy_DevicefarmDevicePool) validatePutRuleParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevicefarmDevicePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

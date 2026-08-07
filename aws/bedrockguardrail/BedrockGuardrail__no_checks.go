@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockGuardrail) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (b *jsiiProxy_BedrockGuardrail) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockGuardrail) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (b *jsiiProxy_BedrockGuardrail) validatePutTopicPolicyConfigParameters(valu
 }
 
 func (b *jsiiProxy_BedrockGuardrail) validatePutWordPolicyConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockGuardrail) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

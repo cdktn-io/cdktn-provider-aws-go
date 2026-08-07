@@ -59,6 +59,10 @@ func (r *jsiiProxy_RamResourceShare) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (r *jsiiProxy_RamResourceShare) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RamResourceShare) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RamResourceShare) validatePutResourceShareConfigurationParame
 }
 
 func (r *jsiiProxy_RamResourceShare) validatePutTimeoutsParameters(value *RamResourceShareTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RamResourceShare) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

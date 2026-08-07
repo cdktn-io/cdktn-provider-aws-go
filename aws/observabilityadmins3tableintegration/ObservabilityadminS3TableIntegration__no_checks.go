@@ -59,6 +59,10 @@ func (o *jsiiProxy_ObservabilityadminS3TableIntegration) validateInterpolationFo
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminS3TableIntegration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminS3TableIntegration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_ObservabilityadminS3TableIntegration) validatePutEncryptionPa
 }
 
 func (o *jsiiProxy_ObservabilityadminS3TableIntegration) validatePutTimeoutsParameters(value *ObservabilityadminS3TableIntegrationTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_ObservabilityadminS3TableIntegration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

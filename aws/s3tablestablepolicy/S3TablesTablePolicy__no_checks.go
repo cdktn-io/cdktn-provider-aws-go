@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3TablesTablePolicy) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (s *jsiiProxy_S3TablesTablePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3TablesTablePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_S3TablesTablePolicy) validateMoveToIdParameters(id *string) e
 }
 
 func (s *jsiiProxy_S3TablesTablePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3TablesTablePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

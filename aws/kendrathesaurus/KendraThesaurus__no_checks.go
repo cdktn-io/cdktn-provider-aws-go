@@ -59,6 +59,10 @@ func (k *jsiiProxy_KendraThesaurus) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (k *jsiiProxy_KendraThesaurus) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KendraThesaurus) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KendraThesaurus) validatePutSourceS3PathParameters(value *Ken
 }
 
 func (k *jsiiProxy_KendraThesaurus) validatePutTimeoutsParameters(value *KendraThesaurusTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraThesaurus) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

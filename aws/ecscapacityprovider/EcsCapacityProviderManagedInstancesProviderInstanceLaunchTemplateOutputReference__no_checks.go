@@ -47,7 +47,15 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	return nil
 }
 
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) validatePutCapacityReservationsParameters(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) validatePutInstanceRequirementsParameters(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) validatePutLocalStorageConfigurationParameters(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration) error {
 	return nil
 }
 

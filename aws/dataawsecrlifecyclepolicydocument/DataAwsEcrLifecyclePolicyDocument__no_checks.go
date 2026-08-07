@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) validatePutRuleParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEcrLifecyclePolicyDocument) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEcrLifecyclePolicyDocument_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

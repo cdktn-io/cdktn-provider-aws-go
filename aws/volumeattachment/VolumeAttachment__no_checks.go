@@ -59,6 +59,10 @@ func (v *jsiiProxy_VolumeAttachment) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (v *jsiiProxy_VolumeAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VolumeAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VolumeAttachment) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (v *jsiiProxy_VolumeAttachment) validatePutTimeoutsParameters(value *VolumeAttachmentTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VolumeAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

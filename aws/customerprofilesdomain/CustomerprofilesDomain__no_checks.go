@@ -59,6 +59,10 @@ func (c *jsiiProxy_CustomerprofilesDomain) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_CustomerprofilesDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CustomerprofilesDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CustomerprofilesDomain) validatePutMatchingParameters(value *
 }
 
 func (c *jsiiProxy_CustomerprofilesDomain) validatePutRuleBasedMatchingParameters(value *CustomerprofilesDomainRuleBasedMatching) error {
+	return nil
+}
+
+func (c *jsiiProxy_CustomerprofilesDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

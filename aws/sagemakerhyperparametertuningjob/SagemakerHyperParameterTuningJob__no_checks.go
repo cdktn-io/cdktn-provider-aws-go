@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerHyperParameterTuningJob) validateInterpolationForAtt
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerHyperParameterTuningJob) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerHyperParameterTuningJob) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (s *jsiiProxy_SagemakerHyperParameterTuningJob) validatePutTrainingJobDefin
 }
 
 func (s *jsiiProxy_SagemakerHyperParameterTuningJob) validatePutWarmStartConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerHyperParameterTuningJob) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

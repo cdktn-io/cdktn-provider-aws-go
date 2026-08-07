@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbTrustStoreRevocation) validateInterpolationForAttributePara
 	return nil
 }
 
+func (l *jsiiProxy_LbTrustStoreRevocation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbTrustStoreRevocation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LbTrustStoreRevocation) validateOverrideLogicalIdParameters(n
 }
 
 func (l *jsiiProxy_LbTrustStoreRevocation) validatePutTimeoutsParameters(value *LbTrustStoreRevocationTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbTrustStoreRevocation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

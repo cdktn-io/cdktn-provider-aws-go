@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsoadminRegion) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_SsoadminRegion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsoadminRegion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SsoadminRegion) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (s *jsiiProxy_SsoadminRegion) validatePutTimeoutsParameters(value *SsoadminRegionTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsoadminRegion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

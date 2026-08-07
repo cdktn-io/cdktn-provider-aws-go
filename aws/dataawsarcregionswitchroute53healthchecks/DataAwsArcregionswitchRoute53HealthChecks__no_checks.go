@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecks) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsArcregionswitchRoute53HealthChecks) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsArcregionswitchRoute53HealthChecks_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

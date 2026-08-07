@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateInterpolati
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateOverrideLog
 }
 
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validatePutTimeoutsParameters(value *NetworkmanagerTransitGatewayRegistrationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerTransitGatewayRegistration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

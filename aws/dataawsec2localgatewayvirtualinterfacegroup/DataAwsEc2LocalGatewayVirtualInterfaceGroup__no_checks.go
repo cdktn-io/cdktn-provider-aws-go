@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroup) validatePutTimeo
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2LocalGatewayVirtualInterfaceGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2LocalGatewayVirtualInterfaceGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

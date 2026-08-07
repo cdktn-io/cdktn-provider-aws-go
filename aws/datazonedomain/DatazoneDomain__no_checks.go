@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatazoneDomain) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (d *jsiiProxy_DatazoneDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatazoneDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DatazoneDomain) validatePutSingleSignOnParameters(value inter
 }
 
 func (d *jsiiProxy_DatazoneDomain) validatePutTimeoutsParameters(value *DatazoneDomainTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatazoneDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DlmLifecyclePolicy) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (d *jsiiProxy_DlmLifecyclePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DlmLifecyclePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DlmLifecyclePolicy) validateOverrideLogicalIdParameters(newLo
 }
 
 func (d *jsiiProxy_DlmLifecyclePolicy) validatePutPolicyDetailsParameters(value *DlmLifecyclePolicyPolicyDetails) error {
+	return nil
+}
+
+func (d *jsiiProxy_DlmLifecyclePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

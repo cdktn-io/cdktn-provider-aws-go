@@ -59,6 +59,10 @@ func (t *jsiiProxy_TranscribeMedicalVocabulary) validateInterpolationForAttribut
 	return nil
 }
 
+func (t *jsiiProxy_TranscribeMedicalVocabulary) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TranscribeMedicalVocabulary) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (t *jsiiProxy_TranscribeMedicalVocabulary) validateOverrideLogicalIdParamet
 }
 
 func (t *jsiiProxy_TranscribeMedicalVocabulary) validatePutTimeoutsParameters(value *TranscribeMedicalVocabularyTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TranscribeMedicalVocabulary) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

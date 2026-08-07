@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3FilesFileSystem) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_S3FilesFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3FilesFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3FilesFileSystem) validateOverrideLogicalIdParameters(newLog
 }
 
 func (s *jsiiProxy_S3FilesFileSystem) validatePutTimeoutsParameters(value *S3FilesFileSystemTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3FilesFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

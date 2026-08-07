@@ -59,6 +59,10 @@ func (o *jsiiProxy_OamLink) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (o *jsiiProxy_OamLink) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OamLink) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OamLink) validatePutLinkConfigurationParameters(value *OamLin
 }
 
 func (o *jsiiProxy_OamLink) validatePutTimeoutsParameters(value *OamLinkTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OamLink) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

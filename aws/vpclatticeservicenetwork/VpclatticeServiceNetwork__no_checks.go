@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpclatticeServiceNetwork) validateInterpolationForAttributePa
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeServiceNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeServiceNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VpclatticeServiceNetwork) validateMoveToIdParameters(id *stri
 }
 
 func (v *jsiiProxy_VpclatticeServiceNetwork) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpclatticeServiceNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

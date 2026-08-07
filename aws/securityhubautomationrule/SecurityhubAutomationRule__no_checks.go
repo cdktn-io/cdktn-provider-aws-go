@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecurityhubAutomationRule) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_SecurityhubAutomationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecurityhubAutomationRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SecurityhubAutomationRule) validatePutActionsParameters(value
 }
 
 func (s *jsiiProxy_SecurityhubAutomationRule) validatePutCriteriaParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubAutomationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

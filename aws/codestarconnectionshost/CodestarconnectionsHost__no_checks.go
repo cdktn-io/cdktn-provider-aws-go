@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodestarconnectionsHost) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_CodestarconnectionsHost) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodestarconnectionsHost) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CodestarconnectionsHost) validatePutTimeoutsParameters(value 
 }
 
 func (c *jsiiProxy_CodestarconnectionsHost) validatePutVpcConfigurationParameters(value *CodestarconnectionsHostVpcConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodestarconnectionsHost) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

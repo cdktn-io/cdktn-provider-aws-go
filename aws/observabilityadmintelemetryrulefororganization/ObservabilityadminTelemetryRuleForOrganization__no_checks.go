@@ -59,6 +59,10 @@ func (o *jsiiProxy_ObservabilityadminTelemetryRuleForOrganization) validateInter
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleForOrganization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminTelemetryRuleForOrganization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_ObservabilityadminTelemetryRuleForOrganization) validatePutRu
 }
 
 func (o *jsiiProxy_ObservabilityadminTelemetryRuleForOrganization) validatePutTimeoutsParameters(value *ObservabilityadminTelemetryRuleForOrganizationTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleForOrganization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

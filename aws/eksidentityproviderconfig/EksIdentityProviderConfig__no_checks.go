@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksIdentityProviderConfig) validateInterpolationForAttributeP
 	return nil
 }
 
+func (e *jsiiProxy_EksIdentityProviderConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksIdentityProviderConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EksIdentityProviderConfig) validatePutOidcParameters(value *E
 }
 
 func (e *jsiiProxy_EksIdentityProviderConfig) validatePutTimeoutsParameters(value *EksIdentityProviderConfigTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

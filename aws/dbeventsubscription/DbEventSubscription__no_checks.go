@@ -59,6 +59,10 @@ func (d *jsiiProxy_DbEventSubscription) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DbEventSubscription) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DbEventSubscription) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DbEventSubscription) validateOverrideLogicalIdParameters(newL
 }
 
 func (d *jsiiProxy_DbEventSubscription) validatePutTimeoutsParameters(value *DbEventSubscriptionTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DbEventSubscription) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

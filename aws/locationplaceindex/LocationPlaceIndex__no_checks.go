@@ -59,6 +59,10 @@ func (l *jsiiProxy_LocationPlaceIndex) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (l *jsiiProxy_LocationPlaceIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LocationPlaceIndex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LocationPlaceIndex) validateOverrideLogicalIdParameters(newLo
 }
 
 func (l *jsiiProxy_LocationPlaceIndex) validatePutDataSourceConfigurationParameters(value *LocationPlaceIndexDataSourceConfiguration) error {
+	return nil
+}
+
+func (l *jsiiProxy_LocationPlaceIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

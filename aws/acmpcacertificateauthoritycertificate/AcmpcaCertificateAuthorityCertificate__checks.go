@@ -122,6 +122,14 @@ func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateInterpolationF
 	return nil
 }
 
+func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateMoveToIdParame
 func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AcmpcaCertificateAuthorityCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

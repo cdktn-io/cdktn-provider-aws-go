@@ -59,6 +59,10 @@ func (d *jsiiProxy_DaxParameterGroup) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DaxParameterGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DaxParameterGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DaxParameterGroup) validateOverrideLogicalIdParameters(newLog
 }
 
 func (d *jsiiProxy_DaxParameterGroup) validatePutParametersParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DaxParameterGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

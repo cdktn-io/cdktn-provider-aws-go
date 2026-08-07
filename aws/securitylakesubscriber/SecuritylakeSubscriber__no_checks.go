@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecuritylakeSubscriber) validateInterpolationForAttributePara
 	return nil
 }
 
+func (s *jsiiProxy_SecuritylakeSubscriber) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecuritylakeSubscriber) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SecuritylakeSubscriber) validatePutSubscriberIdentityParamete
 }
 
 func (s *jsiiProxy_SecuritylakeSubscriber) validatePutTimeoutsParameters(value *SecuritylakeSubscriberTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecuritylakeSubscriber) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

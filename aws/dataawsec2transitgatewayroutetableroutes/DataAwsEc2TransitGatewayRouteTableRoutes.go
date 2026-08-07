@@ -5,14 +5,14 @@ package dataawsec2transitgatewayroutetableroutes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsec2transitgatewayroutetableroutes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsec2transitgatewayroutetableroutes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ec2_transit_gateway_route_table_routes aws_ec2_transit_gateway_route_table_routes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ec2_transit_gateway_route_table_routes aws_ec2_transit_gateway_route_table_routes}.
 type DataAwsEc2TransitGatewayRouteTableRoutes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -91,6 +91,19 @@ type DataAwsEc2TransitGatewayRouteTableRoutes interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutFilter(value interface{})
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -355,7 +368,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutes) TransitGatewayRoute
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ec2_transit_gateway_route_table_routes aws_ec2_transit_gateway_route_table_routes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ec2_transit_gateway_route_table_routes aws_ec2_transit_gateway_route_table_routes} Data Source.
 func NewDataAwsEc2TransitGatewayRouteTableRoutes(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayRouteTableRoutesConfig) DataAwsEc2TransitGatewayRouteTableRoutes {
 	_init_.Initialize()
 
@@ -373,7 +386,7 @@ func NewDataAwsEc2TransitGatewayRouteTableRoutes(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ec2_transit_gateway_route_table_routes aws_ec2_transit_gateway_route_table_routes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ec2_transit_gateway_route_table_routes aws_ec2_transit_gateway_route_table_routes} Data Source.
 func NewDataAwsEc2TransitGatewayRouteTableRoutes_Override(d DataAwsEc2TransitGatewayRouteTableRoutes, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayRouteTableRoutesConfig) {
 	_init_.Initialize()
 
@@ -756,6 +769,17 @@ func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutes) PutFilter(value int
 		d,
 		"putFilter",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsEc2TransitGatewayRouteTableRoutes) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

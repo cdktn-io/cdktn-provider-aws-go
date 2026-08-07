@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2CarrierGateway) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (e *jsiiProxy_Ec2CarrierGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2CarrierGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_Ec2CarrierGateway) validateMoveToIdParameters(id *string) err
 }
 
 func (e *jsiiProxy_Ec2CarrierGateway) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2CarrierGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

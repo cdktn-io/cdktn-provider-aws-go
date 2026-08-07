@@ -59,6 +59,10 @@ func (p *jsiiProxy_PinpointApnsVoipSandboxChannel) validateInterpolationForAttri
 	return nil
 }
 
+func (p *jsiiProxy_PinpointApnsVoipSandboxChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PinpointApnsVoipSandboxChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_PinpointApnsVoipSandboxChannel) validateMoveToIdParameters(id
 }
 
 func (p *jsiiProxy_PinpointApnsVoipSandboxChannel) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PinpointApnsVoipSandboxChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

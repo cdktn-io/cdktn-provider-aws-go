@@ -59,6 +59,10 @@ func (r *jsiiProxy_RdsGlobalCluster) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (r *jsiiProxy_RdsGlobalCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RdsGlobalCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RdsGlobalCluster) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (r *jsiiProxy_RdsGlobalCluster) validatePutTimeoutsParameters(value *RdsGlobalClusterTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RdsGlobalCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

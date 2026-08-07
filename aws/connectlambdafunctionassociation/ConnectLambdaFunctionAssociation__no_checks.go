@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectLambdaFunctionAssociation) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_ConnectLambdaFunctionAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectLambdaFunctionAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_ConnectLambdaFunctionAssociation) validateMoveToIdParameters(
 }
 
 func (c *jsiiProxy_ConnectLambdaFunctionAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectLambdaFunctionAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

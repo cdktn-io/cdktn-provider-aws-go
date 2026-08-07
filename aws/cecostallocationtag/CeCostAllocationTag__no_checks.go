@@ -59,6 +59,10 @@ func (c *jsiiProxy_CeCostAllocationTag) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CeCostAllocationTag) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CeCostAllocationTag) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CeCostAllocationTag) validateMoveToIdParameters(id *string) e
 }
 
 func (c *jsiiProxy_CeCostAllocationTag) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostAllocationTag) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

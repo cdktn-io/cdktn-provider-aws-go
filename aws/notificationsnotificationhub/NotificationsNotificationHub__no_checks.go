@@ -59,6 +59,10 @@ func (n *jsiiProxy_NotificationsNotificationHub) validateInterpolationForAttribu
 	return nil
 }
 
+func (n *jsiiProxy_NotificationsNotificationHub) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotificationsNotificationHub) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NotificationsNotificationHub) validateOverrideLogicalIdParame
 }
 
 func (n *jsiiProxy_NotificationsNotificationHub) validatePutTimeoutsParameters(value *NotificationsNotificationHubTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NotificationsNotificationHub) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

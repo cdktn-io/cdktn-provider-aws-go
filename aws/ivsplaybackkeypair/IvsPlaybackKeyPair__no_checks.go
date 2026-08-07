@@ -59,6 +59,10 @@ func (i *jsiiProxy_IvsPlaybackKeyPair) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (i *jsiiProxy_IvsPlaybackKeyPair) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IvsPlaybackKeyPair) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IvsPlaybackKeyPair) validateOverrideLogicalIdParameters(newLo
 }
 
 func (i *jsiiProxy_IvsPlaybackKeyPair) validatePutTimeoutsParameters(value *IvsPlaybackKeyPairTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsPlaybackKeyPair) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

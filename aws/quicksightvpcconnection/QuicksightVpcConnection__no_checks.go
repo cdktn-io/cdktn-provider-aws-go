@@ -59,6 +59,10 @@ func (q *jsiiProxy_QuicksightVpcConnection) validateInterpolationForAttributePar
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightVpcConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightVpcConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (q *jsiiProxy_QuicksightVpcConnection) validateOverrideLogicalIdParameters(
 }
 
 func (q *jsiiProxy_QuicksightVpcConnection) validatePutTimeoutsParameters(value *QuicksightVpcConnectionTimeouts) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightVpcConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

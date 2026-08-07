@@ -59,6 +59,10 @@ func (w *jsiiProxy_WafGeoMatchSet) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (w *jsiiProxy_WafGeoMatchSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WafGeoMatchSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WafGeoMatchSet) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (w *jsiiProxy_WafGeoMatchSet) validatePutGeoMatchConstraintParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WafGeoMatchSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchPackageAssociation) validateInterpolationForAttribu
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchPackageAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchPackageAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OpensearchPackageAssociation) validateOverrideLogicalIdParame
 }
 
 func (o *jsiiProxy_OpensearchPackageAssociation) validatePutTimeoutsParameters(value *OpensearchPackageAssociationTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchPackageAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

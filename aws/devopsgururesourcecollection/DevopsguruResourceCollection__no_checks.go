@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevopsguruResourceCollection) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DevopsguruResourceCollection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevopsguruResourceCollection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DevopsguruResourceCollection) validatePutCloudformationParame
 }
 
 func (d *jsiiProxy_DevopsguruResourceCollection) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevopsguruResourceCollection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

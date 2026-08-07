@@ -122,6 +122,14 @@ func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateInterpolationFor
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validatePutCapacityLimit
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*OpensearchserverlessCollectionGroupCapacityLimits; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessCollectionGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

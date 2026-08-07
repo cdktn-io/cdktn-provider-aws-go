@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudtrailEventDataStore) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_CloudtrailEventDataStore) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudtrailEventDataStore) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudtrailEventDataStore) validatePutAdvancedEventSelectorPar
 }
 
 func (c *jsiiProxy_CloudtrailEventDataStore) validatePutTimeoutsParameters(value *CloudtrailEventDataStoreTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudtrailEventDataStore) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

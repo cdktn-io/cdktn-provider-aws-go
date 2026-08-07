@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrometheusResourcePolicy) validateInterpolationForAttributePa
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PrometheusResourcePolicy) validateOverrideLogicalIdParameters
 }
 
 func (p *jsiiProxy_PrometheusResourcePolicy) validatePutTimeoutsParameters(value *PrometheusResourcePolicyTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrometheusResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (t *jsiiProxy_TimestreamwriteTable) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (t *jsiiProxy_TimestreamwriteTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TimestreamwriteTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (t *jsiiProxy_TimestreamwriteTable) validatePutRetentionPropertiesParameter
 }
 
 func (t *jsiiProxy_TimestreamwriteTable) validatePutSchemaParameters(value *TimestreamwriteTableSchema) error {
+	return nil
+}
+
+func (t *jsiiProxy_TimestreamwriteTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

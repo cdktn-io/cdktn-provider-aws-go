@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsLocationTrackerAssociation) validateOverrideLogicalIdP
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsLocationTrackerAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsLocationTrackerAssociation_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

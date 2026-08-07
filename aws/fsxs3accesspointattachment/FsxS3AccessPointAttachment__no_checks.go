@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxS3AccessPointAttachment) validateInterpolationForAttribute
 	return nil
 }
 
+func (f *jsiiProxy_FsxS3AccessPointAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxS3AccessPointAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FsxS3AccessPointAttachment) validatePutS3AccessPointParameter
 }
 
 func (f *jsiiProxy_FsxS3AccessPointAttachment) validatePutTimeoutsParameters(value *FsxS3AccessPointAttachmentTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxS3AccessPointAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

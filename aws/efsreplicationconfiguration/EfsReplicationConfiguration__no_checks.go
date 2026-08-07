@@ -59,6 +59,10 @@ func (e *jsiiProxy_EfsReplicationConfiguration) validateInterpolationForAttribut
 	return nil
 }
 
+func (e *jsiiProxy_EfsReplicationConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EfsReplicationConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EfsReplicationConfiguration) validatePutDestinationParameters
 }
 
 func (e *jsiiProxy_EfsReplicationConfiguration) validatePutTimeoutsParameters(value *EfsReplicationConfigurationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsReplicationConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

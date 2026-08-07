@@ -59,6 +59,10 @@ func (i *jsiiProxy_IdentitystoreUser) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (i *jsiiProxy_IdentitystoreUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IdentitystoreUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (i *jsiiProxy_IdentitystoreUser) validatePutNameParameters(value *Identitys
 }
 
 func (i *jsiiProxy_IdentitystoreUser) validatePutPhoneNumbersParameters(value *IdentitystoreUserPhoneNumbers) error {
+	return nil
+}
+
+func (i *jsiiProxy_IdentitystoreUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

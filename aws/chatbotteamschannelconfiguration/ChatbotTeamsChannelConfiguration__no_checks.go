@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChatbotTeamsChannelConfiguration) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_ChatbotTeamsChannelConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChatbotTeamsChannelConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ChatbotTeamsChannelConfiguration) validateOverrideLogicalIdPa
 }
 
 func (c *jsiiProxy_ChatbotTeamsChannelConfiguration) validatePutTimeoutsParameters(value *ChatbotTeamsChannelConfigurationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChatbotTeamsChannelConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

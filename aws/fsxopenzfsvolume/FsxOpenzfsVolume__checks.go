@@ -122,6 +122,14 @@ func (f *jsiiProxy_FsxOpenzfsVolume) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (f *jsiiProxy_FsxOpenzfsVolume) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (f *jsiiProxy_FsxOpenzfsVolume) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -266,6 +274,14 @@ func (f *jsiiProxy_FsxOpenzfsVolume) validatePutUserAndGroupQuotasParameters(val
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*FsxOpenzfsVolumeUserAndGroupQuotas; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (f *jsiiProxy_FsxOpenzfsVolume) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

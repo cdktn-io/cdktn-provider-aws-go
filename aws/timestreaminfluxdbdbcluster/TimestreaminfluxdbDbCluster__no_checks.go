@@ -59,6 +59,10 @@ func (t *jsiiProxy_TimestreaminfluxdbDbCluster) validateInterpolationForAttribut
 	return nil
 }
 
+func (t *jsiiProxy_TimestreaminfluxdbDbCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TimestreaminfluxdbDbCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (t *jsiiProxy_TimestreaminfluxdbDbCluster) validatePutMaintenanceSchedulePa
 }
 
 func (t *jsiiProxy_TimestreaminfluxdbDbCluster) validatePutTimeoutsParameters(value *TimestreaminfluxdbDbClusterTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TimestreaminfluxdbDbCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

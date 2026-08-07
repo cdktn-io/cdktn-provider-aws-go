@@ -59,6 +59,10 @@ func (f *jsiiProxy_FisExperimentTemplate) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (f *jsiiProxy_FisExperimentTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FisExperimentTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (f *jsiiProxy_FisExperimentTemplate) validatePutTargetParameters(value inte
 }
 
 func (f *jsiiProxy_FisExperimentTemplate) validatePutTimeoutsParameters(value *FisExperimentTemplateTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FisExperimentTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

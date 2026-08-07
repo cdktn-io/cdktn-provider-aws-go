@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsRedshiftOrderableCluster) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRedshiftOrderableCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRedshiftOrderableCluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

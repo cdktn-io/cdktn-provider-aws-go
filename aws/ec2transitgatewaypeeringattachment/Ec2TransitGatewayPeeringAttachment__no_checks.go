@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachment) validateInterpolationForA
 	return nil
 }
 
+func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachment) validateOverrideLogicalId
 }
 
 func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachment) validatePutOptionsParameters(value *Ec2TransitGatewayPeeringAttachmentOptions) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

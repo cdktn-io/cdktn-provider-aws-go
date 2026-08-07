@@ -59,6 +59,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2Pool) validateInterpolationForAttributePara
 	return nil
 }
 
+func (p *jsiiProxy_Pinpointsmsvoicev2Pool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_Pinpointsmsvoicev2Pool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2Pool) validateOverrideLogicalIdParameters(n
 }
 
 func (p *jsiiProxy_Pinpointsmsvoicev2Pool) validatePutTimeoutsParameters(value *Pinpointsmsvoicev2PoolTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2Pool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxWindowsFileSystem) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (f *jsiiProxy_FsxWindowsFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxWindowsFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (f *jsiiProxy_FsxWindowsFileSystem) validatePutSelfManagedActiveDirectoryPa
 }
 
 func (f *jsiiProxy_FsxWindowsFileSystem) validatePutTimeoutsParameters(value *FsxWindowsFileSystemTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxWindowsFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueDataQualityRuleset) validateInterpolationForAttributePara
 	return nil
 }
 
+func (g *jsiiProxy_GlueDataQualityRuleset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueDataQualityRuleset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GlueDataQualityRuleset) validateOverrideLogicalIdParameters(n
 }
 
 func (g *jsiiProxy_GlueDataQualityRuleset) validatePutTargetTableParameters(value *GlueDataQualityRulesetTargetTable) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueDataQualityRuleset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

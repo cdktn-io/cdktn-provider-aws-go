@@ -59,6 +59,10 @@ func (d *jsiiProxy_DynamodbTable) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (d *jsiiProxy_DynamodbTable) validatePutTtlParameters(value *DynamodbTableT
 }
 
 func (d *jsiiProxy_DynamodbTable) validatePutWarmThroughputParameters(value *DynamodbTableWarmThroughput) error {
+	return nil
+}
+
+func (d *jsiiProxy_DynamodbTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

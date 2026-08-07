@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcRouteServerVpcAssociation) validateInterpolationForAttribu
 	return nil
 }
 
+func (v *jsiiProxy_VpcRouteServerVpcAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcRouteServerVpcAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcRouteServerVpcAssociation) validateOverrideLogicalIdParame
 }
 
 func (v *jsiiProxy_VpcRouteServerVpcAssociation) validatePutTimeoutsParameters(value *VpcRouteServerVpcAssociationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcRouteServerVpcAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

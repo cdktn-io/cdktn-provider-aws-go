@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsCloudfrontConnectionGroup) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsCloudfrontConnectionGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsCloudfrontConnectionGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

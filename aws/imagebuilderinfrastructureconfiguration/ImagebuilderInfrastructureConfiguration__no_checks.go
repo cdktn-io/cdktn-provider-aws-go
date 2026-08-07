@@ -59,6 +59,10 @@ func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateInterpolatio
 	return nil
 }
 
+func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validatePutLoggingPa
 }
 
 func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validatePutPlacementParameters(value *ImagebuilderInfrastructureConfigurationPlacement) error {
+	return nil
+}
+
+func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

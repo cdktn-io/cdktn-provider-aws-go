@@ -59,6 +59,10 @@ func (d *jsiiProxy_DbInstanceRoleAssociation) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DbInstanceRoleAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DbInstanceRoleAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DbInstanceRoleAssociation) validateOverrideLogicalIdParameter
 }
 
 func (d *jsiiProxy_DbInstanceRoleAssociation) validatePutTimeoutsParameters(value *DbInstanceRoleAssociationTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DbInstanceRoleAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

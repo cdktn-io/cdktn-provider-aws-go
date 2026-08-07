@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) validateInterpolationForAt
 	return nil
 }
 
+func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) validateOverrideLogicalIdP
 }
 
 func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) validatePutPermittedPublicSecurityGroupRuleRangeParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrBlockPublicAccessConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

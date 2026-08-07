@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaProvisionedConcurrencyConfig) validateInterpolationForA
 	return nil
 }
 
+func (l *jsiiProxy_LambdaProvisionedConcurrencyConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaProvisionedConcurrencyConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LambdaProvisionedConcurrencyConfig) validateOverrideLogicalId
 }
 
 func (l *jsiiProxy_LambdaProvisionedConcurrencyConfig) validatePutTimeoutsParameters(value *LambdaProvisionedConcurrencyConfigTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaProvisionedConcurrencyConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

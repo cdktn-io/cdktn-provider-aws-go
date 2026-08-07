@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudwatchLogMetricFilter) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchLogMetricFilter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchLogMetricFilter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudwatchLogMetricFilter) validateOverrideLogicalIdParameter
 }
 
 func (c *jsiiProxy_CloudwatchLogMetricFilter) validatePutMetricTransformationParameters(value *CloudwatchLogMetricFilterMetricTransformation) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchLogMetricFilter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksFargateProfile) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (e *jsiiProxy_EksFargateProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksFargateProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EksFargateProfile) validatePutSelectorParameters(value interf
 }
 
 func (e *jsiiProxy_EksFargateProfile) validatePutTimeoutsParameters(value *EksFargateProfileTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

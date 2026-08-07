@@ -47,6 +47,10 @@ func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) valida
 	return nil
 }
 
+func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) validatePutCompactionConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) validatePutOrphanFileDeletionConfigurationParameters(value interface{}) error {
 	return nil
 }

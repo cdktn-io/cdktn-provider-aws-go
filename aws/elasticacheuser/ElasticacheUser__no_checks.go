@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticacheUser) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (e *jsiiProxy_ElasticacheUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticacheUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ElasticacheUser) validatePutAuthenticationModeParameters(valu
 }
 
 func (e *jsiiProxy_ElasticacheUser) validatePutTimeoutsParameters(value *ElasticacheUserTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticacheUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

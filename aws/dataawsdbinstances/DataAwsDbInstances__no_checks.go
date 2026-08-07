@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsDbInstances) validatePutFilterParameters(value interfa
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsDbInstances) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsDbInstances_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

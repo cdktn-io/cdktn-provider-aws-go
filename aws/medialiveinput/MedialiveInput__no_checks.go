@@ -59,6 +59,10 @@ func (m *jsiiProxy_MedialiveInput) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (m *jsiiProxy_MedialiveInput) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MedialiveInput) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (m *jsiiProxy_MedialiveInput) validatePutTimeoutsParameters(value *Medialiv
 }
 
 func (m *jsiiProxy_MedialiveInput) validatePutVpcParameters(value *MedialiveInputVpc) error {
+	return nil
+}
+
+func (m *jsiiProxy_MedialiveInput) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

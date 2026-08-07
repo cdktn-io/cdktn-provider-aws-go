@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentcoreResourcePolicy) validateInterpolationForAttri
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (b *jsiiProxy_BedrockagentcoreResourcePolicy) validateMoveToIdParameters(id
 }
 
 func (b *jsiiProxy_BedrockagentcoreResourcePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

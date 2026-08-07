@@ -59,6 +59,10 @@ func (q *jsiiProxy_QuicksightFolder) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightFolder) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightFolder) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (q *jsiiProxy_QuicksightFolder) validatePutPermissionsParameters(value inte
 }
 
 func (q *jsiiProxy_QuicksightFolder) validatePutTimeoutsParameters(value *QuicksightFolderTimeouts) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightFolder) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSsmcontactsRotation) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSsmcontactsRotation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSsmcontactsRotation_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

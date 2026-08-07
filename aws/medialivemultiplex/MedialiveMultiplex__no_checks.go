@@ -59,6 +59,10 @@ func (m *jsiiProxy_MedialiveMultiplex) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (m *jsiiProxy_MedialiveMultiplex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MedialiveMultiplex) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MedialiveMultiplex) validatePutMultiplexSettingsParameters(va
 }
 
 func (m *jsiiProxy_MedialiveMultiplex) validatePutTimeoutsParameters(value *MedialiveMultiplexTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MedialiveMultiplex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

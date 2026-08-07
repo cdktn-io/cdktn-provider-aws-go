@@ -122,6 +122,14 @@ func (d *jsiiProxy_DatazoneEnvironmentProfile) validateInterpolationForAttribute
 	return nil
 }
 
+func (d *jsiiProxy_DatazoneEnvironmentProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DatazoneEnvironmentProfile) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (d *jsiiProxy_DatazoneEnvironmentProfile) validatePutUserParametersParamete
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DatazoneEnvironmentProfileUserParameters; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DatazoneEnvironmentProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

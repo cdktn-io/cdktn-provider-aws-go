@@ -59,6 +59,10 @@ func (a *jsiiProxy_AcmCertificate) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (a *jsiiProxy_AcmCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AcmCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AcmCertificate) validatePutOptionsParameters(value *AcmCertif
 }
 
 func (a *jsiiProxy_AcmCertificate) validatePutValidationOptionParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AcmCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

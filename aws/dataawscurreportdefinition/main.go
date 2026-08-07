@@ -44,6 +44,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "refreshClosedReports", GoGetter: "RefreshClosedReports"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "reportName", GoGetter: "ReportName"},
 			_jsii_.MemberProperty{JsiiProperty: "reportNameInput", GoGetter: "ReportNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "reportVersioning", GoGetter: "ReportVersioning"},

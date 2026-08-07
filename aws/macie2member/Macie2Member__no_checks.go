@@ -59,6 +59,10 @@ func (m *jsiiProxy_Macie2Member) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (m *jsiiProxy_Macie2Member) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_Macie2Member) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_Macie2Member) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (m *jsiiProxy_Macie2Member) validatePutTimeoutsParameters(value *Macie2MemberTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_Macie2Member) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

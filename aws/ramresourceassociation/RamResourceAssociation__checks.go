@@ -122,6 +122,14 @@ func (r *jsiiProxy_RamResourceAssociation) validateInterpolationForAttributePara
 	return nil
 }
 
+func (r *jsiiProxy_RamResourceAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (r *jsiiProxy_RamResourceAssociation) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (r *jsiiProxy_RamResourceAssociation) validateMoveToIdParameters(id *string
 func (r *jsiiProxy_RamResourceAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (r *jsiiProxy_RamResourceAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

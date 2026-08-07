@@ -57,6 +57,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "readerEndpointAddress", GoGetter: "ReaderEndpointAddress"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "replicasPerNodeGroup", GoGetter: "ReplicasPerNodeGroup"},
 			_jsii_.MemberProperty{JsiiProperty: "replicationGroupId", GoGetter: "ReplicationGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "replicationGroupIdInput", GoGetter: "ReplicationGroupIdInput"},

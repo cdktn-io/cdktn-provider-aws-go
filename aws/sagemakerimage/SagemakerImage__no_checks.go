@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerImage) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerImage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerImage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SagemakerImage) validateMoveToIdParameters(id *string) error 
 }
 
 func (s *jsiiProxy_SagemakerImage) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerImage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

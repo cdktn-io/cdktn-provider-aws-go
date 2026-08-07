@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsMqBrokerEngineTypes) validateOverrideLogicalIdParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsMqBrokerEngineTypes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsMqBrokerEngineTypes_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

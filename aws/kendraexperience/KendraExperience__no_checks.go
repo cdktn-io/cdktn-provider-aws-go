@@ -59,6 +59,10 @@ func (k *jsiiProxy_KendraExperience) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (k *jsiiProxy_KendraExperience) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KendraExperience) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KendraExperience) validatePutConfigurationParameters(value *K
 }
 
 func (k *jsiiProxy_KendraExperience) validatePutTimeoutsParameters(value *KendraExperienceTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraExperience) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

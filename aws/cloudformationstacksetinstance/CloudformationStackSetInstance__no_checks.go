@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudformationStackSetInstance) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_CloudformationStackSetInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudformationStackSetInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CloudformationStackSetInstance) validatePutOperationPreferenc
 }
 
 func (c *jsiiProxy_CloudformationStackSetInstance) validatePutTimeoutsParameters(value *CloudformationStackSetInstanceTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudformationStackSetInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

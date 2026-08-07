@@ -59,6 +59,10 @@ func (m *jsiiProxy_MskTopic) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (m *jsiiProxy_MskTopic) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskTopic) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MskTopic) validateOverrideLogicalIdParameters(newLogicalId *s
 }
 
 func (m *jsiiProxy_MskTopic) validatePutTimeoutsParameters(value *MskTopicTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskTopic) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

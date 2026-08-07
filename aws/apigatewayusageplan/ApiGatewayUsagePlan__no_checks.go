@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiGatewayUsagePlan) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (a *jsiiProxy_ApiGatewayUsagePlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiGatewayUsagePlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_ApiGatewayUsagePlan) validatePutQuotaSettingsParameters(value
 }
 
 func (a *jsiiProxy_ApiGatewayUsagePlan) validatePutThrottleSettingsParameters(value *ApiGatewayUsagePlanThrottleSettings) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiGatewayUsagePlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

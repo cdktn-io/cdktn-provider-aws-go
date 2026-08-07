@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessLifecyclePolicy) validateOverrideL
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOpensearchserverlessLifecyclePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsOpensearchserverlessLifecyclePolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

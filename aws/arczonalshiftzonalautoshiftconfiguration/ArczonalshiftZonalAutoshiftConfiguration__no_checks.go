@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateInterpolati
 	return nil
 }
 
+func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validatePutBlocking
 }
 
 func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validatePutOutcomeAlarmsParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SqsQueueRedrivePolicy) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_SqsQueueRedrivePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SqsQueueRedrivePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SqsQueueRedrivePolicy) validateMoveToIdParameters(id *string)
 }
 
 func (s *jsiiProxy_SqsQueueRedrivePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueueRedrivePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

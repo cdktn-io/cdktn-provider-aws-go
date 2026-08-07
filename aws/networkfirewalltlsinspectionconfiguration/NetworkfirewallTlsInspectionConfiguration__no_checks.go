@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateInterpolat
 	return nil
 }
 
+func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validatePutTimeout
 }
 
 func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validatePutTlsInspectionConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

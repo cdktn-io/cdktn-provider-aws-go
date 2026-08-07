@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockUseCaseForModelAccess) validateInterpolationForAttribu
 	return nil
 }
 
+func (b *jsiiProxy_BedrockUseCaseForModelAccess) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockUseCaseForModelAccess) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (b *jsiiProxy_BedrockUseCaseForModelAccess) validateMoveToIdParameters(id *
 }
 
 func (b *jsiiProxy_BedrockUseCaseForModelAccess) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockUseCaseForModelAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

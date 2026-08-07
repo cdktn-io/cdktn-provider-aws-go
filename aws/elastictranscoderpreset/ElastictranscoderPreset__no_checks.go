@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElastictranscoderPreset) validateInterpolationForAttributePar
 	return nil
 }
 
+func (e *jsiiProxy_ElastictranscoderPreset) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElastictranscoderPreset) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (e *jsiiProxy_ElastictranscoderPreset) validatePutVideoParameters(value *El
 }
 
 func (e *jsiiProxy_ElastictranscoderPreset) validatePutVideoWatermarksParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElastictranscoderPreset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

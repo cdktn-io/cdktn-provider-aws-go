@@ -59,6 +59,10 @@ func (f *jsiiProxy_FinspaceKxScalingGroup) validateInterpolationForAttributePara
 	return nil
 }
 
+func (f *jsiiProxy_FinspaceKxScalingGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FinspaceKxScalingGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FinspaceKxScalingGroup) validateOverrideLogicalIdParameters(n
 }
 
 func (f *jsiiProxy_FinspaceKxScalingGroup) validatePutTimeoutsParameters(value *FinspaceKxScalingGroupTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FinspaceKxScalingGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

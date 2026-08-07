@@ -5,14 +5,14 @@ package dataawsconnectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsconnectinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsconnectinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_instance aws_connect_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_instance aws_connect_instance}.
 type DataAwsConnectInstance interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -105,6 +105,19 @@ type DataAwsConnectInstance interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetInstanceAlias()
 	ResetInstanceId()
@@ -502,7 +515,7 @@ func (j *jsiiProxy_DataAwsConnectInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
 func NewDataAwsConnectInstance(scope constructs.Construct, id *string, config *DataAwsConnectInstanceConfig) DataAwsConnectInstance {
 	_init_.Initialize()
 
@@ -520,7 +533,7 @@ func NewDataAwsConnectInstance(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_instance aws_connect_instance} Data Source.
 func NewDataAwsConnectInstance_Override(d DataAwsConnectInstance, scope constructs.Construct, id *string, config *DataAwsConnectInstanceConfig) {
 	_init_.Initialize()
 
@@ -914,6 +927,17 @@ func (d *jsiiProxy_DataAwsConnectInstance) OverrideLogicalId(newLogicalId *strin
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsConnectInstance) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

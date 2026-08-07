@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcrReplicationConfiguration) validateInterpolationForAttribut
 	return nil
 }
 
+func (e *jsiiProxy_EcrReplicationConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcrReplicationConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EcrReplicationConfiguration) validateOverrideLogicalIdParamet
 }
 
 func (e *jsiiProxy_EcrReplicationConfiguration) validatePutReplicationConfigurationParameters(value *EcrReplicationConfigurationReplicationConfiguration) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcrReplicationConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

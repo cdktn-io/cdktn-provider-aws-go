@@ -59,6 +59,10 @@ func (r *jsiiProxy_Route53ResolverFirewallRule) validateInterpolationForAttribut
 	return nil
 }
 
+func (r *jsiiProxy_Route53ResolverFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Route53ResolverFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (r *jsiiProxy_Route53ResolverFirewallRule) validateMoveToIdParameters(id *s
 }
 
 func (r *jsiiProxy_Route53ResolverFirewallRule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_Route53ResolverFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

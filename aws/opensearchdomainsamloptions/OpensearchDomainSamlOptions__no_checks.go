@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchDomainSamlOptions) validateInterpolationForAttribut
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchDomainSamlOptions) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchDomainSamlOptions) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OpensearchDomainSamlOptions) validatePutSamlOptionsParameters
 }
 
 func (o *jsiiProxy_OpensearchDomainSamlOptions) validatePutTimeoutsParameters(value *OpensearchDomainSamlOptionsTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchDomainSamlOptions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

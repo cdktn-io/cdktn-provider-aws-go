@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateInterpola
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateOverrideL
 }
 
 func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validatePutRuleParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketServerSideEncryptionConfigurationA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

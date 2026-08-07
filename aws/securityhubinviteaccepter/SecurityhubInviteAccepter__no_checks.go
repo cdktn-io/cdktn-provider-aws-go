@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecurityhubInviteAccepter) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_SecurityhubInviteAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecurityhubInviteAccepter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SecurityhubInviteAccepter) validateMoveToIdParameters(id *str
 }
 
 func (s *jsiiProxy_SecurityhubInviteAccepter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInviteAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkspaceswebBrowserSettings) validateInterpolationForAttribu
 	return nil
 }
 
+func (w *jsiiProxy_WorkspaceswebBrowserSettings) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkspaceswebBrowserSettings) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (w *jsiiProxy_WorkspaceswebBrowserSettings) validateMoveToIdParameters(id *
 }
 
 func (w *jsiiProxy_WorkspaceswebBrowserSettings) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkspaceswebBrowserSettings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

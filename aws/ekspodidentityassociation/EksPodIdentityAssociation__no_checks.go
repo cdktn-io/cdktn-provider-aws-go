@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksPodIdentityAssociation) validateInterpolationForAttributeP
 	return nil
 }
 
+func (e *jsiiProxy_EksPodIdentityAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksPodIdentityAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_EksPodIdentityAssociation) validateMoveToIdParameters(id *str
 }
 
 func (e *jsiiProxy_EksPodIdentityAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksPodIdentityAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 
@@ -112,6 +120,10 @@ func (j *jsiiProxy_EksPodIdentityAssociation) validateSetLifecycleParameters(val
 }
 
 func (j *jsiiProxy_EksPodIdentityAssociation) validateSetNamespaceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksPodIdentityAssociation) validateSetPolicyParameters(val *string) error {
 	return nil
 }
 

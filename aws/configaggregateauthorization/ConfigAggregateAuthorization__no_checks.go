@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConfigAggregateAuthorization) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_ConfigAggregateAuthorization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConfigAggregateAuthorization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_ConfigAggregateAuthorization) validateMoveToIdParameters(id *
 }
 
 func (c *jsiiProxy_ConfigAggregateAuthorization) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigAggregateAuthorization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

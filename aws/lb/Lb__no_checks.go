@@ -59,6 +59,10 @@ func (l *jsiiProxy_Lb) validateInterpolationForAttributeParameters(terraformAttr
 	return nil
 }
 
+func (l *jsiiProxy_Lb) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_Lb) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (l *jsiiProxy_Lb) validatePutSubnetMappingParameters(value interface{}) err
 }
 
 func (l *jsiiProxy_Lb) validatePutTimeoutsParameters(value *LbTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_Lb) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

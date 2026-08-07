@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksNodeGroup) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (e *jsiiProxy_EksNodeGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksNodeGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (e *jsiiProxy_EksNodeGroup) validatePutUpdateConfigParameters(value *EksNod
 }
 
 func (e *jsiiProxy_EksNodeGroup) validatePutWarmPoolConfigParameters(value *EksNodeGroupWarmPoolConfig) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksNodeGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

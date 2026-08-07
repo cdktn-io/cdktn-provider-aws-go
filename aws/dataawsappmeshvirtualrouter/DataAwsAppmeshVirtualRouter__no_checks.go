@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsAppmeshVirtualRouter) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsAppmeshVirtualRouter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsAppmeshVirtualRouter_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

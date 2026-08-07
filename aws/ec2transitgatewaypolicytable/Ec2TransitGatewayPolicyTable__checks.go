@@ -122,6 +122,14 @@ func (e *jsiiProxy_Ec2TransitGatewayPolicyTable) validateInterpolationForAttribu
 	return nil
 }
 
+func (e *jsiiProxy_Ec2TransitGatewayPolicyTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_Ec2TransitGatewayPolicyTable) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (e *jsiiProxy_Ec2TransitGatewayPolicyTable) validateMoveToIdParameters(id *
 func (e *jsiiProxy_Ec2TransitGatewayPolicyTable) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayPolicyTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

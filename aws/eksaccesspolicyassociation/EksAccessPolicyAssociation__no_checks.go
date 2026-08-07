@@ -59,6 +59,10 @@ func (e *jsiiProxy_EksAccessPolicyAssociation) validateInterpolationForAttribute
 	return nil
 }
 
+func (e *jsiiProxy_EksAccessPolicyAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksAccessPolicyAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_EksAccessPolicyAssociation) validatePutAccessScopeParameters(
 }
 
 func (e *jsiiProxy_EksAccessPolicyAssociation) validatePutTimeoutsParameters(value *EksAccessPolicyAssociationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksAccessPolicyAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

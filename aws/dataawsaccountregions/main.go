@@ -42,6 +42,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "regionOptStatusContains", GoGetter: "RegionOptStatusContains"},
 			_jsii_.MemberProperty{JsiiProperty: "regionOptStatusContainsInput", GoGetter: "RegionOptStatusContainsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "regions", GoGetter: "Regions"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAccountId", GoMethod: "ResetAccountId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegionOptStatusContains", GoMethod: "ResetRegionOptStatusContains"},

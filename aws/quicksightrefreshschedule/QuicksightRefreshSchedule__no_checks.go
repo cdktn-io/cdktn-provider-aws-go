@@ -59,6 +59,10 @@ func (q *jsiiProxy_QuicksightRefreshSchedule) validateInterpolationForAttributeP
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightRefreshSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightRefreshSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (q *jsiiProxy_QuicksightRefreshSchedule) validateOverrideLogicalIdParameter
 }
 
 func (q *jsiiProxy_QuicksightRefreshSchedule) validatePutScheduleParameters(value interface{}) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightRefreshSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

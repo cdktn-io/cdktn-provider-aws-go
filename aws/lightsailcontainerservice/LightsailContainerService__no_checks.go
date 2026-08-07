@@ -59,6 +59,10 @@ func (l *jsiiProxy_LightsailContainerService) validateInterpolationForAttributeP
 	return nil
 }
 
+func (l *jsiiProxy_LightsailContainerService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LightsailContainerService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (l *jsiiProxy_LightsailContainerService) validatePutPublicDomainNamesParame
 }
 
 func (l *jsiiProxy_LightsailContainerService) validatePutTimeoutsParameters(value *LightsailContainerServiceTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailContainerService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

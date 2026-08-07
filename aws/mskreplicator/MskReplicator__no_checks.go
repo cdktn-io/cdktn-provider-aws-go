@@ -59,6 +59,10 @@ func (m *jsiiProxy_MskReplicator) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (m *jsiiProxy_MskReplicator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskReplicator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MskReplicator) validatePutReplicationInfoListParameters(value
 }
 
 func (m *jsiiProxy_MskReplicator) validatePutTimeoutsParameters(value *MskReplicatorTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskReplicator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

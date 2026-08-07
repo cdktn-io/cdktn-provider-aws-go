@@ -59,6 +59,10 @@ func (s *jsiiProxy_ShieldProactiveEngagement) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_ShieldProactiveEngagement) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ShieldProactiveEngagement) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ShieldProactiveEngagement) validateOverrideLogicalIdParameter
 }
 
 func (s *jsiiProxy_ShieldProactiveEngagement) validatePutEmergencyContactParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_ShieldProactiveEngagement) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

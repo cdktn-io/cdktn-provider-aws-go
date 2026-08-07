@@ -59,6 +59,10 @@ func (p *jsiiProxy_PinpointSmsChannel) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (p *jsiiProxy_PinpointSmsChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PinpointSmsChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (p *jsiiProxy_PinpointSmsChannel) validateMoveToIdParameters(id *string) er
 }
 
 func (p *jsiiProxy_PinpointSmsChannel) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PinpointSmsChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

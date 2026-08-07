@@ -59,6 +59,10 @@ func (d *jsiiProxy_DsqlClusterPeering) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (d *jsiiProxy_DsqlClusterPeering) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DsqlClusterPeering) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DsqlClusterPeering) validateOverrideLogicalIdParameters(newLo
 }
 
 func (d *jsiiProxy_DsqlClusterPeering) validatePutTimeoutsParameters(value *DsqlClusterPeeringTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DsqlClusterPeering) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiGatewayMethod) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (a *jsiiProxy_ApiGatewayMethod) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiGatewayMethod) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_ApiGatewayMethod) validateMoveToIdParameters(id *string) erro
 }
 
 func (a *jsiiProxy_ApiGatewayMethod) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiGatewayMethod) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

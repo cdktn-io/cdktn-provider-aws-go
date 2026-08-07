@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncLocationObjectStorage) validateInterpolationForAttrib
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationObjectStorage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationObjectStorage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DatasyncLocationObjectStorage) validateMoveToIdParameters(id 
 }
 
 func (d *jsiiProxy_DatasyncLocationObjectStorage) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncLocationObjectStorage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

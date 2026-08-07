@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfiguration) validateInterpola
 	return nil
 }
 
+func (b *jsiiProxy_BedrockModelInvocationLoggingConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockModelInvocationLoggingConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BedrockModelInvocationLoggingConfiguration) validateOverrideL
 }
 
 func (b *jsiiProxy_BedrockModelInvocationLoggingConfiguration) validatePutLoggingConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockModelInvocationLoggingConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

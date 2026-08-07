@@ -5,9 +5,9 @@ package bedrockagentcorememorystrategy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/bedrockagentcorememorystrategy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockagentcorememorystrategy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,8 @@ type BedrockagentcoreMemoryStrategyConfigurationOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Reflection() BedrockagentcoreMemoryStrategyConfigurationReflectionList
+	ReflectionInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,8 +75,10 @@ type BedrockagentcoreMemoryStrategyConfigurationOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConsolidation(value interface{})
 	PutExtraction(value interface{})
+	PutReflection(value interface{})
 	ResetConsolidation()
 	ResetExtraction()
+	ResetReflection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -175,6 +179,26 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) I
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) Reflection() BedrockagentcoreMemoryStrategyConfigurationReflectionList {
+	var returns BedrockagentcoreMemoryStrategyConfigurationReflectionList
+	_jsii_.Get(
+		j,
+		"reflection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) ReflectionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"reflectionInput",
 		&returns,
 	)
 	return returns
@@ -522,6 +546,17 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) P
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) PutReflection(value interface{}) {
+	if err := b.validatePutReflectionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putReflection",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) ResetConsolidation() {
 	_jsii_.InvokeVoid(
 		b,
@@ -534,6 +569,14 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) R
 	_jsii_.InvokeVoid(
 		b,
 		"resetExtraction",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) ResetReflection() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetReflection",
 		nil, // no parameters
 	)
 }

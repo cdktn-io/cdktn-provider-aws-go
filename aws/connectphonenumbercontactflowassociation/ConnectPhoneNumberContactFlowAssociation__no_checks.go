@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) validateInterpolati
 	return nil
 }
 
+func (c *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) validateMoveToIdPar
 }
 
 func (c *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsEc2CapacityBlockReservation) validatePutFilterParamete
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2CapacityBlockReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2CapacityBlockReservation_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

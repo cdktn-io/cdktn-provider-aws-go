@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentcoreEvaluator) validateInterpolationForAttributeP
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreEvaluator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreEvaluator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BedrockagentcoreEvaluator) validatePutEvaluatorConfigParamete
 }
 
 func (b *jsiiProxy_BedrockagentcoreEvaluator) validatePutTimeoutsParameters(value *BedrockagentcoreEvaluatorTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreEvaluator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

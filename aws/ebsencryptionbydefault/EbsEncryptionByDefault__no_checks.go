@@ -59,6 +59,10 @@ func (e *jsiiProxy_EbsEncryptionByDefault) validateInterpolationForAttributePara
 	return nil
 }
 
+func (e *jsiiProxy_EbsEncryptionByDefault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EbsEncryptionByDefault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_EbsEncryptionByDefault) validateMoveToIdParameters(id *string
 }
 
 func (e *jsiiProxy_EbsEncryptionByDefault) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EbsEncryptionByDefault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

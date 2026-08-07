@@ -59,6 +59,10 @@ func (q *jsiiProxy_QbusinessApplication) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (q *jsiiProxy_QbusinessApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QbusinessApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (q *jsiiProxy_QbusinessApplication) validatePutEncryptionConfigurationParam
 }
 
 func (q *jsiiProxy_QbusinessApplication) validatePutTimeoutsParameters(value *QbusinessApplicationTimeouts) error {
+	return nil
+}
+
+func (q *jsiiProxy_QbusinessApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

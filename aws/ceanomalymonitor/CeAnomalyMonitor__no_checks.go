@@ -59,6 +59,10 @@ func (c *jsiiProxy_CeAnomalyMonitor) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_CeAnomalyMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CeAnomalyMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CeAnomalyMonitor) validateMoveToIdParameters(id *string) erro
 }
 
 func (c *jsiiProxy_CeAnomalyMonitor) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeAnomalyMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

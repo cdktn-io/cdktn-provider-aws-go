@@ -122,6 +122,14 @@ func (e *jsiiProxy_ElastictranscoderPipeline) validateInterpolationForAttributeP
 	return nil
 }
 
+func (e *jsiiProxy_ElastictranscoderPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_ElastictranscoderPipeline) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -297,6 +305,14 @@ func (e *jsiiProxy_ElastictranscoderPipeline) validatePutThumbnailConfigPermissi
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ElastictranscoderPipelineThumbnailConfigPermissions; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (e *jsiiProxy_ElastictranscoderPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

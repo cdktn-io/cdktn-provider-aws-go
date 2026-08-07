@@ -59,6 +59,10 @@ func (q *jsiiProxy_QuicksightFolderMembership) validateInterpolationForAttribute
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightFolderMembership) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightFolderMembership) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (q *jsiiProxy_QuicksightFolderMembership) validateMoveToIdParameters(id *st
 }
 
 func (q *jsiiProxy_QuicksightFolderMembership) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightFolderMembership) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

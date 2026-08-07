@@ -5,14 +5,14 @@ package dataawsaccountprimarycontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsaccountprimarycontact/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsaccountprimarycontact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/account_primary_contact aws_account_primary_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/account_primary_contact aws_account_primary_contact}.
 type DataAwsAccountPrimaryContact interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -93,6 +93,19 @@ type DataAwsAccountPrimaryContact interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAccountId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -406,7 +419,7 @@ func (j *jsiiProxy_DataAwsAccountPrimaryContact) WebsiteUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/account_primary_contact aws_account_primary_contact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/account_primary_contact aws_account_primary_contact} Data Source.
 func NewDataAwsAccountPrimaryContact(scope constructs.Construct, id *string, config *DataAwsAccountPrimaryContactConfig) DataAwsAccountPrimaryContact {
 	_init_.Initialize()
 
@@ -424,7 +437,7 @@ func NewDataAwsAccountPrimaryContact(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/account_primary_contact aws_account_primary_contact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/account_primary_contact aws_account_primary_contact} Data Source.
 func NewDataAwsAccountPrimaryContact_Override(d DataAwsAccountPrimaryContact, scope constructs.Construct, id *string, config *DataAwsAccountPrimaryContactConfig) {
 	_init_.Initialize()
 
@@ -774,6 +787,17 @@ func (d *jsiiProxy_DataAwsAccountPrimaryContact) OverrideLogicalId(newLogicalId 
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsAccountPrimaryContact) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

@@ -59,6 +59,10 @@ func (w *jsiiProxy_WafRegexMatchSet) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (w *jsiiProxy_WafRegexMatchSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WafRegexMatchSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WafRegexMatchSet) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (w *jsiiProxy_WafRegexMatchSet) validatePutRegexMatchTupleParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WafRegexMatchSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LambdaCapacityProvider) validateInterpolationForAttributePara
 	return nil
 }
 
+func (l *jsiiProxy_LambdaCapacityProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LambdaCapacityProvider) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (l *jsiiProxy_LambdaCapacityProvider) validatePutTimeoutsParameters(value *
 }
 
 func (l *jsiiProxy_LambdaCapacityProvider) validatePutVpcConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (l *jsiiProxy_LambdaCapacityProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

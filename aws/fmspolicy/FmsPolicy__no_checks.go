@@ -59,6 +59,10 @@ func (f *jsiiProxy_FmsPolicy) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (f *jsiiProxy_FmsPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FmsPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FmsPolicy) validatePutIncludeMapParameters(value *FmsPolicyIn
 }
 
 func (f *jsiiProxy_FmsPolicy) validatePutSecurityServicePolicyDataParameters(value *FmsPolicySecurityServicePolicyData) error {
+	return nil
+}
+
+func (f *jsiiProxy_FmsPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

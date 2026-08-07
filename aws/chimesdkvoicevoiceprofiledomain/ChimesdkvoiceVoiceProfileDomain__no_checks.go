@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomain) validateInterpolationForAttr
 	return nil
 }
 
+func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomain) validatePutServerSideEncrypt
 }
 
 func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomain) validatePutTimeoutsParameters(value *ChimesdkvoiceVoiceProfileDomainTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChimesdkvoiceVoiceProfileDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

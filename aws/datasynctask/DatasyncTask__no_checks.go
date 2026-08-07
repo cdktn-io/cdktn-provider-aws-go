@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncTask) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncTask) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncTask) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (d *jsiiProxy_DatasyncTask) validatePutTaskReportConfigParameters(value *Da
 }
 
 func (d *jsiiProxy_DatasyncTask) validatePutTimeoutsParameters(value *DatasyncTaskTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncTask) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

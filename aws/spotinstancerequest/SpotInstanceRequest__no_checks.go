@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpotInstanceRequest) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (s *jsiiProxy_SpotInstanceRequest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpotInstanceRequest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (s *jsiiProxy_SpotInstanceRequest) validatePutSecondaryNetworkInterfacePara
 }
 
 func (s *jsiiProxy_SpotInstanceRequest) validatePutTimeoutsParameters(value *SpotInstanceRequestTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpotInstanceRequest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

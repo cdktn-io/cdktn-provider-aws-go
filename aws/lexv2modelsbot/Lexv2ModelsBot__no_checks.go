@@ -59,6 +59,10 @@ func (l *jsiiProxy_Lexv2ModelsBot) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (l *jsiiProxy_Lexv2ModelsBot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_Lexv2ModelsBot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (l *jsiiProxy_Lexv2ModelsBot) validatePutMembersParameters(value interface{
 }
 
 func (l *jsiiProxy_Lexv2ModelsBot) validatePutTimeoutsParameters(value *Lexv2ModelsBotTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_Lexv2ModelsBot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

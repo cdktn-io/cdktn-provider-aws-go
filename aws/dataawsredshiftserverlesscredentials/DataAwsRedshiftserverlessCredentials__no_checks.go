@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsRedshiftserverlessCredentials) validateOverrideLogical
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRedshiftserverlessCredentials) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRedshiftserverlessCredentials_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

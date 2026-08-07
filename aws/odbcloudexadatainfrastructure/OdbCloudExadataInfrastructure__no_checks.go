@@ -59,6 +59,10 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructure) validateInterpolationForAttrib
 	return nil
 }
 
+func (o *jsiiProxy_OdbCloudExadataInfrastructure) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OdbCloudExadataInfrastructure) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (o *jsiiProxy_OdbCloudExadataInfrastructure) validatePutMaintenanceWindowPa
 }
 
 func (o *jsiiProxy_OdbCloudExadataInfrastructure) validatePutTimeoutsParameters(value *OdbCloudExadataInfrastructureTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OdbCloudExadataInfrastructure) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

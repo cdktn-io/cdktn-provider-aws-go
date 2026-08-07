@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcrRepository) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (e *jsiiProxy_EcrRepository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcrRepository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (e *jsiiProxy_EcrRepository) validatePutImageTagMutabilityExclusionFilterPa
 }
 
 func (e *jsiiProxy_EcrRepository) validatePutTimeoutsParameters(value *EcrRepositoryTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcrRepository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

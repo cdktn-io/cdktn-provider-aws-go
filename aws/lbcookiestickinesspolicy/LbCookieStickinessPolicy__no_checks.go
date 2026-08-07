@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbCookieStickinessPolicy) validateInterpolationForAttributePa
 	return nil
 }
 
+func (l *jsiiProxy_LbCookieStickinessPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbCookieStickinessPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (l *jsiiProxy_LbCookieStickinessPolicy) validateMoveToIdParameters(id *stri
 }
 
 func (l *jsiiProxy_LbCookieStickinessPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbCookieStickinessPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

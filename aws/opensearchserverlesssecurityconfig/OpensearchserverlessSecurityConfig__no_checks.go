@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validateInterpolationForA
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validatePutIamIdentityCen
 }
 
 func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validatePutSamlOptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchserverlessSecurityConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

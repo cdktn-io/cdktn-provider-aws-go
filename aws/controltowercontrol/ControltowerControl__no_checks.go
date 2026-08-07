@@ -59,6 +59,10 @@ func (c *jsiiProxy_ControltowerControl) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_ControltowerControl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ControltowerControl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_ControltowerControl) validatePutParametersParameters(value in
 }
 
 func (c *jsiiProxy_ControltowerControl) validatePutTimeoutsParameters(value *ControltowerControlTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ControltowerControl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

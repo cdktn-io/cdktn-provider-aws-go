@@ -57,6 +57,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberMethod{JsiiMethod: "putFilter", GoMethod: "PutFilter"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCurrencies", GoMethod: "ResetCurrencies"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescriptions", GoMethod: "ResetDescriptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDurations", GoMethod: "ResetDurations"},

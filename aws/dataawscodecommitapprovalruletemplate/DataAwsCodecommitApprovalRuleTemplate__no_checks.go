@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsCodecommitApprovalRuleTemplate) validateOverrideLogica
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsCodecommitApprovalRuleTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsCodecommitApprovalRuleTemplate_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

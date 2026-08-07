@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodepipelineWebhook) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CodepipelineWebhook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodepipelineWebhook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CodepipelineWebhook) validatePutAuthenticationConfigurationPa
 }
 
 func (c *jsiiProxy_CodepipelineWebhook) validatePutFilterParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineWebhook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

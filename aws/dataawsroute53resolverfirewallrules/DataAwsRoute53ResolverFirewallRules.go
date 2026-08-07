@@ -5,14 +5,14 @@ package dataawsroute53resolverfirewallrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsroute53resolverfirewallrules/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsroute53resolverfirewallrules/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules}.
 type DataAwsRoute53ResolverFirewallRules interface {
 	cdktn.TerraformDataSource
 	Action() *string
@@ -94,6 +94,19 @@ type DataAwsRoute53ResolverFirewallRules interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAction()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -380,7 +393,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRules) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
 func NewDataAwsRoute53ResolverFirewallRules(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRulesConfig) DataAwsRoute53ResolverFirewallRules {
 	_init_.Initialize()
 
@@ -398,7 +411,7 @@ func NewDataAwsRoute53ResolverFirewallRules(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/route53_resolver_firewall_rules aws_route53_resolver_firewall_rules} Data Source.
 func NewDataAwsRoute53ResolverFirewallRules_Override(d DataAwsRoute53ResolverFirewallRules, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRulesConfig) {
 	_init_.Initialize()
 
@@ -792,6 +805,17 @@ func (d *jsiiProxy_DataAwsRoute53ResolverFirewallRules) OverrideLogicalId(newLog
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsRoute53ResolverFirewallRules) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

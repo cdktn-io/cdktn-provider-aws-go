@@ -59,6 +59,10 @@ func (k *jsiiProxy_KinesisStreamConsumer) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (k *jsiiProxy_KinesisStreamConsumer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KinesisStreamConsumer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (k *jsiiProxy_KinesisStreamConsumer) validateMoveToIdParameters(id *string)
 }
 
 func (k *jsiiProxy_KinesisStreamConsumer) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KinesisStreamConsumer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

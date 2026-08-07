@@ -59,6 +59,10 @@ func (r *jsiiProxy_RekognitionProject) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (r *jsiiProxy_RekognitionProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RekognitionProject) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RekognitionProject) validateOverrideLogicalIdParameters(newLo
 }
 
 func (r *jsiiProxy_RekognitionProject) validatePutTimeoutsParameters(value *RekognitionProjectTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RekognitionProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

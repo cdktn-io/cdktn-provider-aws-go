@@ -59,6 +59,10 @@ func (a *jsiiProxy_AthenaWorkgroup) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (a *jsiiProxy_AthenaWorkgroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AthenaWorkgroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AthenaWorkgroup) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (a *jsiiProxy_AthenaWorkgroup) validatePutConfigurationParameters(value *AthenaWorkgroupConfiguration) error {
+	return nil
+}
+
+func (a *jsiiProxy_AthenaWorkgroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

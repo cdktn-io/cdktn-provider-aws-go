@@ -59,6 +59,10 @@ func (o *jsiiProxy_OamSinkPolicy) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (o *jsiiProxy_OamSinkPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OamSinkPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OamSinkPolicy) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (o *jsiiProxy_OamSinkPolicy) validatePutTimeoutsParameters(value *OamSinkPolicyTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OamSinkPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

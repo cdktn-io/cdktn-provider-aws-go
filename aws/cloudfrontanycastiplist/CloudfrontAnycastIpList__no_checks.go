@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontAnycastIpList) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontAnycastIpList) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontAnycastIpList) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudfrontAnycastIpList) validateOverrideLogicalIdParameters(
 }
 
 func (c *jsiiProxy_CloudfrontAnycastIpList) validatePutTimeoutsParameters(value *CloudfrontAnycastIpListTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontAnycastIpList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

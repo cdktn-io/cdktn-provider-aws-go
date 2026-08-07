@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontVpcOrigin) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontVpcOrigin) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontVpcOrigin) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CloudfrontVpcOrigin) validatePutTimeoutsParameters(value *Clo
 }
 
 func (c *jsiiProxy_CloudfrontVpcOrigin) validatePutVpcOriginEndpointConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontVpcOrigin) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

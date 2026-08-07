@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2ManagedPrefixList) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (e *jsiiProxy_Ec2ManagedPrefixList) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2ManagedPrefixList) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2ManagedPrefixList) validateOverrideLogicalIdParameters(new
 }
 
 func (e *jsiiProxy_Ec2ManagedPrefixList) validatePutEntryParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2ManagedPrefixList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

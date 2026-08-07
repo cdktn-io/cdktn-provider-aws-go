@@ -59,6 +59,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateInterpolationForAttrib
 	return nil
 }
 
+func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateOverrideLogicalIdParam
 }
 
 func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validatePutTimeoutsParameters(value *Pinpointsmsvoicev2PhoneNumberTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

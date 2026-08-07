@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodeguruprofilerProfilingGroup) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_CodeguruprofilerProfilingGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodeguruprofilerProfilingGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CodeguruprofilerProfilingGroup) validateOverrideLogicalIdPara
 }
 
 func (c *jsiiProxy_CodeguruprofilerProfilingGroup) validatePutAgentOrchestrationConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodeguruprofilerProfilingGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

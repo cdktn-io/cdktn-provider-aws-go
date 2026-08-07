@@ -5,14 +5,14 @@ package dataawsvpc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsvpc/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsvpc/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/vpc aws_vpc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/vpc aws_vpc}.
 type DataAwsVpc interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -57,6 +57,7 @@ type DataAwsVpc interface {
 	InstanceTenancy() *string
 	Ipv6AssociationId() *string
 	Ipv6CidrBlock() *string
+	Ipv6CidrBlockAssociations() DataAwsVpcIpv6CidrBlockAssociationsList
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -115,6 +116,19 @@ type DataAwsVpc interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutFilter(value interface{})
 	PutTimeouts(value *DataAwsVpcTimeouts)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCidrBlock()
 	ResetDefault()
 	ResetDhcpOptionsId()
@@ -405,6 +419,16 @@ func (j *jsiiProxy_DataAwsVpc) Ipv6CidrBlock() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsVpc) Ipv6CidrBlockAssociations() DataAwsVpcIpv6CidrBlockAssociationsList {
+	var returns DataAwsVpcIpv6CidrBlockAssociationsList
+	_jsii_.Get(
+		j,
+		"ipv6CidrBlockAssociations",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsVpc) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -576,7 +600,7 @@ func (j *jsiiProxy_DataAwsVpc) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/vpc aws_vpc} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/vpc aws_vpc} Data Source.
 func NewDataAwsVpc(scope constructs.Construct, id *string, config *DataAwsVpcConfig) DataAwsVpc {
 	_init_.Initialize()
 
@@ -594,7 +618,7 @@ func NewDataAwsVpc(scope constructs.Construct, id *string, config *DataAwsVpcCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/vpc aws_vpc} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/vpc aws_vpc} Data Source.
 func NewDataAwsVpc_Override(d DataAwsVpc, scope constructs.Construct, id *string, config *DataAwsVpcConfig) {
 	_init_.Initialize()
 
@@ -1032,6 +1056,17 @@ func (d *jsiiProxy_DataAwsVpc) PutTimeouts(value *DataAwsVpcTimeouts) {
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsVpc) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerCodeRepository) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerCodeRepository) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerCodeRepository) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SagemakerCodeRepository) validateOverrideLogicalIdParameters(
 }
 
 func (s *jsiiProxy_SagemakerCodeRepository) validatePutGitConfigParameters(value *SagemakerCodeRepositoryGitConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerCodeRepository) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

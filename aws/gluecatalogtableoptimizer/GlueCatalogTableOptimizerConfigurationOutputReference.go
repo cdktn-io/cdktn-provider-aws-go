@@ -5,14 +5,16 @@ package gluecatalogtableoptimizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/gluecatalogtableoptimizer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/gluecatalogtableoptimizer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type GlueCatalogTableOptimizerConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	CompactionConfiguration() GlueCatalogTableOptimizerConfigurationCompactionConfigurationList
+	CompactionConfigurationInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -74,8 +76,10 @@ type GlueCatalogTableOptimizerConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCompactionConfiguration(value interface{})
 	PutOrphanFileDeletionConfiguration(value interface{})
 	PutRetentionConfiguration(value interface{})
+	ResetCompactionConfiguration()
 	ResetOrphanFileDeletionConfiguration()
 	ResetRetentionConfiguration()
 	// Produce the Token's value at resolution time.
@@ -91,6 +95,26 @@ type GlueCatalogTableOptimizerConfigurationOutputReference interface {
 // The jsii proxy struct for GlueCatalogTableOptimizerConfigurationOutputReference
 type jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) CompactionConfiguration() GlueCatalogTableOptimizerConfigurationCompactionConfigurationList {
+	var returns GlueCatalogTableOptimizerConfigurationCompactionConfigurationList
+	_jsii_.Get(
+		j,
+		"compactionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) CompactionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"compactionConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -534,6 +558,17 @@ func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) Interp
 	return returns
 }
 
+func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) PutCompactionConfiguration(value interface{}) {
+	if err := g.validatePutCompactionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putCompactionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) PutOrphanFileDeletionConfiguration(value interface{}) {
 	if err := g.validatePutOrphanFileDeletionConfigurationParameters(value); err != nil {
 		panic(err)
@@ -553,6 +588,14 @@ func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) PutRet
 		g,
 		"putRetentionConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GlueCatalogTableOptimizerConfigurationOutputReference) ResetCompactionConfiguration() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetCompactionConfiguration",
+		nil, // no parameters
 	)
 }
 

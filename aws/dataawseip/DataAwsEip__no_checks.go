@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsEip) validatePutTimeoutsParameters(value *DataAwsEipTi
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEip) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEip_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

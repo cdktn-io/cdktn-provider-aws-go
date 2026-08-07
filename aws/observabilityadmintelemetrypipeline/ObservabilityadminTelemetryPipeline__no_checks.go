@@ -59,6 +59,10 @@ func (o *jsiiProxy_ObservabilityadminTelemetryPipeline) validateInterpolationFor
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminTelemetryPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminTelemetryPipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_ObservabilityadminTelemetryPipeline) validatePutConfiguration
 }
 
 func (o *jsiiProxy_ObservabilityadminTelemetryPipeline) validatePutTimeoutsParameters(value *ObservabilityadminTelemetryPipelineTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

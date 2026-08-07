@@ -59,6 +59,10 @@ func (v *jsiiProxy_VerifiedaccessGroup) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (v *jsiiProxy_VerifiedaccessGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VerifiedaccessGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VerifiedaccessGroup) validateOverrideLogicalIdParameters(newL
 }
 
 func (v *jsiiProxy_VerifiedaccessGroup) validatePutSseConfigurationParameters(value *VerifiedaccessGroupSseConfiguration) error {
+	return nil
+}
+
+func (v *jsiiProxy_VerifiedaccessGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

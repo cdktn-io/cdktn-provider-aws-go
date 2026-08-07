@@ -59,6 +59,10 @@ func (d *jsiiProxy_DynamodbTableExport) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbTableExport) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbTableExport) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DynamodbTableExport) validatePutIncrementalExportSpecificatio
 }
 
 func (d *jsiiProxy_DynamodbTableExport) validatePutTimeoutsParameters(value *DynamodbTableExportTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DynamodbTableExport) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

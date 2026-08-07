@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueMlTransform) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (g *jsiiProxy_GlueMlTransform) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueMlTransform) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (g *jsiiProxy_GlueMlTransform) validatePutInputRecordTablesParameters(value
 }
 
 func (g *jsiiProxy_GlueMlTransform) validatePutParametersParameters(value *GlueMlTransformParameters) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueMlTransform) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

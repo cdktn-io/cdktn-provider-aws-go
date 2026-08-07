@@ -59,6 +59,10 @@ func (r *jsiiProxy_RdsCluster) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (r *jsiiProxy_RdsCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RdsCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (r *jsiiProxy_RdsCluster) validatePutServerlessv2ScalingConfigurationParame
 }
 
 func (r *jsiiProxy_RdsCluster) validatePutTimeoutsParameters(value *RdsClusterTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RdsCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SagemakerSpace) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerSpace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerSpace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SagemakerSpace) validatePutSpaceSettingsParameters(value *Sag
 }
 
 func (s *jsiiProxy_SagemakerSpace) validatePutSpaceSharingSettingsParameters(value *SagemakerSpaceSpaceSharingSettings) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerSpace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

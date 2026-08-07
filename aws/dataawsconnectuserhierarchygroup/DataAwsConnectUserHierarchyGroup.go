@@ -5,14 +5,14 @@ package dataawsconnectuserhierarchygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsconnectuserhierarchygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsconnectuserhierarchygroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_user_hierarchy_group aws_connect_user_hierarchy_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_user_hierarchy_group aws_connect_user_hierarchy_group}.
 type DataAwsConnectUserHierarchyGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -99,6 +99,19 @@ type DataAwsConnectUserHierarchyGroup interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetHierarchyGroupId()
 	ResetId()
 	ResetName()
@@ -426,7 +439,7 @@ func (j *jsiiProxy_DataAwsConnectUserHierarchyGroup) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Data Source.
 func NewDataAwsConnectUserHierarchyGroup(scope constructs.Construct, id *string, config *DataAwsConnectUserHierarchyGroupConfig) DataAwsConnectUserHierarchyGroup {
 	_init_.Initialize()
 
@@ -444,7 +457,7 @@ func NewDataAwsConnectUserHierarchyGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_user_hierarchy_group aws_connect_user_hierarchy_group} Data Source.
 func NewDataAwsConnectUserHierarchyGroup_Override(d DataAwsConnectUserHierarchyGroup, scope constructs.Construct, id *string, config *DataAwsConnectUserHierarchyGroupConfig) {
 	_init_.Initialize()
 
@@ -849,6 +862,17 @@ func (d *jsiiProxy_DataAwsConnectUserHierarchyGroup) OverrideLogicalId(newLogica
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsConnectUserHierarchyGroup) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

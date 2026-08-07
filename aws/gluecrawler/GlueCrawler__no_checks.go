@@ -59,6 +59,10 @@ func (g *jsiiProxy_GlueCrawler) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (g *jsiiProxy_GlueCrawler) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GlueCrawler) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (g *jsiiProxy_GlueCrawler) validatePutS3TargetParameters(value interface{})
 }
 
 func (g *jsiiProxy_GlueCrawler) validatePutSchemaChangePolicyParameters(value *GlueCrawlerSchemaChangePolicy) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueCrawler) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

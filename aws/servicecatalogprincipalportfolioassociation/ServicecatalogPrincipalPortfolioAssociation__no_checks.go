@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicecatalogPrincipalPortfolioAssociation) validateInterpol
 	return nil
 }
 
+func (s *jsiiProxy_ServicecatalogPrincipalPortfolioAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicecatalogPrincipalPortfolioAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServicecatalogPrincipalPortfolioAssociation) validateOverride
 }
 
 func (s *jsiiProxy_ServicecatalogPrincipalPortfolioAssociation) validatePutTimeoutsParameters(value *ServicecatalogPrincipalPortfolioAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicecatalogPrincipalPortfolioAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

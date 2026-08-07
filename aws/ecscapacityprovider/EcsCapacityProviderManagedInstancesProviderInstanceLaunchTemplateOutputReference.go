@@ -5,9 +5,9 @@ package ecscapacityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/ecscapacityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ecscapacityprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,6 +16,8 @@ type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputRefe
 	CapacityOptionType() *string
 	SetCapacityOptionType(val *string)
 	CapacityOptionTypeInput() *string
+	CapacityReservations() EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference
+	CapacityReservationsInput() *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,6 +42,8 @@ type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputRefe
 	InstanceRequirementsInput() *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements
 	InternalValue() *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplate
 	SetInternalValue(val *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplate)
+	LocalStorageConfiguration() EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference
+	LocalStorageConfigurationInput() *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration
 	Monitoring() *string
 	SetMonitoring(val *string)
 	MonitoringInput() *string
@@ -79,11 +83,15 @@ type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputRefe
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCapacityReservations(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations)
 	PutInstanceRequirements(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements)
+	PutLocalStorageConfiguration(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration)
 	PutNetworkConfiguration(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration)
 	PutStorageConfiguration(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration)
 	ResetCapacityOptionType()
+	ResetCapacityReservations()
 	ResetInstanceRequirements()
+	ResetLocalStorageConfiguration()
 	ResetMonitoring()
 	ResetStorageConfiguration()
 	// Produce the Token's value at resolution time.
@@ -116,6 +124,26 @@ func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	_jsii_.Get(
 		j,
 		"capacityOptionTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) CapacityReservations() EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference {
+	var returns EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservationsOutputReference
+	_jsii_.Get(
+		j,
+		"capacityReservations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) CapacityReservationsInput() *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations {
+	var returns *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations
+	_jsii_.Get(
+		j,
+		"capacityReservationsInput",
 		&returns,
 	)
 	return returns
@@ -206,6 +234,26 @@ func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) LocalStorageConfiguration() EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference {
+	var returns EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"localStorageConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) LocalStorageConfigurationInput() *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration {
+	var returns *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration
+	_jsii_.Get(
+		j,
+		"localStorageConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -593,6 +641,17 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	return returns
 }
 
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) PutCapacityReservations(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations) {
+	if err := e.validatePutCapacityReservationsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putCapacityReservations",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) PutInstanceRequirements(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateInstanceRequirements) {
 	if err := e.validatePutInstanceRequirementsParameters(value); err != nil {
 		panic(err)
@@ -600,6 +659,17 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	_jsii_.InvokeVoid(
 		e,
 		"putInstanceRequirements",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) PutLocalStorageConfiguration(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration) {
+	if err := e.validatePutLocalStorageConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putLocalStorageConfiguration",
 		[]interface{}{value},
 	)
 }
@@ -634,10 +704,26 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemp
 	)
 }
 
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) ResetCapacityReservations() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetCapacityReservations",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) ResetInstanceRequirements() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetInstanceRequirements",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference) ResetLocalStorageConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetLocalStorageConfiguration",
 		nil, // no parameters
 	)
 }

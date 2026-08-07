@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateInterpolationFor
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateMoveToIdParamete
 }
 
 func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncLocationFsxLustreFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) validateInterpolationFo
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) validateMoveToIdParamet
 }
 
 func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchAuthorizeVpcEndpointAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

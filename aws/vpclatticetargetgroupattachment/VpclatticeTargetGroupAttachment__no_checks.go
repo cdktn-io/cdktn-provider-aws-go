@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpclatticeTargetGroupAttachment) validateInterpolationForAttr
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeTargetGroupAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeTargetGroupAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VpclatticeTargetGroupAttachment) validatePutTargetParameters(
 }
 
 func (v *jsiiProxy_VpclatticeTargetGroupAttachment) validatePutTimeoutsParameters(value *VpclatticeTargetGroupAttachmentTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpclatticeTargetGroupAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

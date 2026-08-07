@@ -59,6 +59,10 @@ func (m *jsiiProxy_MedialiveInputSecurityGroup) validateInterpolationForAttribut
 	return nil
 }
 
+func (m *jsiiProxy_MedialiveInputSecurityGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MedialiveInputSecurityGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MedialiveInputSecurityGroup) validatePutTimeoutsParameters(va
 }
 
 func (m *jsiiProxy_MedialiveInputSecurityGroup) validatePutWhitelistRulesParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MedialiveInputSecurityGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

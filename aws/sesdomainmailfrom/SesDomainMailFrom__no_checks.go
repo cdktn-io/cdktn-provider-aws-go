@@ -59,6 +59,10 @@ func (s *jsiiProxy_SesDomainMailFrom) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_SesDomainMailFrom) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SesDomainMailFrom) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SesDomainMailFrom) validateMoveToIdParameters(id *string) err
 }
 
 func (s *jsiiProxy_SesDomainMailFrom) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesDomainMailFrom) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxFileCache) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (f *jsiiProxy_FsxFileCache) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxFileCache) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FsxFileCache) validatePutLustreConfigurationParameters(value 
 }
 
 func (f *jsiiProxy_FsxFileCache) validatePutTimeoutsParameters(value *FsxFileCacheTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxFileCache) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

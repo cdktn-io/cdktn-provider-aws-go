@@ -59,6 +59,10 @@ func (d *jsiiProxy_DynamodbResourcePolicy) validateInterpolationForAttributePara
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbResourcePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbResourcePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (d *jsiiProxy_DynamodbResourcePolicy) validateMoveToIdParameters(id *string
 }
 
 func (d *jsiiProxy_DynamodbResourcePolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DynamodbResourcePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

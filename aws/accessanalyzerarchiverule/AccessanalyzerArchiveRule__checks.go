@@ -122,6 +122,14 @@ func (a *jsiiProxy_AccessanalyzerArchiveRule) validateInterpolationForAttributeP
 	return nil
 }
 
+func (a *jsiiProxy_AccessanalyzerArchiveRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_AccessanalyzerArchiveRule) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -233,6 +241,14 @@ func (a *jsiiProxy_AccessanalyzerArchiveRule) validatePutFilterParameters(value 
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AccessanalyzerArchiveRuleFilter; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AccessanalyzerArchiveRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

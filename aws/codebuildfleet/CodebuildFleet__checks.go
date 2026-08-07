@@ -122,6 +122,14 @@ func (c *jsiiProxy_CodebuildFleet) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (c *jsiiProxy_CodebuildFleet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CodebuildFleet) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -255,6 +263,14 @@ func (c *jsiiProxy_CodebuildFleet) validatePutVpcConfigParameters(value interfac
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CodebuildFleetVpcConfig; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CodebuildFleet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupSelection) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (b *jsiiProxy_BackupSelection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupSelection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BackupSelection) validatePutConditionParameters(value interfa
 }
 
 func (b *jsiiProxy_BackupSelection) validatePutSelectionTagParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupSelection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

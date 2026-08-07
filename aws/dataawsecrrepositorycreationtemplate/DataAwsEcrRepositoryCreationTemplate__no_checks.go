@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplate) validateOverrideLogical
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEcrRepositoryCreationTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEcrRepositoryCreationTemplate_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

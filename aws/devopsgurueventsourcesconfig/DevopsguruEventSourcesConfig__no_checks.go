@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevopsguruEventSourcesConfig) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DevopsguruEventSourcesConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevopsguruEventSourcesConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DevopsguruEventSourcesConfig) validateOverrideLogicalIdParame
 }
 
 func (d *jsiiProxy_DevopsguruEventSourcesConfig) validatePutEventSourcesParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevopsguruEventSourcesConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

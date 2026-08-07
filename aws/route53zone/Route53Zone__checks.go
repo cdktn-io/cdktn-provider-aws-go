@@ -122,6 +122,14 @@ func (r *jsiiProxy_Route53Zone) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (r *jsiiProxy_Route53Zone) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (r *jsiiProxy_Route53Zone) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -244,6 +252,14 @@ func (r *jsiiProxy_Route53Zone) validatePutVpcParameters(value interface{}) erro
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Route53ZoneVpc; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (r *jsiiProxy_Route53Zone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

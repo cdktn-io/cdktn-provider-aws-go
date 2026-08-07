@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectBotAssociation) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ConnectBotAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectBotAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ConnectBotAssociation) validateOverrideLogicalIdParameters(ne
 }
 
 func (c *jsiiProxy_ConnectBotAssociation) validatePutLexBotParameters(value *ConnectBotAssociationLexBot) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectBotAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

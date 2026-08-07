@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApprunnerObservabilityConfiguration) validateInterpolationFor
 	return nil
 }
 
+func (a *jsiiProxy_ApprunnerObservabilityConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApprunnerObservabilityConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApprunnerObservabilityConfiguration) validateOverrideLogicalI
 }
 
 func (a *jsiiProxy_ApprunnerObservabilityConfiguration) validatePutTraceConfigurationParameters(value *ApprunnerObservabilityConfigurationTraceConfiguration) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApprunnerObservabilityConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateInterpolationForAtt
 	return nil
 }
 
+func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateOverrideLogicalIdPa
 }
 
 func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validatePutConfigurationParameters(value *S3ControlObjectLambdaAccessPointConfiguration) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3ControlObjectLambdaAccessPoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -122,6 +122,14 @@ func (r *jsiiProxy_RolesanywhereProfile) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (r *jsiiProxy_RolesanywhereProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (r *jsiiProxy_RolesanywhereProfile) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (r *jsiiProxy_RolesanywhereProfile) validateMoveToIdParameters(id *string) 
 func (r *jsiiProxy_RolesanywhereProfile) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (r *jsiiProxy_RolesanywhereProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsCloudfrontLogDeliveryCanonicalUserId) validateOverride
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsCloudfrontLogDeliveryCanonicalUserId) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsCloudfrontLogDeliveryCanonicalUserId_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

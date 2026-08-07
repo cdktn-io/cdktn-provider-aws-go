@@ -59,6 +59,10 @@ func (m *jsiiProxy_MskconnectCustomPlugin) validateInterpolationForAttributePara
 	return nil
 }
 
+func (m *jsiiProxy_MskconnectCustomPlugin) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskconnectCustomPlugin) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MskconnectCustomPlugin) validatePutLocationParameters(value *
 }
 
 func (m *jsiiProxy_MskconnectCustomPlugin) validatePutTimeoutsParameters(value *MskconnectCustomPluginTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskconnectCustomPlugin) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

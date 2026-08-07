@@ -59,6 +59,10 @@ func (f *jsiiProxy_FinspaceKxUser) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (f *jsiiProxy_FinspaceKxUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FinspaceKxUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FinspaceKxUser) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (f *jsiiProxy_FinspaceKxUser) validatePutTimeoutsParameters(value *FinspaceKxUserTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FinspaceKxUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

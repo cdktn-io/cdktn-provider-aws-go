@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateInterpolationForAtt
 	return nil
 }
 
+func (e *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateOverrideLogicalIdPa
 }
 
 func (e *jsiiProxy_Ec2TransitGatewayMulticastDomain) validatePutTimeoutsParameters(value *Ec2TransitGatewayMulticastDomainTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayMulticastDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

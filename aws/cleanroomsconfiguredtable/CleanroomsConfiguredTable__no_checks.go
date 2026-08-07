@@ -59,6 +59,10 @@ func (c *jsiiProxy_CleanroomsConfiguredTable) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CleanroomsConfiguredTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CleanroomsConfiguredTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CleanroomsConfiguredTable) validatePutTableReferenceParameter
 }
 
 func (c *jsiiProxy_CleanroomsConfiguredTable) validatePutTimeoutsParameters(value *CleanroomsConfiguredTableTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CleanroomsConfiguredTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

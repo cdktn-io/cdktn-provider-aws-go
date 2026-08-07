@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateInterpolationF
 	return nil
 }
 
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateOverrideLogica
 }
 
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutTimeoutsParameters(value *NetworkmanagerSiteToSiteVpnAttachmentTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

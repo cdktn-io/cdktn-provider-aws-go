@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validateInterpolationF
 	return nil
 }
 
+func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validatePutSubnetMappi
 }
 
 func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validatePutTimeoutsParameters(value *NetworkfirewallVpcEndpointAssociationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkfirewallVpcEndpointAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

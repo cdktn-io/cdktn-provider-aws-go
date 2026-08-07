@@ -59,6 +59,10 @@ func (s *jsiiProxy_SignerSigningProfilePermission) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SignerSigningProfilePermission) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SignerSigningProfilePermission) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_SignerSigningProfilePermission) validateMoveToIdParameters(id
 }
 
 func (s *jsiiProxy_SignerSigningProfilePermission) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SignerSigningProfilePermission) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

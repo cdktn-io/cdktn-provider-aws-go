@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsRoute53ResolverFirewallDomainList) validateOverrideLog
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRoute53ResolverFirewallDomainList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRoute53ResolverFirewallDomainList_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

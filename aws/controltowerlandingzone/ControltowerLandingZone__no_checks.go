@@ -59,6 +59,10 @@ func (c *jsiiProxy_ControltowerLandingZone) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_ControltowerLandingZone) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ControltowerLandingZone) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ControltowerLandingZone) validateOverrideLogicalIdParameters(
 }
 
 func (c *jsiiProxy_ControltowerLandingZone) validatePutTimeoutsParameters(value *ControltowerLandingZoneTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ControltowerLandingZone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

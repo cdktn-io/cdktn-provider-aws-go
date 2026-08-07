@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppmeshVirtualService) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (a *jsiiProxy_AppmeshVirtualService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppmeshVirtualService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppmeshVirtualService) validateOverrideLogicalIdParameters(ne
 }
 
 func (a *jsiiProxy_AppmeshVirtualService) validatePutSpecParameters(value *AppmeshVirtualServiceSpec) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppmeshVirtualService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

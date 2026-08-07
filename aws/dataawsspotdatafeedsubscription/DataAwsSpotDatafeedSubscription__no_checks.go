@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSpotDatafeedSubscription) validateOverrideLogicalIdPar
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSpotDatafeedSubscription) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSpotDatafeedSubscription_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChimesdkvoiceSipMediaApplication) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_ChimesdkvoiceSipMediaApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChimesdkvoiceSipMediaApplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ChimesdkvoiceSipMediaApplication) validateOverrideLogicalIdPa
 }
 
 func (c *jsiiProxy_ChimesdkvoiceSipMediaApplication) validatePutEndpointsParameters(value *ChimesdkvoiceSipMediaApplicationEndpoints) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChimesdkvoiceSipMediaApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

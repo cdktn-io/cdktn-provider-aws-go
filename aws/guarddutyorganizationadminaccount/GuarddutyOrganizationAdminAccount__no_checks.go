@@ -59,6 +59,10 @@ func (g *jsiiProxy_GuarddutyOrganizationAdminAccount) validateInterpolationForAt
 	return nil
 }
 
+func (g *jsiiProxy_GuarddutyOrganizationAdminAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GuarddutyOrganizationAdminAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (g *jsiiProxy_GuarddutyOrganizationAdminAccount) validateMoveToIdParameters
 }
 
 func (g *jsiiProxy_GuarddutyOrganizationAdminAccount) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyOrganizationAdminAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

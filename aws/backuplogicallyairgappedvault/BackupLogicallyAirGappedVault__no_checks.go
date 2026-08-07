@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupLogicallyAirGappedVault) validateInterpolationForAttrib
 	return nil
 }
 
+func (b *jsiiProxy_BackupLogicallyAirGappedVault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupLogicallyAirGappedVault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BackupLogicallyAirGappedVault) validateOverrideLogicalIdParam
 }
 
 func (b *jsiiProxy_BackupLogicallyAirGappedVault) validatePutTimeoutsParameters(value *BackupLogicallyAirGappedVaultTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupLogicallyAirGappedVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

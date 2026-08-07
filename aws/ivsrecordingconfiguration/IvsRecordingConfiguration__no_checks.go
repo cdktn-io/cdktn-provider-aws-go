@@ -59,6 +59,10 @@ func (i *jsiiProxy_IvsRecordingConfiguration) validateInterpolationForAttributeP
 	return nil
 }
 
+func (i *jsiiProxy_IvsRecordingConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IvsRecordingConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_IvsRecordingConfiguration) validatePutThumbnailConfigurationP
 }
 
 func (i *jsiiProxy_IvsRecordingConfiguration) validatePutTimeoutsParameters(value *IvsRecordingConfigurationTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsRecordingConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

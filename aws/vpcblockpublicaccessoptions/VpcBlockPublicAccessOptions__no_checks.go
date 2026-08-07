@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcBlockPublicAccessOptions) validateInterpolationForAttribut
 	return nil
 }
 
+func (v *jsiiProxy_VpcBlockPublicAccessOptions) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcBlockPublicAccessOptions) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VpcBlockPublicAccessOptions) validateOverrideLogicalIdParamet
 }
 
 func (v *jsiiProxy_VpcBlockPublicAccessOptions) validatePutTimeoutsParameters(value *VpcBlockPublicAccessOptionsTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcBlockPublicAccessOptions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

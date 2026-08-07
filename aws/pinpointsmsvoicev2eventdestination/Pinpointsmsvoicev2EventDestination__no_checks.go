@@ -59,6 +59,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) validateInterpolationForA
 	return nil
 }
 
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) validatePutKinesisFirehos
 }
 
 func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) validatePutSnsDestinationParameters(value interface{}) error {
+	return nil
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2EventDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

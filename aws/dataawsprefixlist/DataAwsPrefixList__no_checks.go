@@ -63,6 +63,10 @@ func (d *jsiiProxy_DataAwsPrefixList) validatePutTimeoutsParameters(value *DataA
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsPrefixList) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsPrefixList_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

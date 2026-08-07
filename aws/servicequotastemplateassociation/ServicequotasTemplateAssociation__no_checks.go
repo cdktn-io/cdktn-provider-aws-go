@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicequotasTemplateAssociation) validateInterpolationForAtt
 	return nil
 }
 
+func (s *jsiiProxy_ServicequotasTemplateAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicequotasTemplateAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (s *jsiiProxy_ServicequotasTemplateAssociation) validateMoveToIdParameters(
 }
 
 func (s *jsiiProxy_ServicequotasTemplateAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicequotasTemplateAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

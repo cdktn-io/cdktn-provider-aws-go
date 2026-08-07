@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatazoneGlossaryTerm) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (d *jsiiProxy_DatazoneGlossaryTerm) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatazoneGlossaryTerm) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DatazoneGlossaryTerm) validatePutTermRelationsParameters(valu
 }
 
 func (d *jsiiProxy_DatazoneGlossaryTerm) validatePutTimeoutsParameters(value *DatazoneGlossaryTermTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatazoneGlossaryTerm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

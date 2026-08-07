@@ -59,6 +59,10 @@ func (a *jsiiProxy_AmplifyApp) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (a *jsiiProxy_AmplifyApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AmplifyApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (a *jsiiProxy_AmplifyApp) validatePutCustomRuleParameters(value interface{}
 }
 
 func (a *jsiiProxy_AmplifyApp) validatePutJobConfigParameters(value *AmplifyAppJobConfig) error {
+	return nil
+}
+
+func (a *jsiiProxy_AmplifyApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dataawsconnectquickconnect
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsconnectquickconnect/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsconnectquickconnect/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_quick_connect aws_connect_quick_connect}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_quick_connect aws_connect_quick_connect}.
 type DataAwsConnectQuickConnect interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -99,6 +99,19 @@ type DataAwsConnectQuickConnect interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetId()
 	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -426,7 +439,7 @@ func (j *jsiiProxy_DataAwsConnectQuickConnect) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_quick_connect aws_connect_quick_connect} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_quick_connect aws_connect_quick_connect} Data Source.
 func NewDataAwsConnectQuickConnect(scope constructs.Construct, id *string, config *DataAwsConnectQuickConnectConfig) DataAwsConnectQuickConnect {
 	_init_.Initialize()
 
@@ -444,7 +457,7 @@ func NewDataAwsConnectQuickConnect(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/connect_quick_connect aws_connect_quick_connect} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/connect_quick_connect aws_connect_quick_connect} Data Source.
 func NewDataAwsConnectQuickConnect_Override(d DataAwsConnectQuickConnect, scope constructs.Construct, id *string, config *DataAwsConnectQuickConnectConfig) {
 	_init_.Initialize()
 
@@ -849,6 +862,17 @@ func (d *jsiiProxy_DataAwsConnectQuickConnect) OverrideLogicalId(newLogicalId *s
 		d,
 		"overrideLogicalId",
 		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAwsConnectQuickConnect) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

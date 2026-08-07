@@ -59,6 +59,10 @@ func (s *jsiiProxy_SfnStateMachine) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (s *jsiiProxy_SfnStateMachine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SfnStateMachine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SfnStateMachine) validatePutTimeoutsParameters(value *SfnStat
 }
 
 func (s *jsiiProxy_SfnStateMachine) validatePutTracingConfigurationParameters(value *SfnStateMachineTracingConfiguration) error {
+	return nil
+}
+
+func (s *jsiiProxy_SfnStateMachine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

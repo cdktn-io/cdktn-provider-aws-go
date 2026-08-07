@@ -122,6 +122,14 @@ func (g *jsiiProxy_GlueCatalog) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (g *jsiiProxy_GlueCatalog) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GlueCatalog) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -368,6 +376,14 @@ func (g *jsiiProxy_GlueCatalog) validatePutTimeoutsParameters(value *GlueCatalog
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GlueCatalog) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

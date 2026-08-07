@@ -5,9 +5,9 @@ package codepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/codepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/codepipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,6 +16,9 @@ type CodepipelineStageActionOutputReference interface {
 	Category() *string
 	SetCategory(val *string)
 	CategoryInput() *string
+	Commands() *[]*string
+	SetCommands(val *[]*string)
+	CommandsInput() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,7 +52,12 @@ type CodepipelineStageActionOutputReference interface {
 	NamespaceInput() *string
 	OutputArtifacts() *[]*string
 	SetOutputArtifacts(val *[]*string)
+	OutputArtifactsForComputeAction() CodepipelineStageActionOutputArtifactsForComputeActionList
+	OutputArtifactsForComputeActionInput() interface{}
 	OutputArtifactsInput() *[]*string
+	OutputVariables() *[]*string
+	SetOutputVariables(val *[]*string)
+	OutputVariablesInput() *[]*string
 	Owner() *string
 	SetOwner(val *string)
 	OwnerInput() *string
@@ -103,10 +111,14 @@ type CodepipelineStageActionOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOutputArtifactsForComputeAction(value interface{})
+	ResetCommands()
 	ResetConfiguration()
 	ResetInputArtifacts()
 	ResetNamespace()
 	ResetOutputArtifacts()
+	ResetOutputArtifactsForComputeAction()
+	ResetOutputVariables()
 	ResetRegion()
 	ResetRoleArn()
 	ResetRunOrder()
@@ -141,6 +153,26 @@ func (j *jsiiProxy_CodepipelineStageActionOutputReference) CategoryInput() *stri
 	_jsii_.Get(
 		j,
 		"categoryInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) Commands() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"commands",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) CommandsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"commandsInput",
 		&returns,
 	)
 	return returns
@@ -286,11 +318,51 @@ func (j *jsiiProxy_CodepipelineStageActionOutputReference) OutputArtifacts() *[]
 	return returns
 }
 
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) OutputArtifactsForComputeAction() CodepipelineStageActionOutputArtifactsForComputeActionList {
+	var returns CodepipelineStageActionOutputArtifactsForComputeActionList
+	_jsii_.Get(
+		j,
+		"outputArtifactsForComputeAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) OutputArtifactsForComputeActionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"outputArtifactsForComputeActionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CodepipelineStageActionOutputReference) OutputArtifactsInput() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
 		j,
 		"outputArtifactsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) OutputVariables() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"outputVariables",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) OutputVariablesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"outputVariablesInput",
 		&returns,
 	)
 	return returns
@@ -495,6 +567,17 @@ func (j *jsiiProxy_CodepipelineStageActionOutputReference)SetCategory(val *strin
 	)
 }
 
+func (j *jsiiProxy_CodepipelineStageActionOutputReference)SetCommands(val *[]*string) {
+	if err := j.validateSetCommandsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"commands",
+		val,
+	)
+}
+
 func (j *jsiiProxy_CodepipelineStageActionOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -579,6 +662,17 @@ func (j *jsiiProxy_CodepipelineStageActionOutputReference)SetOutputArtifacts(val
 	_jsii_.Set(
 		j,
 		"outputArtifacts",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference)SetOutputVariables(val *[]*string) {
+	if err := j.validateSetOutputVariablesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"outputVariables",
 		val,
 	)
 }
@@ -868,6 +962,25 @@ func (c *jsiiProxy_CodepipelineStageActionOutputReference) InterpolationForAttri
 	return returns
 }
 
+func (c *jsiiProxy_CodepipelineStageActionOutputReference) PutOutputArtifactsForComputeAction(value interface{}) {
+	if err := c.validatePutOutputArtifactsForComputeActionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putOutputArtifactsForComputeAction",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CodepipelineStageActionOutputReference) ResetCommands() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCommands",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CodepipelineStageActionOutputReference) ResetConfiguration() {
 	_jsii_.InvokeVoid(
 		c,
@@ -896,6 +1009,22 @@ func (c *jsiiProxy_CodepipelineStageActionOutputReference) ResetOutputArtifacts(
 	_jsii_.InvokeVoid(
 		c,
 		"resetOutputArtifacts",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CodepipelineStageActionOutputReference) ResetOutputArtifactsForComputeAction() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOutputArtifactsForComputeAction",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CodepipelineStageActionOutputReference) ResetOutputVariables() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOutputVariables",
 		nil, // no parameters
 	)
 }

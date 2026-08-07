@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "readReplicaCapableInput", GoGetter: "ReadReplicaCapableInput"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAvailabilityZoneGroup", GoMethod: "ResetAvailabilityZoneGroup"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEngineLatestVersion", GoMethod: "ResetEngineLatestVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEngineVersion", GoMethod: "ResetEngineVersion"},

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsWafSubscribedRuleGroup) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsWafSubscribedRuleGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsWafSubscribedRuleGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

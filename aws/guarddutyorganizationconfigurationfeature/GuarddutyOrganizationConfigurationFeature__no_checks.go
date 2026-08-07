@@ -59,6 +59,10 @@ func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeature) validateInterpolat
 	return nil
 }
 
+func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeature) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeature) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeature) validateOverrideLo
 }
 
 func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeature) validatePutAdditionalConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyOrganizationConfigurationFeature) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

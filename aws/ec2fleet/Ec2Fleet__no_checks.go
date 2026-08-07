@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2Fleet) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (e *jsiiProxy_Ec2Fleet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2Fleet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (e *jsiiProxy_Ec2Fleet) validatePutTargetCapacitySpecificationParameters(va
 }
 
 func (e *jsiiProxy_Ec2Fleet) validatePutTimeoutsParameters(value *Ec2FleetTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2Fleet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

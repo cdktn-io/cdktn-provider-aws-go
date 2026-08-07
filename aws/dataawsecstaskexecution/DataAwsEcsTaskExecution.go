@@ -5,14 +5,14 @@ package dataawsecstaskexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/dataawsecstaskexecution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsecstaskexecution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution}.
 type DataAwsEcsTaskExecution interface {
 	cdktn.TerraformDataSource
 	CapacityProviderStrategy() DataAwsEcsTaskExecutionCapacityProviderStrategyList
@@ -139,6 +139,19 @@ type DataAwsEcsTaskExecution interface {
 	PutOverrides(value *DataAwsEcsTaskExecutionOverrides)
 	PutPlacementConstraints(value interface{})
 	PutPlacementStrategy(value interface{})
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCapacityProviderStrategy()
 	ResetClientToken()
 	ResetDesiredCount()
@@ -739,7 +752,7 @@ func (j *jsiiProxy_DataAwsEcsTaskExecution) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
 func NewDataAwsEcsTaskExecution(scope constructs.Construct, id *string, config *DataAwsEcsTaskExecutionConfig) DataAwsEcsTaskExecution {
 	_init_.Initialize()
 
@@ -757,7 +770,7 @@ func NewDataAwsEcsTaskExecution(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ecs_task_execution aws_ecs_task_execution} Data Source.
 func NewDataAwsEcsTaskExecution_Override(d DataAwsEcsTaskExecution, scope constructs.Construct, id *string, config *DataAwsEcsTaskExecutionConfig) {
 	_init_.Initialize()
 
@@ -1316,6 +1329,17 @@ func (d *jsiiProxy_DataAwsEcsTaskExecution) PutPlacementStrategy(value interface
 		d,
 		"putPlacementStrategy",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAwsEcsTaskExecution) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

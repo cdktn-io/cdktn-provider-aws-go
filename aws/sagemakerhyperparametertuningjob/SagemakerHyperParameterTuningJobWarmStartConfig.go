@@ -7,9 +7,9 @@ package sagemakerhyperparametertuningjob
 type SagemakerHyperParameterTuningJobWarmStartConfig struct {
 	// parent_hyper_parameter_tuning_jobs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parent_hyper_parameter_tuning_jobs SagemakerHyperParameterTuningJob#parent_hyper_parameter_tuning_jobs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parent_hyper_parameter_tuning_jobs SagemakerHyperParameterTuningJob#parent_hyper_parameter_tuning_jobs}
 	ParentHyperParameterTuningJobs interface{} `field:"optional" json:"parentHyperParameterTuningJobs" yaml:"parentHyperParameterTuningJobs"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/sagemaker_hyper_parameter_tuning_job#warm_start_type SagemakerHyperParameterTuningJob#warm_start_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#warm_start_type SagemakerHyperParameterTuningJob#warm_start_type}.
 	WarmStartType *string `field:"optional" json:"warmStartType" yaml:"warmStartType"`
 }
 

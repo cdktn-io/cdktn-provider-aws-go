@@ -59,6 +59,10 @@ func (p *jsiiProxy_PinpointEmailTemplate) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (p *jsiiProxy_PinpointEmailTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PinpointEmailTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PinpointEmailTemplate) validateOverrideLogicalIdParameters(ne
 }
 
 func (p *jsiiProxy_PinpointEmailTemplate) validatePutEmailTemplateParameters(value interface{}) error {
+	return nil
+}
+
+func (p *jsiiProxy_PinpointEmailTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

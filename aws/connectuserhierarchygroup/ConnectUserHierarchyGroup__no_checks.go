@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConnectUserHierarchyGroup) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_ConnectUserHierarchyGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConnectUserHierarchyGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_ConnectUserHierarchyGroup) validateMoveToIdParameters(id *str
 }
 
 func (c *jsiiProxy_ConnectUserHierarchyGroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectUserHierarchyGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

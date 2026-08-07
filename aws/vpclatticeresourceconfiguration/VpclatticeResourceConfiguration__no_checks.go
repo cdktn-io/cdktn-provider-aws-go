@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpclatticeResourceConfiguration) validateInterpolationForAttr
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeResourceConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeResourceConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VpclatticeResourceConfiguration) validatePutResourceConfigura
 }
 
 func (v *jsiiProxy_VpclatticeResourceConfiguration) validatePutTimeoutsParameters(value *VpclatticeResourceConfigurationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpclatticeResourceConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

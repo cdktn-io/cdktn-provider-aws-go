@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodepipelineCustomActionType) validateInterpolationForAttribu
 	return nil
 }
 
+func (c *jsiiProxy_CodepipelineCustomActionType) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodepipelineCustomActionType) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_CodepipelineCustomActionType) validatePutOutputArtifactDetail
 }
 
 func (c *jsiiProxy_CodepipelineCustomActionType) validatePutSettingsParameters(value *CodepipelineCustomActionTypeSettings) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

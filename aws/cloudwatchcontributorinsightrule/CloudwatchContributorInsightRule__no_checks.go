@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudwatchContributorInsightRule) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchContributorInsightRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchContributorInsightRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (c *jsiiProxy_CloudwatchContributorInsightRule) validateMoveToIdParameters(
 }
 
 func (c *jsiiProxy_CloudwatchContributorInsightRule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchContributorInsightRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

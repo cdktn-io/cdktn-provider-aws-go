@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) val
 	return nil
 }
 
+func (c *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) val
 }
 
 func (c *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) validatePutTimeoutsParameters(value *ChimesdkmediapipelinesMediaInsightsPipelineConfigurationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChimesdkmediapipelinesMediaInsightsPipelineConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeoptimizerRecommendationPreferences) validateInterpolat
 	return nil
 }
 
+func (c *jsiiProxy_ComputeoptimizerRecommendationPreferences) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeoptimizerRecommendationPreferences) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_ComputeoptimizerRecommendationPreferences) validatePutScopePa
 }
 
 func (c *jsiiProxy_ComputeoptimizerRecommendationPreferences) validatePutUtilizationPreferenceParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComputeoptimizerRecommendationPreferences) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

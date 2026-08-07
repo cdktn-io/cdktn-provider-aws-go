@@ -59,6 +59,10 @@ func (l *jsiiProxy_LakeformationPermissions) validateInterpolationForAttributePa
 	return nil
 }
 
+func (l *jsiiProxy_LakeformationPermissions) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LakeformationPermissions) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (l *jsiiProxy_LakeformationPermissions) validatePutTableParameters(value *L
 }
 
 func (l *jsiiProxy_LakeformationPermissions) validatePutTableWithColumnsParameters(value *LakeformationPermissionsTableWithColumns) error {
+	return nil
+}
+
+func (l *jsiiProxy_LakeformationPermissions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

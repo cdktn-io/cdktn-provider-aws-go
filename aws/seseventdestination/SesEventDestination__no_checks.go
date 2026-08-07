@@ -59,6 +59,10 @@ func (s *jsiiProxy_SesEventDestination) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (s *jsiiProxy_SesEventDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SesEventDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SesEventDestination) validatePutKinesisDestinationParameters(
 }
 
 func (s *jsiiProxy_SesEventDestination) validatePutSnsDestinationParameters(value *SesEventDestinationSnsDestination) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesEventDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

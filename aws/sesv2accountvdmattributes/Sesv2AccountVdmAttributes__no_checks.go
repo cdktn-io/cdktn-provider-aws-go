@@ -59,6 +59,10 @@ func (s *jsiiProxy_Sesv2AccountVdmAttributes) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_Sesv2AccountVdmAttributes) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Sesv2AccountVdmAttributes) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_Sesv2AccountVdmAttributes) validatePutDashboardAttributesPara
 }
 
 func (s *jsiiProxy_Sesv2AccountVdmAttributes) validatePutGuardianAttributesParameters(value *Sesv2AccountVdmAttributesGuardianAttributes) error {
+	return nil
+}
+
+func (s *jsiiProxy_Sesv2AccountVdmAttributes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

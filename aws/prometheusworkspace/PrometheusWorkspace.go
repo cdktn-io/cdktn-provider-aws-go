@@ -5,14 +5,14 @@ package prometheusworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v24/prometheusworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/prometheusworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/prometheus_workspace aws_prometheus_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_workspace aws_prometheus_workspace}.
 type PrometheusWorkspace interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -112,9 +112,45 @@ type PrometheusWorkspace interface {
 	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Wraps a write-only attribute's already-mapped value so that `ProviderFeature.WRITE_ONLY_ATTRIBUTES` usage is registered at *resolve* time instead of at mutation time (setter/constructor). Called by generated bindings from `synthesizeAttributes()` and `synthesizeHclAttributes()`, e.g. `secret_key_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._secretKeyWo))`; not intended to be called directly.
+	//
+	// `undefined` passes through completely unchanged, so the existing
+	// undefined-filtering that omits unset attributes from synthesized
+	// output (see `resolve()` in `tokens/private/resolve.ts`, and the
+	// `value.value !== undefined` filter in generated
+	// `synthesizeHclAttributes()`) keeps working untouched. `null` is also
+	// passed through unchanged: it already renders as an explicit
+	// null-out and must not arm the validation either.
+	//
+	// Any other value - including one that will itself resolve to nothing
+	// (e.g. a `Lazy`/`IResolvable` producer with no value to contribute) -
+	// is wrapped in a token whose `resolve()` defers to the real resolver
+	// first and registers usage only if what comes back is not
+	// `null`/`undefined`; the resolved value is then returned unchanged,
+	// so what actually renders is untouched by this wrapper. A producer
+	// that resolves to `undefined` therefore neither registers usage nor
+	// leaves anything behind in the synthesized attribute - the omission
+	// behaves exactly as if the attribute had never been set.
+	//
+	// Registration goes through `_registerResolveDiscoveredProviderFeatureUsage`
+	// rather than `registerProviderFeatureUsage`: usage here is only known at
+	// resolve time, and a given element can be resolved across many
+	// synthesis passes over its lifetime (repeated `app.synth()` calls,
+	// tests reusing a construct tree), so it must represent only the CURRENT
+	// pass rather than accumulate forever. Every validation-enabled entry
+	// point (`App.synth`; `Testing.synth`/`synthHcl` with validations;
+	// `StackSynthesizer.synthesize`) runs a prepare step that deactivates any
+	// stale registration and then resolves every element's `toTerraform()`
+	// before that same entry point's validations run - see
+	// `TerraformStack._runPreparingResolve` - so whatever this closure
+	// (re-)registers during that prepare step is always visible to the
+	// validation that reads it afterwards, and nothing left over from an
+	// earlier pass leaks into the current one.
+	// Experimental.
+	MarkWriteOnlyAttribute(value interface{}) interface{}
 	// Move the resource corresponding to "id" to this resource.
 	//
-	// Note that the resource being moved from must be marked as moved using it's instance function.
+	// Note that the resource being moved from must be marked as moved using its instance function.
 	// Experimental.
 	MoveFromId(id *string)
 	// Moves this resource to the target resource given by moveTarget.
@@ -127,6 +163,19 @@ type PrometheusWorkspace interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutLoggingConfiguration(value *PrometheusWorkspaceLoggingConfiguration)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAlias()
 	ResetId()
 	ResetKmsKeyArn()
@@ -485,7 +534,7 @@ func (j *jsiiProxy_PrometheusWorkspace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
 func NewPrometheusWorkspace(scope constructs.Construct, id *string, config *PrometheusWorkspaceConfig) PrometheusWorkspace {
 	_init_.Initialize()
 
@@ -503,7 +552,7 @@ func NewPrometheusWorkspace(scope constructs.Construct, id *string, config *Prom
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_workspace aws_prometheus_workspace} Resource.
 func NewPrometheusWorkspace_Override(p PrometheusWorkspace, scope constructs.Construct, id *string, config *PrometheusWorkspaceConfig) {
 	_init_.Initialize()
 
@@ -957,6 +1006,22 @@ func (p *jsiiProxy_PrometheusWorkspace) InterpolationForAttribute(terraformAttri
 	return returns
 }
 
+func (p *jsiiProxy_PrometheusWorkspace) MarkWriteOnlyAttribute(value interface{}) interface{} {
+	if err := p.validateMarkWriteOnlyAttributeParameters(value); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		p,
+		"markWriteOnlyAttribute",
+		[]interface{}{value},
+		&returns,
+	)
+
+	return returns
+}
+
 func (p *jsiiProxy_PrometheusWorkspace) MoveFromId(id *string) {
 	if err := p.validateMoveFromIdParameters(id); err != nil {
 		panic(err)
@@ -1009,6 +1074,17 @@ func (p *jsiiProxy_PrometheusWorkspace) PutLoggingConfiguration(value *Prometheu
 		p,
 		"putLoggingConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PrometheusWorkspace) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := p.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

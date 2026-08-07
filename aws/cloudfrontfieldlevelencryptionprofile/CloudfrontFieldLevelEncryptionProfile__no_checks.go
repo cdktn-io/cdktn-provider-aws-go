@@ -59,6 +59,10 @@ func (c *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) validateInterpolationF
 	return nil
 }
 
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) validateOverrideLogica
 }
 
 func (c *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) validatePutEncryptionEntitiesParameters(value *CloudfrontFieldLevelEncryptionProfileEncryptionEntities) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

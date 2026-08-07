@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpnGatewayAttachment) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (v *jsiiProxy_VpnGatewayAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpnGatewayAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (v *jsiiProxy_VpnGatewayAttachment) validateMoveToIdParameters(id *string) 
 }
 
 func (v *jsiiProxy_VpnGatewayAttachment) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpnGatewayAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

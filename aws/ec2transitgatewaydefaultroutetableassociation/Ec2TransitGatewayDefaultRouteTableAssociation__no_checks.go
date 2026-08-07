@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateInterp
 	return nil
 }
 
+func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateOverri
 }
 
 func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validatePutTimeoutsParameters(value *Ec2TransitGatewayDefaultRouteTableAssociationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayDefaultRouteTableAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

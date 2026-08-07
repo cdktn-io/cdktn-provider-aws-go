@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatasyncLocationNfs) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationNfs) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationNfs) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DatasyncLocationNfs) validatePutMountOptionsParameters(value 
 }
 
 func (d *jsiiProxy_DatasyncLocationNfs) validatePutOnPremConfigParameters(value *DatasyncLocationNfsOnPremConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatasyncLocationNfs) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

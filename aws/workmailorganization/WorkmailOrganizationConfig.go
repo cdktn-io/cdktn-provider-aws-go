@@ -22,27 +22,27 @@ type WorkmailOrganizationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#organization_alias WorkmailOrganization#organization_alias}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#organization_alias WorkmailOrganization#organization_alias}.
 	OrganizationAlias *string `field:"required" json:"organizationAlias" yaml:"organizationAlias"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#delete_directory WorkmailOrganization#delete_directory}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#delete_directory WorkmailOrganization#delete_directory}.
 	DeleteDirectory interface{} `field:"optional" json:"deleteDirectory" yaml:"deleteDirectory"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#delete_identity_center_application WorkmailOrganization#delete_identity_center_application}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#delete_identity_center_application WorkmailOrganization#delete_identity_center_application}.
 	DeleteIdentityCenterApplication interface{} `field:"optional" json:"deleteIdentityCenterApplication" yaml:"deleteIdentityCenterApplication"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#directory_id WorkmailOrganization#directory_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#directory_id WorkmailOrganization#directory_id}.
 	DirectoryId *string `field:"optional" json:"directoryId" yaml:"directoryId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#interoperability_enabled WorkmailOrganization#interoperability_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#interoperability_enabled WorkmailOrganization#interoperability_enabled}.
 	InteroperabilityEnabled interface{} `field:"optional" json:"interoperabilityEnabled" yaml:"interoperabilityEnabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#kms_key_arn WorkmailOrganization#kms_key_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#kms_key_arn WorkmailOrganization#kms_key_arn}.
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#region WorkmailOrganization#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#region WorkmailOrganization#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#tags WorkmailOrganization#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#tags WorkmailOrganization#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workmail_organization#timeouts WorkmailOrganization#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workmail_organization#timeouts WorkmailOrganization#timeouts}
 	Timeouts *WorkmailOrganizationTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

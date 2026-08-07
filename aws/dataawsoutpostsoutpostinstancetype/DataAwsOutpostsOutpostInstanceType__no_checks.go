@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsOutpostsOutpostInstanceType) validateOverrideLogicalId
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOutpostsOutpostInstanceType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsOutpostsOutpostInstanceType_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (x *jsiiProxy_XrayTraceSegmentDestination) validateInterpolationForAttribut
 	return nil
 }
 
+func (x *jsiiProxy_XrayTraceSegmentDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (x *jsiiProxy_XrayTraceSegmentDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (x *jsiiProxy_XrayTraceSegmentDestination) validateOverrideLogicalIdParamet
 }
 
 func (x *jsiiProxy_XrayTraceSegmentDestination) validatePutTimeoutsParameters(value *XrayTraceSegmentDestinationTimeouts) error {
+	return nil
+}
+
+func (x *jsiiProxy_XrayTraceSegmentDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

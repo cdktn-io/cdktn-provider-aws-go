@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpcPeeringConnectionAccepterA) validateInterpolationForAttrib
 	return nil
 }
 
+func (v *jsiiProxy_VpcPeeringConnectionAccepterA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpcPeeringConnectionAccepterA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VpcPeeringConnectionAccepterA) validatePutRequesterParameters
 }
 
 func (v *jsiiProxy_VpcPeeringConnectionAccepterA) validatePutTimeoutsParameters(value *VpcPeeringConnectionAccepterTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpcPeeringConnectionAccepterA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

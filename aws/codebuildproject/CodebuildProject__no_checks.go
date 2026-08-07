@@ -59,6 +59,10 @@ func (c *jsiiProxy_CodebuildProject) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_CodebuildProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodebuildProject) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (c *jsiiProxy_CodebuildProject) validatePutSourceParameters(value *Codebuil
 }
 
 func (c *jsiiProxy_CodebuildProject) validatePutVpcConfigParameters(value *CodebuildProjectVpcConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodebuildProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

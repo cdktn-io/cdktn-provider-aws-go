@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevicefarmTestGridProject) validateInterpolationForAttributeP
 	return nil
 }
 
+func (d *jsiiProxy_DevicefarmTestGridProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevicefarmTestGridProject) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DevicefarmTestGridProject) validateOverrideLogicalIdParameter
 }
 
 func (d *jsiiProxy_DevicefarmTestGridProject) validatePutVpcConfigParameters(value *DevicefarmTestGridProjectVpcConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevicefarmTestGridProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

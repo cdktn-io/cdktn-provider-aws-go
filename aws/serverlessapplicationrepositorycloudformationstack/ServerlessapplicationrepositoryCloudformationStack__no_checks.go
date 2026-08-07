@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) validateI
 	return nil
 }
 
+func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) validateO
 }
 
 func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) validatePutTimeoutsParameters(value *ServerlessapplicationrepositoryCloudformationStackTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServerlessapplicationrepositoryCloudformationStack) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

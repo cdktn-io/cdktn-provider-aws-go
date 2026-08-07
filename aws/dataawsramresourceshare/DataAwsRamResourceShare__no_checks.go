@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsRamResourceShare) validatePutFilterParameters(value in
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsRamResourceShare) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsRamResourceShare_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

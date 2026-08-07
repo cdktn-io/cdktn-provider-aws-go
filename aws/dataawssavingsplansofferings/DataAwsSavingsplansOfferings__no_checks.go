@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsSavingsplansOfferings) validatePutFilterParameters(val
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSavingsplansOfferings) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSavingsplansOfferings_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

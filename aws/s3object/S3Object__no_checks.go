@@ -59,6 +59,10 @@ func (s *jsiiProxy_S3Object) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (s *jsiiProxy_S3Object) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3Object) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_S3Object) validateOverrideLogicalIdParameters(newLogicalId *s
 }
 
 func (s *jsiiProxy_S3Object) validatePutOverrideProviderParameters(value *S3ObjectOverrideProvider) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3Object) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

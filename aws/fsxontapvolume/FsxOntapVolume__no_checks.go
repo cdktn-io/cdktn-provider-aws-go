@@ -59,6 +59,10 @@ func (f *jsiiProxy_FsxOntapVolume) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (f *jsiiProxy_FsxOntapVolume) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FsxOntapVolume) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (f *jsiiProxy_FsxOntapVolume) validatePutTieringPolicyParameters(value *Fsx
 }
 
 func (f *jsiiProxy_FsxOntapVolume) validatePutTimeoutsParameters(value *FsxOntapVolumeTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FsxOntapVolume) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

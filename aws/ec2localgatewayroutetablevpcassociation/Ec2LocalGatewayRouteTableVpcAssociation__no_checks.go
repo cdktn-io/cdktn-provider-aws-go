@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateInterpolatio
 	return nil
 }
 
+func (e *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateMoveToIdPara
 }
 
 func (e *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (o *jsiiProxy_OsisPipeline) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (o *jsiiProxy_OsisPipeline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OsisPipeline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (o *jsiiProxy_OsisPipeline) validatePutTimeoutsParameters(value *OsisPipeli
 }
 
 func (o *jsiiProxy_OsisPipeline) validatePutVpcOptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (o *jsiiProxy_OsisPipeline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

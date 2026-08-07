@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsSagemakerPrebuiltEcrImage) validateOverrideLogicalIdPa
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsSagemakerPrebuiltEcrImage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsSagemakerPrebuiltEcrImage_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

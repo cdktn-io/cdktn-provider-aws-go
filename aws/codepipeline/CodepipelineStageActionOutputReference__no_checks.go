@@ -47,11 +47,19 @@ func (c *jsiiProxy_CodepipelineStageActionOutputReference) validateInterpolation
 	return nil
 }
 
+func (c *jsiiProxy_CodepipelineStageActionOutputReference) validatePutOutputArtifactsForComputeActionParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodepipelineStageActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
 func (j *jsiiProxy_CodepipelineStageActionOutputReference) validateSetCategoryParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) validateSetCommandsParameters(val *[]*string) error {
 	return nil
 }
 
@@ -84,6 +92,10 @@ func (j *jsiiProxy_CodepipelineStageActionOutputReference) validateSetNamespaceP
 }
 
 func (j *jsiiProxy_CodepipelineStageActionOutputReference) validateSetOutputArtifactsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineStageActionOutputReference) validateSetOutputVariablesParameters(val *[]*string) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (o *jsiiProxy_OpensearchVpcEndpoint) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (o *jsiiProxy_OpensearchVpcEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OpensearchVpcEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OpensearchVpcEndpoint) validatePutTimeoutsParameters(value *O
 }
 
 func (o *jsiiProxy_OpensearchVpcEndpoint) validatePutVpcOptionsParameters(value *OpensearchVpcEndpointVpcOptions) error {
+	return nil
+}
+
+func (o *jsiiProxy_OpensearchVpcEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

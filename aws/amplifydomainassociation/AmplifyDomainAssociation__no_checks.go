@@ -59,6 +59,10 @@ func (a *jsiiProxy_AmplifyDomainAssociation) validateInterpolationForAttributePa
 	return nil
 }
 
+func (a *jsiiProxy_AmplifyDomainAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AmplifyDomainAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AmplifyDomainAssociation) validatePutCertificateSettingsParam
 }
 
 func (a *jsiiProxy_AmplifyDomainAssociation) validatePutSubDomainParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AmplifyDomainAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

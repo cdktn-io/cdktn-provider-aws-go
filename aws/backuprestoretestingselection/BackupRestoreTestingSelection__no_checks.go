@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupRestoreTestingSelection) validateInterpolationForAttrib
 	return nil
 }
 
+func (b *jsiiProxy_BackupRestoreTestingSelection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupRestoreTestingSelection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BackupRestoreTestingSelection) validateOverrideLogicalIdParam
 }
 
 func (b *jsiiProxy_BackupRestoreTestingSelection) validatePutProtectedResourceConditionsParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupRestoreTestingSelection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

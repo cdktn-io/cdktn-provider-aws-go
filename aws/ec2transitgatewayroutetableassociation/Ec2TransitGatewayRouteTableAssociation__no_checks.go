@@ -59,6 +59,10 @@ func (e *jsiiProxy_Ec2TransitGatewayRouteTableAssociation) validateInterpolation
 	return nil
 }
 
+func (e *jsiiProxy_Ec2TransitGatewayRouteTableAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2TransitGatewayRouteTableAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (e *jsiiProxy_Ec2TransitGatewayRouteTableAssociation) validateMoveToIdParam
 }
 
 func (e *jsiiProxy_Ec2TransitGatewayRouteTableAssociation) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayRouteTableAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

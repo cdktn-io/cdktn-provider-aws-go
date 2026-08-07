@@ -59,6 +59,10 @@ func (l *jsiiProxy_LexIntent) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (l *jsiiProxy_LexIntent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LexIntent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (l *jsiiProxy_LexIntent) validatePutSlotParameters(value interface{}) error
 }
 
 func (l *jsiiProxy_LexIntent) validatePutTimeoutsParameters(value *LexIntentTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LexIntent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AlbListenerCertificate) validateInterpolationForAttributePara
 	return nil
 }
 
+func (a *jsiiProxy_AlbListenerCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AlbListenerCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (a *jsiiProxy_AlbListenerCertificate) validateMoveToIdParameters(id *string
 }
 
 func (a *jsiiProxy_AlbListenerCertificate) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AlbListenerCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

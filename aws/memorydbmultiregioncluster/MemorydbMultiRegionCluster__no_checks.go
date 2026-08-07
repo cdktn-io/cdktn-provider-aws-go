@@ -59,6 +59,10 @@ func (m *jsiiProxy_MemorydbMultiRegionCluster) validateInterpolationForAttribute
 	return nil
 }
 
+func (m *jsiiProxy_MemorydbMultiRegionCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MemorydbMultiRegionCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MemorydbMultiRegionCluster) validateOverrideLogicalIdParamete
 }
 
 func (m *jsiiProxy_MemorydbMultiRegionCluster) validatePutTimeoutsParameters(value *MemorydbMultiRegionClusterTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MemorydbMultiRegionCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

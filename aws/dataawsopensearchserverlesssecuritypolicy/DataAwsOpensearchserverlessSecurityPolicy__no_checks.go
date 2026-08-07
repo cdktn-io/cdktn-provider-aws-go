@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityPolicy) validateOverrideLo
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsOpensearchserverlessSecurityPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsOpensearchserverlessSecurityPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

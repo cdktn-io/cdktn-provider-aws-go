@@ -59,6 +59,10 @@ func (t *jsiiProxy_TimestreamqueryScheduledQuery) validateInterpolationForAttrib
 	return nil
 }
 
+func (t *jsiiProxy_TimestreamqueryScheduledQuery) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TimestreamqueryScheduledQuery) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (t *jsiiProxy_TimestreamqueryScheduledQuery) validatePutTargetConfiguration
 }
 
 func (t *jsiiProxy_TimestreamqueryScheduledQuery) validatePutTimeoutsParameters(value *TimestreamqueryScheduledQueryTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TimestreamqueryScheduledQuery) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

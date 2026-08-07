@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package secretsmanagersecretrotation
+
+
+type SecretsmanagerSecretRotationExternalSecretRotationMetadata struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/secretsmanager_secret_rotation#key SecretsmanagerSecretRotation#key}.
+	Key *string `field:"required" json:"key" yaml:"key"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/secretsmanager_secret_rotation#value SecretsmanagerSecretRotation#value}.
+	Value *string `field:"required" json:"value" yaml:"value"`
+}
+

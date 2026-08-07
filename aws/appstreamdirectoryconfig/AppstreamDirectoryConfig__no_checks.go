@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppstreamDirectoryConfig) validateInterpolationForAttributePa
 	return nil
 }
 
+func (a *jsiiProxy_AppstreamDirectoryConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppstreamDirectoryConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppstreamDirectoryConfig) validatePutCertificateBasedAuthProp
 }
 
 func (a *jsiiProxy_AppstreamDirectoryConfig) validatePutServiceAccountCredentialsParameters(value *AppstreamDirectoryConfigServiceAccountCredentials) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppstreamDirectoryConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

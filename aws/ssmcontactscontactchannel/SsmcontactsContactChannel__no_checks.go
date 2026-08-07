@@ -59,6 +59,10 @@ func (s *jsiiProxy_SsmcontactsContactChannel) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_SsmcontactsContactChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SsmcontactsContactChannel) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SsmcontactsContactChannel) validateOverrideLogicalIdParameter
 }
 
 func (s *jsiiProxy_SsmcontactsContactChannel) validatePutDeliveryAddressParameters(value *SsmcontactsContactChannelDeliveryAddress) error {
+	return nil
+}
+
+func (s *jsiiProxy_SsmcontactsContactChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

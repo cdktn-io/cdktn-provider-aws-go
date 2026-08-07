@@ -59,6 +59,10 @@ func (t *jsiiProxy_TransferUser) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (t *jsiiProxy_TransferUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TransferUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (t *jsiiProxy_TransferUser) validatePutPosixProfileParameters(value *Transf
 }
 
 func (t *jsiiProxy_TransferUser) validatePutTimeoutsParameters(value *TransferUserTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TransferUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

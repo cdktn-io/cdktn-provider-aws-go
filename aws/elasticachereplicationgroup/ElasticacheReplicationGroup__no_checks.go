@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticacheReplicationGroup) validateInterpolationForAttribut
 	return nil
 }
 
+func (e *jsiiProxy_ElasticacheReplicationGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticacheReplicationGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (e *jsiiProxy_ElasticacheReplicationGroup) validatePutNodeGroupConfiguratio
 }
 
 func (e *jsiiProxy_ElasticacheReplicationGroup) validatePutTimeoutsParameters(value *ElasticacheReplicationGroupTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticacheReplicationGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

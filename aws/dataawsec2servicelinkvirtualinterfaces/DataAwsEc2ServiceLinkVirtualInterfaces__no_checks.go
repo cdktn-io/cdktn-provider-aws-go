@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAwsEc2ServiceLinkVirtualInterfaces) validatePutFilterPara
 	return nil
 }
 
+func (d *jsiiProxy_DataAwsEc2ServiceLinkVirtualInterfaces) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAwsEc2ServiceLinkVirtualInterfaces_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

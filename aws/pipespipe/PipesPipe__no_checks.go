@@ -59,6 +59,10 @@ func (p *jsiiProxy_PipesPipe) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (p *jsiiProxy_PipesPipe) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PipesPipe) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (p *jsiiProxy_PipesPipe) validatePutTargetParametersParameters(value *Pipes
 }
 
 func (p *jsiiProxy_PipesPipe) validatePutTimeoutsParameters(value *PipesPipeTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipe) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

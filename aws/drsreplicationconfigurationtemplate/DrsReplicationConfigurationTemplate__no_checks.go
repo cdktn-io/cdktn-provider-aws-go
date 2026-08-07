@@ -59,6 +59,10 @@ func (d *jsiiProxy_DrsReplicationConfigurationTemplate) validateInterpolationFor
 	return nil
 }
 
+func (d *jsiiProxy_DrsReplicationConfigurationTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DrsReplicationConfigurationTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DrsReplicationConfigurationTemplate) validatePutPitPolicyPara
 }
 
 func (d *jsiiProxy_DrsReplicationConfigurationTemplate) validatePutTimeoutsParameters(value *DrsReplicationConfigurationTemplateTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DrsReplicationConfigurationTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

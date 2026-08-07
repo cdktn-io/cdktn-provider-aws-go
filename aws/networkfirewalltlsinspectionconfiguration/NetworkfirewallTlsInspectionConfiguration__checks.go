@@ -122,6 +122,14 @@ func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateInterpolat
 	return nil
 }
 
+func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -275,6 +283,14 @@ func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validatePutTlsInsp
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkfirewallTlsInspectionConfigurationTlsInspectionConfiguration; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (n *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

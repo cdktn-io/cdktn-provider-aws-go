@@ -122,6 +122,14 @@ func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentAccepter) validateInterpola
 	return nil
 }
 
+func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentAccepter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentAccepter) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -202,6 +210,14 @@ func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentAccepter) validateMoveToIdP
 func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentAccepter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
 	if newLogicalId == nil {
 		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayPeeringAttachmentAccepter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil
