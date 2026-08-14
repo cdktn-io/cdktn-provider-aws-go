@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/ephemeral-resources/eks_cluster_auth aws_eks_cluster_auth}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/ephemeral-resources/eks_cluster_auth aws_eks_cluster_auth}.
 type EphemeralAwsEksClusterAuth interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -320,7 +320,7 @@ func (j *jsiiProxy_EphemeralAwsEksClusterAuth) Token() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/ephemeral-resources/eks_cluster_auth aws_eks_cluster_auth} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/ephemeral-resources/eks_cluster_auth aws_eks_cluster_auth} Ephemeral Resource.
 func NewEphemeralAwsEksClusterAuth(scope constructs.Construct, id *string, config *EphemeralAwsEksClusterAuthConfig) EphemeralAwsEksClusterAuth {
 	_init_.Initialize()
 
@@ -338,7 +338,7 @@ func NewEphemeralAwsEksClusterAuth(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/ephemeral-resources/eks_cluster_auth aws_eks_cluster_auth} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/ephemeral-resources/eks_cluster_auth aws_eks_cluster_auth} Ephemeral Resource.
 func NewEphemeralAwsEksClusterAuth_Override(e EphemeralAwsEksClusterAuth, scope constructs.Construct, id *string, config *EphemeralAwsEksClusterAuthConfig) {
 	_init_.Initialize()
 

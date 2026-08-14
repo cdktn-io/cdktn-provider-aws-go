@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline}.
 type ElastictranscoderPipeline interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_ElastictranscoderPipeline) ThumbnailConfigPermissionsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline} Resource.
 func NewElastictranscoderPipeline(scope constructs.Construct, id *string, config *ElastictranscoderPipelineConfig) ElastictranscoderPipeline {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewElastictranscoderPipeline(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/elastictranscoder_pipeline aws_elastictranscoder_pipeline} Resource.
 func NewElastictranscoderPipeline_Override(e ElastictranscoderPipeline, scope constructs.Construct, id *string, config *ElastictranscoderPipelineConfig) {
 	_init_.Initialize()
 

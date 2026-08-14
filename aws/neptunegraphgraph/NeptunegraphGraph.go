@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph}.
 type NeptunegraphGraph interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -651,7 +651,7 @@ func (j *jsiiProxy_NeptunegraphGraph) VectorSearchConfigurationInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) NeptunegraphGraph {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *Neptun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptunegraph_graph aws_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph_Override(n NeptunegraphGraph, scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) {
 	_init_.Initialize()
 

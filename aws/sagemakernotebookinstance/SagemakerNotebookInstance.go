@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_notebook_instance aws_sagemaker_notebook_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_notebook_instance aws_sagemaker_notebook_instance}.
 type SagemakerNotebookInstance interface {
 	cdktn.TerraformResource
 	AdditionalCodeRepositories() *[]*string
@@ -806,7 +806,7 @@ func (j *jsiiProxy_SagemakerNotebookInstance) VolumeSizeInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_notebook_instance aws_sagemaker_notebook_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_notebook_instance aws_sagemaker_notebook_instance} Resource.
 func NewSagemakerNotebookInstance(scope constructs.Construct, id *string, config *SagemakerNotebookInstanceConfig) SagemakerNotebookInstance {
 	_init_.Initialize()
 
@@ -824,7 +824,7 @@ func NewSagemakerNotebookInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_notebook_instance aws_sagemaker_notebook_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_notebook_instance aws_sagemaker_notebook_instance} Resource.
 func NewSagemakerNotebookInstance_Override(s SagemakerNotebookInstance, scope constructs.Construct, id *string, config *SagemakerNotebookInstanceConfig) {
 	_init_.Initialize()
 

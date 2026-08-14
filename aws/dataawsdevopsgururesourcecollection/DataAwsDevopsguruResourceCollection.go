@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection}.
 type DataAwsDevopsguruResourceCollection interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -343,7 +343,7 @@ func (j *jsiiProxy_DataAwsDevopsguruResourceCollection) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
 func NewDataAwsDevopsguruResourceCollection(scope constructs.Construct, id *string, config *DataAwsDevopsguruResourceCollectionConfig) DataAwsDevopsguruResourceCollection {
 	_init_.Initialize()
 
@@ -361,7 +361,7 @@ func NewDataAwsDevopsguruResourceCollection(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/devopsguru_resource_collection aws_devopsguru_resource_collection} Data Source.
 func NewDataAwsDevopsguruResourceCollection_Override(d DataAwsDevopsguruResourceCollection, scope constructs.Construct, id *string, config *DataAwsDevopsguruResourceCollectionConfig) {
 	_init_.Initialize()
 

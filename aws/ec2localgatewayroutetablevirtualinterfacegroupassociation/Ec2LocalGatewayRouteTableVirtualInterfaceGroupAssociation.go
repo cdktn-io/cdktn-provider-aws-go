@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_local_gateway_route_table_virtual_interface_group_association aws_ec2_local_gateway_route_table_virtual_interface_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_local_gateway_route_table_virtual_interface_group_association aws_ec2_local_gateway_route_table_virtual_interface_group_association}.
 type Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -504,7 +504,7 @@ func (j *jsiiProxy_Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociation) Te
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_local_gateway_route_table_virtual_interface_group_association aws_ec2_local_gateway_route_table_virtual_interface_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_local_gateway_route_table_virtual_interface_group_association aws_ec2_local_gateway_route_table_virtual_interface_group_association} Resource.
 func NewEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation(scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociationConfig) Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociation {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_local_gateway_route_table_virtual_interface_group_association aws_ec2_local_gateway_route_table_virtual_interface_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_local_gateway_route_table_virtual_interface_group_association aws_ec2_local_gateway_route_table_virtual_interface_group_association} Resource.
 func NewEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation_Override(e Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociation, scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableVirtualInterfaceGroupAssociationConfig) {
 	_init_.Initialize()
 

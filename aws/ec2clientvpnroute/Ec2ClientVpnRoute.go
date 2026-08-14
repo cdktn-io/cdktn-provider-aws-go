@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route}.
 type Ec2ClientVpnRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -82,6 +82,7 @@ type Ec2ClientVpnRoute interface {
 	TerraformResourceType() *string
 	Timeouts() Ec2ClientVpnRouteTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	TransitGatewayAttachmentId() *string
 	Type() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -182,6 +183,7 @@ type Ec2ClientVpnRoute interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetTargetVpcSubnetId()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -520,6 +522,16 @@ func (j *jsiiProxy_Ec2ClientVpnRoute) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_Ec2ClientVpnRoute) TransitGatewayAttachmentId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"transitGatewayAttachmentId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Ec2ClientVpnRoute) Type() *string {
 	var returns *string
 	_jsii_.Get(
@@ -531,7 +543,7 @@ func (j *jsiiProxy_Ec2ClientVpnRoute) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
 func NewEc2ClientVpnRoute(scope constructs.Construct, id *string, config *Ec2ClientVpnRouteConfig) Ec2ClientVpnRoute {
 	_init_.Initialize()
 
@@ -549,7 +561,7 @@ func NewEc2ClientVpnRoute(scope constructs.Construct, id *string, config *Ec2Cli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_client_vpn_route aws_ec2_client_vpn_route} Resource.
 func NewEc2ClientVpnRoute_Override(e Ec2ClientVpnRoute, scope constructs.Construct, id *string, config *Ec2ClientVpnRouteConfig) {
 	_init_.Initialize()
 
@@ -1113,6 +1125,14 @@ func (e *jsiiProxy_Ec2ClientVpnRoute) ResetRegion() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_Ec2ClientVpnRoute) ResetTargetVpcSubnetId() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetTargetVpcSubnetId",
 		nil, // no parameters
 	)
 }

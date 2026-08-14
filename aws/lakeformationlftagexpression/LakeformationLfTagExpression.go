@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression}.
 type LakeformationLfTagExpression interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_LakeformationLfTagExpression) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
 func NewLakeformationLfTagExpression(scope constructs.Construct, id *string, config *LakeformationLfTagExpressionConfig) LakeformationLfTagExpression {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewLakeformationLfTagExpression(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_lf_tag_expression aws_lakeformation_lf_tag_expression} Resource.
 func NewLakeformationLfTagExpression_Override(l LakeformationLfTagExpression, scope constructs.Construct, id *string, config *LakeformationLfTagExpressionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule}.
 type AccessanalyzerArchiveRule interface {
 	cdktn.TerraformResource
 	AnalyzerName() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_AccessanalyzerArchiveRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
 func NewAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config *AccessanalyzerArchiveRuleConfig) AccessanalyzerArchiveRule {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/accessanalyzer_archive_rule aws_accessanalyzer_archive_rule} Resource.
 func NewAccessanalyzerArchiveRule_Override(a AccessanalyzerArchiveRule, scope constructs.Construct, id *string, config *AccessanalyzerArchiveRuleConfig) {
 	_init_.Initialize()
 

@@ -186,6 +186,14 @@ func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) validateSetExcludeDataVolumeTagsParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) validateSetInternalValueParameters(val *DlmLifecyclePolicyPolicyDetailsParameters) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err

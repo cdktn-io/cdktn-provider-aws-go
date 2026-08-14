@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/ephemeral-resources/lambda_invocation aws_lambda_invocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/ephemeral-resources/lambda_invocation aws_lambda_invocation}.
 type EphemeralAwsLambdaInvocation interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_EphemeralAwsLambdaInvocation) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/ephemeral-resources/lambda_invocation aws_lambda_invocation} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/ephemeral-resources/lambda_invocation aws_lambda_invocation} Ephemeral Resource.
 func NewEphemeralAwsLambdaInvocation(scope constructs.Construct, id *string, config *EphemeralAwsLambdaInvocationConfig) EphemeralAwsLambdaInvocation {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewEphemeralAwsLambdaInvocation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/ephemeral-resources/lambda_invocation aws_lambda_invocation} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/ephemeral-resources/lambda_invocation aws_lambda_invocation} Ephemeral Resource.
 func NewEphemeralAwsLambdaInvocation_Override(e EphemeralAwsLambdaInvocation, scope constructs.Construct, id *string, config *EphemeralAwsLambdaInvocationConfig) {
 	_init_.Initialize()
 

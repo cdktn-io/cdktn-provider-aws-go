@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/kinesis_stream aws_kinesis_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_stream aws_kinesis_stream}.
 type KinesisStream interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -727,7 +727,7 @@ func (j *jsiiProxy_KinesisStream) WarmThroughputMibPsInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStreamConfig) KinesisStream {
 	_init_.Initialize()
 
@@ -745,7 +745,7 @@ func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_stream aws_kinesis_stream} Resource.
 func NewKinesisStream_Override(k KinesisStream, scope constructs.Construct, id *string, config *KinesisStreamConfig) {
 	_init_.Initialize()
 

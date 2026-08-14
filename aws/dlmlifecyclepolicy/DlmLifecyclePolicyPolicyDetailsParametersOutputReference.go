@@ -31,6 +31,9 @@ type DlmLifecyclePolicyPolicyDetailsParametersOutputReference interface {
 	ExcludeBootVolume() interface{}
 	SetExcludeBootVolume(val interface{})
 	ExcludeBootVolumeInput() interface{}
+	ExcludeDataVolumeTags() *map[string]*string
+	SetExcludeDataVolumeTags(val *map[string]*string)
+	ExcludeDataVolumeTagsInput() *map[string]*string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DlmLifecyclePolicyPolicyDetailsParameters
@@ -71,6 +74,7 @@ type DlmLifecyclePolicyPolicyDetailsParametersOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExcludeBootVolume()
+	ResetExcludeDataVolumeTags()
 	ResetNoReboot()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) Exc
 	_jsii_.Get(
 		j,
 		"excludeBootVolumeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) ExcludeDataVolumeTags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"excludeDataVolumeTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) ExcludeDataVolumeTagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"excludeDataVolumeTagsInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference)SetE
 	_jsii_.Set(
 		j,
 		"excludeBootVolume",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference)SetExcludeDataVolumeTags(val *map[string]*string) {
+	if err := j.validateSetExcludeDataVolumeTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"excludeDataVolumeTags",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (d *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) Res
 	_jsii_.InvokeVoid(
 		d,
 		"resetExcludeBootVolume",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) ResetExcludeDataVolumeTags() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetExcludeDataVolumeTags",
 		nil, // no parameters
 	)
 }

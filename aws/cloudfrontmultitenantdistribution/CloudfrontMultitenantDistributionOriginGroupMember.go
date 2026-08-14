@@ -5,7 +5,7 @@ package cloudfrontmultitenantdistribution
 
 
 type CloudfrontMultitenantDistributionOriginGroupMember struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cloudfront_multitenant_distribution#origin_id CloudfrontMultitenantDistribution#origin_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_multitenant_distribution#origin_id CloudfrontMultitenantDistribution#origin_id}.
 	OriginId *string `field:"required" json:"originId" yaml:"originId"`
 }
 

@@ -51,6 +51,14 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutAr
 	return nil
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutAuroraProvisionedScalingConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutAuroraServerlessScalingConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutCustomActionLambdaConfigParameters(value interface{}) error {
 	return nil
 }
@@ -76,6 +84,14 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutEx
 }
 
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutGlobalAuroraConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutLambdaEventSourceMappingConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutNeptuneGlobalDatabaseConfigParameters(value interface{}) error {
 	return nil
 }
 

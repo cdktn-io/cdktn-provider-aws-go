@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_local_gateway_route_table aws_ec2_local_gateway_route_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_local_gateway_route_table aws_ec2_local_gateway_route_table}.
 type Ec2LocalGatewayRouteTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_Ec2LocalGatewayRouteTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_local_gateway_route_table aws_ec2_local_gateway_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_local_gateway_route_table aws_ec2_local_gateway_route_table} Resource.
 func NewEc2LocalGatewayRouteTable(scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableConfig) Ec2LocalGatewayRouteTable {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewEc2LocalGatewayRouteTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_local_gateway_route_table aws_ec2_local_gateway_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_local_gateway_route_table aws_ec2_local_gateway_route_table} Resource.
 func NewEc2LocalGatewayRouteTable_Override(e Ec2LocalGatewayRouteTable, scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableConfig) {
 	_init_.Initialize()
 

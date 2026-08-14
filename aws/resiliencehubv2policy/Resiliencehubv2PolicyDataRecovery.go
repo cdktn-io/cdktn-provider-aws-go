@@ -5,7 +5,7 @@ package resiliencehubv2policy
 
 
 type Resiliencehubv2PolicyDataRecovery struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/resiliencehubv2_policy#time_between_backups_in_minutes Resiliencehubv2Policy#time_between_backups_in_minutes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_policy#time_between_backups_in_minutes Resiliencehubv2Policy#time_between_backups_in_minutes}.
 	TimeBetweenBackupsInMinutes *float64 `field:"required" json:"timeBetweenBackupsInMinutes" yaml:"timeBetweenBackupsInMinutes"`
 }
 

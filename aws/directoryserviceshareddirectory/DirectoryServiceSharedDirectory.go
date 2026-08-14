@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory}.
 type DirectoryServiceSharedDirectory interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DirectoryServiceSharedDirectory) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
 func NewDirectoryServiceSharedDirectory(scope constructs.Construct, id *string, config *DirectoryServiceSharedDirectoryConfig) DirectoryServiceSharedDirectory {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewDirectoryServiceSharedDirectory(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/directory_service_shared_directory aws_directory_service_shared_directory} Resource.
 func NewDirectoryServiceSharedDirectory_Override(d DirectoryServiceSharedDirectory, scope constructs.Construct, id *string, config *DirectoryServiceSharedDirectoryConfig) {
 	_init_.Initialize()
 

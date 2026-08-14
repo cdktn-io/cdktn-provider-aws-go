@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options}.
 type VpcBlockPublicAccessOptions interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_VpcBlockPublicAccessOptions) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
 func NewVpcBlockPublicAccessOptions(scope constructs.Construct, id *string, config *VpcBlockPublicAccessOptionsConfig) VpcBlockPublicAccessOptions {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewVpcBlockPublicAccessOptions(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_block_public_access_options aws_vpc_block_public_access_options} Resource.
 func NewVpcBlockPublicAccessOptions_Override(v VpcBlockPublicAccessOptions, scope constructs.Construct, id *string, config *VpcBlockPublicAccessOptionsConfig) {
 	_init_.Initialize()
 

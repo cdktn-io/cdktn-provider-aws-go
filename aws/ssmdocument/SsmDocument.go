@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ssm_document aws_ssm_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ssm_document aws_ssm_document}.
 type SsmDocument interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -772,7 +772,7 @@ func (j *jsiiProxy_SsmDocument) VersionNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ssm_document aws_ssm_document} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ssm_document aws_ssm_document} Resource.
 func NewSsmDocument(scope constructs.Construct, id *string, config *SsmDocumentConfig) SsmDocument {
 	_init_.Initialize()
 
@@ -790,7 +790,7 @@ func NewSsmDocument(scope constructs.Construct, id *string, config *SsmDocumentC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ssm_document aws_ssm_document} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ssm_document aws_ssm_document} Resource.
 func NewSsmDocument_Override(s SsmDocument, scope constructs.Construct, id *string, config *SsmDocumentConfig) {
 	_init_.Initialize()
 

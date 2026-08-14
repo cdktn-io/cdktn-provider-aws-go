@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/schemas_registry aws_schemas_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/schemas_registry aws_schemas_registry}.
 type SchemasRegistry interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_SchemasRegistry) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
 func NewSchemasRegistry(scope constructs.Construct, id *string, config *SchemasRegistryConfig) SchemasRegistry {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewSchemasRegistry(scope constructs.Construct, id *string, config *SchemasR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/schemas_registry aws_schemas_registry} Resource.
 func NewSchemasRegistry_Override(s SchemasRegistry, scope constructs.Construct, id *string, config *SchemasRegistryConfig) {
 	_init_.Initialize()
 

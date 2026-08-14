@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/osis_pipeline_endpoint aws_osis_pipeline_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/osis_pipeline_endpoint aws_osis_pipeline_endpoint}.
 type OsisPipelineEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_OsisPipelineEndpoint) VpcOptionsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/osis_pipeline_endpoint aws_osis_pipeline_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/osis_pipeline_endpoint aws_osis_pipeline_endpoint} Resource.
 func NewOsisPipelineEndpoint(scope constructs.Construct, id *string, config *OsisPipelineEndpointConfig) OsisPipelineEndpoint {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewOsisPipelineEndpoint(scope constructs.Construct, id *string, config *Osi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/osis_pipeline_endpoint aws_osis_pipeline_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/osis_pipeline_endpoint aws_osis_pipeline_endpoint} Resource.
 func NewOsisPipelineEndpoint_Override(o OsisPipelineEndpoint, scope constructs.Construct, id *string, config *OsisPipelineEndpointConfig) {
 	_init_.Initialize()
 

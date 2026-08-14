@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share}.
 type StoragegatewaySmbFileShare interface {
 	cdktn.TerraformResource
 	AccessBasedEnumeration() interface{}
@@ -1070,7 +1070,7 @@ func (j *jsiiProxy_StoragegatewaySmbFileShare) VpcEndpointDnsNameInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share} Resource.
 func NewStoragegatewaySmbFileShare(scope constructs.Construct, id *string, config *StoragegatewaySmbFileShareConfig) StoragegatewaySmbFileShare {
 	_init_.Initialize()
 
@@ -1088,7 +1088,7 @@ func NewStoragegatewaySmbFileShare(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/storagegateway_smb_file_share aws_storagegateway_smb_file_share} Resource.
 func NewStoragegatewaySmbFileShare_Override(s StoragegatewaySmbFileShare, scope constructs.Construct, id *string, config *StoragegatewaySmbFileShareConfig) {
 	_init_.Initialize()
 

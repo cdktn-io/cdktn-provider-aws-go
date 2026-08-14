@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3_bucket_notification aws_s3_bucket_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/s3_bucket_notification aws_s3_bucket_notification}.
 type DataAwsS3BucketNotification interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -354,7 +354,7 @@ func (j *jsiiProxy_DataAwsS3BucketNotification) Topic() DataAwsS3BucketNotificat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3_bucket_notification aws_s3_bucket_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/s3_bucket_notification aws_s3_bucket_notification} Data Source.
 func NewDataAwsS3BucketNotification(scope constructs.Construct, id *string, config *DataAwsS3BucketNotificationConfig) DataAwsS3BucketNotification {
 	_init_.Initialize()
 
@@ -372,7 +372,7 @@ func NewDataAwsS3BucketNotification(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3_bucket_notification aws_s3_bucket_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/s3_bucket_notification aws_s3_bucket_notification} Data Source.
 func NewDataAwsS3BucketNotification_Override(d DataAwsS3BucketNotification, scope constructs.Construct, id *string, config *DataAwsS3BucketNotificationConfig) {
 	_init_.Initialize()
 

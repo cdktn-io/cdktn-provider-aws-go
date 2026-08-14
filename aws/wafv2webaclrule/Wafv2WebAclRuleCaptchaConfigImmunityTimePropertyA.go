@@ -5,7 +5,7 @@ package wafv2webaclrule
 
 
 type Wafv2WebAclRuleCaptchaConfigImmunityTimePropertyA struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/wafv2_web_acl_rule#immunity_time Wafv2WebAclRuleA#immunity_time}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#immunity_time Wafv2WebAclRuleA#immunity_time}.
 	ImmunityTime *float64 `field:"optional" json:"immunityTime" yaml:"immunityTime"`
 }
 

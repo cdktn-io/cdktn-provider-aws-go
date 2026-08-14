@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules}.
 type DataAwsCloudwatchContributorManagedInsightRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRules) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
 func NewDataAwsCloudwatchContributorManagedInsightRules(scope constructs.Construct, id *string, config *DataAwsCloudwatchContributorManagedInsightRulesConfig) DataAwsCloudwatchContributorManagedInsightRules {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsCloudwatchContributorManagedInsightRules(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
 func NewDataAwsCloudwatchContributorManagedInsightRules_Override(d DataAwsCloudwatchContributorManagedInsightRules, scope constructs.Construct, id *string, config *DataAwsCloudwatchContributorManagedInsightRulesConfig) {
 	_init_.Initialize()
 

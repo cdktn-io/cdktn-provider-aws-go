@@ -51,6 +51,14 @@ func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) validatePutAgen
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) validatePutDisabledParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) validatePutManagedMemoryConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -38,6 +38,11 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference
 	ListingMode() *string
 	SetListingMode(val *string)
 	ListingModeInput() *string
+	McpToolSchema() BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerMcpToolSchemaList
+	McpToolSchemaInput() interface{}
+	ResourcePriority() *float64
+	SetResourcePriority(val *float64)
+	ResourcePriorityInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,7 +75,10 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutMcpToolSchema(value interface{})
 	ResetListingMode()
+	ResetMcpToolSchema()
+	ResetResourcePriority()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -176,6 +184,46 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) McpToolSchema() BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerMcpToolSchemaList {
+	var returns BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerMcpToolSchemaList
+	_jsii_.Get(
+		j,
+		"mcpToolSchema",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) McpToolSchemaInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"mcpToolSchemaInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ResourcePriority() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"resourcePriority",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ResourcePriorityInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"resourcePriorityInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -275,6 +323,17 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	_jsii_.Set(
 		j,
 		"listingMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference)SetResourcePriority(val *float64) {
+	if err := j.validateSetResourcePriorityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourcePriority",
 		val,
 	)
 }
@@ -487,10 +546,37 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) PutMcpToolSchema(value interface{}) {
+	if err := b.validatePutMcpToolSchemaParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putMcpToolSchema",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ResetListingMode() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetListingMode",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ResetMcpToolSchema() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMcpToolSchema",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) ResetResourcePriority() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetResourcePriority",
 		nil, // no parameters
 	)
 }

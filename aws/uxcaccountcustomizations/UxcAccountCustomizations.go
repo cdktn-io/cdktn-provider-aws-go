@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/uxc_account_customizations aws_uxc_account_customizations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/uxc_account_customizations aws_uxc_account_customizations}.
 type UxcAccountCustomizations interface {
 	cdktn.TerraformResource
 	AccountColor() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_UxcAccountCustomizations) VisibleServicesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/uxc_account_customizations aws_uxc_account_customizations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/uxc_account_customizations aws_uxc_account_customizations} Resource.
 func NewUxcAccountCustomizations(scope constructs.Construct, id *string, config *UxcAccountCustomizationsConfig) UxcAccountCustomizations {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewUxcAccountCustomizations(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/uxc_account_customizations aws_uxc_account_customizations} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/uxc_account_customizations aws_uxc_account_customizations} Resource.
 func NewUxcAccountCustomizations_Override(u UxcAccountCustomizations, scope constructs.Construct, id *string, config *UxcAccountCustomizationsConfig) {
 	_init_.Initialize()
 

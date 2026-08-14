@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/licensemanager_association aws_licensemanager_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/licensemanager_association aws_licensemanager_association}.
 type LicensemanagerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_LicensemanagerAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
 func NewLicensemanagerAssociation(scope constructs.Construct, id *string, config *LicensemanagerAssociationConfig) LicensemanagerAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewLicensemanagerAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/licensemanager_association aws_licensemanager_association} Resource.
 func NewLicensemanagerAssociation_Override(l LicensemanagerAssociation, scope constructs.Construct, id *string, config *LicensemanagerAssociationConfig) {
 	_init_.Initialize()
 

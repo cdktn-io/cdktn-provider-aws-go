@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant}.
 type DataAwsCloudfrontDistributionTenant interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DataAwsCloudfrontDistributionTenant) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
 func NewDataAwsCloudfrontDistributionTenant(scope constructs.Construct, id *string, config *DataAwsCloudfrontDistributionTenantConfig) DataAwsCloudfrontDistributionTenant {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewDataAwsCloudfrontDistributionTenant(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/cloudfront_distribution_tenant aws_cloudfront_distribution_tenant} Data Source.
 func NewDataAwsCloudfrontDistributionTenant_Override(d DataAwsCloudfrontDistributionTenant, scope constructs.Construct, id *string, config *DataAwsCloudfrontDistributionTenantConfig) {
 	_init_.Initialize()
 

@@ -63,6 +63,10 @@ func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) validateSetExcludeDataVolumeTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DlmLifecyclePolicyPolicyDetailsParametersOutputReference) validateSetInternalValueParameters(val *DlmLifecyclePolicyPolicyDetailsParameters) error {
 	return nil
 }

@@ -30,10 +30,14 @@ type BedrockagentcoreHarnessMemoryOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Disabled() BedrockagentcoreHarnessMemoryDisabledList
+	DisabledInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ManagedMemoryConfiguration() BedrockagentcoreHarnessMemoryManagedMemoryConfigurationList
+	ManagedMemoryConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +71,11 @@ type BedrockagentcoreHarnessMemoryOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAgentcoreMemoryConfiguration(value interface{})
+	PutDisabled(value interface{})
+	PutManagedMemoryConfiguration(value interface{})
 	ResetAgentcoreMemoryConfiguration()
+	ResetDisabled()
+	ResetManagedMemoryConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -133,6 +141,26 @@ func (j *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) CreationStack()
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) Disabled() BedrockagentcoreHarnessMemoryDisabledList {
+	var returns BedrockagentcoreHarnessMemoryDisabledList
+	_jsii_.Get(
+		j,
+		"disabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) DisabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -148,6 +176,26 @@ func (j *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) InternalValue()
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) ManagedMemoryConfiguration() BedrockagentcoreHarnessMemoryManagedMemoryConfigurationList {
+	var returns BedrockagentcoreHarnessMemoryManagedMemoryConfigurationList
+	_jsii_.Get(
+		j,
+		"managedMemoryConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) ManagedMemoryConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"managedMemoryConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +501,48 @@ func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) PutAgentcoreMem
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) PutDisabled(value interface{}) {
+	if err := b.validatePutDisabledParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putDisabled",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) PutManagedMemoryConfiguration(value interface{}) {
+	if err := b.validatePutManagedMemoryConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putManagedMemoryConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) ResetAgentcoreMemoryConfiguration() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetAgentcoreMemoryConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) ResetDisabled() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDisabled",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessMemoryOutputReference) ResetManagedMemoryConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetManagedMemoryConfiguration",
 		nil, // no parameters
 	)
 }

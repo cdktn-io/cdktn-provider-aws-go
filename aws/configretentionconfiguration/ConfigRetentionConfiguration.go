@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_retention_configuration aws_config_retention_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_retention_configuration aws_config_retention_configuration}.
 type ConfigRetentionConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ConfigRetentionConfiguration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_retention_configuration aws_config_retention_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_retention_configuration aws_config_retention_configuration} Resource.
 func NewConfigRetentionConfiguration(scope constructs.Construct, id *string, config *ConfigRetentionConfigurationConfig) ConfigRetentionConfiguration {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewConfigRetentionConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_retention_configuration aws_config_retention_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_retention_configuration aws_config_retention_configuration} Resource.
 func NewConfigRetentionConfiguration_Override(c ConfigRetentionConfiguration, scope constructs.Construct, id *string, config *ConfigRetentionConfigurationConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) validatePutMcpToolSchemaParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -68,6 +72,10 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerO
 }
 
 func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) validateSetListingModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpMcpServerOutputReference) validateSetResourcePriorityParameters(val *float64) error {
 	return nil
 }
 

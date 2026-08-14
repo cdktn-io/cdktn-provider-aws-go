@@ -5,9 +5,9 @@ package mailmanagerruleset
 
 
 type MailmanagerRuleSetRuleConditionStringExpressionEvaluateAnalysis struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#analyzer MailmanagerRuleSet#analyzer}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#analyzer MailmanagerRuleSet#analyzer}.
 	Analyzer *string `field:"required" json:"analyzer" yaml:"analyzer"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#result_field MailmanagerRuleSet#result_field}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#result_field MailmanagerRuleSet#result_field}.
 	ResultField *string `field:"required" json:"resultField" yaml:"resultField"`
 }
 

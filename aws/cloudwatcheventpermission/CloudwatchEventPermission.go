@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission}.
 type CloudwatchEventPermission interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_CloudwatchEventPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
 func NewCloudwatchEventPermission(scope constructs.Construct, id *string, config *CloudwatchEventPermissionConfig) CloudwatchEventPermission {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewCloudwatchEventPermission(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudwatch_event_permission aws_cloudwatch_event_permission} Resource.
 func NewCloudwatchEventPermission_Override(c CloudwatchEventPermission, scope constructs.Construct, id *string, config *CloudwatchEventPermissionConfig) {
 	_init_.Initialize()
 

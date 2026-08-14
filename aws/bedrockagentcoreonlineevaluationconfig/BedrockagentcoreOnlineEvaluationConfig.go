@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_online_evaluation_config aws_bedrockagentcore_online_evaluation_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_online_evaluation_config aws_bedrockagentcore_online_evaluation_config}.
 type BedrockagentcoreOnlineEvaluationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -649,7 +649,7 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_online_evaluation_config aws_bedrockagentcore_online_evaluation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_online_evaluation_config aws_bedrockagentcore_online_evaluation_config} Resource.
 func NewBedrockagentcoreOnlineEvaluationConfig(scope constructs.Construct, id *string, config *BedrockagentcoreOnlineEvaluationConfigConfig) BedrockagentcoreOnlineEvaluationConfig {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewBedrockagentcoreOnlineEvaluationConfig(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_online_evaluation_config aws_bedrockagentcore_online_evaluation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_online_evaluation_config aws_bedrockagentcore_online_evaluation_config} Resource.
 func NewBedrockagentcoreOnlineEvaluationConfig_Override(b BedrockagentcoreOnlineEvaluationConfig, scope constructs.Construct, id *string, config *BedrockagentcoreOnlineEvaluationConfigConfig) {
 	_init_.Initialize()
 

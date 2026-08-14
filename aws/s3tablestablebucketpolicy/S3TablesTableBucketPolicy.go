@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_bucket_policy aws_s3tables_table_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3tables_table_bucket_policy aws_s3tables_table_bucket_policy}.
 type S3TablesTableBucketPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_S3TablesTableBucketPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_bucket_policy aws_s3tables_table_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3tables_table_bucket_policy aws_s3tables_table_bucket_policy} Resource.
 func NewS3TablesTableBucketPolicy(scope constructs.Construct, id *string, config *S3TablesTableBucketPolicyConfig) S3TablesTableBucketPolicy {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewS3TablesTableBucketPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_bucket_policy aws_s3tables_table_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3tables_table_bucket_policy aws_s3tables_table_bucket_policy} Resource.
 func NewS3TablesTableBucketPolicy_Override(s S3TablesTableBucketPolicy, scope constructs.Construct, id *string, config *S3TablesTableBucketPolicyConfig) {
 	_init_.Initialize()
 

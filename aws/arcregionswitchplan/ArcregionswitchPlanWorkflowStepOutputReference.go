@@ -15,6 +15,10 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	cdktn.ComplexObject
 	ArcRoutingControlConfig() ArcregionswitchPlanWorkflowStepArcRoutingControlConfigList
 	ArcRoutingControlConfigInput() interface{}
+	AuroraProvisionedScalingConfig() ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfigList
+	AuroraProvisionedScalingConfigInput() interface{}
+	AuroraServerlessScalingConfig() ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfigList
+	AuroraServerlessScalingConfigInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -54,9 +58,13 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	GlobalAuroraConfigInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LambdaEventSourceMappingConfig() ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfigList
+	LambdaEventSourceMappingConfigInput() interface{}
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NeptuneGlobalDatabaseConfig() ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfigList
+	NeptuneGlobalDatabaseConfigInput() interface{}
 	ParallelConfig() ArcregionswitchPlanWorkflowStepParallelConfigList
 	ParallelConfigInput() interface{}
 	RdsCreateCrossRegionReadReplicaConfig() ArcregionswitchPlanWorkflowStepRdsCreateCrossRegionReadReplicaConfigList
@@ -100,6 +108,8 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutArcRoutingControlConfig(value interface{})
+	PutAuroraProvisionedScalingConfig(value interface{})
+	PutAuroraServerlessScalingConfig(value interface{})
 	PutCustomActionLambdaConfig(value interface{})
 	PutDocumentDbConfig(value interface{})
 	PutEc2AsgCapacityIncreaseConfig(value interface{})
@@ -107,12 +117,16 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	PutEksResourceScalingConfig(value interface{})
 	PutExecutionApprovalConfig(value interface{})
 	PutGlobalAuroraConfig(value interface{})
+	PutLambdaEventSourceMappingConfig(value interface{})
+	PutNeptuneGlobalDatabaseConfig(value interface{})
 	PutParallelConfig(value interface{})
 	PutRdsCreateCrossRegionReadReplicaConfig(value interface{})
 	PutRdsPromoteReadReplicaConfig(value interface{})
 	PutRegionSwitchPlanConfig(value interface{})
 	PutRoute53HealthCheckConfig(value interface{})
 	ResetArcRoutingControlConfig()
+	ResetAuroraProvisionedScalingConfig()
+	ResetAuroraServerlessScalingConfig()
 	ResetCustomActionLambdaConfig()
 	ResetDescription()
 	ResetDocumentDbConfig()
@@ -121,6 +135,8 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	ResetEksResourceScalingConfig()
 	ResetExecutionApprovalConfig()
 	ResetGlobalAuroraConfig()
+	ResetLambdaEventSourceMappingConfig()
+	ResetNeptuneGlobalDatabaseConfig()
 	ResetParallelConfig()
 	ResetRdsCreateCrossRegionReadReplicaConfig()
 	ResetRdsPromoteReadReplicaConfig()
@@ -156,6 +172,46 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ArcRoutingCon
 	_jsii_.Get(
 		j,
 		"arcRoutingControlConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) AuroraProvisionedScalingConfig() ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfigList {
+	var returns ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfigList
+	_jsii_.Get(
+		j,
+		"auroraProvisionedScalingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) AuroraProvisionedScalingConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"auroraProvisionedScalingConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) AuroraServerlessScalingConfig() ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfigList {
+	var returns ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfigList
+	_jsii_.Get(
+		j,
+		"auroraServerlessScalingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) AuroraServerlessScalingConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"auroraServerlessScalingConfigInput",
 		&returns,
 	)
 	return returns
@@ -391,6 +447,26 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) InternalValue
 	return returns
 }
 
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) LambdaEventSourceMappingConfig() ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfigList {
+	var returns ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfigList
+	_jsii_.Get(
+		j,
+		"lambdaEventSourceMappingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) LambdaEventSourceMappingConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"lambdaEventSourceMappingConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -406,6 +482,26 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) NameInput() *
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) NeptuneGlobalDatabaseConfig() ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfigList {
+	var returns ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfigList
+	_jsii_.Get(
+		j,
+		"neptuneGlobalDatabaseConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) NeptuneGlobalDatabaseConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"neptuneGlobalDatabaseConfigInput",
 		&returns,
 	)
 	return returns
@@ -844,6 +940,28 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutArcRouting
 	)
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutAuroraProvisionedScalingConfig(value interface{}) {
+	if err := a.validatePutAuroraProvisionedScalingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putAuroraProvisionedScalingConfig",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutAuroraServerlessScalingConfig(value interface{}) {
+	if err := a.validatePutAuroraServerlessScalingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putAuroraServerlessScalingConfig",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutCustomActionLambdaConfig(value interface{}) {
 	if err := a.validatePutCustomActionLambdaConfigParameters(value); err != nil {
 		panic(err)
@@ -921,6 +1039,28 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutGlobalAuro
 	)
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutLambdaEventSourceMappingConfig(value interface{}) {
+	if err := a.validatePutLambdaEventSourceMappingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putLambdaEventSourceMappingConfig",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutNeptuneGlobalDatabaseConfig(value interface{}) {
+	if err := a.validatePutNeptuneGlobalDatabaseConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putNeptuneGlobalDatabaseConfig",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutParallelConfig(value interface{}) {
 	if err := a.validatePutParallelConfigParameters(value); err != nil {
 		panic(err)
@@ -980,6 +1120,22 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetArcRouti
 	_jsii_.InvokeVoid(
 		a,
 		"resetArcRoutingControlConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetAuroraProvisionedScalingConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAuroraProvisionedScalingConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetAuroraServerlessScalingConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAuroraServerlessScalingConfig",
 		nil, // no parameters
 	)
 }
@@ -1044,6 +1200,22 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetGlobalAu
 	_jsii_.InvokeVoid(
 		a,
 		"resetGlobalAuroraConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetLambdaEventSourceMappingConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetLambdaEventSourceMappingConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetNeptuneGlobalDatabaseConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetNeptuneGlobalDatabaseConfig",
 		nil, // no parameters
 	)
 }

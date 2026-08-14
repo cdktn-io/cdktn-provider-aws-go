@@ -7,9 +7,9 @@ package mailmanagerruleset
 type MailmanagerRuleSetRuleConditionVerdictExpressionEvaluate struct {
 	// analysis block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#analysis MailmanagerRuleSet#analysis}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#analysis MailmanagerRuleSet#analysis}
 	Analysis interface{} `field:"optional" json:"analysis" yaml:"analysis"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
 	Attribute *string `field:"optional" json:"attribute" yaml:"attribute"`
 }
 

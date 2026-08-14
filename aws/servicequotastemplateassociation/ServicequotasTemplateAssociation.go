@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association}.
 type ServicequotasTemplateAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ServicequotasTemplateAssociation) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
 func NewServicequotasTemplateAssociation(scope constructs.Construct, id *string, config *ServicequotasTemplateAssociationConfig) ServicequotasTemplateAssociation {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewServicequotasTemplateAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/servicequotas_template_association aws_servicequotas_template_association} Resource.
 func NewServicequotasTemplateAssociation_Override(s ServicequotasTemplateAssociation, scope constructs.Construct, id *string, config *ServicequotasTemplateAssociationConfig) {
 	_init_.Initialize()
 

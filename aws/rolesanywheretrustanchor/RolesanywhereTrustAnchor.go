@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor}.
 type RolesanywhereTrustAnchor interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_RolesanywhereTrustAnchor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
 func NewRolesanywhereTrustAnchor(scope constructs.Construct, id *string, config *RolesanywhereTrustAnchorConfig) RolesanywhereTrustAnchor {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewRolesanywhereTrustAnchor(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/rolesanywhere_trust_anchor aws_rolesanywhere_trust_anchor} Resource.
 func NewRolesanywhereTrustAnchor_Override(r RolesanywhereTrustAnchor, scope constructs.Construct, id *string, config *RolesanywhereTrustAnchorConfig) {
 	_init_.Initialize()
 

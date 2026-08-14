@@ -124,6 +124,68 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	return nil
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validatePutAuroraProvisionedScalingConfigParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraProvisionedScalingConfig:
+		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraProvisionedScalingConfig)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraProvisionedScalingConfig:
+		value_ := value.([]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraProvisionedScalingConfig)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraProvisionedScalingConfig; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validatePutAuroraServerlessScalingConfigParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraServerlessScalingConfig:
+		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraServerlessScalingConfig)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraServerlessScalingConfig:
+		value_ := value.([]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraServerlessScalingConfig)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepAuroraServerlessScalingConfig; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validatePutCustomActionLambdaConfigParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -335,6 +397,68 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepGlobalAuroraConfig; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validatePutLambdaEventSourceMappingConfigParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepLambdaEventSourceMappingConfig:
+		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepLambdaEventSourceMappingConfig)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ArcregionswitchPlanWorkflowStepParallelConfigStepLambdaEventSourceMappingConfig:
+		value_ := value.([]*ArcregionswitchPlanWorkflowStepParallelConfigStepLambdaEventSourceMappingConfig)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepLambdaEventSourceMappingConfig; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validatePutNeptuneGlobalDatabaseConfigParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfig:
+		value := value.(*[]*ArcregionswitchPlanWorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfig)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ArcregionswitchPlanWorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfig:
+		value_ := value.([]*ArcregionswitchPlanWorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfig)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfig; received %#v (a %T)", value, value)
 		}
 	}
 

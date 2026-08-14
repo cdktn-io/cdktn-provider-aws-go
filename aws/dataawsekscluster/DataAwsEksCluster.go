@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/eks_cluster aws_eks_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/eks_cluster aws_eks_cluster}.
 type DataAwsEksCluster interface {
 	cdktn.TerraformDataSource
 	AccessConfig() DataAwsEksClusterAccessConfigList
@@ -49,7 +49,10 @@ type DataAwsEksCluster interface {
 	SetId(val *string)
 	Identity() DataAwsEksClusterIdentityList
 	IdInput() *string
+	KubeApiServerConfig() DataAwsEksClusterKubeApiServerConfigList
+	KubeControllerManagerConfig() DataAwsEksClusterKubeControllerManagerConfigList
 	KubernetesNetworkConfig() DataAwsEksClusterKubernetesNetworkConfigList
+	KubeSchedulerConfig() DataAwsEksClusterKubeSchedulerConfigList
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -359,11 +362,41 @@ func (j *jsiiProxy_DataAwsEksCluster) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsEksCluster) KubeApiServerConfig() DataAwsEksClusterKubeApiServerConfigList {
+	var returns DataAwsEksClusterKubeApiServerConfigList
+	_jsii_.Get(
+		j,
+		"kubeApiServerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksCluster) KubeControllerManagerConfig() DataAwsEksClusterKubeControllerManagerConfigList {
+	var returns DataAwsEksClusterKubeControllerManagerConfigList
+	_jsii_.Get(
+		j,
+		"kubeControllerManagerConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEksCluster) KubernetesNetworkConfig() DataAwsEksClusterKubernetesNetworkConfigList {
 	var returns DataAwsEksClusterKubernetesNetworkConfigList
 	_jsii_.Get(
 		j,
 		"kubernetesNetworkConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksCluster) KubeSchedulerConfig() DataAwsEksClusterKubeSchedulerConfigList {
+	var returns DataAwsEksClusterKubeSchedulerConfigList
+	_jsii_.Get(
+		j,
+		"kubeSchedulerConfig",
 		&returns,
 	)
 	return returns
@@ -600,7 +633,7 @@ func (j *jsiiProxy_DataAwsEksCluster) ZonalShiftConfig() DataAwsEksClusterZonalS
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/eks_cluster aws_eks_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/eks_cluster aws_eks_cluster} Data Source.
 func NewDataAwsEksCluster(scope constructs.Construct, id *string, config *DataAwsEksClusterConfig) DataAwsEksCluster {
 	_init_.Initialize()
 
@@ -618,7 +651,7 @@ func NewDataAwsEksCluster(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/eks_cluster aws_eks_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/eks_cluster aws_eks_cluster} Data Source.
 func NewDataAwsEksCluster_Override(d DataAwsEksCluster, scope constructs.Construct, id *string, config *DataAwsEksClusterConfig) {
 	_init_.Initialize()
 

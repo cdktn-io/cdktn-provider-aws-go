@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in}.
 type LakeformationOptIn interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_LakeformationOptIn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn(scope constructs.Construct, id *string, config *LakeformationOptInConfig) LakeformationOptIn {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewLakeformationOptIn(scope constructs.Construct, id *string, config *Lakef
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_opt_in aws_lakeformation_opt_in} Resource.
 func NewLakeformationOptIn_Override(l LakeformationOptIn, scope constructs.Construct, id *string, config *LakeformationOptInConfig) {
 	_init_.Initialize()
 

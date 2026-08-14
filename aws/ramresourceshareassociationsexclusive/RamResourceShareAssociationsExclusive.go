@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive}.
 type RamResourceShareAssociationsExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_RamResourceShareAssociationsExclusive) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive} Resource.
 func NewRamResourceShareAssociationsExclusive(scope constructs.Construct, id *string, config *RamResourceShareAssociationsExclusiveConfig) RamResourceShareAssociationsExclusive {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewRamResourceShareAssociationsExclusive(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ram_resource_share_associations_exclusive aws_ram_resource_share_associations_exclusive} Resource.
 func NewRamResourceShareAssociationsExclusive_Override(r RamResourceShareAssociationsExclusive, scope constructs.Construct, id *string, config *RamResourceShareAssociationsExclusiveConfig) {
 	_init_.Initialize()
 

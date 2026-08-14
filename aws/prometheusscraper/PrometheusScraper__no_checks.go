@@ -83,6 +83,10 @@ func (p *jsiiProxy_PrometheusScraper) validatePutDestinationParameters(value int
 	return nil
 }
 
+func (p *jsiiProxy_PrometheusScraper) validatePutExporterParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrometheusScraper) validatePutRoleConfigurationParameters(value interface{}) error {
 	return nil
 }

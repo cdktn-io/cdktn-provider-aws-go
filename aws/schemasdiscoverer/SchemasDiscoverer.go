@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/schemas_discoverer aws_schemas_discoverer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/schemas_discoverer aws_schemas_discoverer}.
 type SchemasDiscoverer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_SchemasDiscoverer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
 func NewSchemasDiscoverer(scope constructs.Construct, id *string, config *SchemasDiscovererConfig) SchemasDiscoverer {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewSchemasDiscoverer(scope constructs.Construct, id *string, config *Schema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/schemas_discoverer aws_schemas_discoverer} Resource.
 func NewSchemasDiscoverer_Override(s SchemasDiscoverer, scope constructs.Construct, id *string, config *SchemasDiscovererConfig) {
 	_init_.Initialize()
 

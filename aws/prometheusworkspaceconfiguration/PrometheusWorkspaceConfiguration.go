@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration}.
 type PrometheusWorkspaceConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_PrometheusWorkspaceConfiguration) WorkspaceIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
 func NewPrometheusWorkspaceConfiguration(scope constructs.Construct, id *string, config *PrometheusWorkspaceConfigurationConfig) PrometheusWorkspaceConfiguration {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewPrometheusWorkspaceConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_workspace_configuration aws_prometheus_workspace_configuration} Resource.
 func NewPrometheusWorkspaceConfiguration_Override(p PrometheusWorkspaceConfiguration, scope constructs.Construct, id *string, config *PrometheusWorkspaceConfigurationConfig) {
 	_init_.Initialize()
 

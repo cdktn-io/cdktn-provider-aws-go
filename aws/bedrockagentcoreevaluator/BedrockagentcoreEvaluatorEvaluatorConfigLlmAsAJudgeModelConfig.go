@@ -7,7 +7,7 @@ package bedrockagentcoreevaluator
 type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfig struct {
 	// bedrock_evaluator_model_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_evaluator#bedrock_evaluator_model_config BedrockagentcoreEvaluator#bedrock_evaluator_model_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_evaluator#bedrock_evaluator_model_config BedrockagentcoreEvaluator#bedrock_evaluator_model_config}
 	BedrockEvaluatorModelConfig interface{} `field:"optional" json:"bedrockEvaluatorModelConfig" yaml:"bedrockEvaluatorModelConfig"`
 }
 

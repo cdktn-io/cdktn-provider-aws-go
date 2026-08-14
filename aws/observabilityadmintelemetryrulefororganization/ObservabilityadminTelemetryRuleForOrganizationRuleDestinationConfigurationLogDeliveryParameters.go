@@ -5,7 +5,7 @@ package observabilityadmintelemetryrulefororganization
 
 
 type ObservabilityadminTelemetryRuleForOrganizationRuleDestinationConfigurationLogDeliveryParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/observabilityadmin_telemetry_rule_for_organization#log_types ObservabilityadminTelemetryRuleForOrganization#log_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/observabilityadmin_telemetry_rule_for_organization#log_types ObservabilityadminTelemetryRuleForOrganization#log_types}.
 	LogTypes *[]*string `field:"optional" json:"logTypes" yaml:"logTypes"`
 }
 

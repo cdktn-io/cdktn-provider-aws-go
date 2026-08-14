@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/lambda_invocation aws_lambda_invocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/lambda_invocation aws_lambda_invocation}.
 type DataAwsLambdaInvocation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataAwsLambdaInvocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/lambda_invocation aws_lambda_invocation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/lambda_invocation aws_lambda_invocation} Data Source.
 func NewDataAwsLambdaInvocation(scope constructs.Construct, id *string, config *DataAwsLambdaInvocationConfig) DataAwsLambdaInvocation {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataAwsLambdaInvocation(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/lambda_invocation aws_lambda_invocation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/lambda_invocation aws_lambda_invocation} Data Source.
 func NewDataAwsLambdaInvocation_Override(d DataAwsLambdaInvocation, scope constructs.Construct, id *string, config *DataAwsLambdaInvocationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/odb_db_server aws_odb_db_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/odb_db_server aws_odb_db_server}.
 type DataAwsOdbDbServer interface {
 	cdktn.TerraformDataSource
 	AutonomousVirtualMachineIds() *[]*string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DataAwsOdbDbServer) VmClusterIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) DataAwsOdbDbServer {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewDataAwsOdbDbServer(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/odb_db_server aws_odb_db_server} Data Source.
 func NewDataAwsOdbDbServer_Override(d DataAwsOdbDbServer, scope constructs.Construct, id *string, config *DataAwsOdbDbServerConfig) {
 	_init_.Initialize()
 

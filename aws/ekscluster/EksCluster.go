@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster aws_eks_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/eks_cluster aws_eks_cluster}.
 type EksCluster interface {
 	cdktn.TerraformResource
 	AccessConfig() EksClusterAccessConfigOutputReference
@@ -68,8 +68,14 @@ type EksCluster interface {
 	SetId(val *string)
 	Identity() EksClusterIdentityList
 	IdInput() *string
+	KubeApiServerConfig() EksClusterKubeApiServerConfigOutputReference
+	KubeApiServerConfigInput() *EksClusterKubeApiServerConfig
+	KubeControllerManagerConfig() EksClusterKubeControllerManagerConfigOutputReference
+	KubeControllerManagerConfigInput() *EksClusterKubeControllerManagerConfig
 	KubernetesNetworkConfig() EksClusterKubernetesNetworkConfigOutputReference
 	KubernetesNetworkConfigInput() *EksClusterKubernetesNetworkConfig
+	KubeSchedulerConfig() EksClusterKubeSchedulerConfigOutputReference
+	KubeSchedulerConfigInput() *EksClusterKubeSchedulerConfig
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -209,7 +215,10 @@ type EksCluster interface {
 	PutComputeConfig(value *EksClusterComputeConfig)
 	PutControlPlaneScalingConfig(value *EksClusterControlPlaneScalingConfig)
 	PutEncryptionConfig(value *EksClusterEncryptionConfig)
+	PutKubeApiServerConfig(value *EksClusterKubeApiServerConfig)
+	PutKubeControllerManagerConfig(value *EksClusterKubeControllerManagerConfig)
 	PutKubernetesNetworkConfig(value *EksClusterKubernetesNetworkConfig)
+	PutKubeSchedulerConfig(value *EksClusterKubeSchedulerConfig)
 	PutOutpostConfig(value *EksClusterOutpostConfig)
 	PutRemoteNetworkConfig(value *EksClusterRemoteNetworkConfig)
 	PutStorageConfig(value *EksClusterStorageConfig)
@@ -239,7 +248,10 @@ type EksCluster interface {
 	ResetEncryptionConfig()
 	ResetForceUpdateVersion()
 	ResetId()
+	ResetKubeApiServerConfig()
+	ResetKubeControllerManagerConfig()
 	ResetKubernetesNetworkConfig()
+	ResetKubeSchedulerConfig()
 	ResetOutpostConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -600,6 +612,46 @@ func (j *jsiiProxy_EksCluster) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_EksCluster) KubeApiServerConfig() EksClusterKubeApiServerConfigOutputReference {
+	var returns EksClusterKubeApiServerConfigOutputReference
+	_jsii_.Get(
+		j,
+		"kubeApiServerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCluster) KubeApiServerConfigInput() *EksClusterKubeApiServerConfig {
+	var returns *EksClusterKubeApiServerConfig
+	_jsii_.Get(
+		j,
+		"kubeApiServerConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCluster) KubeControllerManagerConfig() EksClusterKubeControllerManagerConfigOutputReference {
+	var returns EksClusterKubeControllerManagerConfigOutputReference
+	_jsii_.Get(
+		j,
+		"kubeControllerManagerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCluster) KubeControllerManagerConfigInput() *EksClusterKubeControllerManagerConfig {
+	var returns *EksClusterKubeControllerManagerConfig
+	_jsii_.Get(
+		j,
+		"kubeControllerManagerConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EksCluster) KubernetesNetworkConfig() EksClusterKubernetesNetworkConfigOutputReference {
 	var returns EksClusterKubernetesNetworkConfigOutputReference
 	_jsii_.Get(
@@ -615,6 +667,26 @@ func (j *jsiiProxy_EksCluster) KubernetesNetworkConfigInput() *EksClusterKuberne
 	_jsii_.Get(
 		j,
 		"kubernetesNetworkConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCluster) KubeSchedulerConfig() EksClusterKubeSchedulerConfigOutputReference {
+	var returns EksClusterKubeSchedulerConfigOutputReference
+	_jsii_.Get(
+		j,
+		"kubeSchedulerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCluster) KubeSchedulerConfigInput() *EksClusterKubeSchedulerConfig {
+	var returns *EksClusterKubeSchedulerConfig
+	_jsii_.Get(
+		j,
+		"kubeSchedulerConfigInput",
 		&returns,
 	)
 	return returns
@@ -981,7 +1053,7 @@ func (j *jsiiProxy_EksCluster) ZonalShiftConfigInput() *EksClusterZonalShiftConf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
 func NewEksCluster(scope constructs.Construct, id *string, config *EksClusterConfig) EksCluster {
 	_init_.Initialize()
 
@@ -999,7 +1071,7 @@ func NewEksCluster(scope constructs.Construct, id *string, config *EksClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/eks_cluster aws_eks_cluster} Resource.
 func NewEksCluster_Override(e EksCluster, scope constructs.Construct, id *string, config *EksClusterConfig) {
 	_init_.Initialize()
 
@@ -1612,6 +1684,28 @@ func (e *jsiiProxy_EksCluster) PutEncryptionConfig(value *EksClusterEncryptionCo
 	)
 }
 
+func (e *jsiiProxy_EksCluster) PutKubeApiServerConfig(value *EksClusterKubeApiServerConfig) {
+	if err := e.validatePutKubeApiServerConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putKubeApiServerConfig",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EksCluster) PutKubeControllerManagerConfig(value *EksClusterKubeControllerManagerConfig) {
+	if err := e.validatePutKubeControllerManagerConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putKubeControllerManagerConfig",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EksCluster) PutKubernetesNetworkConfig(value *EksClusterKubernetesNetworkConfig) {
 	if err := e.validatePutKubernetesNetworkConfigParameters(value); err != nil {
 		panic(err)
@@ -1619,6 +1713,17 @@ func (e *jsiiProxy_EksCluster) PutKubernetesNetworkConfig(value *EksClusterKuber
 	_jsii_.InvokeVoid(
 		e,
 		"putKubernetesNetworkConfig",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EksCluster) PutKubeSchedulerConfig(value *EksClusterKubeSchedulerConfig) {
+	if err := e.validatePutKubeSchedulerConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putKubeSchedulerConfig",
 		[]interface{}{value},
 	)
 }
@@ -1783,10 +1888,34 @@ func (e *jsiiProxy_EksCluster) ResetId() {
 	)
 }
 
+func (e *jsiiProxy_EksCluster) ResetKubeApiServerConfig() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetKubeApiServerConfig",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksCluster) ResetKubeControllerManagerConfig() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetKubeControllerManagerConfig",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_EksCluster) ResetKubernetesNetworkConfig() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetKubernetesNetworkConfig",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksCluster) ResetKubeSchedulerConfig() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetKubeSchedulerConfig",
 		nil, // no parameters
 	)
 }

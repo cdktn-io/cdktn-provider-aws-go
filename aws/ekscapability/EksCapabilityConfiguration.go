@@ -7,7 +7,7 @@ package ekscapability
 type EksCapabilityConfiguration struct {
 	// argo_cd block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
 	ArgoCd interface{} `field:"optional" json:"argoCd" yaml:"argoCd"`
 }
 

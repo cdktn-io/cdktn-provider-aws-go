@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment}.
 type DataAwsEc2TransitGatewayVpcAttachment interface {
 	cdktn.TerraformDataSource
 	ApplianceModeSupport() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayVpcAttachment) VpcOwnerId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpcAttachment(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpcAttachmentConfig) DataAwsEc2TransitGatewayVpcAttachment {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewDataAwsEc2TransitGatewayVpcAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ec2_transit_gateway_vpc_attachment aws_ec2_transit_gateway_vpc_attachment} Data Source.
 func NewDataAwsEc2TransitGatewayVpcAttachment_Override(d DataAwsEc2TransitGatewayVpcAttachment, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayVpcAttachmentConfig) {
 	_init_.Initialize()
 

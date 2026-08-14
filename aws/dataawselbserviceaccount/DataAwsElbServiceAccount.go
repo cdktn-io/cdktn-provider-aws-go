@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elb_service_account aws_elb_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/elb_service_account aws_elb_service_account}.
 type DataAwsElbServiceAccount interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataAwsElbServiceAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
 func NewDataAwsElbServiceAccount(scope constructs.Construct, id *string, config *DataAwsElbServiceAccountConfig) DataAwsElbServiceAccount {
 	_init_.Initialize()
 
@@ -340,7 +340,7 @@ func NewDataAwsElbServiceAccount(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/elb_service_account aws_elb_service_account} Data Source.
 func NewDataAwsElbServiceAccount_Override(d DataAwsElbServiceAccount, scope constructs.Construct, id *string, config *DataAwsElbServiceAccountConfig) {
 	_init_.Initialize()
 

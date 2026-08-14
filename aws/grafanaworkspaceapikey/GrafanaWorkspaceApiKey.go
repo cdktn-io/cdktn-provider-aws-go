@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/grafana_workspace_api_key aws_grafana_workspace_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/grafana_workspace_api_key aws_grafana_workspace_api_key}.
 type GrafanaWorkspaceApiKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_GrafanaWorkspaceApiKey) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/grafana_workspace_api_key aws_grafana_workspace_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/grafana_workspace_api_key aws_grafana_workspace_api_key} Resource.
 func NewGrafanaWorkspaceApiKey(scope constructs.Construct, id *string, config *GrafanaWorkspaceApiKeyConfig) GrafanaWorkspaceApiKey {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewGrafanaWorkspaceApiKey(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/grafana_workspace_api_key aws_grafana_workspace_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/grafana_workspace_api_key aws_grafana_workspace_api_key} Resource.
 func NewGrafanaWorkspaceApiKey_Override(g GrafanaWorkspaceApiKey, scope constructs.Construct, id *string, config *GrafanaWorkspaceApiKeyConfig) {
 	_init_.Initialize()
 

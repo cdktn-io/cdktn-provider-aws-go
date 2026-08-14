@@ -5,7 +5,7 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobAlgorithmSpecificationTrainingImageConfigTrainingRepositoryAuthConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_training_job#training_repository_credentials_provider_arn SagemakerTrainingJob#training_repository_credentials_provider_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#training_repository_credentials_provider_arn SagemakerTrainingJob#training_repository_credentials_provider_arn}.
 	TrainingRepositoryCredentialsProviderArn *string `field:"optional" json:"trainingRepositoryCredentialsProviderArn" yaml:"trainingRepositoryCredentialsProviderArn"`
 }
 

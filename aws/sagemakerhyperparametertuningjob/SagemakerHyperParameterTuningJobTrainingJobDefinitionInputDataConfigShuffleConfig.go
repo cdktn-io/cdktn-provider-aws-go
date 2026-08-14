@@ -5,7 +5,7 @@ package sagemakerhyperparametertuningjob
 
 
 type SagemakerHyperParameterTuningJobTrainingJobDefinitionInputDataConfigShuffleConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#seed SagemakerHyperParameterTuningJob#seed}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_hyper_parameter_tuning_job#seed SagemakerHyperParameterTuningJob#seed}.
 	Seed *float64 `field:"required" json:"seed" yaml:"seed"`
 }
 

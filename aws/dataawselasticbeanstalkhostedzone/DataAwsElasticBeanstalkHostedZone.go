@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone}.
 type DataAwsElasticBeanstalkHostedZone interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -311,7 +311,7 @@ func (j *jsiiProxy_DataAwsElasticBeanstalkHostedZone) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
 func NewDataAwsElasticBeanstalkHostedZone(scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkHostedZoneConfig) DataAwsElasticBeanstalkHostedZone {
 	_init_.Initialize()
 
@@ -329,7 +329,7 @@ func NewDataAwsElasticBeanstalkHostedZone(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/elastic_beanstalk_hosted_zone aws_elastic_beanstalk_hosted_zone} Data Source.
 func NewDataAwsElasticBeanstalkHostedZone_Override(d DataAwsElasticBeanstalkHostedZone, scope constructs.Construct, id *string, config *DataAwsElasticBeanstalkHostedZoneConfig) {
 	_init_.Initialize()
 

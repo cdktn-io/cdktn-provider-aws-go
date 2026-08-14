@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/outposts_outpost_instance_types aws_outposts_outpost_instance_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/outposts_outpost_instance_types aws_outposts_outpost_instance_types}.
 type DataAwsOutpostsOutpostInstanceTypes interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsOutpostsOutpostInstanceTypes) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/outposts_outpost_instance_types aws_outposts_outpost_instance_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/outposts_outpost_instance_types aws_outposts_outpost_instance_types} Data Source.
 func NewDataAwsOutpostsOutpostInstanceTypes(scope constructs.Construct, id *string, config *DataAwsOutpostsOutpostInstanceTypesConfig) DataAwsOutpostsOutpostInstanceTypes {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsOutpostsOutpostInstanceTypes(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/outposts_outpost_instance_types aws_outposts_outpost_instance_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/outposts_outpost_instance_types aws_outposts_outpost_instance_types} Data Source.
 func NewDataAwsOutpostsOutpostInstanceTypes_Override(d DataAwsOutpostsOutpostInstanceTypes, scope constructs.Construct, id *string, config *DataAwsOutpostsOutpostInstanceTypesConfig) {
 	_init_.Initialize()
 

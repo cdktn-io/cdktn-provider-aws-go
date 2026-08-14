@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ce_tags aws_ce_tags}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags aws_ce_tags}.
 type DataAwsCeTags interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -417,7 +417,7 @@ func (j *jsiiProxy_DataAwsCeTags) TimePeriodInput() *DataAwsCeTagsTimePeriod {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ce_tags aws_ce_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags aws_ce_tags} Data Source.
 func NewDataAwsCeTags(scope constructs.Construct, id *string, config *DataAwsCeTagsConfig) DataAwsCeTags {
 	_init_.Initialize()
 
@@ -435,7 +435,7 @@ func NewDataAwsCeTags(scope constructs.Construct, id *string, config *DataAwsCeT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/ce_tags aws_ce_tags} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags aws_ce_tags} Data Source.
 func NewDataAwsCeTags_Override(d DataAwsCeTags, scope constructs.Construct, id *string, config *DataAwsCeTagsConfig) {
 	_init_.Initialize()
 

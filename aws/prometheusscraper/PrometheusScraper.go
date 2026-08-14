@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_scraper aws_prometheus_scraper}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper aws_prometheus_scraper}.
 type PrometheusScraper interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -37,6 +37,8 @@ type PrometheusScraper interface {
 	SetDependsOn(val *[]*string)
 	Destination() PrometheusScraperDestinationList
 	DestinationInput() interface{}
+	Exporter() PrometheusScraperExporterList
+	ExporterInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -165,6 +167,7 @@ type PrometheusScraper interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutDestination(value interface{})
+	PutExporter(value interface{})
 	PutRoleConfiguration(value interface{})
 	PutSource(value interface{})
 	PutTimeouts(value *PrometheusScraperTimeouts)
@@ -183,6 +186,7 @@ type PrometheusScraper interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAlias()
 	ResetDestination()
+	ResetExporter()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -313,6 +317,26 @@ func (j *jsiiProxy_PrometheusScraper) DestinationInput() interface{} {
 	_jsii_.Get(
 		j,
 		"destinationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusScraper) Exporter() PrometheusScraperExporterList {
+	var returns PrometheusScraperExporterList
+	_jsii_.Get(
+		j,
+		"exporter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrometheusScraper) ExporterInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"exporterInput",
 		&returns,
 	)
 	return returns
@@ -579,7 +603,7 @@ func (j *jsiiProxy_PrometheusScraper) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
 func NewPrometheusScraper(scope constructs.Construct, id *string, config *PrometheusScraperConfig) PrometheusScraper {
 	_init_.Initialize()
 
@@ -597,7 +621,7 @@ func NewPrometheusScraper(scope constructs.Construct, id *string, config *Promet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper aws_prometheus_scraper} Resource.
 func NewPrometheusScraper_Override(p PrometheusScraper, scope constructs.Construct, id *string, config *PrometheusScraperConfig) {
 	_init_.Initialize()
 
@@ -1100,6 +1124,17 @@ func (p *jsiiProxy_PrometheusScraper) PutDestination(value interface{}) {
 	)
 }
 
+func (p *jsiiProxy_PrometheusScraper) PutExporter(value interface{}) {
+	if err := p.validatePutExporterParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putExporter",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PrometheusScraper) PutRoleConfiguration(value interface{}) {
 	if err := p.validatePutRoleConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1156,6 +1191,14 @@ func (p *jsiiProxy_PrometheusScraper) ResetDestination() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetDestination",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrometheusScraper) ResetExporter() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetExporter",
 		nil, // no parameters
 	)
 }

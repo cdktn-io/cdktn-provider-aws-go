@@ -5,7 +5,7 @@ package observabilityadmincentralizationrulefororganization
 
 
 type ObservabilityadminCentralizationRuleForOrganizationRuleSourceSourceMetricsConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/observabilityadmin_centralization_rule_for_organization#metrics_selection_criteria ObservabilityadminCentralizationRuleForOrganization#metrics_selection_criteria}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/observabilityadmin_centralization_rule_for_organization#metrics_selection_criteria ObservabilityadminCentralizationRuleForOrganization#metrics_selection_criteria}.
 	MetricsSelectionCriteria *string `field:"required" json:"metricsSelectionCriteria" yaml:"metricsSelectionCriteria"`
 }
 

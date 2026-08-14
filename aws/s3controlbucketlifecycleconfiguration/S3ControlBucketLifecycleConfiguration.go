@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration}.
 type S3ControlBucketLifecycleConfiguration interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_S3ControlBucketLifecycleConfiguration) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
 func NewS3ControlBucketLifecycleConfiguration(scope constructs.Construct, id *string, config *S3ControlBucketLifecycleConfigurationConfig) S3ControlBucketLifecycleConfiguration {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewS3ControlBucketLifecycleConfiguration(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3control_bucket_lifecycle_configuration aws_s3control_bucket_lifecycle_configuration} Resource.
 func NewS3ControlBucketLifecycleConfiguration_Override(s S3ControlBucketLifecycleConfiguration, scope constructs.Construct, id *string, config *S3ControlBucketLifecycleConfigurationConfig) {
 	_init_.Initialize()
 

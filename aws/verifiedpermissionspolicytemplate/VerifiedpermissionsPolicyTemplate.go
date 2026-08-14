@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template}.
 type VerifiedpermissionsPolicyTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_VerifiedpermissionsPolicyTemplate) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
 func NewVerifiedpermissionsPolicyTemplate(scope constructs.Construct, id *string, config *VerifiedpermissionsPolicyTemplateConfig) VerifiedpermissionsPolicyTemplate {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewVerifiedpermissionsPolicyTemplate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedpermissions_policy_template aws_verifiedpermissions_policy_template} Resource.
 func NewVerifiedpermissionsPolicyTemplate_Override(v VerifiedpermissionsPolicyTemplate, scope constructs.Construct, id *string, config *VerifiedpermissionsPolicyTemplateConfig) {
 	_init_.Initialize()
 

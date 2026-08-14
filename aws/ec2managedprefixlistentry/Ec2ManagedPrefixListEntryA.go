@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry}.
 type Ec2ManagedPrefixListEntryA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_Ec2ManagedPrefixListEntryA) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
 func NewEc2ManagedPrefixListEntryA(scope constructs.Construct, id *string, config *Ec2ManagedPrefixListEntryAConfig) Ec2ManagedPrefixListEntryA {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewEc2ManagedPrefixListEntryA(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_managed_prefix_list_entry aws_ec2_managed_prefix_list_entry} Resource.
 func NewEc2ManagedPrefixListEntryA_Override(e Ec2ManagedPrefixListEntryA, scope constructs.Construct, id *string, config *Ec2ManagedPrefixListEntryAConfig) {
 	_init_.Initialize()
 

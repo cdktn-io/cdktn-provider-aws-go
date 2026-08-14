@@ -25,6 +25,8 @@ type DataAwsEksClusterVersionsClusterVersionsOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ControlPlaneComponentConfig() DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigList
+	ControlPlaneScalingTiers() DataAwsEksClusterVersionsClusterVersionsControlPlaneScalingTiersList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -123,6 +125,26 @@ func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsOutputReference) Comp
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsOutputReference) ControlPlaneComponentConfig() DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigList {
+	var returns DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigList
+	_jsii_.Get(
+		j,
+		"controlPlaneComponentConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsOutputReference) ControlPlaneScalingTiers() DataAwsEksClusterVersionsClusterVersionsControlPlaneScalingTiersList {
+	var returns DataAwsEksClusterVersionsClusterVersionsControlPlaneScalingTiersList
+	_jsii_.Get(
+		j,
+		"controlPlaneScalingTiers",
 		&returns,
 	)
 	return returns

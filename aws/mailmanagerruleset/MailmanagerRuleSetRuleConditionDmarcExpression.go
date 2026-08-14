@@ -5,9 +5,9 @@ package mailmanagerruleset
 
 
 type MailmanagerRuleSetRuleConditionDmarcExpression struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.
 	Operator *string `field:"required" json:"operator" yaml:"operator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#values MailmanagerRuleSet#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#values MailmanagerRuleSet#values}.
 	Values *[]*string `field:"required" json:"values" yaml:"values"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution}.
 type CloudfrontMultitenantDistribution interface {
 	cdktn.TerraformResource
 	ActiveTrustedKeyGroups() CloudfrontMultitenantDistributionActiveTrustedKeyGroupsList
@@ -836,7 +836,7 @@ func (j *jsiiProxy_CloudfrontMultitenantDistribution) WebAclIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
 func NewCloudfrontMultitenantDistribution(scope constructs.Construct, id *string, config *CloudfrontMultitenantDistributionConfig) CloudfrontMultitenantDistribution {
 	_init_.Initialize()
 
@@ -854,7 +854,7 @@ func NewCloudfrontMultitenantDistribution(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_multitenant_distribution aws_cloudfront_multitenant_distribution} Resource.
 func NewCloudfrontMultitenantDistribution_Override(c CloudfrontMultitenantDistribution, scope constructs.Construct, id *string, config *CloudfrontMultitenantDistributionConfig) {
 	_init_.Initialize()
 

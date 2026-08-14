@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status}.
 type CostoptimizationhubEnrollmentStatus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_CostoptimizationhubEnrollmentStatus) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status} Resource.
 func NewCostoptimizationhubEnrollmentStatus(scope constructs.Construct, id *string, config *CostoptimizationhubEnrollmentStatusConfig) CostoptimizationhubEnrollmentStatus {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewCostoptimizationhubEnrollmentStatus(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/costoptimizationhub_enrollment_status aws_costoptimizationhub_enrollment_status} Resource.
 func NewCostoptimizationhubEnrollmentStatus_Override(c CostoptimizationhubEnrollmentStatus, scope constructs.Construct, id *string, config *CostoptimizationhubEnrollmentStatusConfig) {
 	_init_.Initialize()
 

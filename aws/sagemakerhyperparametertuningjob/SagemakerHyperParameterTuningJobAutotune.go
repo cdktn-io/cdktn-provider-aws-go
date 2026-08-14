@@ -5,7 +5,7 @@ package sagemakerhyperparametertuningjob
 
 
 type SagemakerHyperParameterTuningJobAutotune struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#mode SagemakerHyperParameterTuningJob#mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_hyper_parameter_tuning_job#mode SagemakerHyperParameterTuningJob#mode}.
 	Mode *string `field:"required" json:"mode" yaml:"mode"`
 }
 
