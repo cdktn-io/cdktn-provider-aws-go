@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association}.
 type WorkspaceswebIpAccessSettingsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_WorkspaceswebIpAccessSettingsAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
 func NewWorkspaceswebIpAccessSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsAssociationConfig) WorkspaceswebIpAccessSettingsAssociation {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewWorkspaceswebIpAccessSettingsAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/workspacesweb_ip_access_settings_association aws_workspacesweb_ip_access_settings_association} Resource.
 func NewWorkspaceswebIpAccessSettingsAssociation_Override(w WorkspaceswebIpAccessSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsAssociationConfig) {
 	_init_.Initialize()
 

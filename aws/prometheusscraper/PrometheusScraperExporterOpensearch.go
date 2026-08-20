@@ -5,7 +5,7 @@ package prometheusscraper
 
 
 type PrometheusScraperExporterOpensearch struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.
 	DomainArn *string `field:"required" json:"domainArn" yaml:"domainArn"`
 }
 

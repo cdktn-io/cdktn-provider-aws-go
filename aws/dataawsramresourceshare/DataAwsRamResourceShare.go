@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ram_resource_share aws_ram_resource_share}.
 type DataAwsRamResourceShare interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -474,7 +474,7 @@ func (j *jsiiProxy_DataAwsRamResourceShare) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) DataAwsRamResourceShare {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewDataAwsRamResourceShare(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ram_resource_share aws_ram_resource_share} Data Source.
 func NewDataAwsRamResourceShare_Override(d DataAwsRamResourceShare, scope constructs.Construct, id *string, config *DataAwsRamResourceShareConfig) {
 	_init_.Initialize()
 

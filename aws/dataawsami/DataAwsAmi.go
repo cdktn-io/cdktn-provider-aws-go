@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ami aws_ami}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ami aws_ami}.
 type DataAwsAmi interface {
 	cdktn.TerraformDataSource
 	AllowUnsafeFilter() interface{}
@@ -903,7 +903,7 @@ func (j *jsiiProxy_DataAwsAmi) VirtualizationType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ami aws_ami} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ami aws_ami} Data Source.
 func NewDataAwsAmi(scope constructs.Construct, id *string, config *DataAwsAmiConfig) DataAwsAmi {
 	_init_.Initialize()
 
@@ -921,7 +921,7 @@ func NewDataAwsAmi(scope constructs.Construct, id *string, config *DataAwsAmiCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ami aws_ami} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ami aws_ami} Data Source.
 func NewDataAwsAmi_Override(d DataAwsAmi, scope constructs.Construct, id *string, config *DataAwsAmiConfig) {
 	_init_.Initialize()
 

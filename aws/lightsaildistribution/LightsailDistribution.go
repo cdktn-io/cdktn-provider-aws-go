@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lightsail_distribution aws_lightsail_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lightsail_distribution aws_lightsail_distribution}.
 type LightsailDistribution interface {
 	cdktn.TerraformResource
 	AlternativeDomainNames() *[]*string
@@ -775,7 +775,7 @@ func (j *jsiiProxy_LightsailDistribution) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lightsail_distribution aws_lightsail_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lightsail_distribution aws_lightsail_distribution} Resource.
 func NewLightsailDistribution(scope constructs.Construct, id *string, config *LightsailDistributionConfig) LightsailDistribution {
 	_init_.Initialize()
 
@@ -793,7 +793,7 @@ func NewLightsailDistribution(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lightsail_distribution aws_lightsail_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lightsail_distribution aws_lightsail_distribution} Resource.
 func NewLightsailDistribution_Override(l LightsailDistribution, scope constructs.Construct, id *string, config *LightsailDistributionConfig) {
 	_init_.Initialize()
 

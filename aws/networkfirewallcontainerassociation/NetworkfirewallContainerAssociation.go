@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkfirewall_container_association aws_networkfirewall_container_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkfirewall_container_association aws_networkfirewall_container_association}.
 type NetworkfirewallContainerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_NetworkfirewallContainerAssociation) UpdateToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkfirewall_container_association aws_networkfirewall_container_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkfirewall_container_association aws_networkfirewall_container_association} Resource.
 func NewNetworkfirewallContainerAssociation(scope constructs.Construct, id *string, config *NetworkfirewallContainerAssociationConfig) NetworkfirewallContainerAssociation {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewNetworkfirewallContainerAssociation(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkfirewall_container_association aws_networkfirewall_container_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkfirewall_container_association aws_networkfirewall_container_association} Resource.
 func NewNetworkfirewallContainerAssociation_Override(n NetworkfirewallContainerAssociation, scope constructs.Construct, id *string, config *NetworkfirewallContainerAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/service aws_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/service aws_service}.
 type DataAwsService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/service aws_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/service aws_service} Data Source.
 func NewDataAwsService(scope constructs.Construct, id *string, config *DataAwsServiceConfig) DataAwsService {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsService(scope constructs.Construct, id *string, config *DataAwsSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/service aws_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/service aws_service} Data Source.
 func NewDataAwsService_Override(d DataAwsService, scope constructs.Construct, id *string, config *DataAwsServiceConfig) {
 	_init_.Initialize()
 

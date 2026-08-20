@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_peering_connection_accepter aws_vpc_peering_connection_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_peering_connection_accepter aws_vpc_peering_connection_accepter}.
 type VpcPeeringConnectionAccepterA interface {
 	cdktn.TerraformResource
 	Accepter() VpcPeeringConnectionAccepterAccepterOutputReference
@@ -614,7 +614,7 @@ func (j *jsiiProxy_VpcPeeringConnectionAccepterA) VpcPeeringConnectionIdInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_peering_connection_accepter aws_vpc_peering_connection_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_peering_connection_accepter aws_vpc_peering_connection_accepter} Resource.
 func NewVpcPeeringConnectionAccepterA(scope constructs.Construct, id *string, config *VpcPeeringConnectionAccepterAConfig) VpcPeeringConnectionAccepterA {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewVpcPeeringConnectionAccepterA(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_peering_connection_accepter aws_vpc_peering_connection_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_peering_connection_accepter aws_vpc_peering_connection_accepter} Resource.
 func NewVpcPeeringConnectionAccepterA_Override(v VpcPeeringConnectionAccepterA, scope constructs.Construct, id *string, config *VpcPeeringConnectionAccepterAConfig) {
 	_init_.Initialize()
 

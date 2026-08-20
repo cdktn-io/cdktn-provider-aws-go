@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_resource_policy aws_pinpointsmsvoicev2_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_resource_policy aws_pinpointsmsvoicev2_resource_policy}.
 type Pinpointsmsvoicev2ResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2ResourcePolicy) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_resource_policy aws_pinpointsmsvoicev2_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_resource_policy aws_pinpointsmsvoicev2_resource_policy} Resource.
 func NewPinpointsmsvoicev2ResourcePolicy(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2ResourcePolicyConfig) Pinpointsmsvoicev2ResourcePolicy {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewPinpointsmsvoicev2ResourcePolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_resource_policy aws_pinpointsmsvoicev2_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_resource_policy aws_pinpointsmsvoicev2_resource_policy} Resource.
 func NewPinpointsmsvoicev2ResourcePolicy_Override(p Pinpointsmsvoicev2ResourcePolicy, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2ResourcePolicyConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package prometheusanomalydetector
 
 
 type PrometheusAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_anomaly_detector#amount PrometheusAnomalyDetector#amount}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_anomaly_detector#amount PrometheusAnomalyDetector#amount}.
 	Amount *float64 `field:"optional" json:"amount" yaml:"amount"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_anomaly_detector#ratio PrometheusAnomalyDetector#ratio}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_anomaly_detector#ratio PrometheusAnomalyDetector#ratio}.
 	Ratio *float64 `field:"optional" json:"ratio" yaml:"ratio"`
 }
 

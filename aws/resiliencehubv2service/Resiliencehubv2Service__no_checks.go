@@ -79,6 +79,10 @@ func (r *jsiiProxy_Resiliencehubv2Service) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (r *jsiiProxy_Resiliencehubv2Service) validatePutAssociatedSystemParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Resiliencehubv2Service) validatePutPermissionModelParameters(value interface{}) error {
 	return nil
 }

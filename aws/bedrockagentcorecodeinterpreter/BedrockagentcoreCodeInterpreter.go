@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter}.
 type BedrockagentcoreCodeInterpreter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_BedrockagentcoreCodeInterpreter) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
 func NewBedrockagentcoreCodeInterpreter(scope constructs.Construct, id *string, config *BedrockagentcoreCodeInterpreterConfig) BedrockagentcoreCodeInterpreter {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewBedrockagentcoreCodeInterpreter(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_code_interpreter aws_bedrockagentcore_code_interpreter} Resource.
 func NewBedrockagentcoreCodeInterpreter_Override(b BedrockagentcoreCodeInterpreter, scope constructs.Construct, id *string, config *BedrockagentcoreCodeInterpreterConfig) {
 	_init_.Initialize()
 

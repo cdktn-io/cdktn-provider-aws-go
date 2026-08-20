@@ -5,7 +5,7 @@ package securityhubconfigurationpolicy
 
 
 type SecurityhubConfigurationPolicyConfigurationPolicySecurityControlsConfigurationSecurityControlCustomParameterParameterEnumListStruct struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securityhub_configuration_policy#value SecurityhubConfigurationPolicy#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_configuration_policy#value SecurityhubConfigurationPolicy#value}.
 	Value *[]*string `field:"required" json:"value" yaml:"value"`
 }
 

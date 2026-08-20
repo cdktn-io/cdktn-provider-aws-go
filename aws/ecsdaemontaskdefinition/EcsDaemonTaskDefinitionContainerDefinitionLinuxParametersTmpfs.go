@@ -5,11 +5,11 @@ package ecsdaemontaskdefinition
 
 
 type EcsDaemonTaskDefinitionContainerDefinitionLinuxParametersTmpfs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_daemon_task_definition#container_path EcsDaemonTaskDefinition#container_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_daemon_task_definition#container_path EcsDaemonTaskDefinition#container_path}.
 	ContainerPath *string `field:"required" json:"containerPath" yaml:"containerPath"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_daemon_task_definition#size EcsDaemonTaskDefinition#size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_daemon_task_definition#size EcsDaemonTaskDefinition#size}.
 	Size *float64 `field:"required" json:"size" yaml:"size"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_daemon_task_definition#mount_options EcsDaemonTaskDefinition#mount_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_daemon_task_definition#mount_options EcsDaemonTaskDefinition#mount_options}.
 	MountOptions *[]*string `field:"optional" json:"mountOptions" yaml:"mountOptions"`
 }
 

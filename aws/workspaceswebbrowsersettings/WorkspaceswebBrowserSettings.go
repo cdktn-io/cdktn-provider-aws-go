@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings}.
 type WorkspaceswebBrowserSettings interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_WorkspaceswebBrowserSettings) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
 func NewWorkspaceswebBrowserSettings(scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsConfig) WorkspaceswebBrowserSettings {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewWorkspaceswebBrowserSettings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/workspacesweb_browser_settings aws_workspacesweb_browser_settings} Resource.
 func NewWorkspaceswebBrowserSettings_Override(w WorkspaceswebBrowserSettings, scope constructs.Construct, id *string, config *WorkspaceswebBrowserSettingsConfig) {
 	_init_.Initialize()
 

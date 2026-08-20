@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association}.
 type VpcEndpointRouteTableAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_VpcEndpointRouteTableAssociation) VpcEndpointIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
 func NewVpcEndpointRouteTableAssociation(scope constructs.Construct, id *string, config *VpcEndpointRouteTableAssociationConfig) VpcEndpointRouteTableAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewVpcEndpointRouteTableAssociation(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_endpoint_route_table_association aws_vpc_endpoint_route_table_association} Resource.
 func NewVpcEndpointRouteTableAssociation_Override(v VpcEndpointRouteTableAssociation, scope constructs.Construct, id *string, config *VpcEndpointRouteTableAssociationConfig) {
 	_init_.Initialize()
 

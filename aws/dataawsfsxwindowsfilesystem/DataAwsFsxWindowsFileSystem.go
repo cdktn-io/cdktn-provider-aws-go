@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system}.
 type DataAwsFsxWindowsFileSystem interface {
 	cdktn.TerraformDataSource
 	ActiveDirectoryId() *string
@@ -55,6 +55,7 @@ type DataAwsFsxWindowsFileSystem interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkInterfaceIds() *[]*string
+	NetworkType() *string
 	// The tree node.
 	Node() constructs.Node
 	OwnerId() *string
@@ -387,6 +388,16 @@ func (j *jsiiProxy_DataAwsFsxWindowsFileSystem) NetworkInterfaceIds() *[]*string
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsFsxWindowsFileSystem) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsFsxWindowsFileSystem) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -598,7 +609,7 @@ func (j *jsiiProxy_DataAwsFsxWindowsFileSystem) WeeklyMaintenanceStartTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
 func NewDataAwsFsxWindowsFileSystem(scope constructs.Construct, id *string, config *DataAwsFsxWindowsFileSystemConfig) DataAwsFsxWindowsFileSystem {
 	_init_.Initialize()
 
@@ -616,7 +627,7 @@ func NewDataAwsFsxWindowsFileSystem(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/fsx_windows_file_system aws_fsx_windows_file_system} Data Source.
 func NewDataAwsFsxWindowsFileSystem_Override(d DataAwsFsxWindowsFileSystem, scope constructs.Construct, id *string, config *DataAwsFsxWindowsFileSystemConfig) {
 	_init_.Initialize()
 

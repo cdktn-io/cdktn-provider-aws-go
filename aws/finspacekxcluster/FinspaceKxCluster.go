@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster}.
 type FinspaceKxCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -969,7 +969,7 @@ func (j *jsiiProxy_FinspaceKxCluster) VpcConfigurationInput() *FinspaceKxCluster
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) FinspaceKxCluster {
 	_init_.Initialize()
 
@@ -987,7 +987,7 @@ func NewFinspaceKxCluster(scope constructs.Construct, id *string, config *Finspa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/finspace_kx_cluster aws_finspace_kx_cluster} Resource.
 func NewFinspaceKxCluster_Override(f FinspaceKxCluster, scope constructs.Construct, id *string, config *FinspaceKxClusterConfig) {
 	_init_.Initialize()
 

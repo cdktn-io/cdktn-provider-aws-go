@@ -151,6 +151,10 @@ func (j *jsiiProxy_FsxOntapFileSystem) validateSetLifecycleParameters(val *cdktn
 	return nil
 }
 
+func (j *jsiiProxy_FsxOntapFileSystem) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FsxOntapFileSystem) validateSetPreferredSubnetIdParameters(val *string) error {
 	return nil
 }

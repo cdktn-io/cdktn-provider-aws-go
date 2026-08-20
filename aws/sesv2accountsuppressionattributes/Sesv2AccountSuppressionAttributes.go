@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes}.
 type Sesv2AccountSuppressionAttributes interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_Sesv2AccountSuppressionAttributes) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
 func NewSesv2AccountSuppressionAttributes(scope constructs.Construct, id *string, config *Sesv2AccountSuppressionAttributesConfig) Sesv2AccountSuppressionAttributes {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewSesv2AccountSuppressionAttributes(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sesv2_account_suppression_attributes aws_sesv2_account_suppression_attributes} Resource.
 func NewSesv2AccountSuppressionAttributes_Override(s Sesv2AccountSuppressionAttributes, scope constructs.Construct, id *string, config *Sesv2AccountSuppressionAttributesConfig) {
 	_init_.Initialize()
 

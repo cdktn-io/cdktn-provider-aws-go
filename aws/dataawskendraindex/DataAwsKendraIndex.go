@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/kendra_index aws_kendra_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/kendra_index aws_kendra_index}.
 type DataAwsKendraIndex interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_DataAwsKendraIndex) UserTokenConfigurations() DataAwsKendraIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/kendra_index aws_kendra_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/kendra_index aws_kendra_index} Data Source.
 func NewDataAwsKendraIndex(scope constructs.Construct, id *string, config *DataAwsKendraIndexConfig) DataAwsKendraIndex {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewDataAwsKendraIndex(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/kendra_index aws_kendra_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/kendra_index aws_kendra_index} Data Source.
 func NewDataAwsKendraIndex_Override(d DataAwsKendraIndex, scope constructs.Construct, id *string, config *DataAwsKendraIndexConfig) {
 	_init_.Initialize()
 

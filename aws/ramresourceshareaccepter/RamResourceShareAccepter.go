@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter}.
 type RamResourceShareAccepter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -516,7 +516,7 @@ func (j *jsiiProxy_RamResourceShareAccepter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
 func NewRamResourceShareAccepter(scope constructs.Construct, id *string, config *RamResourceShareAccepterConfig) RamResourceShareAccepter {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewRamResourceShareAccepter(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ram_resource_share_accepter aws_ram_resource_share_accepter} Resource.
 func NewRamResourceShareAccepter_Override(r RamResourceShareAccepter, scope constructs.Construct, id *string, config *RamResourceShareAccepterConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration}.
 type DataAwsImagebuilderInfrastructureConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -536,7 +536,7 @@ func (j *jsiiProxy_DataAwsImagebuilderInfrastructureConfiguration) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsImagebuilderInfrastructureConfiguration(scope constructs.Construct, id *string, config *DataAwsImagebuilderInfrastructureConfigurationConfig) DataAwsImagebuilderInfrastructureConfiguration {
 	_init_.Initialize()
 
@@ -554,7 +554,7 @@ func NewDataAwsImagebuilderInfrastructureConfiguration(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/imagebuilder_infrastructure_configuration aws_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsImagebuilderInfrastructureConfiguration_Override(d DataAwsImagebuilderInfrastructureConfiguration, scope constructs.Construct, id *string, config *DataAwsImagebuilderInfrastructureConfigurationConfig) {
 	_init_.Initialize()
 

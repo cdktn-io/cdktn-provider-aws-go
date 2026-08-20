@@ -7,11 +7,11 @@ package bedrockevaluationjob
 type BedrockEvaluationJobEvaluationConfig struct {
 	// automated block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrock_evaluation_job#automated BedrockEvaluationJob#automated}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#automated BedrockEvaluationJob#automated}
 	Automated interface{} `field:"optional" json:"automated" yaml:"automated"`
 	// human block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrock_evaluation_job#human BedrockEvaluationJob#human}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#human BedrockEvaluationJob#human}
 	Human interface{} `field:"optional" json:"human" yaml:"human"`
 }
 

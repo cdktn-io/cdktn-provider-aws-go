@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securityhub_configuration_policy_association aws_securityhub_configuration_policy_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_configuration_policy_association aws_securityhub_configuration_policy_association}.
 type SecurityhubConfigurationPolicyAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SecurityhubConfigurationPolicyAssociation) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securityhub_configuration_policy_association aws_securityhub_configuration_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_configuration_policy_association aws_securityhub_configuration_policy_association} Resource.
 func NewSecurityhubConfigurationPolicyAssociation(scope constructs.Construct, id *string, config *SecurityhubConfigurationPolicyAssociationConfig) SecurityhubConfigurationPolicyAssociation {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewSecurityhubConfigurationPolicyAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securityhub_configuration_policy_association aws_securityhub_configuration_policy_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_configuration_policy_association aws_securityhub_configuration_policy_association} Resource.
 func NewSecurityhubConfigurationPolicyAssociation_Override(s SecurityhubConfigurationPolicyAssociation, scope constructs.Construct, id *string, config *SecurityhubConfigurationPolicyAssociationConfig) {
 	_init_.Initialize()
 

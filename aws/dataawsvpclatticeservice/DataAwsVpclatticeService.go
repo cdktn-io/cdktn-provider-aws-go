@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/vpclattice_service aws_vpclattice_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/vpclattice_service aws_vpclattice_service}.
 type DataAwsVpclatticeService interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -43,6 +43,7 @@ type DataAwsVpclatticeService interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IdleTimeoutSeconds() *float64
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -288,6 +289,16 @@ func (j *jsiiProxy_DataAwsVpclatticeService) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsVpclatticeService) IdleTimeoutSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"idleTimeoutSeconds",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsVpclatticeService) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -449,7 +460,7 @@ func (j *jsiiProxy_DataAwsVpclatticeService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
 func NewDataAwsVpclatticeService(scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceConfig) DataAwsVpclatticeService {
 	_init_.Initialize()
 
@@ -467,7 +478,7 @@ func NewDataAwsVpclatticeService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/vpclattice_service aws_vpclattice_service} Data Source.
 func NewDataAwsVpclatticeService_Override(d DataAwsVpclatticeService, scope constructs.Construct, id *string, config *DataAwsVpclatticeServiceConfig) {
 	_init_.Initialize()
 

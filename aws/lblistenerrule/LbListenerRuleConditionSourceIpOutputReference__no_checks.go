@@ -63,6 +63,10 @@ func (j *jsiiProxy_LbListenerRuleConditionSourceIpOutputReference) validateSetIn
 	return nil
 }
 
+func (j *jsiiProxy_LbListenerRuleConditionSourceIpOutputReference) validateSetIpAddressTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LbListenerRuleConditionSourceIpOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

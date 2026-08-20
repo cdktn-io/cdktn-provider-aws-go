@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securityhub_insight aws_securityhub_insight}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_insight aws_securityhub_insight}.
 type SecurityhubInsight interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_SecurityhubInsight) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
 func NewSecurityhubInsight(scope constructs.Construct, id *string, config *SecurityhubInsightConfig) SecurityhubInsight {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewSecurityhubInsight(scope constructs.Construct, id *string, config *Secur
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_insight aws_securityhub_insight} Resource.
 func NewSecurityhubInsight_Override(s SecurityhubInsight, scope constructs.Construct, id *string, config *SecurityhubInsightConfig) {
 	_init_.Initialize()
 

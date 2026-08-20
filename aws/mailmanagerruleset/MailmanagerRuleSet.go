@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set aws_mailmanager_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set aws_mailmanager_rule_set}.
 type MailmanagerRuleSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_MailmanagerRuleSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set aws_mailmanager_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set aws_mailmanager_rule_set} Resource.
 func NewMailmanagerRuleSet(scope constructs.Construct, id *string, config *MailmanagerRuleSetConfig) MailmanagerRuleSet {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewMailmanagerRuleSet(scope constructs.Construct, id *string, config *Mailm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set aws_mailmanager_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set aws_mailmanager_rule_set} Resource.
 func NewMailmanagerRuleSet_Override(m MailmanagerRuleSet, scope constructs.Construct, id *string, config *MailmanagerRuleSetConfig) {
 	_init_.Initialize()
 

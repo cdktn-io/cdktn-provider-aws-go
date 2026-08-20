@@ -7,13 +7,13 @@ package mailmanagerruleset
 type MailmanagerRuleSetRuleUnlessBooleanExpressionEvaluate struct {
 	// analysis block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#analysis MailmanagerRuleSet#analysis}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#analysis MailmanagerRuleSet#analysis}
 	Analysis interface{} `field:"optional" json:"analysis" yaml:"analysis"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
 	Attribute *string `field:"optional" json:"attribute" yaml:"attribute"`
 	// is_in_address_list block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#is_in_address_list MailmanagerRuleSet#is_in_address_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#is_in_address_list MailmanagerRuleSet#is_in_address_list}
 	IsInAddressList interface{} `field:"optional" json:"isInAddressList" yaml:"isInAddressList"`
 }
 

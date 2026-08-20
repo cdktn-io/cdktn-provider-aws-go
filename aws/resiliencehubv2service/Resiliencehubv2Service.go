@@ -12,10 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_service aws_resiliencehubv2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service aws_resiliencehubv2_service}.
 type Resiliencehubv2Service interface {
 	cdktn.TerraformResource
 	Arn() *string
+	AssociatedSystem() Resiliencehubv2ServiceAssociatedSystemList
+	AssociatedSystemInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -168,6 +170,7 @@ type Resiliencehubv2Service interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAssociatedSystem(value interface{})
 	PutPermissionModel(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -182,6 +185,7 @@ type Resiliencehubv2Service interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAssociatedSystem()
 	ResetDependencyDiscovery()
 	ResetDescription()
 	ResetKmsKeyId()
@@ -224,6 +228,26 @@ func (j *jsiiProxy_Resiliencehubv2Service) Arn() *string {
 	_jsii_.Get(
 		j,
 		"arn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2Service) AssociatedSystem() Resiliencehubv2ServiceAssociatedSystemList {
+	var returns Resiliencehubv2ServiceAssociatedSystemList
+	_jsii_.Get(
+		j,
+		"associatedSystem",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2Service) AssociatedSystemInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"associatedSystemInput",
 		&returns,
 	)
 	return returns
@@ -580,7 +604,7 @@ func (j *jsiiProxy_Resiliencehubv2Service) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_service aws_resiliencehubv2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service aws_resiliencehubv2_service} Resource.
 func NewResiliencehubv2Service(scope constructs.Construct, id *string, config *Resiliencehubv2ServiceConfig) Resiliencehubv2Service {
 	_init_.Initialize()
 
@@ -598,7 +622,7 @@ func NewResiliencehubv2Service(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_service aws_resiliencehubv2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service aws_resiliencehubv2_service} Resource.
 func NewResiliencehubv2Service_Override(r Resiliencehubv2Service, scope constructs.Construct, id *string, config *Resiliencehubv2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1134,6 +1158,17 @@ func (r *jsiiProxy_Resiliencehubv2Service) OverrideLogicalId(newLogicalId *strin
 	)
 }
 
+func (r *jsiiProxy_Resiliencehubv2Service) PutAssociatedSystem(value interface{}) {
+	if err := r.validatePutAssociatedSystemParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putAssociatedSystem",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_Resiliencehubv2Service) PutPermissionModel(value interface{}) {
 	if err := r.validatePutPermissionModelParameters(value); err != nil {
 		panic(err)
@@ -1153,6 +1188,14 @@ func (r *jsiiProxy_Resiliencehubv2Service) RegisterProviderFeatureUsage(feature 
 		r,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (r *jsiiProxy_Resiliencehubv2Service) ResetAssociatedSystem() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetAssociatedSystem",
+		nil, // no parameters
 	)
 }
 

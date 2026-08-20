@@ -5,7 +5,7 @@ package sagemakerhyperparametertuningjob
 
 
 type SagemakerHyperParameterTuningJobTrainingJobDefinitionRetryStrategy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_hyper_parameter_tuning_job#maximum_retry_attempts SagemakerHyperParameterTuningJob#maximum_retry_attempts}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_hyper_parameter_tuning_job#maximum_retry_attempts SagemakerHyperParameterTuningJob#maximum_retry_attempts}.
 	MaximumRetryAttempts *float64 `field:"optional" json:"maximumRetryAttempts" yaml:"maximumRetryAttempts"`
 }
 

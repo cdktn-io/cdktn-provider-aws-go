@@ -171,6 +171,10 @@ func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetLifecycleParameters(val *cdk
 	return nil
 }
 
+func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetPreferredSubnetIdParameters(val *string) error {
 	return nil
 }

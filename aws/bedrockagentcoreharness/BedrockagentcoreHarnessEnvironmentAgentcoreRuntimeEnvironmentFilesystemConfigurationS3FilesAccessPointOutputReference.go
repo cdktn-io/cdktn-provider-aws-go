@@ -70,8 +70,6 @@ type BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesystemConf
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetAccessPointArn()
-	ResetMountPath()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -486,22 +484,6 @@ func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	)
 
 	return returns
-}
-
-func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointOutputReference) ResetAccessPointArn() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetAccessPointArn",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointOutputReference) ResetMountPath() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetMountPath",
-		nil, // no parameters
-	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpclattice_service aws_vpclattice_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpclattice_service aws_vpclattice_service}.
 type VpclatticeService interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -53,6 +53,9 @@ type VpclatticeService interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IdleTimeoutSeconds() *float64
+	SetIdleTimeoutSeconds(val *float64)
+	IdleTimeoutSecondsInput() *float64
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -187,6 +190,7 @@ type VpclatticeService interface {
 	ResetCertificateArn()
 	ResetCustomDomainName()
 	ResetId()
+	ResetIdleTimeoutSeconds()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -401,6 +405,26 @@ func (j *jsiiProxy_VpclatticeService) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_VpclatticeService) IdleTimeoutSeconds() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"idleTimeoutSeconds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpclatticeService) IdleTimeoutSecondsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"idleTimeoutSecondsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VpclatticeService) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -592,7 +616,7 @@ func (j *jsiiProxy_VpclatticeService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpclattice_service aws_vpclattice_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpclattice_service aws_vpclattice_service} Resource.
 func NewVpclatticeService(scope constructs.Construct, id *string, config *VpclatticeServiceConfig) VpclatticeService {
 	_init_.Initialize()
 
@@ -610,7 +634,7 @@ func NewVpclatticeService(scope constructs.Construct, id *string, config *Vpclat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpclattice_service aws_vpclattice_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpclattice_service aws_vpclattice_service} Resource.
 func NewVpclatticeService_Override(v VpclatticeService, scope constructs.Construct, id *string, config *VpclatticeServiceConfig) {
 	_init_.Initialize()
 
@@ -699,6 +723,17 @@ func (j *jsiiProxy_VpclatticeService)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VpclatticeService)SetIdleTimeoutSeconds(val *float64) {
+	if err := j.validateSetIdleTimeoutSecondsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"idleTimeoutSeconds",
 		val,
 	)
 }
@@ -1196,6 +1231,14 @@ func (v *jsiiProxy_VpclatticeService) ResetId() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpclatticeService) ResetIdleTimeoutSeconds() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetIdleTimeoutSeconds",
 		nil, // no parameters
 	)
 }

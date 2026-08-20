@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration}.
 type EcrReplicationConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_EcrReplicationConfiguration) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
 func NewEcrReplicationConfiguration(scope constructs.Construct, id *string, config *EcrReplicationConfigurationConfig) EcrReplicationConfiguration {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewEcrReplicationConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecr_replication_configuration aws_ecr_replication_configuration} Resource.
 func NewEcrReplicationConfiguration_Override(e EcrReplicationConfiguration, scope constructs.Construct, id *string, config *EcrReplicationConfigurationConfig) {
 	_init_.Initialize()
 

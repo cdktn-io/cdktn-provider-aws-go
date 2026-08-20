@@ -14,14 +14,8 @@ import (
 type BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference interface {
 	cdktn.ComplexObject
 	AgentRuntimeArn() *string
-	SetAgentRuntimeArn(val *string)
-	AgentRuntimeArnInput() *string
 	AgentRuntimeId() *string
-	SetAgentRuntimeId(val *string)
-	AgentRuntimeIdInput() *string
 	AgentRuntimeName() *string
-	SetAgentRuntimeName(val *string)
-	AgentRuntimeNameInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -82,9 +76,6 @@ type BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReferenc
 	PutFilesystemConfiguration(value interface{})
 	PutLifecycleConfiguration(value interface{})
 	PutNetworkConfiguration(value interface{})
-	ResetAgentRuntimeArn()
-	ResetAgentRuntimeId()
-	ResetAgentRuntimeName()
 	ResetFilesystemConfiguration()
 	ResetLifecycleConfiguration()
 	ResetNetworkConfiguration()
@@ -113,16 +104,6 @@ func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) AgentRuntimeArnInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"agentRuntimeArnInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) AgentRuntimeId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -133,31 +114,11 @@ func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) AgentRuntimeIdInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"agentRuntimeIdInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) AgentRuntimeName() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"agentRuntimeName",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) AgentRuntimeNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"agentRuntimeNameInput",
 		&returns,
 	)
 	return returns
@@ -318,39 +279,6 @@ func NewBedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputRefer
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
-	)
-}
-
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference)SetAgentRuntimeArn(val *string) {
-	if err := j.validateSetAgentRuntimeArnParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"agentRuntimeArn",
-		val,
-	)
-}
-
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference)SetAgentRuntimeId(val *string) {
-	if err := j.validateSetAgentRuntimeIdParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"agentRuntimeId",
-		val,
-	)
-}
-
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference)SetAgentRuntimeName(val *string) {
-	if err := j.validateSetAgentRuntimeNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"agentRuntimeName",
-		val,
 	)
 }
 
@@ -625,30 +553,6 @@ func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 		b,
 		"putNetworkConfiguration",
 		[]interface{}{value},
-	)
-}
-
-func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) ResetAgentRuntimeArn() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetAgentRuntimeArn",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) ResetAgentRuntimeId() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetAgentRuntimeId",
-		nil, // no parameters
-	)
-}
-
-func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) ResetAgentRuntimeName() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetAgentRuntimeName",
-		nil, // no parameters
 	)
 }
 

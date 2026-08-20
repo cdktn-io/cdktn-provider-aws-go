@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point}.
 type MailmanagerIngressPoint interface {
 	cdktn.TerraformResource
 	ARecord() *string
@@ -657,7 +657,7 @@ func (j *jsiiProxy_MailmanagerIngressPoint) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
 func NewMailmanagerIngressPoint(scope constructs.Construct, id *string, config *MailmanagerIngressPointConfig) MailmanagerIngressPoint {
 	_init_.Initialize()
 
@@ -675,7 +675,7 @@ func NewMailmanagerIngressPoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
 func NewMailmanagerIngressPoint_Override(m MailmanagerIngressPoint, scope constructs.Construct, id *string, config *MailmanagerIngressPointConfig) {
 	_init_.Initialize()
 

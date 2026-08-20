@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpn_concentrator aws_vpn_concentrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpn_concentrator aws_vpn_concentrator}.
 type VpnConcentrator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_VpnConcentrator) VpnConcentratorId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
 func NewVpnConcentrator(scope constructs.Construct, id *string, config *VpnConcentratorConfig) VpnConcentrator {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewVpnConcentrator(scope constructs.Construct, id *string, config *VpnConce
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpn_concentrator aws_vpn_concentrator} Resource.
 func NewVpnConcentrator_Override(v VpnConcentrator, scope constructs.Construct, id *string, config *VpnConcentratorConfig) {
 	_init_.Initialize()
 

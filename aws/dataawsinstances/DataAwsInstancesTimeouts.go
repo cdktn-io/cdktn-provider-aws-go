@@ -5,7 +5,7 @@ package dataawsinstances
 
 
 type DataAwsInstancesTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/instances#read DataAwsInstances#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/instances#read DataAwsInstances#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

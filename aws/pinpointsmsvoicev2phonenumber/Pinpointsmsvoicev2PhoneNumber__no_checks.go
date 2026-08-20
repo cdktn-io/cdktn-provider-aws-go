@@ -175,6 +175,10 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateSetTwoWayChannelRolePa
 	return nil
 }
 
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) validateSetWaitForActiveParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewPinpointsmsvoicev2PhoneNumberParameters(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PhoneNumberConfig) error {
 	return nil
 }

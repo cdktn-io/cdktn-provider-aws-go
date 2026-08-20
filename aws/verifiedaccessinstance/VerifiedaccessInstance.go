@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance}.
 type VerifiedaccessInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_VerifiedaccessInstance) VerifiedAccessTrustProviders() Verifi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
 func NewVerifiedaccessInstance(scope constructs.Construct, id *string, config *VerifiedaccessInstanceConfig) VerifiedaccessInstance {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewVerifiedaccessInstance(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/verifiedaccess_instance aws_verifiedaccess_instance} Resource.
 func NewVerifiedaccessInstance_Override(v VerifiedaccessInstance, scope constructs.Construct, id *string, config *VerifiedaccessInstanceConfig) {
 	_init_.Initialize()
 

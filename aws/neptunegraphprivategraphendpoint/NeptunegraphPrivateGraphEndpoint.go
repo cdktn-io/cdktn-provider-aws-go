@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint}.
 type NeptunegraphPrivateGraphEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_NeptunegraphPrivateGraphEndpoint) VpcSecurityGroupIdsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
 func NewNeptunegraphPrivateGraphEndpoint(scope constructs.Construct, id *string, config *NeptunegraphPrivateGraphEndpointConfig) NeptunegraphPrivateGraphEndpoint {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewNeptunegraphPrivateGraphEndpoint(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
 func NewNeptunegraphPrivateGraphEndpoint_Override(n NeptunegraphPrivateGraphEndpoint, scope constructs.Construct, id *string, config *NeptunegraphPrivateGraphEndpointConfig) {
 	_init_.Initialize()
 

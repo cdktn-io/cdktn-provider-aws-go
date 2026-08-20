@@ -5,7 +5,7 @@ package gluecatalog
 
 
 type GlueCatalogTargetRedshiftCatalog struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}.
 	CatalogArn *string `field:"required" json:"catalogArn" yaml:"catalogArn"`
 }
 

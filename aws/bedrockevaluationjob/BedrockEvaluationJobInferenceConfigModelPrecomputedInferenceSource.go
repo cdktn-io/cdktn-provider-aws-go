@@ -5,7 +5,7 @@ package bedrockevaluationjob
 
 
 type BedrockEvaluationJobInferenceConfigModelPrecomputedInferenceSource struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrock_evaluation_job#inference_source_identifier BedrockEvaluationJob#inference_source_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#inference_source_identifier BedrockEvaluationJob#inference_source_identifier}.
 	InferenceSourceIdentifier *string `field:"required" json:"inferenceSourceIdentifier" yaml:"inferenceSourceIdentifier"`
 }
 

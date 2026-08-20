@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/billing_view aws_billing_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/billing_view aws_billing_view}.
 type BillingView interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -597,7 +597,7 @@ func (j *jsiiProxy_BillingView) ViewDefinitionLastUpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/billing_view aws_billing_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/billing_view aws_billing_view} Resource.
 func NewBillingView(scope constructs.Construct, id *string, config *BillingViewConfig) BillingView {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewBillingView(scope constructs.Construct, id *string, config *BillingViewC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/billing_view aws_billing_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/billing_view aws_billing_view} Resource.
 func NewBillingView_Override(b BillingView, scope constructs.Construct, id *string, config *BillingViewConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access}.
 type Ec2SerialConsoleAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_Ec2SerialConsoleAccess) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
 func NewEc2SerialConsoleAccess(scope constructs.Construct, id *string, config *Ec2SerialConsoleAccessConfig) Ec2SerialConsoleAccess {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewEc2SerialConsoleAccess(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
 func NewEc2SerialConsoleAccess_Override(e Ec2SerialConsoleAccess, scope constructs.Construct, id *string, config *Ec2SerialConsoleAccessConfig) {
 	_init_.Initialize()
 

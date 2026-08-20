@@ -497,6 +497,14 @@ func (j *jsiiProxy_FsxWindowsFileSystem) validateSetLifecycleParameters(val *cdk
 	return nil
 }
 
+func (j *jsiiProxy_FsxWindowsFileSystem) validateSetNetworkTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_FsxWindowsFileSystem) validateSetPreferredSubnetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

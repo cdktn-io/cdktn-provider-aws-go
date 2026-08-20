@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/appstream_image aws_appstream_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/appstream_image aws_appstream_image}.
 type DataAwsAppstreamImage interface {
 	cdktn.TerraformDataSource
 	Applications() DataAwsAppstreamImageApplicationsList
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsAppstreamImage) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) DataAwsAppstreamImage {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage_Override(d DataAwsAppstreamImage, scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) {
 	_init_.Initialize()
 

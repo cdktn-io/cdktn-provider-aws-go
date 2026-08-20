@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fsx_openzfs_file_system aws_fsx_openzfs_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fsx_openzfs_file_system aws_fsx_openzfs_file_system}.
 type FsxOpenzfsFileSystem interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -82,6 +82,9 @@ type FsxOpenzfsFileSystem interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkInterfaceIds() *[]*string
+	NetworkType() *string
+	SetNetworkType(val *string)
+	NetworkTypeInput() *string
 	// The tree node.
 	Node() constructs.Node
 	OwnerId() *string
@@ -252,6 +255,7 @@ type FsxOpenzfsFileSystem interface {
 	ResetFinalBackupTags()
 	ResetId()
 	ResetKmsKeyId()
+	ResetNetworkType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -665,6 +669,26 @@ func (j *jsiiProxy_FsxOpenzfsFileSystem) NetworkInterfaceIds() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_FsxOpenzfsFileSystem) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxOpenzfsFileSystem) NetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FsxOpenzfsFileSystem) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -1066,7 +1090,7 @@ func (j *jsiiProxy_FsxOpenzfsFileSystem) WeeklyMaintenanceStartTimeInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fsx_openzfs_file_system aws_fsx_openzfs_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fsx_openzfs_file_system aws_fsx_openzfs_file_system} Resource.
 func NewFsxOpenzfsFileSystem(scope constructs.Construct, id *string, config *FsxOpenzfsFileSystemConfig) FsxOpenzfsFileSystem {
 	_init_.Initialize()
 
@@ -1084,7 +1108,7 @@ func NewFsxOpenzfsFileSystem(scope constructs.Construct, id *string, config *Fsx
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fsx_openzfs_file_system aws_fsx_openzfs_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fsx_openzfs_file_system aws_fsx_openzfs_file_system} Resource.
 func NewFsxOpenzfsFileSystem_Override(f FsxOpenzfsFileSystem, scope constructs.Construct, id *string, config *FsxOpenzfsFileSystemConfig) {
 	_init_.Initialize()
 
@@ -1261,6 +1285,17 @@ func (j *jsiiProxy_FsxOpenzfsFileSystem)SetLifecycle(val *cdktn.TerraformResourc
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FsxOpenzfsFileSystem)SetNetworkType(val *string) {
+	if err := j.validateSetNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkType",
 		val,
 	)
 }
@@ -1924,6 +1959,14 @@ func (f *jsiiProxy_FsxOpenzfsFileSystem) ResetKmsKeyId() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetKmsKeyId",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FsxOpenzfsFileSystem) ResetNetworkType() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetNetworkType",
 		nil, // no parameters
 	)
 }

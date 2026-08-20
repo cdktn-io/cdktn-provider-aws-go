@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/uxc_services aws_uxc_services}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/uxc_services aws_uxc_services}.
 type DataAwsUxcServices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -274,7 +274,7 @@ func (j *jsiiProxy_DataAwsUxcServices) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/uxc_services aws_uxc_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/uxc_services aws_uxc_services} Data Source.
 func NewDataAwsUxcServices(scope constructs.Construct, id *string, config *DataAwsUxcServicesConfig) DataAwsUxcServices {
 	_init_.Initialize()
 
@@ -292,7 +292,7 @@ func NewDataAwsUxcServices(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/uxc_services aws_uxc_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/uxc_services aws_uxc_services} Data Source.
 func NewDataAwsUxcServices_Override(d DataAwsUxcServices, scope constructs.Construct, id *string, config *DataAwsUxcServicesConfig) {
 	_init_.Initialize()
 

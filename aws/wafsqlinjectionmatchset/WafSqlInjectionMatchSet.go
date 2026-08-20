@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set}.
 type WafSqlInjectionMatchSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_WafSqlInjectionMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set} Resource.
 func NewWafSqlInjectionMatchSet(scope constructs.Construct, id *string, config *WafSqlInjectionMatchSetConfig) WafSqlInjectionMatchSet {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewWafSqlInjectionMatchSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_sql_injection_match_set aws_waf_sql_injection_match_set} Resource.
 func NewWafSqlInjectionMatchSet_Override(w WafSqlInjectionMatchSet, scope constructs.Construct, id *string, config *WafSqlInjectionMatchSetConfig) {
 	_init_.Initialize()
 

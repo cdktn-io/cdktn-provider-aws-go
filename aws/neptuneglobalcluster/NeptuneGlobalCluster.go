@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster}.
 type NeptuneGlobalCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_NeptuneGlobalCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
 func NewNeptuneGlobalCluster(scope constructs.Construct, id *string, config *NeptuneGlobalClusterConfig) NeptuneGlobalCluster {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewNeptuneGlobalCluster(scope constructs.Construct, id *string, config *Nep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptune_global_cluster aws_neptune_global_cluster} Resource.
 func NewNeptuneGlobalCluster_Override(n NeptuneGlobalCluster, scope constructs.Construct, id *string, config *NeptuneGlobalClusterConfig) {
 	_init_.Initialize()
 

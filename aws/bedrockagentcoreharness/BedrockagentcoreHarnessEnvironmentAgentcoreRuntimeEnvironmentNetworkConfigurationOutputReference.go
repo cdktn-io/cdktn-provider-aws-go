@@ -70,7 +70,6 @@ type BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigu
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutNetworkModeConfig(value interface{})
-	ResetNetworkMode()
 	ResetNetworkModeConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -485,14 +484,6 @@ func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 		b,
 		"putNetworkModeConfig",
 		[]interface{}{value},
-	)
-}
-
-func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationOutputReference) ResetNetworkMode() {
-	_jsii_.InvokeVoid(
-		b,
-		"resetNetworkMode",
-		nil, // no parameters
 	)
 }
 

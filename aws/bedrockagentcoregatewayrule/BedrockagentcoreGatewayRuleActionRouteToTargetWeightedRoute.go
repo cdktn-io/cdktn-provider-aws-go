@@ -7,7 +7,7 @@ package bedrockagentcoregatewayrule
 type BedrockagentcoreGatewayRuleActionRouteToTargetWeightedRoute struct {
 	// traffic_split block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_rule#traffic_split BedrockagentcoreGatewayRule#traffic_split}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_gateway_rule#traffic_split BedrockagentcoreGatewayRule#traffic_split}
 	TrafficSplit interface{} `field:"optional" json:"trafficSplit" yaml:"trafficSplit"`
 }
 

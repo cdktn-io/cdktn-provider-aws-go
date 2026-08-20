@@ -447,6 +447,14 @@ func (j *jsiiProxy_FsxOntapFileSystem) validateSetLifecycleParameters(val *cdktn
 	return nil
 }
 
+func (j *jsiiProxy_FsxOntapFileSystem) validateSetNetworkTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_FsxOntapFileSystem) validateSetPreferredSubnetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

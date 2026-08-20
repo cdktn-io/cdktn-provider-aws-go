@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_carrier_gateway aws_ec2_carrier_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_carrier_gateway aws_ec2_carrier_gateway}.
 type Ec2CarrierGateway interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_Ec2CarrierGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_carrier_gateway aws_ec2_carrier_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_carrier_gateway aws_ec2_carrier_gateway} Resource.
 func NewEc2CarrierGateway(scope constructs.Construct, id *string, config *Ec2CarrierGatewayConfig) Ec2CarrierGateway {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewEc2CarrierGateway(scope constructs.Construct, id *string, config *Ec2Car
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_carrier_gateway aws_ec2_carrier_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_carrier_gateway aws_ec2_carrier_gateway} Resource.
 func NewEc2CarrierGateway_Override(e Ec2CarrierGateway, scope constructs.Construct, id *string, config *Ec2CarrierGatewayConfig) {
 	_init_.Initialize()
 

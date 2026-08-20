@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorage struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_harness#mount_path BedrockagentcoreHarness#mount_path}.
-	MountPath *string `field:"optional" json:"mountPath" yaml:"mountPath"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_harness#mount_path BedrockagentcoreHarness#mount_path}.
+	MountPath *string `field:"required" json:"mountPath" yaml:"mountPath"`
 }
 

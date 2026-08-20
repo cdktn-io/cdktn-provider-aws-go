@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association}.
 type NetworkmanagerTransitGatewayConnectPeerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayConnectPeerAssociation) TransitGa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
 func NewNetworkmanagerTransitGatewayConnectPeerAssociation(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayConnectPeerAssociationConfig) NetworkmanagerTransitGatewayConnectPeerAssociation {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewNetworkmanagerTransitGatewayConnectPeerAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkmanager_transit_gateway_connect_peer_association aws_networkmanager_transit_gateway_connect_peer_association} Resource.
 func NewNetworkmanagerTransitGatewayConnectPeerAssociation_Override(n NetworkmanagerTransitGatewayConnectPeerAssociation, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayConnectPeerAssociationConfig) {
 	_init_.Initialize()
 

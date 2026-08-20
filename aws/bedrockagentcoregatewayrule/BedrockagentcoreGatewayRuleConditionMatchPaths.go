@@ -5,7 +5,7 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleConditionMatchPaths struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_rule#any_of BedrockagentcoreGatewayRule#any_of}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_gateway_rule#any_of BedrockagentcoreGatewayRule#any_of}.
 	AnyOf *[]*string `field:"required" json:"anyOf" yaml:"anyOf"`
 }
 

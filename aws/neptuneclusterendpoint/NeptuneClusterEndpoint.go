@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint}.
 type NeptuneClusterEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_NeptuneClusterEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
 func NewNeptuneClusterEndpoint(scope constructs.Construct, id *string, config *NeptuneClusterEndpointConfig) NeptuneClusterEndpoint {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewNeptuneClusterEndpoint(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/neptune_cluster_endpoint aws_neptune_cluster_endpoint} Resource.
 func NewNeptuneClusterEndpoint_Override(n NeptuneClusterEndpoint, scope constructs.Construct, id *string, config *NeptuneClusterEndpointConfig) {
 	_init_.Initialize()
 

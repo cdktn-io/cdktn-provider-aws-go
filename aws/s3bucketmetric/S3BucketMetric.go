@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3_bucket_metric aws_s3_bucket_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3_bucket_metric aws_s3_bucket_metric}.
 type S3BucketMetric interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_S3BucketMetric) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3_bucket_metric aws_s3_bucket_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3_bucket_metric aws_s3_bucket_metric} Resource.
 func NewS3BucketMetric(scope constructs.Construct, id *string, config *S3BucketMetricConfig) S3BucketMetric {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewS3BucketMetric(scope constructs.Construct, id *string, config *S3BucketM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3_bucket_metric aws_s3_bucket_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3_bucket_metric aws_s3_bucket_metric} Resource.
 func NewS3BucketMetric_Override(s S3BucketMetric, scope constructs.Construct, id *string, config *S3BucketMetricConfig) {
 	_init_.Initialize()
 

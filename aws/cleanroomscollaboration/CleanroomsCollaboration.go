@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration}.
 type CleanroomsCollaboration interface {
 	cdktn.TerraformResource
 	AnalyticsEngine() *string
@@ -671,7 +671,7 @@ func (j *jsiiProxy_CleanroomsCollaboration) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
 func NewCleanroomsCollaboration(scope constructs.Construct, id *string, config *CleanroomsCollaborationConfig) CleanroomsCollaboration {
 	_init_.Initialize()
 
@@ -689,7 +689,7 @@ func NewCleanroomsCollaboration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cleanrooms_collaboration aws_cleanrooms_collaboration} Resource.
 func NewCleanroomsCollaboration_Override(c CleanroomsCollaboration, scope constructs.Construct, id *string, config *CleanroomsCollaborationConfig) {
 	_init_.Initialize()
 

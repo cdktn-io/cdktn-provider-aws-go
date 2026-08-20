@@ -7,7 +7,7 @@ package bedrockevaluationjob
 type BedrockEvaluationJobEvaluationConfigAutomatedEvaluatorModelConfig struct {
 	// bedrock_evaluator_model block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrock_evaluation_job#bedrock_evaluator_model BedrockEvaluationJob#bedrock_evaluator_model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#bedrock_evaluator_model BedrockEvaluationJob#bedrock_evaluator_model}
 	BedrockEvaluatorModel interface{} `field:"optional" json:"bedrockEvaluatorModel" yaml:"bedrockEvaluatorModel"`
 }
 

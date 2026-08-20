@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_custom_log_source aws_securitylake_custom_log_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securitylake_custom_log_source aws_securitylake_custom_log_source}.
 type SecuritylakeCustomLogSource interface {
 	cdktn.TerraformResource
 	Attributes() SecuritylakeCustomLogSourceAttributesList
@@ -496,7 +496,7 @@ func (j *jsiiProxy_SecuritylakeCustomLogSource) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_custom_log_source aws_securitylake_custom_log_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securitylake_custom_log_source aws_securitylake_custom_log_source} Resource.
 func NewSecuritylakeCustomLogSource(scope constructs.Construct, id *string, config *SecuritylakeCustomLogSourceConfig) SecuritylakeCustomLogSource {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewSecuritylakeCustomLogSource(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_custom_log_source aws_securitylake_custom_log_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securitylake_custom_log_source aws_securitylake_custom_log_source} Resource.
 func NewSecuritylakeCustomLogSource_Override(s SecuritylakeCustomLogSource, scope constructs.Construct, id *string, config *SecuritylakeCustomLogSourceConfig) {
 	_init_.Initialize()
 

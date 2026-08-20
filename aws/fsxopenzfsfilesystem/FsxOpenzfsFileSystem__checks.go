@@ -517,6 +517,14 @@ func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetLifecycleParameters(val *cdk
 	return nil
 }
 
+func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetNetworkTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_FsxOpenzfsFileSystem) validateSetPreferredSubnetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

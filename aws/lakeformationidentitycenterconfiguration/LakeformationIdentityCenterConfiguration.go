@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration}.
 type LakeformationIdentityCenterConfiguration interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_LakeformationIdentityCenterConfiguration) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
 func NewLakeformationIdentityCenterConfiguration(scope constructs.Construct, id *string, config *LakeformationIdentityCenterConfigurationConfig) LakeformationIdentityCenterConfiguration {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewLakeformationIdentityCenterConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lakeformation_identity_center_configuration aws_lakeformation_identity_center_configuration} Resource.
 func NewLakeformationIdentityCenterConfiguration_Override(l LakeformationIdentityCenterConfiguration, scope constructs.Construct, id *string, config *LakeformationIdentityCenterConfigurationConfig) {
 	_init_.Initialize()
 

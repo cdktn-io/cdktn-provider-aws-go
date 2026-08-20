@@ -63,18 +63,6 @@ func (b *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironment
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) validateSetAgentRuntimeArnParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) validateSetAgentRuntimeIdParameters(val *string) error {
-	return nil
-}
-
-func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) validateSetAgentRuntimeNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

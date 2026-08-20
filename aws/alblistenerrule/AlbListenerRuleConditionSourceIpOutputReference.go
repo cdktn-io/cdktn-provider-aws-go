@@ -32,6 +32,9 @@ type AlbListenerRuleConditionSourceIpOutputReference interface {
 	Fqn() *string
 	InternalValue() *AlbListenerRuleConditionSourceIp
 	SetInternalValue(val *AlbListenerRuleConditionSourceIp)
+	IpAddressType() *string
+	SetIpAddressType(val *string)
+	IpAddressTypeInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,8 @@ type AlbListenerRuleConditionSourceIpOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetIpAddressType()
+	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,6 +132,26 @@ func (j *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference) InternalValu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference) IpAddressType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipAddressType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference) IpAddressTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipAddressTypeInput",
 		&returns,
 	)
 	return returns
@@ -229,6 +254,17 @@ func (j *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference)SetInternalVa
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference)SetIpAddressType(val *string) {
+	if err := j.validateSetIpAddressTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipAddressType",
 		val,
 	)
 }
@@ -450,6 +486,22 @@ func (a *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference) Interpolatio
 	)
 
 	return returns
+}
+
+func (a *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference) ResetIpAddressType() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetIpAddressType",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference) ResetValues() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetValues",
+		nil, // no parameters
+	)
 }
 
 func (a *jsiiProxy_AlbListenerRuleConditionSourceIpOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

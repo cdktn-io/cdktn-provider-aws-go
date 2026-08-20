@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration}.
 type S3BucketRequestPaymentConfiguration interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_S3BucketRequestPaymentConfiguration) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
 func NewS3BucketRequestPaymentConfiguration(scope constructs.Construct, id *string, config *S3BucketRequestPaymentConfigurationConfig) S3BucketRequestPaymentConfiguration {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewS3BucketRequestPaymentConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3_bucket_request_payment_configuration aws_s3_bucket_request_payment_configuration} Resource.
 func NewS3BucketRequestPaymentConfiguration_Override(s S3BucketRequestPaymentConfiguration, scope constructs.Construct, id *string, config *S3BucketRequestPaymentConfigurationConfig) {
 	_init_.Initialize()
 

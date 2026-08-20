@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project aws_codebuild_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project aws_codebuild_project}.
 type CodebuildProject interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -1020,7 +1020,7 @@ func (j *jsiiProxy_CodebuildProject) VpcConfigInput() *CodebuildProjectVpcConfig
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
 func NewCodebuildProject(scope constructs.Construct, id *string, config *CodebuildProjectConfig) CodebuildProject {
 	_init_.Initialize()
 
@@ -1038,7 +1038,7 @@ func NewCodebuildProject(scope constructs.Construct, id *string, config *Codebui
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project aws_codebuild_project} Resource.
 func NewCodebuildProject_Override(c CodebuildProject, scope constructs.Construct, id *string, config *CodebuildProjectConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number}.
 type Pinpointsmsvoicev2PhoneNumber interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -89,6 +89,7 @@ type Pinpointsmsvoicev2PhoneNumber interface {
 	SelfManagedOptOutsEnabled() interface{}
 	SetSelfManagedOptOutsEnabled(val interface{})
 	SelfManagedOptOutsEnabledInput() interface{}
+	Status() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() cdktn.StringMap
@@ -110,6 +111,9 @@ type Pinpointsmsvoicev2PhoneNumber interface {
 	TwoWayChannelRole() *string
 	SetTwoWayChannelRole(val *string)
 	TwoWayChannelRoleInput() *string
+	WaitForActive() interface{}
+	SetWaitForActive(val interface{})
+	WaitForActiveInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -217,6 +221,7 @@ type Pinpointsmsvoicev2PhoneNumber interface {
 	ResetTwoWayChannelArn()
 	ResetTwoWayChannelEnabled()
 	ResetTwoWayChannelRole()
+	ResetWaitForActive()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -614,6 +619,16 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) SelfManagedOptOutsEnabledInput
 	return returns
 }
 
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) Status() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"status",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -754,8 +769,28 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) TwoWayChannelRoleInput() *stri
 	return returns
 }
 
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) WaitForActive() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"waitForActive",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) WaitForActiveInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"waitForActiveInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
 func NewPinpointsmsvoicev2PhoneNumber(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PhoneNumberConfig) Pinpointsmsvoicev2PhoneNumber {
 	_init_.Initialize()
 
@@ -773,7 +808,7 @@ func NewPinpointsmsvoicev2PhoneNumber(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_phone_number aws_pinpointsmsvoicev2_phone_number} Resource.
 func NewPinpointsmsvoicev2PhoneNumber_Override(p Pinpointsmsvoicev2PhoneNumber, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2PhoneNumberConfig) {
 	_init_.Initialize()
 
@@ -1002,6 +1037,17 @@ func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber)SetTwoWayChannelRole(val *strin
 	_jsii_.Set(
 		j,
 		"twoWayChannelRole",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Pinpointsmsvoicev2PhoneNumber)SetWaitForActive(val interface{}) {
+	if err := j.validateSetWaitForActiveParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"waitForActive",
 		val,
 	)
 }
@@ -1489,6 +1535,14 @@ func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) ResetTwoWayChannelRole() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetTwoWayChannelRole",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_Pinpointsmsvoicev2PhoneNumber) ResetWaitForActive() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetWaitForActive",
 		nil, // no parameters
 	)
 }

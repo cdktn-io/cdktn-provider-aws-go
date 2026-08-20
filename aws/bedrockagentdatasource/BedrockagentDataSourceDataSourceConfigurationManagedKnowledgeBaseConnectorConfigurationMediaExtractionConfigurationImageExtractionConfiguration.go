@@ -5,7 +5,7 @@ package bedrockagentdatasource
 
 
 type BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationMediaExtractionConfigurationImageExtractionConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_data_source#image_extraction_status BedrockagentDataSource#image_extraction_status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagent_data_source#image_extraction_status BedrockagentDataSource#image_extraction_status}.
 	ImageExtractionStatus *string `field:"required" json:"imageExtractionStatus" yaml:"imageExtractionStatus"`
 }
 

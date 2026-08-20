@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile}.
 type DataAwsBedrockInferenceProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -398,7 +398,7 @@ func (j *jsiiProxy_DataAwsBedrockInferenceProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
 func NewDataAwsBedrockInferenceProfile(scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfileConfig) DataAwsBedrockInferenceProfile {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewDataAwsBedrockInferenceProfile(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/bedrock_inference_profile aws_bedrock_inference_profile} Data Source.
 func NewDataAwsBedrockInferenceProfile_Override(d DataAwsBedrockInferenceProfile, scope constructs.Construct, id *string, config *DataAwsBedrockInferenceProfileConfig) {
 	_init_.Initialize()
 

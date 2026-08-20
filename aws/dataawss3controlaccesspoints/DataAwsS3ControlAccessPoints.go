@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/s3control_access_points aws_s3control_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/s3control_access_points aws_s3control_access_points}.
 type DataAwsS3ControlAccessPoints interface {
 	cdktn.TerraformDataSource
 	AccessPoints() DataAwsS3ControlAccessPointsAccessPointsList
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPoints) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) DataAwsS3ControlAccessPoints {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints_Override(d DataAwsS3ControlAccessPoints, scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) {
 	_init_.Initialize()
 

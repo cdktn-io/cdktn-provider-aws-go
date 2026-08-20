@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status}.
 type SagemakerServicecatalogPortfolioStatus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_SagemakerServicecatalogPortfolioStatus) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
 func NewSagemakerServicecatalogPortfolioStatus(scope constructs.Construct, id *string, config *SagemakerServicecatalogPortfolioStatusConfig) SagemakerServicecatalogPortfolioStatus {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewSagemakerServicecatalogPortfolioStatus(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_servicecatalog_portfolio_status aws_sagemaker_servicecatalog_portfolio_status} Resource.
 func NewSagemakerServicecatalogPortfolioStatus_Override(s SagemakerServicecatalogPortfolioStatus, scope constructs.Construct, id *string, config *SagemakerServicecatalogPortfolioStatusConfig) {
 	_init_.Initialize()
 

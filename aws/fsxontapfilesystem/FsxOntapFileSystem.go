@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fsx_ontap_file_system aws_fsx_ontap_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fsx_ontap_file_system aws_fsx_ontap_file_system}.
 type FsxOntapFileSystem interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -73,6 +73,9 @@ type FsxOntapFileSystem interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	NetworkInterfaceIds() *[]*string
+	NetworkType() *string
+	SetNetworkType(val *string)
+	NetworkTypeInput() *string
 	// The tree node.
 	Node() constructs.Node
 	OwnerId() *string
@@ -233,6 +236,7 @@ type FsxOntapFileSystem interface {
 	ResetHaPairs()
 	ResetId()
 	ResetKmsKeyId()
+	ResetNetworkType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -578,6 +582,26 @@ func (j *jsiiProxy_FsxOntapFileSystem) NetworkInterfaceIds() *[]*string {
 	_jsii_.Get(
 		j,
 		"networkInterfaceIds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxOntapFileSystem) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FsxOntapFileSystem) NetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkTypeInput",
 		&returns,
 	)
 	return returns
@@ -934,7 +958,7 @@ func (j *jsiiProxy_FsxOntapFileSystem) WeeklyMaintenanceStartTimeInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fsx_ontap_file_system aws_fsx_ontap_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fsx_ontap_file_system aws_fsx_ontap_file_system} Resource.
 func NewFsxOntapFileSystem(scope constructs.Construct, id *string, config *FsxOntapFileSystemConfig) FsxOntapFileSystem {
 	_init_.Initialize()
 
@@ -952,7 +976,7 @@ func NewFsxOntapFileSystem(scope constructs.Construct, id *string, config *FsxOn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fsx_ontap_file_system aws_fsx_ontap_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fsx_ontap_file_system aws_fsx_ontap_file_system} Resource.
 func NewFsxOntapFileSystem_Override(f FsxOntapFileSystem, scope constructs.Construct, id *string, config *FsxOntapFileSystemConfig) {
 	_init_.Initialize()
 
@@ -1096,6 +1120,17 @@ func (j *jsiiProxy_FsxOntapFileSystem)SetLifecycle(val *cdktn.TerraformResourceL
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FsxOntapFileSystem)SetNetworkType(val *string) {
+	if err := j.validateSetNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkType",
 		val,
 	)
 }
@@ -1713,6 +1748,14 @@ func (f *jsiiProxy_FsxOntapFileSystem) ResetKmsKeyId() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetKmsKeyId",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FsxOntapFileSystem) ResetNetworkType() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetNetworkType",
 		nil, // no parameters
 	)
 }

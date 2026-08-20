@@ -7,7 +7,7 @@ package sagemakeralgorithm
 type SagemakerAlgorithmInferenceSpecificationContainersModelDataSource struct {
 	// s3_data_source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_algorithm#s3_data_source SagemakerAlgorithm#s3_data_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_algorithm#s3_data_source SagemakerAlgorithm#s3_data_source}
 	S3DataSource interface{} `field:"optional" json:"s3DataSource" yaml:"s3DataSource"`
 }
 

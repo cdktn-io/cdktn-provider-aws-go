@@ -5,7 +5,7 @@ package wafv2webaclrule
 
 
 type Wafv2WebAclRuleStatementRegexPatternSetReferenceStatementFieldToMatchHeaderOrder struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#oversize_handling Wafv2WebAclRuleA#oversize_handling}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#oversize_handling Wafv2WebAclRuleA#oversize_handling}.
 	OversizeHandling *string `field:"required" json:"oversizeHandling" yaml:"oversizeHandling"`
 }
 

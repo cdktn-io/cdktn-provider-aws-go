@@ -7,11 +7,11 @@ package mailmanageringresspoint
 type MailmanagerIngressPointNetworkConfiguration struct {
 	// private_network_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point#private_network_configuration MailmanagerIngressPoint#private_network_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#private_network_configuration MailmanagerIngressPoint#private_network_configuration}
 	PrivateNetworkConfiguration interface{} `field:"optional" json:"privateNetworkConfiguration" yaml:"privateNetworkConfiguration"`
 	// public_network_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point#public_network_configuration MailmanagerIngressPoint#public_network_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#public_network_configuration MailmanagerIngressPoint#public_network_configuration}
 	PublicNetworkConfiguration interface{} `field:"optional" json:"publicNetworkConfiguration" yaml:"publicNetworkConfiguration"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline}.
 type SsmDefaultPatchBaseline interface {
 	cdktn.TerraformResource
 	BaselineId() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_SsmDefaultPatchBaseline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
 func NewSsmDefaultPatchBaseline(scope constructs.Construct, id *string, config *SsmDefaultPatchBaselineConfig) SsmDefaultPatchBaseline {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewSsmDefaultPatchBaseline(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ssm_default_patch_baseline aws_ssm_default_patch_baseline} Resource.
 func NewSsmDefaultPatchBaseline_Override(s SsmDefaultPatchBaseline, scope constructs.Construct, id *string, config *SsmDefaultPatchBaselineConfig) {
 	_init_.Initialize()
 

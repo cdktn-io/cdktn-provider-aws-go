@@ -7,7 +7,7 @@ package arcregionswitchplan
 type ArcregionswitchPlanReportConfigurationReportOutput struct {
 	// s3_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/arcregionswitch_plan#s3_configuration ArcregionswitchPlan#s3_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/arcregionswitch_plan#s3_configuration ArcregionswitchPlan#s3_configuration}
 	S3Configuration interface{} `field:"optional" json:"s3Configuration" yaml:"s3Configuration"`
 }
 

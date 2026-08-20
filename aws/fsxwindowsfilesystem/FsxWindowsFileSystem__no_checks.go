@@ -167,6 +167,10 @@ func (j *jsiiProxy_FsxWindowsFileSystem) validateSetLifecycleParameters(val *cdk
 	return nil
 }
 
+func (j *jsiiProxy_FsxWindowsFileSystem) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_FsxWindowsFileSystem) validateSetPreferredSubnetIdParameters(val *string) error {
 	return nil
 }

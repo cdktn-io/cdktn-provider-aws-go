@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_secondary_network aws_ec2_secondary_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_secondary_network aws_ec2_secondary_network}.
 type Ec2SecondaryNetwork interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_Ec2SecondaryNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_secondary_network aws_ec2_secondary_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_secondary_network aws_ec2_secondary_network} Resource.
 func NewEc2SecondaryNetwork(scope constructs.Construct, id *string, config *Ec2SecondaryNetworkConfig) Ec2SecondaryNetwork {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewEc2SecondaryNetwork(scope constructs.Construct, id *string, config *Ec2S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ec2_secondary_network aws_ec2_secondary_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ec2_secondary_network aws_ec2_secondary_network} Resource.
 func NewEc2SecondaryNetwork_Override(e Ec2SecondaryNetwork, scope constructs.Construct, id *string, config *Ec2SecondaryNetworkConfig) {
 	_init_.Initialize()
 

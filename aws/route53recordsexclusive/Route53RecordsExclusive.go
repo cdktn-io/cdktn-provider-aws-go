@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive aws_route53_records_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/route53_records_exclusive aws_route53_records_exclusive}.
 type Route53RecordsExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_Route53RecordsExclusive) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive aws_route53_records_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/route53_records_exclusive aws_route53_records_exclusive} Resource.
 func NewRoute53RecordsExclusive(scope constructs.Construct, id *string, config *Route53RecordsExclusiveConfig) Route53RecordsExclusive {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewRoute53RecordsExclusive(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive aws_route53_records_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/route53_records_exclusive aws_route53_records_exclusive} Resource.
 func NewRoute53RecordsExclusive_Override(r Route53RecordsExclusive, scope constructs.Construct, id *string, config *Route53RecordsExclusiveConfig) {
 	_init_.Initialize()
 

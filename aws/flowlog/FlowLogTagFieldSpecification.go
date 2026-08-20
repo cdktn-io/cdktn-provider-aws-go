@@ -5,9 +5,9 @@ package flowlog
 
 
 type FlowLogTagFieldSpecification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/flow_log#resource_type FlowLog#resource_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/flow_log#resource_type FlowLog#resource_type}.
 	ResourceType *string `field:"required" json:"resourceType" yaml:"resourceType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/flow_log#tag_keys FlowLog#tag_keys}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/flow_log#tag_keys FlowLog#tag_keys}.
 	TagKeys *[]*string `field:"required" json:"tagKeys" yaml:"tagKeys"`
 }
 

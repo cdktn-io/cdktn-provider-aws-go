@@ -5,7 +5,7 @@ package mailmanagerruleset
 
 
 type MailmanagerRuleSetRuleUnlessNumberExpressionEvaluate struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
 	Attribute *string `field:"required" json:"attribute" yaml:"attribute"`
 }
 

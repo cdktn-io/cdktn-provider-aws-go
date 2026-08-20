@@ -32,6 +32,7 @@ type DataAwsLbListenerRuleConditionSourceIpOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	IpAddressType() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -125,6 +126,16 @@ func (j *jsiiProxy_DataAwsLbListenerRuleConditionSourceIpOutputReference) Intern
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsLbListenerRuleConditionSourceIpOutputReference) IpAddressType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipAddressType",
 		&returns,
 	)
 	return returns
