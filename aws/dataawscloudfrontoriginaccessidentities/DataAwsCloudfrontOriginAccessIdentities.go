@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/cloudfront_origin_access_identities aws_cloudfront_origin_access_identities}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudfront_origin_access_identities aws_cloudfront_origin_access_identities}.
 type DataAwsCloudfrontOriginAccessIdentities interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataAwsCloudfrontOriginAccessIdentities) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/cloudfront_origin_access_identities aws_cloudfront_origin_access_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudfront_origin_access_identities aws_cloudfront_origin_access_identities} Data Source.
 func NewDataAwsCloudfrontOriginAccessIdentities(scope constructs.Construct, id *string, config *DataAwsCloudfrontOriginAccessIdentitiesConfig) DataAwsCloudfrontOriginAccessIdentities {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataAwsCloudfrontOriginAccessIdentities(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/cloudfront_origin_access_identities aws_cloudfront_origin_access_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudfront_origin_access_identities aws_cloudfront_origin_access_identities} Data Source.
 func NewDataAwsCloudfrontOriginAccessIdentities_Override(d DataAwsCloudfrontOriginAccessIdentities, scope constructs.Construct, id *string, config *DataAwsCloudfrontOriginAccessIdentitiesConfig) {
 	_init_.Initialize()
 

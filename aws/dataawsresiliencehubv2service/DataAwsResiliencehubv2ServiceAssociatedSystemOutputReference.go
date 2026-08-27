@@ -41,6 +41,7 @@ type DataAwsResiliencehubv2ServiceAssociatedSystemOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UserJourneyIds() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -155,6 +156,16 @@ func (j *jsiiProxy_DataAwsResiliencehubv2ServiceAssociatedSystemOutputReference)
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsResiliencehubv2ServiceAssociatedSystemOutputReference) UserJourneyIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"userJourneyIds",
 		&returns,
 	)
 	return returns

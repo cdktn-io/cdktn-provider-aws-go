@@ -13,6 +13,8 @@ import (
 
 type WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference interface {
 	cdktn.ComplexObject
+	AccessEndpointConfig() WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference
+	AccessEndpointConfigInput() *WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -88,6 +90,8 @@ type WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAccessEndpointConfig(value *WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig)
+	ResetAccessEndpointConfig()
 	ResetDeviceTypeAndroid()
 	ResetDeviceTypeChromeos()
 	ResetDeviceTypeIos()
@@ -109,6 +113,26 @@ type WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference interface {
 // The jsii proxy struct for WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference
 type jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) AccessEndpointConfig() WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference {
+	var returns WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference
+	_jsii_.Get(
+		j,
+		"accessEndpointConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) AccessEndpointConfigInput() *WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig {
+	var returns *WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig
+	_jsii_.Get(
+		j,
+		"accessEndpointConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) ComplexObjectIndex() interface{} {
@@ -696,6 +720,25 @@ func (w *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) 
 	)
 
 	return returns
+}
+
+func (w *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) PutAccessEndpointConfig(value *WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig) {
+	if err := w.validatePutAccessEndpointConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putAccessEndpointConfig",
+		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) ResetAccessEndpointConfig() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetAccessEndpointConfig",
+		nil, // no parameters
+	)
 }
 
 func (w *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) ResetDeviceTypeAndroid() {

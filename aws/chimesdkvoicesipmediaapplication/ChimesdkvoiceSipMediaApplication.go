@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application}.
 type ChimesdkvoiceSipMediaApplication interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_ChimesdkvoiceSipMediaApplication) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
 func NewChimesdkvoiceSipMediaApplication(scope constructs.Construct, id *string, config *ChimesdkvoiceSipMediaApplicationConfig) ChimesdkvoiceSipMediaApplication {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewChimesdkvoiceSipMediaApplication(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/chimesdkvoice_sip_media_application aws_chimesdkvoice_sip_media_application} Resource.
 func NewChimesdkvoiceSipMediaApplication_Override(c ChimesdkvoiceSipMediaApplication, scope constructs.Construct, id *string, config *ChimesdkvoiceSipMediaApplicationConfig) {
 	_init_.Initialize()
 

@@ -5,11 +5,11 @@ package bedrockevaluationjob
 
 
 type BedrockEvaluationJobEvaluationConfigAutomatedCustomMetricConfigCustomMetricCustomMetricDefinitionRatingScale struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#definition BedrockEvaluationJob#definition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job#definition BedrockEvaluationJob#definition}.
 	Definition *string `field:"required" json:"definition" yaml:"definition"`
 	// value block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#value BedrockEvaluationJob#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job#value BedrockEvaluationJob#value}
 	Value interface{} `field:"optional" json:"value" yaml:"value"`
 }
 

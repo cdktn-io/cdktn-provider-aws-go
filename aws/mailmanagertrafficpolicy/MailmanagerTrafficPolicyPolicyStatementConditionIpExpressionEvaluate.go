@@ -5,7 +5,7 @@ package mailmanagertrafficpolicy
 
 
 type MailmanagerTrafficPolicyPolicyStatementConditionIpExpressionEvaluate struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_traffic_policy#attribute MailmanagerTrafficPolicy#attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_traffic_policy#attribute MailmanagerTrafficPolicy#attribute}.
 	Attribute *string `field:"required" json:"attribute" yaml:"attribute"`
 }
 

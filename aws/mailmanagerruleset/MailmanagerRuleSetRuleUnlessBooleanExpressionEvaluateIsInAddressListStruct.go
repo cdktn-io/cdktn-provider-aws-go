@@ -5,9 +5,9 @@ package mailmanagerruleset
 
 
 type MailmanagerRuleSetRuleUnlessBooleanExpressionEvaluateIsInAddressListStruct struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#address_lists MailmanagerRuleSet#address_lists}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_rule_set#address_lists MailmanagerRuleSet#address_lists}.
 	AddressLists *[]*string `field:"required" json:"addressLists" yaml:"addressLists"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.
 	Attribute *string `field:"required" json:"attribute" yaml:"attribute"`
 }
 

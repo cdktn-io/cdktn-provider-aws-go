@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dx_transit_virtual_interface aws_dx_transit_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_transit_virtual_interface aws_dx_transit_virtual_interface}.
 type DxTransitVirtualInterface interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -27,6 +27,9 @@ type DxTransitVirtualInterface interface {
 	BgpAsn() *float64
 	SetBgpAsn(val *float64)
 	BgpAsnInput() *float64
+	BgpAsnLong() *string
+	SetBgpAsnLong(val *string)
+	BgpAsnLongInput() *string
 	BgpAuthKey() *string
 	SetBgpAuthKey(val *string)
 	BgpAuthKeyInput() *string
@@ -206,6 +209,8 @@ type DxTransitVirtualInterface interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAmazonAddress()
+	ResetBgpAsn()
+	ResetBgpAsnLong()
 	ResetBgpAuthKey()
 	ResetCustomerAddress()
 	ResetId()
@@ -330,6 +335,26 @@ func (j *jsiiProxy_DxTransitVirtualInterface) BgpAsnInput() *float64 {
 	_jsii_.Get(
 		j,
 		"bgpAsnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxTransitVirtualInterface) BgpAsnLong() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bgpAsnLong",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxTransitVirtualInterface) BgpAsnLongInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bgpAsnLongInput",
 		&returns,
 	)
 	return returns
@@ -766,7 +791,7 @@ func (j *jsiiProxy_DxTransitVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dx_transit_virtual_interface aws_dx_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_transit_virtual_interface aws_dx_transit_virtual_interface} Resource.
 func NewDxTransitVirtualInterface(scope constructs.Construct, id *string, config *DxTransitVirtualInterfaceConfig) DxTransitVirtualInterface {
 	_init_.Initialize()
 
@@ -784,7 +809,7 @@ func NewDxTransitVirtualInterface(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dx_transit_virtual_interface aws_dx_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_transit_virtual_interface aws_dx_transit_virtual_interface} Resource.
 func NewDxTransitVirtualInterface_Override(d DxTransitVirtualInterface, scope constructs.Construct, id *string, config *DxTransitVirtualInterfaceConfig) {
 	_init_.Initialize()
 
@@ -824,6 +849,17 @@ func (j *jsiiProxy_DxTransitVirtualInterface)SetBgpAsn(val *float64) {
 	_jsii_.Set(
 		j,
 		"bgpAsn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxTransitVirtualInterface)SetBgpAsnLong(val *string) {
+	if err := j.validateSetBgpAsnLongParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bgpAsnLong",
 		val,
 	)
 }
@@ -1423,6 +1459,22 @@ func (d *jsiiProxy_DxTransitVirtualInterface) ResetAmazonAddress() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetAmazonAddress",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxTransitVirtualInterface) ResetBgpAsn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetBgpAsn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxTransitVirtualInterface) ResetBgpAsnLong() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetBgpAsnLong",
 		nil, // no parameters
 	)
 }

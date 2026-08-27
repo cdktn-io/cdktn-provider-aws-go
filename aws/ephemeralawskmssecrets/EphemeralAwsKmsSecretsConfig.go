@@ -20,11 +20,11 @@ type EphemeralAwsKmsSecretsConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/kms_secrets#region EphemeralAwsKmsSecrets#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/kms_secrets#region EphemeralAwsKmsSecrets#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// secret block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/kms_secrets#secret EphemeralAwsKmsSecrets#secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/kms_secrets#secret EphemeralAwsKmsSecrets#secret}
 	Secret interface{} `field:"optional" json:"secret" yaml:"secret"`
 }
 

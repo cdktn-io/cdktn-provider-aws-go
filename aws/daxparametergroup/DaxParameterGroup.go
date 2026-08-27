@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dax_parameter_group aws_dax_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dax_parameter_group aws_dax_parameter_group}.
 type DaxParameterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_DaxParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
 func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxParameterGroupConfig) DaxParameterGroup {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxPar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dax_parameter_group aws_dax_parameter_group} Resource.
 func NewDaxParameterGroup_Override(d DaxParameterGroup, scope constructs.Construct, id *string, config *DaxParameterGroupConfig) {
 	_init_.Initialize()
 

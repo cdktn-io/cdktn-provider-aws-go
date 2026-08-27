@@ -214,6 +214,14 @@ func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) validateSetUserJourneyIdsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewResiliencehubv2ServiceAssociatedSystemOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")

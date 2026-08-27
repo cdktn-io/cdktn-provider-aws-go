@@ -5,9 +5,9 @@ package ecsdaemon
 
 
 type EcsDaemonDeploymentConfigurationAlarms struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}.
 	AlarmNames *[]*string `field:"optional" json:"alarmNames" yaml:"alarmNames"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}.
 	Enable interface{} `field:"optional" json:"enable" yaml:"enable"`
 }
 

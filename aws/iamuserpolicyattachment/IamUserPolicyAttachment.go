@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/iam_user_policy_attachment aws_iam_user_policy_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/iam_user_policy_attachment aws_iam_user_policy_attachment}.
 type IamUserPolicyAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_IamUserPolicyAttachment) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/iam_user_policy_attachment aws_iam_user_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/iam_user_policy_attachment aws_iam_user_policy_attachment} Resource.
 func NewIamUserPolicyAttachment(scope constructs.Construct, id *string, config *IamUserPolicyAttachmentConfig) IamUserPolicyAttachment {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewIamUserPolicyAttachment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/iam_user_policy_attachment aws_iam_user_policy_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/iam_user_policy_attachment aws_iam_user_policy_attachment} Resource.
 func NewIamUserPolicyAttachment_Override(i IamUserPolicyAttachment, scope constructs.Construct, id *string, config *IamUserPolicyAttachmentConfig) {
 	_init_.Initialize()
 

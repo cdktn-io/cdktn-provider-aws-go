@@ -7,11 +7,11 @@ package mailmanagertrafficpolicy
 type MailmanagerTrafficPolicyPolicyStatementConditionBooleanExpressionEvaluate struct {
 	// analysis block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_traffic_policy#analysis MailmanagerTrafficPolicy#analysis}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_traffic_policy#analysis MailmanagerTrafficPolicy#analysis}
 	Analysis interface{} `field:"optional" json:"analysis" yaml:"analysis"`
 	// is_in_address_list block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_traffic_policy#is_in_address_list MailmanagerTrafficPolicy#is_in_address_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_traffic_policy#is_in_address_list MailmanagerTrafficPolicy#is_in_address_list}
 	IsInAddressList interface{} `field:"optional" json:"isInAddressList" yaml:"isInAddressList"`
 }
 

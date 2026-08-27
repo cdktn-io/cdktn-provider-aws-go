@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations}.
 type DataAwsSecurityhubStandardsControlAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsSecurityhubStandardsControlAssociations) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
 func NewDataAwsSecurityhubStandardsControlAssociations(scope constructs.Construct, id *string, config *DataAwsSecurityhubStandardsControlAssociationsConfig) DataAwsSecurityhubStandardsControlAssociations {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsSecurityhubStandardsControlAssociations(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
 func NewDataAwsSecurityhubStandardsControlAssociations_Override(d DataAwsSecurityhubStandardsControlAssociations, scope constructs.Construct, id *string, config *DataAwsSecurityhubStandardsControlAssociationsConfig) {
 	_init_.Initialize()
 

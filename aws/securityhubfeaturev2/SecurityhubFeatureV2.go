@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2}.
 type SecurityhubFeatureV2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SecurityhubFeatureV2) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
 func NewSecurityhubFeatureV2(scope constructs.Construct, id *string, config *SecurityhubFeatureV2Config) SecurityhubFeatureV2 {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewSecurityhubFeatureV2(scope constructs.Construct, id *string, config *Sec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
 func NewSecurityhubFeatureV2_Override(s SecurityhubFeatureV2, scope constructs.Construct, id *string, config *SecurityhubFeatureV2Config) {
 	_init_.Initialize()
 

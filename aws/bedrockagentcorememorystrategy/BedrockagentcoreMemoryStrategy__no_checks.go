@@ -83,6 +83,10 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutConfigurationParam
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutMemoryRecordSchemaParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) validatePutReflectionConfigurationParameters(value interface{}) error {
 	return nil
 }

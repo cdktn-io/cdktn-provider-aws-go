@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id}.
 type Pinpointsmsvoicev2SenderId interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2SenderId) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
 func NewPinpointsmsvoicev2SenderId(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2SenderIdConfig) Pinpointsmsvoicev2SenderId {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewPinpointsmsvoicev2SenderId(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
 func NewPinpointsmsvoicev2SenderId_Override(p Pinpointsmsvoicev2SenderId, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2SenderIdConfig) {
 	_init_.Initialize()
 

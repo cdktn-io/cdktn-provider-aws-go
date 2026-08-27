@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy}.
 type BedrockagentcoreMemoryStrategy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -54,6 +54,8 @@ type BedrockagentcoreMemoryStrategy interface {
 	MemoryId() *string
 	SetMemoryId(val *string)
 	MemoryIdInput() *string
+	MemoryRecordSchema() BedrockagentcoreMemoryStrategyMemoryRecordSchemaList
+	MemoryRecordSchemaInput() interface{}
 	MemoryStrategyId() *string
 	Name() *string
 	SetName(val *string)
@@ -172,6 +174,7 @@ type BedrockagentcoreMemoryStrategy interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutConfiguration(value interface{})
+	PutMemoryRecordSchema(value interface{})
 	PutReflectionConfiguration(value interface{})
 	PutTimeouts(value *BedrockagentcoreMemoryStrategyTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -190,6 +193,7 @@ type BedrockagentcoreMemoryStrategy interface {
 	ResetConfiguration()
 	ResetDescription()
 	ResetMemoryExecutionRoleArn()
+	ResetMemoryRecordSchema()
 	ResetNamespaces()
 	ResetNamespaceTemplates()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -390,6 +394,26 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) MemoryIdInput() *string {
 	_jsii_.Get(
 		j,
 		"memoryIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) MemoryRecordSchema() BedrockagentcoreMemoryStrategyMemoryRecordSchemaList {
+	var returns BedrockagentcoreMemoryStrategyMemoryRecordSchemaList
+	_jsii_.Get(
+		j,
+		"memoryRecordSchema",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) MemoryRecordSchemaInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"memoryRecordSchemaInput",
 		&returns,
 	)
 	return returns
@@ -616,7 +640,7 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
 func NewBedrockagentcoreMemoryStrategy(scope constructs.Construct, id *string, config *BedrockagentcoreMemoryStrategyConfig) BedrockagentcoreMemoryStrategy {
 	_init_.Initialize()
 
@@ -634,7 +658,7 @@ func NewBedrockagentcoreMemoryStrategy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_memory_strategy aws_bedrockagentcore_memory_strategy} Resource.
 func NewBedrockagentcoreMemoryStrategy_Override(b BedrockagentcoreMemoryStrategy, scope constructs.Construct, id *string, config *BedrockagentcoreMemoryStrategyConfig) {
 	_init_.Initialize()
 
@@ -1181,6 +1205,17 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) PutConfiguration(value interf
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) PutMemoryRecordSchema(value interface{}) {
+	if err := b.validatePutMemoryRecordSchemaParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putMemoryRecordSchema",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) PutReflectionConfiguration(value interface{}) {
 	if err := b.validatePutReflectionConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1234,6 +1269,14 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) ResetMemoryExecutionRoleArn()
 	_jsii_.InvokeVoid(
 		b,
 		"resetMemoryExecutionRoleArn",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategy) ResetMemoryRecordSchema() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMemoryRecordSchema",
 		nil, // no parameters
 	)
 }

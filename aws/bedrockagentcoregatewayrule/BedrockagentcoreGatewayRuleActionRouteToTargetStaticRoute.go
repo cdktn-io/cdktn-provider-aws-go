@@ -5,7 +5,7 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleActionRouteToTargetStaticRoute struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_gateway_rule#target_name BedrockagentcoreGatewayRule#target_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway_rule#target_name BedrockagentcoreGatewayRule#target_name}.
 	TargetName *string `field:"required" json:"targetName" yaml:"targetName"`
 }
 

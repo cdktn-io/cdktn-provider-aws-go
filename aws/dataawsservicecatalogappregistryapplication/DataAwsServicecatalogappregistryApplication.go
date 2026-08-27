@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application}.
 type DataAwsServicecatalogappregistryApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationTag() cdktn.StringMap
@@ -365,7 +365,7 @@ func (j *jsiiProxy_DataAwsServicecatalogappregistryApplication) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
 func NewDataAwsServicecatalogappregistryApplication(scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryApplicationConfig) DataAwsServicecatalogappregistryApplication {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewDataAwsServicecatalogappregistryApplication(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Data Source.
 func NewDataAwsServicecatalogappregistryApplication_Override(d DataAwsServicecatalogappregistryApplication, scope constructs.Construct, id *string, config *DataAwsServicecatalogappregistryApplicationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor}.
 type NetworkmonitorMonitor interface {
 	cdktn.TerraformResource
 	AggregationPeriod() *float64
@@ -472,7 +472,7 @@ func (j *jsiiProxy_NetworkmonitorMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) NetworkmonitorMonitor {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmonitor_monitor aws_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor_Override(n NetworkmonitorMonitor, scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) {
 	_init_.Initialize()
 

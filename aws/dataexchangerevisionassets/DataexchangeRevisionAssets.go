@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets}.
 type DataexchangeRevisionAssets interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_DataexchangeRevisionAssets) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) DataexchangeRevisionAssets {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewDataexchangeRevisionAssets(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dataexchange_revision_assets aws_dataexchange_revision_assets} Resource.
 func NewDataexchangeRevisionAssets_Override(d DataexchangeRevisionAssets, scope constructs.Construct, id *string, config *DataexchangeRevisionAssetsConfig) {
 	_init_.Initialize()
 

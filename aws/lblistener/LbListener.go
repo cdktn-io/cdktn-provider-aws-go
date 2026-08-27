@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lb_listener aws_lb_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lb_listener aws_lb_listener}.
 type LbListener interface {
 	cdktn.TerraformResource
 	AlpnPolicy() *string
@@ -1145,7 +1145,7 @@ func (j *jsiiProxy_LbListener) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lb_listener aws_lb_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lb_listener aws_lb_listener} Resource.
 func NewLbListener(scope constructs.Construct, id *string, config *LbListenerConfig) LbListener {
 	_init_.Initialize()
 
@@ -1163,7 +1163,7 @@ func NewLbListener(scope constructs.Construct, id *string, config *LbListenerCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lb_listener aws_lb_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lb_listener aws_lb_listener} Resource.
 func NewLbListener_Override(l LbListener, scope constructs.Construct, id *string, config *LbListenerConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation}.
 type SecretsmanagerSecretRotation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -69,7 +69,9 @@ type SecretsmanagerSecretRotation interface {
 	RotateImmediately() interface{}
 	SetRotateImmediately(val interface{})
 	RotateImmediatelyInput() interface{}
-	RotationEnabled() cdktn.IResolvable
+	RotationEnabled() interface{}
+	SetRotationEnabled(val interface{})
+	RotationEnabledInput() interface{}
 	RotationLambdaArn() *string
 	SetRotationLambdaArn(val *string)
 	RotationLambdaArnInput() *string
@@ -186,7 +188,9 @@ type SecretsmanagerSecretRotation interface {
 	ResetOverrideLogicalId()
 	ResetRegion()
 	ResetRotateImmediately()
+	ResetRotationEnabled()
 	ResetRotationLambdaArn()
+	ResetRotationRules()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -444,11 +448,21 @@ func (j *jsiiProxy_SecretsmanagerSecretRotation) RotateImmediatelyInput() interf
 	return returns
 }
 
-func (j *jsiiProxy_SecretsmanagerSecretRotation) RotationEnabled() cdktn.IResolvable {
-	var returns cdktn.IResolvable
+func (j *jsiiProxy_SecretsmanagerSecretRotation) RotationEnabled() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"rotationEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecretsmanagerSecretRotation) RotationEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rotationEnabledInput",
 		&returns,
 	)
 	return returns
@@ -545,7 +559,7 @@ func (j *jsiiProxy_SecretsmanagerSecretRotation) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation} Resource.
 func NewSecretsmanagerSecretRotation(scope constructs.Construct, id *string, config *SecretsmanagerSecretRotationConfig) SecretsmanagerSecretRotation {
 	_init_.Initialize()
 
@@ -563,7 +577,7 @@ func NewSecretsmanagerSecretRotation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation} Resource.
 func NewSecretsmanagerSecretRotation_Override(s SecretsmanagerSecretRotation, scope constructs.Construct, id *string, config *SecretsmanagerSecretRotationConfig) {
 	_init_.Initialize()
 
@@ -682,6 +696,17 @@ func (j *jsiiProxy_SecretsmanagerSecretRotation)SetRotateImmediately(val interfa
 	_jsii_.Set(
 		j,
 		"rotateImmediately",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecretsmanagerSecretRotation)SetRotationEnabled(val interface{}) {
+	if err := j.validateSetRotationEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rotationEnabled",
 		val,
 	)
 }
@@ -1158,10 +1183,26 @@ func (s *jsiiProxy_SecretsmanagerSecretRotation) ResetRotateImmediately() {
 	)
 }
 
+func (s *jsiiProxy_SecretsmanagerSecretRotation) ResetRotationEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetRotationEnabled",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SecretsmanagerSecretRotation) ResetRotationLambdaArn() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetRotationLambdaArn",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecretsmanagerSecretRotation) ResetRotationRules() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetRotationRules",
 		nil, // no parameters
 	)
 }

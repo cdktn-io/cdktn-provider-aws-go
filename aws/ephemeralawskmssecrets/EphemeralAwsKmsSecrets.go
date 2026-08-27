@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets}.
 type EphemeralAwsKmsSecrets interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_EphemeralAwsKmsSecrets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets} Ephemeral Resource.
 func NewEphemeralAwsKmsSecrets(scope constructs.Construct, id *string, config *EphemeralAwsKmsSecretsConfig) EphemeralAwsKmsSecrets {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewEphemeralAwsKmsSecrets(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/kms_secrets aws_kms_secrets} Ephemeral Resource.
 func NewEphemeralAwsKmsSecrets_Override(e EphemeralAwsKmsSecrets, scope constructs.Construct, id *string, config *EphemeralAwsKmsSecretsConfig) {
 	_init_.Initialize()
 

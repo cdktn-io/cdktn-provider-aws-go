@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password}.
 type EphemeralAwsSecretsmanagerRandomPassword interface {
 	cdktn.TerraformEphemeralResource
 	// Experimental.
@@ -489,7 +489,7 @@ func (j *jsiiProxy_EphemeralAwsSecretsmanagerRandomPassword) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password} Ephemeral Resource.
 func NewEphemeralAwsSecretsmanagerRandomPassword(scope constructs.Construct, id *string, config *EphemeralAwsSecretsmanagerRandomPasswordConfig) EphemeralAwsSecretsmanagerRandomPassword {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewEphemeralAwsSecretsmanagerRandomPassword(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/secretsmanager_random_password aws_secretsmanager_random_password} Ephemeral Resource.
 func NewEphemeralAwsSecretsmanagerRandomPassword_Override(e EphemeralAwsSecretsmanagerRandomPassword, scope constructs.Construct, id *string, config *EphemeralAwsSecretsmanagerRandomPasswordConfig) {
 	_init_.Initialize()
 

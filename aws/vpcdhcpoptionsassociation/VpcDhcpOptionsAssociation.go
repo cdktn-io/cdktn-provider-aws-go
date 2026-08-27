@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_dhcp_options_association aws_vpc_dhcp_options_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_dhcp_options_association aws_vpc_dhcp_options_association}.
 type VpcDhcpOptionsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_VpcDhcpOptionsAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_dhcp_options_association aws_vpc_dhcp_options_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_dhcp_options_association aws_vpc_dhcp_options_association} Resource.
 func NewVpcDhcpOptionsAssociation(scope constructs.Construct, id *string, config *VpcDhcpOptionsAssociationConfig) VpcDhcpOptionsAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewVpcDhcpOptionsAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_dhcp_options_association aws_vpc_dhcp_options_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_dhcp_options_association aws_vpc_dhcp_options_association} Resource.
 func NewVpcDhcpOptionsAssociation_Override(v VpcDhcpOptionsAssociation, scope constructs.Construct, id *string, config *VpcDhcpOptionsAssociationConfig) {
 	_init_.Initialize()
 

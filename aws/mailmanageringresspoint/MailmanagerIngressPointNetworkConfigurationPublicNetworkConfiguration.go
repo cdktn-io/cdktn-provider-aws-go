@@ -5,7 +5,7 @@ package mailmanageringresspoint
 
 
 type MailmanagerIngressPointNetworkConfigurationPublicNetworkConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#ip_type MailmanagerIngressPoint#ip_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_ingress_point#ip_type MailmanagerIngressPoint#ip_type}.
 	IpType *string `field:"required" json:"ipType" yaml:"ipType"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration}.
 type PrometheusScraperLoggingConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_PrometheusScraperLoggingConfiguration) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
 func NewPrometheusScraperLoggingConfiguration(scope constructs.Construct, id *string, config *PrometheusScraperLoggingConfigurationConfig) PrometheusScraperLoggingConfiguration {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewPrometheusScraperLoggingConfiguration(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
 func NewPrometheusScraperLoggingConfiguration_Override(p PrometheusScraperLoggingConfiguration, scope constructs.Construct, id *string, config *PrometheusScraperLoggingConfigurationConfig) {
 	_init_.Initialize()
 

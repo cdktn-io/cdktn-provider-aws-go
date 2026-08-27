@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group}.
 type ElasticacheReplicationGroup interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -28,6 +28,14 @@ type ElasticacheReplicationGroup interface {
 	AuthTokenUpdateStrategy() *string
 	SetAuthTokenUpdateStrategy(val *string)
 	AuthTokenUpdateStrategyInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	AuthTokenWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetAuthTokenWo(val *string)
+	AuthTokenWoInput() *string
+	AuthTokenWoVersion() *float64
+	SetAuthTokenWoVersion(val *float64)
+	AuthTokenWoVersionInput() *float64
 	AutomaticFailoverEnabled() interface{}
 	SetAutomaticFailoverEnabled(val interface{})
 	AutomaticFailoverEnabledInput() interface{}
@@ -299,6 +307,8 @@ type ElasticacheReplicationGroup interface {
 	ResetAtRestEncryptionEnabled()
 	ResetAuthToken()
 	ResetAuthTokenUpdateStrategy()
+	ResetAuthTokenWo()
+	ResetAuthTokenWoVersion()
 	ResetAutomaticFailoverEnabled()
 	ResetAutoMinorVersionUpgrade()
 	ResetClusterMode()
@@ -453,6 +463,46 @@ func (j *jsiiProxy_ElasticacheReplicationGroup) AuthTokenUpdateStrategyInput() *
 	_jsii_.Get(
 		j,
 		"authTokenUpdateStrategyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup) AuthTokenWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authTokenWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup) AuthTokenWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authTokenWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup) AuthTokenWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"authTokenWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup) AuthTokenWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"authTokenWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -1499,7 +1549,7 @@ func (j *jsiiProxy_ElasticacheReplicationGroup) UserGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
 func NewElasticacheReplicationGroup(scope constructs.Construct, id *string, config *ElasticacheReplicationGroupConfig) ElasticacheReplicationGroup {
 	_init_.Initialize()
 
@@ -1517,7 +1567,7 @@ func NewElasticacheReplicationGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/elasticache_replication_group aws_elasticache_replication_group} Resource.
 func NewElasticacheReplicationGroup_Override(e ElasticacheReplicationGroup, scope constructs.Construct, id *string, config *ElasticacheReplicationGroupConfig) {
 	_init_.Initialize()
 
@@ -1568,6 +1618,28 @@ func (j *jsiiProxy_ElasticacheReplicationGroup)SetAuthTokenUpdateStrategy(val *s
 	_jsii_.Set(
 		j,
 		"authTokenUpdateStrategy",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup)SetAuthTokenWo(val *string) {
+	if err := j.validateSetAuthTokenWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"authTokenWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup)SetAuthTokenWoVersion(val *float64) {
+	if err := j.validateSetAuthTokenWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"authTokenWoVersion",
 		val,
 	)
 }
@@ -2499,6 +2571,22 @@ func (e *jsiiProxy_ElasticacheReplicationGroup) ResetAuthTokenUpdateStrategy() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetAuthTokenUpdateStrategy",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheReplicationGroup) ResetAuthTokenWo() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAuthTokenWo",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheReplicationGroup) ResetAuthTokenWoVersion() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAuthTokenWoVersion",
 		nil, // no parameters
 	)
 }

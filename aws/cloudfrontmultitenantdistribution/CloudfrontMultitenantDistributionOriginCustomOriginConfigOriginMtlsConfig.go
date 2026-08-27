@@ -5,7 +5,7 @@ package cloudfrontmultitenantdistribution
 
 
 type CloudfrontMultitenantDistributionOriginCustomOriginConfigOriginMtlsConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_multitenant_distribution#client_certificate_arn CloudfrontMultitenantDistribution#client_certificate_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_multitenant_distribution#client_certificate_arn CloudfrontMultitenantDistribution#client_certificate_arn}.
 	ClientCertificateArn *string `field:"required" json:"clientCertificateArn" yaml:"clientCertificateArn"`
 }
 

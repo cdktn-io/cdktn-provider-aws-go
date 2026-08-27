@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection}.
 type MskVpcConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -566,7 +566,7 @@ func (j *jsiiProxy_MskVpcConnection) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
 func NewMskVpcConnection(scope constructs.Construct, id *string, config *MskVpcConnectionConfig) MskVpcConnection {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewMskVpcConnection(scope constructs.Construct, id *string, config *MskVpcC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_vpc_connection aws_msk_vpc_connection} Resource.
 func NewMskVpcConnection_Override(m MskVpcConnection, scope constructs.Construct, id *string, config *MskVpcConnectionConfig) {
 	_init_.Initialize()
 

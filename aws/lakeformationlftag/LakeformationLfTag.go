@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lakeformation_lf_tag aws_lakeformation_lf_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lakeformation_lf_tag aws_lakeformation_lf_tag}.
 type LakeformationLfTag interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_LakeformationLfTag) ValuesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lakeformation_lf_tag aws_lakeformation_lf_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lakeformation_lf_tag aws_lakeformation_lf_tag} Resource.
 func NewLakeformationLfTag(scope constructs.Construct, id *string, config *LakeformationLfTagConfig) LakeformationLfTag {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewLakeformationLfTag(scope constructs.Construct, id *string, config *Lakef
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lakeformation_lf_tag aws_lakeformation_lf_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lakeformation_lf_tag aws_lakeformation_lf_tag} Resource.
 func NewLakeformationLfTag_Override(l LakeformationLfTag, scope constructs.Construct, id *string, config *LakeformationLfTagConfig) {
 	_init_.Initialize()
 

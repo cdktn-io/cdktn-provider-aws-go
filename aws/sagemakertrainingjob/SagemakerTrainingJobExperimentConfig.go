@@ -5,13 +5,13 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobExperimentConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#experiment_name SagemakerTrainingJob#experiment_name}.
 	ExperimentName *string `field:"optional" json:"experimentName" yaml:"experimentName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#run_name SagemakerTrainingJob#run_name}.
 	RunName *string `field:"optional" json:"runName" yaml:"runName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#trial_component_display_name SagemakerTrainingJob#trial_component_display_name}.
 	TrialComponentDisplayName *string `field:"optional" json:"trialComponentDisplayName" yaml:"trialComponentDisplayName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#trial_name SagemakerTrainingJob#trial_name}.
 	TrialName *string `field:"optional" json:"trialName" yaml:"trialName"`
 }
 

@@ -5,7 +5,7 @@ package sagemakerlabelingjob
 
 
 type SagemakerLabelingJobHumanTaskConfigAnnotationConsolidationConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_labeling_job#annotation_consolidation_lambda_arn SagemakerLabelingJob#annotation_consolidation_lambda_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_labeling_job#annotation_consolidation_lambda_arn SagemakerLabelingJob#annotation_consolidation_lambda_arn}.
 	AnnotationConsolidationLambdaArn *string `field:"required" json:"annotationConsolidationLambdaArn" yaml:"annotationConsolidationLambdaArn"`
 }
 

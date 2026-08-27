@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy}.
 type VpcEndpointPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_VpcEndpointPolicy) VpcEndpointIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
 func NewVpcEndpointPolicy(scope constructs.Construct, id *string, config *VpcEndpointPolicyConfig) VpcEndpointPolicy {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewVpcEndpointPolicy(scope constructs.Construct, id *string, config *VpcEnd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_endpoint_policy aws_vpc_endpoint_policy} Resource.
 func NewVpcEndpointPolicy_Override(v VpcEndpointPolicy, scope constructs.Construct, id *string, config *VpcEndpointPolicyConfig) {
 	_init_.Initialize()
 

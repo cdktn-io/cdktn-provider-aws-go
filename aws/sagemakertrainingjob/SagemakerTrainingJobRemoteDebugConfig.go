@@ -5,7 +5,7 @@ package sagemakertrainingjob
 
 
 type SagemakerTrainingJobRemoteDebugConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#enable_remote_debug SagemakerTrainingJob#enable_remote_debug}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#enable_remote_debug SagemakerTrainingJob#enable_remote_debug}.
 	EnableRemoteDebug interface{} `field:"optional" json:"enableRemoteDebug" yaml:"enableRemoteDebug"`
 }
 

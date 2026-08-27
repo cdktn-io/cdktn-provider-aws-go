@@ -127,6 +127,14 @@ func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetAuthTokenUpdateStrate
 	return nil
 }
 
+func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetAuthTokenWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetAuthTokenWoVersionParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_ElasticacheReplicationGroup) validateSetAutomaticFailoverEnabledParameters(val interface{}) error {
 	return nil
 }

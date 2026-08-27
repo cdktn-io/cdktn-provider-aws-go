@@ -43,6 +43,9 @@ type Resiliencehubv2ServiceAssociatedSystemOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UserJourneyIds() *[]*string
+	SetUserJourneyIds(val *[]*string)
+	UserJourneyIdsInput() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type Resiliencehubv2ServiceAssociatedSystemOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetUserJourneyIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -172,6 +176,26 @@ func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) Terraf
 	return returns
 }
 
+func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) UserJourneyIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"userJourneyIds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) UserJourneyIdsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"userJourneyIdsInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewResiliencehubv2ServiceAssociatedSystemOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) Resiliencehubv2ServiceAssociatedSystemOutputReference {
 	_init_.Initialize()
@@ -262,6 +286,17 @@ func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference)SetTerr
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference)SetUserJourneyIds(val *[]*string) {
+	if err := j.validateSetUserJourneyIdsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"userJourneyIds",
 		val,
 	)
 }
@@ -450,6 +485,14 @@ func (r *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) Interp
 	)
 
 	return returns
+}
+
+func (r *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) ResetUserJourneyIds() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetUserJourneyIds",
+		nil, // no parameters
+	)
 }
 
 func (r *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

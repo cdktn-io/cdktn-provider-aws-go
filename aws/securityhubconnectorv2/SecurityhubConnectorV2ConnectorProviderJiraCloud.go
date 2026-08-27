@@ -5,7 +5,7 @@ package securityhubconnectorv2
 
 
 type SecurityhubConnectorV2ConnectorProviderJiraCloud struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}.
 	ProjectKey *string `field:"required" json:"projectKey" yaml:"projectKey"`
 }
 

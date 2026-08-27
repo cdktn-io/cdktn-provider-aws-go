@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_relay aws_mailmanager_relay}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_relay aws_mailmanager_relay}.
 type MailmanagerRelay interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -540,7 +540,7 @@ func (j *jsiiProxy_MailmanagerRelay) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_relay aws_mailmanager_relay} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_relay aws_mailmanager_relay} Resource.
 func NewMailmanagerRelay(scope constructs.Construct, id *string, config *MailmanagerRelayConfig) MailmanagerRelay {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewMailmanagerRelay(scope constructs.Construct, id *string, config *Mailman
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_relay aws_mailmanager_relay} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_relay aws_mailmanager_relay} Resource.
 func NewMailmanagerRelay_Override(m MailmanagerRelay, scope constructs.Construct, id *string, config *MailmanagerRelayConfig) {
 	_init_.Initialize()
 

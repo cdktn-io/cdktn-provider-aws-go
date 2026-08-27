@@ -5,9 +5,9 @@ package mskreplicator
 
 
 type MskReplicatorLogDeliveryReplicatorLogDeliveryCloudwatchLogs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/msk_replicator#enabled MskReplicator#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#enabled MskReplicator#enabled}.
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/msk_replicator#log_group MskReplicator#log_group}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#log_group MskReplicator#log_group}.
 	LogGroup *string `field:"optional" json:"logGroup" yaml:"logGroup"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/transfer_user aws_transfer_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/transfer_user aws_transfer_user}.
 type TransferUser interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -664,7 +664,7 @@ func (j *jsiiProxy_TransferUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/transfer_user aws_transfer_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/transfer_user aws_transfer_user} Resource.
 func NewTransferUser(scope constructs.Construct, id *string, config *TransferUserConfig) TransferUser {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewTransferUser(scope constructs.Construct, id *string, config *TransferUse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/transfer_user aws_transfer_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/transfer_user aws_transfer_user} Resource.
 func NewTransferUser_Override(t TransferUser, scope constructs.Construct, id *string, config *TransferUserConfig) {
 	_init_.Initialize()
 

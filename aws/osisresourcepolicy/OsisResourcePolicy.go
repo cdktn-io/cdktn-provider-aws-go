@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/osis_resource_policy aws_osis_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/osis_resource_policy aws_osis_resource_policy}.
 type OsisResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_OsisResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/osis_resource_policy aws_osis_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/osis_resource_policy aws_osis_resource_policy} Resource.
 func NewOsisResourcePolicy(scope constructs.Construct, id *string, config *OsisResourcePolicyConfig) OsisResourcePolicy {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewOsisResourcePolicy(scope constructs.Construct, id *string, config *OsisR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/osis_resource_policy aws_osis_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/osis_resource_policy aws_osis_resource_policy} Resource.
 func NewOsisResourcePolicy_Override(o OsisResourcePolicy, scope constructs.Construct, id *string, config *OsisResourcePolicyConfig) {
 	_init_.Initialize()
 

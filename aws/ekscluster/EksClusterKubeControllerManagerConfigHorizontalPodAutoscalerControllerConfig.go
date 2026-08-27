@@ -5,7 +5,7 @@ package ekscluster
 
 
 type EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_sync_period EksCluster#horizontal_pod_autoscaler_sync_period}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_sync_period EksCluster#horizontal_pod_autoscaler_sync_period}.
 	HorizontalPodAutoscalerSyncPeriod *string `field:"optional" json:"horizontalPodAutoscalerSyncPeriod" yaml:"horizontalPodAutoscalerSyncPeriod"`
 }
 

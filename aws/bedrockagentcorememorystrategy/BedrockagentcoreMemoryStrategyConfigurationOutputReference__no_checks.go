@@ -59,6 +59,10 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) v
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) validatePutSelfManagedConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

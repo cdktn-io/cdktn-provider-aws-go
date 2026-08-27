@@ -5,13 +5,13 @@ package gluecatalogtable
 
 
 type GlueCatalogTableOpenTableFormatInputIcebergInput struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_catalog_table#metadata_operation GlueCatalogTable#metadata_operation}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/glue_catalog_table#metadata_operation GlueCatalogTable#metadata_operation}.
 	MetadataOperation *string `field:"required" json:"metadataOperation" yaml:"metadataOperation"`
 	// iceberg_table_input block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_catalog_table#iceberg_table_input GlueCatalogTable#iceberg_table_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/glue_catalog_table#iceberg_table_input GlueCatalogTable#iceberg_table_input}
 	IcebergTableInput *GlueCatalogTableOpenTableFormatInputIcebergInputIcebergTableInput `field:"optional" json:"icebergTableInput" yaml:"icebergTableInput"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_catalog_table#version GlueCatalogTable#version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/glue_catalog_table#version GlueCatalogTable#version}.
 	Version *string `field:"optional" json:"version" yaml:"version"`
 }
 

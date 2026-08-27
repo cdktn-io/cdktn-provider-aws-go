@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token}.
 type EphemeralAwsStsWebIdentityToken interface {
 	cdktn.TerraformEphemeralResource
 	Audience() *[]*string
@@ -378,7 +378,7 @@ func (j *jsiiProxy_EphemeralAwsStsWebIdentityToken) WebIdentityToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token} Ephemeral Resource.
 func NewEphemeralAwsStsWebIdentityToken(scope constructs.Construct, id *string, config *EphemeralAwsStsWebIdentityTokenConfig) EphemeralAwsStsWebIdentityToken {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewEphemeralAwsStsWebIdentityToken(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/sts_web_identity_token aws_sts_web_identity_token} Ephemeral Resource.
 func NewEphemeralAwsStsWebIdentityToken_Override(e EphemeralAwsStsWebIdentityToken, scope constructs.Construct, id *string, config *EphemeralAwsStsWebIdentityTokenConfig) {
 	_init_.Initialize()
 

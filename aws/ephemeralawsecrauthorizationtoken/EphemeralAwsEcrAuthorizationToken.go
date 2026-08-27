@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/ecr_authorization_token aws_ecr_authorization_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/ecr_authorization_token aws_ecr_authorization_token}.
 type EphemeralAwsEcrAuthorizationToken interface {
 	cdktn.TerraformEphemeralResource
 	AuthorizationToken() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_EphemeralAwsEcrAuthorizationToken) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/ecr_authorization_token aws_ecr_authorization_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/ecr_authorization_token aws_ecr_authorization_token} Ephemeral Resource.
 func NewEphemeralAwsEcrAuthorizationToken(scope constructs.Construct, id *string, config *EphemeralAwsEcrAuthorizationTokenConfig) EphemeralAwsEcrAuthorizationToken {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewEphemeralAwsEcrAuthorizationToken(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/ephemeral-resources/ecr_authorization_token aws_ecr_authorization_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/ephemeral-resources/ecr_authorization_token aws_ecr_authorization_token} Ephemeral Resource.
 func NewEphemeralAwsEcrAuthorizationToken_Override(e EphemeralAwsEcrAuthorizationToken, scope constructs.Construct, id *string, config *EphemeralAwsEcrAuthorizationTokenConfig) {
 	_init_.Initialize()
 

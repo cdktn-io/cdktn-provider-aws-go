@@ -5,7 +5,7 @@ package lambdaalias
 
 
 type LambdaAliasTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lambda_alias#update LambdaAlias#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambda_alias#update LambdaAlias#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

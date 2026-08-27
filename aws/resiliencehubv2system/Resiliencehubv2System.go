@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_system aws_resiliencehubv2_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_system aws_resiliencehubv2_system}.
 type Resiliencehubv2System interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_Resiliencehubv2System) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_system aws_resiliencehubv2_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_system aws_resiliencehubv2_system} Resource.
 func NewResiliencehubv2System(scope constructs.Construct, id *string, config *Resiliencehubv2SystemConfig) Resiliencehubv2System {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewResiliencehubv2System(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_system aws_resiliencehubv2_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_system aws_resiliencehubv2_system} Resource.
 func NewResiliencehubv2System_Override(r Resiliencehubv2System, scope constructs.Construct, id *string, config *Resiliencehubv2SystemConfig) {
 	_init_.Initialize()
 

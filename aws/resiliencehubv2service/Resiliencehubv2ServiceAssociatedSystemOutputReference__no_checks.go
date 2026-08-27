@@ -75,6 +75,10 @@ func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_Resiliencehubv2ServiceAssociatedSystemOutputReference) validateSetUserJourneyIdsParameters(val *[]*string) error {
+	return nil
+}
+
 func validateNewResiliencehubv2ServiceAssociatedSystemOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }

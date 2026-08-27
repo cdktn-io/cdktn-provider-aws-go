@@ -47,6 +47,10 @@ func (w *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) 
 	return nil
 }
 
+func (w *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) validatePutAccessEndpointConfigParameters(value *WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

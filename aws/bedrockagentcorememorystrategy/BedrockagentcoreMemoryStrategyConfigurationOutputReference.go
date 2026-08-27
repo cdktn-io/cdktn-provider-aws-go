@@ -38,6 +38,8 @@ type BedrockagentcoreMemoryStrategyConfigurationOutputReference interface {
 	SetInternalValue(val interface{})
 	Reflection() BedrockagentcoreMemoryStrategyConfigurationReflectionList
 	ReflectionInput() interface{}
+	SelfManagedConfiguration() BedrockagentcoreMemoryStrategyConfigurationSelfManagedConfigurationList
+	SelfManagedConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -76,9 +78,11 @@ type BedrockagentcoreMemoryStrategyConfigurationOutputReference interface {
 	PutConsolidation(value interface{})
 	PutExtraction(value interface{})
 	PutReflection(value interface{})
+	PutSelfManagedConfiguration(value interface{})
 	ResetConsolidation()
 	ResetExtraction()
 	ResetReflection()
+	ResetSelfManagedConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -199,6 +203,26 @@ func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) R
 	_jsii_.Get(
 		j,
 		"reflectionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) SelfManagedConfiguration() BedrockagentcoreMemoryStrategyConfigurationSelfManagedConfigurationList {
+	var returns BedrockagentcoreMemoryStrategyConfigurationSelfManagedConfigurationList
+	_jsii_.Get(
+		j,
+		"selfManagedConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) SelfManagedConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"selfManagedConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -557,6 +581,17 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) P
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) PutSelfManagedConfiguration(value interface{}) {
+	if err := b.validatePutSelfManagedConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSelfManagedConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) ResetConsolidation() {
 	_jsii_.InvokeVoid(
 		b,
@@ -577,6 +612,14 @@ func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) R
 	_jsii_.InvokeVoid(
 		b,
 		"resetReflection",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryStrategyConfigurationOutputReference) ResetSelfManagedConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSelfManagedConfiguration",
 		nil, // no parameters
 	)
 }

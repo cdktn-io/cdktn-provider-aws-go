@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/network_acl_rule aws_network_acl_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/network_acl_rule aws_network_acl_rule}.
 type NetworkAclRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -652,7 +652,7 @@ func (j *jsiiProxy_NetworkAclRule) ToPortInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
 func NewNetworkAclRule(scope constructs.Construct, id *string, config *NetworkAclRuleConfig) NetworkAclRule {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewNetworkAclRule(scope constructs.Construct, id *string, config *NetworkAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/network_acl_rule aws_network_acl_rule} Resource.
 func NewNetworkAclRule_Override(n NetworkAclRule, scope constructs.Construct, id *string, config *NetworkAclRuleConfig) {
 	_init_.Initialize()
 

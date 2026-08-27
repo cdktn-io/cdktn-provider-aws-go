@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope}.
 type S3ControlDirectoryBucketAccessPointScope interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
 func NewS3ControlDirectoryBucketAccessPointScope(scope constructs.Construct, id *string, config *S3ControlDirectoryBucketAccessPointScopeConfig) S3ControlDirectoryBucketAccessPointScope {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewS3ControlDirectoryBucketAccessPointScope(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
 func NewS3ControlDirectoryBucketAccessPointScope_Override(s S3ControlDirectoryBucketAccessPointScope, scope constructs.Construct, id *string, config *S3ControlDirectoryBucketAccessPointScopeConfig) {
 	_init_.Initialize()
 

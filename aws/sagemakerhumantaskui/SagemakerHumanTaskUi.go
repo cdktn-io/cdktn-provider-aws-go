@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui}.
 type SagemakerHumanTaskUi interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_SagemakerHumanTaskUi) UiTemplateInput() *SagemakerHumanTaskUi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
 func NewSagemakerHumanTaskUi(scope constructs.Construct, id *string, config *SagemakerHumanTaskUiConfig) SagemakerHumanTaskUi {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewSagemakerHumanTaskUi(scope constructs.Construct, id *string, config *Sag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_human_task_ui aws_sagemaker_human_task_ui} Resource.
 func NewSagemakerHumanTaskUi_Override(s SagemakerHumanTaskUi, scope constructs.Construct, id *string, config *SagemakerHumanTaskUiConfig) {
 	_init_.Initialize()
 

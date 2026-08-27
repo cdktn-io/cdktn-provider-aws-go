@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/savingsplans_offerings aws_savingsplans_offerings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/savingsplans_offerings aws_savingsplans_offerings}.
 type DataAwsSavingsplansOfferings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -538,7 +538,7 @@ func (j *jsiiProxy_DataAwsSavingsplansOfferings) UsageTypesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/savingsplans_offerings aws_savingsplans_offerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/savingsplans_offerings aws_savingsplans_offerings} Data Source.
 func NewDataAwsSavingsplansOfferings(scope constructs.Construct, id *string, config *DataAwsSavingsplansOfferingsConfig) DataAwsSavingsplansOfferings {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewDataAwsSavingsplansOfferings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/savingsplans_offerings aws_savingsplans_offerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/savingsplans_offerings aws_savingsplans_offerings} Data Source.
 func NewDataAwsSavingsplansOfferings_Override(d DataAwsSavingsplansOfferings, scope constructs.Construct, id *string, config *DataAwsSavingsplansOfferingsConfig) {
 	_init_.Initialize()
 

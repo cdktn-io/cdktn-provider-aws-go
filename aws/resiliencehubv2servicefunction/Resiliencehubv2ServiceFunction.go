@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service_function aws_resiliencehubv2_service_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_service_function aws_resiliencehubv2_service_function}.
 type Resiliencehubv2ServiceFunction interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_Resiliencehubv2ServiceFunction) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service_function aws_resiliencehubv2_service_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_service_function aws_resiliencehubv2_service_function} Resource.
 func NewResiliencehubv2ServiceFunction(scope constructs.Construct, id *string, config *Resiliencehubv2ServiceFunctionConfig) Resiliencehubv2ServiceFunction {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewResiliencehubv2ServiceFunction(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service_function aws_resiliencehubv2_service_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_service_function aws_resiliencehubv2_service_function} Resource.
 func NewResiliencehubv2ServiceFunction_Override(r Resiliencehubv2ServiceFunction, scope constructs.Construct, id *string, config *Resiliencehubv2ServiceFunctionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types}.
 type DataAwsMqBrokerEngineTypes interface {
 	cdktn.TerraformDataSource
 	BrokerEngineTypes() DataAwsMqBrokerEngineTypesBrokerEngineTypesList
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAwsMqBrokerEngineTypes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
 func NewDataAwsMqBrokerEngineTypes(scope constructs.Construct, id *string, config *DataAwsMqBrokerEngineTypesConfig) DataAwsMqBrokerEngineTypes {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewDataAwsMqBrokerEngineTypes(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/mq_broker_engine_types aws_mq_broker_engine_types} Data Source.
 func NewDataAwsMqBrokerEngineTypes_Override(d DataAwsMqBrokerEngineTypes, scope constructs.Construct, id *string, config *DataAwsMqBrokerEngineTypesConfig) {
 	_init_.Initialize()
 

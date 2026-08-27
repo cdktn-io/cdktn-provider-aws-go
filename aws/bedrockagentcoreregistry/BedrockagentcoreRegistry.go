@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry}.
 type BedrockagentcoreRegistry interface {
 	cdktn.TerraformResource
 	ApprovalConfiguration() BedrockagentcoreRegistryApprovalConfigurationList
@@ -533,7 +533,7 @@ func (j *jsiiProxy_BedrockagentcoreRegistry) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
 func NewBedrockagentcoreRegistry(scope constructs.Construct, id *string, config *BedrockagentcoreRegistryConfig) BedrockagentcoreRegistry {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewBedrockagentcoreRegistry(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
 func NewBedrockagentcoreRegistry_Override(b BedrockagentcoreRegistry, scope constructs.Construct, id *string, config *BedrockagentcoreRegistryConfig) {
 	_init_.Initialize()
 

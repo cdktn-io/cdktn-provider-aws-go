@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/acmpca_certificate aws_acmpca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/acmpca_certificate aws_acmpca_certificate}.
 type AcmpcaCertificate interface {
 	cdktn.TerraformResource
 	ApiPassthrough() *string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_AcmpcaCertificate) ValidityInput() *AcmpcaCertificateValidity
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
 func NewAcmpcaCertificate(scope constructs.Construct, id *string, config *AcmpcaCertificateConfig) AcmpcaCertificate {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewAcmpcaCertificate(scope constructs.Construct, id *string, config *Acmpca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/acmpca_certificate aws_acmpca_certificate} Resource.
 func NewAcmpcaCertificate_Override(a AcmpcaCertificate, scope constructs.Construct, id *string, config *AcmpcaCertificateConfig) {
 	_init_.Initialize()
 

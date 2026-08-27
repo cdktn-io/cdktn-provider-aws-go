@@ -5,9 +5,9 @@ package alblistenerrule
 
 
 type AlbListenerRuleConditionSourceIp struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/alb_listener_rule#ip_address_type AlbListenerRule#ip_address_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener_rule#ip_address_type AlbListenerRule#ip_address_type}.
 	IpAddressType *string `field:"optional" json:"ipAddressType" yaml:"ipAddressType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener_rule#values AlbListenerRule#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 
