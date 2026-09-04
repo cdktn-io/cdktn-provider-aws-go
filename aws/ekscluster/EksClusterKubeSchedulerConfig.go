@@ -7,7 +7,7 @@ package ekscluster
 type EksClusterKubeSchedulerConfig struct {
 	// node_resources_fit block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#node_resources_fit EksCluster#node_resources_fit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/eks_cluster#node_resources_fit EksCluster#node_resources_fit}
 	NodeResourcesFit *EksClusterKubeSchedulerConfigNodeResourcesFit `field:"optional" json:"nodeResourcesFit" yaml:"nodeResourcesFit"`
 }
 

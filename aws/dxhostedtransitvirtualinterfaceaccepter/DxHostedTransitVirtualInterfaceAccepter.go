@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_transit_virtual_interface_accepter aws_dx_hosted_transit_virtual_interface_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_transit_virtual_interface_accepter aws_dx_hosted_transit_virtual_interface_accepter}.
 type DxHostedTransitVirtualInterfaceAccepter interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -52,6 +52,12 @@ type DxHostedTransitVirtualInterfaceAccepter interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	PrefixPoolAllocatedCountIpv4() *float64
+	SetPrefixPoolAllocatedCountIpv4(val *float64)
+	PrefixPoolAllocatedCountIpv4Input() *float64
+	PrefixPoolAllocatedCountIpv6() *float64
+	SetPrefixPoolAllocatedCountIpv6(val *float64)
+	PrefixPoolAllocatedCountIpv6Input() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -179,6 +185,8 @@ type DxHostedTransitVirtualInterfaceAccepter interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPrefixPoolAllocatedCountIpv4()
+	ResetPrefixPoolAllocatedCountIpv6()
 	ResetRegion()
 	ResetTags()
 	ResetTagsAll()
@@ -360,6 +368,46 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) Node() constructs.No
 	return returns
 }
 
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) PrefixPoolAllocatedCountIpv4() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolAllocatedCountIpv4",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) PrefixPoolAllocatedCountIpv4Input() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolAllocatedCountIpv4Input",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) PrefixPoolAllocatedCountIpv6() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolAllocatedCountIpv6",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) PrefixPoolAllocatedCountIpv6Input() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolAllocatedCountIpv6Input",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -521,7 +569,7 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) VirtualInterfaceIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_transit_virtual_interface_accepter aws_dx_hosted_transit_virtual_interface_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_transit_virtual_interface_accepter aws_dx_hosted_transit_virtual_interface_accepter} Resource.
 func NewDxHostedTransitVirtualInterfaceAccepter(scope constructs.Construct, id *string, config *DxHostedTransitVirtualInterfaceAccepterConfig) DxHostedTransitVirtualInterfaceAccepter {
 	_init_.Initialize()
 
@@ -539,7 +587,7 @@ func NewDxHostedTransitVirtualInterfaceAccepter(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_transit_virtual_interface_accepter aws_dx_hosted_transit_virtual_interface_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_transit_virtual_interface_accepter aws_dx_hosted_transit_virtual_interface_accepter} Resource.
 func NewDxHostedTransitVirtualInterfaceAccepter_Override(d DxHostedTransitVirtualInterfaceAccepter, scope constructs.Construct, id *string, config *DxHostedTransitVirtualInterfaceAccepterConfig) {
 	_init_.Initialize()
 
@@ -617,6 +665,28 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter)SetLifecycle(val *cdk
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter)SetPrefixPoolAllocatedCountIpv4(val *float64) {
+	if err := j.validateSetPrefixPoolAllocatedCountIpv4Parameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"prefixPoolAllocatedCountIpv4",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter)SetPrefixPoolAllocatedCountIpv6(val *float64) {
+	if err := j.validateSetPrefixPoolAllocatedCountIpv6Parameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"prefixPoolAllocatedCountIpv6",
 		val,
 	)
 }
@@ -1087,6 +1157,22 @@ func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) ResetOverrideLogical
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) ResetPrefixPoolAllocatedCountIpv4() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetPrefixPoolAllocatedCountIpv4",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) ResetPrefixPoolAllocatedCountIpv6() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetPrefixPoolAllocatedCountIpv6",
 		nil, // no parameters
 	)
 }

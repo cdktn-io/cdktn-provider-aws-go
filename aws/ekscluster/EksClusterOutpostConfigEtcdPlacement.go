@@ -5,7 +5,7 @@ package ekscluster
 
 
 type EksClusterOutpostConfigEtcdPlacement struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.
 	SpreadLevel *string `field:"optional" json:"spreadLevel" yaml:"spreadLevel"`
 }
 

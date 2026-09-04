@@ -5,9 +5,9 @@ package ecsdaemontaskdefinition
 
 
 type EcsDaemonTaskDefinitionContainerDefinitionEnvironment struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_daemon_task_definition#value EcsDaemonTaskDefinition#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ecs_daemon_task_definition#value EcsDaemonTaskDefinition#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

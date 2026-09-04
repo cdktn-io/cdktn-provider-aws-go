@@ -5,9 +5,9 @@ package workspacespool
 
 
 type WorkspacesPoolApplicationSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_pool#settings_group WorkspacesPool#settings_group}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_pool#settings_group WorkspacesPool#settings_group}.
 	SettingsGroup *string `field:"optional" json:"settingsGroup" yaml:"settingsGroup"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_pool#status WorkspacesPool#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_pool#status WorkspacesPool#status}.
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

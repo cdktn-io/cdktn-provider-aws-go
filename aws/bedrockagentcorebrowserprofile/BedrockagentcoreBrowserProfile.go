@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_browser_profile aws_bedrockagentcore_browser_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_browser_profile aws_bedrockagentcore_browser_profile}.
 type BedrockagentcoreBrowserProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_browser_profile aws_bedrockagentcore_browser_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_browser_profile aws_bedrockagentcore_browser_profile} Resource.
 func NewBedrockagentcoreBrowserProfile(scope constructs.Construct, id *string, config *BedrockagentcoreBrowserProfileConfig) BedrockagentcoreBrowserProfile {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewBedrockagentcoreBrowserProfile(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_browser_profile aws_bedrockagentcore_browser_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_browser_profile aws_bedrockagentcore_browser_profile} Resource.
 func NewBedrockagentcoreBrowserProfile_Override(b BedrockagentcoreBrowserProfile, scope constructs.Construct, id *string, config *BedrockagentcoreBrowserProfileConfig) {
 	_init_.Initialize()
 

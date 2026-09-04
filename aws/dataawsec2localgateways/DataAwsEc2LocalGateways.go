@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways}.
 type DataAwsEc2LocalGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DataAwsEc2LocalGateways) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
 func NewDataAwsEc2LocalGateways(scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewaysConfig) DataAwsEc2LocalGateways {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsEc2LocalGateways(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/ec2_local_gateways aws_ec2_local_gateways} Data Source.
 func NewDataAwsEc2LocalGateways_Override(d DataAwsEc2LocalGateways, scope constructs.Construct, id *string, config *DataAwsEc2LocalGatewaysConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
 type SpotDatafeedSubscription interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_SpotDatafeedSubscription) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
 func NewSpotDatafeedSubscription(scope constructs.Construct, id *string, config *SpotDatafeedSubscriptionConfig) SpotDatafeedSubscription {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewSpotDatafeedSubscription(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
 func NewSpotDatafeedSubscription_Override(s SpotDatafeedSubscription, scope constructs.Construct, id *string, config *SpotDatafeedSubscriptionConfig) {
 	_init_.Initialize()
 

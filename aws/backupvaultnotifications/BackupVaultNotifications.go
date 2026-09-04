@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/backup_vault_notifications aws_backup_vault_notifications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/backup_vault_notifications aws_backup_vault_notifications}.
 type BackupVaultNotifications interface {
 	cdktn.TerraformResource
 	BackupVaultArn() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_BackupVaultNotifications) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/backup_vault_notifications aws_backup_vault_notifications} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/backup_vault_notifications aws_backup_vault_notifications} Resource.
 func NewBackupVaultNotifications(scope constructs.Construct, id *string, config *BackupVaultNotificationsConfig) BackupVaultNotifications {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewBackupVaultNotifications(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/backup_vault_notifications aws_backup_vault_notifications} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/backup_vault_notifications aws_backup_vault_notifications} Resource.
 func NewBackupVaultNotifications_Override(b BackupVaultNotifications, scope constructs.Construct, id *string, config *BackupVaultNotificationsConfig) {
 	_init_.Initialize()
 

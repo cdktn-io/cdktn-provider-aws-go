@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/synthetics_canary aws_synthetics_canary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/synthetics_canary aws_synthetics_canary}.
 type SyntheticsCanary interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -61,6 +61,9 @@ type SyntheticsCanary interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KmsKeyArn() *string
+	SetKmsKeyArn(val *string)
+	KmsKeyArnInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -225,6 +228,7 @@ type SyntheticsCanary interface {
 	ResetDeleteLambda()
 	ResetFailureRetentionPeriod()
 	ResetId()
+	ResetKmsKeyArn()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -501,6 +505,26 @@ func (j *jsiiProxy_SyntheticsCanary) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SyntheticsCanary) KmsKeyArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SyntheticsCanary) KmsKeyArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArnInput",
 		&returns,
 	)
 	return returns
@@ -897,7 +921,7 @@ func (j *jsiiProxy_SyntheticsCanary) ZipFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
 func NewSyntheticsCanary(scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) SyntheticsCanary {
 	_init_.Initialize()
 
@@ -915,7 +939,7 @@ func NewSyntheticsCanary(scope constructs.Construct, id *string, config *Synthet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/synthetics_canary aws_synthetics_canary} Resource.
 func NewSyntheticsCanary_Override(s SyntheticsCanary, scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) {
 	_init_.Initialize()
 
@@ -1026,6 +1050,17 @@ func (j *jsiiProxy_SyntheticsCanary)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SyntheticsCanary)SetKmsKeyArn(val *string) {
+	if err := j.validateSetKmsKeyArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyArn",
 		val,
 	)
 }
@@ -1633,6 +1668,14 @@ func (s *jsiiProxy_SyntheticsCanary) ResetId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SyntheticsCanary) ResetKmsKeyArn() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetKmsKeyArn",
 		nil, // no parameters
 	)
 }

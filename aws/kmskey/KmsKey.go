@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kms_key aws_kms_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kms_key aws_kms_key}.
 type KmsKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -774,7 +774,7 @@ func (j *jsiiProxy_KmsKey) XksKeyIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kms_key aws_kms_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kms_key aws_kms_key} Resource.
 func NewKmsKey(scope constructs.Construct, id *string, config *KmsKeyConfig) KmsKey {
 	_init_.Initialize()
 
@@ -792,7 +792,7 @@ func NewKmsKey(scope constructs.Construct, id *string, config *KmsKeyConfig) Kms
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kms_key aws_kms_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kms_key aws_kms_key} Resource.
 func NewKmsKey_Override(k KmsKey, scope constructs.Construct, id *string, config *KmsKeyConfig) {
 	_init_.Initialize()
 

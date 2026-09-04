@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_foundation_model_agreement aws_bedrock_foundation_model_agreement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrock_foundation_model_agreement aws_bedrock_foundation_model_agreement}.
 type BedrockFoundationModelAgreement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_BedrockFoundationModelAgreement) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_foundation_model_agreement aws_bedrock_foundation_model_agreement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrock_foundation_model_agreement aws_bedrock_foundation_model_agreement} Resource.
 func NewBedrockFoundationModelAgreement(scope constructs.Construct, id *string, config *BedrockFoundationModelAgreementConfig) BedrockFoundationModelAgreement {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewBedrockFoundationModelAgreement(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_foundation_model_agreement aws_bedrock_foundation_model_agreement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrock_foundation_model_agreement aws_bedrock_foundation_model_agreement} Resource.
 func NewBedrockFoundationModelAgreement_Override(b BedrockFoundationModelAgreement, scope constructs.Construct, id *string, config *BedrockFoundationModelAgreementConfig) {
 	_init_.Initialize()
 

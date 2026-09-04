@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmanager_prefix_list_association aws_networkmanager_prefix_list_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/networkmanager_prefix_list_association aws_networkmanager_prefix_list_association}.
 type NetworkmanagerPrefixListAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_NetworkmanagerPrefixListAssociation) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmanager_prefix_list_association aws_networkmanager_prefix_list_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/networkmanager_prefix_list_association aws_networkmanager_prefix_list_association} Resource.
 func NewNetworkmanagerPrefixListAssociation(scope constructs.Construct, id *string, config *NetworkmanagerPrefixListAssociationConfig) NetworkmanagerPrefixListAssociation {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewNetworkmanagerPrefixListAssociation(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmanager_prefix_list_association aws_networkmanager_prefix_list_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/networkmanager_prefix_list_association aws_networkmanager_prefix_list_association} Resource.
 func NewNetworkmanagerPrefixListAssociation_Override(n NetworkmanagerPrefixListAssociation, scope constructs.Construct, id *string, config *NetworkmanagerPrefixListAssociationConfig) {
 	_init_.Initialize()
 

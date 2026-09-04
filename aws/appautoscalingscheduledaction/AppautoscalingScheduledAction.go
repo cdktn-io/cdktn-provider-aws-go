@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/appautoscaling_scheduled_action aws_appautoscaling_scheduled_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/appautoscaling_scheduled_action aws_appautoscaling_scheduled_action}.
 type AppautoscalingScheduledAction interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -613,7 +613,7 @@ func (j *jsiiProxy_AppautoscalingScheduledAction) TimezoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/appautoscaling_scheduled_action aws_appautoscaling_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/appautoscaling_scheduled_action aws_appautoscaling_scheduled_action} Resource.
 func NewAppautoscalingScheduledAction(scope constructs.Construct, id *string, config *AppautoscalingScheduledActionConfig) AppautoscalingScheduledAction {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewAppautoscalingScheduledAction(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/appautoscaling_scheduled_action aws_appautoscaling_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/appautoscaling_scheduled_action aws_appautoscaling_scheduled_action} Resource.
 func NewAppautoscalingScheduledAction_Override(a AppautoscalingScheduledAction, scope constructs.Construct, id *string, config *AppautoscalingScheduledActionConfig) {
 	_init_.Initialize()
 

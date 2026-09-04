@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/datapipeline_pipeline aws_datapipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datapipeline_pipeline aws_datapipeline_pipeline}.
 type DatapipelinePipeline interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -487,7 +487,7 @@ func (j *jsiiProxy_DatapipelinePipeline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/datapipeline_pipeline aws_datapipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datapipeline_pipeline aws_datapipeline_pipeline} Resource.
 func NewDatapipelinePipeline(scope constructs.Construct, id *string, config *DatapipelinePipelineConfig) DatapipelinePipeline {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewDatapipelinePipeline(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/datapipeline_pipeline aws_datapipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datapipeline_pipeline aws_datapipeline_pipeline} Resource.
 func NewDatapipelinePipeline_Override(d DatapipelinePipeline, scope constructs.Construct, id *string, config *DatapipelinePipelineConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag}.
 type CognitoIdentityPoolProviderPrincipalTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_CognitoIdentityPoolProviderPrincipalTag) UseDefaultsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
 func NewCognitoIdentityPoolProviderPrincipalTag(scope constructs.Construct, id *string, config *CognitoIdentityPoolProviderPrincipalTagConfig) CognitoIdentityPoolProviderPrincipalTag {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewCognitoIdentityPoolProviderPrincipalTag(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_identity_pool_provider_principal_tag aws_cognito_identity_pool_provider_principal_tag} Resource.
 func NewCognitoIdentityPoolProviderPrincipalTag_Override(c CognitoIdentityPoolProviderPrincipalTag, scope constructs.Construct, id *string, config *CognitoIdentityPoolProviderPrincipalTagConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword}.
 type Pinpointsmsvoicev2Keyword interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2Keyword) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
 func NewPinpointsmsvoicev2Keyword(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2KeywordConfig) Pinpointsmsvoicev2Keyword {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewPinpointsmsvoicev2Keyword(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
 func NewPinpointsmsvoicev2Keyword_Override(p Pinpointsmsvoicev2Keyword, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2KeywordConfig) {
 	_init_.Initialize()
 

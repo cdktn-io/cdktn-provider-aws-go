@@ -159,7 +159,19 @@ func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetNameParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetPrefixPoolAllocatedCountIpv4Parameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetPrefixPoolAllocatedCountIpv6Parameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetRateLimitParameters(val *string) error {
 	return nil
 }
 

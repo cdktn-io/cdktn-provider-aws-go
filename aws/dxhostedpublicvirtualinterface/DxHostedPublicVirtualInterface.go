@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_public_virtual_interface aws_dx_hosted_public_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_public_virtual_interface aws_dx_hosted_public_virtual_interface}.
 type DxHostedPublicVirtualInterface interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -83,6 +83,9 @@ type DxHostedPublicVirtualInterface interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	RateLimit() *string
+	SetRateLimit(val *string)
+	RateLimitInput() *string
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -202,6 +205,7 @@ type DxHostedPublicVirtualInterface interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRateLimit()
 	ResetRegion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -561,6 +565,26 @@ func (j *jsiiProxy_DxHostedPublicVirtualInterface) Provisioners() *[]interface{}
 	return returns
 }
 
+func (j *jsiiProxy_DxHostedPublicVirtualInterface) RateLimit() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rateLimit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxHostedPublicVirtualInterface) RateLimitInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rateLimitInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DxHostedPublicVirtualInterface) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -682,7 +706,7 @@ func (j *jsiiProxy_DxHostedPublicVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_public_virtual_interface aws_dx_hosted_public_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_public_virtual_interface aws_dx_hosted_public_virtual_interface} Resource.
 func NewDxHostedPublicVirtualInterface(scope constructs.Construct, id *string, config *DxHostedPublicVirtualInterfaceConfig) DxHostedPublicVirtualInterface {
 	_init_.Initialize()
 
@@ -700,7 +724,7 @@ func NewDxHostedPublicVirtualInterface(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_public_virtual_interface aws_dx_hosted_public_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_public_virtual_interface aws_dx_hosted_public_virtual_interface} Resource.
 func NewDxHostedPublicVirtualInterface_Override(d DxHostedPublicVirtualInterface, scope constructs.Construct, id *string, config *DxHostedPublicVirtualInterfaceConfig) {
 	_init_.Initialize()
 
@@ -874,6 +898,17 @@ func (j *jsiiProxy_DxHostedPublicVirtualInterface)SetProvisioners(val *[]interfa
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxHostedPublicVirtualInterface)SetRateLimit(val *string) {
+	if err := j.validateSetRateLimitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rateLimit",
 		val,
 	)
 }
@@ -1338,6 +1373,14 @@ func (d *jsiiProxy_DxHostedPublicVirtualInterface) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxHostedPublicVirtualInterface) ResetRateLimit() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRateLimit",
 		nil, // no parameters
 	)
 }

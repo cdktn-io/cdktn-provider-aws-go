@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kms_key_policy aws_kms_key_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kms_key_policy aws_kms_key_policy}.
 type KmsKeyPolicy interface {
 	cdktn.TerraformResource
 	BypassPolicyLockoutSafetyCheck() interface{}
@@ -462,7 +462,7 @@ func (j *jsiiProxy_KmsKeyPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kms_key_policy aws_kms_key_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kms_key_policy aws_kms_key_policy} Resource.
 func NewKmsKeyPolicy(scope constructs.Construct, id *string, config *KmsKeyPolicyConfig) KmsKeyPolicy {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewKmsKeyPolicy(scope constructs.Construct, id *string, config *KmsKeyPolic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kms_key_policy aws_kms_key_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kms_key_policy aws_kms_key_policy} Resource.
 func NewKmsKeyPolicy_Override(k KmsKeyPolicy, scope constructs.Construct, id *string, config *KmsKeyPolicyConfig) {
 	_init_.Initialize()
 

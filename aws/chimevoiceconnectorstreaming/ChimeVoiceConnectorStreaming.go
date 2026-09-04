@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming}.
 type ChimeVoiceConnectorStreaming interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorStreaming) VoiceConnectorIdInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming} Resource.
 func NewChimeVoiceConnectorStreaming(scope constructs.Construct, id *string, config *ChimeVoiceConnectorStreamingConfig) ChimeVoiceConnectorStreaming {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewChimeVoiceConnectorStreaming(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/chime_voice_connector_streaming aws_chime_voice_connector_streaming} Resource.
 func NewChimeVoiceConnectorStreaming_Override(c ChimeVoiceConnectorStreaming, scope constructs.Construct, id *string, config *ChimeVoiceConnectorStreamingConfig) {
 	_init_.Initialize()
 

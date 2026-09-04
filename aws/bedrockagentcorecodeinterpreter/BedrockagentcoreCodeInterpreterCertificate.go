@@ -7,7 +7,7 @@ package bedrockagentcorecodeinterpreter
 type BedrockagentcoreCodeInterpreterCertificate struct {
 	// location block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_code_interpreter#location BedrockagentcoreCodeInterpreter#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_code_interpreter#location BedrockagentcoreCodeInterpreter#location}
 	Location interface{} `field:"optional" json:"location" yaml:"location"`
 }
 

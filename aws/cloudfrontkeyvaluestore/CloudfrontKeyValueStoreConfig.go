@@ -22,15 +22,15 @@ type CloudfrontKeyValueStoreConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}.
 	Comment *string `field:"optional" json:"comment" yaml:"comment"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_key_value_store#timeouts CloudfrontKeyValueStore#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_key_value_store#timeouts CloudfrontKeyValueStore#timeouts}
 	Timeouts *CloudfrontKeyValueStoreTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

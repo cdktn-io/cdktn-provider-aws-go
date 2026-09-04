@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector}.
 type PrometheusAnomalyDetector interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -602,7 +602,7 @@ func (j *jsiiProxy_PrometheusAnomalyDetector) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
 func NewPrometheusAnomalyDetector(scope constructs.Construct, id *string, config *PrometheusAnomalyDetectorConfig) PrometheusAnomalyDetector {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewPrometheusAnomalyDetector(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
 func NewPrometheusAnomalyDetector_Override(p PrometheusAnomalyDetector, scope constructs.Construct, id *string, config *PrometheusAnomalyDetectorConfig) {
 	_init_.Initialize()
 

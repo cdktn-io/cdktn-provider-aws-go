@@ -22,13 +22,13 @@ type Pinpointsmsvoicev2ResourcePolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_resource_policy#policy Pinpointsmsvoicev2ResourcePolicy#policy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpointsmsvoicev2_resource_policy#policy Pinpointsmsvoicev2ResourcePolicy#policy}.
 	Policy *string `field:"required" json:"policy" yaml:"policy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_resource_policy#resource_arn Pinpointsmsvoicev2ResourcePolicy#resource_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpointsmsvoicev2_resource_policy#resource_arn Pinpointsmsvoicev2ResourcePolicy#resource_arn}.
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_resource_policy#region Pinpointsmsvoicev2ResourcePolicy#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpointsmsvoicev2_resource_policy#region Pinpointsmsvoicev2ResourcePolicy#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

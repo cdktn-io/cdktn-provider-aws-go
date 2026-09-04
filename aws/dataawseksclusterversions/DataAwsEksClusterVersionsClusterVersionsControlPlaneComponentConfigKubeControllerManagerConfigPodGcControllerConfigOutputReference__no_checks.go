@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawseksclusterversions
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateSetInternalValueParameters(val *DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

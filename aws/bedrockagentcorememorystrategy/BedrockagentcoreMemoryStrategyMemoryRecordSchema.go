@@ -7,7 +7,7 @@ package bedrockagentcorememorystrategy
 type BedrockagentcoreMemoryStrategyMemoryRecordSchema struct {
 	// metadata_schema block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_memory_strategy#metadata_schema BedrockagentcoreMemoryStrategy#metadata_schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_memory_strategy#metadata_schema BedrockagentcoreMemoryStrategy#metadata_schema}
 	MetadataSchema interface{} `field:"optional" json:"metadataSchema" yaml:"metadataSchema"`
 }
 

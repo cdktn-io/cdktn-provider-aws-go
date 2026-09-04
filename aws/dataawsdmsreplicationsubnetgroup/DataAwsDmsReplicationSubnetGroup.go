@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/dms_replication_subnet_group aws_dms_replication_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/dms_replication_subnet_group aws_dms_replication_subnet_group}.
 type DataAwsDmsReplicationSubnetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsDmsReplicationSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/dms_replication_subnet_group aws_dms_replication_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/dms_replication_subnet_group aws_dms_replication_subnet_group} Data Source.
 func NewDataAwsDmsReplicationSubnetGroup(scope constructs.Construct, id *string, config *DataAwsDmsReplicationSubnetGroupConfig) DataAwsDmsReplicationSubnetGroup {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataAwsDmsReplicationSubnetGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/dms_replication_subnet_group aws_dms_replication_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/dms_replication_subnet_group aws_dms_replication_subnet_group} Data Source.
 func NewDataAwsDmsReplicationSubnetGroup_Override(d DataAwsDmsReplicationSubnetGroup, scope constructs.Construct, id *string, config *DataAwsDmsReplicationSubnetGroupConfig) {
 	_init_.Initialize()
 

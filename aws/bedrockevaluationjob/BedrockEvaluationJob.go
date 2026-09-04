@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job}.
 type BedrockEvaluationJob interface {
 	cdktn.TerraformResource
 	ApplicationType() *string
@@ -707,7 +707,7 @@ func (j *jsiiProxy_BedrockEvaluationJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
 func NewBedrockEvaluationJob(scope constructs.Construct, id *string, config *BedrockEvaluationJobConfig) BedrockEvaluationJob {
 	_init_.Initialize()
 
@@ -725,7 +725,7 @@ func NewBedrockEvaluationJob(scope constructs.Construct, id *string, config *Bed
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
 func NewBedrockEvaluationJob_Override(b BedrockEvaluationJob, scope constructs.Construct, id *string, config *BedrockEvaluationJobConfig) {
 	_init_.Initialize()
 

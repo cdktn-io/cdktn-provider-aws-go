@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template}.
 type PinpointEmailTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_PinpointEmailTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
 func NewPinpointEmailTemplate(scope constructs.Construct, id *string, config *PinpointEmailTemplateConfig) PinpointEmailTemplate {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewPinpointEmailTemplate(scope constructs.Construct, id *string, config *Pi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpoint_email_template aws_pinpoint_email_template} Resource.
 func NewPinpointEmailTemplate_Override(p PinpointEmailTemplate, scope constructs.Construct, id *string, config *PinpointEmailTemplateConfig) {
 	_init_.Initialize()
 

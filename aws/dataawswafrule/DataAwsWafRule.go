@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/waf_rule aws_waf_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/waf_rule aws_waf_rule}.
 type DataAwsWafRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -310,7 +310,7 @@ func (j *jsiiProxy_DataAwsWafRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
 func NewDataAwsWafRule(scope constructs.Construct, id *string, config *DataAwsWafRuleConfig) DataAwsWafRule {
 	_init_.Initialize()
 
@@ -328,7 +328,7 @@ func NewDataAwsWafRule(scope constructs.Construct, id *string, config *DataAwsWa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/waf_rule aws_waf_rule} Data Source.
 func NewDataAwsWafRule_Override(d DataAwsWafRule, scope constructs.Construct, id *string, config *DataAwsWafRuleConfig) {
 	_init_.Initialize()
 

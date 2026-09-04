@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association}.
 type DataAwsRoute53ResolverFirewallRuleGroupAssociation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -466,7 +466,7 @@ func (j *jsiiProxy_DataAwsRoute53ResolverFirewallRuleGroupAssociation) VpcId() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Data Source.
 func NewDataAwsRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRuleGroupAssociationConfig) DataAwsRoute53ResolverFirewallRuleGroupAssociation {
 	_init_.Initialize()
 
@@ -484,7 +484,7 @@ func NewDataAwsRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Data Source.
 func NewDataAwsRoute53ResolverFirewallRuleGroupAssociation_Override(d DataAwsRoute53ResolverFirewallRuleGroupAssociation, scope constructs.Construct, id *string, config *DataAwsRoute53ResolverFirewallRuleGroupAssociationConfig) {
 	_init_.Initialize()
 

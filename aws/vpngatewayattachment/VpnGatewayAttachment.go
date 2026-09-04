@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment}.
 type VpnGatewayAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_VpnGatewayAttachment) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
 func NewVpnGatewayAttachment(scope constructs.Construct, id *string, config *VpnGatewayAttachmentConfig) VpnGatewayAttachment {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewVpnGatewayAttachment(scope constructs.Construct, id *string, config *Vpn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/vpn_gateway_attachment aws_vpn_gateway_attachment} Resource.
 func NewVpnGatewayAttachment_Override(v VpnGatewayAttachment, scope constructs.Construct, id *string, config *VpnGatewayAttachmentConfig) {
 	_init_.Initialize()
 

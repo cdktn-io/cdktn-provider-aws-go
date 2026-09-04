@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile}.
 type DataAwsIamInstanceProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -376,7 +376,7 @@ func (j *jsiiProxy_DataAwsIamInstanceProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
 func NewDataAwsIamInstanceProfile(scope constructs.Construct, id *string, config *DataAwsIamInstanceProfileConfig) DataAwsIamInstanceProfile {
 	_init_.Initialize()
 
@@ -394,7 +394,7 @@ func NewDataAwsIamInstanceProfile(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/iam_instance_profile aws_iam_instance_profile} Data Source.
 func NewDataAwsIamInstanceProfile_Override(d DataAwsIamInstanceProfile, scope constructs.Construct, id *string, config *DataAwsIamInstanceProfileConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id}.
 type DataAwsCloudfrontLogDeliveryCanonicalUserId interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -311,7 +311,7 @@ func (j *jsiiProxy_DataAwsCloudfrontLogDeliveryCanonicalUserId) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
 func NewDataAwsCloudfrontLogDeliveryCanonicalUserId(scope constructs.Construct, id *string, config *DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig) DataAwsCloudfrontLogDeliveryCanonicalUserId {
 	_init_.Initialize()
 
@@ -329,7 +329,7 @@ func NewDataAwsCloudfrontLogDeliveryCanonicalUserId(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/cloudfront_log_delivery_canonical_user_id aws_cloudfront_log_delivery_canonical_user_id} Data Source.
 func NewDataAwsCloudfrontLogDeliveryCanonicalUserId_Override(d DataAwsCloudfrontLogDeliveryCanonicalUserId, scope constructs.Construct, id *string, config *DataAwsCloudfrontLogDeliveryCanonicalUserIdConfig) {
 	_init_.Initialize()
 

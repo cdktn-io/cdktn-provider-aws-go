@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_connection_group aws_cloudfront_connection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_connection_group aws_cloudfront_connection_group}.
 type CloudfrontConnectionGroup interface {
 	cdktn.TerraformResource
 	AnycastIpListId() *string
@@ -599,7 +599,7 @@ func (j *jsiiProxy_CloudfrontConnectionGroup) WaitForDeploymentInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_connection_group aws_cloudfront_connection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_connection_group aws_cloudfront_connection_group} Resource.
 func NewCloudfrontConnectionGroup(scope constructs.Construct, id *string, config *CloudfrontConnectionGroupConfig) CloudfrontConnectionGroup {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewCloudfrontConnectionGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_connection_group aws_cloudfront_connection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_connection_group aws_cloudfront_connection_group} Resource.
 func NewCloudfrontConnectionGroup_Override(c CloudfrontConnectionGroup, scope constructs.Construct, id *string, config *CloudfrontConnectionGroupConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package arcregionswitchplan
 
 
 type ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfigUngraceful struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/arcregionswitch_plan#ungraceful ArcregionswitchPlan#ungraceful}.
 	Ungraceful *string `field:"required" json:"ungraceful" yaml:"ungraceful"`
 }
 

@@ -25,6 +25,8 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference interfac
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	Connector() BedrockagentcoreGatewayTargetTargetConfigurationMcpConnectorList
+	ConnectorInput() interface{}
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -75,11 +77,13 @@ type BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference interfac
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutApiGateway(value interface{})
+	PutConnector(value interface{})
 	PutLambda(value interface{})
 	PutMcpServer(value interface{})
 	PutOpenApiSchema(value interface{})
 	PutSmithyModel(value interface{})
 	ResetApiGateway()
+	ResetConnector()
 	ResetLambda()
 	ResetMcpServer()
 	ResetOpenApiSchema()
@@ -134,6 +138,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputRefe
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) Connector() BedrockagentcoreGatewayTargetTargetConfigurationMcpConnectorList {
+	var returns BedrockagentcoreGatewayTargetTargetConfigurationMcpConnectorList
+	_jsii_.Get(
+		j,
+		"connector",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) ConnectorInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"connectorInput",
 		&returns,
 	)
 	return returns
@@ -549,6 +573,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputRefe
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) PutConnector(value interface{}) {
+	if err := b.validatePutConnectorParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putConnector",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) PutLambda(value interface{}) {
 	if err := b.validatePutLambdaParameters(value); err != nil {
 		panic(err)
@@ -597,6 +632,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputRefe
 	_jsii_.InvokeVoid(
 		b,
 		"resetApiGateway",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationMcpOutputReference) ResetConnector() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetConnector",
 		nil, // no parameters
 	)
 }

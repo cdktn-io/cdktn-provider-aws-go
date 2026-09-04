@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference}.
 type SagemakerHubContentReference interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_SagemakerHubContentReference) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
 func NewSagemakerHubContentReference(scope constructs.Construct, id *string, config *SagemakerHubContentReferenceConfig) SagemakerHubContentReference {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewSagemakerHubContentReference(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
 func NewSagemakerHubContentReference_Override(s SagemakerHubContentReference, scope constructs.Construct, id *string, config *SagemakerHubContentReferenceConfig) {
 	_init_.Initialize()
 

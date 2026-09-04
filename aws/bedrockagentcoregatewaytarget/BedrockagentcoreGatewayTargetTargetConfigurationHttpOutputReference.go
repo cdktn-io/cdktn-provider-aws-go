@@ -34,6 +34,8 @@ type BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputReference interfa
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Passthrough() BedrockagentcoreGatewayTargetTargetConfigurationHttpPassthroughList
+	PassthroughInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputReference interfa
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAgentcoreRuntime(value interface{})
+	PutPassthrough(value interface{})
 	ResetAgentcoreRuntime()
+	ResetPassthrough()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputRef
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputReference) Passthrough() BedrockagentcoreGatewayTargetTargetConfigurationHttpPassthroughList {
+	var returns BedrockagentcoreGatewayTargetTargetConfigurationHttpPassthroughList
+	_jsii_.Get(
+		j,
+		"passthrough",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputReference) PassthroughInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"passthroughInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputRef
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputReference) PutPassthrough(value interface{}) {
+	if err := b.validatePutPassthroughParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPassthrough",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputReference) ResetAgentcoreRuntime() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetAgentcoreRuntime",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpOutputReference) ResetPassthrough() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPassthrough",
 		nil, // no parameters
 	)
 }

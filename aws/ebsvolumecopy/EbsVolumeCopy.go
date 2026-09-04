@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ebs_volume_copy aws_ebs_volume_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ebs_volume_copy aws_ebs_volume_copy}.
 type EbsVolumeCopy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_EbsVolumeCopy) VolumeTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ebs_volume_copy aws_ebs_volume_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ebs_volume_copy aws_ebs_volume_copy} Resource.
 func NewEbsVolumeCopy(scope constructs.Construct, id *string, config *EbsVolumeCopyConfig) EbsVolumeCopy {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewEbsVolumeCopy(scope constructs.Construct, id *string, config *EbsVolumeC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ebs_volume_copy aws_ebs_volume_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ebs_volume_copy aws_ebs_volume_copy} Resource.
 func NewEbsVolumeCopy_Override(e EbsVolumeCopy, scope constructs.Construct, id *string, config *EbsVolumeCopyConfig) {
 	_init_.Initialize()
 

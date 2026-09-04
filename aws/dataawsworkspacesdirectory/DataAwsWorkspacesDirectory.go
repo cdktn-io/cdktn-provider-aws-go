@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/workspaces_directory aws_workspaces_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/workspaces_directory aws_workspaces_directory}.
 type DataAwsWorkspacesDirectory interface {
 	cdktn.TerraformDataSource
 	ActiveDirectoryConfig() DataAwsWorkspacesDirectoryActiveDirectoryConfigList
@@ -589,7 +589,7 @@ func (j *jsiiProxy_DataAwsWorkspacesDirectory) WorkspaceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/workspaces_directory aws_workspaces_directory} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/workspaces_directory aws_workspaces_directory} Data Source.
 func NewDataAwsWorkspacesDirectory(scope constructs.Construct, id *string, config *DataAwsWorkspacesDirectoryConfig) DataAwsWorkspacesDirectory {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewDataAwsWorkspacesDirectory(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/workspaces_directory aws_workspaces_directory} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/workspaces_directory aws_workspaces_directory} Data Source.
 func NewDataAwsWorkspacesDirectory_Override(d DataAwsWorkspacesDirectory, scope constructs.Construct, id *string, config *DataAwsWorkspacesDirectoryConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dms_replication_instance aws_dms_replication_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dms_replication_instance aws_dms_replication_instance}.
 type DmsReplicationInstance interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -903,7 +903,7 @@ func (j *jsiiProxy_DmsReplicationInstance) VpcSecurityGroupIdsInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dms_replication_instance aws_dms_replication_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dms_replication_instance aws_dms_replication_instance} Resource.
 func NewDmsReplicationInstance(scope constructs.Construct, id *string, config *DmsReplicationInstanceConfig) DmsReplicationInstance {
 	_init_.Initialize()
 
@@ -921,7 +921,7 @@ func NewDmsReplicationInstance(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dms_replication_instance aws_dms_replication_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dms_replication_instance aws_dms_replication_instance} Resource.
 func NewDmsReplicationInstance_Override(d DmsReplicationInstance, scope constructs.Construct, id *string, config *DmsReplicationInstanceConfig) {
 	_init_.Initialize()
 

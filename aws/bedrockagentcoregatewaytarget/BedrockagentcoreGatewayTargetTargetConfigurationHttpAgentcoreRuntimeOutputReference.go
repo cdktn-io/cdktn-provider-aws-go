@@ -38,6 +38,8 @@ type BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputR
 	Qualifier() *string
 	SetQualifier(val *string)
 	QualifierInput() *string
+	Schema() BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeSchemaList
+	SchemaInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,7 +72,9 @@ type BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputR
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSchema(value interface{})
 	ResetQualifier()
+	ResetSchema()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -171,6 +175,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcore
 	_jsii_.Get(
 		j,
 		"qualifierInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputReference) Schema() BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeSchemaList {
+	var returns BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeSchemaList
+	_jsii_.Get(
+		j,
+		"schema",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputReference) SchemaInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"schemaInput",
 		&returns,
 	)
 	return returns
@@ -487,10 +511,29 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcore
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputReference) PutSchema(value interface{}) {
+	if err := b.validatePutSchemaParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSchema",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputReference) ResetQualifier() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetQualifier",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputReference) ResetSchema() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSchema",
 		nil, // no parameters
 	)
 }

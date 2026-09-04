@@ -34,6 +34,8 @@ type EksClusterKubeControllerManagerConfigOutputReference interface {
 	HorizontalPodAutoscalerControllerConfigInput() *EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig
 	InternalValue() *EksClusterKubeControllerManagerConfig
 	SetInternalValue(val *EksClusterKubeControllerManagerConfig)
+	PodGcControllerConfig() EksClusterKubeControllerManagerConfigPodGcControllerConfigOutputReference
+	PodGcControllerConfigInput() *EksClusterKubeControllerManagerConfigPodGcControllerConfig
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type EksClusterKubeControllerManagerConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHorizontalPodAutoscalerControllerConfig(value *EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig)
+	PutPodGcControllerConfig(value *EksClusterKubeControllerManagerConfigPodGcControllerConfig)
 	ResetHorizontalPodAutoscalerControllerConfig()
+	ResetPodGcControllerConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) Interna
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) PodGcControllerConfig() EksClusterKubeControllerManagerConfigPodGcControllerConfigOutputReference {
+	var returns EksClusterKubeControllerManagerConfigPodGcControllerConfigOutputReference
+	_jsii_.Get(
+		j,
+		"podGcControllerConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) PodGcControllerConfigInput() *EksClusterKubeControllerManagerConfigPodGcControllerConfig {
+	var returns *EksClusterKubeControllerManagerConfigPodGcControllerConfig
+	_jsii_.Get(
+		j,
+		"podGcControllerConfigInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (e *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) PutHori
 	)
 }
 
+func (e *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) PutPodGcControllerConfig(value *EksClusterKubeControllerManagerConfigPodGcControllerConfig) {
+	if err := e.validatePutPodGcControllerConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putPodGcControllerConfig",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) ResetHorizontalPodAutoscalerControllerConfig() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetHorizontalPodAutoscalerControllerConfig",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) ResetPodGcControllerConfig() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetPodGcControllerConfig",
 		nil, // no parameters
 	)
 }

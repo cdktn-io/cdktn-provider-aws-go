@@ -7,7 +7,7 @@ package ec2networkinsightsaccessscope
 type Ec2NetworkInsightsAccessScopeExcludePathsThroughResources struct {
 	// resource_statement block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ec2_network_insights_access_scope#resource_statement Ec2NetworkInsightsAccessScope#resource_statement}
 	ResourceStatement interface{} `field:"optional" json:"resourceStatement" yaml:"resourceStatement"`
 }
 

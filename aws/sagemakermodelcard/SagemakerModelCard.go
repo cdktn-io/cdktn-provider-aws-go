@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card}.
 type SagemakerModelCard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_SagemakerModelCard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
 func NewSagemakerModelCard(scope constructs.Construct, id *string, config *SagemakerModelCardConfig) SagemakerModelCard {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewSagemakerModelCard(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_model_card aws_sagemaker_model_card} Resource.
 func NewSagemakerModelCard_Override(s SagemakerModelCard, scope constructs.Construct, id *string, config *SagemakerModelCardConfig) {
 	_init_.Initialize()
 

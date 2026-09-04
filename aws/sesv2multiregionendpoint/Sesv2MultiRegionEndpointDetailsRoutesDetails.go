@@ -5,7 +5,7 @@ package sesv2multiregionendpoint
 
 
 type Sesv2MultiRegionEndpointDetailsRoutesDetails struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sesv2_multi_region_endpoint#region Sesv2MultiRegionEndpoint#region}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sesv2_multi_region_endpoint#region Sesv2MultiRegionEndpoint#region}.
 	Region *string `field:"required" json:"region" yaml:"region"`
 }
 

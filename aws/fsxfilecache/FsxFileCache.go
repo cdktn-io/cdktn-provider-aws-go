@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/fsx_file_cache aws_fsx_file_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/fsx_file_cache aws_fsx_file_cache}.
 type FsxFileCache interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -753,7 +753,7 @@ func (j *jsiiProxy_FsxFileCache) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/fsx_file_cache aws_fsx_file_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/fsx_file_cache aws_fsx_file_cache} Resource.
 func NewFsxFileCache(scope constructs.Construct, id *string, config *FsxFileCacheConfig) FsxFileCache {
 	_init_.Initialize()
 
@@ -771,7 +771,7 @@ func NewFsxFileCache(scope constructs.Construct, id *string, config *FsxFileCach
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/fsx_file_cache aws_fsx_file_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/fsx_file_cache aws_fsx_file_cache} Resource.
 func NewFsxFileCache_Override(f FsxFileCache, scope constructs.Construct, id *string, config *FsxFileCacheConfig) {
 	_init_.Initialize()
 

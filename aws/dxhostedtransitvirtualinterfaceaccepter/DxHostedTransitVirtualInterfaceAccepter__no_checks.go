@@ -123,6 +123,14 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateSetLifecycle
 	return nil
 }
 
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateSetPrefixPoolAllocatedCountIpv4Parameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateSetPrefixPoolAllocatedCountIpv6Parameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_DxHostedTransitVirtualInterfaceAccepter) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

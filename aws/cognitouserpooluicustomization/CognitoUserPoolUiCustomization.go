@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool_ui_customization aws_cognito_user_pool_ui_customization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool_ui_customization aws_cognito_user_pool_ui_customization}.
 type CognitoUserPoolUiCustomization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_CognitoUserPoolUiCustomization) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool_ui_customization aws_cognito_user_pool_ui_customization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool_ui_customization aws_cognito_user_pool_ui_customization} Resource.
 func NewCognitoUserPoolUiCustomization(scope constructs.Construct, id *string, config *CognitoUserPoolUiCustomizationConfig) CognitoUserPoolUiCustomization {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewCognitoUserPoolUiCustomization(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool_ui_customization aws_cognito_user_pool_ui_customization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool_ui_customization aws_cognito_user_pool_ui_customization} Resource.
 func NewCognitoUserPoolUiCustomization_Override(c CognitoUserPoolUiCustomization, scope constructs.Construct, id *string, config *CognitoUserPoolUiCustomizationConfig) {
 	_init_.Initialize()
 

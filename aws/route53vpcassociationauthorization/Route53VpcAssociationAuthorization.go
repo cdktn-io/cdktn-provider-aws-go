@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization}.
 type Route53VpcAssociationAuthorization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_Route53VpcAssociationAuthorization) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
 func NewRoute53VpcAssociationAuthorization(scope constructs.Construct, id *string, config *Route53VpcAssociationAuthorizationConfig) Route53VpcAssociationAuthorization {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewRoute53VpcAssociationAuthorization(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/route53_vpc_association_authorization aws_route53_vpc_association_authorization} Resource.
 func NewRoute53VpcAssociationAuthorization_Override(r Route53VpcAssociationAuthorization, scope constructs.Construct, id *string, config *Route53VpcAssociationAuthorizationConfig) {
 	_init_.Initialize()
 

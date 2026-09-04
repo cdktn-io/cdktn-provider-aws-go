@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/servicecatalog_launch_paths aws_servicecatalog_launch_paths}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/servicecatalog_launch_paths aws_servicecatalog_launch_paths}.
 type DataAwsServicecatalogLaunchPaths interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataAwsServicecatalogLaunchPaths) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/servicecatalog_launch_paths aws_servicecatalog_launch_paths} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/servicecatalog_launch_paths aws_servicecatalog_launch_paths} Data Source.
 func NewDataAwsServicecatalogLaunchPaths(scope constructs.Construct, id *string, config *DataAwsServicecatalogLaunchPathsConfig) DataAwsServicecatalogLaunchPaths {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAwsServicecatalogLaunchPaths(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/servicecatalog_launch_paths aws_servicecatalog_launch_paths} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/servicecatalog_launch_paths aws_servicecatalog_launch_paths} Data Source.
 func NewDataAwsServicecatalogLaunchPaths_Override(d DataAwsServicecatalogLaunchPaths, scope constructs.Construct, id *string, config *DataAwsServicecatalogLaunchPathsConfig) {
 	_init_.Initialize()
 

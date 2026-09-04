@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association}.
 type VpcRouteServerVpcAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_VpcRouteServerVpcAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
 func NewVpcRouteServerVpcAssociation(scope constructs.Construct, id *string, config *VpcRouteServerVpcAssociationConfig) VpcRouteServerVpcAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewVpcRouteServerVpcAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/vpc_route_server_vpc_association aws_vpc_route_server_vpc_association} Resource.
 func NewVpcRouteServerVpcAssociation_Override(v VpcRouteServerVpcAssociation, scope constructs.Construct, id *string, config *VpcRouteServerVpcAssociationConfig) {
 	_init_.Initialize()
 

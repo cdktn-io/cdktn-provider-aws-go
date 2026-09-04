@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/iam_role_policies aws_iam_role_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/iam_role_policies aws_iam_role_policies}.
 type DataAwsIamRolePolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -297,7 +297,7 @@ func (j *jsiiProxy_DataAwsIamRolePolicies) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/iam_role_policies aws_iam_role_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/iam_role_policies aws_iam_role_policies} Data Source.
 func NewDataAwsIamRolePolicies(scope constructs.Construct, id *string, config *DataAwsIamRolePoliciesConfig) DataAwsIamRolePolicies {
 	_init_.Initialize()
 
@@ -315,7 +315,7 @@ func NewDataAwsIamRolePolicies(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/iam_role_policies aws_iam_role_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/iam_role_policies aws_iam_role_policies} Data Source.
 func NewDataAwsIamRolePolicies_Override(d DataAwsIamRolePolicies, scope constructs.Construct, id *string, config *DataAwsIamRolePoliciesConfig) {
 	_init_.Initialize()
 

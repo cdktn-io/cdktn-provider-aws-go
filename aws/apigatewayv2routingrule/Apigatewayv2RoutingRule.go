@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}.
 type Apigatewayv2RoutingRule interface {
 	cdktn.TerraformResource
 	Action() Apigatewayv2RoutingRuleActionList
@@ -484,7 +484,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
 func NewApigatewayv2RoutingRule(scope constructs.Construct, id *string, config *Apigatewayv2RoutingRuleConfig) Apigatewayv2RoutingRule {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewApigatewayv2RoutingRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
 func NewApigatewayv2RoutingRule_Override(a Apigatewayv2RoutingRule, scope constructs.Construct, id *string, config *Apigatewayv2RoutingRuleConfig) {
 	_init_.Initialize()
 

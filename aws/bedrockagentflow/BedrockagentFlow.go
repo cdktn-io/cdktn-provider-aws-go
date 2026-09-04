@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow}.
 type BedrockagentFlow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -611,7 +611,7 @@ func (j *jsiiProxy_BedrockagentFlow) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
 func NewBedrockagentFlow(scope constructs.Construct, id *string, config *BedrockagentFlowConfig) BedrockagentFlow {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewBedrockagentFlow(scope constructs.Construct, id *string, config *Bedrock
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagent_flow aws_bedrockagent_flow} Resource.
 func NewBedrockagentFlow_Override(b BedrockagentFlow, scope constructs.Construct, id *string, config *BedrockagentFlowConfig) {
 	_init_.Initialize()
 

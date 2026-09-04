@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpoint_app aws_pinpoint_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpoint_app aws_pinpoint_app}.
 type PinpointApp interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -582,7 +582,7 @@ func (j *jsiiProxy_PinpointApp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpoint_app aws_pinpoint_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpoint_app aws_pinpoint_app} Resource.
 func NewPinpointApp(scope constructs.Construct, id *string, config *PinpointAppConfig) PinpointApp {
 	_init_.Initialize()
 
@@ -600,7 +600,7 @@ func NewPinpointApp(scope constructs.Construct, id *string, config *PinpointAppC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpoint_app aws_pinpoint_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/pinpoint_app aws_pinpoint_app} Resource.
 func NewPinpointApp_Override(p PinpointApp, scope constructs.Construct, id *string, config *PinpointAppConfig) {
 	_init_.Initialize()
 

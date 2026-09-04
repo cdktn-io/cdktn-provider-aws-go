@@ -32,6 +32,8 @@ type BedrockagentcoreGatewayTargetTargetConfigurationOutputReference interface {
 	Fqn() *string
 	Http() BedrockagentcoreGatewayTargetTargetConfigurationHttpList
 	HttpInput() interface{}
+	Inference() BedrockagentcoreGatewayTargetTargetConfigurationInferenceList
+	InferenceInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	Mcp() BedrockagentcoreGatewayTargetTargetConfigurationMcpList
@@ -69,8 +71,10 @@ type BedrockagentcoreGatewayTargetTargetConfigurationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHttp(value interface{})
+	PutInference(value interface{})
 	PutMcp(value interface{})
 	ResetHttp()
+	ResetInference()
 	ResetMcp()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -142,6 +146,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 	_jsii_.Get(
 		j,
 		"httpInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) Inference() BedrockagentcoreGatewayTargetTargetConfigurationInferenceList {
+	var returns BedrockagentcoreGatewayTargetTargetConfigurationInferenceList
+	_jsii_.Get(
+		j,
+		"inference",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) InferenceInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"inferenceInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) PutInference(value interface{}) {
+	if err := b.validatePutInferenceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putInference",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) PutMcp(value interface{}) {
 	if err := b.validatePutMcpParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReferen
 	_jsii_.InvokeVoid(
 		b,
 		"resetHttp",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationOutputReference) ResetInference() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetInference",
 		nil, // no parameters
 	)
 }

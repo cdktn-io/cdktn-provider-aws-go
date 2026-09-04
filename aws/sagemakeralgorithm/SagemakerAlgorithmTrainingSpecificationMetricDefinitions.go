@@ -5,9 +5,9 @@ package sagemakeralgorithm
 
 
 type SagemakerAlgorithmTrainingSpecificationMetricDefinitions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_algorithm#name SagemakerAlgorithm#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sagemaker_algorithm#regex SagemakerAlgorithm#regex}.
 	Regex *string `field:"required" json:"regex" yaml:"regex"`
 }
 

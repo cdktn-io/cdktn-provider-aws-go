@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization}.
 type RamSharingWithOrganization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -368,7 +368,7 @@ func (j *jsiiProxy_RamSharingWithOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
 func NewRamSharingWithOrganization(scope constructs.Construct, id *string, config *RamSharingWithOrganizationConfig) RamSharingWithOrganization {
 	_init_.Initialize()
 
@@ -386,7 +386,7 @@ func NewRamSharingWithOrganization(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ram_sharing_with_organization aws_ram_sharing_with_organization} Resource.
 func NewRamSharingWithOrganization_Override(r RamSharingWithOrganization, scope constructs.Construct, id *string, config *RamSharingWithOrganizationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface}.
 type DxHostedTransitVirtualInterface interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -79,6 +79,8 @@ type DxHostedTransitVirtualInterface interface {
 	OwnerAccountId() *string
 	SetOwnerAccountId(val *string)
 	OwnerAccountIdInput() *string
+	PrefixPoolAllocatedCountIpv4() *float64
+	PrefixPoolAllocatedCountIpv6() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -87,6 +89,9 @@ type DxHostedTransitVirtualInterface interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	RateLimit() *string
+	SetRateLimit(val *string)
+	RateLimitInput() *string
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -204,6 +209,7 @@ type DxHostedTransitVirtualInterface interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRateLimit()
 	ResetRegion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -573,6 +579,26 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterface) OwnerAccountIdInput() *strin
 	return returns
 }
 
+func (j *jsiiProxy_DxHostedTransitVirtualInterface) PrefixPoolAllocatedCountIpv4() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolAllocatedCountIpv4",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterface) PrefixPoolAllocatedCountIpv6() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolAllocatedCountIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DxHostedTransitVirtualInterface) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -588,6 +614,26 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterface) Provisioners() *[]interface{
 	_jsii_.Get(
 		j,
 		"provisioners",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterface) RateLimit() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rateLimit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterface) RateLimitInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rateLimitInput",
 		&returns,
 	)
 	return returns
@@ -694,7 +740,7 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
 func NewDxHostedTransitVirtualInterface(scope constructs.Construct, id *string, config *DxHostedTransitVirtualInterfaceConfig) DxHostedTransitVirtualInterface {
 	_init_.Initialize()
 
@@ -712,7 +758,7 @@ func NewDxHostedTransitVirtualInterface(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_transit_virtual_interface aws_dx_hosted_transit_virtual_interface} Resource.
 func NewDxHostedTransitVirtualInterface_Override(d DxHostedTransitVirtualInterface, scope constructs.Construct, id *string, config *DxHostedTransitVirtualInterfaceConfig) {
 	_init_.Initialize()
 
@@ -897,6 +943,17 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterface)SetProvisioners(val *[]interf
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxHostedTransitVirtualInterface)SetRateLimit(val *string) {
+	if err := j.validateSetRateLimitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rateLimit",
 		val,
 	)
 }
@@ -1358,6 +1415,14 @@ func (d *jsiiProxy_DxHostedTransitVirtualInterface) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxHostedTransitVirtualInterface) ResetRateLimit() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRateLimit",
 		nil, // no parameters
 	)
 }

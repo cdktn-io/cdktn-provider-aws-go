@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration}.
 type DataAwsS3BucketObjectLockConfiguration interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataAwsS3BucketObjectLockConfiguration) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Data Source.
 func NewDataAwsS3BucketObjectLockConfiguration(scope constructs.Construct, id *string, config *DataAwsS3BucketObjectLockConfigurationConfig) DataAwsS3BucketObjectLockConfiguration {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataAwsS3BucketObjectLockConfiguration(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/s3_bucket_object_lock_configuration aws_s3_bucket_object_lock_configuration} Data Source.
 func NewDataAwsS3BucketObjectLockConfiguration_Override(d DataAwsS3BucketObjectLockConfiguration, scope constructs.Construct, id *string, config *DataAwsS3BucketObjectLockConfigurationConfig) {
 	_init_.Initialize()
 

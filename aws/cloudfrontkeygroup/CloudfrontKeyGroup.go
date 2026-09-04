@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_key_group aws_cloudfront_key_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_key_group aws_cloudfront_key_group}.
 type CloudfrontKeyGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_CloudfrontKeyGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_key_group aws_cloudfront_key_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_key_group aws_cloudfront_key_group} Resource.
 func NewCloudfrontKeyGroup(scope constructs.Construct, id *string, config *CloudfrontKeyGroupConfig) CloudfrontKeyGroup {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewCloudfrontKeyGroup(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudfront_key_group aws_cloudfront_key_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudfront_key_group aws_cloudfront_key_group} Resource.
 func NewCloudfrontKeyGroup_Override(c CloudfrontKeyGroup, scope constructs.Construct, id *string, config *CloudfrontKeyGroupConfig) {
 	_init_.Initialize()
 

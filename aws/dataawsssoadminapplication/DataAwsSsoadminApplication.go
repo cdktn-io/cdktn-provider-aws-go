@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application}.
 type DataAwsSsoadminApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationAccount() *string
@@ -398,7 +398,7 @@ func (j *jsiiProxy_DataAwsSsoadminApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
 func NewDataAwsSsoadminApplication(scope constructs.Construct, id *string, config *DataAwsSsoadminApplicationConfig) DataAwsSsoadminApplication {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewDataAwsSsoadminApplication(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/ssoadmin_application aws_ssoadmin_application} Data Source.
 func NewDataAwsSsoadminApplication_Override(d DataAwsSsoadminApplication, scope constructs.Construct, id *string, config *DataAwsSsoadminApplicationConfig) {
 	_init_.Initialize()
 

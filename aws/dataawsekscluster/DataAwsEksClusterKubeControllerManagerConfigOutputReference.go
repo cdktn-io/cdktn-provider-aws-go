@@ -33,6 +33,7 @@ type DataAwsEksClusterKubeControllerManagerConfigOutputReference interface {
 	HorizontalPodAutoscalerControllerConfig() DataAwsEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigList
 	InternalValue() *DataAwsEksClusterKubeControllerManagerConfig
 	SetInternalValue(val *DataAwsEksClusterKubeControllerManagerConfig)
+	PodGcControllerConfig() DataAwsEksClusterKubeControllerManagerConfigPodGcControllerConfigList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataAwsEksClusterKubeControllerManagerConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksClusterKubeControllerManagerConfigOutputReference) PodGcControllerConfig() DataAwsEksClusterKubeControllerManagerConfigPodGcControllerConfigList {
+	var returns DataAwsEksClusterKubeControllerManagerConfigPodGcControllerConfigList
+	_jsii_.Get(
+		j,
+		"podGcControllerConfig",
 		&returns,
 	)
 	return returns

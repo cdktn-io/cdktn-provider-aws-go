@@ -67,6 +67,7 @@ type BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPriva
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetResourceConfigurationIdentifier()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -450,6 +451,14 @@ func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtA
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceOutputReference) ResetResourceConfigurationIdentifier() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetResourceConfigurationIdentifier",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreAgentRuntimeAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

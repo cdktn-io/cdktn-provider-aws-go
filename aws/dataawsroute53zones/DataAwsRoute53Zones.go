@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route53_zones aws_route53_zones}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/route53_zones aws_route53_zones}.
 type DataAwsRoute53Zones interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsRoute53Zones) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
 func NewDataAwsRoute53Zones(scope constructs.Construct, id *string, config *DataAwsRoute53ZonesConfig) DataAwsRoute53Zones {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsRoute53Zones(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/route53_zones aws_route53_zones} Data Source.
 func NewDataAwsRoute53Zones_Override(d DataAwsRoute53Zones, scope constructs.Construct, id *string, config *DataAwsRoute53ZonesConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/backup_plan aws_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/backup_plan aws_backup_plan}.
 type DataAwsBackupPlan interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsBackupPlan) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
 func NewDataAwsBackupPlan(scope constructs.Construct, id *string, config *DataAwsBackupPlanConfig) DataAwsBackupPlan {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataAwsBackupPlan(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/backup_plan aws_backup_plan} Data Source.
 func NewDataAwsBackupPlan_Override(d DataAwsBackupPlan, scope constructs.Construct, id *string, config *DataAwsBackupPlanConfig) {
 	_init_.Initialize()
 

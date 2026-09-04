@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdamicrovms_image aws_lambdamicrovms_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_image aws_lambdamicrovms_image}.
 type LambdamicrovmsImage interface {
 	cdktn.TerraformResource
 	AdditionalOsCapabilities() *[]*string
@@ -741,7 +741,7 @@ func (j *jsiiProxy_LambdamicrovmsImage) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdamicrovms_image aws_lambdamicrovms_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_image aws_lambdamicrovms_image} Resource.
 func NewLambdamicrovmsImage(scope constructs.Construct, id *string, config *LambdamicrovmsImageConfig) LambdamicrovmsImage {
 	_init_.Initialize()
 
@@ -759,7 +759,7 @@ func NewLambdamicrovmsImage(scope constructs.Construct, id *string, config *Lamb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdamicrovms_image aws_lambdamicrovms_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_image aws_lambdamicrovms_image} Resource.
 func NewLambdamicrovmsImage_Override(l LambdamicrovmsImage, scope constructs.Construct, id *string, config *LambdamicrovmsImageConfig) {
 	_init_.Initialize()
 

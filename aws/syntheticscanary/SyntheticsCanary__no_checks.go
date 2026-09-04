@@ -147,6 +147,10 @@ func (j *jsiiProxy_SyntheticsCanary) validateSetIdParameters(val *string) error 
 	return nil
 }
 
+func (j *jsiiProxy_SyntheticsCanary) validateSetKmsKeyArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SyntheticsCanary) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

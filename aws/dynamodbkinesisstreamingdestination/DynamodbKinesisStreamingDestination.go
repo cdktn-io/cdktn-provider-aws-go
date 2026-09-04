@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination}.
 type DynamodbKinesisStreamingDestination interface {
 	cdktn.TerraformResource
 	ApproximateCreationDateTimePrecision() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DynamodbKinesisStreamingDestination) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
 func NewDynamodbKinesisStreamingDestination(scope constructs.Construct, id *string, config *DynamodbKinesisStreamingDestinationConfig) DynamodbKinesisStreamingDestination {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDynamodbKinesisStreamingDestination(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dynamodb_kinesis_streaming_destination aws_dynamodb_kinesis_streaming_destination} Resource.
 func NewDynamodbKinesisStreamingDestination_Override(d DynamodbKinesisStreamingDestination, scope constructs.Construct, id *string, config *DynamodbKinesisStreamingDestinationConfig) {
 	_init_.Initialize()
 

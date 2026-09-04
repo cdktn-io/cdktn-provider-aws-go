@@ -5,9 +5,9 @@ package bedrockagentcoreevaluator
 
 
 type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategorical struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}.
 	Definition *string `field:"required" json:"definition" yaml:"definition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}.
 	Label *string `field:"required" json:"label" yaml:"label"`
 }
 

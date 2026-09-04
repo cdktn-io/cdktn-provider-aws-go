@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/observabilityadmin_telemetry_enrichment aws_observabilityadmin_telemetry_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/observabilityadmin_telemetry_enrichment aws_observabilityadmin_telemetry_enrichment}.
 type ObservabilityadminTelemetryEnrichment interface {
 	cdktn.TerraformResource
 	AwsResourceExplorerManagedViewArn() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ObservabilityadminTelemetryEnrichment) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/observabilityadmin_telemetry_enrichment aws_observabilityadmin_telemetry_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/observabilityadmin_telemetry_enrichment aws_observabilityadmin_telemetry_enrichment} Resource.
 func NewObservabilityadminTelemetryEnrichment(scope constructs.Construct, id *string, config *ObservabilityadminTelemetryEnrichmentConfig) ObservabilityadminTelemetryEnrichment {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewObservabilityadminTelemetryEnrichment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/observabilityadmin_telemetry_enrichment aws_observabilityadmin_telemetry_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/observabilityadmin_telemetry_enrichment aws_observabilityadmin_telemetry_enrichment} Resource.
 func NewObservabilityadminTelemetryEnrichment_Override(o ObservabilityadminTelemetryEnrichment, scope constructs.Construct, id *string, config *ObservabilityadminTelemetryEnrichmentConfig) {
 	_init_.Initialize()
 

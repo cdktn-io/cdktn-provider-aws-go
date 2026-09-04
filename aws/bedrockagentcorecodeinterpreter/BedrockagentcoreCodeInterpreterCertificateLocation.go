@@ -7,7 +7,7 @@ package bedrockagentcorecodeinterpreter
 type BedrockagentcoreCodeInterpreterCertificateLocation struct {
 	// secrets_manager block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_code_interpreter#secrets_manager BedrockagentcoreCodeInterpreter#secrets_manager}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_code_interpreter#secrets_manager BedrockagentcoreCodeInterpreter#secrets_manager}
 	SecretsManager interface{} `field:"optional" json:"secretsManager" yaml:"secretsManager"`
 }
 

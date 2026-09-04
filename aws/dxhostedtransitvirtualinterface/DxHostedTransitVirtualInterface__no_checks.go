@@ -159,6 +159,10 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterface) validateSetProvisionersParam
 	return nil
 }
 
+func (j *jsiiProxy_DxHostedTransitVirtualInterface) validateSetRateLimitParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DxHostedTransitVirtualInterface) validateSetRegionParameters(val *string) error {
 	return nil
 }

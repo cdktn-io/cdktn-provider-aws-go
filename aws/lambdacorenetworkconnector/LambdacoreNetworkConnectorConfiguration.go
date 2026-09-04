@@ -7,7 +7,7 @@ package lambdacorenetworkconnector
 type LambdacoreNetworkConnectorConfiguration struct {
 	// vpc_egress_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdacore_network_connector#vpc_egress_configuration LambdacoreNetworkConnector#vpc_egress_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdacore_network_connector#vpc_egress_configuration LambdacoreNetworkConnector#vpc_egress_configuration}
 	VpcEgressConfiguration interface{} `field:"optional" json:"vpcEgressConfiguration" yaml:"vpcEgressConfiguration"`
 }
 

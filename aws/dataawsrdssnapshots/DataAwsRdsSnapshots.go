@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/rds_snapshots aws_rds_snapshots}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/rds_snapshots aws_rds_snapshots}.
 type DataAwsRdsSnapshots interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -442,7 +442,7 @@ func (j *jsiiProxy_DataAwsRdsSnapshots) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/rds_snapshots aws_rds_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/rds_snapshots aws_rds_snapshots} Data Source.
 func NewDataAwsRdsSnapshots(scope constructs.Construct, id *string, config *DataAwsRdsSnapshotsConfig) DataAwsRdsSnapshots {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewDataAwsRdsSnapshots(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/rds_snapshots aws_rds_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/rds_snapshots aws_rds_snapshots} Data Source.
 func NewDataAwsRdsSnapshots_Override(d DataAwsRdsSnapshots, scope constructs.Construct, id *string, config *DataAwsRdsSnapshotsConfig) {
 	_init_.Initialize()
 

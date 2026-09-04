@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcore
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputReference) validatePutSchemaParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

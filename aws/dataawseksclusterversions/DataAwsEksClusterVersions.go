@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/eks_cluster_versions aws_eks_cluster_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/eks_cluster_versions aws_eks_cluster_versions}.
 type DataAwsEksClusterVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsEksClusterVersions) VersionStatusInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/eks_cluster_versions aws_eks_cluster_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/eks_cluster_versions aws_eks_cluster_versions} Data Source.
 func NewDataAwsEksClusterVersions(scope constructs.Construct, id *string, config *DataAwsEksClusterVersionsConfig) DataAwsEksClusterVersions {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsEksClusterVersions(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/eks_cluster_versions aws_eks_cluster_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/eks_cluster_versions aws_eks_cluster_versions} Data Source.
 func NewDataAwsEksClusterVersions_Override(d DataAwsEksClusterVersions, scope constructs.Construct, id *string, config *DataAwsEksClusterVersionsConfig) {
 	_init_.Initialize()
 

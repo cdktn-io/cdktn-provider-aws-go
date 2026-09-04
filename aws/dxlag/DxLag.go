@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_lag aws_dx_lag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_lag aws_dx_lag}.
 type DxLag interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -78,6 +78,7 @@ type DxLag interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	RateLimiterStatus() DxLagRateLimiterStatusList
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -524,6 +525,16 @@ func (j *jsiiProxy_DxLag) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DxLag) RateLimiterStatus() DxLagRateLimiterStatusList {
+	var returns DxLagRateLimiterStatusList
+	_jsii_.Get(
+		j,
+		"rateLimiterStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DxLag) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -625,7 +636,7 @@ func (j *jsiiProxy_DxLag) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_lag aws_dx_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_lag aws_dx_lag} Resource.
 func NewDxLag(scope constructs.Construct, id *string, config *DxLagConfig) DxLag {
 	_init_.Initialize()
 
@@ -643,7 +654,7 @@ func NewDxLag(scope constructs.Construct, id *string, config *DxLagConfig) DxLag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_lag aws_dx_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_lag aws_dx_lag} Resource.
 func NewDxLag_Override(d DxLag, scope constructs.Construct, id *string, config *DxLagConfig) {
 	_init_.Initialize()
 

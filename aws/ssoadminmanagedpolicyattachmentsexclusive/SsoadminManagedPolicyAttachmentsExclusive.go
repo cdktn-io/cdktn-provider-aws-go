@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive}.
 type SsoadminManagedPolicyAttachmentsExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_SsoadminManagedPolicyAttachmentsExclusive) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminManagedPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentsExclusiveConfig) SsoadminManagedPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewSsoadminManagedPolicyAttachmentsExclusive(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ssoadmin_managed_policy_attachments_exclusive aws_ssoadmin_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminManagedPolicyAttachmentsExclusive_Override(s SsoadminManagedPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *SsoadminManagedPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 

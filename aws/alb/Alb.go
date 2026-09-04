@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb aws_alb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb aws_alb}.
 type Alb interface {
 	cdktn.TerraformResource
 	AccessLogs() AlbAccessLogsOutputReference
@@ -1263,7 +1263,7 @@ func (j *jsiiProxy_Alb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb aws_alb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb aws_alb} Resource.
 func NewAlb(scope constructs.Construct, id *string, config *AlbConfig) Alb {
 	_init_.Initialize()
 
@@ -1281,7 +1281,7 @@ func NewAlb(scope constructs.Construct, id *string, config *AlbConfig) Alb {
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb aws_alb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb aws_alb} Resource.
 func NewAlb_Override(a Alb, scope constructs.Construct, id *string, config *AlbConfig) {
 	_init_.Initialize()
 

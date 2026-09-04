@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/controltower_controls aws_controltower_controls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/controltower_controls aws_controltower_controls}.
 type DataAwsControltowerControls interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsControltowerControls) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/controltower_controls aws_controltower_controls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/controltower_controls aws_controltower_controls} Data Source.
 func NewDataAwsControltowerControls(scope constructs.Construct, id *string, config *DataAwsControltowerControlsConfig) DataAwsControltowerControls {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsControltowerControls(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/controltower_controls aws_controltower_controls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/controltower_controls aws_controltower_controls} Data Source.
 func NewDataAwsControltowerControls_Override(d DataAwsControltowerControls, scope constructs.Construct, id *string, config *DataAwsControltowerControlsConfig) {
 	_init_.Initialize()
 

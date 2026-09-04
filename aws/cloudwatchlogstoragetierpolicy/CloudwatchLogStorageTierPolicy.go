@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudwatch_log_storage_tier_policy aws_cloudwatch_log_storage_tier_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudwatch_log_storage_tier_policy aws_cloudwatch_log_storage_tier_policy}.
 type CloudwatchLogStorageTierPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_CloudwatchLogStorageTierPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudwatch_log_storage_tier_policy aws_cloudwatch_log_storage_tier_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudwatch_log_storage_tier_policy aws_cloudwatch_log_storage_tier_policy} Resource.
 func NewCloudwatchLogStorageTierPolicy(scope constructs.Construct, id *string, config *CloudwatchLogStorageTierPolicyConfig) CloudwatchLogStorageTierPolicy {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewCloudwatchLogStorageTierPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cloudwatch_log_storage_tier_policy aws_cloudwatch_log_storage_tier_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudwatch_log_storage_tier_policy aws_cloudwatch_log_storage_tier_policy} Resource.
 func NewCloudwatchLogStorageTierPolicy_Override(c CloudwatchLogStorageTierPolicy, scope constructs.Construct, id *string, config *CloudwatchLogStorageTierPolicyConfig) {
 	_init_.Initialize()
 

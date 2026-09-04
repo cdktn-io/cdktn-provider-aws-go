@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview}.
 type FinspaceKxDataview interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -743,7 +743,7 @@ func (j *jsiiProxy_FinspaceKxDataview) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
 func NewFinspaceKxDataview(scope constructs.Construct, id *string, config *FinspaceKxDataviewConfig) FinspaceKxDataview {
 	_init_.Initialize()
 
@@ -761,7 +761,7 @@ func NewFinspaceKxDataview(scope constructs.Construct, id *string, config *Finsp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/finspace_kx_dataview aws_finspace_kx_dataview} Resource.
 func NewFinspaceKxDataview_Override(f FinspaceKxDataview, scope constructs.Construct, id *string, config *FinspaceKxDataviewConfig) {
 	_init_.Initialize()
 

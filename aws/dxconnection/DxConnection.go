@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_connection aws_dx_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_connection aws_dx_connection}.
 type DxConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -68,6 +68,10 @@ type DxConnection interface {
 	OwnerAccountId() *string
 	PartnerName() *string
 	PortEncryptionStatus() *string
+	PrefixPoolSizeIpv4() *float64
+	PrefixPoolSizeIpv6() *float64
+	PrefixPoolUnallocatedCountIpv4() *float64
+	PrefixPoolUnallocatedCountIpv6() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -79,6 +83,7 @@ type DxConnection interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	RateLimiterStatus() DxConnectionRateLimiterStatusList
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -514,6 +519,46 @@ func (j *jsiiProxy_DxConnection) PortEncryptionStatus() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DxConnection) PrefixPoolSizeIpv4() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolSizeIpv4",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxConnection) PrefixPoolSizeIpv6() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolSizeIpv6",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxConnection) PrefixPoolUnallocatedCountIpv4() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolUnallocatedCountIpv4",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxConnection) PrefixPoolUnallocatedCountIpv6() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"prefixPoolUnallocatedCountIpv6",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DxConnection) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -549,6 +594,16 @@ func (j *jsiiProxy_DxConnection) Provisioners() *[]interface{} {
 	_jsii_.Get(
 		j,
 		"provisioners",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxConnection) RateLimiterStatus() DxConnectionRateLimiterStatusList {
+	var returns DxConnectionRateLimiterStatusList
+	_jsii_.Get(
+		j,
+		"rateLimiterStatus",
 		&returns,
 	)
 	return returns
@@ -715,7 +770,7 @@ func (j *jsiiProxy_DxConnection) VlanId() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_connection aws_dx_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_connection aws_dx_connection} Resource.
 func NewDxConnection(scope constructs.Construct, id *string, config *DxConnectionConfig) DxConnection {
 	_init_.Initialize()
 
@@ -733,7 +788,7 @@ func NewDxConnection(scope constructs.Construct, id *string, config *DxConnectio
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_connection aws_dx_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_connection aws_dx_connection} Resource.
 func NewDxConnection_Override(d DxConnection, scope constructs.Construct, id *string, config *DxConnectionConfig) {
 	_init_.Initialize()
 

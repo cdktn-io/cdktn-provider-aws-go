@@ -388,6 +388,22 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) validateSetLifecycle
 	return nil
 }
 
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) validateSetPrefixPoolAllocatedCountIpv4Parameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) validateSetPrefixPoolAllocatedCountIpv6Parameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DxHostedPrivateVirtualInterfaceAccepter) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream}.
 type KinesisVideoStream interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -616,7 +616,7 @@ func (j *jsiiProxy_KinesisVideoStream) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
 func NewKinesisVideoStream(scope constructs.Construct, id *string, config *KinesisVideoStreamConfig) KinesisVideoStream {
 	_init_.Initialize()
 
@@ -634,7 +634,7 @@ func NewKinesisVideoStream(scope constructs.Construct, id *string, config *Kines
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/kinesis_video_stream aws_kinesis_video_stream} Resource.
 func NewKinesisVideoStream_Override(k KinesisVideoStream, scope constructs.Construct, id *string, config *KinesisVideoStreamConfig) {
 	_init_.Initialize()
 

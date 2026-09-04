@@ -5,7 +5,7 @@ package lambdamicrovmsimage
 
 
 type LambdamicrovmsImageCodeArtifact struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdamicrovms_image#uri LambdamicrovmsImage#uri}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_image#uri LambdamicrovmsImage#uri}.
 	Uri *string `field:"required" json:"uri" yaml:"uri"`
 }
 

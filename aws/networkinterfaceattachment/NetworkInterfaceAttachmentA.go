@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/network_interface_attachment aws_network_interface_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/network_interface_attachment aws_network_interface_attachment}.
 type NetworkInterfaceAttachmentA interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_NetworkInterfaceAttachmentA) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
 func NewNetworkInterfaceAttachmentA(scope constructs.Construct, id *string, config *NetworkInterfaceAttachmentAConfig) NetworkInterfaceAttachmentA {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewNetworkInterfaceAttachmentA(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/network_interface_attachment aws_network_interface_attachment} Resource.
 func NewNetworkInterfaceAttachmentA_Override(n NetworkInterfaceAttachmentA, scope constructs.Construct, id *string, config *NetworkInterfaceAttachmentAConfig) {
 	_init_.Initialize()
 

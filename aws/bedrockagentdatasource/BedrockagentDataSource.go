@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source}.
 type BedrockagentDataSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_BedrockagentDataSource) VectorIngestionConfigurationInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
 func NewBedrockagentDataSource(scope constructs.Construct, id *string, config *BedrockagentDataSourceConfig) BedrockagentDataSource {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewBedrockagentDataSource(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagent_data_source aws_bedrockagent_data_source} Resource.
 func NewBedrockagentDataSource_Override(b BedrockagentDataSource, scope constructs.Construct, id *string, config *BedrockagentDataSourceConfig) {
 	_init_.Initialize()
 

@@ -460,6 +460,22 @@ func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetNameParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetPrefixPoolAllocatedCountIpv4Parameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetPrefixPoolAllocatedCountIpv6Parameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {
@@ -501,6 +517,14 @@ func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetProvisionersParameters(
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DxPrivateVirtualInterface) validateSetRateLimitParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

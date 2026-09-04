@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mskconnect_custom_plugin aws_mskconnect_custom_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mskconnect_custom_plugin aws_mskconnect_custom_plugin}.
 type MskconnectCustomPlugin interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_MskconnectCustomPlugin) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Resource.
 func NewMskconnectCustomPlugin(scope constructs.Construct, id *string, config *MskconnectCustomPluginConfig) MskconnectCustomPlugin {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewMskconnectCustomPlugin(scope constructs.Construct, id *string, config *M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mskconnect_custom_plugin aws_mskconnect_custom_plugin} Resource.
 func NewMskconnectCustomPlugin_Override(m MskconnectCustomPlugin, scope constructs.Construct, id *string, config *MskconnectCustomPluginConfig) {
 	_init_.Initialize()
 

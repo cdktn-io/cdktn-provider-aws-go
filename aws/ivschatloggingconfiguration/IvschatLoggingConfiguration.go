@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ivschat_logging_configuration aws_ivschat_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ivschat_logging_configuration aws_ivschat_logging_configuration}.
 type IvschatLoggingConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -534,7 +534,7 @@ func (j *jsiiProxy_IvschatLoggingConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ivschat_logging_configuration aws_ivschat_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ivschat_logging_configuration aws_ivschat_logging_configuration} Resource.
 func NewIvschatLoggingConfiguration(scope constructs.Construct, id *string, config *IvschatLoggingConfigurationConfig) IvschatLoggingConfiguration {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewIvschatLoggingConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ivschat_logging_configuration aws_ivschat_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ivschat_logging_configuration aws_ivschat_logging_configuration} Resource.
 func NewIvschatLoggingConfiguration_Override(i IvschatLoggingConfiguration, scope constructs.Construct, id *string, config *IvschatLoggingConfigurationConfig) {
 	_init_.Initialize()
 

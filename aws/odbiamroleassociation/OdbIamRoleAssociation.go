@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/odb_iam_role_association aws_odb_iam_role_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/odb_iam_role_association aws_odb_iam_role_association}.
 type OdbIamRoleAssociation interface {
 	cdktn.TerraformResource
 	AwsIntegration() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_OdbIamRoleAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/odb_iam_role_association aws_odb_iam_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/odb_iam_role_association aws_odb_iam_role_association} Resource.
 func NewOdbIamRoleAssociation(scope constructs.Construct, id *string, config *OdbIamRoleAssociationConfig) OdbIamRoleAssociation {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewOdbIamRoleAssociation(scope constructs.Construct, id *string, config *Od
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/odb_iam_role_association aws_odb_iam_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/odb_iam_role_association aws_odb_iam_role_association} Resource.
 func NewOdbIamRoleAssociation_Override(o OdbIamRoleAssociation, scope constructs.Construct, id *string, config *OdbIamRoleAssociationConfig) {
 	_init_.Initialize()
 

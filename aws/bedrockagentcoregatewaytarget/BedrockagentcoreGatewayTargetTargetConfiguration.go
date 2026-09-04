@@ -7,11 +7,15 @@ package bedrockagentcoregatewaytarget
 type BedrockagentcoreGatewayTargetTargetConfiguration struct {
 	// http block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway_target#http BedrockagentcoreGatewayTarget#http}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_gateway_target#http BedrockagentcoreGatewayTarget#http}
 	Http interface{} `field:"optional" json:"http" yaml:"http"`
+	// inference block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_gateway_target#inference BedrockagentcoreGatewayTarget#inference}
+	Inference interface{} `field:"optional" json:"inference" yaml:"inference"`
 	// mcp block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway_target#mcp BedrockagentcoreGatewayTarget#mcp}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_gateway_target#mcp BedrockagentcoreGatewayTarget#mcp}
 	Mcp interface{} `field:"optional" json:"mcp" yaml:"mcp"`
 }
 

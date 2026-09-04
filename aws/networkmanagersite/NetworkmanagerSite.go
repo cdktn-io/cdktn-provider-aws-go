@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmanager_site aws_networkmanager_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/networkmanager_site aws_networkmanager_site}.
 type NetworkmanagerSite interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -522,7 +522,7 @@ func (j *jsiiProxy_NetworkmanagerSite) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
 func NewNetworkmanagerSite(scope constructs.Construct, id *string, config *NetworkmanagerSiteConfig) NetworkmanagerSite {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewNetworkmanagerSite(scope constructs.Construct, id *string, config *Netwo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/networkmanager_site aws_networkmanager_site} Resource.
 func NewNetworkmanagerSite_Override(n NetworkmanagerSite, scope constructs.Construct, id *string, config *NetworkmanagerSiteConfig) {
 	_init_.Initialize()
 

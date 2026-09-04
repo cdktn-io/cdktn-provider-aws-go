@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group}.
 type DataAwsCloudwatchLogGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAwsCloudwatchLogGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
 func NewDataAwsCloudwatchLogGroup(scope constructs.Construct, id *string, config *DataAwsCloudwatchLogGroupConfig) DataAwsCloudwatchLogGroup {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataAwsCloudwatchLogGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/cloudwatch_log_group aws_cloudwatch_log_group} Data Source.
 func NewDataAwsCloudwatchLogGroup_Override(d DataAwsCloudwatchLogGroup, scope constructs.Construct, id *string, config *DataAwsCloudwatchLogGroupConfig) {
 	_init_.Initialize()
 

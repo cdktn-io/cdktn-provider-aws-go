@@ -5,7 +5,7 @@ package opensearchserverlesscollection
 
 
 type OpensearchserverlessCollectionVectorOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.
 	ServerlessVectorAcceleration *string `field:"optional" json:"serverlessVectorAcceleration" yaml:"serverlessVectorAcceleration"`
 }
 

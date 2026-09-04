@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy}.
 type LoadBalancerListenerPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_LoadBalancerListenerPolicy) TriggersInput() *map[string]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
 func NewLoadBalancerListenerPolicy(scope constructs.Construct, id *string, config *LoadBalancerListenerPolicyConfig) LoadBalancerListenerPolicy {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewLoadBalancerListenerPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/load_balancer_listener_policy aws_load_balancer_listener_policy} Resource.
 func NewLoadBalancerListenerPolicy_Override(l LoadBalancerListenerPolicy, scope constructs.Construct, id *string, config *LoadBalancerListenerPolicyConfig) {
 	_init_.Initialize()
 

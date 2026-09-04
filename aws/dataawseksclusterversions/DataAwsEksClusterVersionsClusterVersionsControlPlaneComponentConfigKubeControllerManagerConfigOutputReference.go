@@ -33,6 +33,7 @@ type DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeCont
 	HorizontalPodAutoscalerControllerConfig() DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigList
 	InternalValue() *DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfig
 	SetInternalValue(val *DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfig)
+	PodGcControllerConfig() DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponent
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigOutputReference) PodGcControllerConfig() DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigList {
+	var returns DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigKubeControllerManagerConfigPodGcControllerConfigList
+	_jsii_.Get(
+		j,
+		"podGcControllerConfig",
 		&returns,
 	)
 	return returns

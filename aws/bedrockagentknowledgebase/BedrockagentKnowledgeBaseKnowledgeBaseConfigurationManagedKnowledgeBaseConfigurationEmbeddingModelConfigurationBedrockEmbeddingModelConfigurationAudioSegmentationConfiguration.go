@@ -5,7 +5,7 @@ package bedrockagentknowledgebase
 
 
 type BedrockagentKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationAudioSegmentationConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_knowledge_base#fixed_length_duration BedrockagentKnowledgeBase#fixed_length_duration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagent_knowledge_base#fixed_length_duration BedrockagentKnowledgeBase#fixed_length_duration}.
 	FixedLengthDuration *float64 `field:"required" json:"fixedLengthDuration" yaml:"fixedLengthDuration"`
 }
 

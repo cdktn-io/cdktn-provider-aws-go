@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/regions aws_regions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/regions aws_regions}.
 type DataAwsRegions interface {
 	cdktn.TerraformDataSource
 	AllRegions() interface{}
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAwsRegions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/regions aws_regions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/regions aws_regions} Data Source.
 func NewDataAwsRegions(scope constructs.Construct, id *string, config *DataAwsRegionsConfig) DataAwsRegions {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewDataAwsRegions(scope constructs.Construct, id *string, config *DataAwsRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/regions aws_regions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/regions aws_regions} Data Source.
 func NewDataAwsRegions_Override(d DataAwsRegions, scope constructs.Construct, id *string, config *DataAwsRegionsConfig) {
 	_init_.Initialize()
 

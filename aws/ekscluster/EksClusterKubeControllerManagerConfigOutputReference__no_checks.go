@@ -51,6 +51,10 @@ func (e *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) validat
 	return nil
 }
 
+func (e *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) validatePutPodGcControllerConfigParameters(value *EksClusterKubeControllerManagerConfigPodGcControllerConfig) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksClusterKubeControllerManagerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
