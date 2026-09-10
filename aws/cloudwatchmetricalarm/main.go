@@ -86,6 +86,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvaluationCriteria", GoMethod: "PutEvaluationCriteria"},
 			_jsii_.MemberMethod{JsiiMethod: "putMetricQuery", GoMethod: "PutMetricQuery"},
+			_jsii_.MemberMethod{JsiiMethod: "putWarmUpConfiguration", GoMethod: "PutWarmUpConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
@@ -117,6 +118,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetThresholdMetricId", GoMethod: "ResetThresholdMetricId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTreatMissingData", GoMethod: "ResetTreatMissingData"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUnit", GoMethod: "ResetUnit"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWarmUpConfiguration", GoMethod: "ResetWarmUpConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "statistic", GoGetter: "Statistic"},
 			_jsii_.MemberProperty{JsiiProperty: "statisticInput", GoGetter: "StatisticInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -140,6 +142,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "treatMissingDataInput", GoGetter: "TreatMissingDataInput"},
 			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
 			_jsii_.MemberProperty{JsiiProperty: "unitInput", GoGetter: "UnitInput"},
+			_jsii_.MemberProperty{JsiiProperty: "warmUpConfiguration", GoGetter: "WarmUpConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "warmUpConfigurationInput", GoGetter: "WarmUpConfigurationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
@@ -361,6 +365,47 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudwatchMetricAlarmMetricQueryOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmWarmUpConfiguration",
+		reflect.TypeOf((*CloudwatchMetricAlarmWarmUpConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmWarmUpConfigurationOutputReference",
+		reflect.TypeOf((*CloudwatchMetricAlarmWarmUpConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "onlyStartEvaluatingAfterWarmUpPeriodEnds", GoGetter: "OnlyStartEvaluatingAfterWarmUpPeriodEnds"},
+			_jsii_.MemberProperty{JsiiProperty: "onlyStartEvaluatingAfterWarmUpPeriodEndsInput", GoGetter: "OnlyStartEvaluatingAfterWarmUpPeriodEndsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOnlyStartEvaluatingAfterWarmUpPeriodEnds", GoMethod: "ResetOnlyStartEvaluatingAfterWarmUpPeriodEnds"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "warmUpPeriodDurationInMinutes", GoGetter: "WarmUpPeriodDurationInMinutes"},
+			_jsii_.MemberProperty{JsiiProperty: "warmUpPeriodDurationInMinutesInput", GoGetter: "WarmUpPeriodDurationInMinutesInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudwatchMetricAlarmWarmUpConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

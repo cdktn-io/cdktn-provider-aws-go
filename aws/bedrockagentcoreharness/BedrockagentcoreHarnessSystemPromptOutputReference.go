@@ -67,6 +67,7 @@ type BedrockagentcoreHarnessSystemPromptOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetText()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -450,6 +451,14 @@ func (b *jsiiProxy_BedrockagentcoreHarnessSystemPromptOutputReference) Interpola
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSystemPromptOutputReference) ResetText() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetText",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreHarnessSystemPromptOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

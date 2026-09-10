@@ -75,11 +75,19 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetSourceKafkaClusterIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetTargetCompressionTypeParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetTargetKafkaClusterArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetTargetKafkaClusterIdParameters(val *string) error {
 	return nil
 }
 

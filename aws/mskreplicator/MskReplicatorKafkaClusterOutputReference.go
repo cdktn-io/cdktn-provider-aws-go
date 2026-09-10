@@ -15,6 +15,10 @@ type MskReplicatorKafkaClusterOutputReference interface {
 	cdktn.ComplexObject
 	AmazonMskCluster() MskReplicatorKafkaClusterAmazonMskClusterOutputReference
 	AmazonMskClusterInput() *MskReplicatorKafkaClusterAmazonMskCluster
+	ApacheKafkaCluster() MskReplicatorKafkaClusterApacheKafkaClusterOutputReference
+	ApacheKafkaClusterInput() *MskReplicatorKafkaClusterApacheKafkaCluster
+	ClientAuthentication() MskReplicatorKafkaClusterClientAuthenticationOutputReference
+	ClientAuthenticationInput() *MskReplicatorKafkaClusterClientAuthentication
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -30,6 +34,8 @@ type MskReplicatorKafkaClusterOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EncryptionInTransit() MskReplicatorKafkaClusterEncryptionInTransitOutputReference
+	EncryptionInTransitInput() *MskReplicatorKafkaClusterEncryptionInTransit
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -69,7 +75,15 @@ type MskReplicatorKafkaClusterOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAmazonMskCluster(value *MskReplicatorKafkaClusterAmazonMskCluster)
+	PutApacheKafkaCluster(value *MskReplicatorKafkaClusterApacheKafkaCluster)
+	PutClientAuthentication(value *MskReplicatorKafkaClusterClientAuthentication)
+	PutEncryptionInTransit(value *MskReplicatorKafkaClusterEncryptionInTransit)
 	PutVpcConfig(value *MskReplicatorKafkaClusterVpcConfig)
+	ResetAmazonMskCluster()
+	ResetApacheKafkaCluster()
+	ResetClientAuthentication()
+	ResetEncryptionInTransit()
+	ResetVpcConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -105,6 +119,46 @@ func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) AmazonMskClusterInp
 	return returns
 }
 
+func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ApacheKafkaCluster() MskReplicatorKafkaClusterApacheKafkaClusterOutputReference {
+	var returns MskReplicatorKafkaClusterApacheKafkaClusterOutputReference
+	_jsii_.Get(
+		j,
+		"apacheKafkaCluster",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ApacheKafkaClusterInput() *MskReplicatorKafkaClusterApacheKafkaCluster {
+	var returns *MskReplicatorKafkaClusterApacheKafkaCluster
+	_jsii_.Get(
+		j,
+		"apacheKafkaClusterInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ClientAuthentication() MskReplicatorKafkaClusterClientAuthenticationOutputReference {
+	var returns MskReplicatorKafkaClusterClientAuthenticationOutputReference
+	_jsii_.Get(
+		j,
+		"clientAuthentication",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ClientAuthenticationInput() *MskReplicatorKafkaClusterClientAuthentication {
+	var returns *MskReplicatorKafkaClusterClientAuthentication
+	_jsii_.Get(
+		j,
+		"clientAuthenticationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -130,6 +184,26 @@ func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) CreationStack() *[]
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) EncryptionInTransit() MskReplicatorKafkaClusterEncryptionInTransitOutputReference {
+	var returns MskReplicatorKafkaClusterEncryptionInTransitOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionInTransit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorKafkaClusterOutputReference) EncryptionInTransitInput() *MskReplicatorKafkaClusterEncryptionInTransit {
+	var returns *MskReplicatorKafkaClusterEncryptionInTransit
+	_jsii_.Get(
+		j,
+		"encryptionInTransitInput",
 		&returns,
 	)
 	return returns
@@ -475,6 +549,39 @@ func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) PutAmazonMskCluster
 	)
 }
 
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) PutApacheKafkaCluster(value *MskReplicatorKafkaClusterApacheKafkaCluster) {
+	if err := m.validatePutApacheKafkaClusterParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putApacheKafkaCluster",
+		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) PutClientAuthentication(value *MskReplicatorKafkaClusterClientAuthentication) {
+	if err := m.validatePutClientAuthenticationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putClientAuthentication",
+		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) PutEncryptionInTransit(value *MskReplicatorKafkaClusterEncryptionInTransit) {
+	if err := m.validatePutEncryptionInTransitParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putEncryptionInTransit",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) PutVpcConfig(value *MskReplicatorKafkaClusterVpcConfig) {
 	if err := m.validatePutVpcConfigParameters(value); err != nil {
 		panic(err)
@@ -483,6 +590,46 @@ func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) PutVpcConfig(value 
 		m,
 		"putVpcConfig",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ResetAmazonMskCluster() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetAmazonMskCluster",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ResetApacheKafkaCluster() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetApacheKafkaCluster",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ResetClientAuthentication() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetClientAuthentication",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ResetEncryptionInTransit() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetEncryptionInTransit",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) ResetVpcConfig() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetVpcConfig",
+		nil, // no parameters
 	)
 }
 

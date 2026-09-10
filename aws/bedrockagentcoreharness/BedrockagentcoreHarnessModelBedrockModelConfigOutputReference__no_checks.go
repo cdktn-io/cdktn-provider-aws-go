@@ -51,6 +51,14 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) validateSetAdditionalParamsParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) validateSetApiFormatParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

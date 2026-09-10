@@ -1142,6 +1142,14 @@ func (j *jsiiProxy_RdsCluster) validateSetVpcSecurityGroupIdsParameters(val *[]*
 	return nil
 }
 
+func (j *jsiiProxy_RdsCluster) validateSetWarningEventCategoriesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewRdsClusterParameters(scope constructs.Construct, id *string, config *RdsClusterConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

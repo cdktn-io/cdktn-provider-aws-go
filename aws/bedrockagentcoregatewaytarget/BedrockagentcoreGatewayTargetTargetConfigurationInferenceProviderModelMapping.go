@@ -7,7 +7,7 @@ package bedrockagentcoregatewaytarget
 type BedrockagentcoreGatewayTargetTargetConfigurationInferenceProviderModelMapping struct {
 	// provider_prefix block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_gateway_target#provider_prefix BedrockagentcoreGatewayTarget#provider_prefix}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_gateway_target#provider_prefix BedrockagentcoreGatewayTarget#provider_prefix}
 	ProviderPrefix interface{} `field:"optional" json:"providerPrefix" yaml:"providerPrefix"`
 }
 

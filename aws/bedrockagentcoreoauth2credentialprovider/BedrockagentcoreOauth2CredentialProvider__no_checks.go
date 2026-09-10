@@ -83,6 +83,10 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validatePutOauth2Pr
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validatePutTimeoutsParameters(value *BedrockagentcoreOauth2CredentialProviderTimeouts) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

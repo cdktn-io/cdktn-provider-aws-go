@@ -241,6 +241,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTagsAll", GoMethod: "ResetTagsAll"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcSecurityGroupIds", GoMethod: "ResetVpcSecurityGroupIds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWarningEventCategories", GoMethod: "ResetWarningEventCategories"},
 			_jsii_.MemberProperty{JsiiProperty: "restoreToPointInTime", GoGetter: "RestoreToPointInTime"},
 			_jsii_.MemberProperty{JsiiProperty: "restoreToPointInTimeInput", GoGetter: "RestoreToPointInTimeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "s3Import", GoGetter: "S3Import"},
@@ -277,6 +278,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upgradeRolloutOrder", GoGetter: "UpgradeRolloutOrder"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIds", GoGetter: "VpcSecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIdsInput", GoGetter: "VpcSecurityGroupIdsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "warningEventCategories", GoGetter: "WarningEventCategories"},
+			_jsii_.MemberProperty{JsiiProperty: "warningEventCategoriesInput", GoGetter: "WarningEventCategoriesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {

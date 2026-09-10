@@ -13,6 +13,8 @@ import (
 
 type EcsCapacityProviderManagedInstancesProviderOutputReference interface {
 	cdktn.ComplexObject
+	AutoRepairConfiguration() EcsCapacityProviderManagedInstancesProviderAutoRepairConfigurationOutputReference
+	AutoRepairConfigurationInput() *EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -74,8 +76,10 @@ type EcsCapacityProviderManagedInstancesProviderOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAutoRepairConfiguration(value *EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration)
 	PutInfrastructureOptimization(value *EcsCapacityProviderManagedInstancesProviderInfrastructureOptimization)
 	PutInstanceLaunchTemplate(value *EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplate)
+	ResetAutoRepairConfiguration()
 	ResetInfrastructureOptimization()
 	ResetPropagateTags()
 	// Produce the Token's value at resolution time.
@@ -91,6 +95,26 @@ type EcsCapacityProviderManagedInstancesProviderOutputReference interface {
 // The jsii proxy struct for EcsCapacityProviderManagedInstancesProviderOutputReference
 type jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) AutoRepairConfiguration() EcsCapacityProviderManagedInstancesProviderAutoRepairConfigurationOutputReference {
+	var returns EcsCapacityProviderManagedInstancesProviderAutoRepairConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"autoRepairConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) AutoRepairConfigurationInput() *EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration {
+	var returns *EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration
+	_jsii_.Get(
+		j,
+		"autoRepairConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) ComplexObjectIndex() interface{} {
@@ -534,6 +558,17 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) I
 	return returns
 }
 
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) PutAutoRepairConfiguration(value *EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration) {
+	if err := e.validatePutAutoRepairConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putAutoRepairConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) PutInfrastructureOptimization(value *EcsCapacityProviderManagedInstancesProviderInfrastructureOptimization) {
 	if err := e.validatePutInfrastructureOptimizationParameters(value); err != nil {
 		panic(err)
@@ -553,6 +588,14 @@ func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) P
 		e,
 		"putInstanceLaunchTemplate",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EcsCapacityProviderManagedInstancesProviderOutputReference) ResetAutoRepairConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAutoRepairConfiguration",
+		nil, // no parameters
 	)
 }
 

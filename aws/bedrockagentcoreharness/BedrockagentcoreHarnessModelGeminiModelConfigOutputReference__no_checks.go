@@ -51,6 +51,10 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference) validateSetAdditionalParamsParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference) validateSetApiKeyArnParameters(val *string) error {
 	return nil
 }

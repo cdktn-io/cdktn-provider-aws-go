@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version}.
 type AppconfigHostedConfigurationVersion interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -83,6 +83,9 @@ type AppconfigHostedConfigurationVersion interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	VersionLabel() *string
+	SetVersionLabel(val *string)
+	VersionLabelInput() *string
 	VersionNumber() *float64
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -182,6 +185,7 @@ type AppconfigHostedConfigurationVersion interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetVersionLabel()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -519,6 +523,26 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) TerraformResourceType() 
 	return returns
 }
 
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) VersionLabel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"versionLabel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) VersionLabelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"versionLabelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AppconfigHostedConfigurationVersion) VersionNumber() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -530,7 +554,7 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) VersionNumber() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
 func NewAppconfigHostedConfigurationVersion(scope constructs.Construct, id *string, config *AppconfigHostedConfigurationVersionConfig) AppconfigHostedConfigurationVersion {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewAppconfigHostedConfigurationVersion(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/appconfig_hosted_configuration_version aws_appconfig_hosted_configuration_version} Resource.
 func NewAppconfigHostedConfigurationVersion_Override(a AppconfigHostedConfigurationVersion, scope constructs.Construct, id *string, config *AppconfigHostedConfigurationVersionConfig) {
 	_init_.Initialize()
 
@@ -700,6 +724,17 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion)SetVersionLabel(val *string) {
+	if err := j.validateSetVersionLabelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"versionLabel",
 		val,
 	)
 }
@@ -1112,6 +1147,14 @@ func (a *jsiiProxy_AppconfigHostedConfigurationVersion) ResetRegion() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppconfigHostedConfigurationVersion) ResetVersionLabel() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetVersionLabel",
 		nil, // no parameters
 	)
 }

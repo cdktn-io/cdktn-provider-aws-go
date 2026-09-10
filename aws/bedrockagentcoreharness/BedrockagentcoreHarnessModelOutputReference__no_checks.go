@@ -55,6 +55,10 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) validatePutGemin
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) validatePutLitellmModelConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) validatePutOpenaiModelConfigParameters(value interface{}) error {
 	return nil
 }

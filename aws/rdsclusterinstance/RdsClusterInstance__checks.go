@@ -714,6 +714,14 @@ func (j *jsiiProxy_RdsClusterInstance) validateSetTagsAllParameters(val *map[str
 	return nil
 }
 
+func (j *jsiiProxy_RdsClusterInstance) validateSetWarningEventCategoriesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewRdsClusterInstanceParameters(scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

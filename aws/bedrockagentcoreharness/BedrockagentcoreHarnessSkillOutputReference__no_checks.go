@@ -47,6 +47,18 @@ func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) validateInterpol
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) validatePutAwsSkillsParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) validatePutGitParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) validatePutS3Parameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

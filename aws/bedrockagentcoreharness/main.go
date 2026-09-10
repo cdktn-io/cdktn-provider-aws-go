@@ -2975,6 +2975,10 @@ func init() {
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelBedrockModelConfigOutputReference",
 		reflect.TypeOf((*BedrockagentcoreHarnessModelBedrockModelConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "additionalParams", GoGetter: "AdditionalParams"},
+			_jsii_.MemberProperty{JsiiProperty: "additionalParamsInput", GoGetter: "AdditionalParamsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "apiFormat", GoGetter: "ApiFormat"},
+			_jsii_.MemberProperty{JsiiProperty: "apiFormatInput", GoGetter: "ApiFormatInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2996,6 +3000,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "maxTokensInput", GoGetter: "MaxTokensInput"},
 			_jsii_.MemberProperty{JsiiProperty: "modelId", GoGetter: "ModelId"},
 			_jsii_.MemberProperty{JsiiProperty: "modelIdInput", GoGetter: "ModelIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalParams", GoMethod: "ResetAdditionalParams"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApiFormat", GoMethod: "ResetApiFormat"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMaxTokens", GoMethod: "ResetMaxTokens"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTemperature", GoMethod: "ResetTemperature"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTopP", GoMethod: "ResetTopP"},
@@ -3044,6 +3050,8 @@ func init() {
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelGeminiModelConfigOutputReference",
 		reflect.TypeOf((*BedrockagentcoreHarnessModelGeminiModelConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "additionalParams", GoGetter: "AdditionalParams"},
+			_jsii_.MemberProperty{JsiiProperty: "additionalParamsInput", GoGetter: "AdditionalParamsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArn", GoGetter: "ApiKeyArn"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArnInput", GoGetter: "ApiKeyArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3067,6 +3075,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "maxTokensInput", GoGetter: "MaxTokensInput"},
 			_jsii_.MemberProperty{JsiiProperty: "modelId", GoGetter: "ModelId"},
 			_jsii_.MemberProperty{JsiiProperty: "modelIdInput", GoGetter: "ModelIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalParams", GoMethod: "ResetAdditionalParams"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMaxTokens", GoMethod: "ResetMaxTokens"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTemperature", GoMethod: "ResetTemperature"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTopK", GoMethod: "ResetTopK"},
@@ -3111,6 +3120,84 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfig",
+		reflect.TypeOf((*BedrockagentcoreHarnessModelLitellmModelConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfigList",
+		reflect.TypeOf((*BedrockagentcoreHarnessModelLitellmModelConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessModelLitellmModelConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfigOutputReference",
+		reflect.TypeOf((*BedrockagentcoreHarnessModelLitellmModelConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "additionalParams", GoGetter: "AdditionalParams"},
+			_jsii_.MemberProperty{JsiiProperty: "additionalParamsInput", GoGetter: "AdditionalParamsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "apiBase", GoGetter: "ApiBase"},
+			_jsii_.MemberProperty{JsiiProperty: "apiBaseInput", GoGetter: "ApiBaseInput"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeyArn", GoGetter: "ApiKeyArn"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeyArnInput", GoGetter: "ApiKeyArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "maxTokens", GoGetter: "MaxTokens"},
+			_jsii_.MemberProperty{JsiiProperty: "maxTokensInput", GoGetter: "MaxTokensInput"},
+			_jsii_.MemberProperty{JsiiProperty: "modelId", GoGetter: "ModelId"},
+			_jsii_.MemberProperty{JsiiProperty: "modelIdInput", GoGetter: "ModelIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalParams", GoMethod: "ResetAdditionalParams"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApiBase", GoMethod: "ResetApiBase"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApiKeyArn", GoMethod: "ResetApiKeyArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMaxTokens", GoMethod: "ResetMaxTokens"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTemperature", GoMethod: "ResetTemperature"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTopP", GoMethod: "ResetTopP"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "temperature", GoGetter: "Temperature"},
+			_jsii_.MemberProperty{JsiiProperty: "temperatureInput", GoGetter: "TemperatureInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "topP", GoGetter: "TopP"},
+			_jsii_.MemberProperty{JsiiProperty: "topPInput", GoGetter: "TopPInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessModelLitellmModelConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelOpenaiModelConfig",
 		reflect.TypeOf((*BedrockagentcoreHarnessModelOpenaiModelConfig)(nil)).Elem(),
 	)
@@ -3140,6 +3227,10 @@ func init() {
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference",
 		reflect.TypeOf((*BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "additionalParams", GoGetter: "AdditionalParams"},
+			_jsii_.MemberProperty{JsiiProperty: "additionalParamsInput", GoGetter: "AdditionalParamsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "apiFormat", GoGetter: "ApiFormat"},
+			_jsii_.MemberProperty{JsiiProperty: "apiFormatInput", GoGetter: "ApiFormatInput"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArn", GoGetter: "ApiKeyArn"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArnInput", GoGetter: "ApiKeyArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -3163,6 +3254,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "maxTokensInput", GoGetter: "MaxTokensInput"},
 			_jsii_.MemberProperty{JsiiProperty: "modelId", GoGetter: "ModelId"},
 			_jsii_.MemberProperty{JsiiProperty: "modelIdInput", GoGetter: "ModelIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalParams", GoMethod: "ResetAdditionalParams"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApiFormat", GoMethod: "ResetApiFormat"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMaxTokens", GoMethod: "ResetMaxTokens"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTemperature", GoMethod: "ResetTemperature"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTopP", GoMethod: "ResetTopP"},
@@ -3206,13 +3299,17 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "litellmModelConfig", GoGetter: "LitellmModelConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "litellmModelConfigInput", GoGetter: "LitellmModelConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "openaiModelConfig", GoGetter: "OpenaiModelConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "openaiModelConfigInput", GoGetter: "OpenaiModelConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putBedrockModelConfig", GoMethod: "PutBedrockModelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putGeminiModelConfig", GoMethod: "PutGeminiModelConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putLitellmModelConfig", GoMethod: "PutLitellmModelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putOpenaiModelConfig", GoMethod: "PutOpenaiModelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBedrockModelConfig", GoMethod: "ResetBedrockModelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGeminiModelConfig", GoMethod: "ResetGeminiModelConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLitellmModelConfig", GoMethod: "ResetLitellmModelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOpenaiModelConfig", GoMethod: "ResetOpenaiModelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
@@ -3228,6 +3325,197 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkill",
 		reflect.TypeOf((*BedrockagentcoreHarnessSkill)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillAwsSkills",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillAwsSkills)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillAwsSkillsList",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillAwsSkillsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillAwsSkillsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillAwsSkillsOutputReference",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillAwsSkillsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "paths", GoGetter: "Paths"},
+			_jsii_.MemberProperty{JsiiProperty: "pathsInput", GoGetter: "PathsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPaths", GoMethod: "ResetPaths"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillAwsSkillsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillGit",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillGit)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillGitAuth",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillGitAuth)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillGitAuthList",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillGitAuthList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillGitAuthList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillGitAuthOutputReference",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillGitAuthOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "credentialArn", GoGetter: "CredentialArn"},
+			_jsii_.MemberProperty{JsiiProperty: "credentialArnInput", GoGetter: "CredentialArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUsername", GoMethod: "ResetUsername"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "username", GoGetter: "Username"},
+			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillGitAuthOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillGitList",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillGitList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillGitList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillGitOutputReference",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillGitOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "auth", GoGetter: "Auth"},
+			_jsii_.MemberProperty{JsiiProperty: "authInput", GoGetter: "AuthInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "path", GoGetter: "Path"},
+			_jsii_.MemberProperty{JsiiProperty: "pathInput", GoGetter: "PathInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAuth", GoMethod: "PutAuth"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAuth", GoMethod: "ResetAuth"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPath", GoMethod: "ResetPath"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
+			_jsii_.MemberProperty{JsiiProperty: "urlInput", GoGetter: "UrlInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillGitOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillList",
@@ -3255,6 +3543,79 @@ func init() {
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillOutputReference",
 		reflect.TypeOf((*BedrockagentcoreHarnessSkillOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "awsSkills", GoGetter: "AwsSkills"},
+			_jsii_.MemberProperty{JsiiProperty: "awsSkillsInput", GoGetter: "AwsSkillsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "git", GoGetter: "Git"},
+			_jsii_.MemberProperty{JsiiProperty: "gitInput", GoGetter: "GitInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "path", GoGetter: "Path"},
+			_jsii_.MemberProperty{JsiiProperty: "pathInput", GoGetter: "PathInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putAwsSkills", GoMethod: "PutAwsSkills"},
+			_jsii_.MemberMethod{JsiiMethod: "putGit", GoMethod: "PutGit"},
+			_jsii_.MemberMethod{JsiiMethod: "putS3", GoMethod: "PutS3"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAwsSkills", GoMethod: "ResetAwsSkills"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGit", GoMethod: "ResetGit"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPath", GoMethod: "ResetPath"},
+			_jsii_.MemberMethod{JsiiMethod: "resetS3", GoMethod: "ResetS3"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "s3", GoGetter: "S3"},
+			_jsii_.MemberProperty{JsiiProperty: "s3Input", GoGetter: "S3Input"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillS3",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillS3)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillS3List",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillS3List)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreHarnessSkillS3List{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSkillS3OutputReference",
+		reflect.TypeOf((*BedrockagentcoreHarnessSkillS3OutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3272,15 +3633,15 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "path", GoGetter: "Path"},
-			_jsii_.MemberProperty{JsiiProperty: "pathInput", GoGetter: "PathInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "uri", GoGetter: "Uri"},
+			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_BedrockagentcoreHarnessSkillOutputReference{}
+			j := jsiiProxy_BedrockagentcoreHarnessSkillS3OutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -3332,6 +3693,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetText", GoMethod: "ResetText"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},

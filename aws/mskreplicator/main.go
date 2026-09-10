@@ -146,6 +146,206 @@ func init() {
 			return &j
 		},
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterApacheKafkaCluster",
+		reflect.TypeOf((*MskReplicatorKafkaClusterApacheKafkaCluster)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterApacheKafkaClusterOutputReference",
+		reflect.TypeOf((*MskReplicatorKafkaClusterApacheKafkaClusterOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "apacheKafkaClusterId", GoGetter: "ApacheKafkaClusterId"},
+			_jsii_.MemberProperty{JsiiProperty: "apacheKafkaClusterIdInput", GoGetter: "ApacheKafkaClusterIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "bootstrapBrokerString", GoGetter: "BootstrapBrokerString"},
+			_jsii_.MemberProperty{JsiiProperty: "bootstrapBrokerStringInput", GoGetter: "BootstrapBrokerStringInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MskReplicatorKafkaClusterApacheKafkaClusterOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterClientAuthentication",
+		reflect.TypeOf((*MskReplicatorKafkaClusterClientAuthentication)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterClientAuthenticationMtls",
+		reflect.TypeOf((*MskReplicatorKafkaClusterClientAuthenticationMtls)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterClientAuthenticationMtlsOutputReference",
+		reflect.TypeOf((*MskReplicatorKafkaClusterClientAuthenticationMtlsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secretArn", GoGetter: "SecretArn"},
+			_jsii_.MemberProperty{JsiiProperty: "secretArnInput", GoGetter: "SecretArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MskReplicatorKafkaClusterClientAuthenticationMtlsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterClientAuthenticationOutputReference",
+		reflect.TypeOf((*MskReplicatorKafkaClusterClientAuthenticationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mtls", GoGetter: "Mtls"},
+			_jsii_.MemberProperty{JsiiProperty: "mtlsInput", GoGetter: "MtlsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putMtls", GoMethod: "PutMtls"},
+			_jsii_.MemberMethod{JsiiMethod: "putSaslScram", GoMethod: "PutSaslScram"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMtls", GoMethod: "ResetMtls"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSaslScram", GoMethod: "ResetSaslScram"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "saslScram", GoGetter: "SaslScram"},
+			_jsii_.MemberProperty{JsiiProperty: "saslScramInput", GoGetter: "SaslScramInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MskReplicatorKafkaClusterClientAuthenticationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterClientAuthenticationSaslScram",
+		reflect.TypeOf((*MskReplicatorKafkaClusterClientAuthenticationSaslScram)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterClientAuthenticationSaslScramOutputReference",
+		reflect.TypeOf((*MskReplicatorKafkaClusterClientAuthenticationSaslScramOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mechanism", GoGetter: "Mechanism"},
+			_jsii_.MemberProperty{JsiiProperty: "mechanismInput", GoGetter: "MechanismInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secretArn", GoGetter: "SecretArn"},
+			_jsii_.MemberProperty{JsiiProperty: "secretArnInput", GoGetter: "SecretArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MskReplicatorKafkaClusterClientAuthenticationSaslScramOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterEncryptionInTransit",
+		reflect.TypeOf((*MskReplicatorKafkaClusterEncryptionInTransit)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterEncryptionInTransitOutputReference",
+		reflect.TypeOf((*MskReplicatorKafkaClusterEncryptionInTransitOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "rootCaCertificate", GoGetter: "RootCaCertificate"},
+			_jsii_.MemberProperty{JsiiProperty: "rootCaCertificateInput", GoGetter: "RootCaCertificateInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MskReplicatorKafkaClusterEncryptionInTransitOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-aws.mskReplicator.MskReplicatorKafkaClusterList",
 		reflect.TypeOf((*MskReplicatorKafkaClusterList)(nil)).Elem(),
@@ -174,10 +374,16 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonMskCluster", GoGetter: "AmazonMskCluster"},
 			_jsii_.MemberProperty{JsiiProperty: "amazonMskClusterInput", GoGetter: "AmazonMskClusterInput"},
+			_jsii_.MemberProperty{JsiiProperty: "apacheKafkaCluster", GoGetter: "ApacheKafkaCluster"},
+			_jsii_.MemberProperty{JsiiProperty: "apacheKafkaClusterInput", GoGetter: "ApacheKafkaClusterInput"},
+			_jsii_.MemberProperty{JsiiProperty: "clientAuthentication", GoGetter: "ClientAuthentication"},
+			_jsii_.MemberProperty{JsiiProperty: "clientAuthenticationInput", GoGetter: "ClientAuthenticationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionInTransit", GoGetter: "EncryptionInTransit"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionInTransitInput", GoGetter: "EncryptionInTransitInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
@@ -192,7 +398,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "putAmazonMskCluster", GoMethod: "PutAmazonMskCluster"},
+			_jsii_.MemberMethod{JsiiMethod: "putApacheKafkaCluster", GoMethod: "PutApacheKafkaCluster"},
+			_jsii_.MemberMethod{JsiiMethod: "putClientAuthentication", GoMethod: "PutClientAuthentication"},
+			_jsii_.MemberMethod{JsiiMethod: "putEncryptionInTransit", GoMethod: "PutEncryptionInTransit"},
 			_jsii_.MemberMethod{JsiiMethod: "putVpcConfig", GoMethod: "PutVpcConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAmazonMskCluster", GoMethod: "ResetAmazonMskCluster"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApacheKafkaCluster", GoMethod: "ResetApacheKafkaCluster"},
+			_jsii_.MemberMethod{JsiiMethod: "resetClientAuthentication", GoMethod: "ResetClientAuthentication"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionInTransit", GoMethod: "ResetEncryptionInTransit"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpcConfig", GoMethod: "ResetVpcConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
@@ -562,15 +776,23 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "putConsumerGroupReplication", GoMethod: "PutConsumerGroupReplication"},
 			_jsii_.MemberMethod{JsiiMethod: "putTopicReplication", GoMethod: "PutTopicReplication"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceKafkaClusterArn", GoMethod: "ResetSourceKafkaClusterArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceKafkaClusterId", GoMethod: "ResetSourceKafkaClusterId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetKafkaClusterArn", GoMethod: "ResetTargetKafkaClusterArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetKafkaClusterId", GoMethod: "ResetTargetKafkaClusterId"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceKafkaClusterAlias", GoGetter: "SourceKafkaClusterAlias"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceKafkaClusterArn", GoGetter: "SourceKafkaClusterArn"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceKafkaClusterArnInput", GoGetter: "SourceKafkaClusterArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceKafkaClusterId", GoGetter: "SourceKafkaClusterId"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceKafkaClusterIdInput", GoGetter: "SourceKafkaClusterIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "targetCompressionType", GoGetter: "TargetCompressionType"},
 			_jsii_.MemberProperty{JsiiProperty: "targetCompressionTypeInput", GoGetter: "TargetCompressionTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "targetKafkaClusterAlias", GoGetter: "TargetKafkaClusterAlias"},
 			_jsii_.MemberProperty{JsiiProperty: "targetKafkaClusterArn", GoGetter: "TargetKafkaClusterArn"},
 			_jsii_.MemberProperty{JsiiProperty: "targetKafkaClusterArnInput", GoGetter: "TargetKafkaClusterArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "targetKafkaClusterId", GoGetter: "TargetKafkaClusterId"},
+			_jsii_.MemberProperty{JsiiProperty: "targetKafkaClusterIdInput", GoGetter: "TargetKafkaClusterIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberProperty{JsiiProperty: "topicReplication", GoGetter: "TopicReplication"},

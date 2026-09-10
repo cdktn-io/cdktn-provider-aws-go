@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_microvm aws_lambdamicrovms_microvm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/lambdamicrovms_microvm aws_lambdamicrovms_microvm}.
 type LambdamicrovmsMicrovm interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -651,7 +651,7 @@ func (j *jsiiProxy_LambdamicrovmsMicrovm) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_microvm aws_lambdamicrovms_microvm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/lambdamicrovms_microvm aws_lambdamicrovms_microvm} Resource.
 func NewLambdamicrovmsMicrovm(scope constructs.Construct, id *string, config *LambdamicrovmsMicrovmConfig) LambdamicrovmsMicrovm {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewLambdamicrovmsMicrovm(scope constructs.Construct, id *string, config *La
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_microvm aws_lambdamicrovms_microvm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/lambdamicrovms_microvm aws_lambdamicrovms_microvm} Resource.
 func NewLambdamicrovmsMicrovm_Override(l LambdamicrovmsMicrovm, scope constructs.Construct, id *string, config *LambdamicrovmsMicrovmConfig) {
 	_init_.Initialize()
 

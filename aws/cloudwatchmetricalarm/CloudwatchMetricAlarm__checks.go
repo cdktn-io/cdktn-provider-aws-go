@@ -257,6 +257,17 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutMetricQueryParameters(value
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutWarmUpConfigurationParameters(value *CloudwatchMetricAlarmWarmUpConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchMetricAlarm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	if feature == "" {
 		return fmt.Errorf("parameter feature is required, but nil was provided")

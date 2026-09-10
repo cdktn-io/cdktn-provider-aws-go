@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance}.
 type RdsClusterInstance interface {
 	cdktn.TerraformResource
 	ApplyImmediately() interface{}
@@ -155,6 +155,9 @@ type RdsClusterInstance interface {
 	TerraformResourceType() *string
 	Timeouts() RdsClusterInstanceTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	WarningEventCategories() *[]*string
+	SetWarningEventCategories(val *[]*string)
+	WarningEventCategoriesInput() *[]*string
 	Writer() cdktn.IResolvable
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -278,6 +281,7 @@ type RdsClusterInstance interface {
 	ResetTags()
 	ResetTagsAll()
 	ResetTimeouts()
+	ResetWarningEventCategories()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -1125,6 +1129,26 @@ func (j *jsiiProxy_RdsClusterInstance) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_RdsClusterInstance) WarningEventCategories() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"warningEventCategories",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsClusterInstance) WarningEventCategoriesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"warningEventCategoriesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RdsClusterInstance) Writer() cdktn.IResolvable {
 	var returns cdktn.IResolvable
 	_jsii_.Get(
@@ -1136,7 +1160,7 @@ func (j *jsiiProxy_RdsClusterInstance) Writer() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) RdsClusterInstance {
 	_init_.Initialize()
 
@@ -1154,7 +1178,7 @@ func NewRdsClusterInstance(scope constructs.Construct, id *string, config *RdsCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/rds_cluster_instance aws_rds_cluster_instance} Resource.
 func NewRdsClusterInstance_Override(r RdsClusterInstance, scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) {
 	_init_.Initialize()
 
@@ -1537,6 +1561,17 @@ func (j *jsiiProxy_RdsClusterInstance)SetTagsAll(val *map[string]*string) {
 	_jsii_.Set(
 		j,
 		"tagsAll",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsClusterInstance)SetWarningEventCategories(val *[]*string) {
+	if err := j.validateSetWarningEventCategoriesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"warningEventCategories",
 		val,
 	)
 }
@@ -2144,6 +2179,14 @@ func (r *jsiiProxy_RdsClusterInstance) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsClusterInstance) ResetWarningEventCategories() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetWarningEventCategories",
 		nil, // no parameters
 	)
 }

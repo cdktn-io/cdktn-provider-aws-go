@@ -415,6 +415,10 @@ func (j *jsiiProxy_DbInstance) validateSetVpcSecurityGroupIdsParameters(val *[]*
 	return nil
 }
 
+func (j *jsiiProxy_DbInstance) validateSetWarningEventCategoriesParameters(val *[]*string) error {
+	return nil
+}
+
 func validateNewDbInstanceParameters(scope constructs.Construct, id *string, config *DbInstanceConfig) error {
 	return nil
 }

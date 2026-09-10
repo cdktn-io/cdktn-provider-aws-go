@@ -13,6 +13,12 @@ import (
 
 type BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference interface {
 	cdktn.ComplexObject
+	AdditionalParams() *string
+	SetAdditionalParams(val *string)
+	AdditionalParamsInput() *string
+	ApiFormat() *string
+	SetApiFormat(val *string)
+	ApiFormatInput() *string
 	ApiKeyArn() *string
 	SetApiKeyArn(val *string)
 	ApiKeyArnInput() *string
@@ -79,6 +85,8 @@ type BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAdditionalParams()
+	ResetApiFormat()
 	ResetMaxTokens()
 	ResetTemperature()
 	ResetTopP()
@@ -95,6 +103,46 @@ type BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference interface {
 // The jsii proxy struct for BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference
 type jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) AdditionalParams() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"additionalParams",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) AdditionalParamsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"additionalParamsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) ApiFormat() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiFormat",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) ApiFormatInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiFormatInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) ApiKeyArn() *string {
@@ -292,6 +340,28 @@ func NewBedrockagentcoreHarnessModelOpenaiModelConfigOutputReference_Override(b 
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference)SetAdditionalParams(val *string) {
+	if err := j.validateSetAdditionalParamsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"additionalParams",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference)SetApiFormat(val *string) {
+	if err := j.validateSetApiFormatParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"apiFormat",
+		val,
 	)
 }
 
@@ -589,6 +659,22 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference)
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) ResetAdditionalParams() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAdditionalParams",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) ResetApiFormat() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetApiFormat",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) ResetMaxTokens() {

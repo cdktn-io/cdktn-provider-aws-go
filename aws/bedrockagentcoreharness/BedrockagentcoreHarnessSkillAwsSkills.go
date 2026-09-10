@@ -1,0 +1,11 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package bedrockagentcoreharness
+
+
+type BedrockagentcoreHarnessSkillAwsSkills struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_harness#paths BedrockagentcoreHarness#paths}.
+	Paths *[]*string `field:"optional" json:"paths" yaml:"paths"`
+}
+

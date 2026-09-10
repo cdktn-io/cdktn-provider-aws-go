@@ -143,6 +143,10 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) validateSetRegionParamet
 	return nil
 }
 
+func (j *jsiiProxy_AppconfigHostedConfigurationVersion) validateSetVersionLabelParameters(val *string) error {
+	return nil
+}
+
 func validateNewAppconfigHostedConfigurationVersionParameters(scope constructs.Construct, id *string, config *AppconfigHostedConfigurationVersionConfig) error {
 	return nil
 }

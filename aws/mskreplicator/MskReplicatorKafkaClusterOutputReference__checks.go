@@ -104,6 +104,39 @@ func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutAmazonMs
 	return nil
 }
 
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutApacheKafkaClusterParameters(value *MskReplicatorKafkaClusterApacheKafkaCluster) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutClientAuthenticationParameters(value *MskReplicatorKafkaClusterClientAuthentication) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutEncryptionInTransitParameters(value *MskReplicatorKafkaClusterEncryptionInTransit) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutVpcConfigParameters(value *MskReplicatorKafkaClusterVpcConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

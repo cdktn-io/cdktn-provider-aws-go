@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
 type CloudwatchMetricAlarm interface {
 	cdktn.TerraformResource
 	ActionsEnabled() interface{}
@@ -141,6 +141,8 @@ type CloudwatchMetricAlarm interface {
 	Unit() *string
 	SetUnit(val *string)
 	UnitInput() *string
+	WarmUpConfiguration() CloudwatchMetricAlarmWarmUpConfigurationOutputReference
+	WarmUpConfigurationInput() *CloudwatchMetricAlarmWarmUpConfiguration
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -222,6 +224,7 @@ type CloudwatchMetricAlarm interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEvaluationCriteria(value *CloudwatchMetricAlarmEvaluationCriteria)
 	PutMetricQuery(value interface{})
+	PutWarmUpConfiguration(value *CloudwatchMetricAlarmWarmUpConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -264,6 +267,7 @@ type CloudwatchMetricAlarm interface {
 	ResetThresholdMetricId()
 	ResetTreatMissingData()
 	ResetUnit()
+	ResetWarmUpConfiguration()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -1001,8 +1005,28 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) UnitInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CloudwatchMetricAlarm) WarmUpConfiguration() CloudwatchMetricAlarmWarmUpConfigurationOutputReference {
+	var returns CloudwatchMetricAlarmWarmUpConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"warmUpConfiguration",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+func (j *jsiiProxy_CloudwatchMetricAlarm) WarmUpConfigurationInput() *CloudwatchMetricAlarmWarmUpConfiguration {
+	var returns *CloudwatchMetricAlarmWarmUpConfiguration
+	_jsii_.Get(
+		j,
+		"warmUpConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) CloudwatchMetricAlarm {
 	_init_.Initialize()
 
@@ -1020,7 +1044,7 @@ func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm_Override(c CloudwatchMetricAlarm, scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) {
 	_init_.Initialize()
 
@@ -1765,6 +1789,17 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) PutMetricQuery(value interface{}) {
 	)
 }
 
+func (c *jsiiProxy_CloudwatchMetricAlarm) PutWarmUpConfiguration(value *CloudwatchMetricAlarmWarmUpConfiguration) {
+	if err := c.validatePutWarmUpConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWarmUpConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudwatchMetricAlarm) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := c.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1988,6 +2023,14 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) ResetUnit() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetUnit",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudwatchMetricAlarm) ResetWarmUpConfiguration() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWarmUpConfiguration",
 		nil, // no parameters
 	)
 }

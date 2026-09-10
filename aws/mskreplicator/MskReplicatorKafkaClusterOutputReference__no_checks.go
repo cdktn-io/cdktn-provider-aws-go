@@ -51,6 +51,18 @@ func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutAmazonMs
 	return nil
 }
 
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutApacheKafkaClusterParameters(value *MskReplicatorKafkaClusterApacheKafkaCluster) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutClientAuthenticationParameters(value *MskReplicatorKafkaClusterClientAuthentication) error {
+	return nil
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutEncryptionInTransitParameters(value *MskReplicatorKafkaClusterEncryptionInTransit) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskReplicatorKafkaClusterOutputReference) validatePutVpcConfigParameters(value *MskReplicatorKafkaClusterVpcConfig) error {
 	return nil
 }

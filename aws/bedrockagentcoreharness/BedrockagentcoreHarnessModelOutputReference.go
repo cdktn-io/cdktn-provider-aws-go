@@ -36,6 +36,8 @@ type BedrockagentcoreHarnessModelOutputReference interface {
 	GeminiModelConfigInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LitellmModelConfig() BedrockagentcoreHarnessModelLitellmModelConfigList
+	LitellmModelConfigInput() interface{}
 	OpenaiModelConfig() BedrockagentcoreHarnessModelOpenaiModelConfigList
 	OpenaiModelConfigInput() interface{}
 	// Experimental.
@@ -72,9 +74,11 @@ type BedrockagentcoreHarnessModelOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBedrockModelConfig(value interface{})
 	PutGeminiModelConfig(value interface{})
+	PutLitellmModelConfig(value interface{})
 	PutOpenaiModelConfig(value interface{})
 	ResetBedrockModelConfig()
 	ResetGeminiModelConfig()
+	ResetLitellmModelConfig()
 	ResetOpenaiModelConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -176,6 +180,26 @@ func (j *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) InternalValue() 
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) LitellmModelConfig() BedrockagentcoreHarnessModelLitellmModelConfigList {
+	var returns BedrockagentcoreHarnessModelLitellmModelConfigList
+	_jsii_.Get(
+		j,
+		"litellmModelConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) LitellmModelConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"litellmModelConfigInput",
 		&returns,
 	)
 	return returns
@@ -512,6 +536,17 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) PutGeminiModelCo
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) PutLitellmModelConfig(value interface{}) {
+	if err := b.validatePutLitellmModelConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putLitellmModelConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) PutOpenaiModelConfig(value interface{}) {
 	if err := b.validatePutOpenaiModelConfigParameters(value); err != nil {
 		panic(err)
@@ -535,6 +570,14 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) ResetGeminiModel
 	_jsii_.InvokeVoid(
 		b,
 		"resetGeminiModelConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessModelOutputReference) ResetLitellmModelConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLitellmModelConfig",
 		nil, // no parameters
 	)
 }

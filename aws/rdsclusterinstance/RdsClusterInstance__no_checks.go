@@ -231,6 +231,10 @@ func (j *jsiiProxy_RdsClusterInstance) validateSetTagsAllParameters(val *map[str
 	return nil
 }
 
+func (j *jsiiProxy_RdsClusterInstance) validateSetWarningEventCategoriesParameters(val *[]*string) error {
+	return nil
+}
+
 func validateNewRdsClusterInstanceParameters(scope constructs.Construct, id *string, config *RdsClusterInstanceConfig) error {
 	return nil
 }

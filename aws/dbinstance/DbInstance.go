@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/db_instance aws_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/db_instance aws_db_instance}.
 type DbInstance interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -296,6 +296,9 @@ type DbInstance interface {
 	VpcSecurityGroupIds() *[]*string
 	SetVpcSecurityGroupIds(val *[]*string)
 	VpcSecurityGroupIdsInput() *[]*string
+	WarningEventCategories() *[]*string
+	SetWarningEventCategories(val *[]*string)
+	WarningEventCategoriesInput() *[]*string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -469,6 +472,7 @@ type DbInstance interface {
 	ResetUpgradeStorageConfig()
 	ResetUsername()
 	ResetVpcSecurityGroupIds()
+	ResetWarningEventCategories()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -2276,8 +2280,28 @@ func (j *jsiiProxy_DbInstance) VpcSecurityGroupIdsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DbInstance) WarningEventCategories() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"warningEventCategories",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/db_instance aws_db_instance} Resource.
+func (j *jsiiProxy_DbInstance) WarningEventCategoriesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"warningEventCategoriesInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/db_instance aws_db_instance} Resource.
 func NewDbInstance(scope constructs.Construct, id *string, config *DbInstanceConfig) DbInstance {
 	_init_.Initialize()
 
@@ -2295,7 +2319,7 @@ func NewDbInstance(scope constructs.Construct, id *string, config *DbInstanceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/db_instance aws_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/db_instance aws_db_instance} Resource.
 func NewDbInstance_Override(d DbInstance, scope constructs.Construct, id *string, config *DbInstanceConfig) {
 	_init_.Initialize()
 
@@ -3151,6 +3175,17 @@ func (j *jsiiProxy_DbInstance)SetVpcSecurityGroupIds(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"vpcSecurityGroupIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DbInstance)SetWarningEventCategories(val *[]*string) {
+	if err := j.validateSetWarningEventCategoriesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"warningEventCategories",
 		val,
 	)
 }
@@ -4175,6 +4210,14 @@ func (d *jsiiProxy_DbInstance) ResetVpcSecurityGroupIds() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetVpcSecurityGroupIds",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DbInstance) ResetWarningEventCategories() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetWarningEventCategories",
 		nil, // no parameters
 	)
 }

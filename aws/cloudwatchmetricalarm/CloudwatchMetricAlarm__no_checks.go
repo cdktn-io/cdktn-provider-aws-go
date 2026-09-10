@@ -87,6 +87,10 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutMetricQueryParameters(value
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutWarmUpConfigurationParameters(value *CloudwatchMetricAlarmWarmUpConfiguration) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchMetricAlarm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

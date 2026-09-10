@@ -13,6 +13,9 @@ import (
 
 type BedrockagentcoreHarnessModelGeminiModelConfigOutputReference interface {
 	cdktn.ComplexObject
+	AdditionalParams() *string
+	SetAdditionalParams(val *string)
+	AdditionalParamsInput() *string
 	ApiKeyArn() *string
 	SetApiKeyArn(val *string)
 	ApiKeyArnInput() *string
@@ -82,6 +85,7 @@ type BedrockagentcoreHarnessModelGeminiModelConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAdditionalParams()
 	ResetMaxTokens()
 	ResetTemperature()
 	ResetTopK()
@@ -99,6 +103,26 @@ type BedrockagentcoreHarnessModelGeminiModelConfigOutputReference interface {
 // The jsii proxy struct for BedrockagentcoreHarnessModelGeminiModelConfigOutputReference
 type jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference) AdditionalParams() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"additionalParams",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference) AdditionalParamsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"additionalParamsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference) ApiKeyArn() *string {
@@ -316,6 +340,17 @@ func NewBedrockagentcoreHarnessModelGeminiModelConfigOutputReference_Override(b 
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelGeminiModelConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference)SetAdditionalParams(val *string) {
+	if err := j.validateSetAdditionalParamsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"additionalParams",
+		val,
 	)
 }
 
@@ -624,6 +659,14 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference)
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference) ResetAdditionalParams() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAdditionalParams",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreHarnessModelGeminiModelConfigOutputReference) ResetMaxTokens() {

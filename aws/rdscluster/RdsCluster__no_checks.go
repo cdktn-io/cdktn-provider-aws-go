@@ -391,6 +391,10 @@ func (j *jsiiProxy_RdsCluster) validateSetVpcSecurityGroupIdsParameters(val *[]*
 	return nil
 }
 
+func (j *jsiiProxy_RdsCluster) validateSetWarningEventCategoriesParameters(val *[]*string) error {
+	return nil
+}
+
 func validateNewRdsClusterParameters(scope constructs.Construct, id *string, config *RdsClusterConfig) error {
 	return nil
 }

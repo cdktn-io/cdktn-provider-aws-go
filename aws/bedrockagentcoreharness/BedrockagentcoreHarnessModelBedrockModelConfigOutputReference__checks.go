@@ -101,6 +101,22 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) validateSetAdditionalParamsParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) validateSetApiFormatParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:

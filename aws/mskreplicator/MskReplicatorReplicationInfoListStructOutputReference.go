@@ -38,6 +38,9 @@ type MskReplicatorReplicationInfoListStructOutputReference interface {
 	SourceKafkaClusterArn() *string
 	SetSourceKafkaClusterArn(val *string)
 	SourceKafkaClusterArnInput() *string
+	SourceKafkaClusterId() *string
+	SetSourceKafkaClusterId(val *string)
+	SourceKafkaClusterIdInput() *string
 	TargetCompressionType() *string
 	SetTargetCompressionType(val *string)
 	TargetCompressionTypeInput() *string
@@ -45,6 +48,9 @@ type MskReplicatorReplicationInfoListStructOutputReference interface {
 	TargetKafkaClusterArn() *string
 	SetTargetKafkaClusterArn(val *string)
 	TargetKafkaClusterArnInput() *string
+	TargetKafkaClusterId() *string
+	SetTargetKafkaClusterId(val *string)
+	TargetKafkaClusterIdInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -81,6 +87,10 @@ type MskReplicatorReplicationInfoListStructOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutConsumerGroupReplication(value interface{})
 	PutTopicReplication(value interface{})
+	ResetSourceKafkaClusterArn()
+	ResetSourceKafkaClusterId()
+	ResetTargetKafkaClusterArn()
+	ResetTargetKafkaClusterId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +206,26 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) Source
 	return returns
 }
 
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) SourceKafkaClusterId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceKafkaClusterId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) SourceKafkaClusterIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceKafkaClusterIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) TargetCompressionType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -241,6 +271,26 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) Target
 	_jsii_.Get(
 		j,
 		"targetKafkaClusterArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) TargetKafkaClusterId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetKafkaClusterId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) TargetKafkaClusterIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetKafkaClusterIdInput",
 		&returns,
 	)
 	return returns
@@ -358,6 +408,17 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference)SetSour
 	)
 }
 
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference)SetSourceKafkaClusterId(val *string) {
+	if err := j.validateSetSourceKafkaClusterIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceKafkaClusterId",
+		val,
+	)
+}
+
 func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference)SetTargetCompressionType(val *string) {
 	if err := j.validateSetTargetCompressionTypeParameters(val); err != nil {
 		panic(err)
@@ -376,6 +437,17 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference)SetTarg
 	_jsii_.Set(
 		j,
 		"targetKafkaClusterArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference)SetTargetKafkaClusterId(val *string) {
+	if err := j.validateSetTargetKafkaClusterIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetKafkaClusterId",
 		val,
 	)
 }
@@ -607,6 +679,38 @@ func (m *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) PutTop
 		m,
 		"putTopicReplication",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) ResetSourceKafkaClusterArn() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetSourceKafkaClusterArn",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) ResetSourceKafkaClusterId() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetSourceKafkaClusterId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) ResetTargetKafkaClusterArn() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetTargetKafkaClusterArn",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) ResetTargetKafkaClusterId() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetTargetKafkaClusterId",
+		nil, // no parameters
 	)
 }
 

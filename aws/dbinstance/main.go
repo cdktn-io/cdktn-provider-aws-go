@@ -257,6 +257,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetUpgradeStorageConfig", GoMethod: "ResetUpgradeStorageConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUsername", GoMethod: "ResetUsername"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcSecurityGroupIds", GoMethod: "ResetVpcSecurityGroupIds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWarningEventCategories", GoMethod: "ResetWarningEventCategories"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceId", GoGetter: "ResourceId"},
 			_jsii_.MemberProperty{JsiiProperty: "restoreToPointInTime", GoGetter: "RestoreToPointInTime"},
 			_jsii_.MemberProperty{JsiiProperty: "restoreToPointInTimeInput", GoGetter: "RestoreToPointInTimeInput"},
@@ -297,6 +298,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIds", GoGetter: "VpcSecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "vpcSecurityGroupIdsInput", GoGetter: "VpcSecurityGroupIdsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "warningEventCategories", GoGetter: "WarningEventCategories"},
+			_jsii_.MemberProperty{JsiiProperty: "warningEventCategoriesInput", GoGetter: "WarningEventCategoriesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {

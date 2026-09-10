@@ -13,6 +13,7 @@ import (
 
 type DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference interface {
 	cdktn.ComplexObject
+	AccessEndpointConfig() DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigList
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -85,6 +86,16 @@ type DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference interfac
 // The jsii proxy struct for DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference
 type jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) AccessEndpointConfig() DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigList {
+	var returns DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigList
+	_jsii_.Get(
+		j,
+		"accessEndpointConfig",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesOutputReference) ComplexObjectIndex() interface{} {

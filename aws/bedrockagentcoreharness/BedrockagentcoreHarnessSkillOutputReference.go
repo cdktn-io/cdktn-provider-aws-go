@@ -13,6 +13,8 @@ import (
 
 type BedrockagentcoreHarnessSkillOutputReference interface {
 	cdktn.ComplexObject
+	AwsSkills() BedrockagentcoreHarnessSkillAwsSkillsList
+	AwsSkillsInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -30,11 +32,15 @@ type BedrockagentcoreHarnessSkillOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	Git() BedrockagentcoreHarnessSkillGitList
+	GitInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	Path() *string
 	SetPath(val *string)
 	PathInput() *string
+	S3() BedrockagentcoreHarnessSkillS3List
+	S3Input() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +73,13 @@ type BedrockagentcoreHarnessSkillOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAwsSkills(value interface{})
+	PutGit(value interface{})
+	PutS3(value interface{})
+	ResetAwsSkills()
+	ResetGit()
+	ResetPath()
+	ResetS3()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -80,6 +93,26 @@ type BedrockagentcoreHarnessSkillOutputReference interface {
 // The jsii proxy struct for BedrockagentcoreHarnessSkillOutputReference
 type jsiiProxy_BedrockagentcoreHarnessSkillOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) AwsSkills() BedrockagentcoreHarnessSkillAwsSkillsList {
+	var returns BedrockagentcoreHarnessSkillAwsSkillsList
+	_jsii_.Get(
+		j,
+		"awsSkills",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) AwsSkillsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"awsSkillsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) ComplexObjectIndex() interface{} {
@@ -122,6 +155,26 @@ func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) Fqn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) Git() BedrockagentcoreHarnessSkillGitList {
+	var returns BedrockagentcoreHarnessSkillGitList
+	_jsii_.Get(
+		j,
+		"git",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) GitInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"gitInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -147,6 +200,26 @@ func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) PathInput() *str
 	_jsii_.Get(
 		j,
 		"pathInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) S3() BedrockagentcoreHarnessSkillS3List {
+	var returns BedrockagentcoreHarnessSkillS3List
+	_jsii_.Get(
+		j,
+		"s3",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) S3Input() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"s3Input",
 		&returns,
 	)
 	return returns
@@ -450,6 +523,71 @@ func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) InterpolationFor
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) PutAwsSkills(value interface{}) {
+	if err := b.validatePutAwsSkillsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putAwsSkills",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) PutGit(value interface{}) {
+	if err := b.validatePutGitParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putGit",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) PutS3(value interface{}) {
+	if err := b.validatePutS3Parameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putS3",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) ResetAwsSkills() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAwsSkills",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) ResetGit() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetGit",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) ResetPath() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPath",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) ResetS3() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetS3",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreHarnessSkillOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/rds_cluster aws_rds_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/rds_cluster aws_rds_cluster}.
 type RdsCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -274,6 +274,9 @@ type RdsCluster interface {
 	VpcSecurityGroupIds() *[]*string
 	SetVpcSecurityGroupIds(val *[]*string)
 	VpcSecurityGroupIdsInput() *[]*string
+	WarningEventCategories() *[]*string
+	SetWarningEventCategories(val *[]*string)
+	WarningEventCategoriesInput() *[]*string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -442,6 +445,7 @@ type RdsCluster interface {
 	ResetTagsAll()
 	ResetTimeouts()
 	ResetVpcSecurityGroupIds()
+	ResetWarningEventCategories()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -2099,8 +2103,28 @@ func (j *jsiiProxy_RdsCluster) VpcSecurityGroupIdsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_RdsCluster) WarningEventCategories() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"warningEventCategories",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
+func (j *jsiiProxy_RdsCluster) WarningEventCategoriesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"warningEventCategoriesInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
 func NewRdsCluster(scope constructs.Construct, id *string, config *RdsClusterConfig) RdsCluster {
 	_init_.Initialize()
 
@@ -2118,7 +2142,7 @@ func NewRdsCluster(scope constructs.Construct, id *string, config *RdsClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
 func NewRdsCluster_Override(r RdsCluster, scope constructs.Construct, id *string, config *RdsClusterConfig) {
 	_init_.Initialize()
 
@@ -2897,6 +2921,17 @@ func (j *jsiiProxy_RdsCluster)SetVpcSecurityGroupIds(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"vpcSecurityGroupIds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsCluster)SetWarningEventCategories(val *[]*string) {
+	if err := j.validateSetWarningEventCategoriesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"warningEventCategories",
 		val,
 	)
 }
@@ -3884,6 +3919,14 @@ func (r *jsiiProxy_RdsCluster) ResetVpcSecurityGroupIds() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetVpcSecurityGroupIds",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsCluster) ResetWarningEventCategories() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetWarningEventCategories",
 		nil, // no parameters
 	)
 }

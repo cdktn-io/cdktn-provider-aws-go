@@ -101,6 +101,22 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) validateSetAdditionalParamsParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) validateSetApiFormatParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) validateSetApiKeyArnParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

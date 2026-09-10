@@ -13,6 +13,12 @@ import (
 
 type BedrockagentcoreHarnessModelBedrockModelConfigOutputReference interface {
 	cdktn.ComplexObject
+	AdditionalParams() *string
+	SetAdditionalParams(val *string)
+	AdditionalParamsInput() *string
+	ApiFormat() *string
+	SetApiFormat(val *string)
+	ApiFormatInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -76,6 +82,8 @@ type BedrockagentcoreHarnessModelBedrockModelConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAdditionalParams()
+	ResetApiFormat()
 	ResetMaxTokens()
 	ResetTemperature()
 	ResetTopP()
@@ -92,6 +100,46 @@ type BedrockagentcoreHarnessModelBedrockModelConfigOutputReference interface {
 // The jsii proxy struct for BedrockagentcoreHarnessModelBedrockModelConfigOutputReference
 type jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) AdditionalParams() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"additionalParams",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) AdditionalParamsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"additionalParamsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) ApiFormat() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiFormat",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) ApiFormatInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiFormatInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -269,6 +317,28 @@ func NewBedrockagentcoreHarnessModelBedrockModelConfigOutputReference_Override(b
 		"@cdktn/provider-aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelBedrockModelConfigOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		b,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference)SetAdditionalParams(val *string) {
+	if err := j.validateSetAdditionalParamsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"additionalParams",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference)SetApiFormat(val *string) {
+	if err := j.validateSetApiFormatParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"apiFormat",
+		val,
 	)
 }
 
@@ -555,6 +625,22 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) ResetAdditionalParams() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAdditionalParams",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) ResetApiFormat() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetApiFormat",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreHarnessModelBedrockModelConfigOutputReference) ResetMaxTokens() {

@@ -51,6 +51,14 @@ func (b *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) validateSetAdditionalParamsParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) validateSetApiFormatParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreHarnessModelOpenaiModelConfigOutputReference) validateSetApiKeyArnParameters(val *string) error {
 	return nil
 }

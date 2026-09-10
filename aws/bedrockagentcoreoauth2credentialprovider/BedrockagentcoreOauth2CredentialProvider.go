@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider}.
 type BedrockagentcoreOauth2CredentialProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -78,6 +78,8 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() BedrockagentcoreOauth2CredentialProviderTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -158,6 +160,7 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutOauth2ProviderConfig(value interface{})
+	PutTimeouts(value *BedrockagentcoreOauth2CredentialProviderTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -177,6 +180,7 @@ type BedrockagentcoreOauth2CredentialProvider interface {
 	ResetOverrideLogicalId()
 	ResetRegion()
 	ResetTags()
+	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -494,8 +498,28 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) TerraformResourceTy
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) Timeouts() BedrockagentcoreOauth2CredentialProviderTimeoutsOutputReference {
+	var returns BedrockagentcoreOauth2CredentialProviderTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
 func NewBedrockagentcoreOauth2CredentialProvider(scope constructs.Construct, id *string, config *BedrockagentcoreOauth2CredentialProviderConfig) BedrockagentcoreOauth2CredentialProvider {
 	_init_.Initialize()
 
@@ -513,7 +537,7 @@ func NewBedrockagentcoreOauth2CredentialProvider(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
 func NewBedrockagentcoreOauth2CredentialProvider_Override(b BedrockagentcoreOauth2CredentialProvider, scope constructs.Construct, id *string, config *BedrockagentcoreOauth2CredentialProviderConfig) {
 	_init_.Initialize()
 
@@ -1016,6 +1040,17 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) PutOauth2ProviderCo
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) PutTimeouts(value *BedrockagentcoreOauth2CredentialProviderTimeouts) {
+	if err := b.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := b.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1055,6 +1090,14 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) ResetTags() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTimeouts",
 		nil, // no parameters
 	)
 }

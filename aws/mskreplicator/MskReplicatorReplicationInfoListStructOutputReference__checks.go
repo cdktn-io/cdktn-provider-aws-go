@@ -244,6 +244,14 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetSourceKafkaClusterIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetTargetCompressionTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -253,6 +261,14 @@ func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) valida
 }
 
 func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetTargetKafkaClusterArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_MskReplicatorReplicationInfoListStructOutputReference) validateSetTargetKafkaClusterIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
