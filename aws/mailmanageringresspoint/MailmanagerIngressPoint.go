@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point}.
 type MailmanagerIngressPoint interface {
 	cdktn.TerraformResource
 	ARecord() *string
@@ -74,6 +74,9 @@ type MailmanagerIngressPoint interface {
 	SetRuleSetId(val *string)
 	RuleSetIdInput() *string
 	Status() *string
+	StatusToUpdate() *string
+	SetStatusToUpdate(val *string)
+	StatusToUpdateInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() cdktn.StringMap
@@ -196,6 +199,7 @@ type MailmanagerIngressPoint interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetStatusToUpdate()
 	ResetTags()
 	ResetTimeouts()
 	ResetTlsPolicy()
@@ -516,6 +520,26 @@ func (j *jsiiProxy_MailmanagerIngressPoint) Status() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MailmanagerIngressPoint) StatusToUpdate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"statusToUpdate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MailmanagerIngressPoint) StatusToUpdateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"statusToUpdateInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MailmanagerIngressPoint) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -657,7 +681,7 @@ func (j *jsiiProxy_MailmanagerIngressPoint) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
 func NewMailmanagerIngressPoint(scope constructs.Construct, id *string, config *MailmanagerIngressPointConfig) MailmanagerIngressPoint {
 	_init_.Initialize()
 
@@ -675,7 +699,7 @@ func NewMailmanagerIngressPoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/mailmanager_ingress_point aws_mailmanager_ingress_point} Resource.
 func NewMailmanagerIngressPoint_Override(m MailmanagerIngressPoint, scope constructs.Construct, id *string, config *MailmanagerIngressPointConfig) {
 	_init_.Initialize()
 
@@ -783,6 +807,17 @@ func (j *jsiiProxy_MailmanagerIngressPoint)SetRuleSetId(val *string) {
 	_jsii_.Set(
 		j,
 		"ruleSetId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MailmanagerIngressPoint)SetStatusToUpdate(val *string) {
+	if err := j.validateSetStatusToUpdateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"statusToUpdate",
 		val,
 	)
 }
@@ -1272,6 +1307,14 @@ func (m *jsiiProxy_MailmanagerIngressPoint) ResetRegion() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MailmanagerIngressPoint) ResetStatusToUpdate() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetStatusToUpdate",
 		nil, // no parameters
 	)
 }

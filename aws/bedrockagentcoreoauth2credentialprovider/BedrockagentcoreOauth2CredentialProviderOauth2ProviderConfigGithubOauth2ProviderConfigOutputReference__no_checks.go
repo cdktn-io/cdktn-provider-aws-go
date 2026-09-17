@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigG
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubOauth2ProviderConfigOutputReference) validatePutClientSecretConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubOauth2ProviderConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -64,6 +68,10 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigG
 }
 
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubOauth2ProviderConfigOutputReference) validateSetClientSecretParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGithubOauth2ProviderConfigOutputReference) validateSetClientSecretSourceParameters(val *string) error {
 	return nil
 }
 

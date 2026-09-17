@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigO
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) validatePutAtlassianOauth2ProviderConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) validatePutCustomOauth2ProviderConfigParameters(value interface{}) error {
 	return nil
 }
@@ -56,6 +60,14 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigO
 }
 
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) validatePutGoogleOauth2ProviderConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) validatePutIncludedOauth2ProviderConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) validatePutLinkedinOauth2ProviderConfigParameters(value interface{}) error {
 	return nil
 }
 

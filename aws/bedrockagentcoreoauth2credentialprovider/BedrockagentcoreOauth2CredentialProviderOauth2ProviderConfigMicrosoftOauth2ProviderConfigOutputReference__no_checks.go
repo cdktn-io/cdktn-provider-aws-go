@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validatePutClientSecretConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -67,6 +71,10 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validateSetClientSecretSourceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validateSetClientSecretWoParameters(val *string) error {
 	return nil
 }
@@ -80,6 +88,18 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 }
 
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validateSetTenantIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validateSetTenantIdWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) validateSetTenantIdWoVersionParameters(val *float64) error {
 	return nil
 }
 

@@ -51,6 +51,14 @@ func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigur
 	return nil
 }
 
+func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validatePutPrivateEndpointParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validatePutPrivateEndpointOverrideParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

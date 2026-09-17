@@ -5,7 +5,7 @@ package ekscluster
 
 
 type EksClusterKubeControllerManagerConfigPodGcControllerConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/eks_cluster#terminated_pod_gc_threshold EksCluster#terminated_pod_gc_threshold}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/eks_cluster#terminated_pod_gc_threshold EksCluster#terminated_pod_gc_threshold}.
 	TerminatedPodGcThreshold *float64 `field:"optional" json:"terminatedPodGcThreshold" yaml:"terminatedPodGcThreshold"`
 }
 

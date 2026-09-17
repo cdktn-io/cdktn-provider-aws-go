@@ -26,7 +26,12 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2Pro
 	ClientIdWoInput() *string
 	ClientSecret() *string
 	SetClientSecret(val *string)
+	ClientSecretConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigClientSecretConfigList
+	ClientSecretConfigInput() interface{}
 	ClientSecretInput() *string
+	ClientSecretSource() *string
+	SetClientSecretSource(val *string)
+	ClientSecretSourceInput() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ClientSecretWo() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
@@ -84,10 +89,13 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2Pro
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutClientSecretConfig(value interface{})
 	ResetClientCredentialsWoVersion()
 	ResetClientId()
 	ResetClientIdWo()
 	ResetClientSecret()
+	ResetClientSecretConfig()
+	ResetClientSecretSource()
 	ResetClientSecretWo()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -174,11 +182,51 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigG
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ClientSecretConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigClientSecretConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigClientSecretConfigList
+	_jsii_.Get(
+		j,
+		"clientSecretConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ClientSecretConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"clientSecretConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ClientSecretInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"clientSecretInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ClientSecretSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientSecretSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ClientSecretSourceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientSecretSourceInput",
 		&returns,
 	)
 	return returns
@@ -352,6 +400,17 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigG
 	_jsii_.Set(
 		j,
 		"clientSecret",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference)SetClientSecretSource(val *string) {
+	if err := j.validateSetClientSecretSourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientSecretSource",
 		val,
 	)
 }
@@ -608,6 +667,17 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigG
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) PutClientSecretConfig(value interface{}) {
+	if err := b.validatePutClientSecretConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putClientSecretConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ResetClientCredentialsWoVersion() {
 	_jsii_.InvokeVoid(
 		b,
@@ -636,6 +706,22 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigG
 	_jsii_.InvokeVoid(
 		b,
 		"resetClientSecret",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ResetClientSecretConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetClientSecretConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigOutputReference) ResetClientSecretSource() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetClientSecretSource",
 		nil, // no parameters
 	)
 }

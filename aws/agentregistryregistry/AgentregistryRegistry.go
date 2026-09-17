@@ -12,11 +12,13 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/agentregistry_registry aws_agentregistry_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry aws_agentregistry_registry}.
 type AgentregistryRegistry interface {
 	cdktn.TerraformResource
 	ApprovalConfiguration() AgentregistryRegistryApprovalConfigurationList
 	ApprovalConfigurationInput() interface{}
+	AutoDetectionConfiguration() AgentregistryRegistryAutoDetectionConfigurationList
+	AutoDetectionConfigurationInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -38,6 +40,8 @@ type AgentregistryRegistry interface {
 	DescriptionInput() *string
 	DiscoveryConfiguration() AgentregistryRegistryDiscoveryConfigurationList
 	DiscoveryConfigurationInput() interface{}
+	EncryptionConfiguration() AgentregistryRegistryEncryptionConfigurationList
+	EncryptionConfigurationInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -162,7 +166,9 @@ type AgentregistryRegistry interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutApprovalConfiguration(value interface{})
+	PutAutoDetectionConfiguration(value interface{})
 	PutDiscoveryConfiguration(value interface{})
+	PutEncryptionConfiguration(value interface{})
 	PutTimeouts(value *AgentregistryRegistryTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -178,8 +184,10 @@ type AgentregistryRegistry interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetApprovalConfiguration()
+	ResetAutoDetectionConfiguration()
 	ResetDescription()
 	ResetDiscoveryConfiguration()
+	ResetEncryptionConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -228,6 +236,26 @@ func (j *jsiiProxy_AgentregistryRegistry) ApprovalConfigurationInput() interface
 	_jsii_.Get(
 		j,
 		"approvalConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) AutoDetectionConfiguration() AgentregistryRegistryAutoDetectionConfigurationList {
+	var returns AgentregistryRegistryAutoDetectionConfigurationList
+	_jsii_.Get(
+		j,
+		"autoDetectionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) AutoDetectionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoDetectionConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -318,6 +346,26 @@ func (j *jsiiProxy_AgentregistryRegistry) DiscoveryConfigurationInput() interfac
 	_jsii_.Get(
 		j,
 		"discoveryConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) EncryptionConfiguration() AgentregistryRegistryEncryptionConfigurationList {
+	var returns AgentregistryRegistryEncryptionConfigurationList
+	_jsii_.Get(
+		j,
+		"encryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) EncryptionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -544,7 +592,7 @@ func (j *jsiiProxy_AgentregistryRegistry) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/agentregistry_registry aws_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry aws_agentregistry_registry} Resource.
 func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) AgentregistryRegistry {
 	_init_.Initialize()
 
@@ -562,7 +610,7 @@ func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *Ag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/agentregistry_registry aws_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry aws_agentregistry_registry} Resource.
 func NewAgentregistryRegistry_Override(a AgentregistryRegistry, scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) {
 	_init_.Initialize()
 
@@ -1065,6 +1113,17 @@ func (a *jsiiProxy_AgentregistryRegistry) PutApprovalConfiguration(value interfa
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) PutAutoDetectionConfiguration(value interface{}) {
+	if err := a.validatePutAutoDetectionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putAutoDetectionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) PutDiscoveryConfiguration(value interface{}) {
 	if err := a.validatePutDiscoveryConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1072,6 +1131,17 @@ func (a *jsiiProxy_AgentregistryRegistry) PutDiscoveryConfiguration(value interf
 	_jsii_.InvokeVoid(
 		a,
 		"putDiscoveryConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistry) PutEncryptionConfiguration(value interface{}) {
+	if err := a.validatePutEncryptionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putEncryptionConfiguration",
 		[]interface{}{value},
 	)
 }
@@ -1106,6 +1176,14 @@ func (a *jsiiProxy_AgentregistryRegistry) ResetApprovalConfiguration() {
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) ResetAutoDetectionConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAutoDetectionConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) ResetDescription() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1118,6 +1196,14 @@ func (a *jsiiProxy_AgentregistryRegistry) ResetDiscoveryConfiguration() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetDiscoveryConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistry) ResetEncryptionConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEncryptionConfiguration",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package bedrockagentcoregatewaytarget
 
 
 type BedrockagentcoreGatewayTargetTargetConfigurationInferenceProviderModelMappingProviderPrefix struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_gateway_target#separator BedrockagentcoreGatewayTarget#separator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_gateway_target#separator BedrockagentcoreGatewayTarget#separator}.
 	Separator *string `field:"optional" json:"separator" yaml:"separator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_gateway_target#strip BedrockagentcoreGatewayTarget#strip}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_gateway_target#strip BedrockagentcoreGatewayTarget#strip}.
 	Strip interface{} `field:"optional" json:"strip" yaml:"strip"`
 }
 

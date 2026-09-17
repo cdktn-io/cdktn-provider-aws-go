@@ -51,6 +51,9 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2Pro
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenEndpoint() *string
 	SetTokenEndpoint(val *string)
+	TokenEndpointAuthMethods() *[]*string
+	SetTokenEndpointAuthMethods(val *[]*string)
+	TokenEndpointAuthMethodsInput() *[]*string
 	TokenEndpointInput() *string
 	// Experimental.
 	ComputeFqn() *string
@@ -77,6 +80,7 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2Pro
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetResponseTypes()
+	ResetTokenEndpointAuthMethods()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -232,6 +236,26 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataOutputReference) TokenEndpointAuthMethods() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"tokenEndpointAuthMethods",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataOutputReference) TokenEndpointAuthMethodsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"tokenEndpointAuthMethodsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataOutputReference) TokenEndpointInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -365,6 +389,17 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	_jsii_.Set(
 		j,
 		"tokenEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataOutputReference)SetTokenEndpointAuthMethods(val *[]*string) {
+	if err := j.validateSetTokenEndpointAuthMethodsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tokenEndpointAuthMethods",
 		val,
 	)
 }
@@ -559,6 +594,14 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	_jsii_.InvokeVoid(
 		b,
 		"resetResponseTypes",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataOutputReference) ResetTokenEndpointAuthMethods() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTokenEndpointAuthMethods",
 		nil, // no parameters
 	)
 }

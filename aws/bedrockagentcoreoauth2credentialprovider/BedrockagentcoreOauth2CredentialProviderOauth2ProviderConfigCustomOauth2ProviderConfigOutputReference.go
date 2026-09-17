@@ -13,6 +13,9 @@ import (
 
 type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference interface {
 	cdktn.ComplexObject
+	ClientAuthenticationMethod() *string
+	SetClientAuthenticationMethod(val *string)
+	ClientAuthenticationMethodInput() *string
 	ClientCredentialsWoVersion() *float64
 	SetClientCredentialsWoVersion(val *float64)
 	ClientCredentialsWoVersionInput() *float64
@@ -26,7 +29,12 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2Pro
 	ClientIdWoInput() *string
 	ClientSecret() *string
 	SetClientSecret(val *string)
+	ClientSecretConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigClientSecretConfigList
+	ClientSecretConfigInput() interface{}
 	ClientSecretInput() *string
+	ClientSecretSource() *string
+	SetClientSecretSource(val *string)
+	ClientSecretSourceInput() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ClientSecretWo() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
@@ -53,6 +61,14 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2Pro
 	SetInternalValue(val interface{})
 	OauthDiscovery() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryList
 	OauthDiscoveryInput() interface{}
+	OnBehalfOfTokenExchangeConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOnBehalfOfTokenExchangeConfigList
+	OnBehalfOfTokenExchangeConfigInput() interface{}
+	PrivateEndpoint() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateEndpointList
+	PrivateEndpointInput() interface{}
+	PrivateEndpointOverride() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateEndpointOverrideList
+	PrivateEndpointOverrideInput() interface{}
+	PrivateKeyJwtConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateKeyJwtConfigList
+	PrivateKeyJwtConfigInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -85,13 +101,25 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2Pro
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutClientSecretConfig(value interface{})
 	PutOauthDiscovery(value interface{})
+	PutOnBehalfOfTokenExchangeConfig(value interface{})
+	PutPrivateEndpoint(value interface{})
+	PutPrivateEndpointOverride(value interface{})
+	PutPrivateKeyJwtConfig(value interface{})
+	ResetClientAuthenticationMethod()
 	ResetClientCredentialsWoVersion()
 	ResetClientId()
 	ResetClientIdWo()
 	ResetClientSecret()
+	ResetClientSecretConfig()
+	ResetClientSecretSource()
 	ResetClientSecretWo()
 	ResetOauthDiscovery()
+	ResetOnBehalfOfTokenExchangeConfig()
+	ResetPrivateEndpoint()
+	ResetPrivateEndpointOverride()
+	ResetPrivateKeyJwtConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -105,6 +133,26 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2Pro
 // The jsii proxy struct for BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference
 type jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientAuthenticationMethod() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientAuthenticationMethod",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientAuthenticationMethodInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientAuthenticationMethodInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientCredentialsWoVersion() *float64 {
@@ -177,11 +225,51 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientSecretConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigClientSecretConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigClientSecretConfigList
+	_jsii_.Get(
+		j,
+		"clientSecretConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientSecretConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"clientSecretConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientSecretInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"clientSecretInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientSecretSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientSecretSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ClientSecretSourceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientSecretSourceInput",
 		&returns,
 	)
 	return returns
@@ -277,6 +365,86 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) OnBehalfOfTokenExchangeConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOnBehalfOfTokenExchangeConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOnBehalfOfTokenExchangeConfigList
+	_jsii_.Get(
+		j,
+		"onBehalfOfTokenExchangeConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) OnBehalfOfTokenExchangeConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"onBehalfOfTokenExchangeConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PrivateEndpoint() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateEndpointList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateEndpointList
+	_jsii_.Get(
+		j,
+		"privateEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PrivateEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PrivateEndpointOverride() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateEndpointOverrideList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateEndpointOverrideList
+	_jsii_.Get(
+		j,
+		"privateEndpointOverride",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PrivateEndpointOverrideInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointOverrideInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PrivateKeyJwtConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateKeyJwtConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigPrivateKeyJwtConfigList
+	_jsii_.Get(
+		j,
+		"privateKeyJwtConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PrivateKeyJwtConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateKeyJwtConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -325,6 +493,17 @@ func NewBedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2
 	)
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference)SetClientAuthenticationMethod(val *string) {
+	if err := j.validateSetClientAuthenticationMethodParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientAuthenticationMethod",
+		val,
+	)
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference)SetClientCredentialsWoVersion(val *float64) {
 	if err := j.validateSetClientCredentialsWoVersionParameters(val); err != nil {
 		panic(err)
@@ -365,6 +544,17 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	_jsii_.Set(
 		j,
 		"clientSecret",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference)SetClientSecretSource(val *string) {
+	if err := j.validateSetClientSecretSourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientSecretSource",
 		val,
 	)
 }
@@ -621,6 +811,17 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PutClientSecretConfig(value interface{}) {
+	if err := b.validatePutClientSecretConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putClientSecretConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PutOauthDiscovery(value interface{}) {
 	if err := b.validatePutOauthDiscoveryParameters(value); err != nil {
 		panic(err)
@@ -629,6 +830,58 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 		b,
 		"putOauthDiscovery",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PutOnBehalfOfTokenExchangeConfig(value interface{}) {
+	if err := b.validatePutOnBehalfOfTokenExchangeConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putOnBehalfOfTokenExchangeConfig",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PutPrivateEndpoint(value interface{}) {
+	if err := b.validatePutPrivateEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPrivateEndpoint",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PutPrivateEndpointOverride(value interface{}) {
+	if err := b.validatePutPrivateEndpointOverrideParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPrivateEndpointOverride",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) PutPrivateKeyJwtConfig(value interface{}) {
+	if err := b.validatePutPrivateKeyJwtConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPrivateKeyJwtConfig",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetClientAuthenticationMethod() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetClientAuthenticationMethod",
+		nil, // no parameters
 	)
 }
 
@@ -664,6 +917,22 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetClientSecretConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetClientSecretConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetClientSecretSource() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetClientSecretSource",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetClientSecretWo() {
 	_jsii_.InvokeVoid(
 		b,
@@ -676,6 +945,38 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigC
 	_jsii_.InvokeVoid(
 		b,
 		"resetOauthDiscovery",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetOnBehalfOfTokenExchangeConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetOnBehalfOfTokenExchangeConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetPrivateEndpoint() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPrivateEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetPrivateEndpointOverride() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPrivateEndpointOverride",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigCustomOauth2ProviderConfigOutputReference) ResetPrivateKeyJwtConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPrivateKeyJwtConfig",
 		nil, // no parameters
 	)
 }

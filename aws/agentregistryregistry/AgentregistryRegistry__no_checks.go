@@ -83,7 +83,15 @@ func (a *jsiiProxy_AgentregistryRegistry) validatePutApprovalConfigurationParame
 	return nil
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) validatePutAutoDetectionConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) validatePutDiscoveryConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AgentregistryRegistry) validatePutEncryptionConfigurationParameters(value interface{}) error {
 	return nil
 }
 

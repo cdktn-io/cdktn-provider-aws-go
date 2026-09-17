@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/data-sources/agentregistry_registry aws_agentregistry_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/agentregistry_registry aws_agentregistry_registry}.
 type DataAwsAgentregistryRegistry interface {
 	cdktn.TerraformDataSource
 	ApprovalConfiguration() DataAwsAgentregistryRegistryApprovalConfigurationList
@@ -31,6 +31,7 @@ type DataAwsAgentregistryRegistry interface {
 	SetDependsOn(val *[]*string)
 	Description() *string
 	DiscoveryConfiguration() DataAwsAgentregistryRegistryDiscoveryConfigurationList
+	EncryptionConfiguration() DataAwsAgentregistryRegistryEncryptionConfigurationList
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -213,6 +214,16 @@ func (j *jsiiProxy_DataAwsAgentregistryRegistry) DiscoveryConfiguration() DataAw
 	_jsii_.Get(
 		j,
 		"discoveryConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsAgentregistryRegistry) EncryptionConfiguration() DataAwsAgentregistryRegistryEncryptionConfigurationList {
+	var returns DataAwsAgentregistryRegistryEncryptionConfigurationList
+	_jsii_.Get(
+		j,
+		"encryptionConfiguration",
 		&returns,
 	)
 	return returns
@@ -409,7 +420,7 @@ func (j *jsiiProxy_DataAwsAgentregistryRegistry) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/data-sources/agentregistry_registry aws_agentregistry_registry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/agentregistry_registry aws_agentregistry_registry} Data Source.
 func NewDataAwsAgentregistryRegistry(scope constructs.Construct, id *string, config *DataAwsAgentregistryRegistryConfig) DataAwsAgentregistryRegistry {
 	_init_.Initialize()
 
@@ -427,7 +438,7 @@ func NewDataAwsAgentregistryRegistry(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/data-sources/agentregistry_registry aws_agentregistry_registry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/agentregistry_registry aws_agentregistry_registry} Data Source.
 func NewDataAwsAgentregistryRegistry_Override(d DataAwsAgentregistryRegistry, scope constructs.Construct, id *string, config *DataAwsAgentregistryRegistryConfig) {
 	_init_.Initialize()
 

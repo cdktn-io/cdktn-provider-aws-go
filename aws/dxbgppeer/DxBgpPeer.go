@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer}.
 type DxBgpPeer interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -25,6 +25,9 @@ type DxBgpPeer interface {
 	BgpAsn() *float64
 	SetBgpAsn(val *float64)
 	BgpAsnInput() *float64
+	BgpAsnLong() *string
+	SetBgpAsnLong(val *string)
+	BgpAsnLongInput() *string
 	BgpAuthKey() *string
 	SetBgpAuthKey(val *string)
 	BgpAuthKeyInput() *string
@@ -184,6 +187,8 @@ type DxBgpPeer interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAmazonAddress()
+	ResetBgpAsn()
+	ResetBgpAsnLong()
 	ResetBgpAuthKey()
 	ResetCustomerAddress()
 	ResetId()
@@ -284,6 +289,26 @@ func (j *jsiiProxy_DxBgpPeer) BgpAsnInput() *float64 {
 	_jsii_.Get(
 		j,
 		"bgpAsnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxBgpPeer) BgpAsnLong() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bgpAsnLong",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxBgpPeer) BgpAsnLongInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bgpAsnLongInput",
 		&returns,
 	)
 	return returns
@@ -590,7 +615,7 @@ func (j *jsiiProxy_DxBgpPeer) VirtualInterfaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
 func NewDxBgpPeer(scope constructs.Construct, id *string, config *DxBgpPeerConfig) DxBgpPeer {
 	_init_.Initialize()
 
@@ -608,7 +633,7 @@ func NewDxBgpPeer(scope constructs.Construct, id *string, config *DxBgpPeerConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/dx_bgp_peer aws_dx_bgp_peer} Resource.
 func NewDxBgpPeer_Override(d DxBgpPeer, scope constructs.Construct, id *string, config *DxBgpPeerConfig) {
 	_init_.Initialize()
 
@@ -648,6 +673,17 @@ func (j *jsiiProxy_DxBgpPeer)SetBgpAsn(val *float64) {
 	_jsii_.Set(
 		j,
 		"bgpAsn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxBgpPeer)SetBgpAsnLong(val *string) {
+	if err := j.validateSetBgpAsnLongParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bgpAsnLong",
 		val,
 	)
 }
@@ -1170,6 +1206,22 @@ func (d *jsiiProxy_DxBgpPeer) ResetAmazonAddress() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetAmazonAddress",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxBgpPeer) ResetBgpAsn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetBgpAsn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxBgpPeer) ResetBgpAsnLong() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetBgpAsnLong",
 		nil, // no parameters
 	)
 }

@@ -44,6 +44,7 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOauth2Prov
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenEndpoint() *string
+	TokenEndpointAuthMethods() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -188,6 +189,16 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigS
 	_jsii_.Get(
 		j,
 		"tokenEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataOutputReference) TokenEndpointAuthMethods() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"tokenEndpointAuthMethods",
 		&returns,
 	)
 	return returns

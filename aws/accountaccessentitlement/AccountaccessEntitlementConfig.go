@@ -22,15 +22,15 @@ type AccountaccessEntitlementConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}.
 	ApplicationArn *string `field:"required" json:"applicationArn" yaml:"applicationArn"`
 	// entitlement block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
 	Entitlement interface{} `field:"optional" json:"entitlement" yaml:"entitlement"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_entitlement#region AccountaccessEntitlement#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_entitlement#region AccountaccessEntitlement#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

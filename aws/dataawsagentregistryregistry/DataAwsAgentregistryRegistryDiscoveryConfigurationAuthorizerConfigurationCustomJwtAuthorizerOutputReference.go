@@ -37,6 +37,8 @@ type DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCu
 	Fqn() *string
 	InternalValue() *DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizer
 	SetInternalValue(val *DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizer)
+	PrivateEndpoint() DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList
+	PrivateEndpointOverride() DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -179,6 +181,26 @@ func (j *jsiiProxy_DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerC
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpoint() DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList {
+	var returns DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList
+	_jsii_.Get(
+		j,
+		"privateEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointOverride() DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList {
+	var returns DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList
+	_jsii_.Get(
+		j,
+		"privateEndpointOverride",
 		&returns,
 	)
 	return returns

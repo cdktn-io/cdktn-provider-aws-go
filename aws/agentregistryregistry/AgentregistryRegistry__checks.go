@@ -246,6 +246,37 @@ func (a *jsiiProxy_AgentregistryRegistry) validatePutApprovalConfigurationParame
 	return nil
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) validatePutAutoDetectionConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*AgentregistryRegistryAutoDetectionConfiguration:
+		value := value.(*[]*AgentregistryRegistryAutoDetectionConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*AgentregistryRegistryAutoDetectionConfiguration:
+		value_ := value.([]*AgentregistryRegistryAutoDetectionConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AgentregistryRegistryAutoDetectionConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) validatePutDiscoveryConfigurationParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -271,6 +302,37 @@ func (a *jsiiProxy_AgentregistryRegistry) validatePutDiscoveryConfigurationParam
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AgentregistryRegistryDiscoveryConfiguration; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AgentregistryRegistry) validatePutEncryptionConfigurationParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*AgentregistryRegistryEncryptionConfiguration:
+		value := value.(*[]*AgentregistryRegistryEncryptionConfiguration)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*AgentregistryRegistryEncryptionConfiguration:
+		value_ := value.([]*AgentregistryRegistryEncryptionConfiguration)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AgentregistryRegistryEncryptionConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 

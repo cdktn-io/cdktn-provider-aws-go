@@ -115,6 +115,10 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterface) validateSetBgpAsnParameters(
 	return nil
 }
 
+func (j *jsiiProxy_DxHostedPrivateVirtualInterface) validateSetBgpAsnLongParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DxHostedPrivateVirtualInterface) validateSetBgpAuthKeyParameters(val *string) error {
 	return nil
 }

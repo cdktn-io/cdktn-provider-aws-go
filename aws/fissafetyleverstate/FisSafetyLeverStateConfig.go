@@ -24,15 +24,15 @@ type FisSafetyLeverStateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/fis_safety_lever_state#region FisSafetyLeverState#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/fis_safety_lever_state#region FisSafetyLeverState#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// state block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/fis_safety_lever_state#state FisSafetyLeverState#state}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/fis_safety_lever_state#state FisSafetyLeverState#state}
 	State interface{} `field:"optional" json:"state" yaml:"state"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/fis_safety_lever_state#timeouts FisSafetyLeverState#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/fis_safety_lever_state#timeouts FisSafetyLeverState#timeouts}
 	Timeouts *FisSafetyLeverStateTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

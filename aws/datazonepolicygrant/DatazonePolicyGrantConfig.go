@@ -22,25 +22,25 @@ type DatazonePolicyGrantConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#domain_identifier DatazonePolicyGrant#domain_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/datazone_policy_grant#domain_identifier DatazonePolicyGrant#domain_identifier}.
 	DomainIdentifier *string `field:"required" json:"domainIdentifier" yaml:"domainIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#entity_identifier DatazonePolicyGrant#entity_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/datazone_policy_grant#entity_identifier DatazonePolicyGrant#entity_identifier}.
 	EntityIdentifier *string `field:"required" json:"entityIdentifier" yaml:"entityIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#entity_type DatazonePolicyGrant#entity_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/datazone_policy_grant#entity_type DatazonePolicyGrant#entity_type}.
 	EntityType *string `field:"required" json:"entityType" yaml:"entityType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#policy_type DatazonePolicyGrant#policy_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/datazone_policy_grant#policy_type DatazonePolicyGrant#policy_type}.
 	PolicyType *string `field:"required" json:"policyType" yaml:"policyType"`
 	// detail block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#detail DatazonePolicyGrant#detail}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/datazone_policy_grant#detail DatazonePolicyGrant#detail}
 	Detail interface{} `field:"optional" json:"detail" yaml:"detail"`
 	// principal block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#principal DatazonePolicyGrant#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/datazone_policy_grant#principal DatazonePolicyGrant#principal}
 	Principal interface{} `field:"optional" json:"principal" yaml:"principal"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#region DatazonePolicyGrant#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/datazone_policy_grant#region DatazonePolicyGrant#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

@@ -298,6 +298,14 @@ func (j *jsiiProxy_DxHostedTransitVirtualInterface) validateSetBgpAsnParameters(
 	return nil
 }
 
+func (j *jsiiProxy_DxHostedTransitVirtualInterface) validateSetBgpAsnLongParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DxHostedTransitVirtualInterface) validateSetBgpAuthKeyParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

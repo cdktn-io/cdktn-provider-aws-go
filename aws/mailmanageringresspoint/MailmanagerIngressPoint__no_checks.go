@@ -139,6 +139,10 @@ func (j *jsiiProxy_MailmanagerIngressPoint) validateSetRuleSetIdParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_MailmanagerIngressPoint) validateSetStatusToUpdateParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MailmanagerIngressPoint) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

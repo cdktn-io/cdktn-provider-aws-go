@@ -5,7 +5,7 @@ package mailmanagerarchive
 
 
 type MailmanagerArchiveRetention struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/mailmanager_archive#retention_period MailmanagerArchive#retention_period}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/mailmanager_archive#retention_period MailmanagerArchive#retention_period}.
 	RetentionPeriod *string `field:"required" json:"retentionPeriod" yaml:"retentionPeriod"`
 }
 

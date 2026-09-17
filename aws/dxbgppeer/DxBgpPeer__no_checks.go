@@ -115,6 +115,10 @@ func (j *jsiiProxy_DxBgpPeer) validateSetBgpAsnParameters(val *float64) error {
 	return nil
 }
 
+func (j *jsiiProxy_DxBgpPeer) validateSetBgpAsnLongParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DxBgpPeer) validateSetBgpAuthKeyParameters(val *string) error {
 	return nil
 }

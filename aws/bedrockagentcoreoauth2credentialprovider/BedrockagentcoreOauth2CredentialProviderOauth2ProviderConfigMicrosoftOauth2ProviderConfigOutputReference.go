@@ -26,7 +26,12 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2
 	ClientIdWoInput() *string
 	ClientSecret() *string
 	SetClientSecret(val *string)
+	ClientSecretConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigClientSecretConfigList
+	ClientSecretConfigInput() interface{}
 	ClientSecretInput() *string
+	ClientSecretSource() *string
+	SetClientSecretSource(val *string)
+	ClientSecretSourceInput() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ClientSecretWo() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
@@ -52,6 +57,17 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	OauthDiscovery() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryList
+	TenantId() *string
+	SetTenantId(val *string)
+	TenantIdInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	TenantIdWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetTenantIdWo(val *string)
+	TenantIdWoInput() *string
+	TenantIdWoVersion() *float64
+	SetTenantIdWoVersion(val *float64)
+	TenantIdWoVersionInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -84,11 +100,17 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutClientSecretConfig(value interface{})
 	ResetClientCredentialsWoVersion()
 	ResetClientId()
 	ResetClientIdWo()
 	ResetClientSecret()
+	ResetClientSecretConfig()
+	ResetClientSecretSource()
 	ResetClientSecretWo()
+	ResetTenantId()
+	ResetTenantIdWo()
+	ResetTenantIdWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -174,11 +196,51 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ClientSecretConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigClientSecretConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigClientSecretConfigList
+	_jsii_.Get(
+		j,
+		"clientSecretConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ClientSecretConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"clientSecretConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ClientSecretInput() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"clientSecretInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ClientSecretSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientSecretSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ClientSecretSourceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"clientSecretSourceInput",
 		&returns,
 	)
 	return returns
@@ -259,6 +321,66 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	_jsii_.Get(
 		j,
 		"oauthDiscovery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) TenantId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tenantId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) TenantIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tenantIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) TenantIdWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tenantIdWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) TenantIdWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tenantIdWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) TenantIdWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"tenantIdWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) TenantIdWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"tenantIdWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -356,6 +478,17 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	)
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference)SetClientSecretSource(val *string) {
+	if err := j.validateSetClientSecretSourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientSecretSource",
+		val,
+	)
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference)SetClientSecretWo(val *string) {
 	if err := j.validateSetClientSecretWoParameters(val); err != nil {
 		panic(err)
@@ -396,6 +529,39 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference)SetTenantId(val *string) {
+	if err := j.validateSetTenantIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tenantId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference)SetTenantIdWo(val *string) {
+	if err := j.validateSetTenantIdWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tenantIdWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference)SetTenantIdWoVersion(val *float64) {
+	if err := j.validateSetTenantIdWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tenantIdWoVersion",
 		val,
 	)
 }
@@ -608,6 +774,17 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) PutClientSecretConfig(value interface{}) {
+	if err := b.validatePutClientSecretConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putClientSecretConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ResetClientCredentialsWoVersion() {
 	_jsii_.InvokeVoid(
 		b,
@@ -640,10 +817,50 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigM
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ResetClientSecretConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetClientSecretConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ResetClientSecretSource() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetClientSecretSource",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ResetClientSecretWo() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetClientSecretWo",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ResetTenantId() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTenantId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ResetTenantIdWo() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTenantIdWo",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOutputReference) ResetTenantIdWoVersion() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTenantIdWoVersion",
 		nil, // no parameters
 	)
 }

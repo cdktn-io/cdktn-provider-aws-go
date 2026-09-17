@@ -46,6 +46,10 @@ type AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwt
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PrivateEndpoint() AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList
+	PrivateEndpointInput() interface{}
+	PrivateEndpointOverride() AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList
+	PrivateEndpointOverrideInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,10 +83,14 @@ type AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwt
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCustomClaim(value interface{})
+	PutPrivateEndpoint(value interface{})
+	PutPrivateEndpointOverride(value interface{})
 	ResetAllowedAudience()
 	ResetAllowedClients()
 	ResetAllowedScopes()
 	ResetCustomClaim()
+	ResetPrivateEndpoint()
+	ResetPrivateEndpointOverride()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -243,6 +251,46 @@ func (j *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigur
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpoint() AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList {
+	var returns AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList
+	_jsii_.Get(
+		j,
+		"privateEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointOverride() AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList {
+	var returns AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList
+	_jsii_.Get(
+		j,
+		"privateEndpointOverride",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointOverrideInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointOverrideInput",
 		&returns,
 	)
 	return returns
@@ -592,6 +640,28 @@ func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigur
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutPrivateEndpoint(value interface{}) {
+	if err := a.validatePutPrivateEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putPrivateEndpoint",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutPrivateEndpointOverride(value interface{}) {
+	if err := a.validatePutPrivateEndpointOverrideParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putPrivateEndpointOverride",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetAllowedAudience() {
 	_jsii_.InvokeVoid(
 		a,
@@ -620,6 +690,22 @@ func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigur
 	_jsii_.InvokeVoid(
 		a,
 		"resetCustomClaim",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetPrivateEndpoint() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPrivateEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetPrivateEndpointOverride() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPrivateEndpointOverride",
 		nil, // no parameters
 	)
 }

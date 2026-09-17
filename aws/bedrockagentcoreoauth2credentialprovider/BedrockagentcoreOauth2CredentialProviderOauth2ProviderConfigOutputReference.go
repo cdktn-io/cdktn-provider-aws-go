@@ -13,6 +13,8 @@ import (
 
 type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference interface {
 	cdktn.ComplexObject
+	AtlassianOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigAtlassianOauth2ProviderConfigList
+	AtlassianOauth2ProviderConfigInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -36,8 +38,12 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference
 	GithubOauth2ProviderConfigInput() interface{}
 	GoogleOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigGoogleOauth2ProviderConfigList
 	GoogleOauth2ProviderConfigInput() interface{}
+	IncludedOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigIncludedOauth2ProviderConfigList
+	IncludedOauth2ProviderConfigInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LinkedinOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigLinkedinOauth2ProviderConfigList
+	LinkedinOauth2ProviderConfigInput() interface{}
 	MicrosoftOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigList
 	MicrosoftOauth2ProviderConfigInput() interface{}
 	SalesforceOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigSalesforceOauth2ProviderConfigList
@@ -76,15 +82,21 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAtlassianOauth2ProviderConfig(value interface{})
 	PutCustomOauth2ProviderConfig(value interface{})
 	PutGithubOauth2ProviderConfig(value interface{})
 	PutGoogleOauth2ProviderConfig(value interface{})
+	PutIncludedOauth2ProviderConfig(value interface{})
+	PutLinkedinOauth2ProviderConfig(value interface{})
 	PutMicrosoftOauth2ProviderConfig(value interface{})
 	PutSalesforceOauth2ProviderConfig(value interface{})
 	PutSlackOauth2ProviderConfig(value interface{})
+	ResetAtlassianOauth2ProviderConfig()
 	ResetCustomOauth2ProviderConfig()
 	ResetGithubOauth2ProviderConfig()
 	ResetGoogleOauth2ProviderConfig()
+	ResetIncludedOauth2ProviderConfig()
+	ResetLinkedinOauth2ProviderConfig()
 	ResetMicrosoftOauth2ProviderConfig()
 	ResetSalesforceOauth2ProviderConfig()
 	ResetSlackOauth2ProviderConfig()
@@ -101,6 +113,26 @@ type BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference
 // The jsii proxy struct for BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference
 type jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) AtlassianOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigAtlassianOauth2ProviderConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigAtlassianOauth2ProviderConfigList
+	_jsii_.Get(
+		j,
+		"atlassianOauth2ProviderConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) AtlassianOauth2ProviderConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"atlassianOauth2ProviderConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -203,11 +235,51 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigO
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) IncludedOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigIncludedOauth2ProviderConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigIncludedOauth2ProviderConfigList
+	_jsii_.Get(
+		j,
+		"includedOauth2ProviderConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) IncludedOauth2ProviderConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"includedOauth2ProviderConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) LinkedinOauth2ProviderConfig() BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigLinkedinOauth2ProviderConfigList {
+	var returns BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigLinkedinOauth2ProviderConfigList
+	_jsii_.Get(
+		j,
+		"linkedinOauth2ProviderConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) LinkedinOauth2ProviderConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"linkedinOauth2ProviderConfigInput",
 		&returns,
 	)
 	return returns
@@ -562,6 +634,17 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigO
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) PutAtlassianOauth2ProviderConfig(value interface{}) {
+	if err := b.validatePutAtlassianOauth2ProviderConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putAtlassianOauth2ProviderConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) PutCustomOauth2ProviderConfig(value interface{}) {
 	if err := b.validatePutCustomOauth2ProviderConfigParameters(value); err != nil {
 		panic(err)
@@ -591,6 +674,28 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigO
 	_jsii_.InvokeVoid(
 		b,
 		"putGoogleOauth2ProviderConfig",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) PutIncludedOauth2ProviderConfig(value interface{}) {
+	if err := b.validatePutIncludedOauth2ProviderConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putIncludedOauth2ProviderConfig",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) PutLinkedinOauth2ProviderConfig(value interface{}) {
+	if err := b.validatePutLinkedinOauth2ProviderConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putLinkedinOauth2ProviderConfig",
 		[]interface{}{value},
 	)
 }
@@ -628,6 +733,14 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigO
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) ResetAtlassianOauth2ProviderConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAtlassianOauth2ProviderConfig",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) ResetCustomOauth2ProviderConfig() {
 	_jsii_.InvokeVoid(
 		b,
@@ -648,6 +761,22 @@ func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigO
 	_jsii_.InvokeVoid(
 		b,
 		"resetGoogleOauth2ProviderConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) ResetIncludedOauth2ProviderConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetIncludedOauth2ProviderConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigOutputReference) ResetLinkedinOauth2ProviderConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLinkedinOauth2ProviderConfig",
 		nil, // no parameters
 	)
 }

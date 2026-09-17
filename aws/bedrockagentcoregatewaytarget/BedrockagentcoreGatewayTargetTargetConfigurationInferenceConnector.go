@@ -7,7 +7,7 @@ package bedrockagentcoregatewaytarget
 type BedrockagentcoreGatewayTargetTargetConfigurationInferenceConnector struct {
 	// source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_gateway_target#source BedrockagentcoreGatewayTarget#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_gateway_target#source BedrockagentcoreGatewayTarget#source}
 	Source interface{} `field:"optional" json:"source" yaml:"source"`
 }
 

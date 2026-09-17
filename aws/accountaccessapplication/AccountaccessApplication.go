@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_application aws_accountaccess_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_application aws_accountaccess_application}.
 type AccountaccessApplication interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_AccountaccessApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_application aws_accountaccess_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_application aws_accountaccess_application} Resource.
 func NewAccountaccessApplication(scope constructs.Construct, id *string, config *AccountaccessApplicationConfig) AccountaccessApplication {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewAccountaccessApplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_application aws_accountaccess_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_application aws_accountaccess_application} Resource.
 func NewAccountaccessApplication_Override(a AccountaccessApplication, scope constructs.Construct, id *string, config *AccountaccessApplicationConfig) {
 	_init_.Initialize()
 
