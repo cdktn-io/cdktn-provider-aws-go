@@ -44,6 +44,9 @@ type EcsServiceDeploymentConfigurationLifecycleHookOutputReference interface {
 	RoleArn() *string
 	SetRoleArn(val *string)
 	RoleArnInput() *string
+	TargetType() *string
+	SetTargetType(val *string)
+	TargetTypeInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -52,6 +55,8 @@ type EcsServiceDeploymentConfigurationLifecycleHookOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TimeoutConfiguration() EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference
+	TimeoutConfigurationInput() *EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -76,7 +81,12 @@ type EcsServiceDeploymentConfigurationLifecycleHookOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutTimeoutConfiguration(value *EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration)
 	ResetHookDetails()
+	ResetHookTargetArn()
+	ResetRoleArn()
+	ResetTargetType()
+	ResetTimeoutConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -222,6 +232,26 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 	return returns
 }
 
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) TargetType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) TargetTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -237,6 +267,26 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) TimeoutConfiguration() EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference {
+	var returns EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"timeoutConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) TimeoutConfigurationInput() *EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration {
+	var returns *EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration
+	_jsii_.Get(
+		j,
+		"timeoutConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -343,6 +393,17 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 	_jsii_.Set(
 		j,
 		"roleArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference)SetTargetType(val *string) {
+	if err := j.validateSetTargetTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetType",
 		val,
 	)
 }
@@ -555,10 +616,53 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 	return returns
 }
 
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) PutTimeoutConfiguration(value *EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration) {
+	if err := e.validatePutTimeoutConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putTimeoutConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) ResetHookDetails() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetHookDetails",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) ResetHookTargetArn() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetHookTargetArn",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) ResetRoleArn() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetRoleArn",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) ResetTargetType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetTargetType",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) ResetTimeoutConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetTimeoutConfiguration",
 		nil, // no parameters
 	)
 }

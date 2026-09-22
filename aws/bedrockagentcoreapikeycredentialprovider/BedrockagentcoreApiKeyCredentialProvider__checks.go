@@ -215,6 +215,37 @@ func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateOverrideLog
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validatePutApiKeySecretConfigParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig:
+		value := value.(*[]*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig:
+		value_ := value.([]*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	if feature == "" {
 		return fmt.Errorf("parameter feature is required, but nil was provided")
@@ -264,6 +295,14 @@ func validateBedrockagentcoreApiKeyCredentialProvider_IsTerraformResourceParamet
 }
 
 func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetApiKeyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetApiKeySecretSourceParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

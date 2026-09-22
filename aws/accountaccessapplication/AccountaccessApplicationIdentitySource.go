@@ -7,7 +7,7 @@ package accountaccessapplication
 type AccountaccessApplicationIdentitySource struct {
 	// identity_center block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}
 	IdentityCenter interface{} `field:"optional" json:"identityCenter" yaml:"identityCenter"`
 }
 

@@ -22,15 +22,15 @@ type DataAwsAccountaccessEntitlementsConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_entitlements#application_arn DataAwsAccountaccessEntitlements#application_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_entitlements#application_arn DataAwsAccountaccessEntitlements#application_arn}.
 	ApplicationArn *string `field:"required" json:"applicationArn" yaml:"applicationArn"`
 	// filter block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_entitlements#filter DataAwsAccountaccessEntitlements#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_entitlements#filter DataAwsAccountaccessEntitlements#filter}
 	Filter interface{} `field:"optional" json:"filter" yaml:"filter"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_entitlements#region DataAwsAccountaccessEntitlements#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_entitlements#region DataAwsAccountaccessEntitlements#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

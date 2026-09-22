@@ -36,6 +36,7 @@ type DataAwsEcsServiceDeploymentConfigurationLifecycleHookOutputReference interf
 	SetInternalValue(val *DataAwsEcsServiceDeploymentConfigurationLifecycleHook)
 	LifecycleStages() *[]*string
 	RoleArn() *string
+	TargetType() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -44,6 +45,7 @@ type DataAwsEcsServiceDeploymentConfigurationLifecycleHookOutputReference interf
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TimeoutConfiguration() DataAwsEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -173,6 +175,16 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationLifecycleHookOutputRe
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationLifecycleHookOutputReference) TargetType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationLifecycleHookOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -188,6 +200,16 @@ func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationLifecycleHookOutputRe
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsEcsServiceDeploymentConfigurationLifecycleHookOutputReference) TimeoutConfiguration() DataAwsEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationList {
+	var returns DataAwsEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationList
+	_jsii_.Get(
+		j,
+		"timeoutConfiguration",
 		&returns,
 	)
 	return returns

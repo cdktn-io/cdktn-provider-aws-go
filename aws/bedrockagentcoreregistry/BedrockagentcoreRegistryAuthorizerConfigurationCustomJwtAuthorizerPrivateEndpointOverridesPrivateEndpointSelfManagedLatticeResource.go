@@ -5,7 +5,7 @@ package bedrockagentcoreregistry
 
 
 type BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResource struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_registry#resource_configuration_identifier BedrockagentcoreRegistry#resource_configuration_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_registry#resource_configuration_identifier BedrockagentcoreRegistry#resource_configuration_identifier}.
 	ResourceConfigurationIdentifier *string `field:"optional" json:"resourceConfigurationIdentifier" yaml:"resourceConfigurationIdentifier"`
 }
 

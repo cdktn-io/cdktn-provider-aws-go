@@ -47,6 +47,10 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 	return nil
 }
 
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validatePutTimeoutConfigurationParameters(value *EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference
 }
 
 func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference) validateSetTargetTypeParameters(val *string) error {
 	return nil
 }
 

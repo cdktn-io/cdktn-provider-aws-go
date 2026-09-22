@@ -7,7 +7,7 @@ package dataawsaccountaccessentitlements
 type DataAwsAccountaccessEntitlementsFilter struct {
 	// principal_role block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_entitlements#principal_role DataAwsAccountaccessEntitlements#principal_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_entitlements#principal_role DataAwsAccountaccessEntitlements#principal_role}
 	PrincipalRole interface{} `field:"optional" json:"principalRole" yaml:"principalRole"`
 }
 

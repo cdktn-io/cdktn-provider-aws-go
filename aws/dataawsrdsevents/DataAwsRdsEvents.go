@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/rds_events aws_rds_events}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/rds_events aws_rds_events}.
 type DataAwsRdsEvents interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -442,7 +442,7 @@ func (j *jsiiProxy_DataAwsRdsEvents) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/rds_events aws_rds_events} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/rds_events aws_rds_events} Data Source.
 func NewDataAwsRdsEvents(scope constructs.Construct, id *string, config *DataAwsRdsEventsConfig) DataAwsRdsEvents {
 	_init_.Initialize()
 
@@ -460,7 +460,7 @@ func NewDataAwsRdsEvents(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/rds_events aws_rds_events} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/rds_events aws_rds_events} Data Source.
 func NewDataAwsRdsEvents_Override(d DataAwsRdsEvents, scope constructs.Construct, id *string, config *DataAwsRdsEventsConfig) {
 	_init_.Initialize()
 

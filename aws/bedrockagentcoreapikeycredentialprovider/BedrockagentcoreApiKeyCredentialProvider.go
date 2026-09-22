@@ -12,13 +12,18 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider}.
 type BedrockagentcoreApiKeyCredentialProvider interface {
 	cdktn.TerraformResource
 	ApiKey() *string
 	SetApiKey(val *string)
 	ApiKeyInput() *string
 	ApiKeySecretArn() BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnList
+	ApiKeySecretConfig() BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList
+	ApiKeySecretConfigInput() interface{}
+	ApiKeySecretSource() *string
+	SetApiKeySecretSource(val *string)
+	ApiKeySecretSourceInput() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	ApiKeyWo() *string
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
@@ -163,6 +168,7 @@ type BedrockagentcoreApiKeyCredentialProvider interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutApiKeySecretConfig(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -177,6 +183,8 @@ type BedrockagentcoreApiKeyCredentialProvider interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetApiKey()
+	ResetApiKeySecretConfig()
+	ResetApiKeySecretSource()
 	ResetApiKeyWo()
 	ResetApiKeyWoVersion()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -236,6 +244,46 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ApiKeySecretArn() B
 	_jsii_.Get(
 		j,
 		"apiKeySecretArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ApiKeySecretConfig() BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList {
+	var returns BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList
+	_jsii_.Get(
+		j,
+		"apiKeySecretConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ApiKeySecretConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"apiKeySecretConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ApiKeySecretSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiKeySecretSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ApiKeySecretSourceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"apiKeySecretSourceInput",
 		&returns,
 	)
 	return returns
@@ -522,7 +570,7 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
 func NewBedrockagentcoreApiKeyCredentialProvider(scope constructs.Construct, id *string, config *BedrockagentcoreApiKeyCredentialProviderConfig) BedrockagentcoreApiKeyCredentialProvider {
 	_init_.Initialize()
 
@@ -540,7 +588,7 @@ func NewBedrockagentcoreApiKeyCredentialProvider(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.
 func NewBedrockagentcoreApiKeyCredentialProvider_Override(b BedrockagentcoreApiKeyCredentialProvider, scope constructs.Construct, id *string, config *BedrockagentcoreApiKeyCredentialProviderConfig) {
 	_init_.Initialize()
 
@@ -558,6 +606,17 @@ func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider)SetApiKey(val *strin
 	_jsii_.Set(
 		j,
 		"apiKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider)SetApiKeySecretSource(val *string) {
+	if err := j.validateSetApiKeySecretSourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"apiKeySecretSource",
 		val,
 	)
 }
@@ -1054,6 +1113,17 @@ func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) OverrideLogicalId(n
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) PutApiKeySecretConfig(value interface{}) {
+	if err := b.validatePutApiKeySecretConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putApiKeySecretConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := b.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1069,6 +1139,22 @@ func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ResetApiKey() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetApiKey",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ResetApiKeySecretConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetApiKeySecretConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) ResetApiKeySecretSource() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetApiKeySecretSource",
 		nil, // no parameters
 	)
 }

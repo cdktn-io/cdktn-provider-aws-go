@@ -22,35 +22,35 @@ type AgentregistryRegistryConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#name AgentregistryRegistry#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#name AgentregistryRegistry#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// approval_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#approval_configuration AgentregistryRegistry#approval_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#approval_configuration AgentregistryRegistry#approval_configuration}
 	ApprovalConfiguration interface{} `field:"optional" json:"approvalConfiguration" yaml:"approvalConfiguration"`
 	// auto_detection_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#auto_detection_configuration AgentregistryRegistry#auto_detection_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#auto_detection_configuration AgentregistryRegistry#auto_detection_configuration}
 	AutoDetectionConfiguration interface{} `field:"optional" json:"autoDetectionConfiguration" yaml:"autoDetectionConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#description AgentregistryRegistry#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#description AgentregistryRegistry#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// discovery_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#discovery_configuration AgentregistryRegistry#discovery_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#discovery_configuration AgentregistryRegistry#discovery_configuration}
 	DiscoveryConfiguration interface{} `field:"optional" json:"discoveryConfiguration" yaml:"discoveryConfiguration"`
 	// encryption_configuration block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#encryption_configuration AgentregistryRegistry#encryption_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#encryption_configuration AgentregistryRegistry#encryption_configuration}
 	EncryptionConfiguration interface{} `field:"optional" json:"encryptionConfiguration" yaml:"encryptionConfiguration"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#region AgentregistryRegistry#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#region AgentregistryRegistry#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#tags AgentregistryRegistry#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#tags AgentregistryRegistry#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#timeouts AgentregistryRegistry#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry#timeouts AgentregistryRegistry#timeouts}
 	Timeouts *AgentregistryRegistryTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

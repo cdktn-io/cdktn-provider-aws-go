@@ -5,7 +5,7 @@ package ecscapacityprovider
 
 
 type EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ecs_capacity_provider#actions_status EcsCapacityProvider#actions_status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/ecs_capacity_provider#actions_status EcsCapacityProvider#actions_status}.
 	ActionsStatus *string `field:"optional" json:"actionsStatus" yaml:"actionsStatus"`
 }
 

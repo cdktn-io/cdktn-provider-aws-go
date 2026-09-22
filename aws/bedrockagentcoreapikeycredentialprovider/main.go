@@ -19,6 +19,10 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeySecretArn", GoGetter: "ApiKeySecretArn"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeySecretConfig", GoGetter: "ApiKeySecretConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeySecretConfigInput", GoGetter: "ApiKeySecretConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeySecretSource", GoGetter: "ApiKeySecretSource"},
+			_jsii_.MemberProperty{JsiiProperty: "apiKeySecretSourceInput", GoGetter: "ApiKeySecretSourceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyWo", GoGetter: "ApiKeyWo"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyWoInput", GoGetter: "ApiKeyWoInput"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyWoVersion", GoGetter: "ApiKeyWoVersion"},
@@ -55,11 +59,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putApiKeySecretConfig", GoMethod: "PutApiKeySecretConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetApiKey", GoMethod: "ResetApiKey"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApiKeySecretConfig", GoMethod: "ResetApiKeySecretConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApiKeySecretSource", GoMethod: "ResetApiKeySecretSource"},
 			_jsii_.MemberMethod{JsiiMethod: "resetApiKeyWo", GoMethod: "ResetApiKeyWo"},
 			_jsii_.MemberMethod{JsiiMethod: "resetApiKeyWoVersion", GoMethod: "ResetApiKeyWoVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
@@ -139,6 +146,68 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig",
+		reflect.TypeOf((*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList",
+		reflect.TypeOf((*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigOutputReference",
+		reflect.TypeOf((*BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "jsonKey", GoGetter: "JsonKey"},
+			_jsii_.MemberProperty{JsiiProperty: "jsonKeyInput", GoGetter: "JsonKeyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secretId", GoGetter: "SecretId"},
+			_jsii_.MemberProperty{JsiiProperty: "secretIdInput", GoGetter: "SecretIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

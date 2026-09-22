@@ -7,11 +7,11 @@ package bedrockagentcoregatewaytarget
 type BedrockagentcoreGatewayTargetTargetConfigurationInference struct {
 	// connector block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_gateway_target#connector BedrockagentcoreGatewayTarget#connector}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_gateway_target#connector BedrockagentcoreGatewayTarget#connector}
 	Connector interface{} `field:"optional" json:"connector" yaml:"connector"`
 	// provider block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_gateway_target#provider BedrockagentcoreGatewayTarget#provider}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_gateway_target#provider BedrockagentcoreGatewayTarget#provider}
 	Provider interface{} `field:"optional" json:"provider" yaml:"provider"`
 }
 

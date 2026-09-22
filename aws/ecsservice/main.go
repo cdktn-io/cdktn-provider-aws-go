@@ -444,16 +444,67 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycleStages", GoGetter: "LifecycleStages"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycleStagesInput", GoGetter: "LifecycleStagesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putTimeoutConfiguration", GoMethod: "PutTimeoutConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHookDetails", GoMethod: "ResetHookDetails"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHookTargetArn", GoMethod: "ResetHookTargetArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRoleArn", GoMethod: "ResetRoleArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetType", GoMethod: "ResetTargetType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTimeoutConfiguration", GoMethod: "ResetTimeoutConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "roleArnInput", GoGetter: "RoleArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "targetType", GoGetter: "TargetType"},
+			_jsii_.MemberProperty{JsiiProperty: "targetTypeInput", GoGetter: "TargetTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutConfiguration", GoGetter: "TimeoutConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutConfigurationInput", GoGetter: "TimeoutConfigurationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration",
+		reflect.TypeOf((*EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference",
+		reflect.TypeOf((*EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
+			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAction", GoMethod: "ResetAction"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTimeoutInMinutes", GoMethod: "ResetTimeoutInMinutes"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutInMinutes", GoGetter: "TimeoutInMinutes"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutInMinutesInput", GoGetter: "TimeoutInMinutesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

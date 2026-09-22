@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrock_model_invocation_job aws_bedrock_model_invocation_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrock_model_invocation_job aws_bedrock_model_invocation_job}.
 type BedrockModelInvocationJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -691,7 +691,7 @@ func (j *jsiiProxy_BedrockModelInvocationJob) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrock_model_invocation_job aws_bedrock_model_invocation_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrock_model_invocation_job aws_bedrock_model_invocation_job} Resource.
 func NewBedrockModelInvocationJob(scope constructs.Construct, id *string, config *BedrockModelInvocationJobConfig) BedrockModelInvocationJob {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewBedrockModelInvocationJob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrock_model_invocation_job aws_bedrock_model_invocation_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrock_model_invocation_job aws_bedrock_model_invocation_job} Resource.
 func NewBedrockModelInvocationJob_Override(b BedrockModelInvocationJob, scope constructs.Construct, id *string, config *BedrockModelInvocationJobConfig) {
 	_init_.Initialize()
 

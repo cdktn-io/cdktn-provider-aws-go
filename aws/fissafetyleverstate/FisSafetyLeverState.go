@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/fis_safety_lever_state aws_fis_safety_lever_state}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/fis_safety_lever_state aws_fis_safety_lever_state}.
 type FisSafetyLeverState interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_FisSafetyLeverState) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/fis_safety_lever_state aws_fis_safety_lever_state} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/fis_safety_lever_state aws_fis_safety_lever_state} Resource.
 func NewFisSafetyLeverState(scope constructs.Construct, id *string, config *FisSafetyLeverStateConfig) FisSafetyLeverState {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewFisSafetyLeverState(scope constructs.Construct, id *string, config *FisS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/fis_safety_lever_state aws_fis_safety_lever_state} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/fis_safety_lever_state aws_fis_safety_lever_state} Resource.
 func NewFisSafetyLeverState_Override(f FisSafetyLeverState, scope constructs.Construct, id *string, config *FisSafetyLeverStateConfig) {
 	_init_.Initialize()
 

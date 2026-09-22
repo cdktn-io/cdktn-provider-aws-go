@@ -5,9 +5,9 @@ package accountaccessentitlement
 
 
 type AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_entitlement#group_id AccountaccessEntitlement#group_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/accountaccess_entitlement#group_id AccountaccessEntitlement#group_id}.
 	GroupId *string `field:"optional" json:"groupId" yaml:"groupId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_entitlement#user_id AccountaccessEntitlement#user_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/accountaccess_entitlement#user_id AccountaccessEntitlement#user_id}.
 	UserId *string `field:"optional" json:"userId" yaml:"userId"`
 }
 

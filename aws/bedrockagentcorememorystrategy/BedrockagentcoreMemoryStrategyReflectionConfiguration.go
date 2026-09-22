@@ -5,7 +5,7 @@ package bedrockagentcorememorystrategy
 
 
 type BedrockagentcoreMemoryStrategyReflectionConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_memory_strategy#namespace_templates BedrockagentcoreMemoryStrategy#namespace_templates}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_memory_strategy#namespace_templates BedrockagentcoreMemoryStrategy#namespace_templates}.
 	NamespaceTemplates *[]*string `field:"required" json:"namespaceTemplates" yaml:"namespaceTemplates"`
 }
 

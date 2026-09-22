@@ -22,13 +22,13 @@ type DataAwsAccountaccessApplicationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_application#arn DataAwsAccountaccessApplication#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_application#arn DataAwsAccountaccessApplication#arn}.
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_application#identity_center_instance_arn DataAwsAccountaccessApplication#identity_center_instance_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_application#identity_center_instance_arn DataAwsAccountaccessApplication#identity_center_instance_arn}.
 	IdentityCenterInstanceArn *string `field:"optional" json:"identityCenterInstanceArn" yaml:"identityCenterInstanceArn"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_application#region DataAwsAccountaccessApplication#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_application#region DataAwsAccountaccessApplication#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

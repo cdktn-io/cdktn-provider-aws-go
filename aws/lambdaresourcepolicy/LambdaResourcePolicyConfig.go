@@ -26,15 +26,15 @@ type LambdaResourcePolicyConfig struct {
 	//
 	// This replaces the entire policy, including any statements added with aws_lambda_permission.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/lambda_resource_policy#policy LambdaResourcePolicy#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/lambda_resource_policy#policy LambdaResourcePolicy#policy}
 	Policy *string `field:"required" json:"policy" yaml:"policy"`
 	// ARN of the Lambda function, version, or alias to attach the resource-based policy to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/lambda_resource_policy#region LambdaResourcePolicy#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/lambda_resource_policy#region LambdaResourcePolicy#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 }
 

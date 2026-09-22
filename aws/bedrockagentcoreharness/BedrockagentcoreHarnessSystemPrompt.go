@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessSystemPrompt struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.
 	Text *string `field:"optional" json:"text" yaml:"text"`
 }
 

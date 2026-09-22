@@ -79,6 +79,10 @@ func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateOverrideLog
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validatePutApiKeySecretConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func validateBedrockagentcoreApiKeyCredentialProvider_IsTerraformResourceParamet
 }
 
 func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetApiKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreApiKeyCredentialProvider) validateSetApiKeySecretSourceParameters(val *string) error {
 	return nil
 }
 

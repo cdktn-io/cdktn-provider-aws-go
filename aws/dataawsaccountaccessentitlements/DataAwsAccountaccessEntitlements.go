@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_entitlements aws_accountaccess_entitlements}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_entitlements aws_accountaccess_entitlements}.
 type DataAwsAccountaccessEntitlements interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsAccountaccessEntitlements) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_entitlements aws_accountaccess_entitlements} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_entitlements aws_accountaccess_entitlements} Data Source.
 func NewDataAwsAccountaccessEntitlements(scope constructs.Construct, id *string, config *DataAwsAccountaccessEntitlementsConfig) DataAwsAccountaccessEntitlements {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsAccountaccessEntitlements(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/accountaccess_entitlements aws_accountaccess_entitlements} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/accountaccess_entitlements aws_accountaccess_entitlements} Data Source.
 func NewDataAwsAccountaccessEntitlements_Override(d DataAwsAccountaccessEntitlements, scope constructs.Construct, id *string, config *DataAwsAccountaccessEntitlementsConfig) {
 	_init_.Initialize()
 

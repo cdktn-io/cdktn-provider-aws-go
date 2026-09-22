@@ -5,7 +5,7 @@ package mskreplicator
 
 
 type MskReplicatorKafkaClusterEncryptionInTransit struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/msk_replicator#root_ca_certificate MskReplicator#root_ca_certificate}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_replicator#root_ca_certificate MskReplicator#root_ca_certificate}.
 	RootCaCertificate *string `field:"required" json:"rootCaCertificate" yaml:"rootCaCertificate"`
 }
 
