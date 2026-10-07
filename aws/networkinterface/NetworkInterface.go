@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/network_interface aws_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/network_interface aws_network_interface}.
 type NetworkInterface interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -24,6 +24,8 @@ type NetworkInterface interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
+	ConnectionTrackingSpecification() NetworkInterfaceConnectionTrackingSpecificationOutputReference
+	ConnectionTrackingSpecificationInput() *NetworkInterfaceConnectionTrackingSpecification
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -219,6 +221,7 @@ type NetworkInterface interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAttachment(value interface{})
+	PutConnectionTrackingSpecification(value *NetworkInterfaceConnectionTrackingSpecification)
 	PutEnaSrdSpecification(value *NetworkInterfaceEnaSrdSpecification)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -234,6 +237,7 @@ type NetworkInterface interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAttachment()
+	ResetConnectionTrackingSpecification()
 	ResetDescription()
 	ResetEnablePrimaryIpv6()
 	ResetEnaSrdSpecification()
@@ -332,6 +336,26 @@ func (j *jsiiProxy_NetworkInterface) Connection() interface{} {
 	_jsii_.Get(
 		j,
 		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkInterface) ConnectionTrackingSpecification() NetworkInterfaceConnectionTrackingSpecificationOutputReference {
+	var returns NetworkInterfaceConnectionTrackingSpecificationOutputReference
+	_jsii_.Get(
+		j,
+		"connectionTrackingSpecification",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkInterface) ConnectionTrackingSpecificationInput() *NetworkInterfaceConnectionTrackingSpecification {
+	var returns *NetworkInterfaceConnectionTrackingSpecification
+	_jsii_.Get(
+		j,
+		"connectionTrackingSpecificationInput",
 		&returns,
 	)
 	return returns
@@ -998,7 +1022,7 @@ func (j *jsiiProxy_NetworkInterface) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/network_interface aws_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/network_interface aws_network_interface} Resource.
 func NewNetworkInterface(scope constructs.Construct, id *string, config *NetworkInterfaceConfig) NetworkInterface {
 	_init_.Initialize()
 
@@ -1016,7 +1040,7 @@ func NewNetworkInterface(scope constructs.Construct, id *string, config *Network
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/network_interface aws_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/network_interface aws_network_interface} Resource.
 func NewNetworkInterface_Override(n NetworkInterface, scope constructs.Construct, id *string, config *NetworkInterfaceConfig) {
 	_init_.Initialize()
 
@@ -1728,6 +1752,17 @@ func (n *jsiiProxy_NetworkInterface) PutAttachment(value interface{}) {
 	)
 }
 
+func (n *jsiiProxy_NetworkInterface) PutConnectionTrackingSpecification(value *NetworkInterfaceConnectionTrackingSpecification) {
+	if err := n.validatePutConnectionTrackingSpecificationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putConnectionTrackingSpecification",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkInterface) PutEnaSrdSpecification(value *NetworkInterfaceEnaSrdSpecification) {
 	if err := n.validatePutEnaSrdSpecificationParameters(value); err != nil {
 		panic(err)
@@ -1754,6 +1789,14 @@ func (n *jsiiProxy_NetworkInterface) ResetAttachment() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetAttachment",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkInterface) ResetConnectionTrackingSpecification() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetConnectionTrackingSpecification",
 		nil, // no parameters
 	)
 }

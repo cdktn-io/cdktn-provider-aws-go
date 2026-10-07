@@ -5,7 +5,7 @@ package accountaccessapplication
 
 
 type AccountaccessApplicationIdentitySourceIdentityCenter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/accountaccess_application#instance_arn AccountaccessApplication#instance_arn}.
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 }
 

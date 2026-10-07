@@ -5,7 +5,7 @@ package bedrockagentcoreregistry
 
 
 type BedrockagentcoreRegistryAuthorizerConfigurationCustomJwtAuthorizerAllowedWorkloadConfigurationHostingEnvironment struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_registry#arn BedrockagentcoreRegistry#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/bedrockagentcore_registry#arn BedrockagentcoreRegistry#arn}.
 	Arn *string `field:"required" json:"arn" yaml:"arn"`
 }
 

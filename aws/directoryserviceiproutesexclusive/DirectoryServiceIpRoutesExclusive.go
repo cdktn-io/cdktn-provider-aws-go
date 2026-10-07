@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive aws_directory_service_ip_routes_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directory_service_ip_routes_exclusive aws_directory_service_ip_routes_exclusive}.
 type DirectoryServiceIpRoutesExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_DirectoryServiceIpRoutesExclusive) UpdateSecurityGroupForDire
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive aws_directory_service_ip_routes_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directory_service_ip_routes_exclusive aws_directory_service_ip_routes_exclusive} Resource.
 func NewDirectoryServiceIpRoutesExclusive(scope constructs.Construct, id *string, config *DirectoryServiceIpRoutesExclusiveConfig) DirectoryServiceIpRoutesExclusive {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewDirectoryServiceIpRoutesExclusive(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive aws_directory_service_ip_routes_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directory_service_ip_routes_exclusive aws_directory_service_ip_routes_exclusive} Resource.
 func NewDirectoryServiceIpRoutesExclusive_Override(d DirectoryServiceIpRoutesExclusive, scope constructs.Construct, id *string, config *DirectoryServiceIpRoutesExclusiveConfig) {
 	_init_.Initialize()
 

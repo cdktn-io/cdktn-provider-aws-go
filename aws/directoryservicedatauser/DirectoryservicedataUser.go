@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user}.
 type DirectoryservicedataUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_DirectoryservicedataUser) UserPrincipalName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
 func NewDirectoryservicedataUser(scope constructs.Construct, id *string, config *DirectoryservicedataUserConfig) DirectoryservicedataUser {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewDirectoryservicedataUser(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
 func NewDirectoryservicedataUser_Override(d DirectoryservicedataUser, scope constructs.Construct, id *string, config *DirectoryservicedataUserConfig) {
 	_init_.Initialize()
 

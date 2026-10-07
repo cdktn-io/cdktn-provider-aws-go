@@ -1,0 +1,621 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package odbautonomousdatabase
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/odbautonomousdatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type OdbAutonomousDatabaseLongTermBackupScheduleOutputReference interface {
+	cdktn.ComplexObject
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	IsDisabled() interface{}
+	SetIsDisabled(val interface{})
+	IsDisabledInput() interface{}
+	RepeatCadence() *string
+	SetRepeatCadence(val *string)
+	RepeatCadenceInput() *string
+	RetentionPeriodInDays() *float64
+	SetRetentionPeriodInDays(val *float64)
+	RetentionPeriodInDaysInput() *float64
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TimeOfBackup() *string
+	SetTimeOfBackup(val *string)
+	TimeOfBackupInput() *string
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetIsDisabled()
+	ResetRepeatCadence()
+	ResetRetentionPeriodInDays()
+	ResetTimeOfBackup()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for OdbAutonomousDatabaseLongTermBackupScheduleOutputReference
+type jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) InternalValue() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) IsDisabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"isDisabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) IsDisabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"isDisabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) RepeatCadence() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"repeatCadence",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) RepeatCadenceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"repeatCadenceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) RetentionPeriodInDays() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"retentionPeriodInDays",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) RetentionPeriodInDaysInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"retentionPeriodInDaysInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) TimeOfBackup() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"timeOfBackup",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) TimeOfBackupInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"timeOfBackupInput",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewOdbAutonomousDatabaseLongTermBackupScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OdbAutonomousDatabaseLongTermBackupScheduleOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewOdbAutonomousDatabaseLongTermBackupScheduleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/provider-aws.odbAutonomousDatabase.OdbAutonomousDatabaseLongTermBackupScheduleOutputReference",
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		&j,
+	)
+
+	return &j
+}
+
+func NewOdbAutonomousDatabaseLongTermBackupScheduleOutputReference_Override(o OdbAutonomousDatabaseLongTermBackupScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-aws.odbAutonomousDatabase.OdbAutonomousDatabaseLongTermBackupScheduleOutputReference",
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		o,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetInternalValue(val interface{}) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetIsDisabled(val interface{}) {
+	if err := j.validateSetIsDisabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"isDisabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetRepeatCadence(val *string) {
+	if err := j.validateSetRepeatCadenceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"repeatCadence",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetRetentionPeriodInDays(val *float64) {
+	if err := j.validateSetRetentionPeriodInDaysParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"retentionPeriodInDays",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference)SetTimeOfBackup(val *string) {
+	if err := j.validateSetTimeOfBackupParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"timeOfBackup",
+		val,
+	)
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		o,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := o.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		o,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		o,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := o.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		o,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := o.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		o,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := o.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		o,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := o.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		o,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := o.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		o,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := o.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		o,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := o.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		o,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		o,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		o,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ResetIsDisabled() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetIsDisabled",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ResetRepeatCadence() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetRepeatCadence",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ResetRetentionPeriodInDays() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetRetentionPeriodInDays",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ResetTimeOfBackup() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetTimeOfBackup",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := o.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		o,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OdbAutonomousDatabaseLongTermBackupScheduleOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		o,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

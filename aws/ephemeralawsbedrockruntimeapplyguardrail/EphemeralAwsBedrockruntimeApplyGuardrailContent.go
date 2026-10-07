@@ -7,7 +7,7 @@ package ephemeralawsbedrockruntimeapplyguardrail
 type EphemeralAwsBedrockruntimeApplyGuardrailContent struct {
 	// text block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail#text EphemeralAwsBedrockruntimeApplyGuardrail#text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail#text EphemeralAwsBedrockruntimeApplyGuardrail#text}
 	Text interface{} `field:"optional" json:"text" yaml:"text"`
 }
 

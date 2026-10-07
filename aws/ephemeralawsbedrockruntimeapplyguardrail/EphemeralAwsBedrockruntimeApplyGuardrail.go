@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail aws_bedrockruntime_apply_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail aws_bedrockruntime_apply_guardrail}.
 type EphemeralAwsBedrockruntimeApplyGuardrail interface {
 	cdktn.TerraformEphemeralResource
 	Action() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_EphemeralAwsBedrockruntimeApplyGuardrail) Usage() EphemeralAw
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail aws_bedrockruntime_apply_guardrail} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail aws_bedrockruntime_apply_guardrail} Ephemeral Resource.
 func NewEphemeralAwsBedrockruntimeApplyGuardrail(scope constructs.Construct, id *string, config *EphemeralAwsBedrockruntimeApplyGuardrailConfig) EphemeralAwsBedrockruntimeApplyGuardrail {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewEphemeralAwsBedrockruntimeApplyGuardrail(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail aws_bedrockruntime_apply_guardrail} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/ephemeral-resources/bedrockruntime_apply_guardrail aws_bedrockruntime_apply_guardrail} Ephemeral Resource.
 func NewEphemeralAwsBedrockruntimeApplyGuardrail_Override(e EphemeralAwsBedrockruntimeApplyGuardrail, scope constructs.Construct, id *string, config *EphemeralAwsBedrockruntimeApplyGuardrailConfig) {
 	_init_.Initialize()
 

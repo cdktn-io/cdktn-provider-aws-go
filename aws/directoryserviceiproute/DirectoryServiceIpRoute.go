@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_route aws_directory_service_ip_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directory_service_ip_route aws_directory_service_ip_route}.
 type DirectoryServiceIpRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_DirectoryServiceIpRoute) UpdateSecurityGroupForDirectoryContr
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_route aws_directory_service_ip_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directory_service_ip_route aws_directory_service_ip_route} Resource.
 func NewDirectoryServiceIpRoute(scope constructs.Construct, id *string, config *DirectoryServiceIpRouteConfig) DirectoryServiceIpRoute {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewDirectoryServiceIpRoute(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_route aws_directory_service_ip_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/directory_service_ip_route aws_directory_service_ip_route} Resource.
 func NewDirectoryServiceIpRoute_Override(d DirectoryServiceIpRoute, scope constructs.Construct, id *string, config *DirectoryServiceIpRouteConfig) {
 	_init_.Initialize()
 

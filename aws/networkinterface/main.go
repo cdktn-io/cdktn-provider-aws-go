@@ -21,6 +21,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "attachmentInput", GoGetter: "AttachmentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionTrackingSpecification", GoGetter: "ConnectionTrackingSpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "connectionTrackingSpecificationInput", GoGetter: "ConnectionTrackingSpecificationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
@@ -89,12 +91,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putAttachment", GoMethod: "PutAttachment"},
+			_jsii_.MemberMethod{JsiiMethod: "putConnectionTrackingSpecification", GoMethod: "PutConnectionTrackingSpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "putEnaSrdSpecification", GoMethod: "PutEnaSrdSpecification"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAttachment", GoMethod: "ResetAttachment"},
+			_jsii_.MemberMethod{JsiiMethod: "resetConnectionTrackingSpecification", GoMethod: "ResetConnectionTrackingSpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnablePrimaryIpv6", GoMethod: "ResetEnablePrimaryIpv6"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnaSrdSpecification", GoMethod: "ResetEnaSrdSpecification"},
@@ -215,6 +219,51 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.networkInterface.NetworkInterfaceConfig",
 		reflect.TypeOf((*NetworkInterfaceConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceConnectionTrackingSpecification",
+		reflect.TypeOf((*NetworkInterfaceConnectionTrackingSpecification)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.networkInterface.NetworkInterfaceConnectionTrackingSpecificationOutputReference",
+		reflect.TypeOf((*NetworkInterfaceConnectionTrackingSpecificationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTcpEstablishedTimeout", GoMethod: "ResetTcpEstablishedTimeout"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUdpStreamTimeout", GoMethod: "ResetUdpStreamTimeout"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUdpTimeout", GoMethod: "ResetUdpTimeout"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "tcpEstablishedTimeout", GoGetter: "TcpEstablishedTimeout"},
+			_jsii_.MemberProperty{JsiiProperty: "tcpEstablishedTimeoutInput", GoGetter: "TcpEstablishedTimeoutInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "udpStreamTimeout", GoGetter: "UdpStreamTimeout"},
+			_jsii_.MemberProperty{JsiiProperty: "udpStreamTimeoutInput", GoGetter: "UdpStreamTimeoutInput"},
+			_jsii_.MemberProperty{JsiiProperty: "udpTimeout", GoGetter: "UdpTimeout"},
+			_jsii_.MemberProperty{JsiiProperty: "udpTimeoutInput", GoGetter: "UdpTimeoutInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_NetworkInterfaceConnectionTrackingSpecificationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-aws.networkInterface.NetworkInterfaceEnaSrdSpecification",

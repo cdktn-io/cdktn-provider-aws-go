@@ -83,6 +83,10 @@ func (n *jsiiProxy_NetworkInterface) validatePutAttachmentParameters(value inter
 	return nil
 }
 
+func (n *jsiiProxy_NetworkInterface) validatePutConnectionTrackingSpecificationParameters(value *NetworkInterfaceConnectionTrackingSpecification) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkInterface) validatePutEnaSrdSpecificationParameters(value *NetworkInterfaceEnaSrdSpecification) error {
 	return nil
 }

@@ -7,7 +7,7 @@ package prometheusscraper
 type PrometheusScraperExporter struct {
 	// opensearch block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/prometheus_scraper#opensearch PrometheusScraper#opensearch}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/prometheus_scraper#opensearch PrometheusScraper#opensearch}
 	Opensearch interface{} `field:"optional" json:"opensearch" yaml:"opensearch"`
 }
 
