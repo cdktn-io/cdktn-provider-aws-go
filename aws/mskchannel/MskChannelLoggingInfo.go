@@ -7,15 +7,15 @@ package mskchannel
 type MskChannelLoggingInfo struct {
 	// cloudwatch_logs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#cloudwatch_logs MskChannel#cloudwatch_logs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#cloudwatch_logs MskChannel#cloudwatch_logs}
 	CloudwatchLogs interface{} `field:"optional" json:"cloudwatchLogs" yaml:"cloudwatchLogs"`
 	// firehose block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#firehose MskChannel#firehose}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#firehose MskChannel#firehose}
 	Firehose interface{} `field:"optional" json:"firehose" yaml:"firehose"`
 	// s3 block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#s3 MskChannel#s3}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#s3 MskChannel#s3}
 	S3 interface{} `field:"optional" json:"s3" yaml:"s3"`
 }
 

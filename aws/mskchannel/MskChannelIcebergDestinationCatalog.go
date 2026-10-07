@@ -5,9 +5,9 @@ package mskchannel
 
 
 type MskChannelIcebergDestinationCatalog struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}.
 	CatalogArn *string `field:"optional" json:"catalogArn" yaml:"catalogArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}.
 	WarehouseLocation *string `field:"optional" json:"warehouseLocation" yaml:"warehouseLocation"`
 }
 

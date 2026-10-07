@@ -5,7 +5,7 @@ package mskchannel
 
 
 type MskChannelTopicConfigurationRecordSchema struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}.
 	GsrArn *string `field:"required" json:"gsrArn" yaml:"gsrArn"`
 }
 

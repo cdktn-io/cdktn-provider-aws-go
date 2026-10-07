@@ -1,0 +1,42 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package directoryserviceiproutesexclusive
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type DirectoryServiceIpRoutesExclusiveConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive#directory_id DirectoryServiceIpRoutesExclusive#directory_id}.
+	DirectoryId *string `field:"required" json:"directoryId" yaml:"directoryId"`
+	// ip_route block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive#ip_route DirectoryServiceIpRoutesExclusive#ip_route}
+	IpRoute interface{} `field:"optional" json:"ipRoute" yaml:"ipRoute"`
+	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive#region DirectoryServiceIpRoutesExclusive#region}
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// timeouts block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive#timeouts DirectoryServiceIpRoutesExclusive#timeouts}
+	Timeouts *DirectoryServiceIpRoutesExclusiveTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/directory_service_ip_routes_exclusive#update_security_group_for_directory_controllers DirectoryServiceIpRoutesExclusive#update_security_group_for_directory_controllers}.
+	UpdateSecurityGroupForDirectoryControllers interface{} `field:"optional" json:"updateSecurityGroupForDirectoryControllers" yaml:"updateSecurityGroupForDirectoryControllers"`
+}
+

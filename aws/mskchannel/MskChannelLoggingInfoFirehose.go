@@ -5,9 +5,9 @@ package mskchannel
 
 
 type MskChannelLoggingInfoFirehose struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#enabled MskChannel#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#enabled MskChannel#enabled}.
 	Enabled interface{} `field:"required" json:"enabled" yaml:"enabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#delivery_stream MskChannel#delivery_stream}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#delivery_stream MskChannel#delivery_stream}.
 	DeliveryStream *string `field:"optional" json:"deliveryStream" yaml:"deliveryStream"`
 }
 

@@ -5,11 +5,11 @@ package mskchannel
 
 
 type MskChannelIcebergDestinationDestinationTablePartitionSpec struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#partition_strategy MskChannel#partition_strategy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#partition_strategy MskChannel#partition_strategy}.
 	PartitionStrategy *string `field:"required" json:"partitionStrategy" yaml:"partitionStrategy"`
 	// source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#source MskChannel#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#source MskChannel#source}
 	Source interface{} `field:"optional" json:"source" yaml:"source"`
 }
 

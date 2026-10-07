@@ -5,7 +5,7 @@ package mskchannel
 
 
 type MskChannelIcebergDestinationSchemaEvolution struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#enable_schema_evolution MskChannel#enable_schema_evolution}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#enable_schema_evolution MskChannel#enable_schema_evolution}.
 	EnableSchemaEvolution interface{} `field:"optional" json:"enableSchemaEvolution" yaml:"enableSchemaEvolution"`
 }
 

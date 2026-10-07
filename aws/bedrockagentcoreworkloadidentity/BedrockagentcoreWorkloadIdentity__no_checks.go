@@ -127,6 +127,10 @@ func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) validateSetRegionParameters
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewBedrockagentcoreWorkloadIdentityParameters(scope constructs.Construct, id *string, config *BedrockagentcoreWorkloadIdentityConfig) error {
 	return nil
 }

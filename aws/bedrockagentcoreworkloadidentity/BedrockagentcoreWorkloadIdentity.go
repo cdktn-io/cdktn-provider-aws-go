@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.
 type BedrockagentcoreWorkloadIdentity interface {
 	cdktn.TerraformResource
 	AllowedResourceOauth2ReturnUrls() *[]*string
@@ -64,6 +64,10 @@ type BedrockagentcoreWorkloadIdentity interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsAll() cdktn.StringMap
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -168,6 +172,7 @@ type BedrockagentcoreWorkloadIdentity interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -385,6 +390,36 @@ func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) TagsAll() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tagsAll",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -426,7 +461,7 @@ func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity) WorkloadIdentityArn() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
 func NewBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string, config *BedrockagentcoreWorkloadIdentityConfig) BedrockagentcoreWorkloadIdentity {
 	_init_.Initialize()
 
@@ -444,7 +479,7 @@ func NewBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.
 func NewBedrockagentcoreWorkloadIdentity_Override(b BedrockagentcoreWorkloadIdentity, scope constructs.Construct, id *string, config *BedrockagentcoreWorkloadIdentityConfig) {
 	_init_.Initialize()
 
@@ -552,6 +587,17 @@ func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreWorkloadIdentity)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -956,6 +1002,14 @@ func (b *jsiiProxy_BedrockagentcoreWorkloadIdentity) ResetRegion() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreWorkloadIdentity) ResetTags() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetTags",
 		nil, // no parameters
 	)
 }
