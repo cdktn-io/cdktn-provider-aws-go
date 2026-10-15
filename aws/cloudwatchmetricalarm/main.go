@@ -44,6 +44,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "evaluationIntervalInput", GoGetter: "EvaluationIntervalInput"},
 			_jsii_.MemberProperty{JsiiProperty: "evaluationPeriods", GoGetter: "EvaluationPeriods"},
 			_jsii_.MemberProperty{JsiiProperty: "evaluationPeriodsInput", GoGetter: "EvaluationPeriodsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "evaluationWindow", GoGetter: "EvaluationWindow"},
+			_jsii_.MemberProperty{JsiiProperty: "evaluationWindowInput", GoGetter: "EvaluationWindowInput"},
 			_jsii_.MemberProperty{JsiiProperty: "extendedStatistic", GoGetter: "ExtendedStatistic"},
 			_jsii_.MemberProperty{JsiiProperty: "extendedStatisticInput", GoGetter: "ExtendedStatisticInput"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
@@ -85,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putEvaluationCriteria", GoMethod: "PutEvaluationCriteria"},
+			_jsii_.MemberMethod{JsiiMethod: "putEvaluationWindow", GoMethod: "PutEvaluationWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "putMetricQuery", GoMethod: "PutMetricQuery"},
 			_jsii_.MemberMethod{JsiiMethod: "putWarmUpConfiguration", GoMethod: "PutWarmUpConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -101,6 +104,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEvaluationCriteria", GoMethod: "ResetEvaluationCriteria"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvaluationInterval", GoMethod: "ResetEvaluationInterval"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEvaluationPeriods", GoMethod: "ResetEvaluationPeriods"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEvaluationWindow", GoMethod: "ResetEvaluationWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "resetExtendedStatistic", GoMethod: "ResetExtendedStatistic"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInsufficientDataActions", GoMethod: "ResetInsufficientDataActions"},
@@ -235,6 +239,84 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudwatchMetricAlarmEvaluationCriteriaPromqlCriteriaOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindow",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationWindow)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindowOutputReference",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationWindowOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putWallClockWindow", GoMethod: "PutWallClockWindow"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wallClockWindow", GoGetter: "WallClockWindow"},
+			_jsii_.MemberProperty{JsiiProperty: "wallClockWindowInput", GoGetter: "WallClockWindowInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudwatchMetricAlarmEvaluationWindowOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindowWallClockWindow",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationWindowWallClockWindow)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindowWallClockWindowOutputReference",
+		reflect.TypeOf((*CloudwatchMetricAlarmEvaluationWindowWallClockWindowOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTimezone", GoMethod: "ResetTimezone"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "timezone", GoGetter: "Timezone"},
+			_jsii_.MemberProperty{JsiiProperty: "timezoneInput", GoGetter: "TimezoneInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudwatchMetricAlarmEvaluationWindowWallClockWindowOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

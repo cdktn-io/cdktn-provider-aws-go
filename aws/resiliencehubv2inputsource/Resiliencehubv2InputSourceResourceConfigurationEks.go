@@ -5,9 +5,13 @@ package resiliencehubv2inputsource
 
 
 type Resiliencehubv2InputSourceResourceConfigurationEks struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/resiliencehubv2_input_source#cluster_arn Resiliencehubv2InputSource#cluster_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/resiliencehubv2_input_source#cluster_arn Resiliencehubv2InputSource#cluster_arn}.
 	ClusterArn *string `field:"required" json:"clusterArn" yaml:"clusterArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/resiliencehubv2_input_source#namespaces Resiliencehubv2InputSource#namespaces}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/resiliencehubv2_input_source#namespaces Resiliencehubv2InputSource#namespaces}.
 	Namespaces *[]*string `field:"required" json:"namespaces" yaml:"namespaces"`
+	// label_selector block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/resiliencehubv2_input_source#label_selector Resiliencehubv2InputSource#label_selector}
+	LabelSelector interface{} `field:"optional" json:"labelSelector" yaml:"labelSelector"`
 }
 

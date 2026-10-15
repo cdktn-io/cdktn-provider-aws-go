@@ -42,6 +42,8 @@ type Wafv2WebAclRuleActionOutputReference interface {
 	Fqn() *string
 	InternalValue() *Wafv2WebAclRuleAction
 	SetInternalValue(val *Wafv2WebAclRuleAction)
+	Monetize() Wafv2WebAclRuleActionMonetizeOutputReference
+	MonetizeInput() *Wafv2WebAclRuleActionMonetize
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,11 +81,13 @@ type Wafv2WebAclRuleActionOutputReference interface {
 	PutCaptcha(value *Wafv2WebAclRuleActionCaptcha)
 	PutChallenge(value *Wafv2WebAclRuleActionChallenge)
 	PutCount(value *Wafv2WebAclRuleActionCount)
+	PutMonetize(value *Wafv2WebAclRuleActionMonetize)
 	ResetAllow()
 	ResetBlock()
 	ResetCaptcha()
 	ResetChallenge()
 	ResetCount()
+	ResetMonetize()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -244,6 +248,26 @@ func (j *jsiiProxy_Wafv2WebAclRuleActionOutputReference) InternalValue() *Wafv2W
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleActionOutputReference) Monetize() Wafv2WebAclRuleActionMonetizeOutputReference {
+	var returns Wafv2WebAclRuleActionMonetizeOutputReference
+	_jsii_.Get(
+		j,
+		"monetize",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleActionOutputReference) MonetizeInput() *Wafv2WebAclRuleActionMonetize {
+	var returns *Wafv2WebAclRuleActionMonetize
+	_jsii_.Get(
+		j,
+		"monetizeInput",
 		&returns,
 	)
 	return returns
@@ -593,6 +617,17 @@ func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) PutCount(value *Wafv2We
 	)
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) PutMonetize(value *Wafv2WebAclRuleActionMonetize) {
+	if err := w.validatePutMonetizeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putMonetize",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) ResetAllow() {
 	_jsii_.InvokeVoid(
 		w,
@@ -629,6 +664,14 @@ func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) ResetCount() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetCount",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) ResetMonetize() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetMonetize",
 		nil, // no parameters
 	)
 }

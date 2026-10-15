@@ -13,9 +13,21 @@ import (
 
 type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	cdktn.ComplexObject
+	Action() *string
+	SetAction(val *string)
+	ActionInput() *string
 	AddOrRunAnomalyDetectionForAnalyses() *string
 	SetAddOrRunAnomalyDetectionForAnalyses(val *string)
 	AddOrRunAnomalyDetectionForAnalysesInput() *string
+	Analysis() *string
+	SetAnalysis(val *string)
+	AnalysisInput() *string
+	Automate() *string
+	SetAutomate(val *string)
+	AutomateInput() *string
+	ChatAgent() *string
+	SetChatAgent(val *string)
+	ChatAgentInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,6 +53,9 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	CreateAndUpdateThresholdAlerts() *string
 	SetCreateAndUpdateThresholdAlerts(val *string)
 	CreateAndUpdateThresholdAlertsInput() *string
+	CreateChatAgents() *string
+	SetCreateChatAgents(val *string)
+	CreateChatAgentsInput() *string
 	CreateSharedFolders() *string
 	SetCreateSharedFolders(val *string)
 	CreateSharedFoldersInput() *string
@@ -52,6 +67,9 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Dashboard() *string
+	SetDashboard(val *string)
+	DashboardInput() *string
 	ExportToCsv() *string
 	SetExportToCsv(val *string)
 	ExportToCsvInput() *string
@@ -70,6 +88,9 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	ExportToPdfInScheduledReports() *string
 	SetExportToPdfInScheduledReports(val *string)
 	ExportToPdfInScheduledReportsInput() *string
+	Flow() *string
+	SetFlow(val *string)
+	FlowInput() *string
 	// Experimental.
 	Fqn() *string
 	IncludeContentInScheduledReportsEmail() *string
@@ -77,12 +98,24 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	IncludeContentInScheduledReportsEmailInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	KnowledgeBase() *string
+	SetKnowledgeBase(val *string)
+	KnowledgeBaseInput() *string
+	PerformFlowUiTask() *string
+	SetPerformFlowUiTask(val *string)
+	PerformFlowUiTaskInput() *string
 	PrintReports() *string
 	SetPrintReports(val *string)
 	PrintReportsInput() *string
+	PublishWithoutApproval() *string
+	SetPublishWithoutApproval(val *string)
+	PublishWithoutApprovalInput() *string
 	RenameSharedFolders() *string
 	SetRenameSharedFolders(val *string)
 	RenameSharedFoldersInput() *string
+	Research() *string
+	SetResearch(val *string)
+	ResearchInput() *string
 	ShareAnalyses() *string
 	SetShareAnalyses(val *string)
 	ShareAnalysesInput() *string
@@ -95,6 +128,9 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	ShareDataSources() *string
 	SetShareDataSources(val *string)
 	ShareDataSourcesInput() *string
+	Space() *string
+	SetSpace(val *string)
+	SpaceInput() *string
 	SubscribeDashboardEmailReports() *string
 	SetSubscribeDashboardEmailReports(val *string)
 	SubscribeDashboardEmailReportsInput() *string
@@ -106,6 +142,12 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseAgentWebSearch() *string
+	SetUseAgentWebSearch(val *string)
+	UseAgentWebSearchInput() *string
+	UseBedrockModels() *string
+	SetUseBedrockModels(val *string)
+	UseBedrockModelsInput() *string
 	ViewAccountSpiceCapacity() *string
 	SetViewAccountSpiceCapacity(val *string)
 	ViewAccountSpiceCapacityInput() *string
@@ -133,28 +175,42 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAction()
 	ResetAddOrRunAnomalyDetectionForAnalyses()
+	ResetAnalysis()
+	ResetAutomate()
+	ResetChatAgent()
 	ResetCreateAndUpdateDashboardEmailReports()
 	ResetCreateAndUpdateDatasets()
 	ResetCreateAndUpdateDataSources()
 	ResetCreateAndUpdateThemes()
 	ResetCreateAndUpdateThresholdAlerts()
+	ResetCreateChatAgents()
 	ResetCreateSharedFolders()
 	ResetCreateSpiceDataset()
+	ResetDashboard()
 	ResetExportToCsv()
 	ResetExportToCsvInScheduledReports()
 	ResetExportToExcel()
 	ResetExportToExcelInScheduledReports()
 	ResetExportToPdf()
 	ResetExportToPdfInScheduledReports()
+	ResetFlow()
 	ResetIncludeContentInScheduledReportsEmail()
+	ResetKnowledgeBase()
+	ResetPerformFlowUiTask()
 	ResetPrintReports()
+	ResetPublishWithoutApproval()
 	ResetRenameSharedFolders()
+	ResetResearch()
 	ResetShareAnalyses()
 	ResetShareDashboards()
 	ResetShareDatasets()
 	ResetShareDataSources()
+	ResetSpace()
 	ResetSubscribeDashboardEmailReports()
+	ResetUseAgentWebSearch()
+	ResetUseBedrockModels()
 	ResetViewAccountSpiceCapacity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -169,6 +225,26 @@ type QuicksightCustomPermissionsCapabilitiesOutputReference interface {
 // The jsii proxy struct for QuicksightCustomPermissionsCapabilitiesOutputReference
 type jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Action() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"action",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ActionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"actionInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) AddOrRunAnomalyDetectionForAnalyses() *string {
@@ -186,6 +262,66 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) AddOr
 	_jsii_.Get(
 		j,
 		"addOrRunAnomalyDetectionForAnalysesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Analysis() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"analysis",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) AnalysisInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"analysisInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Automate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"automate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) AutomateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"automateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ChatAgent() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"chatAgent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ChatAgentInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"chatAgentInput",
 		&returns,
 	)
 	return returns
@@ -311,6 +447,26 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Creat
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) CreateChatAgents() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createChatAgents",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) CreateChatAgentsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createChatAgentsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) CreateSharedFolders() *string {
 	var returns *string
 	_jsii_.Get(
@@ -356,6 +512,26 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Creat
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Dashboard() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dashboard",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) DashboardInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dashboardInput",
 		&returns,
 	)
 	return returns
@@ -481,6 +657,26 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Expor
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Flow() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"flow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) FlowInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"flowInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -521,6 +717,46 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Inter
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) KnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"knowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) KnowledgeBaseInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"knowledgeBaseInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) PerformFlowUiTask() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"performFlowUiTask",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) PerformFlowUiTaskInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"performFlowUiTaskInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) PrintReports() *string {
 	var returns *string
 	_jsii_.Get(
@@ -541,6 +777,26 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Print
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) PublishWithoutApproval() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"publishWithoutApproval",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) PublishWithoutApprovalInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"publishWithoutApprovalInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) RenameSharedFolders() *string {
 	var returns *string
 	_jsii_.Get(
@@ -556,6 +812,26 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Renam
 	_jsii_.Get(
 		j,
 		"renameSharedFoldersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Research() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"research",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResearchInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"researchInput",
 		&returns,
 	)
 	return returns
@@ -641,6 +917,26 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Share
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Space() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"space",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) SpaceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spaceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) SubscribeDashboardEmailReports() *string {
 	var returns *string
 	_jsii_.Get(
@@ -676,6 +972,46 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Terra
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) UseAgentWebSearch() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useAgentWebSearch",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) UseAgentWebSearchInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useAgentWebSearchInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) UseBedrockModels() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useBedrockModels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) UseBedrockModelsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useBedrockModelsInput",
 		&returns,
 	)
 	return returns
@@ -729,6 +1065,17 @@ func NewQuicksightCustomPermissionsCapabilitiesOutputReference_Override(q Quicks
 	)
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetAction(val *string) {
+	if err := j.validateSetActionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"action",
+		val,
+	)
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetAddOrRunAnomalyDetectionForAnalyses(val *string) {
 	if err := j.validateSetAddOrRunAnomalyDetectionForAnalysesParameters(val); err != nil {
 		panic(err)
@@ -736,6 +1083,39 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetAdd
 	_jsii_.Set(
 		j,
 		"addOrRunAnomalyDetectionForAnalyses",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetAnalysis(val *string) {
+	if err := j.validateSetAnalysisParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"analysis",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetAutomate(val *string) {
+	if err := j.validateSetAutomateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"automate",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetChatAgent(val *string) {
+	if err := j.validateSetChatAgentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"chatAgent",
 		val,
 	)
 }
@@ -817,6 +1197,17 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetCre
 	)
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetCreateChatAgents(val *string) {
+	if err := j.validateSetCreateChatAgentsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"createChatAgents",
+		val,
+	)
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetCreateSharedFolders(val *string) {
 	if err := j.validateSetCreateSharedFoldersParameters(val); err != nil {
 		panic(err)
@@ -835,6 +1226,17 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetCre
 	_jsii_.Set(
 		j,
 		"createSpiceDataset",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetDashboard(val *string) {
+	if err := j.validateSetDashboardParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dashboard",
 		val,
 	)
 }
@@ -905,6 +1307,17 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetExp
 	)
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetFlow(val *string) {
+	if err := j.validateSetFlowParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"flow",
+		val,
+	)
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetIncludeContentInScheduledReportsEmail(val *string) {
 	if err := j.validateSetIncludeContentInScheduledReportsEmailParameters(val); err != nil {
 		panic(err)
@@ -927,6 +1340,28 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetInt
 	)
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetKnowledgeBase(val *string) {
+	if err := j.validateSetKnowledgeBaseParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"knowledgeBase",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetPerformFlowUiTask(val *string) {
+	if err := j.validateSetPerformFlowUiTaskParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"performFlowUiTask",
+		val,
+	)
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetPrintReports(val *string) {
 	if err := j.validateSetPrintReportsParameters(val); err != nil {
 		panic(err)
@@ -938,6 +1373,17 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetPri
 	)
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetPublishWithoutApproval(val *string) {
+	if err := j.validateSetPublishWithoutApprovalParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"publishWithoutApproval",
+		val,
+	)
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetRenameSharedFolders(val *string) {
 	if err := j.validateSetRenameSharedFoldersParameters(val); err != nil {
 		panic(err)
@@ -945,6 +1391,17 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetRen
 	_jsii_.Set(
 		j,
 		"renameSharedFolders",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetResearch(val *string) {
+	if err := j.validateSetResearchParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"research",
 		val,
 	)
 }
@@ -993,6 +1450,17 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetSha
 	)
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetSpace(val *string) {
+	if err := j.validateSetSpaceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"space",
+		val,
+	)
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetSubscribeDashboardEmailReports(val *string) {
 	if err := j.validateSetSubscribeDashboardEmailReportsParameters(val); err != nil {
 		panic(err)
@@ -1022,6 +1490,28 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetTer
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetUseAgentWebSearch(val *string) {
+	if err := j.validateSetUseAgentWebSearchParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useAgentWebSearch",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference)SetUseBedrockModels(val *string) {
+	if err := j.validateSetUseBedrockModelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useBedrockModels",
 		val,
 	)
 }
@@ -1223,10 +1713,42 @@ func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Inter
 	return returns
 }
 
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetAction() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetAction",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetAddOrRunAnomalyDetectionForAnalyses() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetAddOrRunAnomalyDetectionForAnalyses",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetAnalysis() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetAnalysis",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetAutomate() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetAutomate",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetChatAgent() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetChatAgent",
 		nil, // no parameters
 	)
 }
@@ -1271,6 +1793,14 @@ func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Reset
 	)
 }
 
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetCreateChatAgents() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetCreateChatAgents",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetCreateSharedFolders() {
 	_jsii_.InvokeVoid(
 		q,
@@ -1283,6 +1813,14 @@ func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Reset
 	_jsii_.InvokeVoid(
 		q,
 		"resetCreateSpiceDataset",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetDashboard() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetDashboard",
 		nil, // no parameters
 	)
 }
@@ -1335,10 +1873,34 @@ func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Reset
 	)
 }
 
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetFlow() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetFlow",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetIncludeContentInScheduledReportsEmail() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetIncludeContentInScheduledReportsEmail",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetKnowledgeBase() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetKnowledgeBase",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetPerformFlowUiTask() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetPerformFlowUiTask",
 		nil, // no parameters
 	)
 }
@@ -1351,10 +1913,26 @@ func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Reset
 	)
 }
 
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetPublishWithoutApproval() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetPublishWithoutApproval",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetRenameSharedFolders() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetRenameSharedFolders",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetResearch() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetResearch",
 		nil, // no parameters
 	)
 }
@@ -1391,10 +1969,34 @@ func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) Reset
 	)
 }
 
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetSpace() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetSpace",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetSubscribeDashboardEmailReports() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetSubscribeDashboardEmailReports",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetUseAgentWebSearch() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetUseAgentWebSearch",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) ResetUseBedrockModels() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetUseBedrockModels",
 		nil, // no parameters
 	)
 }

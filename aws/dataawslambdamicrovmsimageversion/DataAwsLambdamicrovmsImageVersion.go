@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/data-sources/lambdamicrovms_image_version aws_lambdamicrovms_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/data-sources/lambdamicrovms_image_version aws_lambdamicrovms_image_version}.
 type DataAwsLambdamicrovmsImageVersion interface {
 	cdktn.TerraformDataSource
 	AdditionalOsCapabilities() *[]*string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DataAwsLambdamicrovmsImageVersion) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/data-sources/lambdamicrovms_image_version aws_lambdamicrovms_image_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/data-sources/lambdamicrovms_image_version aws_lambdamicrovms_image_version} Data Source.
 func NewDataAwsLambdamicrovmsImageVersion(scope constructs.Construct, id *string, config *DataAwsLambdamicrovmsImageVersionConfig) DataAwsLambdamicrovmsImageVersion {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewDataAwsLambdamicrovmsImageVersion(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/data-sources/lambdamicrovms_image_version aws_lambdamicrovms_image_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/data-sources/lambdamicrovms_image_version aws_lambdamicrovms_image_version} Data Source.
 func NewDataAwsLambdamicrovmsImageVersion_Override(d DataAwsLambdamicrovmsImageVersion, scope constructs.Construct, id *string, config *DataAwsLambdamicrovmsImageVersionConfig) {
 	_init_.Initialize()
 

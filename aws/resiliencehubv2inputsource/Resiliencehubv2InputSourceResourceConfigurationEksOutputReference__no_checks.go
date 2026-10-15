@@ -47,6 +47,10 @@ func (r *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputRefer
 	return nil
 }
 
+func (r *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputReference) validatePutLabelSelectorParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

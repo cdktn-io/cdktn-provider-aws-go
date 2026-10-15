@@ -147,6 +147,10 @@ func (j *jsiiProxy_Resiliencehubv2Policy) validateSetRegionParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_Resiliencehubv2Policy) validateSetSharingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_Resiliencehubv2Policy) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

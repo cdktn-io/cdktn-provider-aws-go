@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/rds_cluster aws_rds_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/rds_cluster aws_rds_cluster}.
 type RdsCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -224,6 +224,9 @@ type RdsCluster interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PubliclyAccessible() interface{}
+	SetPubliclyAccessible(val interface{})
+	PubliclyAccessibleInput() interface{}
 	// Experimental.
 	RawOverrides() interface{}
 	ReaderEndpoint() *string
@@ -430,6 +433,7 @@ type RdsCluster interface {
 	ResetPort()
 	ResetPreferredBackupWindow()
 	ResetPreferredMaintenanceWindow()
+	ResetPubliclyAccessible()
 	ResetRegion()
 	ResetReplicationSourceIdentifier()
 	ResetRestoreToPointInTime()
@@ -1743,6 +1747,26 @@ func (j *jsiiProxy_RdsCluster) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_RdsCluster) PubliclyAccessible() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"publiclyAccessible",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsCluster) PubliclyAccessibleInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"publiclyAccessibleInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RdsCluster) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -2124,7 +2148,7 @@ func (j *jsiiProxy_RdsCluster) WarningEventCategoriesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
 func NewRdsCluster(scope constructs.Construct, id *string, config *RdsClusterConfig) RdsCluster {
 	_init_.Initialize()
 
@@ -2142,7 +2166,7 @@ func NewRdsCluster(scope constructs.Construct, id *string, config *RdsClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/rds_cluster aws_rds_cluster} Resource.
 func NewRdsCluster_Override(r RdsCluster, scope constructs.Construct, id *string, config *RdsClusterConfig) {
 	_init_.Initialize()
 
@@ -2811,6 +2835,17 @@ func (j *jsiiProxy_RdsCluster)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsCluster)SetPubliclyAccessible(val interface{}) {
+	if err := j.validateSetPubliclyAccessibleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"publiclyAccessible",
 		val,
 	)
 }
@@ -3799,6 +3834,14 @@ func (r *jsiiProxy_RdsCluster) ResetPreferredMaintenanceWindow() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetPreferredMaintenanceWindow",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsCluster) ResetPubliclyAccessible() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetPubliclyAccessible",
 		nil, // no parameters
 	)
 }

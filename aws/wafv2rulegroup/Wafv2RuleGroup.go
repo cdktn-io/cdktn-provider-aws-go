@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group}.
 type Wafv2RuleGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -56,6 +56,8 @@ type Wafv2RuleGroup interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LockToken() *string
+	MonetizationConfig() Wafv2RuleGroupMonetizationConfigOutputReference
+	MonetizationConfigInput() *Wafv2RuleGroupMonetizationConfig
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -179,6 +181,7 @@ type Wafv2RuleGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutCustomResponseBody(value interface{})
+	PutMonetizationConfig(value *Wafv2RuleGroupMonetizationConfig)
 	PutRule(value interface{})
 	PutVisibilityConfig(value *Wafv2RuleGroupVisibilityConfig)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -197,6 +200,7 @@ type Wafv2RuleGroup interface {
 	ResetCustomResponseBody()
 	ResetDescription()
 	ResetId()
+	ResetMonetizationConfig()
 	ResetName()
 	ResetNamePrefix()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -419,6 +423,26 @@ func (j *jsiiProxy_Wafv2RuleGroup) LockToken() *string {
 	_jsii_.Get(
 		j,
 		"lockToken",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2RuleGroup) MonetizationConfig() Wafv2RuleGroupMonetizationConfigOutputReference {
+	var returns Wafv2RuleGroupMonetizationConfigOutputReference
+	_jsii_.Get(
+		j,
+		"monetizationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2RuleGroup) MonetizationConfigInput() *Wafv2RuleGroupMonetizationConfig {
+	var returns *Wafv2RuleGroupMonetizationConfig
+	_jsii_.Get(
+		j,
+		"monetizationConfigInput",
 		&returns,
 	)
 	return returns
@@ -675,7 +699,7 @@ func (j *jsiiProxy_Wafv2RuleGroup) VisibilityConfigInput() *Wafv2RuleGroupVisibi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
 func NewWafv2RuleGroup(scope constructs.Construct, id *string, config *Wafv2RuleGroupConfig) Wafv2RuleGroup {
 	_init_.Initialize()
 
@@ -693,7 +717,7 @@ func NewWafv2RuleGroup(scope constructs.Construct, id *string, config *Wafv2Rule
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_rule_group aws_wafv2_rule_group} Resource.
 func NewWafv2RuleGroup_Override(w Wafv2RuleGroup, scope constructs.Construct, id *string, config *Wafv2RuleGroupConfig) {
 	_init_.Initialize()
 
@@ -1262,6 +1286,17 @@ func (w *jsiiProxy_Wafv2RuleGroup) PutCustomResponseBody(value interface{}) {
 	)
 }
 
+func (w *jsiiProxy_Wafv2RuleGroup) PutMonetizationConfig(value *Wafv2RuleGroupMonetizationConfig) {
+	if err := w.validatePutMonetizationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putMonetizationConfig",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2RuleGroup) PutRule(value interface{}) {
 	if err := w.validatePutRuleParameters(value); err != nil {
 		panic(err)
@@ -1315,6 +1350,14 @@ func (w *jsiiProxy_Wafv2RuleGroup) ResetId() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2RuleGroup) ResetMonetizationConfig() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetMonetizationConfig",
 		nil, // no parameters
 	)
 }

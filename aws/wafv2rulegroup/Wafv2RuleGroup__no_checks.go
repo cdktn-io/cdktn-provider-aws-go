@@ -83,6 +83,10 @@ func (w *jsiiProxy_Wafv2RuleGroup) validatePutCustomResponseBodyParameters(value
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2RuleGroup) validatePutMonetizationConfigParameters(value *Wafv2RuleGroupMonetizationConfig) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2RuleGroup) validatePutRuleParameters(value interface{}) error {
 	return nil
 }

@@ -25,6 +25,8 @@ type BedrockagentDataSourceVectorIngestionConfigurationOutputReference interface
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContextEnrichmentConfiguration() BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfigurationList
+	ContextEnrichmentConfigurationInput() interface{}
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -71,9 +73,11 @@ type BedrockagentDataSourceVectorIngestionConfigurationOutputReference interface
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutChunkingConfiguration(value interface{})
+	PutContextEnrichmentConfiguration(value interface{})
 	PutCustomTransformationConfiguration(value interface{})
 	PutParsingConfiguration(value interface{})
 	ResetChunkingConfiguration()
+	ResetContextEnrichmentConfiguration()
 	ResetCustomTransformationConfiguration()
 	ResetParsingConfiguration()
 	// Produce the Token's value at resolution time.
@@ -126,6 +130,26 @@ func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputRefer
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputReference) ContextEnrichmentConfiguration() BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfigurationList {
+	var returns BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfigurationList
+	_jsii_.Get(
+		j,
+		"contextEnrichmentConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputReference) ContextEnrichmentConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"contextEnrichmentConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -501,6 +525,17 @@ func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputRefer
 	)
 }
 
+func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputReference) PutContextEnrichmentConfiguration(value interface{}) {
+	if err := b.validatePutContextEnrichmentConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putContextEnrichmentConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputReference) PutCustomTransformationConfiguration(value interface{}) {
 	if err := b.validatePutCustomTransformationConfigurationParameters(value); err != nil {
 		panic(err)
@@ -527,6 +562,14 @@ func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputRefer
 	_jsii_.InvokeVoid(
 		b,
 		"resetChunkingConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputReference) ResetContextEnrichmentConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetContextEnrichmentConfiguration",
 		nil, // no parameters
 	)
 }

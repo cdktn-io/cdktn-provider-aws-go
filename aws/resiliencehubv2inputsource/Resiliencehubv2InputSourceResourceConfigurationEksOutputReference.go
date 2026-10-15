@@ -35,6 +35,8 @@ type Resiliencehubv2InputSourceResourceConfigurationEksOutputReference interface
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LabelSelector() Resiliencehubv2InputSourceResourceConfigurationEksLabelSelectorList
+	LabelSelectorInput() interface{}
 	Namespaces() *[]*string
 	SetNamespaces(val *[]*string)
 	NamespacesInput() *[]*string
@@ -70,6 +72,8 @@ type Resiliencehubv2InputSourceResourceConfigurationEksOutputReference interface
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutLabelSelector(value interface{})
+	ResetLabelSelector()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -150,6 +154,26 @@ func (j *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputRefer
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputReference) LabelSelector() Resiliencehubv2InputSourceResourceConfigurationEksLabelSelectorList {
+	var returns Resiliencehubv2InputSourceResourceConfigurationEksLabelSelectorList
+	_jsii_.Get(
+		j,
+		"labelSelector",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputReference) LabelSelectorInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"labelSelectorInput",
 		&returns,
 	)
 	return returns
@@ -484,6 +508,25 @@ func (r *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputRefer
 	)
 
 	return returns
+}
+
+func (r *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputReference) PutLabelSelector(value interface{}) {
+	if err := r.validatePutLabelSelectorParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putLabelSelector",
+		[]interface{}{value},
+	)
+}
+
+func (r *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputReference) ResetLabelSelector() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetLabelSelector",
+		nil, // no parameters
+	)
 }
 
 func (r *jsiiProxy_Resiliencehubv2InputSourceResourceConfigurationEksOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

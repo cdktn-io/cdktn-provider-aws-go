@@ -7,7 +7,7 @@ package odbautonomousdatabase
 type OdbAutonomousDatabaseCustomerContactsToSendToOci struct {
 	// Email address of the customer contact.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database#email OdbAutonomousDatabase#email}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#email OdbAutonomousDatabase#email}
 	Email *string `field:"required" json:"email" yaml:"email"`
 }
 

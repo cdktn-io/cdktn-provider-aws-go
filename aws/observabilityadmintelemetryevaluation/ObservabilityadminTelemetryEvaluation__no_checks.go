@@ -103,6 +103,10 @@ func validateObservabilityadminTelemetryEvaluation_IsTerraformResourceParameters
 	return nil
 }
 
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) validateSetAllRegionsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) validateSetProvisioner
 }
 
 func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) validateSetRegionsParameters(val *[]*string) error {
 	return nil
 }
 

@@ -51,6 +51,10 @@ func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputRefer
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputReference) validatePutContextEnrichmentConfigurationParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentDataSourceVectorIngestionConfigurationOutputReference) validatePutCustomTransformationConfigurationParameters(value interface{}) error {
 	return nil
 }

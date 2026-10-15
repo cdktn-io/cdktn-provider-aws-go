@@ -42,6 +42,8 @@ type Wafv2RuleGroupRuleActionOutputReference interface {
 	Fqn() *string
 	InternalValue() *Wafv2RuleGroupRuleAction
 	SetInternalValue(val *Wafv2RuleGroupRuleAction)
+	Monetize() Wafv2RuleGroupRuleActionMonetizeOutputReference
+	MonetizeInput() *Wafv2RuleGroupRuleActionMonetize
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,11 +81,13 @@ type Wafv2RuleGroupRuleActionOutputReference interface {
 	PutCaptcha(value *Wafv2RuleGroupRuleActionCaptcha)
 	PutChallenge(value *Wafv2RuleGroupRuleActionChallenge)
 	PutCount(value *Wafv2RuleGroupRuleActionCount)
+	PutMonetize(value *Wafv2RuleGroupRuleActionMonetize)
 	ResetAllow()
 	ResetBlock()
 	ResetCaptcha()
 	ResetChallenge()
 	ResetCount()
+	ResetMonetize()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -244,6 +248,26 @@ func (j *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) InternalValue() *Waf
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) Monetize() Wafv2RuleGroupRuleActionMonetizeOutputReference {
+	var returns Wafv2RuleGroupRuleActionMonetizeOutputReference
+	_jsii_.Get(
+		j,
+		"monetize",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) MonetizeInput() *Wafv2RuleGroupRuleActionMonetize {
+	var returns *Wafv2RuleGroupRuleActionMonetize
+	_jsii_.Get(
+		j,
+		"monetizeInput",
 		&returns,
 	)
 	return returns
@@ -593,6 +617,17 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) PutCount(value *Wafv
 	)
 }
 
+func (w *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) PutMonetize(value *Wafv2RuleGroupRuleActionMonetize) {
+	if err := w.validatePutMonetizeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putMonetize",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) ResetAllow() {
 	_jsii_.InvokeVoid(
 		w,
@@ -629,6 +664,14 @@ func (w *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) ResetCount() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetCount",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2RuleGroupRuleActionOutputReference) ResetMonetize() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetMonetize",
 		nil, // no parameters
 	)
 }

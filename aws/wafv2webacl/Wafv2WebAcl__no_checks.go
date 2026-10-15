@@ -103,6 +103,10 @@ func (w *jsiiProxy_Wafv2WebAcl) validatePutDefaultActionParameters(value *Wafv2W
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAcl) validatePutMonetizationConfigParameters(value *Wafv2WebAclMonetizationConfig) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2WebAcl) validatePutRuleParameters(value interface{}) error {
 	return nil
 }

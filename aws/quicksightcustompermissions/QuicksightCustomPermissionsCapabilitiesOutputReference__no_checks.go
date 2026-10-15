@@ -51,7 +51,23 @@ func (q *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetActionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetAddOrRunAnomalyDetectionForAnalysesParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetAnalysisParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetAutomateParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetChatAgentParameters(val *string) error {
 	return nil
 }
 
@@ -83,11 +99,19 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetCreateChatAgentsParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetCreateSharedFoldersParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetCreateSpiceDatasetParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetDashboardParameters(val *string) error {
 	return nil
 }
 
@@ -115,6 +139,10 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetFlowParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetIncludeContentInScheduledReportsEmailParameters(val *string) error {
 	return nil
 }
@@ -123,11 +151,27 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetKnowledgeBaseParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetPerformFlowUiTaskParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetPrintReportsParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetPublishWithoutApprovalParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetRenameSharedFoldersParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetResearchParameters(val *string) error {
 	return nil
 }
 
@@ -147,6 +191,10 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetSpaceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetSubscribeDashboardEmailReportsParameters(val *string) error {
 	return nil
 }
@@ -156,6 +204,14 @@ func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) valid
 }
 
 func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetUseAgentWebSearchParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightCustomPermissionsCapabilitiesOutputReference) validateSetUseBedrockModelsParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/data-sources/resiliencehubv2_policy aws_resiliencehubv2_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/data-sources/resiliencehubv2_policy aws_resiliencehubv2_policy}.
 type DataAwsResiliencehubv2Policy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -60,6 +60,7 @@ type DataAwsResiliencehubv2Policy interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	SharingEnabled() cdktn.IResolvable
 	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -357,6 +358,16 @@ func (j *jsiiProxy_DataAwsResiliencehubv2Policy) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsResiliencehubv2Policy) SharingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"sharingEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsResiliencehubv2Policy) Tags() cdktn.StringMap {
 	var returns cdktn.StringMap
 	_jsii_.Get(
@@ -398,7 +409,7 @@ func (j *jsiiProxy_DataAwsResiliencehubv2Policy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/data-sources/resiliencehubv2_policy aws_resiliencehubv2_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/data-sources/resiliencehubv2_policy aws_resiliencehubv2_policy} Data Source.
 func NewDataAwsResiliencehubv2Policy(scope constructs.Construct, id *string, config *DataAwsResiliencehubv2PolicyConfig) DataAwsResiliencehubv2Policy {
 	_init_.Initialize()
 
@@ -416,7 +427,7 @@ func NewDataAwsResiliencehubv2Policy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/data-sources/resiliencehubv2_policy aws_resiliencehubv2_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/data-sources/resiliencehubv2_policy aws_resiliencehubv2_policy} Data Source.
 func NewDataAwsResiliencehubv2Policy_Override(d DataAwsResiliencehubv2Policy, scope constructs.Construct, id *string, config *DataAwsResiliencehubv2PolicyConfig) {
 	_init_.Initialize()
 

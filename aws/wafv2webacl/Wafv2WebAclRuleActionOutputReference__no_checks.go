@@ -67,6 +67,10 @@ func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) validatePutCountParamet
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) validatePutMonetizeParameters(value *Wafv2WebAclRuleActionMonetize) error {
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

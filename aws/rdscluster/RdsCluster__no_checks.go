@@ -351,6 +351,10 @@ func (j *jsiiProxy_RdsCluster) validateSetProvisionersParameters(val *[]interfac
 	return nil
 }
 
+func (j *jsiiProxy_RdsCluster) validateSetPubliclyAccessibleParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_RdsCluster) validateSetRegionParameters(val *string) error {
 	return nil
 }

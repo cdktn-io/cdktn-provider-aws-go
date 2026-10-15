@@ -39,6 +39,8 @@ type BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorC
 	SetInternalValue(val interface{})
 	MediaExtractionConfiguration() BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationMediaExtractionConfigurationList
 	MediaExtractionConfigurationInput() interface{}
+	SyncSchedule() BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncScheduleList
+	SyncScheduleInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorC
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDeletionProtectionConfiguration(value interface{})
 	PutMediaExtractionConfiguration(value interface{})
+	PutSyncSchedule(value interface{})
 	ResetConnectorParameters()
 	ResetDeletionProtectionConfiguration()
 	ResetMediaExtractionConfiguration()
+	ResetSyncSchedule()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledge
 	_jsii_.Get(
 		j,
 		"mediaExtractionConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) SyncSchedule() BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncScheduleList {
+	var returns BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncScheduleList
+	_jsii_.Get(
+		j,
+		"syncSchedule",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) SyncScheduleInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"syncScheduleInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledge
 	)
 }
 
+func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) PutSyncSchedule(value interface{}) {
+	if err := b.validatePutSyncScheduleParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSyncSchedule",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) ResetConnectorParameters() {
 	_jsii_.InvokeVoid(
 		b,
@@ -543,6 +578,14 @@ func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledge
 	_jsii_.InvokeVoid(
 		b,
 		"resetMediaExtractionConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) ResetSyncSchedule() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSyncSchedule",
 		nil, // no parameters
 	)
 }

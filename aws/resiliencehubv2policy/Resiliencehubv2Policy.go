@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/resiliencehubv2_policy aws_resiliencehubv2_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/resiliencehubv2_policy aws_resiliencehubv2_policy}.
 type Resiliencehubv2Policy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -76,6 +76,9 @@ type Resiliencehubv2Policy interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	SharingEnabled() interface{}
+	SetSharingEnabled(val interface{})
+	SharingEnabledInput() interface{}
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsAll() cdktn.StringMap
@@ -192,6 +195,7 @@ type Resiliencehubv2Policy interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetSharingEnabled()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -520,6 +524,26 @@ func (j *jsiiProxy_Resiliencehubv2Policy) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Resiliencehubv2Policy) SharingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sharingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2Policy) SharingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sharingEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Resiliencehubv2Policy) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -581,7 +605,7 @@ func (j *jsiiProxy_Resiliencehubv2Policy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/resiliencehubv2_policy aws_resiliencehubv2_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/resiliencehubv2_policy aws_resiliencehubv2_policy} Resource.
 func NewResiliencehubv2Policy(scope constructs.Construct, id *string, config *Resiliencehubv2PolicyConfig) Resiliencehubv2Policy {
 	_init_.Initialize()
 
@@ -599,7 +623,7 @@ func NewResiliencehubv2Policy(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/resiliencehubv2_policy aws_resiliencehubv2_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/resiliencehubv2_policy aws_resiliencehubv2_policy} Resource.
 func NewResiliencehubv2Policy_Override(r Resiliencehubv2Policy, scope constructs.Construct, id *string, config *Resiliencehubv2PolicyConfig) {
 	_init_.Initialize()
 
@@ -718,6 +742,17 @@ func (j *jsiiProxy_Resiliencehubv2Policy)SetRegion(val *string) {
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Resiliencehubv2Policy)SetSharingEnabled(val interface{}) {
+	if err := j.validateSetSharingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sharingEnabled",
 		val,
 	)
 }
@@ -1217,6 +1252,14 @@ func (r *jsiiProxy_Resiliencehubv2Policy) ResetRegion() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Resiliencehubv2Policy) ResetSharingEnabled() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetSharingEnabled",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
 type CloudwatchMetricAlarm interface {
 	cdktn.TerraformResource
 	ActionsEnabled() interface{}
@@ -64,6 +64,8 @@ type CloudwatchMetricAlarm interface {
 	EvaluationPeriods() *float64
 	SetEvaluationPeriods(val *float64)
 	EvaluationPeriodsInput() *float64
+	EvaluationWindow() CloudwatchMetricAlarmEvaluationWindowOutputReference
+	EvaluationWindowInput() *CloudwatchMetricAlarmEvaluationWindow
 	ExtendedStatistic() *string
 	SetExtendedStatistic(val *string)
 	ExtendedStatisticInput() *string
@@ -223,6 +225,7 @@ type CloudwatchMetricAlarm interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutEvaluationCriteria(value *CloudwatchMetricAlarmEvaluationCriteria)
+	PutEvaluationWindow(value *CloudwatchMetricAlarmEvaluationWindow)
 	PutMetricQuery(value interface{})
 	PutWarmUpConfiguration(value *CloudwatchMetricAlarmWarmUpConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -248,6 +251,7 @@ type CloudwatchMetricAlarm interface {
 	ResetEvaluationCriteria()
 	ResetEvaluationInterval()
 	ResetEvaluationPeriods()
+	ResetEvaluationWindow()
 	ResetExtendedStatistic()
 	ResetId()
 	ResetInsufficientDataActions()
@@ -570,6 +574,26 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) EvaluationPeriodsInput() *float64 {
 	_jsii_.Get(
 		j,
 		"evaluationPeriodsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchMetricAlarm) EvaluationWindow() CloudwatchMetricAlarmEvaluationWindowOutputReference {
+	var returns CloudwatchMetricAlarmEvaluationWindowOutputReference
+	_jsii_.Get(
+		j,
+		"evaluationWindow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchMetricAlarm) EvaluationWindowInput() *CloudwatchMetricAlarmEvaluationWindow {
+	var returns *CloudwatchMetricAlarmEvaluationWindow
+	_jsii_.Get(
+		j,
+		"evaluationWindowInput",
 		&returns,
 	)
 	return returns
@@ -1026,7 +1050,7 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) WarmUpConfigurationInput() *Cloudwatch
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) CloudwatchMetricAlarm {
 	_init_.Initialize()
 
@@ -1044,7 +1068,7 @@ func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm_Override(c CloudwatchMetricAlarm, scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) {
 	_init_.Initialize()
 
@@ -1778,6 +1802,17 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) PutEvaluationCriteria(value *Cloudwatc
 	)
 }
 
+func (c *jsiiProxy_CloudwatchMetricAlarm) PutEvaluationWindow(value *CloudwatchMetricAlarmEvaluationWindow) {
+	if err := c.validatePutEvaluationWindowParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putEvaluationWindow",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudwatchMetricAlarm) PutMetricQuery(value interface{}) {
 	if err := c.validatePutMetricQueryParameters(value); err != nil {
 		panic(err)
@@ -1887,6 +1922,14 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) ResetEvaluationPeriods() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetEvaluationPeriods",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudwatchMetricAlarm) ResetEvaluationWindow() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEvaluationWindow",
 		nil, // no parameters
 	)
 }

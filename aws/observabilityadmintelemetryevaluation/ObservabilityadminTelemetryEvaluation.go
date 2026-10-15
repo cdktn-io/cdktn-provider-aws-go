@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation}.
 type ObservabilityadminTelemetryEvaluation interface {
 	cdktn.TerraformResource
+	AllRegions() interface{}
+	SetAllRegions(val interface{})
+	AllRegionsInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -60,6 +63,9 @@ type ObservabilityadminTelemetryEvaluation interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	Regions() *[]*string
+	SetRegions(val *[]*string)
+	RegionsInput() *[]*string
 	Status() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -162,10 +168,12 @@ type ObservabilityadminTelemetryEvaluation interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAllRegions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetRegions()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -192,6 +200,26 @@ type ObservabilityadminTelemetryEvaluation interface {
 // The jsii proxy struct for ObservabilityadminTelemetryEvaluation
 type jsiiProxy_ObservabilityadminTelemetryEvaluation struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) AllRegions() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allRegions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) AllRegionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allRegionsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) CdktfStack() cdktn.TerraformStack {
@@ -364,6 +392,26 @@ func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) RegionInput() *string 
 	return returns
 }
 
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) Regions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"regions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) RegionsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"regionsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) Status() *string {
 	var returns *string
 	_jsii_.Get(
@@ -425,7 +473,7 @@ func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation} Resource.
 func NewObservabilityadminTelemetryEvaluation(scope constructs.Construct, id *string, config *ObservabilityadminTelemetryEvaluationConfig) ObservabilityadminTelemetryEvaluation {
 	_init_.Initialize()
 
@@ -443,7 +491,7 @@ func NewObservabilityadminTelemetryEvaluation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation} Resource.
 func NewObservabilityadminTelemetryEvaluation_Override(o ObservabilityadminTelemetryEvaluation, scope constructs.Construct, id *string, config *ObservabilityadminTelemetryEvaluationConfig) {
 	_init_.Initialize()
 
@@ -451,6 +499,17 @@ func NewObservabilityadminTelemetryEvaluation_Override(o ObservabilityadminTelem
 		"@cdktn/provider-aws.observabilityadminTelemetryEvaluation.ObservabilityadminTelemetryEvaluation",
 		[]interface{}{scope, id, config},
 		o,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation)SetAllRegions(val interface{}) {
+	if err := j.validateSetAllRegionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allRegions",
+		val,
 	)
 }
 
@@ -529,6 +588,17 @@ func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation)SetRegion(val *string) 
 	_jsii_.Set(
 		j,
 		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryEvaluation)SetRegions(val *[]*string) {
+	if err := j.validateSetRegionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"regions",
 		val,
 	)
 }
@@ -924,6 +994,14 @@ func (o *jsiiProxy_ObservabilityadminTelemetryEvaluation) RegisterProviderFeatur
 	)
 }
 
+func (o *jsiiProxy_ObservabilityadminTelemetryEvaluation) ResetAllRegions() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetAllRegions",
+		nil, // no parameters
+	)
+}
+
 func (o *jsiiProxy_ObservabilityadminTelemetryEvaluation) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		o,
@@ -936,6 +1014,14 @@ func (o *jsiiProxy_ObservabilityadminTelemetryEvaluation) ResetRegion() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryEvaluation) ResetRegions() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetRegions",
 		nil, // no parameters
 	)
 }

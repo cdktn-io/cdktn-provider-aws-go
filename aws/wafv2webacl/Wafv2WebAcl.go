@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl}.
 type Wafv2WebAcl interface {
 	cdktn.TerraformResource
 	ApplicationIntegrationUrl() *string
@@ -65,6 +65,8 @@ type Wafv2WebAcl interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LockToken() *string
+	MonetizationConfig() Wafv2WebAclMonetizationConfigOutputReference
+	MonetizationConfigInput() *Wafv2WebAclMonetizationConfig
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -196,6 +198,7 @@ type Wafv2WebAcl interface {
 	PutCustomResponseBody(value interface{})
 	PutDataProtectionConfig(value *Wafv2WebAclDataProtectionConfig)
 	PutDefaultAction(value *Wafv2WebAclDefaultAction)
+	PutMonetizationConfig(value *Wafv2WebAclMonetizationConfig)
 	PutRule(value interface{})
 	PutVisibilityConfig(value *Wafv2WebAclVisibilityConfig)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -218,6 +221,7 @@ type Wafv2WebAcl interface {
 	ResetDataProtectionConfig()
 	ResetDescription()
 	ResetId()
+	ResetMonetizationConfig()
 	ResetName()
 	ResetNamePrefix()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -546,6 +550,26 @@ func (j *jsiiProxy_Wafv2WebAcl) LockToken() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Wafv2WebAcl) MonetizationConfig() Wafv2WebAclMonetizationConfigOutputReference {
+	var returns Wafv2WebAclMonetizationConfigOutputReference
+	_jsii_.Get(
+		j,
+		"monetizationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAcl) MonetizationConfigInput() *Wafv2WebAclMonetizationConfig {
+	var returns *Wafv2WebAclMonetizationConfig
+	_jsii_.Get(
+		j,
+		"monetizationConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Wafv2WebAcl) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -817,7 +841,7 @@ func (j *jsiiProxy_Wafv2WebAcl) VisibilityConfigInput() *Wafv2WebAclVisibilityCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
 func NewWafv2WebAcl(scope constructs.Construct, id *string, config *Wafv2WebAclConfig) Wafv2WebAcl {
 	_init_.Initialize()
 
@@ -835,7 +859,7 @@ func NewWafv2WebAcl(scope constructs.Construct, id *string, config *Wafv2WebAclC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.
 func NewWafv2WebAcl_Override(w Wafv2WebAcl, scope constructs.Construct, id *string, config *Wafv2WebAclConfig) {
 	_init_.Initialize()
 
@@ -1459,6 +1483,17 @@ func (w *jsiiProxy_Wafv2WebAcl) PutDefaultAction(value *Wafv2WebAclDefaultAction
 	)
 }
 
+func (w *jsiiProxy_Wafv2WebAcl) PutMonetizationConfig(value *Wafv2WebAclMonetizationConfig) {
+	if err := w.validatePutMonetizationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putMonetizationConfig",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2WebAcl) PutRule(value interface{}) {
 	if err := w.validatePutRuleParameters(value); err != nil {
 		panic(err)
@@ -1544,6 +1579,14 @@ func (w *jsiiProxy_Wafv2WebAcl) ResetId() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAcl) ResetMonetizationConfig() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetMonetizationConfig",
 		nil, // no parameters
 	)
 }

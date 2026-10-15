@@ -83,6 +83,10 @@ func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutEvaluationCriteriaParameter
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutEvaluationWindowParameters(value *CloudwatchMetricAlarmEvaluationWindow) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchMetricAlarm) validatePutMetricQueryParameters(value interface{}) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration}.
 type OdbAutonomousDatabaseSecretsManagerIntegration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_OdbAutonomousDatabaseSecretsManagerIntegration) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
 func NewOdbAutonomousDatabaseSecretsManagerIntegration(scope constructs.Construct, id *string, config *OdbAutonomousDatabaseSecretsManagerIntegrationConfig) OdbAutonomousDatabaseSecretsManagerIntegration {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewOdbAutonomousDatabaseSecretsManagerIntegration(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
 func NewOdbAutonomousDatabaseSecretsManagerIntegration_Override(o OdbAutonomousDatabaseSecretsManagerIntegration, scope constructs.Construct, id *string, config *OdbAutonomousDatabaseSecretsManagerIntegrationConfig) {
 	_init_.Initialize()
 
