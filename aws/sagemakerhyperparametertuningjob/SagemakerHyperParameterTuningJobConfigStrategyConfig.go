@@ -7,7 +7,7 @@ package sagemakerhyperparametertuningjob
 type SagemakerHyperParameterTuningJobConfigStrategyConfig struct {
 	// hyperband_strategy_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hyperband_strategy_config SagemakerHyperParameterTuningJob#hyperband_strategy_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_hyper_parameter_tuning_job#hyperband_strategy_config SagemakerHyperParameterTuningJob#hyperband_strategy_config}
 	HyperbandStrategyConfig interface{} `field:"optional" json:"hyperbandStrategyConfig" yaml:"hyperbandStrategyConfig"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatchomni_space aws_cloudwatchomni_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatchomni_space aws_cloudwatchomni_space}.
 type CloudwatchomniSpace interface {
 	cdktn.TerraformResource
 	AgentCoreEvaluationRoleArn() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_CloudwatchomniSpace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatchomni_space aws_cloudwatchomni_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatchomni_space aws_cloudwatchomni_space} Resource.
 func NewCloudwatchomniSpace(scope constructs.Construct, id *string, config *CloudwatchomniSpaceConfig) CloudwatchomniSpace {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewCloudwatchomniSpace(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatchomni_space aws_cloudwatchomni_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatchomni_space aws_cloudwatchomni_space} Resource.
 func NewCloudwatchomniSpace_Override(c CloudwatchomniSpace, scope constructs.Construct, id *string, config *CloudwatchomniSpaceConfig) {
 	_init_.Initialize()
 

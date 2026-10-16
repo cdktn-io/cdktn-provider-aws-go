@@ -7,7 +7,7 @@ package bedrockagentcoregatewaytarget
 type BedrockagentcoreGatewayTargetTargetConfigurationHttpPassthroughSchema struct {
 	// source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/bedrockagentcore_gateway_target#source BedrockagentcoreGatewayTarget#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_gateway_target#source BedrockagentcoreGatewayTarget#source}
 	Source interface{} `field:"optional" json:"source" yaml:"source"`
 }
 

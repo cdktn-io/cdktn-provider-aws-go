@@ -5,9 +5,9 @@ package wafv2webacl
 
 
 type Wafv2WebAclMonetizationConfigCryptoConfigPaymentNetworkPrices struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#amount Wafv2WebAcl#amount}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_web_acl#amount Wafv2WebAcl#amount}.
 	Amount *string `field:"required" json:"amount" yaml:"amount"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#currency Wafv2WebAcl#currency}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_web_acl#currency Wafv2WebAcl#currency}.
 	Currency *string `field:"required" json:"currency" yaml:"currency"`
 }
 

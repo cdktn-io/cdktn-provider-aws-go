@@ -5,7 +5,7 @@ package dataawsservicecatalogprovisioningartifacts
 
 
 type DataAwsServicecatalogProvisioningArtifactsTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/data-sources/servicecatalog_provisioning_artifacts#read DataAwsServicecatalogProvisioningArtifacts#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/servicecatalog_provisioning_artifacts#read DataAwsServicecatalogProvisioningArtifacts#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

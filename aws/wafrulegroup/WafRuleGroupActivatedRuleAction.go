@@ -5,7 +5,7 @@ package wafrulegroup
 
 
 type WafRuleGroupActivatedRuleAction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/waf_rule_group#type WafRuleGroup#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/waf_rule_group#type WafRuleGroup#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

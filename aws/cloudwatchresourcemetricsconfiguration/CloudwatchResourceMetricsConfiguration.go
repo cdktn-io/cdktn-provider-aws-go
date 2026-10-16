@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_resource_metrics_configuration aws_cloudwatch_resource_metrics_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_resource_metrics_configuration aws_cloudwatch_resource_metrics_configuration}.
 type CloudwatchResourceMetricsConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -415,7 +415,7 @@ func (j *jsiiProxy_CloudwatchResourceMetricsConfiguration) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_resource_metrics_configuration aws_cloudwatch_resource_metrics_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_resource_metrics_configuration aws_cloudwatch_resource_metrics_configuration} Resource.
 func NewCloudwatchResourceMetricsConfiguration(scope constructs.Construct, id *string, config *CloudwatchResourceMetricsConfigurationConfig) CloudwatchResourceMetricsConfiguration {
 	_init_.Initialize()
 
@@ -433,7 +433,7 @@ func NewCloudwatchResourceMetricsConfiguration(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_resource_metrics_configuration aws_cloudwatch_resource_metrics_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_resource_metrics_configuration aws_cloudwatch_resource_metrics_configuration} Resource.
 func NewCloudwatchResourceMetricsConfiguration_Override(c CloudwatchResourceMetricsConfiguration, scope constructs.Construct, id *string, config *CloudwatchResourceMetricsConfigurationConfig) {
 	_init_.Initialize()
 

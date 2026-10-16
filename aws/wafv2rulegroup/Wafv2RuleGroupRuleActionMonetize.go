@@ -5,7 +5,7 @@ package wafv2rulegroup
 
 
 type Wafv2RuleGroupRuleActionMonetize struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_rule_group#price_multiplier Wafv2RuleGroup#price_multiplier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_rule_group#price_multiplier Wafv2RuleGroup#price_multiplier}.
 	PriceMultiplier *string `field:"optional" json:"priceMultiplier" yaml:"priceMultiplier"`
 }
 

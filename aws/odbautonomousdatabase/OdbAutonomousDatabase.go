@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database aws_odb_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database aws_odb_autonomous_database}.
 type OdbAutonomousDatabase interface {
 	cdktn.TerraformResource
 	ActualUsedDataStorageSizeInTbs() *float64
@@ -1836,7 +1836,7 @@ func (j *jsiiProxy_OdbAutonomousDatabase) TransportableTablespaceInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database aws_odb_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database aws_odb_autonomous_database} Resource.
 func NewOdbAutonomousDatabase(scope constructs.Construct, id *string, config *OdbAutonomousDatabaseConfig) OdbAutonomousDatabase {
 	_init_.Initialize()
 
@@ -1854,7 +1854,7 @@ func NewOdbAutonomousDatabase(scope constructs.Construct, id *string, config *Od
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database aws_odb_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database aws_odb_autonomous_database} Resource.
 func NewOdbAutonomousDatabase_Override(o OdbAutonomousDatabase, scope constructs.Construct, id *string, config *OdbAutonomousDatabaseConfig) {
 	_init_.Initialize()
 

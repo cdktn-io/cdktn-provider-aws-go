@@ -5,7 +5,7 @@ package cloudwatchmetricalarm
 
 
 type CloudwatchMetricAlarmEvaluationWindowWallClockWindow struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_metric_alarm#timezone CloudwatchMetricAlarm#timezone}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_metric_alarm#timezone CloudwatchMetricAlarm#timezone}.
 	Timezone *string `field:"optional" json:"timezone" yaml:"timezone"`
 }
 

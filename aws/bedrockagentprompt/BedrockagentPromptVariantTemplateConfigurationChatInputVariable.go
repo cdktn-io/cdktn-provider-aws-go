@@ -5,7 +5,7 @@ package bedrockagentprompt
 
 
 type BedrockagentPromptVariantTemplateConfigurationChatInputVariable struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagent_prompt#name BedrockagentPrompt#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

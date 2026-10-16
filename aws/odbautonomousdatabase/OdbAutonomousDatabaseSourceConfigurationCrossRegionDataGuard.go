@@ -7,7 +7,7 @@ package odbautonomousdatabase
 type OdbAutonomousDatabaseSourceConfigurationCrossRegionDataGuard struct {
 	// ARN of the source Autonomous Database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#source_autonomous_database_arn OdbAutonomousDatabase#source_autonomous_database_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database#source_autonomous_database_arn OdbAutonomousDatabase#source_autonomous_database_arn}
 	SourceAutonomousDatabaseArn *string `field:"required" json:"sourceAutonomousDatabaseArn" yaml:"sourceAutonomousDatabaseArn"`
 }
 

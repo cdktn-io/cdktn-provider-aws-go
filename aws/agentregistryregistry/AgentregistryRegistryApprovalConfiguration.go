@@ -5,7 +5,7 @@ package agentregistryregistry
 
 
 type AgentregistryRegistryApprovalConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/agentregistry_registry#auto_approval_rules AgentregistryRegistry#auto_approval_rules}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/agentregistry_registry#auto_approval_rules AgentregistryRegistry#auto_approval_rules}.
 	AutoApprovalRules *[]*string `field:"optional" json:"autoApprovalRules" yaml:"autoApprovalRules"`
 }
 

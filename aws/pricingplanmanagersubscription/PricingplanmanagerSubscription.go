@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/pricingplanmanager_subscription aws_pricingplanmanager_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pricingplanmanager_subscription aws_pricingplanmanager_subscription}.
 type PricingplanmanagerSubscription interface {
 	cdktn.TerraformResource
 	ApprovalMode() *string
@@ -540,7 +540,7 @@ func (j *jsiiProxy_PricingplanmanagerSubscription) UsageLevelInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/pricingplanmanager_subscription aws_pricingplanmanager_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pricingplanmanager_subscription aws_pricingplanmanager_subscription} Resource.
 func NewPricingplanmanagerSubscription(scope constructs.Construct, id *string, config *PricingplanmanagerSubscriptionConfig) PricingplanmanagerSubscription {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewPricingplanmanagerSubscription(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/pricingplanmanager_subscription aws_pricingplanmanager_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pricingplanmanager_subscription aws_pricingplanmanager_subscription} Resource.
 func NewPricingplanmanagerSubscription_Override(p PricingplanmanagerSubscription, scope constructs.Construct, id *string, config *PricingplanmanagerSubscriptionConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package wafv2webacl
 
 
 type Wafv2WebAclRuleActionMonetize struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#price_multiplier Wafv2WebAcl#price_multiplier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_web_acl#price_multiplier Wafv2WebAcl#price_multiplier}.
 	PriceMultiplier *string `field:"optional" json:"priceMultiplier" yaml:"priceMultiplier"`
 }
 

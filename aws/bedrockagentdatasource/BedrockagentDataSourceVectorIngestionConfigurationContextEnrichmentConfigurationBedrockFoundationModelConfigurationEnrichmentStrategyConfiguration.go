@@ -5,7 +5,7 @@ package bedrockagentdatasource
 
 
 type BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfigurationBedrockFoundationModelConfigurationEnrichmentStrategyConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/bedrockagent_data_source#method BedrockagentDataSource#method}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagent_data_source#method BedrockagentDataSource#method}.
 	Method *string `field:"required" json:"method" yaml:"method"`
 }
 

@@ -7,7 +7,7 @@ package odbautonomousdatabase
 type OdbAutonomousDatabaseAdminPasswordSource struct {
 	// customer_managed_aws_secret block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#customer_managed_aws_secret OdbAutonomousDatabase#customer_managed_aws_secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database#customer_managed_aws_secret OdbAutonomousDatabase#customer_managed_aws_secret}
 	CustomerManagedAwsSecret interface{} `field:"optional" json:"customerManagedAwsSecret" yaml:"customerManagedAwsSecret"`
 }
 

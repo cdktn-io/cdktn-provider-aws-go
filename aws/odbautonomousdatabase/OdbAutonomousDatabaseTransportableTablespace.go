@@ -7,7 +7,7 @@ package odbautonomousdatabase
 type OdbAutonomousDatabaseTransportableTablespace struct {
 	// URL of the transportable tablespace bundle.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#tts_bundle_url OdbAutonomousDatabase#tts_bundle_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database#tts_bundle_url OdbAutonomousDatabase#tts_bundle_url}
 	TtsBundleUrl *string `field:"optional" json:"ttsBundleUrl" yaml:"ttsBundleUrl"`
 }
 
