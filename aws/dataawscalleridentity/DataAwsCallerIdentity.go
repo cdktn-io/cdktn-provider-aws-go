@@ -5,14 +5,14 @@ package dataawscalleridentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscalleridentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawscalleridentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/caller_identity aws_caller_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/caller_identity aws_caller_identity}.
 type DataAwsCallerIdentity interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -320,7 +320,7 @@ func (j *jsiiProxy_DataAwsCallerIdentity) UserId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/caller_identity aws_caller_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/caller_identity aws_caller_identity} Data Source.
 func NewDataAwsCallerIdentity(scope constructs.Construct, id *string, config *DataAwsCallerIdentityConfig) DataAwsCallerIdentity {
 	_init_.Initialize()
 
@@ -338,7 +338,7 @@ func NewDataAwsCallerIdentity(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/caller_identity aws_caller_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/caller_identity aws_caller_identity} Data Source.
 func NewDataAwsCallerIdentity_Override(d DataAwsCallerIdentity, scope constructs.Construct, id *string, config *DataAwsCallerIdentityConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package sagemakerdevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sagemakerdevice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sagemakerdevice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_device aws_sagemaker_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_device aws_sagemaker_device}.
 type SagemakerDevice interface {
 	cdktn.TerraformResource
 	AgentVersion() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_SagemakerDevice) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_device aws_sagemaker_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_device aws_sagemaker_device} Resource.
 func NewSagemakerDevice(scope constructs.Construct, id *string, config *SagemakerDeviceConfig) SagemakerDevice {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewSagemakerDevice(scope constructs.Construct, id *string, config *Sagemake
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_device aws_sagemaker_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_device aws_sagemaker_device} Resource.
 func NewSagemakerDevice_Override(s SagemakerDevice, scope constructs.Construct, id *string, config *SagemakerDeviceConfig) {
 	_init_.Initialize()
 

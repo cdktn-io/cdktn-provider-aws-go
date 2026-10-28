@@ -103,6 +103,10 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputRefere
 	return nil
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validatePutRdsSwitchoverReadReplicaConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepOutputReference) validatePutRegionSwitchPlanConfigParameters(value interface{}) error {
 	return nil
 }

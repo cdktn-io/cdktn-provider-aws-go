@@ -5,14 +5,14 @@ package emrinstancefleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/emrinstancefleet/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/emrinstancefleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/emr_instance_fleet aws_emr_instance_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet}.
 type EmrInstanceFleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -557,7 +557,7 @@ func (j *jsiiProxy_EmrInstanceFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
 func NewEmrInstanceFleet(scope constructs.Construct, id *string, config *EmrInstanceFleetConfig) EmrInstanceFleet {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewEmrInstanceFleet(scope constructs.Construct, id *string, config *EmrInst
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/emr_instance_fleet aws_emr_instance_fleet} Resource.
 func NewEmrInstanceFleet_Override(e EmrInstanceFleet, scope constructs.Construct, id *string, config *EmrInstanceFleetConfig) {
 	_init_.Initialize()
 

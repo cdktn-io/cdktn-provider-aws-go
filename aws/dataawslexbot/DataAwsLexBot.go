@@ -5,14 +5,14 @@ package dataawslexbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawslexbot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawslexbot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lex_bot aws_lex_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lex_bot aws_lex_bot}.
 type DataAwsLexBot interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -512,7 +512,7 @@ func (j *jsiiProxy_DataAwsLexBot) VoiceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lex_bot aws_lex_bot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lex_bot aws_lex_bot} Data Source.
 func NewDataAwsLexBot(scope constructs.Construct, id *string, config *DataAwsLexBotConfig) DataAwsLexBot {
 	_init_.Initialize()
 
@@ -530,7 +530,7 @@ func NewDataAwsLexBot(scope constructs.Construct, id *string, config *DataAwsLex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lex_bot aws_lex_bot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lex_bot aws_lex_bot} Data Source.
 func NewDataAwsLexBot_Override(d DataAwsLexBot, scope constructs.Construct, id *string, config *DataAwsLexBotConfig) {
 	_init_.Initialize()
 

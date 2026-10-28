@@ -5,14 +5,14 @@ package wafv2apikey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/wafv2apikey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/wafv2apikey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_api_key aws_wafv2_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_api_key aws_wafv2_api_key}.
 type Wafv2ApiKey interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -425,7 +425,7 @@ func (j *jsiiProxy_Wafv2ApiKey) TokenDomainsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
 func NewWafv2ApiKey(scope constructs.Construct, id *string, config *Wafv2ApiKeyConfig) Wafv2ApiKey {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewWafv2ApiKey(scope constructs.Construct, id *string, config *Wafv2ApiKeyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_api_key aws_wafv2_api_key} Resource.
 func NewWafv2ApiKey_Override(w Wafv2ApiKey, scope constructs.Construct, id *string, config *Wafv2ApiKeyConfig) {
 	_init_.Initialize()
 

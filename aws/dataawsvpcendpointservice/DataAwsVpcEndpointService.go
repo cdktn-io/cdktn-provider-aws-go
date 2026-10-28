@@ -5,14 +5,14 @@ package dataawsvpcendpointservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsvpcendpointservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsvpcendpointservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service}.
 type DataAwsVpcEndpointService interface {
 	cdktn.TerraformDataSource
 	AcceptanceRequired() cdktn.IResolvable
@@ -598,7 +598,7 @@ func (j *jsiiProxy_DataAwsVpcEndpointService) VpcEndpointPolicySupported() cdktn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
 func NewDataAwsVpcEndpointService(scope constructs.Construct, id *string, config *DataAwsVpcEndpointServiceConfig) DataAwsVpcEndpointService {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewDataAwsVpcEndpointService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpc_endpoint_service aws_vpc_endpoint_service} Data Source.
 func NewDataAwsVpcEndpointService_Override(d DataAwsVpcEndpointService, scope constructs.Construct, id *string, config *DataAwsVpcEndpointServiceConfig) {
 	_init_.Initialize()
 

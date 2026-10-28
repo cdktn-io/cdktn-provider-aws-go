@@ -5,14 +5,14 @@ package vpcblockpublicaccessexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpcblockpublicaccessexclusion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpcblockpublicaccessexclusion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_block_public_access_exclusion aws_vpc_block_public_access_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_block_public_access_exclusion aws_vpc_block_public_access_exclusion}.
 type VpcBlockPublicAccessExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_VpcBlockPublicAccessExclusion) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_block_public_access_exclusion aws_vpc_block_public_access_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_block_public_access_exclusion aws_vpc_block_public_access_exclusion} Resource.
 func NewVpcBlockPublicAccessExclusion(scope constructs.Construct, id *string, config *VpcBlockPublicAccessExclusionConfig) VpcBlockPublicAccessExclusion {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewVpcBlockPublicAccessExclusion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_block_public_access_exclusion aws_vpc_block_public_access_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_block_public_access_exclusion aws_vpc_block_public_access_exclusion} Resource.
 func NewVpcBlockPublicAccessExclusion_Override(v VpcBlockPublicAccessExclusion, scope constructs.Construct, id *string, config *VpcBlockPublicAccessExclusionConfig) {
 	_init_.Initialize()
 

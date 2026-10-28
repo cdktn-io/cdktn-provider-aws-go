@@ -5,14 +5,14 @@ package route53keysigningkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/route53keysigningkey/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/route53keysigningkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_key_signing_key aws_route53_key_signing_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key}.
 type Route53KeySigningKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -595,7 +595,7 @@ func (j *jsiiProxy_Route53KeySigningKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
 func NewRoute53KeySigningKey(scope constructs.Construct, id *string, config *Route53KeySigningKeyConfig) Route53KeySigningKey {
 	_init_.Initialize()
 
@@ -613,7 +613,7 @@ func NewRoute53KeySigningKey(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_key_signing_key aws_route53_key_signing_key} Resource.
 func NewRoute53KeySigningKey_Override(r Route53KeySigningKey, scope constructs.Construct, id *string, config *Route53KeySigningKeyConfig) {
 	_init_.Initialize()
 

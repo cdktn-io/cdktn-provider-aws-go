@@ -5,14 +5,14 @@ package autoscalingtrafficsourceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/autoscalingtrafficsourceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/autoscalingtrafficsourceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/autoscaling_traffic_source_attachment aws_autoscaling_traffic_source_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/autoscaling_traffic_source_attachment aws_autoscaling_traffic_source_attachment}.
 type AutoscalingTrafficSourceAttachment interface {
 	cdktn.TerraformResource
 	AutoscalingGroupName() *string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_AutoscalingTrafficSourceAttachment) TrafficSourceInput() *Aut
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/autoscaling_traffic_source_attachment aws_autoscaling_traffic_source_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/autoscaling_traffic_source_attachment aws_autoscaling_traffic_source_attachment} Resource.
 func NewAutoscalingTrafficSourceAttachment(scope constructs.Construct, id *string, config *AutoscalingTrafficSourceAttachmentConfig) AutoscalingTrafficSourceAttachment {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewAutoscalingTrafficSourceAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/autoscaling_traffic_source_attachment aws_autoscaling_traffic_source_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/autoscaling_traffic_source_attachment aws_autoscaling_traffic_source_attachment} Resource.
 func NewAutoscalingTrafficSourceAttachment_Override(a AutoscalingTrafficSourceAttachment, scope constructs.Construct, id *string, config *AutoscalingTrafficSourceAttachmentConfig) {
 	_init_.Initialize()
 

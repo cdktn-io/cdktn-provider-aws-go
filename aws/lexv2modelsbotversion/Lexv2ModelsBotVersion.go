@@ -5,14 +5,14 @@ package lexv2modelsbotversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lexv2modelsbotversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lexv2modelsbotversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version}.
 type Lexv2ModelsBotVersion interface {
 	cdktn.TerraformResource
 	BotId() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_Lexv2ModelsBotVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
 func NewLexv2ModelsBotVersion(scope constructs.Construct, id *string, config *Lexv2ModelsBotVersionConfig) Lexv2ModelsBotVersion {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewLexv2ModelsBotVersion(scope constructs.Construct, id *string, config *Le
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lexv2models_bot_version aws_lexv2models_bot_version} Resource.
 func NewLexv2ModelsBotVersion_Override(l Lexv2ModelsBotVersion, scope constructs.Construct, id *string, config *Lexv2ModelsBotVersionConfig) {
 	_init_.Initialize()
 

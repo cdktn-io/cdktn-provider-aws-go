@@ -5,14 +5,14 @@ package dataawsredshiftserverlessworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsredshiftserverlessworkgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsredshiftserverlessworkgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup}.
 type DataAwsRedshiftserverlessWorkgroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataAwsRedshiftserverlessWorkgroup) WorkgroupNameInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
 func NewDataAwsRedshiftserverlessWorkgroup(scope constructs.Construct, id *string, config *DataAwsRedshiftserverlessWorkgroupConfig) DataAwsRedshiftserverlessWorkgroup {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataAwsRedshiftserverlessWorkgroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshiftserverless_workgroup aws_redshiftserverless_workgroup} Data Source.
 func NewDataAwsRedshiftserverlessWorkgroup_Override(d DataAwsRedshiftserverlessWorkgroup, scope constructs.Construct, id *string, config *DataAwsRedshiftserverlessWorkgroupConfig) {
 	_init_.Initialize()
 

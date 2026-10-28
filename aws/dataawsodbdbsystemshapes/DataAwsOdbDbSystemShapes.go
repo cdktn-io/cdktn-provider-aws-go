@@ -5,14 +5,14 @@ package dataawsodbdbsystemshapes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsodbdbsystemshapes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsodbdbsystemshapes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes}.
 type DataAwsOdbDbSystemShapes interface {
 	cdktn.TerraformDataSource
 	AvailabilityZoneId() *string
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataAwsOdbDbSystemShapes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
 func NewDataAwsOdbDbSystemShapes(scope constructs.Construct, id *string, config *DataAwsOdbDbSystemShapesConfig) DataAwsOdbDbSystemShapes {
 	_init_.Initialize()
 
@@ -340,7 +340,7 @@ func NewDataAwsOdbDbSystemShapes(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_db_system_shapes aws_odb_db_system_shapes} Data Source.
 func NewDataAwsOdbDbSystemShapes_Override(d DataAwsOdbDbSystemShapes, scope constructs.Construct, id *string, config *DataAwsOdbDbSystemShapesConfig) {
 	_init_.Initialize()
 

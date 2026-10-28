@@ -5,14 +5,14 @@ package dbinstanceroleassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dbinstanceroleassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dbinstanceroleassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_instance_role_association aws_db_instance_role_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance_role_association aws_db_instance_role_association}.
 type DbInstanceRoleAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_DbInstanceRoleAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
 func NewDbInstanceRoleAssociation(scope constructs.Construct, id *string, config *DbInstanceRoleAssociationConfig) DbInstanceRoleAssociation {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewDbInstanceRoleAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance_role_association aws_db_instance_role_association} Resource.
 func NewDbInstanceRoleAssociation_Override(d DbInstanceRoleAssociation, scope constructs.Construct, id *string, config *DbInstanceRoleAssociationConfig) {
 	_init_.Initialize()
 

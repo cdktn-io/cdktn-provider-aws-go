@@ -5,14 +5,14 @@ package securityhubconnectorv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/securityhubconnectorv2/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/securityhubconnectorv2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/securityhub_connector_v2 aws_securityhub_connector_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/securityhub_connector_v2 aws_securityhub_connector_v2}.
 type SecurityhubConnectorV2 interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_SecurityhubConnectorV2) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/securityhub_connector_v2 aws_securityhub_connector_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/securityhub_connector_v2 aws_securityhub_connector_v2} Resource.
 func NewSecurityhubConnectorV2(scope constructs.Construct, id *string, config *SecurityhubConnectorV2Config) SecurityhubConnectorV2 {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewSecurityhubConnectorV2(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/securityhub_connector_v2 aws_securityhub_connector_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/securityhub_connector_v2 aws_securityhub_connector_v2} Resource.
 func NewSecurityhubConnectorV2_Override(s SecurityhubConnectorV2, scope constructs.Construct, id *string, config *SecurityhubConnectorV2Config) {
 	_init_.Initialize()
 

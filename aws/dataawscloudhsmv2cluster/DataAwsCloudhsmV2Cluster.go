@@ -5,14 +5,14 @@ package dataawscloudhsmv2cluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscloudhsmv2cluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawscloudhsmv2cluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster}.
 type DataAwsCloudhsmV2Cluster interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_DataAwsCloudhsmV2Cluster) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
 func NewDataAwsCloudhsmV2Cluster(scope constructs.Construct, id *string, config *DataAwsCloudhsmV2ClusterConfig) DataAwsCloudhsmV2Cluster {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewDataAwsCloudhsmV2Cluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudhsm_v2_cluster aws_cloudhsm_v2_cluster} Data Source.
 func NewDataAwsCloudhsmV2Cluster_Override(d DataAwsCloudhsmV2Cluster, scope constructs.Construct, id *string, config *DataAwsCloudhsmV2ClusterConfig) {
 	_init_.Initialize()
 

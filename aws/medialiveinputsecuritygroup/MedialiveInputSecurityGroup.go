@@ -5,14 +5,14 @@ package medialiveinputsecuritygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/medialiveinputsecuritygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/medialiveinputsecuritygroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/medialive_input_security_group aws_medialive_input_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group}.
 type MedialiveInputSecurityGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_MedialiveInputSecurityGroup) WhitelistRulesInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
 func NewMedialiveInputSecurityGroup(scope constructs.Construct, id *string, config *MedialiveInputSecurityGroupConfig) MedialiveInputSecurityGroup {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewMedialiveInputSecurityGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/medialive_input_security_group aws_medialive_input_security_group} Resource.
 func NewMedialiveInputSecurityGroup_Override(m MedialiveInputSecurityGroup, scope constructs.Construct, id *string, config *MedialiveInputSecurityGroupConfig) {
 	_init_.Initialize()
 

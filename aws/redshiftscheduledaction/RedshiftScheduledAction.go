@@ -5,14 +5,14 @@ package redshiftscheduledaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/redshiftscheduledaction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/redshiftscheduledaction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action}.
 type RedshiftScheduledAction interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_RedshiftScheduledAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
 func NewRedshiftScheduledAction(scope constructs.Construct, id *string, config *RedshiftScheduledActionConfig) RedshiftScheduledAction {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewRedshiftScheduledAction(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/redshift_scheduled_action aws_redshift_scheduled_action} Resource.
 func NewRedshiftScheduledAction_Override(r RedshiftScheduledAction, scope constructs.Construct, id *string, config *RedshiftScheduledActionConfig) {
 	_init_.Initialize()
 

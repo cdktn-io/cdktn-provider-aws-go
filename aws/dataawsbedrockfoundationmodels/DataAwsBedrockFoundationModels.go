@@ -5,14 +5,14 @@ package dataawsbedrockfoundationmodels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsbedrockfoundationmodels/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsbedrockfoundationmodels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models}.
 type DataAwsBedrockFoundationModels interface {
 	cdktn.TerraformDataSource
 	ByCustomizationType() *string
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataAwsBedrockFoundationModels) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
 func NewDataAwsBedrockFoundationModels(scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelsConfig) DataAwsBedrockFoundationModels {
 	_init_.Initialize()
 
@@ -423,7 +423,7 @@ func NewDataAwsBedrockFoundationModels(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_foundation_models aws_bedrock_foundation_models} Data Source.
 func NewDataAwsBedrockFoundationModels_Override(d DataAwsBedrockFoundationModels, scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelsConfig) {
 	_init_.Initialize()
 

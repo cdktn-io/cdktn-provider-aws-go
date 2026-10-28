@@ -5,14 +5,14 @@ package directoryservicedatauser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/directoryservicedatauser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/directoryservicedatauser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/directoryservicedata_user aws_directoryservicedata_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user}.
 type DirectoryservicedataUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_DirectoryservicedataUser) UserPrincipalName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
 func NewDirectoryservicedataUser(scope constructs.Construct, id *string, config *DirectoryservicedataUserConfig) DirectoryservicedataUser {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewDirectoryservicedataUser(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/directoryservicedata_user aws_directoryservicedata_user} Resource.
 func NewDirectoryservicedataUser_Override(d DirectoryservicedataUser, scope constructs.Construct, id *string, config *DirectoryservicedataUserConfig) {
 	_init_.Initialize()
 

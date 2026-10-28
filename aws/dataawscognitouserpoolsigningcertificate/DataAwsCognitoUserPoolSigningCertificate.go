@@ -5,14 +5,14 @@ package dataawscognitouserpoolsigningcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscognitouserpoolsigningcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawscognitouserpoolsigningcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cognito_user_pool_signing_certificate aws_cognito_user_pool_signing_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cognito_user_pool_signing_certificate aws_cognito_user_pool_signing_certificate}.
 type DataAwsCognitoUserPoolSigningCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPoolSigningCertificate) UserPoolIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cognito_user_pool_signing_certificate aws_cognito_user_pool_signing_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cognito_user_pool_signing_certificate aws_cognito_user_pool_signing_certificate} Data Source.
 func NewDataAwsCognitoUserPoolSigningCertificate(scope constructs.Construct, id *string, config *DataAwsCognitoUserPoolSigningCertificateConfig) DataAwsCognitoUserPoolSigningCertificate {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsCognitoUserPoolSigningCertificate(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cognito_user_pool_signing_certificate aws_cognito_user_pool_signing_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cognito_user_pool_signing_certificate aws_cognito_user_pool_signing_certificate} Data Source.
 func NewDataAwsCognitoUserPoolSigningCertificate_Override(d DataAwsCognitoUserPoolSigningCertificate, scope constructs.Construct, id *string, config *DataAwsCognitoUserPoolSigningCertificateConfig) {
 	_init_.Initialize()
 

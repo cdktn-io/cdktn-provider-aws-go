@@ -5,14 +5,14 @@ package connectphonenumbercontactflowassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/connectphonenumbercontactflowassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/connectphonenumbercontactflowassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association}.
 type ConnectPhoneNumberContactFlowAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_ConnectPhoneNumberContactFlowAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
 func NewConnectPhoneNumberContactFlowAssociation(scope constructs.Construct, id *string, config *ConnectPhoneNumberContactFlowAssociationConfig) ConnectPhoneNumberContactFlowAssociation {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewConnectPhoneNumberContactFlowAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_phone_number_contact_flow_association aws_connect_phone_number_contact_flow_association} Resource.
 func NewConnectPhoneNumberContactFlowAssociation_Override(c ConnectPhoneNumberContactFlowAssociation, scope constructs.Construct, id *string, config *ConnectPhoneNumberContactFlowAssociationConfig) {
 	_init_.Initialize()
 

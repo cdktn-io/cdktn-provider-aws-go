@@ -5,14 +5,14 @@ package redshiftsnapshotscheduleassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/redshiftsnapshotscheduleassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/redshiftsnapshotscheduleassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/redshift_snapshot_schedule_association aws_redshift_snapshot_schedule_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/redshift_snapshot_schedule_association aws_redshift_snapshot_schedule_association}.
 type RedshiftSnapshotScheduleAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_RedshiftSnapshotScheduleAssociation) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/redshift_snapshot_schedule_association aws_redshift_snapshot_schedule_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/redshift_snapshot_schedule_association aws_redshift_snapshot_schedule_association} Resource.
 func NewRedshiftSnapshotScheduleAssociation(scope constructs.Construct, id *string, config *RedshiftSnapshotScheduleAssociationConfig) RedshiftSnapshotScheduleAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewRedshiftSnapshotScheduleAssociation(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/redshift_snapshot_schedule_association aws_redshift_snapshot_schedule_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/redshift_snapshot_schedule_association aws_redshift_snapshot_schedule_association} Resource.
 func NewRedshiftSnapshotScheduleAssociation_Override(r RedshiftSnapshotScheduleAssociation, scope constructs.Construct, id *string, config *RedshiftSnapshotScheduleAssociationConfig) {
 	_init_.Initialize()
 

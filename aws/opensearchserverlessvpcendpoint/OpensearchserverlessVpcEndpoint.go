@@ -5,14 +5,14 @@ package opensearchserverlessvpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/opensearchserverlessvpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/opensearchserverlessvpcendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearchserverless_vpc_endpoint aws_opensearchserverless_vpc_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearchserverless_vpc_endpoint aws_opensearchserverless_vpc_endpoint}.
 type OpensearchserverlessVpcEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_OpensearchserverlessVpcEndpoint) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearchserverless_vpc_endpoint aws_opensearchserverless_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearchserverless_vpc_endpoint aws_opensearchserverless_vpc_endpoint} Resource.
 func NewOpensearchserverlessVpcEndpoint(scope constructs.Construct, id *string, config *OpensearchserverlessVpcEndpointConfig) OpensearchserverlessVpcEndpoint {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewOpensearchserverlessVpcEndpoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearchserverless_vpc_endpoint aws_opensearchserverless_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearchserverless_vpc_endpoint aws_opensearchserverless_vpc_endpoint} Resource.
 func NewOpensearchserverlessVpcEndpoint_Override(o OpensearchserverlessVpcEndpoint, scope constructs.Construct, id *string, config *OpensearchserverlessVpcEndpointConfig) {
 	_init_.Initialize()
 

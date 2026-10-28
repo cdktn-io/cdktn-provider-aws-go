@@ -5,14 +5,14 @@ package outpostscapacitytask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/outpostscapacitytask/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/outpostscapacitytask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/outposts_capacity_task aws_outposts_capacity_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/outposts_capacity_task aws_outposts_capacity_task}.
 type OutpostsCapacityTask interface {
 	cdktn.TerraformResource
 	AssetId() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_OutpostsCapacityTask) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/outposts_capacity_task aws_outposts_capacity_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/outposts_capacity_task aws_outposts_capacity_task} Resource.
 func NewOutpostsCapacityTask(scope constructs.Construct, id *string, config *OutpostsCapacityTaskConfig) OutpostsCapacityTask {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewOutpostsCapacityTask(scope constructs.Construct, id *string, config *Out
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/outposts_capacity_task aws_outposts_capacity_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/outposts_capacity_task aws_outposts_capacity_task} Resource.
 func NewOutpostsCapacityTask_Override(o OutpostsCapacityTask, scope constructs.Construct, id *string, config *OutpostsCapacityTaskConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsdbsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsdbsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsdbsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/db_snapshot aws_db_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/db_snapshot aws_db_snapshot}.
 type DataAwsDbSnapshot interface {
 	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
@@ -677,7 +677,7 @@ func (j *jsiiProxy_DataAwsDbSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/db_snapshot aws_db_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/db_snapshot aws_db_snapshot} Data Source.
 func NewDataAwsDbSnapshot(scope constructs.Construct, id *string, config *DataAwsDbSnapshotConfig) DataAwsDbSnapshot {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewDataAwsDbSnapshot(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/db_snapshot aws_db_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/db_snapshot aws_db_snapshot} Data Source.
 func NewDataAwsDbSnapshot_Override(d DataAwsDbSnapshot, scope constructs.Construct, id *string, config *DataAwsDbSnapshotConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsec2hosts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsec2hosts/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsec2hosts/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_hosts aws_ec2_hosts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_hosts aws_ec2_hosts}.
 type DataAwsEc2Hosts interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataAwsEc2Hosts) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_hosts aws_ec2_hosts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_hosts aws_ec2_hosts} Data Source.
 func NewDataAwsEc2Hosts(scope constructs.Construct, id *string, config *DataAwsEc2HostsConfig) DataAwsEc2Hosts {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataAwsEc2Hosts(scope constructs.Construct, id *string, config *DataAwsE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_hosts aws_ec2_hosts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_hosts aws_ec2_hosts} Data Source.
 func NewDataAwsEc2Hosts_Override(d DataAwsEc2Hosts, scope constructs.Construct, id *string, config *DataAwsEc2HostsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cloudfrontdistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudfrontdistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudfrontdistribution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudfront_distribution aws_cloudfront_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution}.
 type CloudfrontDistribution interface {
 	cdktn.TerraformResource
 	Aliases() *[]*string
@@ -1108,7 +1108,7 @@ func (j *jsiiProxy_CloudfrontDistribution) WebAclIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
 func NewCloudfrontDistribution(scope constructs.Construct, id *string, config *CloudfrontDistributionConfig) CloudfrontDistribution {
 	_init_.Initialize()
 
@@ -1126,7 +1126,7 @@ func NewCloudfrontDistribution(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudfront_distribution aws_cloudfront_distribution} Resource.
 func NewCloudfrontDistribution_Override(c CloudfrontDistribution, scope constructs.Construct, id *string, config *CloudfrontDistributionConfig) {
 	_init_.Initialize()
 

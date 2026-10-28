@@ -5,14 +5,14 @@ package globalacceleratorcustomroutinglistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/globalacceleratorcustomroutinglistener/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/globalacceleratorcustomroutinglistener/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/globalaccelerator_custom_routing_listener aws_globalaccelerator_custom_routing_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/globalaccelerator_custom_routing_listener aws_globalaccelerator_custom_routing_listener}.
 type GlobalacceleratorCustomRoutingListener interface {
 	cdktn.TerraformResource
 	AcceleratorArn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_GlobalacceleratorCustomRoutingListener) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/globalaccelerator_custom_routing_listener aws_globalaccelerator_custom_routing_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/globalaccelerator_custom_routing_listener aws_globalaccelerator_custom_routing_listener} Resource.
 func NewGlobalacceleratorCustomRoutingListener(scope constructs.Construct, id *string, config *GlobalacceleratorCustomRoutingListenerConfig) GlobalacceleratorCustomRoutingListener {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewGlobalacceleratorCustomRoutingListener(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/globalaccelerator_custom_routing_listener aws_globalaccelerator_custom_routing_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/globalaccelerator_custom_routing_listener aws_globalaccelerator_custom_routing_listener} Resource.
 func NewGlobalacceleratorCustomRoutingListener_Override(g GlobalacceleratorCustomRoutingListener, scope constructs.Construct, id *string, config *GlobalacceleratorCustomRoutingListenerConfig) {
 	_init_.Initialize()
 

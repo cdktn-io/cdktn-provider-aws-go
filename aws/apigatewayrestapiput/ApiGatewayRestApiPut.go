@@ -5,14 +5,14 @@ package apigatewayrestapiput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/apigatewayrestapiput/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/apigatewayrestapiput/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put}.
 type ApiGatewayRestApiPut interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ApiGatewayRestApiPut) TriggersInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
 func NewApiGatewayRestApiPut(scope constructs.Construct, id *string, config *ApiGatewayRestApiPutConfig) ApiGatewayRestApiPut {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewApiGatewayRestApiPut(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_rest_api_put aws_api_gateway_rest_api_put} Resource.
 func NewApiGatewayRestApiPut_Override(a ApiGatewayRestApiPut, scope constructs.Construct, id *string, config *ApiGatewayRestApiPutConfig) {
 	_init_.Initialize()
 

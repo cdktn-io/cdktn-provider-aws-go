@@ -5,14 +5,14 @@ package sesactivereceiptruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sesactivereceiptruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sesactivereceiptruleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set}.
 type SesActiveReceiptRuleSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -426,7 +426,7 @@ func (j *jsiiProxy_SesActiveReceiptRuleSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
 func NewSesActiveReceiptRuleSet(scope constructs.Construct, id *string, config *SesActiveReceiptRuleSetConfig) SesActiveReceiptRuleSet {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewSesActiveReceiptRuleSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_active_receipt_rule_set aws_ses_active_receipt_rule_set} Resource.
 func NewSesActiveReceiptRuleSet_Override(s SesActiveReceiptRuleSet, scope constructs.Construct, id *string, config *SesActiveReceiptRuleSetConfig) {
 	_init_.Initialize()
 

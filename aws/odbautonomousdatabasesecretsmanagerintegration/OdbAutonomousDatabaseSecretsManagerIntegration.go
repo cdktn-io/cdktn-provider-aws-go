@@ -5,14 +5,14 @@ package odbautonomousdatabasesecretsmanagerintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/odbautonomousdatabasesecretsmanagerintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/odbautonomousdatabasesecretsmanagerintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration}.
 type OdbAutonomousDatabaseSecretsManagerIntegration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_OdbAutonomousDatabaseSecretsManagerIntegration) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
 func NewOdbAutonomousDatabaseSecretsManagerIntegration(scope constructs.Construct, id *string, config *OdbAutonomousDatabaseSecretsManagerIntegrationConfig) OdbAutonomousDatabaseSecretsManagerIntegration {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewOdbAutonomousDatabaseSecretsManagerIntegration(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database_secrets_manager_integration aws_odb_autonomous_database_secrets_manager_integration} Resource.
 func NewOdbAutonomousDatabaseSecretsManagerIntegration_Override(o OdbAutonomousDatabaseSecretsManagerIntegration, scope constructs.Construct, id *string, config *OdbAutonomousDatabaseSecretsManagerIntegrationConfig) {
 	_init_.Initialize()
 

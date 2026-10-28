@@ -5,24 +5,40 @@ package dxmacseckeyassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dxmacseckeyassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dxmacseckeyassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association}.
 type DxMacsecKeyAssociation interface {
 	cdktn.TerraformResource
 	Cak() *string
 	SetCak(val *string)
 	CakInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	CakWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetCakWo(val *string)
+	CakWoInput() *string
+	CakWoVersion() *float64
+	SetCakWoVersion(val *float64)
+	CakWoVersionInput() *float64
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Ckn() *string
 	SetCkn(val *string)
 	CknInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	CknWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetCknWo(val *string)
+	CknWoInput() *string
+	CknWoVersion() *float64
+	SetCknWoVersion(val *float64)
+	CknWoVersionInput() *float64
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -174,7 +190,11 @@ type DxMacsecKeyAssociation interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCak()
+	ResetCakWo()
+	ResetCakWoVersion()
 	ResetCkn()
+	ResetCknWo()
+	ResetCknWoVersion()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -228,6 +248,46 @@ func (j *jsiiProxy_DxMacsecKeyAssociation) CakInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DxMacsecKeyAssociation) CakWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cakWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) CakWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cakWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) CakWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cakWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) CakWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cakWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DxMacsecKeyAssociation) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
@@ -253,6 +313,46 @@ func (j *jsiiProxy_DxMacsecKeyAssociation) CknInput() *string {
 	_jsii_.Get(
 		j,
 		"cknInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) CknWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cknWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) CknWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cknWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) CknWoVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cknWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) CknWoVersionInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cknWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -509,7 +609,7 @@ func (j *jsiiProxy_DxMacsecKeyAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association} Resource.
 func NewDxMacsecKeyAssociation(scope constructs.Construct, id *string, config *DxMacsecKeyAssociationConfig) DxMacsecKeyAssociation {
 	_init_.Initialize()
 
@@ -527,7 +627,7 @@ func NewDxMacsecKeyAssociation(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association} Resource.
 func NewDxMacsecKeyAssociation_Override(d DxMacsecKeyAssociation, scope constructs.Construct, id *string, config *DxMacsecKeyAssociationConfig) {
 	_init_.Initialize()
 
@@ -549,6 +649,28 @@ func (j *jsiiProxy_DxMacsecKeyAssociation)SetCak(val *string) {
 	)
 }
 
+func (j *jsiiProxy_DxMacsecKeyAssociation)SetCakWo(val *string) {
+	if err := j.validateSetCakWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cakWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation)SetCakWoVersion(val *float64) {
+	if err := j.validateSetCakWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cakWoVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DxMacsecKeyAssociation)SetCkn(val *string) {
 	if err := j.validateSetCknParameters(val); err != nil {
 		panic(err)
@@ -556,6 +678,28 @@ func (j *jsiiProxy_DxMacsecKeyAssociation)SetCkn(val *string) {
 	_jsii_.Set(
 		j,
 		"ckn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation)SetCknWo(val *string) {
+	if err := j.validateSetCknWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cknWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation)SetCknWoVersion(val *float64) {
+	if err := j.validateSetCknWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cknWoVersion",
 		val,
 	)
 }
@@ -1060,10 +1204,42 @@ func (d *jsiiProxy_DxMacsecKeyAssociation) ResetCak() {
 	)
 }
 
+func (d *jsiiProxy_DxMacsecKeyAssociation) ResetCakWo() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCakWo",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxMacsecKeyAssociation) ResetCakWoVersion() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCakWoVersion",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DxMacsecKeyAssociation) ResetCkn() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCkn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxMacsecKeyAssociation) ResetCknWo() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCknWo",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxMacsecKeyAssociation) ResetCknWoVersion() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCknWoVersion",
 		nil, // no parameters
 	)
 }

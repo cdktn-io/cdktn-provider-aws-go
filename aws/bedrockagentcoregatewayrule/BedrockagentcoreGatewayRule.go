@@ -5,14 +5,14 @@ package bedrockagentcoregatewayrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockagentcoregatewayrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockagentcoregatewayrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_gateway_rule aws_bedrockagentcore_gateway_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_gateway_rule aws_bedrockagentcore_gateway_rule}.
 type BedrockagentcoreGatewayRule interface {
 	cdktn.TerraformResource
 	Action() BedrockagentcoreGatewayRuleActionList
@@ -543,7 +543,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_gateway_rule aws_bedrockagentcore_gateway_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_gateway_rule aws_bedrockagentcore_gateway_rule} Resource.
 func NewBedrockagentcoreGatewayRule(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayRuleConfig) BedrockagentcoreGatewayRule {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewBedrockagentcoreGatewayRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_gateway_rule aws_bedrockagentcore_gateway_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_gateway_rule aws_bedrockagentcore_gateway_rule} Resource.
 func NewBedrockagentcoreGatewayRule_Override(b BedrockagentcoreGatewayRule, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayRuleConfig) {
 	_init_.Initialize()
 

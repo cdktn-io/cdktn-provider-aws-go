@@ -5,14 +5,14 @@ package emrstudiosessionmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/emrstudiosessionmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/emrstudiosessionmapping/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping}.
 type EmrStudioSessionMapping interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_EmrStudioSessionMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
 func NewEmrStudioSessionMapping(scope constructs.Construct, id *string, config *EmrStudioSessionMappingConfig) EmrStudioSessionMapping {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewEmrStudioSessionMapping(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/emr_studio_session_mapping aws_emr_studio_session_mapping} Resource.
 func NewEmrStudioSessionMapping_Override(e EmrStudioSessionMapping, scope constructs.Construct, id *string, config *EmrStudioSessionMappingConfig) {
 	_init_.Initialize()
 

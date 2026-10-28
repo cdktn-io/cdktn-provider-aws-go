@@ -5,14 +5,14 @@ package shieldprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/shieldprotection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/shieldprotection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/shield_protection aws_shield_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/shield_protection aws_shield_protection}.
 type ShieldProtection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ShieldProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/shield_protection aws_shield_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/shield_protection aws_shield_protection} Resource.
 func NewShieldProtection(scope constructs.Construct, id *string, config *ShieldProtectionConfig) ShieldProtection {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewShieldProtection(scope constructs.Construct, id *string, config *ShieldP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/shield_protection aws_shield_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/shield_protection aws_shield_protection} Resource.
 func NewShieldProtection_Override(s ShieldProtection, scope constructs.Construct, id *string, config *ShieldProtectionConfig) {
 	_init_.Initialize()
 

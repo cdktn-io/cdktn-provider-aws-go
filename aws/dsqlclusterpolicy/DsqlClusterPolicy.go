@@ -5,14 +5,14 @@ package dsqlclusterpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dsqlclusterpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dsqlclusterpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dsql_cluster_policy aws_dsql_cluster_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dsql_cluster_policy aws_dsql_cluster_policy}.
 type DsqlClusterPolicy interface {
 	cdktn.TerraformResource
 	BypassPolicyLockoutSafetyCheck() interface{}
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DsqlClusterPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dsql_cluster_policy aws_dsql_cluster_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dsql_cluster_policy aws_dsql_cluster_policy} Resource.
 func NewDsqlClusterPolicy(scope constructs.Construct, id *string, config *DsqlClusterPolicyConfig) DsqlClusterPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDsqlClusterPolicy(scope constructs.Construct, id *string, config *DsqlCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dsql_cluster_policy aws_dsql_cluster_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dsql_cluster_policy aws_dsql_cluster_policy} Resource.
 func NewDsqlClusterPolicy_Override(d DsqlClusterPolicy, scope constructs.Construct, id *string, config *DsqlClusterPolicyConfig) {
 	_init_.Initialize()
 

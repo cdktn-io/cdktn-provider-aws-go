@@ -5,14 +5,14 @@ package dataawslambdalayerversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawslambdalayerversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawslambdalayerversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lambda_layer_version aws_lambda_layer_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version}.
 type DataAwsLambdaLayerVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -563,7 +563,7 @@ func (j *jsiiProxy_DataAwsLambdaLayerVersion) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
 func NewDataAwsLambdaLayerVersion(scope constructs.Construct, id *string, config *DataAwsLambdaLayerVersionConfig) DataAwsLambdaLayerVersion {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewDataAwsLambdaLayerVersion(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lambda_layer_version aws_lambda_layer_version} Data Source.
 func NewDataAwsLambdaLayerVersion_Override(d DataAwsLambdaLayerVersion, scope constructs.Construct, id *string, config *DataAwsLambdaLayerVersionConfig) {
 	_init_.Initialize()
 

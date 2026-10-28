@@ -5,14 +5,14 @@ package resiliencehubv2inputsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/resiliencehubv2inputsource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/resiliencehubv2inputsource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/resiliencehubv2_input_source aws_resiliencehubv2_input_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/resiliencehubv2_input_source aws_resiliencehubv2_input_source}.
 type Resiliencehubv2InputSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_Resiliencehubv2InputSource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/resiliencehubv2_input_source aws_resiliencehubv2_input_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/resiliencehubv2_input_source aws_resiliencehubv2_input_source} Resource.
 func NewResiliencehubv2InputSource(scope constructs.Construct, id *string, config *Resiliencehubv2InputSourceConfig) Resiliencehubv2InputSource {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewResiliencehubv2InputSource(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/resiliencehubv2_input_source aws_resiliencehubv2_input_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/resiliencehubv2_input_source aws_resiliencehubv2_input_source} Resource.
 func NewResiliencehubv2InputSource_Override(r Resiliencehubv2InputSource, scope constructs.Construct, id *string, config *Resiliencehubv2InputSourceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ssmmaintenancewindowtarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ssmmaintenancewindowtarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ssmmaintenancewindowtarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssm_maintenance_window_target aws_ssm_maintenance_window_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssm_maintenance_window_target aws_ssm_maintenance_window_target}.
 type SsmMaintenanceWindowTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_SsmMaintenanceWindowTarget) WindowIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssm_maintenance_window_target aws_ssm_maintenance_window_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssm_maintenance_window_target aws_ssm_maintenance_window_target} Resource.
 func NewSsmMaintenanceWindowTarget(scope constructs.Construct, id *string, config *SsmMaintenanceWindowTargetConfig) SsmMaintenanceWindowTarget {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewSsmMaintenanceWindowTarget(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssm_maintenance_window_target aws_ssm_maintenance_window_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssm_maintenance_window_target aws_ssm_maintenance_window_target} Resource.
 func NewSsmMaintenanceWindowTarget_Override(s SsmMaintenanceWindowTarget, scope constructs.Construct, id *string, config *SsmMaintenanceWindowTargetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package apigatewayv2vpclink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/apigatewayv2vpclink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/apigatewayv2vpclink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link}.
 type Apigatewayv2VpcLink interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_Apigatewayv2VpcLink) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
 func NewApigatewayv2VpcLink(scope constructs.Construct, id *string, config *Apigatewayv2VpcLinkConfig) Apigatewayv2VpcLink {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewApigatewayv2VpcLink(scope constructs.Construct, id *string, config *Apig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_vpc_link aws_apigatewayv2_vpc_link} Resource.
 func NewApigatewayv2VpcLink_Override(a Apigatewayv2VpcLink, scope constructs.Construct, id *string, config *Apigatewayv2VpcLinkConfig) {
 	_init_.Initialize()
 

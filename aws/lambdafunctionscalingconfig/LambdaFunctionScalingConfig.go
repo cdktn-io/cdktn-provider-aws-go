@@ -5,14 +5,14 @@ package lambdafunctionscalingconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lambdafunctionscalingconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lambdafunctionscalingconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lambda_function_scaling_config aws_lambda_function_scaling_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lambda_function_scaling_config aws_lambda_function_scaling_config}.
 type LambdaFunctionScalingConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_LambdaFunctionScalingConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lambda_function_scaling_config aws_lambda_function_scaling_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lambda_function_scaling_config aws_lambda_function_scaling_config} Resource.
 func NewLambdaFunctionScalingConfig(scope constructs.Construct, id *string, config *LambdaFunctionScalingConfigConfig) LambdaFunctionScalingConfig {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewLambdaFunctionScalingConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lambda_function_scaling_config aws_lambda_function_scaling_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lambda_function_scaling_config aws_lambda_function_scaling_config} Resource.
 func NewLambdaFunctionScalingConfig_Override(l LambdaFunctionScalingConfig, scope constructs.Construct, id *string, config *LambdaFunctionScalingConfigConfig) {
 	_init_.Initialize()
 

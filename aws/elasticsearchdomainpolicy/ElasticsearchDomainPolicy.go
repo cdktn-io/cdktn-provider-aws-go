@@ -5,14 +5,14 @@ package elasticsearchdomainpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/elasticsearchdomainpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/elasticsearchdomainpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy}.
 type ElasticsearchDomainPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicies() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ElasticsearchDomainPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
 func NewElasticsearchDomainPolicy(scope constructs.Construct, id *string, config *ElasticsearchDomainPolicyConfig) ElasticsearchDomainPolicy {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewElasticsearchDomainPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/elasticsearch_domain_policy aws_elasticsearch_domain_policy} Resource.
 func NewElasticsearchDomainPolicy_Override(e ElasticsearchDomainPolicy, scope constructs.Construct, id *string, config *ElasticsearchDomainPolicyConfig) {
 	_init_.Initialize()
 

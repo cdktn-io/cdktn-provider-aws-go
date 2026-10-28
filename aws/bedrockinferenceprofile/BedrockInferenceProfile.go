@@ -5,14 +5,14 @@ package bedrockinferenceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockinferenceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockinferenceprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_inference_profile aws_bedrock_inference_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_inference_profile aws_bedrock_inference_profile}.
 type BedrockInferenceProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -575,7 +575,7 @@ func (j *jsiiProxy_BedrockInferenceProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_inference_profile aws_bedrock_inference_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_inference_profile aws_bedrock_inference_profile} Resource.
 func NewBedrockInferenceProfile(scope constructs.Construct, id *string, config *BedrockInferenceProfileConfig) BedrockInferenceProfile {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewBedrockInferenceProfile(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_inference_profile aws_bedrock_inference_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_inference_profile aws_bedrock_inference_profile} Resource.
 func NewBedrockInferenceProfile_Override(b BedrockInferenceProfile, scope constructs.Construct, id *string, config *BedrockInferenceProfileConfig) {
 	_init_.Initialize()
 

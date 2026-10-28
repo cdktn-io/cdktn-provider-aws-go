@@ -5,14 +5,14 @@ package ecstag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ecstag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ecstag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecs_tag aws_ecs_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_tag aws_ecs_tag}.
 type EcsTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_EcsTag) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecs_tag aws_ecs_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_tag aws_ecs_tag} Resource.
 func NewEcsTag(scope constructs.Construct, id *string, config *EcsTagConfig) EcsTag {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewEcsTag(scope constructs.Construct, id *string, config *EcsTagConfig) Ecs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecs_tag aws_ecs_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_tag aws_ecs_tag} Resource.
 func NewEcsTag_Override(e EcsTag, scope constructs.Construct, id *string, config *EcsTagConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ssoadmintrustedtokenissuer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ssoadmintrustedtokenissuer/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ssoadmintrustedtokenissuer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer}.
 type SsoadminTrustedTokenIssuer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_SsoadminTrustedTokenIssuer) TrustedTokenIssuerTypeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
 func NewSsoadminTrustedTokenIssuer(scope constructs.Construct, id *string, config *SsoadminTrustedTokenIssuerConfig) SsoadminTrustedTokenIssuer {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewSsoadminTrustedTokenIssuer(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_trusted_token_issuer aws_ssoadmin_trusted_token_issuer} Resource.
 func NewSsoadminTrustedTokenIssuer_Override(s SsoadminTrustedTokenIssuer, scope constructs.Construct, id *string, config *SsoadminTrustedTokenIssuerConfig) {
 	_init_.Initialize()
 

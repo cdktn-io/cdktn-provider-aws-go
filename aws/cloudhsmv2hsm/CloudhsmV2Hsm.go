@@ -5,14 +5,14 @@ package cloudhsmv2hsm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudhsmv2hsm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudhsmv2hsm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudhsm_v2_hsm aws_cloudhsm_v2_hsm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudhsm_v2_hsm aws_cloudhsm_v2_hsm}.
 type CloudhsmV2Hsm interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_CloudhsmV2Hsm) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudhsm_v2_hsm aws_cloudhsm_v2_hsm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudhsm_v2_hsm aws_cloudhsm_v2_hsm} Resource.
 func NewCloudhsmV2Hsm(scope constructs.Construct, id *string, config *CloudhsmV2HsmConfig) CloudhsmV2Hsm {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewCloudhsmV2Hsm(scope constructs.Construct, id *string, config *CloudhsmV2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudhsm_v2_hsm aws_cloudhsm_v2_hsm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudhsm_v2_hsm aws_cloudhsm_v2_hsm} Resource.
 func NewCloudhsmV2Hsm_Override(c CloudhsmV2Hsm, scope constructs.Construct, id *string, config *CloudhsmV2HsmConfig) {
 	_init_.Initialize()
 

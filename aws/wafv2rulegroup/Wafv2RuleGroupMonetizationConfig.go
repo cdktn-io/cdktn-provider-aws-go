@@ -7,9 +7,9 @@ package wafv2rulegroup
 type Wafv2RuleGroupMonetizationConfig struct {
 	// crypto_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_rule_group#crypto_config Wafv2RuleGroup#crypto_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_rule_group#crypto_config Wafv2RuleGroup#crypto_config}
 	CryptoConfig *Wafv2RuleGroupMonetizationConfigCryptoConfig `field:"optional" json:"cryptoConfig" yaml:"cryptoConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_rule_group#currency_mode Wafv2RuleGroup#currency_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_rule_group#currency_mode Wafv2RuleGroup#currency_mode}.
 	CurrencyMode *string `field:"optional" json:"currencyMode" yaml:"currencyMode"`
 }
 

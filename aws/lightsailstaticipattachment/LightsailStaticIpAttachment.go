@@ -5,14 +5,14 @@ package lightsailstaticipattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lightsailstaticipattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lightsailstaticipattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment}.
 type LightsailStaticIpAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_LightsailStaticIpAttachment) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
 func NewLightsailStaticIpAttachment(scope constructs.Construct, id *string, config *LightsailStaticIpAttachmentConfig) LightsailStaticIpAttachment {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewLightsailStaticIpAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_static_ip_attachment aws_lightsail_static_ip_attachment} Resource.
 func NewLightsailStaticIpAttachment_Override(l LightsailStaticIpAttachment, scope constructs.Construct, id *string, config *LightsailStaticIpAttachmentConfig) {
 	_init_.Initialize()
 

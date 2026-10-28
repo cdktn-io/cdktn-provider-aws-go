@@ -5,14 +5,14 @@ package mediaconvertqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/mediaconvertqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/mediaconvertqueue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/media_convert_queue aws_media_convert_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/media_convert_queue aws_media_convert_queue}.
 type MediaConvertQueue interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -594,7 +594,7 @@ func (j *jsiiProxy_MediaConvertQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
 func NewMediaConvertQueue(scope constructs.Construct, id *string, config *MediaConvertQueueConfig) MediaConvertQueue {
 	_init_.Initialize()
 
@@ -612,7 +612,7 @@ func NewMediaConvertQueue(scope constructs.Construct, id *string, config *MediaC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/media_convert_queue aws_media_convert_queue} Resource.
 func NewMediaConvertQueue_Override(m MediaConvertQueue, scope constructs.Construct, id *string, config *MediaConvertQueueConfig) {
 	_init_.Initialize()
 

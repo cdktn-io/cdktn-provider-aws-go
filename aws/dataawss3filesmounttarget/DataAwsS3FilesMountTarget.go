@@ -5,14 +5,14 @@ package dataawss3filesmounttarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawss3filesmounttarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawss3filesmounttarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/s3files_mount_target aws_s3files_mount_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/s3files_mount_target aws_s3files_mount_target}.
 type DataAwsS3FilesMountTarget interface {
 	cdktn.TerraformDataSource
 	AvailabilityZoneId() *string
@@ -431,7 +431,7 @@ func (j *jsiiProxy_DataAwsS3FilesMountTarget) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/s3files_mount_target aws_s3files_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/s3files_mount_target aws_s3files_mount_target} Data Source.
 func NewDataAwsS3FilesMountTarget(scope constructs.Construct, id *string, config *DataAwsS3FilesMountTargetConfig) DataAwsS3FilesMountTarget {
 	_init_.Initialize()
 
@@ -449,7 +449,7 @@ func NewDataAwsS3FilesMountTarget(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/s3files_mount_target aws_s3files_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/s3files_mount_target aws_s3files_mount_target} Data Source.
 func NewDataAwsS3FilesMountTarget_Override(d DataAwsS3FilesMountTarget, scope constructs.Construct, id *string, config *DataAwsS3FilesMountTargetConfig) {
 	_init_.Initialize()
 

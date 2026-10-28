@@ -5,14 +5,14 @@ package dataawscloudfrontconnectiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscloudfrontconnectiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawscloudfrontconnectiongroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudfront_connection_group aws_cloudfront_connection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudfront_connection_group aws_cloudfront_connection_group}.
 type DataAwsCloudfrontConnectionGroup interface {
 	cdktn.TerraformDataSource
 	AnycastIpListId() *string
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAwsCloudfrontConnectionGroup) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudfront_connection_group aws_cloudfront_connection_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudfront_connection_group aws_cloudfront_connection_group} Data Source.
 func NewDataAwsCloudfrontConnectionGroup(scope constructs.Construct, id *string, config *DataAwsCloudfrontConnectionGroupConfig) DataAwsCloudfrontConnectionGroup {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAwsCloudfrontConnectionGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudfront_connection_group aws_cloudfront_connection_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudfront_connection_group aws_cloudfront_connection_group} Data Source.
 func NewDataAwsCloudfrontConnectionGroup_Override(d DataAwsCloudfrontConnectionGroup, scope constructs.Construct, id *string, config *DataAwsCloudfrontConnectionGroupConfig) {
 	_init_.Initialize()
 

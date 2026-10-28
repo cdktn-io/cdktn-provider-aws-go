@@ -5,14 +5,14 @@ package datasynclocationfsxwindowsfilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/datasynclocationfsxwindowsfilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/datasynclocationfsxwindowsfilesystem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system}.
 type DatasyncLocationFsxWindowsFileSystem interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -613,7 +613,7 @@ func (j *jsiiProxy_DatasyncLocationFsxWindowsFileSystem) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
 func NewDatasyncLocationFsxWindowsFileSystem(scope constructs.Construct, id *string, config *DatasyncLocationFsxWindowsFileSystemConfig) DatasyncLocationFsxWindowsFileSystem {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewDatasyncLocationFsxWindowsFileSystem(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/datasync_location_fsx_windows_file_system aws_datasync_location_fsx_windows_file_system} Resource.
 func NewDatasyncLocationFsxWindowsFileSystem_Override(d DatasyncLocationFsxWindowsFileSystem, scope constructs.Construct, id *string, config *DatasyncLocationFsxWindowsFileSystemConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package macie2organizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/macie2organizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/macie2organizationconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration}.
 type Macie2OrganizationConfiguration interface {
 	cdktn.TerraformResource
 	AutoEnable() interface{}
@@ -391,7 +391,7 @@ func (j *jsiiProxy_Macie2OrganizationConfiguration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
 func NewMacie2OrganizationConfiguration(scope constructs.Construct, id *string, config *Macie2OrganizationConfigurationConfig) Macie2OrganizationConfiguration {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewMacie2OrganizationConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/macie2_organization_configuration aws_macie2_organization_configuration} Resource.
 func NewMacie2OrganizationConfiguration_Override(m Macie2OrganizationConfiguration, scope constructs.Construct, id *string, config *Macie2OrganizationConfigurationConfig) {
 	_init_.Initialize()
 

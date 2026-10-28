@@ -5,14 +5,14 @@ package customerprofilesdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/customerprofilesdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/customerprofilesdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/customerprofiles_domain aws_customerprofiles_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/customerprofiles_domain aws_customerprofiles_domain}.
 type CustomerprofilesDomain interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_CustomerprofilesDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/customerprofiles_domain aws_customerprofiles_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/customerprofiles_domain aws_customerprofiles_domain} Resource.
 func NewCustomerprofilesDomain(scope constructs.Construct, id *string, config *CustomerprofilesDomainConfig) CustomerprofilesDomain {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewCustomerprofilesDomain(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/customerprofiles_domain aws_customerprofiles_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/customerprofiles_domain aws_customerprofiles_domain} Resource.
 func NewCustomerprofilesDomain_Override(c CustomerprofilesDomain, scope constructs.Construct, id *string, config *CustomerprofilesDomainConfig) {
 	_init_.Initialize()
 

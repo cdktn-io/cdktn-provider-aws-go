@@ -5,14 +5,14 @@ package workmailgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/workmailgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/workmailgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workmail_group aws_workmail_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workmail_group aws_workmail_group}.
 type WorkmailGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_WorkmailGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workmail_group aws_workmail_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workmail_group aws_workmail_group} Resource.
 func NewWorkmailGroup(scope constructs.Construct, id *string, config *WorkmailGroupConfig) WorkmailGroup {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewWorkmailGroup(scope constructs.Construct, id *string, config *WorkmailGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workmail_group aws_workmail_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workmail_group aws_workmail_group} Resource.
 func NewWorkmailGroup_Override(w WorkmailGroup, scope constructs.Construct, id *string, config *WorkmailGroupConfig) {
 	_init_.Initialize()
 

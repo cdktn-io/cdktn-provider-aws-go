@@ -5,14 +5,14 @@ package appmeshvirtualrouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/appmeshvirtualrouter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/appmeshvirtualrouter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router}.
 type AppmeshVirtualRouter interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_AppmeshVirtualRouter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
 func NewAppmeshVirtualRouter(scope constructs.Construct, id *string, config *AppmeshVirtualRouterConfig) AppmeshVirtualRouter {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewAppmeshVirtualRouter(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appmesh_virtual_router aws_appmesh_virtual_router} Resource.
 func NewAppmeshVirtualRouter_Override(a AppmeshVirtualRouter, scope constructs.Construct, id *string, config *AppmeshVirtualRouterConfig) {
 	_init_.Initialize()
 

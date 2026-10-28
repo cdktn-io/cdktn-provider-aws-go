@@ -5,14 +5,14 @@ package dataawsecrauthorizationtoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsecrauthorizationtoken/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsecrauthorizationtoken/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token}.
 type DataAwsEcrAuthorizationToken interface {
 	cdktn.TerraformDataSource
 	AuthorizationToken() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAwsEcrAuthorizationToken) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
 func NewDataAwsEcrAuthorizationToken(scope constructs.Construct, id *string, config *DataAwsEcrAuthorizationTokenConfig) DataAwsEcrAuthorizationToken {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataAwsEcrAuthorizationToken(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ecr_authorization_token aws_ecr_authorization_token} Data Source.
 func NewDataAwsEcrAuthorizationToken_Override(d DataAwsEcrAuthorizationToken, scope constructs.Construct, id *string, config *DataAwsEcrAuthorizationTokenConfig) {
 	_init_.Initialize()
 

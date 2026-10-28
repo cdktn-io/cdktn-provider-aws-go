@@ -5,14 +5,14 @@ package efsreplicationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/efsreplicationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/efsreplicationconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/efs_replication_configuration aws_efs_replication_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/efs_replication_configuration aws_efs_replication_configuration}.
 type EfsReplicationConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_EfsReplicationConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/efs_replication_configuration aws_efs_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/efs_replication_configuration aws_efs_replication_configuration} Resource.
 func NewEfsReplicationConfiguration(scope constructs.Construct, id *string, config *EfsReplicationConfigurationConfig) EfsReplicationConfiguration {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewEfsReplicationConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/efs_replication_configuration aws_efs_replication_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/efs_replication_configuration aws_efs_replication_configuration} Resource.
 func NewEfsReplicationConfiguration_Override(e EfsReplicationConfiguration, scope constructs.Construct, id *string, config *EfsReplicationConfigurationConfig) {
 	_init_.Initialize()
 

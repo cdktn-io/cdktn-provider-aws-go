@@ -5,14 +5,14 @@ package workmaildefaultdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/workmaildefaultdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/workmaildefaultdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workmail_default_domain aws_workmail_default_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workmail_default_domain aws_workmail_default_domain}.
 type WorkmailDefaultDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_WorkmailDefaultDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workmail_default_domain aws_workmail_default_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workmail_default_domain aws_workmail_default_domain} Resource.
 func NewWorkmailDefaultDomain(scope constructs.Construct, id *string, config *WorkmailDefaultDomainConfig) WorkmailDefaultDomain {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewWorkmailDefaultDomain(scope constructs.Construct, id *string, config *Wo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workmail_default_domain aws_workmail_default_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workmail_default_domain aws_workmail_default_domain} Resource.
 func NewWorkmailDefaultDomain_Override(w WorkmailDefaultDomain, scope constructs.Construct, id *string, config *WorkmailDefaultDomainConfig) {
 	_init_.Initialize()
 

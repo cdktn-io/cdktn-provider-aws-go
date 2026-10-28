@@ -5,14 +5,14 @@ package verifiedpermissionsschema
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/verifiedpermissionsschema/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/verifiedpermissionsschema/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema}.
 type VerifiedpermissionsSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_VerifiedpermissionsSchema) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
 func NewVerifiedpermissionsSchema(scope constructs.Construct, id *string, config *VerifiedpermissionsSchemaConfig) VerifiedpermissionsSchema {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewVerifiedpermissionsSchema(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/verifiedpermissions_schema aws_verifiedpermissions_schema} Resource.
 func NewVerifiedpermissionsSchema_Override(v VerifiedpermissionsSchema, scope constructs.Construct, id *string, config *VerifiedpermissionsSchemaConfig) {
 	_init_.Initialize()
 

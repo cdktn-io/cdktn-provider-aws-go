@@ -5,14 +5,14 @@ package dataawscognitouserpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscognitouserpool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawscognitouserpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cognito_user_pool aws_cognito_user_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool}.
 type DataAwsCognitoUserPool interface {
 	cdktn.TerraformDataSource
 	AccountRecoverySetting() DataAwsCognitoUserPoolAccountRecoverySettingList
@@ -574,7 +574,7 @@ func (j *jsiiProxy_DataAwsCognitoUserPool) UserPoolTags() cdktn.StringMap {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
 func NewDataAwsCognitoUserPool(scope constructs.Construct, id *string, config *DataAwsCognitoUserPoolConfig) DataAwsCognitoUserPool {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewDataAwsCognitoUserPool(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cognito_user_pool aws_cognito_user_pool} Data Source.
 func NewDataAwsCognitoUserPool_Override(d DataAwsCognitoUserPool, scope constructs.Construct, id *string, config *DataAwsCognitoUserPoolConfig) {
 	_init_.Initialize()
 

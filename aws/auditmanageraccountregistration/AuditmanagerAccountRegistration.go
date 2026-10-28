@@ -5,14 +5,14 @@ package auditmanageraccountregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/auditmanageraccountregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/auditmanageraccountregistration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration}.
 type AuditmanagerAccountRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_AuditmanagerAccountRegistration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
 func NewAuditmanagerAccountRegistration(scope constructs.Construct, id *string, config *AuditmanagerAccountRegistrationConfig) AuditmanagerAccountRegistration {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewAuditmanagerAccountRegistration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_account_registration aws_auditmanager_account_registration} Resource.
 func NewAuditmanagerAccountRegistration_Override(a AuditmanagerAccountRegistration, scope constructs.Construct, id *string, config *AuditmanagerAccountRegistrationConfig) {
 	_init_.Initialize()
 

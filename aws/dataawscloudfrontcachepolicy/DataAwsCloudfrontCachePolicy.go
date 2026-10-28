@@ -5,14 +5,14 @@ package dataawscloudfrontcachepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscloudfrontcachepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawscloudfrontcachepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudfront_cache_policy aws_cloudfront_cache_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudfront_cache_policy aws_cloudfront_cache_policy}.
 type DataAwsCloudfrontCachePolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -388,7 +388,7 @@ func (j *jsiiProxy_DataAwsCloudfrontCachePolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudfront_cache_policy aws_cloudfront_cache_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudfront_cache_policy aws_cloudfront_cache_policy} Data Source.
 func NewDataAwsCloudfrontCachePolicy(scope constructs.Construct, id *string, config *DataAwsCloudfrontCachePolicyConfig) DataAwsCloudfrontCachePolicy {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewDataAwsCloudfrontCachePolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudfront_cache_policy aws_cloudfront_cache_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudfront_cache_policy aws_cloudfront_cache_policy} Data Source.
 func NewDataAwsCloudfrontCachePolicy_Override(d DataAwsCloudfrontCachePolicy, scope constructs.Construct, id *string, config *DataAwsCloudfrontCachePolicyConfig) {
 	_init_.Initialize()
 

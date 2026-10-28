@@ -5,14 +5,14 @@ package chimevoiceconnectorlogging
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/chimevoiceconnectorlogging/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/chimevoiceconnectorlogging/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/chime_voice_connector_logging aws_chime_voice_connector_logging}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/chime_voice_connector_logging aws_chime_voice_connector_logging}.
 type ChimeVoiceConnectorLogging interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_ChimeVoiceConnectorLogging) VoiceConnectorIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/chime_voice_connector_logging aws_chime_voice_connector_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/chime_voice_connector_logging aws_chime_voice_connector_logging} Resource.
 func NewChimeVoiceConnectorLogging(scope constructs.Construct, id *string, config *ChimeVoiceConnectorLoggingConfig) ChimeVoiceConnectorLogging {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewChimeVoiceConnectorLogging(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/chime_voice_connector_logging aws_chime_voice_connector_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/chime_voice_connector_logging aws_chime_voice_connector_logging} Resource.
 func NewChimeVoiceConnectorLogging_Override(c ChimeVoiceConnectorLogging, scope constructs.Construct, id *string, config *ChimeVoiceConnectorLoggingConfig) {
 	_init_.Initialize()
 

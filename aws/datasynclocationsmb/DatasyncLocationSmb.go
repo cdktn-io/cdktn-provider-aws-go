@@ -5,14 +5,14 @@ package datasynclocationsmb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/datasynclocationsmb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/datasynclocationsmb/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/datasync_location_smb aws_datasync_location_smb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/datasync_location_smb aws_datasync_location_smb}.
 type DatasyncLocationSmb interface {
 	cdktn.TerraformResource
 	AgentArns() *[]*string
@@ -625,7 +625,7 @@ func (j *jsiiProxy_DatasyncLocationSmb) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
 func NewDatasyncLocationSmb(scope constructs.Construct, id *string, config *DatasyncLocationSmbConfig) DatasyncLocationSmb {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewDatasyncLocationSmb(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/datasync_location_smb aws_datasync_location_smb} Resource.
 func NewDatasyncLocationSmb_Override(d DatasyncLocationSmb, scope constructs.Construct, id *string, config *DatasyncLocationSmbConfig) {
 	_init_.Initialize()
 

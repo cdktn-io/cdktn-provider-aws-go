@@ -5,14 +5,14 @@ package ekscapability
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ekscapability/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ekscapability/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eks_capability aws_eks_capability}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eks_capability aws_eks_capability}.
 type EksCapability interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -588,7 +588,7 @@ func (j *jsiiProxy_EksCapability) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eks_capability aws_eks_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eks_capability aws_eks_capability} Resource.
 func NewEksCapability(scope constructs.Construct, id *string, config *EksCapabilityConfig) EksCapability {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewEksCapability(scope constructs.Construct, id *string, config *EksCapabil
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eks_capability aws_eks_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eks_capability aws_eks_capability} Resource.
 func NewEksCapability_Override(e EksCapability, scope constructs.Construct, id *string, config *EksCapabilityConfig) {
 	_init_.Initialize()
 

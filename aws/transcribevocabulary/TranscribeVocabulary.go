@@ -5,14 +5,14 @@ package transcribevocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/transcribevocabulary/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/transcribevocabulary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary}.
 type TranscribeVocabulary interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_TranscribeVocabulary) VocabularyNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
 func NewTranscribeVocabulary(scope constructs.Construct, id *string, config *TranscribeVocabularyConfig) TranscribeVocabulary {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewTranscribeVocabulary(scope constructs.Construct, id *string, config *Tra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transcribe_vocabulary aws_transcribe_vocabulary} Resource.
 func NewTranscribeVocabulary_Override(t TranscribeVocabulary, scope constructs.Construct, id *string, config *TranscribeVocabularyConfig) {
 	_init_.Initialize()
 

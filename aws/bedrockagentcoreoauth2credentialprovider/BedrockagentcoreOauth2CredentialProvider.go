@@ -5,14 +5,14 @@ package bedrockagentcoreoauth2credentialprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockagentcoreoauth2credentialprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockagentcoreoauth2credentialprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider}.
 type BedrockagentcoreOauth2CredentialProvider interface {
 	cdktn.TerraformResource
 	CallbackUrl() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_BedrockagentcoreOauth2CredentialProvider) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
 func NewBedrockagentcoreOauth2CredentialProvider(scope constructs.Construct, id *string, config *BedrockagentcoreOauth2CredentialProviderConfig) BedrockagentcoreOauth2CredentialProvider {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewBedrockagentcoreOauth2CredentialProvider(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_oauth2_credential_provider aws_bedrockagentcore_oauth2_credential_provider} Resource.
 func NewBedrockagentcoreOauth2CredentialProvider_Override(b BedrockagentcoreOauth2CredentialProvider, scope constructs.Construct, id *string, config *BedrockagentcoreOauth2CredentialProviderConfig) {
 	_init_.Initialize()
 

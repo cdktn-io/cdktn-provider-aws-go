@@ -5,14 +5,14 @@ package spotfleetrequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/spotfleetrequest/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/spotfleetrequest/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/spot_fleet_request aws_spot_fleet_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/spot_fleet_request aws_spot_fleet_request}.
 type SpotFleetRequest interface {
 	cdktn.TerraformResource
 	AllocationStrategy() *string
@@ -1060,7 +1060,7 @@ func (j *jsiiProxy_SpotFleetRequest) WaitForFulfillmentInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
 func NewSpotFleetRequest(scope constructs.Construct, id *string, config *SpotFleetRequestConfig) SpotFleetRequest {
 	_init_.Initialize()
 
@@ -1078,7 +1078,7 @@ func NewSpotFleetRequest(scope constructs.Construct, id *string, config *SpotFle
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/spot_fleet_request aws_spot_fleet_request} Resource.
 func NewSpotFleetRequest_Override(s SpotFleetRequest, scope constructs.Construct, id *string, config *SpotFleetRequestConfig) {
 	_init_.Initialize()
 

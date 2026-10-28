@@ -5,14 +5,14 @@ package xraytracesegmentdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/xraytracesegmentdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/xraytracesegmentdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination}.
 type XrayTraceSegmentDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_XrayTraceSegmentDestination) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
 func NewXrayTraceSegmentDestination(scope constructs.Construct, id *string, config *XrayTraceSegmentDestinationConfig) XrayTraceSegmentDestination {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewXrayTraceSegmentDestination(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/xray_trace_segment_destination aws_xray_trace_segment_destination} Resource.
 func NewXrayTraceSegmentDestination_Override(x XrayTraceSegmentDestination, scope constructs.Construct, id *string, config *XrayTraceSegmentDestinationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package fmsadminaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/fmsadminaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/fmsadminaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/fms_admin_account aws_fms_admin_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/fms_admin_account aws_fms_admin_account}.
 type FmsAdminAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -416,7 +416,7 @@ func (j *jsiiProxy_FmsAdminAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
 func NewFmsAdminAccount(scope constructs.Construct, id *string, config *FmsAdminAccountConfig) FmsAdminAccount {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewFmsAdminAccount(scope constructs.Construct, id *string, config *FmsAdmin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/fms_admin_account aws_fms_admin_account} Resource.
 func NewFmsAdminAccount_Override(f FmsAdminAccount, scope constructs.Construct, id *string, config *FmsAdminAccountConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lambdafunctionrecursionconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lambdafunctionrecursionconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lambdafunctionrecursionconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config}.
 type LambdaFunctionRecursionConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_LambdaFunctionRecursionConfig) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
 func NewLambdaFunctionRecursionConfig(scope constructs.Construct, id *string, config *LambdaFunctionRecursionConfigConfig) LambdaFunctionRecursionConfig {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewLambdaFunctionRecursionConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lambda_function_recursion_config aws_lambda_function_recursion_config} Resource.
 func NewLambdaFunctionRecursionConfig_Override(l LambdaFunctionRecursionConfig, scope constructs.Construct, id *string, config *LambdaFunctionRecursionConfigConfig) {
 	_init_.Initialize()
 

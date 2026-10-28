@@ -5,14 +5,14 @@ package dataawseksnodegroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawseksnodegroups/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawseksnodegroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_node_groups aws_eks_node_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_node_groups aws_eks_node_groups}.
 type DataAwsEksNodeGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
 func NewDataAwsEksNodeGroups(scope constructs.Construct, id *string, config *DataAwsEksNodeGroupsConfig) DataAwsEksNodeGroups {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsEksNodeGroups(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_node_groups aws_eks_node_groups} Data Source.
 func NewDataAwsEksNodeGroups_Override(d DataAwsEksNodeGroups, scope constructs.Construct, id *string, config *DataAwsEksNodeGroupsConfig) {
 	_init_.Initialize()
 

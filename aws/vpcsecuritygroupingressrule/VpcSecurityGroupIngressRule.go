@@ -5,14 +5,14 @@ package vpcsecuritygroupingressrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpcsecuritygroupingressrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpcsecuritygroupingressrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_security_group_ingress_rule aws_vpc_security_group_ingress_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_security_group_ingress_rule aws_vpc_security_group_ingress_rule}.
 type VpcSecurityGroupIngressRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_VpcSecurityGroupIngressRule) ToPortInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_security_group_ingress_rule aws_vpc_security_group_ingress_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_security_group_ingress_rule aws_vpc_security_group_ingress_rule} Resource.
 func NewVpcSecurityGroupIngressRule(scope constructs.Construct, id *string, config *VpcSecurityGroupIngressRuleConfig) VpcSecurityGroupIngressRule {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewVpcSecurityGroupIngressRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_security_group_ingress_rule aws_vpc_security_group_ingress_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_security_group_ingress_rule aws_vpc_security_group_ingress_rule} Resource.
 func NewVpcSecurityGroupIngressRule_Override(v VpcSecurityGroupIngressRule, scope constructs.Construct, id *string, config *VpcSecurityGroupIngressRuleConfig) {
 	_init_.Initialize()
 

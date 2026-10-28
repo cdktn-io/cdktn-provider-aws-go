@@ -5,14 +5,14 @@ package vpclatticetargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpclatticetargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpclatticetargetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_target_group aws_vpclattice_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group}.
 type VpclatticeTargetGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_VpclatticeTargetGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
 func NewVpclatticeTargetGroup(scope constructs.Construct, id *string, config *VpclatticeTargetGroupConfig) VpclatticeTargetGroup {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewVpclatticeTargetGroup(scope constructs.Construct, id *string, config *Vp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_target_group aws_vpclattice_target_group} Resource.
 func NewVpclatticeTargetGroup_Override(v VpclatticeTargetGroup, scope constructs.Construct, id *string, config *VpclatticeTargetGroupConfig) {
 	_init_.Initialize()
 

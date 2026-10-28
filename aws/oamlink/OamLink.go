@@ -5,14 +5,14 @@ package oamlink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/oamlink/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/oamlink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/oam_link aws_oam_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/oam_link aws_oam_link}.
 type OamLink interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_OamLink) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/oam_link aws_oam_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/oam_link aws_oam_link} Resource.
 func NewOamLink(scope constructs.Construct, id *string, config *OamLinkConfig) OamLink {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewOamLink(scope constructs.Construct, id *string, config *OamLinkConfig) O
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/oam_link aws_oam_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/oam_link aws_oam_link} Resource.
 func NewOamLink_Override(o OamLink, scope constructs.Construct, id *string, config *OamLinkConfig) {
 	_init_.Initialize()
 

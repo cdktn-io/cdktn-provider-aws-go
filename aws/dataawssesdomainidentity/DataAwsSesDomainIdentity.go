@@ -5,14 +5,14 @@ package dataawssesdomainidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawssesdomainidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawssesdomainidentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ses_domain_identity aws_ses_domain_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity}.
 type DataAwsSesDomainIdentity interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataAwsSesDomainIdentity) VerificationToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
 func NewDataAwsSesDomainIdentity(scope constructs.Construct, id *string, config *DataAwsSesDomainIdentityConfig) DataAwsSesDomainIdentity {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataAwsSesDomainIdentity(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ses_domain_identity aws_ses_domain_identity} Data Source.
 func NewDataAwsSesDomainIdentity_Override(d DataAwsSesDomainIdentity, scope constructs.Construct, id *string, config *DataAwsSesDomainIdentityConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package bedrockagentcorepolicyengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockagentcorepolicyengine/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockagentcorepolicyengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_policy_engine aws_bedrockagentcore_policy_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_policy_engine aws_bedrockagentcore_policy_engine}.
 type BedrockagentcorePolicyEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_BedrockagentcorePolicyEngine) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_policy_engine aws_bedrockagentcore_policy_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_policy_engine aws_bedrockagentcore_policy_engine} Resource.
 func NewBedrockagentcorePolicyEngine(scope constructs.Construct, id *string, config *BedrockagentcorePolicyEngineConfig) BedrockagentcorePolicyEngine {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewBedrockagentcorePolicyEngine(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_policy_engine aws_bedrockagentcore_policy_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_policy_engine aws_bedrockagentcore_policy_engine} Resource.
 func NewBedrockagentcorePolicyEngine_Override(b BedrockagentcorePolicyEngine, scope constructs.Construct, id *string, config *BedrockagentcorePolicyEngineConfig) {
 	_init_.Initialize()
 

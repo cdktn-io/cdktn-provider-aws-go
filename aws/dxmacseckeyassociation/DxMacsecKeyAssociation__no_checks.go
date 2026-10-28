@@ -103,7 +103,23 @@ func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCakParameters(val *string)
 	return nil
 }
 
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCakWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCakWoVersionParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCknParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCknWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCknWoVersionParameters(val *float64) error {
 	return nil
 }
 

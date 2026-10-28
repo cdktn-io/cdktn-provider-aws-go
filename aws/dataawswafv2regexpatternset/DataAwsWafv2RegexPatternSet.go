@@ -5,14 +5,14 @@ package dataawswafv2regexpatternset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawswafv2regexpatternset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawswafv2regexpatternset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set}.
 type DataAwsWafv2RegexPatternSet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAwsWafv2RegexPatternSet) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Data Source.
 func NewDataAwsWafv2RegexPatternSet(scope constructs.Construct, id *string, config *DataAwsWafv2RegexPatternSetConfig) DataAwsWafv2RegexPatternSet {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewDataAwsWafv2RegexPatternSet(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/wafv2_regex_pattern_set aws_wafv2_regex_pattern_set} Data Source.
 func NewDataAwsWafv2RegexPatternSet_Override(d DataAwsWafv2RegexPatternSet, scope constructs.Construct, id *string, config *DataAwsWafv2RegexPatternSetConfig) {
 	_init_.Initialize()
 

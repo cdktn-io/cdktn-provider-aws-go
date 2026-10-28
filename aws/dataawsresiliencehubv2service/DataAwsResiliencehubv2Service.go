@@ -5,14 +5,14 @@ package dataawsresiliencehubv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsresiliencehubv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsresiliencehubv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/resiliencehubv2_service aws_resiliencehubv2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/resiliencehubv2_service aws_resiliencehubv2_service}.
 type DataAwsResiliencehubv2Service interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -398,7 +398,7 @@ func (j *jsiiProxy_DataAwsResiliencehubv2Service) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/resiliencehubv2_service aws_resiliencehubv2_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/resiliencehubv2_service aws_resiliencehubv2_service} Data Source.
 func NewDataAwsResiliencehubv2Service(scope constructs.Construct, id *string, config *DataAwsResiliencehubv2ServiceConfig) DataAwsResiliencehubv2Service {
 	_init_.Initialize()
 
@@ -416,7 +416,7 @@ func NewDataAwsResiliencehubv2Service(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/resiliencehubv2_service aws_resiliencehubv2_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/resiliencehubv2_service aws_resiliencehubv2_service} Data Source.
 func NewDataAwsResiliencehubv2Service_Override(d DataAwsResiliencehubv2Service, scope constructs.Construct, id *string, config *DataAwsResiliencehubv2ServiceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package kmsciphertext
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/kmsciphertext/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/kmsciphertext/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/kms_ciphertext aws_kms_ciphertext}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/kms_ciphertext aws_kms_ciphertext}.
 type KmsCiphertext interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -524,7 +524,7 @@ func (j *jsiiProxy_KmsCiphertext) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
 func NewKmsCiphertext(scope constructs.Construct, id *string, config *KmsCiphertextConfig) KmsCiphertext {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewKmsCiphertext(scope constructs.Construct, id *string, config *KmsCiphert
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/kms_ciphertext aws_kms_ciphertext} Resource.
 func NewKmsCiphertext_Override(k KmsCiphertext, scope constructs.Construct, id *string, config *KmsCiphertextConfig) {
 	_init_.Initialize()
 

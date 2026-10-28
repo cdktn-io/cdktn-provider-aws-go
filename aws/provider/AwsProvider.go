@@ -5,15 +5,15 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/provider/internal"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/providerfunctions"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs aws}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs aws}.
 type AwsProvider interface {
 	cdktn.TerraformProvider
 	AccessKey() *string
@@ -1061,7 +1061,7 @@ func (j *jsiiProxy_AwsProvider) UserAgentInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs aws} Resource.
 func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderConfig) AwsProvider {
 	_init_.Initialize()
 
@@ -1079,7 +1079,7 @@ func NewAwsProvider(scope constructs.Construct, id *string, config *AwsProviderC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs aws} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs aws} Resource.
 func NewAwsProvider_Override(a AwsProvider, scope constructs.Construct, id *string, config *AwsProviderConfig) {
 	_init_.Initialize()
 

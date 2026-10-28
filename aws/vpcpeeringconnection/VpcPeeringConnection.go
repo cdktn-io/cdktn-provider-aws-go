@@ -5,14 +5,14 @@ package vpcpeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpcpeeringconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpcpeeringconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_peering_connection aws_vpc_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_peering_connection aws_vpc_peering_connection}.
 type VpcPeeringConnection interface {
 	cdktn.TerraformResource
 	Accepter() VpcPeeringConnectionAccepterOutputReference
@@ -641,7 +641,7 @@ func (j *jsiiProxy_VpcPeeringConnection) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_peering_connection aws_vpc_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_peering_connection aws_vpc_peering_connection} Resource.
 func NewVpcPeeringConnection(scope constructs.Construct, id *string, config *VpcPeeringConnectionConfig) VpcPeeringConnection {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewVpcPeeringConnection(scope constructs.Construct, id *string, config *Vpc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_peering_connection aws_vpc_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_peering_connection aws_vpc_peering_connection} Resource.
 func NewVpcPeeringConnection_Override(v VpcPeeringConnection, scope constructs.Construct, id *string, config *VpcPeeringConnectionConfig) {
 	_init_.Initialize()
 

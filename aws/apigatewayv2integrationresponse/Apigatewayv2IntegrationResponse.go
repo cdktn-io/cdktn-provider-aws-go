@@ -5,14 +5,14 @@ package apigatewayv2integrationresponse
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/apigatewayv2integrationresponse/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/apigatewayv2integrationresponse/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_integration_response aws_apigatewayv2_integration_response}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_integration_response aws_apigatewayv2_integration_response}.
 type Apigatewayv2IntegrationResponse interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_Apigatewayv2IntegrationResponse) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_integration_response aws_apigatewayv2_integration_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_integration_response aws_apigatewayv2_integration_response} Resource.
 func NewApigatewayv2IntegrationResponse(scope constructs.Construct, id *string, config *Apigatewayv2IntegrationResponseConfig) Apigatewayv2IntegrationResponse {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewApigatewayv2IntegrationResponse(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_integration_response aws_apigatewayv2_integration_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_integration_response aws_apigatewayv2_integration_response} Resource.
 func NewApigatewayv2IntegrationResponse_Override(a Apigatewayv2IntegrationResponse, scope constructs.Construct, id *string, config *Apigatewayv2IntegrationResponseConfig) {
 	_init_.Initialize()
 

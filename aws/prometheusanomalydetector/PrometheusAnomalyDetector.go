@@ -5,14 +5,14 @@ package prometheusanomalydetector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/prometheusanomalydetector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/prometheusanomalydetector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector}.
 type PrometheusAnomalyDetector interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -602,7 +602,7 @@ func (j *jsiiProxy_PrometheusAnomalyDetector) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
 func NewPrometheusAnomalyDetector(scope constructs.Construct, id *string, config *PrometheusAnomalyDetectorConfig) PrometheusAnomalyDetector {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewPrometheusAnomalyDetector(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_anomaly_detector aws_prometheus_anomaly_detector} Resource.
 func NewPrometheusAnomalyDetector_Override(p PrometheusAnomalyDetector, scope constructs.Construct, id *string, config *PrometheusAnomalyDetectorConfig) {
 	_init_.Initialize()
 

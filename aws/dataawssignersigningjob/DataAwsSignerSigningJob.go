@@ -5,14 +5,14 @@ package dataawssignersigningjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawssignersigningjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawssignersigningjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/signer_signing_job aws_signer_signing_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/signer_signing_job aws_signer_signing_job}.
 type DataAwsSignerSigningJob interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -499,7 +499,7 @@ func (j *jsiiProxy_DataAwsSignerSigningJob) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
 func NewDataAwsSignerSigningJob(scope constructs.Construct, id *string, config *DataAwsSignerSigningJobConfig) DataAwsSignerSigningJob {
 	_init_.Initialize()
 
@@ -517,7 +517,7 @@ func NewDataAwsSignerSigningJob(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/signer_signing_job aws_signer_signing_job} Data Source.
 func NewDataAwsSignerSigningJob_Override(d DataAwsSignerSigningJob, scope constructs.Construct, id *string, config *DataAwsSignerSigningJobConfig) {
 	_init_.Initialize()
 

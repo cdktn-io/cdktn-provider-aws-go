@@ -5,14 +5,14 @@ package dataawsrdsengineversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsrdsengineversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsrdsengineversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/rds_engine_version aws_rds_engine_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/rds_engine_version aws_rds_engine_version}.
 type DataAwsRdsEngineVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -829,7 +829,7 @@ func (j *jsiiProxy_DataAwsRdsEngineVersion) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/rds_engine_version aws_rds_engine_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/rds_engine_version aws_rds_engine_version} Data Source.
 func NewDataAwsRdsEngineVersion(scope constructs.Construct, id *string, config *DataAwsRdsEngineVersionConfig) DataAwsRdsEngineVersion {
 	_init_.Initialize()
 
@@ -847,7 +847,7 @@ func NewDataAwsRdsEngineVersion(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/rds_engine_version aws_rds_engine_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/rds_engine_version aws_rds_engine_version} Data Source.
 func NewDataAwsRdsEngineVersion_Override(d DataAwsRdsEngineVersion, scope constructs.Construct, id *string, config *DataAwsRdsEngineVersionConfig) {
 	_init_.Initialize()
 

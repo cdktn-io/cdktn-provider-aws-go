@@ -5,14 +5,14 @@ package cloudwatchlogs3tableintegrationsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatchlogs3tableintegrationsource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatchlogs3tableintegrationsource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_s3_table_integration_source aws_cloudwatch_log_s3_table_integration_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_s3_table_integration_source aws_cloudwatch_log_s3_table_integration_source}.
 type CloudwatchLogS3TableIntegrationSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_CloudwatchLogS3TableIntegrationSource) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_s3_table_integration_source aws_cloudwatch_log_s3_table_integration_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_s3_table_integration_source aws_cloudwatch_log_s3_table_integration_source} Resource.
 func NewCloudwatchLogS3TableIntegrationSource(scope constructs.Construct, id *string, config *CloudwatchLogS3TableIntegrationSourceConfig) CloudwatchLogS3TableIntegrationSource {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewCloudwatchLogS3TableIntegrationSource(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_s3_table_integration_source aws_cloudwatch_log_s3_table_integration_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_s3_table_integration_source aws_cloudwatch_log_s3_table_integration_source} Resource.
 func NewCloudwatchLogS3TableIntegrationSource_Override(c CloudwatchLogS3TableIntegrationSource, scope constructs.Construct, id *string, config *CloudwatchLogS3TableIntegrationSourceConfig) {
 	_init_.Initialize()
 

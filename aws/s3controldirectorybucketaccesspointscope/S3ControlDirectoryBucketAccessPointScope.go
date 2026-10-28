@@ -5,14 +5,14 @@ package s3controldirectorybucketaccesspointscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/s3controldirectorybucketaccesspointscope/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/s3controldirectorybucketaccesspointscope/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope}.
 type S3ControlDirectoryBucketAccessPointScope interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_S3ControlDirectoryBucketAccessPointScope) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
 func NewS3ControlDirectoryBucketAccessPointScope(scope constructs.Construct, id *string, config *S3ControlDirectoryBucketAccessPointScopeConfig) S3ControlDirectoryBucketAccessPointScope {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewS3ControlDirectoryBucketAccessPointScope(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_directory_bucket_access_point_scope aws_s3control_directory_bucket_access_point_scope} Resource.
 func NewS3ControlDirectoryBucketAccessPointScope_Override(s S3ControlDirectoryBucketAccessPointScope, scope constructs.Construct, id *string, config *S3ControlDirectoryBucketAccessPointScopeConfig) {
 	_init_.Initialize()
 

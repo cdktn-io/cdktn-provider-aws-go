@@ -5,14 +5,14 @@ package vpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpngateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpn_gateway aws_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpn_gateway aws_vpn_gateway}.
 type VpnGateway interface {
 	cdktn.TerraformResource
 	AmazonSideAsn() *string
@@ -523,7 +523,7 @@ func (j *jsiiProxy_VpnGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
 func NewVpnGateway(scope constructs.Construct, id *string, config *VpnGatewayConfig) VpnGateway {
 	_init_.Initialize()
 
@@ -541,7 +541,7 @@ func NewVpnGateway(scope constructs.Construct, id *string, config *VpnGatewayCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpn_gateway aws_vpn_gateway} Resource.
 func NewVpnGateway_Override(v VpnGateway, scope constructs.Construct, id *string, config *VpnGatewayConfig) {
 	_init_.Initialize()
 

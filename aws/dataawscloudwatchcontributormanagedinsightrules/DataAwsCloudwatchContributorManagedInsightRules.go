@@ -5,14 +5,14 @@ package dataawscloudwatchcontributormanagedinsightrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawscloudwatchcontributormanagedinsightrules/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawscloudwatchcontributormanagedinsightrules/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules}.
 type DataAwsCloudwatchContributorManagedInsightRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsCloudwatchContributorManagedInsightRules) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
 func NewDataAwsCloudwatchContributorManagedInsightRules(scope constructs.Construct, id *string, config *DataAwsCloudwatchContributorManagedInsightRulesConfig) DataAwsCloudwatchContributorManagedInsightRules {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsCloudwatchContributorManagedInsightRules(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/cloudwatch_contributor_managed_insight_rules aws_cloudwatch_contributor_managed_insight_rules} Data Source.
 func NewDataAwsCloudwatchContributorManagedInsightRules_Override(d DataAwsCloudwatchContributorManagedInsightRules, scope constructs.Construct, id *string, config *DataAwsCloudwatchContributorManagedInsightRulesConfig) {
 	_init_.Initialize()
 

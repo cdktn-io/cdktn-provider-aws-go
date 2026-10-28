@@ -5,14 +5,14 @@ package appsyncapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/appsyncapi/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/appsyncapi/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appsync_api aws_appsync_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appsync_api aws_appsync_api}.
 type AppsyncApi interface {
 	cdktn.TerraformResource
 	ApiArn() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_AppsyncApi) XrayEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appsync_api aws_appsync_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appsync_api aws_appsync_api} Resource.
 func NewAppsyncApi(scope constructs.Construct, id *string, config *AppsyncApiConfig) AppsyncApi {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewAppsyncApi(scope constructs.Construct, id *string, config *AppsyncApiCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appsync_api aws_appsync_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appsync_api aws_appsync_api} Resource.
 func NewAppsyncApi_Override(a AppsyncApi, scope constructs.Construct, id *string, config *AppsyncApiConfig) {
 	_init_.Initialize()
 

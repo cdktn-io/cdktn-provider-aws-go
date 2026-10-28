@@ -5,14 +5,14 @@ package guarddutyorganizationconfigurationfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/guarddutyorganizationconfigurationfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/guarddutyorganizationconfigurationfeature/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_organization_configuration_feature aws_guardduty_organization_configuration_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_organization_configuration_feature aws_guardduty_organization_configuration_feature}.
 type GuarddutyOrganizationConfigurationFeature interface {
 	cdktn.TerraformResource
 	AdditionalConfiguration() GuarddutyOrganizationConfigurationFeatureAdditionalConfigurationList
@@ -485,7 +485,7 @@ func (j *jsiiProxy_GuarddutyOrganizationConfigurationFeature) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_organization_configuration_feature aws_guardduty_organization_configuration_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_organization_configuration_feature aws_guardduty_organization_configuration_feature} Resource.
 func NewGuarddutyOrganizationConfigurationFeature(scope constructs.Construct, id *string, config *GuarddutyOrganizationConfigurationFeatureConfig) GuarddutyOrganizationConfigurationFeature {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewGuarddutyOrganizationConfigurationFeature(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_organization_configuration_feature aws_guardduty_organization_configuration_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_organization_configuration_feature aws_guardduty_organization_configuration_feature} Resource.
 func NewGuarddutyOrganizationConfigurationFeature_Override(g GuarddutyOrganizationConfigurationFeature, scope constructs.Construct, id *string, config *GuarddutyOrganizationConfigurationFeatureConfig) {
 	_init_.Initialize()
 

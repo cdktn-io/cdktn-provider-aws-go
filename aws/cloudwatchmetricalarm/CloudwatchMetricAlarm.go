@@ -5,14 +5,14 @@ package cloudwatchmetricalarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatchmetricalarm/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatchmetricalarm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.
 type CloudwatchMetricAlarm interface {
 	cdktn.TerraformResource
 	ActionsEnabled() interface{}
@@ -1050,7 +1050,7 @@ func (j *jsiiProxy_CloudwatchMetricAlarm) WarmUpConfigurationInput() *Cloudwatch
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) CloudwatchMetricAlarm {
 	_init_.Initialize()
 
@@ -1068,7 +1068,7 @@ func NewCloudwatchMetricAlarm(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.
 func NewCloudwatchMetricAlarm_Override(c CloudwatchMetricAlarm, scope constructs.Construct, id *string, config *CloudwatchMetricAlarmConfig) {
 	_init_.Initialize()
 

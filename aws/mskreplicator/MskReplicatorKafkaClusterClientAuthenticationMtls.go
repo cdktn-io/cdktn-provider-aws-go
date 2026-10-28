@@ -5,7 +5,7 @@ package mskreplicator
 
 
 type MskReplicatorKafkaClusterClientAuthenticationMtls struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/msk_replicator#secret_arn MskReplicator#secret_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/msk_replicator#secret_arn MskReplicator#secret_arn}.
 	SecretArn *string `field:"required" json:"secretArn" yaml:"secretArn"`
 }
 

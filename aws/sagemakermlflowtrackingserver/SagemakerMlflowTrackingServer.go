@@ -5,14 +5,14 @@ package sagemakermlflowtrackingserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sagemakermlflowtrackingserver/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sagemakermlflowtrackingserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_mlflow_tracking_server aws_sagemaker_mlflow_tracking_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_mlflow_tracking_server aws_sagemaker_mlflow_tracking_server}.
 type SagemakerMlflowTrackingServer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -627,7 +627,7 @@ func (j *jsiiProxy_SagemakerMlflowTrackingServer) WeeklyMaintenanceWindowStartIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_mlflow_tracking_server aws_sagemaker_mlflow_tracking_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_mlflow_tracking_server aws_sagemaker_mlflow_tracking_server} Resource.
 func NewSagemakerMlflowTrackingServer(scope constructs.Construct, id *string, config *SagemakerMlflowTrackingServerConfig) SagemakerMlflowTrackingServer {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewSagemakerMlflowTrackingServer(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_mlflow_tracking_server aws_sagemaker_mlflow_tracking_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_mlflow_tracking_server aws_sagemaker_mlflow_tracking_server} Resource.
 func NewSagemakerMlflowTrackingServer_Override(s SagemakerMlflowTrackingServer, scope constructs.Construct, id *string, config *SagemakerMlflowTrackingServerConfig) {
 	_init_.Initialize()
 

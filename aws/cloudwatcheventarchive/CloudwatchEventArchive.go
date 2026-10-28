@@ -5,14 +5,14 @@ package cloudwatcheventarchive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatcheventarchive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatcheventarchive/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive}.
 type CloudwatchEventArchive interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_CloudwatchEventArchive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
 func NewCloudwatchEventArchive(scope constructs.Construct, id *string, config *CloudwatchEventArchiveConfig) CloudwatchEventArchive {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewCloudwatchEventArchive(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_event_archive aws_cloudwatch_event_archive} Resource.
 func NewCloudwatchEventArchive_Override(c CloudwatchEventArchive, scope constructs.Construct, id *string, config *CloudwatchEventArchiveConfig) {
 	_init_.Initialize()
 

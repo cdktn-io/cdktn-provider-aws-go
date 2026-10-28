@@ -5,14 +5,14 @@ package sagemakerhubcontentreference
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sagemakerhubcontentreference/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sagemakerhubcontentreference/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference}.
 type SagemakerHubContentReference interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_SagemakerHubContentReference) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
 func NewSagemakerHubContentReference(scope constructs.Construct, id *string, config *SagemakerHubContentReferenceConfig) SagemakerHubContentReference {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewSagemakerHubContentReference(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
 func NewSagemakerHubContentReference_Override(s SagemakerHubContentReference, scope constructs.Construct, id *string, config *SagemakerHubContentReferenceConfig) {
 	_init_.Initialize()
 

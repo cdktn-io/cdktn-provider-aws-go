@@ -5,14 +5,14 @@ package bedrockusecaseformodelaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockusecaseformodelaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockusecaseformodelaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access}.
 type BedrockUseCaseForModelAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -367,7 +367,7 @@ func (j *jsiiProxy_BedrockUseCaseForModelAccess) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
 func NewBedrockUseCaseForModelAccess(scope constructs.Construct, id *string, config *BedrockUseCaseForModelAccessConfig) BedrockUseCaseForModelAccess {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewBedrockUseCaseForModelAccess(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Resource.
 func NewBedrockUseCaseForModelAccess_Override(b BedrockUseCaseForModelAccess, scope constructs.Construct, id *string, config *BedrockUseCaseForModelAccessConfig) {
 	_init_.Initialize()
 

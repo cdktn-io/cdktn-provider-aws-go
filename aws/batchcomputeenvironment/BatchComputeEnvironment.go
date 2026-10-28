@@ -5,14 +5,14 @@ package batchcomputeenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/batchcomputeenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/batchcomputeenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/batch_compute_environment aws_batch_compute_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/batch_compute_environment aws_batch_compute_environment}.
 type BatchComputeEnvironment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -675,7 +675,7 @@ func (j *jsiiProxy_BatchComputeEnvironment) UpdatePolicyInput() *BatchComputeEnv
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/batch_compute_environment aws_batch_compute_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/batch_compute_environment aws_batch_compute_environment} Resource.
 func NewBatchComputeEnvironment(scope constructs.Construct, id *string, config *BatchComputeEnvironmentConfig) BatchComputeEnvironment {
 	_init_.Initialize()
 
@@ -693,7 +693,7 @@ func NewBatchComputeEnvironment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/batch_compute_environment aws_batch_compute_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/batch_compute_environment aws_batch_compute_environment} Resource.
 func NewBatchComputeEnvironment_Override(b BatchComputeEnvironment, scope constructs.Construct, id *string, config *BatchComputeEnvironmentConfig) {
 	_init_.Initialize()
 

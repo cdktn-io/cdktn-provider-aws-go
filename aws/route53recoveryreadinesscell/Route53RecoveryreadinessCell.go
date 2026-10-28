@@ -5,14 +5,14 @@ package route53recoveryreadinesscell
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/route53recoveryreadinesscell/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/route53recoveryreadinesscell/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell}.
 type Route53RecoveryreadinessCell interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_Route53RecoveryreadinessCell) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
 func NewRoute53RecoveryreadinessCell(scope constructs.Construct, id *string, config *Route53RecoveryreadinessCellConfig) Route53RecoveryreadinessCell {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewRoute53RecoveryreadinessCell(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53recoveryreadiness_cell aws_route53recoveryreadiness_cell} Resource.
 func NewRoute53RecoveryreadinessCell_Override(r Route53RecoveryreadinessCell, scope constructs.Construct, id *string, config *Route53RecoveryreadinessCellConfig) {
 	_init_.Initialize()
 

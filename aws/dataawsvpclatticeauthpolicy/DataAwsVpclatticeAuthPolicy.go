@@ -5,14 +5,14 @@ package dataawsvpclatticeauthpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsvpclatticeauthpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsvpclatticeauthpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpclattice_auth_policy aws_vpclattice_auth_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpclattice_auth_policy aws_vpclattice_auth_policy}.
 type DataAwsVpclatticeAuthPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -382,7 +382,7 @@ func (j *jsiiProxy_DataAwsVpclatticeAuthPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpclattice_auth_policy aws_vpclattice_auth_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpclattice_auth_policy aws_vpclattice_auth_policy} Data Source.
 func NewDataAwsVpclatticeAuthPolicy(scope constructs.Construct, id *string, config *DataAwsVpclatticeAuthPolicyConfig) DataAwsVpclatticeAuthPolicy {
 	_init_.Initialize()
 
@@ -400,7 +400,7 @@ func NewDataAwsVpclatticeAuthPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpclattice_auth_policy aws_vpclattice_auth_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpclattice_auth_policy aws_vpclattice_auth_policy} Data Source.
 func NewDataAwsVpclatticeAuthPolicy_Override(d DataAwsVpclatticeAuthPolicy, scope constructs.Construct, id *string, config *DataAwsVpclatticeAuthPolicyConfig) {
 	_init_.Initialize()
 

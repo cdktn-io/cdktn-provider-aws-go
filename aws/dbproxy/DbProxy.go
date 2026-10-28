@@ -5,14 +5,14 @@ package dbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dbproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dbproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_proxy aws_db_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_proxy aws_db_proxy}.
 type DbProxy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -770,7 +770,7 @@ func (j *jsiiProxy_DbProxy) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_proxy aws_db_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_proxy aws_db_proxy} Resource.
 func NewDbProxy(scope constructs.Construct, id *string, config *DbProxyConfig) DbProxy {
 	_init_.Initialize()
 
@@ -788,7 +788,7 @@ func NewDbProxy(scope constructs.Construct, id *string, config *DbProxyConfig) D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_proxy aws_db_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_proxy aws_db_proxy} Resource.
 func NewDbProxy_Override(d DbProxy, scope constructs.Construct, id *string, config *DbProxyConfig) {
 	_init_.Initialize()
 

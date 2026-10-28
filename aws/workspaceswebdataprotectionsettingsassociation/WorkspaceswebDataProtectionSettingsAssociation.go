@@ -5,14 +5,14 @@ package workspaceswebdataprotectionsettingsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/workspaceswebdataprotectionsettingsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/workspaceswebdataprotectionsettingsassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association}.
 type WorkspaceswebDataProtectionSettingsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_WorkspaceswebDataProtectionSettingsAssociation) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
 func NewWorkspaceswebDataProtectionSettingsAssociation(scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsAssociationConfig) WorkspaceswebDataProtectionSettingsAssociation {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewWorkspaceswebDataProtectionSettingsAssociation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_data_protection_settings_association aws_workspacesweb_data_protection_settings_association} Resource.
 func NewWorkspaceswebDataProtectionSettingsAssociation_Override(w WorkspaceswebDataProtectionSettingsAssociation, scope constructs.Construct, id *string, config *WorkspaceswebDataProtectionSettingsAssociationConfig) {
 	_init_.Initialize()
 

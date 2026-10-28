@@ -5,14 +5,14 @@ package opensearchvpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/opensearchvpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/opensearchvpcendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_vpc_endpoint aws_opensearch_vpc_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_vpc_endpoint aws_opensearch_vpc_endpoint}.
 type OpensearchVpcEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_OpensearchVpcEndpoint) VpcOptionsInput() *OpensearchVpcEndpoi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_vpc_endpoint aws_opensearch_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_vpc_endpoint aws_opensearch_vpc_endpoint} Resource.
 func NewOpensearchVpcEndpoint(scope constructs.Construct, id *string, config *OpensearchVpcEndpointConfig) OpensearchVpcEndpoint {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewOpensearchVpcEndpoint(scope constructs.Construct, id *string, config *Op
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_vpc_endpoint aws_opensearch_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_vpc_endpoint aws_opensearch_vpc_endpoint} Resource.
 func NewOpensearchVpcEndpoint_Override(o OpensearchVpcEndpoint, scope constructs.Construct, id *string, config *OpensearchVpcEndpointConfig) {
 	_init_.Initialize()
 

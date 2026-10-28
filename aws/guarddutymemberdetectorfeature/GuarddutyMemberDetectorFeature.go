@@ -5,14 +5,14 @@ package guarddutymemberdetectorfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/guarddutymemberdetectorfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/guarddutymemberdetectorfeature/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_member_detector_feature aws_guardduty_member_detector_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_member_detector_feature aws_guardduty_member_detector_feature}.
 type GuarddutyMemberDetectorFeature interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_GuarddutyMemberDetectorFeature) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_member_detector_feature aws_guardduty_member_detector_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_member_detector_feature aws_guardduty_member_detector_feature} Resource.
 func NewGuarddutyMemberDetectorFeature(scope constructs.Construct, id *string, config *GuarddutyMemberDetectorFeatureConfig) GuarddutyMemberDetectorFeature {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewGuarddutyMemberDetectorFeature(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_member_detector_feature aws_guardduty_member_detector_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_member_detector_feature aws_guardduty_member_detector_feature} Resource.
 func NewGuarddutyMemberDetectorFeature_Override(g GuarddutyMemberDetectorFeature, scope constructs.Construct, id *string, config *GuarddutyMemberDetectorFeatureConfig) {
 	_init_.Initialize()
 

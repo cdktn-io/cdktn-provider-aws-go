@@ -5,14 +5,14 @@ package observabilityadmintelemetryrulefororganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/observabilityadmintelemetryrulefororganization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/observabilityadmintelemetryrulefororganization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/observabilityadmin_telemetry_rule_for_organization aws_observabilityadmin_telemetry_rule_for_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/observabilityadmin_telemetry_rule_for_organization aws_observabilityadmin_telemetry_rule_for_organization}.
 type ObservabilityadminTelemetryRuleForOrganization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleForOrganization) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/observabilityadmin_telemetry_rule_for_organization aws_observabilityadmin_telemetry_rule_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/observabilityadmin_telemetry_rule_for_organization aws_observabilityadmin_telemetry_rule_for_organization} Resource.
 func NewObservabilityadminTelemetryRuleForOrganization(scope constructs.Construct, id *string, config *ObservabilityadminTelemetryRuleForOrganizationConfig) ObservabilityadminTelemetryRuleForOrganization {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewObservabilityadminTelemetryRuleForOrganization(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/observabilityadmin_telemetry_rule_for_organization aws_observabilityadmin_telemetry_rule_for_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/observabilityadmin_telemetry_rule_for_organization aws_observabilityadmin_telemetry_rule_for_organization} Resource.
 func NewObservabilityadminTelemetryRuleForOrganization_Override(o ObservabilityadminTelemetryRuleForOrganization, scope constructs.Construct, id *string, config *ObservabilityadminTelemetryRuleForOrganizationConfig) {
 	_init_.Initialize()
 

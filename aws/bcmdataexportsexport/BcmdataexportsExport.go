@@ -5,14 +5,14 @@ package bcmdataexportsexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bcmdataexportsexport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bcmdataexportsexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bcmdataexports_export aws_bcmdataexports_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bcmdataexports_export aws_bcmdataexports_export}.
 type BcmdataexportsExport interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_BcmdataexportsExport) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bcmdataexports_export aws_bcmdataexports_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bcmdataexports_export aws_bcmdataexports_export} Resource.
 func NewBcmdataexportsExport(scope constructs.Construct, id *string, config *BcmdataexportsExportConfig) BcmdataexportsExport {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewBcmdataexportsExport(scope constructs.Construct, id *string, config *Bcm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bcmdataexports_export aws_bcmdataexports_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bcmdataexports_export aws_bcmdataexports_export} Resource.
 func NewBcmdataexportsExport_Override(b BcmdataexportsExport, scope constructs.Construct, id *string, config *BcmdataexportsExportConfig) {
 	_init_.Initialize()
 

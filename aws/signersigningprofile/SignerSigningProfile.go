@@ -5,14 +5,14 @@ package signersigningprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/signersigningprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/signersigningprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/signer_signing_profile aws_signer_signing_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/signer_signing_profile aws_signer_signing_profile}.
 type SignerSigningProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_SignerSigningProfile) VersionArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
 func NewSignerSigningProfile(scope constructs.Construct, id *string, config *SignerSigningProfileConfig) SignerSigningProfile {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewSignerSigningProfile(scope constructs.Construct, id *string, config *Sig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/signer_signing_profile aws_signer_signing_profile} Resource.
 func NewSignerSigningProfile_Override(s SignerSigningProfile, scope constructs.Construct, id *string, config *SignerSigningProfileConfig) {
 	_init_.Initialize()
 

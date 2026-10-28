@@ -5,14 +5,14 @@ package cloudwatchdashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatchdashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatchdashboard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard}.
 type CloudwatchDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_CloudwatchDashboard) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
 func NewCloudwatchDashboard(scope constructs.Construct, id *string, config *CloudwatchDashboardConfig) CloudwatchDashboard {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewCloudwatchDashboard(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_dashboard aws_cloudwatch_dashboard} Resource.
 func NewCloudwatchDashboard_Override(c CloudwatchDashboard, scope constructs.Construct, id *string, config *CloudwatchDashboardConfig) {
 	_init_.Initialize()
 

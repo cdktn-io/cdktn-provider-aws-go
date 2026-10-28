@@ -5,14 +5,14 @@ package apigatewayusageplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/apigatewayusageplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/apigatewayusageplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan}.
 type ApiGatewayUsagePlan interface {
 	cdktn.TerraformResource
 	ApiStages() ApiGatewayUsagePlanApiStagesList
@@ -594,7 +594,7 @@ func (j *jsiiProxy_ApiGatewayUsagePlan) ThrottleSettingsInput() *ApiGatewayUsage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
 func NewApiGatewayUsagePlan(scope constructs.Construct, id *string, config *ApiGatewayUsagePlanConfig) ApiGatewayUsagePlan {
 	_init_.Initialize()
 
@@ -612,7 +612,7 @@ func NewApiGatewayUsagePlan(scope constructs.Construct, id *string, config *ApiG
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_usage_plan aws_api_gateway_usage_plan} Resource.
 func NewApiGatewayUsagePlan_Override(a ApiGatewayUsagePlan, scope constructs.Construct, id *string, config *ApiGatewayUsagePlanConfig) {
 	_init_.Initialize()
 

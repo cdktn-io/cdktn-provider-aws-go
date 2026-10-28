@@ -5,14 +5,14 @@ package quicksightaccountsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/quicksightaccountsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/quicksightaccountsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription}.
 type QuicksightAccountSubscription interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -879,7 +879,7 @@ func (j *jsiiProxy_QuicksightAccountSubscription) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
 func NewQuicksightAccountSubscription(scope constructs.Construct, id *string, config *QuicksightAccountSubscriptionConfig) QuicksightAccountSubscription {
 	_init_.Initialize()
 
@@ -897,7 +897,7 @@ func NewQuicksightAccountSubscription(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_account_subscription aws_quicksight_account_subscription} Resource.
 func NewQuicksightAccountSubscription_Override(q QuicksightAccountSubscription, scope constructs.Construct, id *string, config *QuicksightAccountSubscriptionConfig) {
 	_init_.Initialize()
 

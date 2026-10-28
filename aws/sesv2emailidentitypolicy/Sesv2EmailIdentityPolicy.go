@@ -5,14 +5,14 @@ package sesv2emailidentitypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sesv2emailidentitypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sesv2emailidentitypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy}.
 type Sesv2EmailIdentityPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_Sesv2EmailIdentityPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
 func NewSesv2EmailIdentityPolicy(scope constructs.Construct, id *string, config *Sesv2EmailIdentityPolicyConfig) Sesv2EmailIdentityPolicy {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewSesv2EmailIdentityPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sesv2_email_identity_policy aws_sesv2_email_identity_policy} Resource.
 func NewSesv2EmailIdentityPolicy_Override(s Sesv2EmailIdentityPolicy, scope constructs.Construct, id *string, config *Sesv2EmailIdentityPolicyConfig) {
 	_init_.Initialize()
 

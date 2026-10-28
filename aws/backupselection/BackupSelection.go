@@ -5,14 +5,14 @@ package backupselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/backupselection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/backupselection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/backup_selection aws_backup_selection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/backup_selection aws_backup_selection}.
 type BackupSelection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -557,7 +557,7 @@ func (j *jsiiProxy_BackupSelection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/backup_selection aws_backup_selection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/backup_selection aws_backup_selection} Resource.
 func NewBackupSelection(scope constructs.Construct, id *string, config *BackupSelectionConfig) BackupSelection {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewBackupSelection(scope constructs.Construct, id *string, config *BackupSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/backup_selection aws_backup_selection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/backup_selection aws_backup_selection} Resource.
 func NewBackupSelection_Override(b BackupSelection, scope constructs.Construct, id *string, config *BackupSelectionConfig) {
 	_init_.Initialize()
 

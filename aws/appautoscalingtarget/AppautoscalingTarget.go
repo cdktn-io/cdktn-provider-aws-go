@@ -5,14 +5,14 @@ package appautoscalingtarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/appautoscalingtarget/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/appautoscalingtarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appautoscaling_target aws_appautoscaling_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appautoscaling_target aws_appautoscaling_target}.
 type AppautoscalingTarget interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -614,7 +614,7 @@ func (j *jsiiProxy_AppautoscalingTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appautoscaling_target aws_appautoscaling_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appautoscaling_target aws_appautoscaling_target} Resource.
 func NewAppautoscalingTarget(scope constructs.Construct, id *string, config *AppautoscalingTargetConfig) AppautoscalingTarget {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewAppautoscalingTarget(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appautoscaling_target aws_appautoscaling_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appautoscaling_target aws_appautoscaling_target} Resource.
 func NewAppautoscalingTarget_Override(a AppautoscalingTarget, scope constructs.Construct, id *string, config *AppautoscalingTargetConfig) {
 	_init_.Initialize()
 

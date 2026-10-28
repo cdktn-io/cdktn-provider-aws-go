@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessSkillAwsSkills struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_harness#paths BedrockagentcoreHarness#paths}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_harness#paths BedrockagentcoreHarness#paths}.
 	Paths *[]*string `field:"optional" json:"paths" yaml:"paths"`
 }
 

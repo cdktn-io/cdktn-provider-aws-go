@@ -5,14 +5,14 @@ package notificationsmanagednotificationadditionalchannelassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/notificationsmanagednotificationadditionalchannelassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/notificationsmanagednotificationadditionalchannelassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association}.
 type NotificationsManagedNotificationAdditionalChannelAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
 func NewNotificationsManagedNotificationAdditionalChannelAssociation(scope constructs.Construct, id *string, config *NotificationsManagedNotificationAdditionalChannelAssociationConfig) NotificationsManagedNotificationAdditionalChannelAssociation {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewNotificationsManagedNotificationAdditionalChannelAssociation(scope const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/notifications_managed_notification_additional_channel_association aws_notifications_managed_notification_additional_channel_association} Resource.
 func NewNotificationsManagedNotificationAdditionalChannelAssociation_Override(n NotificationsManagedNotificationAdditionalChannelAssociation, scope constructs.Construct, id *string, config *NotificationsManagedNotificationAdditionalChannelAssociationConfig) {
 	_init_.Initialize()
 

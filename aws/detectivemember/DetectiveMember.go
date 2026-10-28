@@ -5,14 +5,14 @@ package detectivemember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/detectivemember/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/detectivemember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/detective_member aws_detective_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/detective_member aws_detective_member}.
 type DetectiveMember interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -575,7 +575,7 @@ func (j *jsiiProxy_DetectiveMember) VolumeUsageInBytes() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/detective_member aws_detective_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/detective_member aws_detective_member} Resource.
 func NewDetectiveMember(scope constructs.Construct, id *string, config *DetectiveMemberConfig) DetectiveMember {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewDetectiveMember(scope constructs.Construct, id *string, config *Detectiv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/detective_member aws_detective_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/detective_member aws_detective_member} Resource.
 func NewDetectiveMember_Override(d DetectiveMember, scope constructs.Construct, id *string, config *DetectiveMemberConfig) {
 	_init_.Initialize()
 

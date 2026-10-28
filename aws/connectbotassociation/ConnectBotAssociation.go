@@ -5,14 +5,14 @@ package connectbotassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/connectbotassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/connectbotassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_bot_association aws_connect_bot_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_bot_association aws_connect_bot_association}.
 type ConnectBotAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_ConnectBotAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_bot_association aws_connect_bot_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_bot_association aws_connect_bot_association} Resource.
 func NewConnectBotAssociation(scope constructs.Construct, id *string, config *ConnectBotAssociationConfig) ConnectBotAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewConnectBotAssociation(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_bot_association aws_connect_bot_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_bot_association aws_connect_bot_association} Resource.
 func NewConnectBotAssociation_Override(c ConnectBotAssociation, scope constructs.Construct, id *string, config *ConnectBotAssociationConfig) {
 	_init_.Initialize()
 

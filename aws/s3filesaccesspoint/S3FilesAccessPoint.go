@@ -5,14 +5,14 @@ package s3filesaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/s3filesaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/s3filesaccesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3files_access_point aws_s3files_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3files_access_point aws_s3files_access_point}.
 type S3FilesAccessPoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_S3FilesAccessPoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3files_access_point aws_s3files_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3files_access_point aws_s3files_access_point} Resource.
 func NewS3FilesAccessPoint(scope constructs.Construct, id *string, config *S3FilesAccessPointConfig) S3FilesAccessPoint {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewS3FilesAccessPoint(scope constructs.Construct, id *string, config *S3Fil
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3files_access_point aws_s3files_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3files_access_point aws_s3files_access_point} Resource.
 func NewS3FilesAccessPoint_Override(s S3FilesAccessPoint, scope constructs.Construct, id *string, config *S3FilesAccessPointConfig) {
 	_init_.Initialize()
 

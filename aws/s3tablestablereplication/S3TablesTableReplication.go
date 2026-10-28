@@ -5,14 +5,14 @@ package s3tablestablereplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/s3tablestablereplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/s3tablestablereplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3tables_table_replication aws_s3tables_table_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication}.
 type S3TablesTableReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_S3TablesTableReplication) VersionToken() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
 func NewS3TablesTableReplication(scope constructs.Construct, id *string, config *S3TablesTableReplicationConfig) S3TablesTableReplication {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewS3TablesTableReplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3tables_table_replication aws_s3tables_table_replication} Resource.
 func NewS3TablesTableReplication_Override(s S3TablesTableReplication, scope constructs.Construct, id *string, config *S3TablesTableReplicationConfig) {
 	_init_.Initialize()
 

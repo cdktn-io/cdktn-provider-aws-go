@@ -5,14 +5,14 @@ package codeguruprofilerprofilinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/codeguruprofilerprofilinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/codeguruprofilerprofilinggroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group}.
 type CodeguruprofilerProfilingGroup interface {
 	cdktn.TerraformResource
 	AgentOrchestrationConfig() CodeguruprofilerProfilingGroupAgentOrchestrationConfigList
@@ -496,7 +496,7 @@ func (j *jsiiProxy_CodeguruprofilerProfilingGroup) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Resource.
 func NewCodeguruprofilerProfilingGroup(scope constructs.Construct, id *string, config *CodeguruprofilerProfilingGroupConfig) CodeguruprofilerProfilingGroup {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewCodeguruprofilerProfilingGroup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/codeguruprofiler_profiling_group aws_codeguruprofiler_profiling_group} Resource.
 func NewCodeguruprofilerProfilingGroup_Override(c CodeguruprofilerProfilingGroup, scope constructs.Construct, id *string, config *CodeguruprofilerProfilingGroupConfig) {
 	_init_.Initialize()
 

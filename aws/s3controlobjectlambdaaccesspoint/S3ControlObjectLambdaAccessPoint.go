@@ -5,14 +5,14 @@ package s3controlobjectlambdaaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/s3controlobjectlambdaaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/s3controlobjectlambdaaccesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_object_lambda_access_point aws_s3control_object_lambda_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_object_lambda_access_point aws_s3control_object_lambda_access_point}.
 type S3ControlObjectLambdaAccessPoint interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_S3ControlObjectLambdaAccessPoint) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_object_lambda_access_point aws_s3control_object_lambda_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_object_lambda_access_point aws_s3control_object_lambda_access_point} Resource.
 func NewS3ControlObjectLambdaAccessPoint(scope constructs.Construct, id *string, config *S3ControlObjectLambdaAccessPointConfig) S3ControlObjectLambdaAccessPoint {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewS3ControlObjectLambdaAccessPoint(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_object_lambda_access_point aws_s3control_object_lambda_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_object_lambda_access_point aws_s3control_object_lambda_access_point} Resource.
 func NewS3ControlObjectLambdaAccessPoint_Override(s S3ControlObjectLambdaAccessPoint, scope constructs.Construct, id *string, config *S3ControlObjectLambdaAccessPointConfig) {
 	_init_.Initialize()
 

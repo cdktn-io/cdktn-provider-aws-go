@@ -5,14 +5,14 @@ package wafregionalregexpatternset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/wafregionalregexpatternset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/wafregionalregexpatternset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set}.
 type WafregionalRegexPatternSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_WafregionalRegexPatternSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
 func NewWafregionalRegexPatternSet(scope constructs.Construct, id *string, config *WafregionalRegexPatternSetConfig) WafregionalRegexPatternSet {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewWafregionalRegexPatternSet(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_regex_pattern_set aws_wafregional_regex_pattern_set} Resource.
 func NewWafregionalRegexPatternSet_Override(w WafregionalRegexPatternSet, scope constructs.Construct, id *string, config *WafregionalRegexPatternSetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawseksaccesspolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawseksaccesspolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawseksaccesspolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_access_policies aws_eks_access_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_access_policies aws_eks_access_policies}.
 type DataAwsEksAccessPolicies interface {
 	cdktn.TerraformDataSource
 	AccessPolicies() DataAwsEksAccessPoliciesAccessPoliciesList
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsEksAccessPolicies) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_access_policies aws_eks_access_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_access_policies aws_eks_access_policies} Data Source.
 func NewDataAwsEksAccessPolicies(scope constructs.Construct, id *string, config *DataAwsEksAccessPoliciesConfig) DataAwsEksAccessPolicies {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataAwsEksAccessPolicies(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_access_policies aws_eks_access_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_access_policies aws_eks_access_policies} Data Source.
 func NewDataAwsEksAccessPolicies_Override(d DataAwsEksAccessPolicies, scope constructs.Construct, id *string, config *DataAwsEksAccessPoliciesConfig) {
 	_init_.Initialize()
 

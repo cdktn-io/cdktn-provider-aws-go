@@ -5,14 +5,14 @@ package dataawsiamrolepolicyattachments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsiamrolepolicyattachments/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsiamrolepolicyattachments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/iam_role_policy_attachments aws_iam_role_policy_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/iam_role_policy_attachments aws_iam_role_policy_attachments}.
 type DataAwsIamRolePolicyAttachments interface {
 	cdktn.TerraformDataSource
 	AttachedPolicies() DataAwsIamRolePolicyAttachmentsAttachedPoliciesList
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsIamRolePolicyAttachments) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/iam_role_policy_attachments aws_iam_role_policy_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/iam_role_policy_attachments aws_iam_role_policy_attachments} Data Source.
 func NewDataAwsIamRolePolicyAttachments(scope constructs.Construct, id *string, config *DataAwsIamRolePolicyAttachmentsConfig) DataAwsIamRolePolicyAttachments {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsIamRolePolicyAttachments(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/iam_role_policy_attachments aws_iam_role_policy_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/iam_role_policy_attachments aws_iam_role_policy_attachments} Data Source.
 func NewDataAwsIamRolePolicyAttachments_Override(d DataAwsIamRolePolicyAttachments, scope constructs.Construct, id *string, config *DataAwsIamRolePolicyAttachmentsConfig) {
 	_init_.Initialize()
 

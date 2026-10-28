@@ -5,14 +5,14 @@ package ekspodidentityassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ekspodidentityassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ekspodidentityassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eks_pod_identity_association aws_eks_pod_identity_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eks_pod_identity_association aws_eks_pod_identity_association}.
 type EksPodIdentityAssociation interface {
 	cdktn.TerraformResource
 	AssociationArn() *string
@@ -611,7 +611,7 @@ func (j *jsiiProxy_EksPodIdentityAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eks_pod_identity_association aws_eks_pod_identity_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eks_pod_identity_association aws_eks_pod_identity_association} Resource.
 func NewEksPodIdentityAssociation(scope constructs.Construct, id *string, config *EksPodIdentityAssociationConfig) EksPodIdentityAssociation {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewEksPodIdentityAssociation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eks_pod_identity_association aws_eks_pod_identity_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eks_pod_identity_association aws_eks_pod_identity_association} Resource.
 func NewEksPodIdentityAssociation_Override(e EksPodIdentityAssociation, scope constructs.Construct, id *string, config *EksPodIdentityAssociationConfig) {
 	_init_.Initialize()
 

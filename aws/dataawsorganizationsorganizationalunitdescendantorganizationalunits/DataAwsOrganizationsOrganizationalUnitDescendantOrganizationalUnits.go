@@ -5,14 +5,14 @@ package dataawsorganizationsorganizationalunitdescendantorganizationalunits
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsorganizationsorganizationalunitdescendantorganizationalunits/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsorganizationsorganizationalunitdescendantorganizationalunits/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/organizations_organizational_unit_descendant_organizational_units aws_organizations_organizational_unit_descendant_organizational_units}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units aws_organizations_organizational_unit_descendant_organizational_units}.
 type DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitDescendantOrganizationa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/organizations_organizational_unit_descendant_organizational_units aws_organizations_organizational_unit_descendant_organizational_units} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units aws_organizations_organizational_unit_descendant_organizational_units} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits(scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig) DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits(scop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/organizations_organizational_unit_descendant_organizational_units aws_organizations_organizational_unit_descendant_organizational_units} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/organizations_organizational_unit_descendant_organizational_units aws_organizations_organizational_unit_descendant_organizational_units} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits_Override(d DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnits, scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitDescendantOrganizationalUnitsConfig) {
 	_init_.Initialize()
 

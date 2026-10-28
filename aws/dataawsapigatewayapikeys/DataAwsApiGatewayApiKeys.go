@@ -5,14 +5,14 @@ package dataawsapigatewayapikeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsapigatewayapikeys/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsapigatewayapikeys/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/api_gateway_api_keys aws_api_gateway_api_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/api_gateway_api_keys aws_api_gateway_api_keys}.
 type DataAwsApiGatewayApiKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsApiGatewayApiKeys) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/api_gateway_api_keys aws_api_gateway_api_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/api_gateway_api_keys aws_api_gateway_api_keys} Data Source.
 func NewDataAwsApiGatewayApiKeys(scope constructs.Construct, id *string, config *DataAwsApiGatewayApiKeysConfig) DataAwsApiGatewayApiKeys {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewDataAwsApiGatewayApiKeys(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/api_gateway_api_keys aws_api_gateway_api_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/api_gateway_api_keys aws_api_gateway_api_keys} Data Source.
 func NewDataAwsApiGatewayApiKeys_Override(d DataAwsApiGatewayApiKeys, scope constructs.Construct, id *string, config *DataAwsApiGatewayApiKeysConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package prometheusresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/prometheusresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/prometheusresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_resource_policy aws_prometheus_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_resource_policy aws_prometheus_resource_policy}.
 type PrometheusResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_PrometheusResourcePolicy) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_resource_policy aws_prometheus_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_resource_policy aws_prometheus_resource_policy} Resource.
 func NewPrometheusResourcePolicy(scope constructs.Construct, id *string, config *PrometheusResourcePolicyConfig) PrometheusResourcePolicy {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewPrometheusResourcePolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_resource_policy aws_prometheus_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_resource_policy aws_prometheus_resource_policy} Resource.
 func NewPrometheusResourcePolicy_Override(p PrometheusResourcePolicy, scope constructs.Construct, id *string, config *PrometheusResourcePolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package prometheusscraperloggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/prometheusscraperloggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/prometheusscraperloggingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration}.
 type PrometheusScraperLoggingConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_PrometheusScraperLoggingConfiguration) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
 func NewPrometheusScraperLoggingConfiguration(scope constructs.Construct, id *string, config *PrometheusScraperLoggingConfigurationConfig) PrometheusScraperLoggingConfiguration {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewPrometheusScraperLoggingConfiguration(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/prometheus_scraper_logging_configuration aws_prometheus_scraper_logging_configuration} Resource.
 func NewPrometheusScraperLoggingConfiguration_Override(p PrometheusScraperLoggingConfiguration, scope constructs.Construct, id *string, config *PrometheusScraperLoggingConfigurationConfig) {
 	_init_.Initialize()
 

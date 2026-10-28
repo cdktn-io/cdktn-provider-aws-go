@@ -5,14 +5,14 @@ package elastictranscoderpreset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/elastictranscoderpreset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/elastictranscoderpreset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset}.
 type ElastictranscoderPreset interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -642,7 +642,7 @@ func (j *jsiiProxy_ElastictranscoderPreset) VideoWatermarksInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
 func NewElastictranscoderPreset(scope constructs.Construct, id *string, config *ElastictranscoderPresetConfig) ElastictranscoderPreset {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewElastictranscoderPreset(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/elastictranscoder_preset aws_elastictranscoder_preset} Resource.
 func NewElastictranscoderPreset_Override(e ElastictranscoderPreset, scope constructs.Construct, id *string, config *ElastictranscoderPresetConfig) {
 	_init_.Initialize()
 

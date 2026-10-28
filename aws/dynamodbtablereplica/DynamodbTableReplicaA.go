@@ -5,14 +5,14 @@ package dynamodbtablereplica
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dynamodbtablereplica/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dynamodbtablereplica/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dynamodb_table_replica aws_dynamodb_table_replica}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dynamodb_table_replica aws_dynamodb_table_replica}.
 type DynamodbTableReplicaA interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -594,7 +594,7 @@ func (j *jsiiProxy_DynamodbTableReplicaA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dynamodb_table_replica aws_dynamodb_table_replica} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dynamodb_table_replica aws_dynamodb_table_replica} Resource.
 func NewDynamodbTableReplicaA(scope constructs.Construct, id *string, config *DynamodbTableReplicaAConfig) DynamodbTableReplicaA {
 	_init_.Initialize()
 
@@ -612,7 +612,7 @@ func NewDynamodbTableReplicaA(scope constructs.Construct, id *string, config *Dy
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dynamodb_table_replica aws_dynamodb_table_replica} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dynamodb_table_replica aws_dynamodb_table_replica} Resource.
 func NewDynamodbTableReplicaA_Override(d DynamodbTableReplicaA, scope constructs.Construct, id *string, config *DynamodbTableReplicaAConfig) {
 	_init_.Initialize()
 

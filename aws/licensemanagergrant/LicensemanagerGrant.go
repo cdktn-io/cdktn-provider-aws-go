@@ -5,14 +5,14 @@ package licensemanagergrant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/licensemanagergrant/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/licensemanagergrant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/licensemanager_grant aws_licensemanager_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/licensemanager_grant aws_licensemanager_grant}.
 type LicensemanagerGrant interface {
 	cdktn.TerraformResource
 	AllowedOperations() *[]*string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_LicensemanagerGrant) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
 func NewLicensemanagerGrant(scope constructs.Construct, id *string, config *LicensemanagerGrantConfig) LicensemanagerGrant {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewLicensemanagerGrant(scope constructs.Construct, id *string, config *Lice
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/licensemanager_grant aws_licensemanager_grant} Resource.
 func NewLicensemanagerGrant_Override(l LicensemanagerGrant, scope constructs.Construct, id *string, config *LicensemanagerGrantConfig) {
 	_init_.Initialize()
 

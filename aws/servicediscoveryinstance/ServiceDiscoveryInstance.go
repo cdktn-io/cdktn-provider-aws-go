@@ -5,14 +5,14 @@ package servicediscoveryinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/servicediscoveryinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/servicediscoveryinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/service_discovery_instance aws_service_discovery_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/service_discovery_instance aws_service_discovery_instance}.
 type ServiceDiscoveryInstance interface {
 	cdktn.TerraformResource
 	Attributes() *map[string]*string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ServiceDiscoveryInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
 func NewServiceDiscoveryInstance(scope constructs.Construct, id *string, config *ServiceDiscoveryInstanceConfig) ServiceDiscoveryInstance {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewServiceDiscoveryInstance(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/service_discovery_instance aws_service_discovery_instance} Resource.
 func NewServiceDiscoveryInstance_Override(s ServiceDiscoveryInstance, scope constructs.Construct, id *string, config *ServiceDiscoveryInstanceConfig) {
 	_init_.Initialize()
 

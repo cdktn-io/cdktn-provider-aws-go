@@ -5,14 +5,14 @@ package vpcipam
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpcipam/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpcipam/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam aws_vpc_ipam}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam aws_vpc_ipam}.
 type VpcIpam interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -673,7 +673,7 @@ func (j *jsiiProxy_VpcIpam) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam aws_vpc_ipam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam aws_vpc_ipam} Resource.
 func NewVpcIpam(scope constructs.Construct, id *string, config *VpcIpamConfig) VpcIpam {
 	_init_.Initialize()
 
@@ -691,7 +691,7 @@ func NewVpcIpam(scope constructs.Construct, id *string, config *VpcIpamConfig) V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam aws_vpc_ipam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam aws_vpc_ipam} Resource.
 func NewVpcIpam_Override(v VpcIpam, scope constructs.Construct, id *string, config *VpcIpamConfig) {
 	_init_.Initialize()
 

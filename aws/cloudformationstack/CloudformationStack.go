@@ -5,14 +5,14 @@ package cloudformationstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudformationstack/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudformationstack/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudformation_stack aws_cloudformation_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudformation_stack aws_cloudformation_stack}.
 type CloudformationStack interface {
 	cdktn.TerraformResource
 	Capabilities() *[]*string
@@ -762,7 +762,7 @@ func (j *jsiiProxy_CloudformationStack) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
 func NewCloudformationStack(scope constructs.Construct, id *string, config *CloudformationStackConfig) CloudformationStack {
 	_init_.Initialize()
 
@@ -780,7 +780,7 @@ func NewCloudformationStack(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudformation_stack aws_cloudformation_stack} Resource.
 func NewCloudformationStack_Override(c CloudformationStack, scope constructs.Construct, id *string, config *CloudformationStackConfig) {
 	_init_.Initialize()
 

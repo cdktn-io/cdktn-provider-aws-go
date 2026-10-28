@@ -5,14 +5,14 @@ package cloudwatchlogdestinationpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatchlogdestinationpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatchlogdestinationpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_destination_policy aws_cloudwatch_log_destination_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_destination_policy aws_cloudwatch_log_destination_policy}.
 type CloudwatchLogDestinationPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicy() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_CloudwatchLogDestinationPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_destination_policy aws_cloudwatch_log_destination_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_destination_policy aws_cloudwatch_log_destination_policy} Resource.
 func NewCloudwatchLogDestinationPolicy(scope constructs.Construct, id *string, config *CloudwatchLogDestinationPolicyConfig) CloudwatchLogDestinationPolicy {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewCloudwatchLogDestinationPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_destination_policy aws_cloudwatch_log_destination_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_destination_policy aws_cloudwatch_log_destination_policy} Resource.
 func NewCloudwatchLogDestinationPolicy_Override(c CloudwatchLogDestinationPolicy, scope constructs.Construct, id *string, config *CloudwatchLogDestinationPolicyConfig) {
 	_init_.Initialize()
 

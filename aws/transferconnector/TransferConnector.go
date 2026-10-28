@@ -5,14 +5,14 @@ package transferconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/transferconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/transferconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_connector aws_transfer_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_connector aws_transfer_connector}.
 type TransferConnector interface {
 	cdktn.TerraformResource
 	AccessRole() *string
@@ -653,7 +653,7 @@ func (j *jsiiProxy_TransferConnector) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_connector aws_transfer_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_connector aws_transfer_connector} Resource.
 func NewTransferConnector(scope constructs.Construct, id *string, config *TransferConnectorConfig) TransferConnector {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewTransferConnector(scope constructs.Construct, id *string, config *Transf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_connector aws_transfer_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_connector aws_transfer_connector} Resource.
 func NewTransferConnector_Override(t TransferConnector, scope constructs.Construct, id *string, config *TransferConnectorConfig) {
 	_init_.Initialize()
 

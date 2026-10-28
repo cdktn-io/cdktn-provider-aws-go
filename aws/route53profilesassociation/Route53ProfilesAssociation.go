@@ -5,14 +5,14 @@ package route53profilesassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/route53profilesassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/route53profilesassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53profiles_association aws_route53profiles_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53profiles_association aws_route53profiles_association}.
 type Route53ProfilesAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -551,7 +551,7 @@ func (j *jsiiProxy_Route53ProfilesAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
 func NewRoute53ProfilesAssociation(scope constructs.Construct, id *string, config *Route53ProfilesAssociationConfig) Route53ProfilesAssociation {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewRoute53ProfilesAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53profiles_association aws_route53profiles_association} Resource.
 func NewRoute53ProfilesAssociation_Override(r Route53ProfilesAssociation, scope constructs.Construct, id *string, config *Route53ProfilesAssociationConfig) {
 	_init_.Initialize()
 

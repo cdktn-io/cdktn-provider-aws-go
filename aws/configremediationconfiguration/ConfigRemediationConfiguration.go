@@ -5,14 +5,14 @@ package configremediationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/configremediationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/configremediationconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/config_remediation_configuration aws_config_remediation_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration}.
 type ConfigRemediationConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -640,7 +640,7 @@ func (j *jsiiProxy_ConfigRemediationConfiguration) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
 func NewConfigRemediationConfiguration(scope constructs.Construct, id *string, config *ConfigRemediationConfigurationConfig) ConfigRemediationConfiguration {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewConfigRemediationConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/config_remediation_configuration aws_config_remediation_configuration} Resource.
 func NewConfigRemediationConfiguration_Override(c ConfigRemediationConfiguration, scope constructs.Construct, id *string, config *ConfigRemediationConfigurationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsec2transitgatewayroutetablepropagations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsec2transitgatewayroutetablepropagations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsec2transitgatewayroutetablepropagations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_transit_gateway_route_table_propagations aws_ec2_transit_gateway_route_table_propagations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_transit_gateway_route_table_propagations aws_ec2_transit_gateway_route_table_propagations}.
 type DataAwsEc2TransitGatewayRouteTablePropagations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -393,7 +393,7 @@ func (j *jsiiProxy_DataAwsEc2TransitGatewayRouteTablePropagations) TransitGatewa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_transit_gateway_route_table_propagations aws_ec2_transit_gateway_route_table_propagations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_transit_gateway_route_table_propagations aws_ec2_transit_gateway_route_table_propagations} Data Source.
 func NewDataAwsEc2TransitGatewayRouteTablePropagations(scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayRouteTablePropagationsConfig) DataAwsEc2TransitGatewayRouteTablePropagations {
 	_init_.Initialize()
 
@@ -411,7 +411,7 @@ func NewDataAwsEc2TransitGatewayRouteTablePropagations(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_transit_gateway_route_table_propagations aws_ec2_transit_gateway_route_table_propagations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_transit_gateway_route_table_propagations aws_ec2_transit_gateway_route_table_propagations} Data Source.
 func NewDataAwsEc2TransitGatewayRouteTablePropagations_Override(d DataAwsEc2TransitGatewayRouteTablePropagations, scope constructs.Construct, id *string, config *DataAwsEc2TransitGatewayRouteTablePropagationsConfig) {
 	_init_.Initialize()
 

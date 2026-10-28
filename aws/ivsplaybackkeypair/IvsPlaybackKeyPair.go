@@ -5,14 +5,14 @@ package ivsplaybackkeypair
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ivsplaybackkeypair/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ivsplaybackkeypair/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ivs_playback_key_pair aws_ivs_playback_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ivs_playback_key_pair aws_ivs_playback_key_pair}.
 type IvsPlaybackKeyPair interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_IvsPlaybackKeyPair) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ivs_playback_key_pair aws_ivs_playback_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ivs_playback_key_pair aws_ivs_playback_key_pair} Resource.
 func NewIvsPlaybackKeyPair(scope constructs.Construct, id *string, config *IvsPlaybackKeyPairConfig) IvsPlaybackKeyPair {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewIvsPlaybackKeyPair(scope constructs.Construct, id *string, config *IvsPl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ivs_playback_key_pair aws_ivs_playback_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ivs_playback_key_pair aws_ivs_playback_key_pair} Resource.
 func NewIvsPlaybackKeyPair_Override(i IvsPlaybackKeyPair, scope constructs.Construct, id *string, config *IvsPlaybackKeyPairConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package auditmanagerframework
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/auditmanagerframework/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/auditmanagerframework/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_framework aws_auditmanager_framework}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_framework aws_auditmanager_framework}.
 type AuditmanagerFramework interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_AuditmanagerFramework) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_framework aws_auditmanager_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_framework aws_auditmanager_framework} Resource.
 func NewAuditmanagerFramework(scope constructs.Construct, id *string, config *AuditmanagerFrameworkConfig) AuditmanagerFramework {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewAuditmanagerFramework(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_framework aws_auditmanager_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_framework aws_auditmanager_framework} Resource.
 func NewAuditmanagerFramework_Override(a AuditmanagerFramework, scope constructs.Construct, id *string, config *AuditmanagerFrameworkConfig) {
 	_init_.Initialize()
 

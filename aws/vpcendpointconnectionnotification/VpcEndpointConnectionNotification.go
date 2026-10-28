@@ -5,14 +5,14 @@ package vpcendpointconnectionnotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpcendpointconnectionnotification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpcendpointconnectionnotification/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_endpoint_connection_notification aws_vpc_endpoint_connection_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_endpoint_connection_notification aws_vpc_endpoint_connection_notification}.
 type VpcEndpointConnectionNotification interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_VpcEndpointConnectionNotification) VpcEndpointServiceIdInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_endpoint_connection_notification aws_vpc_endpoint_connection_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_endpoint_connection_notification aws_vpc_endpoint_connection_notification} Resource.
 func NewVpcEndpointConnectionNotification(scope constructs.Construct, id *string, config *VpcEndpointConnectionNotificationConfig) VpcEndpointConnectionNotification {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewVpcEndpointConnectionNotification(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_endpoint_connection_notification aws_vpc_endpoint_connection_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_endpoint_connection_notification aws_vpc_endpoint_connection_notification} Resource.
 func NewVpcEndpointConnectionNotification_Override(v VpcEndpointConnectionNotification, scope constructs.Construct, id *string, config *VpcEndpointConnectionNotificationConfig) {
 	_init_.Initialize()
 

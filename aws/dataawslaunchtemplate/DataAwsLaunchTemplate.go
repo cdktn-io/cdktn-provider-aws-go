@@ -5,14 +5,14 @@ package dataawslaunchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawslaunchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawslaunchtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/launch_template aws_launch_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/launch_template aws_launch_template}.
 type DataAwsLaunchTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -792,7 +792,7 @@ func (j *jsiiProxy_DataAwsLaunchTemplate) VpcSecurityGroupIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/launch_template aws_launch_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/launch_template aws_launch_template} Data Source.
 func NewDataAwsLaunchTemplate(scope constructs.Construct, id *string, config *DataAwsLaunchTemplateConfig) DataAwsLaunchTemplate {
 	_init_.Initialize()
 
@@ -810,7 +810,7 @@ func NewDataAwsLaunchTemplate(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/launch_template aws_launch_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/launch_template aws_launch_template} Data Source.
 func NewDataAwsLaunchTemplate_Override(d DataAwsLaunchTemplate, scope constructs.Construct, id *string, config *DataAwsLaunchTemplateConfig) {
 	_init_.Initialize()
 

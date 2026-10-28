@@ -5,14 +5,14 @@ package dmsreplicationsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dmsreplicationsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dmsreplicationsubnetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group}.
 type DmsReplicationSubnetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_DmsReplicationSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
 func NewDmsReplicationSubnetGroup(scope constructs.Construct, id *string, config *DmsReplicationSubnetGroupConfig) DmsReplicationSubnetGroup {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewDmsReplicationSubnetGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dms_replication_subnet_group aws_dms_replication_subnet_group} Resource.
 func NewDmsReplicationSubnetGroup_Override(d DmsReplicationSubnetGroup, scope constructs.Construct, id *string, config *DmsReplicationSubnetGroupConfig) {
 	_init_.Initialize()
 

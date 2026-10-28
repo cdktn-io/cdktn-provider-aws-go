@@ -2730,12 +2730,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putParallelConfig", GoMethod: "PutParallelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRdsCreateCrossRegionReadReplicaConfig", GoMethod: "PutRdsCreateCrossRegionReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRdsPromoteReadReplicaConfig", GoMethod: "PutRdsPromoteReadReplicaConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putRdsSwitchoverReadReplicaConfig", GoMethod: "PutRdsSwitchoverReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRegionSwitchPlanConfig", GoMethod: "PutRegionSwitchPlanConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRoute53HealthCheckConfig", GoMethod: "PutRoute53HealthCheckConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsCreateCrossRegionReadReplicaConfig", GoGetter: "RdsCreateCrossRegionReadReplicaConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsCreateCrossRegionReadReplicaConfigInput", GoGetter: "RdsCreateCrossRegionReadReplicaConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsPromoteReadReplicaConfig", GoGetter: "RdsPromoteReadReplicaConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsPromoteReadReplicaConfigInput", GoGetter: "RdsPromoteReadReplicaConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "rdsSwitchoverReadReplicaConfig", GoGetter: "RdsSwitchoverReadReplicaConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "rdsSwitchoverReadReplicaConfigInput", GoGetter: "RdsSwitchoverReadReplicaConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "regionSwitchPlanConfig", GoGetter: "RegionSwitchPlanConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "regionSwitchPlanConfigInput", GoGetter: "RegionSwitchPlanConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetArcRoutingControlConfig", GoMethod: "ResetArcRoutingControlConfig"},
@@ -2754,6 +2757,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetParallelConfig", GoMethod: "ResetParallelConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRdsCreateCrossRegionReadReplicaConfig", GoMethod: "ResetRdsCreateCrossRegionReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRdsPromoteReadReplicaConfig", GoMethod: "ResetRdsPromoteReadReplicaConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRdsSwitchoverReadReplicaConfig", GoMethod: "ResetRdsSwitchoverReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegionSwitchPlanConfig", GoMethod: "ResetRegionSwitchPlanConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRoute53HealthCheckConfig", GoMethod: "ResetRoute53HealthCheckConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -4940,12 +4944,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putNeptuneGlobalDatabaseConfig", GoMethod: "PutNeptuneGlobalDatabaseConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRdsCreateCrossRegionReadReplicaConfig", GoMethod: "PutRdsCreateCrossRegionReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRdsPromoteReadReplicaConfig", GoMethod: "PutRdsPromoteReadReplicaConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putRdsSwitchoverReadReplicaConfig", GoMethod: "PutRdsSwitchoverReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRegionSwitchPlanConfig", GoMethod: "PutRegionSwitchPlanConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRoute53HealthCheckConfig", GoMethod: "PutRoute53HealthCheckConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsCreateCrossRegionReadReplicaConfig", GoGetter: "RdsCreateCrossRegionReadReplicaConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsCreateCrossRegionReadReplicaConfigInput", GoGetter: "RdsCreateCrossRegionReadReplicaConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsPromoteReadReplicaConfig", GoGetter: "RdsPromoteReadReplicaConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "rdsPromoteReadReplicaConfigInput", GoGetter: "RdsPromoteReadReplicaConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "rdsSwitchoverReadReplicaConfig", GoGetter: "RdsSwitchoverReadReplicaConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "rdsSwitchoverReadReplicaConfigInput", GoGetter: "RdsSwitchoverReadReplicaConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "regionSwitchPlanConfig", GoGetter: "RegionSwitchPlanConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "regionSwitchPlanConfigInput", GoGetter: "RegionSwitchPlanConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetArcRoutingControlConfig", GoMethod: "ResetArcRoutingControlConfig"},
@@ -4963,6 +4970,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetNeptuneGlobalDatabaseConfig", GoMethod: "ResetNeptuneGlobalDatabaseConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRdsCreateCrossRegionReadReplicaConfig", GoMethod: "ResetRdsCreateCrossRegionReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRdsPromoteReadReplicaConfig", GoMethod: "ResetRdsPromoteReadReplicaConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRdsSwitchoverReadReplicaConfig", GoMethod: "ResetRdsSwitchoverReadReplicaConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRegionSwitchPlanConfig", GoMethod: "ResetRegionSwitchPlanConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRoute53HealthCheckConfig", GoMethod: "ResetRoute53HealthCheckConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -5112,6 +5120,139 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfig",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigList",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigOutputReference",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "crossAccountRole", GoGetter: "CrossAccountRole"},
+			_jsii_.MemberProperty{JsiiProperty: "crossAccountRoleInput", GoGetter: "CrossAccountRoleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "dbInstanceArnMap", GoGetter: "DbInstanceArnMap"},
+			_jsii_.MemberProperty{JsiiProperty: "dbInstanceArnMapInput", GoGetter: "DbInstanceArnMapInput"},
+			_jsii_.MemberProperty{JsiiProperty: "externalId", GoGetter: "ExternalId"},
+			_jsii_.MemberProperty{JsiiProperty: "externalIdInput", GoGetter: "ExternalIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putUngraceful", GoMethod: "PutUngraceful"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCrossAccountRole", GoMethod: "ResetCrossAccountRole"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExternalId", GoMethod: "ResetExternalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTimeoutMinutes", GoMethod: "ResetTimeoutMinutes"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUngraceful", GoMethod: "ResetUngraceful"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutMinutes", GoGetter: "TimeoutMinutes"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutMinutesInput", GoGetter: "TimeoutMinutesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ungraceful", GoGetter: "Ungraceful"},
+			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngraceful",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngraceful)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngracefulList",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngracefulList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngracefulList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngracefulOutputReference",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngracefulOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ungraceful", GoGetter: "Ungraceful"},
+			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepParallelConfigStepRdsSwitchoverReadReplicaConfigUngracefulOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -5453,6 +5594,139 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfig",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigList",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigOutputReference",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "crossAccountRole", GoGetter: "CrossAccountRole"},
+			_jsii_.MemberProperty{JsiiProperty: "crossAccountRoleInput", GoGetter: "CrossAccountRoleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "dbInstanceArnMap", GoGetter: "DbInstanceArnMap"},
+			_jsii_.MemberProperty{JsiiProperty: "dbInstanceArnMapInput", GoGetter: "DbInstanceArnMapInput"},
+			_jsii_.MemberProperty{JsiiProperty: "externalId", GoGetter: "ExternalId"},
+			_jsii_.MemberProperty{JsiiProperty: "externalIdInput", GoGetter: "ExternalIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putUngraceful", GoMethod: "PutUngraceful"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCrossAccountRole", GoMethod: "ResetCrossAccountRole"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExternalId", GoMethod: "ResetExternalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTimeoutMinutes", GoMethod: "ResetTimeoutMinutes"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUngraceful", GoMethod: "ResetUngraceful"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutMinutes", GoGetter: "TimeoutMinutes"},
+			_jsii_.MemberProperty{JsiiProperty: "timeoutMinutesInput", GoGetter: "TimeoutMinutesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ungraceful", GoGetter: "Ungraceful"},
+			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngraceful",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngraceful)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngracefulList",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngracefulList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngracefulList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngracefulOutputReference",
+		reflect.TypeOf((*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngracefulOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "ungraceful", GoGetter: "Ungraceful"},
+			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigUngracefulOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

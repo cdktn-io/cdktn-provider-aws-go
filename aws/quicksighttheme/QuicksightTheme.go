@@ -5,14 +5,14 @@ package quicksighttheme
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/quicksighttheme/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/quicksighttheme/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_theme aws_quicksight_theme}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_theme aws_quicksight_theme}.
 type QuicksightTheme interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -684,7 +684,7 @@ func (j *jsiiProxy_QuicksightTheme) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_theme aws_quicksight_theme} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_theme aws_quicksight_theme} Resource.
 func NewQuicksightTheme(scope constructs.Construct, id *string, config *QuicksightThemeConfig) QuicksightTheme {
 	_init_.Initialize()
 
@@ -702,7 +702,7 @@ func NewQuicksightTheme(scope constructs.Construct, id *string, config *Quicksig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_theme aws_quicksight_theme} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_theme aws_quicksight_theme} Resource.
 func NewQuicksightTheme_Override(q QuicksightTheme, scope constructs.Construct, id *string, config *QuicksightThemeConfig) {
 	_init_.Initialize()
 

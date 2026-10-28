@@ -5,14 +5,14 @@ package dataawsglueconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsglueconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsglueconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/glue_connection aws_glue_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/glue_connection aws_glue_connection}.
 type DataAwsGlueConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -444,7 +444,7 @@ func (j *jsiiProxy_DataAwsGlueConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/glue_connection aws_glue_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/glue_connection aws_glue_connection} Data Source.
 func NewDataAwsGlueConnection(scope constructs.Construct, id *string, config *DataAwsGlueConnectionConfig) DataAwsGlueConnection {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewDataAwsGlueConnection(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/glue_connection aws_glue_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/glue_connection aws_glue_connection} Data Source.
 func NewDataAwsGlueConnection_Override(d DataAwsGlueConnection, scope constructs.Construct, id *string, config *DataAwsGlueConnectionConfig) {
 	_init_.Initialize()
 

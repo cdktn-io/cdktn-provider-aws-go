@@ -5,14 +5,14 @@ package amplifybackendenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/amplifybackendenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/amplifybackendenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/amplify_backend_environment aws_amplify_backend_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/amplify_backend_environment aws_amplify_backend_environment}.
 type AmplifyBackendEnvironment interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_AmplifyBackendEnvironment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/amplify_backend_environment aws_amplify_backend_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/amplify_backend_environment aws_amplify_backend_environment} Resource.
 func NewAmplifyBackendEnvironment(scope constructs.Construct, id *string, config *AmplifyBackendEnvironmentConfig) AmplifyBackendEnvironment {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewAmplifyBackendEnvironment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/amplify_backend_environment aws_amplify_backend_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/amplify_backend_environment aws_amplify_backend_environment} Resource.
 func NewAmplifyBackendEnvironment_Override(a AmplifyBackendEnvironment, scope constructs.Construct, id *string, config *AmplifyBackendEnvironmentConfig) {
 	_init_.Initialize()
 

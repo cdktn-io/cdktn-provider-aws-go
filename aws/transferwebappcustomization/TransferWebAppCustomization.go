@@ -5,14 +5,14 @@ package transferwebappcustomization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/transferwebappcustomization/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/transferwebappcustomization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization}.
 type TransferWebAppCustomization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -463,7 +463,7 @@ func (j *jsiiProxy_TransferWebAppCustomization) WebAppIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
 func NewTransferWebAppCustomization(scope constructs.Construct, id *string, config *TransferWebAppCustomizationConfig) TransferWebAppCustomization {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewTransferWebAppCustomization(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_web_app_customization aws_transfer_web_app_customization} Resource.
 func NewTransferWebAppCustomization_Override(t TransferWebAppCustomization, scope constructs.Construct, id *string, config *TransferWebAppCustomizationConfig) {
 	_init_.Initialize()
 

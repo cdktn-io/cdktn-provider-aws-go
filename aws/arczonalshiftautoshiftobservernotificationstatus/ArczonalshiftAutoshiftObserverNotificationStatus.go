@@ -5,14 +5,14 @@ package arczonalshiftautoshiftobservernotificationstatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/arczonalshiftautoshiftobservernotificationstatus/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/arczonalshiftautoshiftobservernotificationstatus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/arczonalshift_autoshift_observer_notification_status aws_arczonalshift_autoshift_observer_notification_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/arczonalshift_autoshift_observer_notification_status aws_arczonalshift_autoshift_observer_notification_status}.
 type ArczonalshiftAutoshiftObserverNotificationStatus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/arczonalshift_autoshift_observer_notification_status aws_arczonalshift_autoshift_observer_notification_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/arczonalshift_autoshift_observer_notification_status aws_arczonalshift_autoshift_observer_notification_status} Resource.
 func NewArczonalshiftAutoshiftObserverNotificationStatus(scope constructs.Construct, id *string, config *ArczonalshiftAutoshiftObserverNotificationStatusConfig) ArczonalshiftAutoshiftObserverNotificationStatus {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewArczonalshiftAutoshiftObserverNotificationStatus(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/arczonalshift_autoshift_observer_notification_status aws_arczonalshift_autoshift_observer_notification_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/arczonalshift_autoshift_observer_notification_status aws_arczonalshift_autoshift_observer_notification_status} Resource.
 func NewArczonalshiftAutoshiftObserverNotificationStatus_Override(a ArczonalshiftAutoshiftObserverNotificationStatus, scope constructs.Construct, id *string, config *ArczonalshiftAutoshiftObserverNotificationStatusConfig) {
 	_init_.Initialize()
 

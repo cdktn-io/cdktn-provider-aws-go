@@ -5,14 +5,14 @@ package lightsaillbattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lightsaillbattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lightsaillbattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment}.
 type LightsailLbAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_LightsailLbAttachment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) LightsailLbAttachment {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewLightsailLbAttachment(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_lb_attachment aws_lightsail_lb_attachment} Resource.
 func NewLightsailLbAttachment_Override(l LightsailLbAttachment, scope constructs.Construct, id *string, config *LightsailLbAttachmentConfig) {
 	_init_.Initialize()
 

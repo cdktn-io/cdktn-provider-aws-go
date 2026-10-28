@@ -5,14 +5,14 @@ package sagemakerhyperparametertuningjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sagemakerhyperparametertuningjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sagemakerhyperparametertuningjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job}.
 type SagemakerHyperParameterTuningJob interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_SagemakerHyperParameterTuningJob) WarmStartConfigInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
 func NewSagemakerHyperParameterTuningJob(scope constructs.Construct, id *string, config *SagemakerHyperParameterTuningJobConfig) SagemakerHyperParameterTuningJob {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewSagemakerHyperParameterTuningJob(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hyper_parameter_tuning_job aws_sagemaker_hyper_parameter_tuning_job} Resource.
 func NewSagemakerHyperParameterTuningJob_Override(s SagemakerHyperParameterTuningJob, scope constructs.Construct, id *string, config *SagemakerHyperParameterTuningJobConfig) {
 	_init_.Initialize()
 

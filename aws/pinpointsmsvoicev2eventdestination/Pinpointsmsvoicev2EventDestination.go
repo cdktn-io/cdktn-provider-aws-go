@@ -5,14 +5,14 @@ package pinpointsmsvoicev2eventdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/pinpointsmsvoicev2eventdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/pinpointsmsvoicev2eventdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination}.
 type Pinpointsmsvoicev2EventDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2EventDestination) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination} Resource.
 func NewPinpointsmsvoicev2EventDestination(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2EventDestinationConfig) Pinpointsmsvoicev2EventDestination {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewPinpointsmsvoicev2EventDestination(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_event_destination aws_pinpointsmsvoicev2_event_destination} Resource.
 func NewPinpointsmsvoicev2EventDestination_Override(p Pinpointsmsvoicev2EventDestination, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2EventDestinationConfig) {
 	_init_.Initialize()
 

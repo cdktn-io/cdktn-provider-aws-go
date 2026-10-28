@@ -5,14 +5,14 @@ package auditmanagerassessmentreport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/auditmanagerassessmentreport/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/auditmanagerassessmentreport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report}.
 type AuditmanagerAssessmentReport interface {
 	cdktn.TerraformResource
 	AssessmentId() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_AuditmanagerAssessmentReport) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
 func NewAuditmanagerAssessmentReport(scope constructs.Construct, id *string, config *AuditmanagerAssessmentReportConfig) AuditmanagerAssessmentReport {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewAuditmanagerAssessmentReport(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/auditmanager_assessment_report aws_auditmanager_assessment_report} Resource.
 func NewAuditmanagerAssessmentReport_Override(a AuditmanagerAssessmentReport, scope constructs.Construct, id *string, config *AuditmanagerAssessmentReportConfig) {
 	_init_.Initialize()
 

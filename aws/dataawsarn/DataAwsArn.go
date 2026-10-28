@@ -5,14 +5,14 @@ package dataawsarn
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsarn/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsarn/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/arn aws_arn}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/arn aws_arn}.
 type DataAwsArn interface {
 	cdktn.TerraformDataSource
 	Account() *string
@@ -365,7 +365,7 @@ func (j *jsiiProxy_DataAwsArn) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/arn aws_arn} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/arn aws_arn} Data Source.
 func NewDataAwsArn(scope constructs.Construct, id *string, config *DataAwsArnConfig) DataAwsArn {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewDataAwsArn(scope constructs.Construct, id *string, config *DataAwsArnCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/arn aws_arn} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/arn aws_arn} Data Source.
 func NewDataAwsArn_Override(d DataAwsArn, scope constructs.Construct, id *string, config *DataAwsArnConfig) {
 	_init_.Initialize()
 

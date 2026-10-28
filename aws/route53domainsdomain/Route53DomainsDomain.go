@@ -5,14 +5,14 @@ package route53domainsdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/route53domainsdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/route53domainsdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53domains_domain aws_route53domains_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53domains_domain aws_route53domains_domain}.
 type Route53DomainsDomain interface {
 	cdktn.TerraformResource
 	AbuseContactEmail() *string
@@ -824,7 +824,7 @@ func (j *jsiiProxy_Route53DomainsDomain) WhoisServer() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
 func NewRoute53DomainsDomain(scope constructs.Construct, id *string, config *Route53DomainsDomainConfig) Route53DomainsDomain {
 	_init_.Initialize()
 
@@ -842,7 +842,7 @@ func NewRoute53DomainsDomain(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53domains_domain aws_route53domains_domain} Resource.
 func NewRoute53DomainsDomain_Override(r Route53DomainsDomain, scope constructs.Construct, id *string, config *Route53DomainsDomainConfig) {
 	_init_.Initialize()
 

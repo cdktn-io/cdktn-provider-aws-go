@@ -5,14 +5,14 @@ package dataawskinesisfirehosedeliverystream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawskinesisfirehosedeliverystream/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawskinesisfirehosedeliverystream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/kinesis_firehose_delivery_stream aws_kinesis_firehose_delivery_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/kinesis_firehose_delivery_stream aws_kinesis_firehose_delivery_stream}.
 type DataAwsKinesisFirehoseDeliveryStream interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsKinesisFirehoseDeliveryStream) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/kinesis_firehose_delivery_stream aws_kinesis_firehose_delivery_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/kinesis_firehose_delivery_stream aws_kinesis_firehose_delivery_stream} Data Source.
 func NewDataAwsKinesisFirehoseDeliveryStream(scope constructs.Construct, id *string, config *DataAwsKinesisFirehoseDeliveryStreamConfig) DataAwsKinesisFirehoseDeliveryStream {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsKinesisFirehoseDeliveryStream(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/kinesis_firehose_delivery_stream aws_kinesis_firehose_delivery_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/kinesis_firehose_delivery_stream aws_kinesis_firehose_delivery_stream} Data Source.
 func NewDataAwsKinesisFirehoseDeliveryStream_Override(d DataAwsKinesisFirehoseDeliveryStream, scope constructs.Construct, id *string, config *DataAwsKinesisFirehoseDeliveryStreamConfig) {
 	_init_.Initialize()
 

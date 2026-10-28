@@ -5,14 +5,14 @@ package bedrockevaluationjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockevaluationjob/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockevaluationjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job}.
 type BedrockEvaluationJob interface {
 	cdktn.TerraformResource
 	ApplicationType() *string
@@ -707,7 +707,7 @@ func (j *jsiiProxy_BedrockEvaluationJob) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
 func NewBedrockEvaluationJob(scope constructs.Construct, id *string, config *BedrockEvaluationJobConfig) BedrockEvaluationJob {
 	_init_.Initialize()
 
@@ -725,7 +725,7 @@ func NewBedrockEvaluationJob(scope constructs.Construct, id *string, config *Bed
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrock_evaluation_job aws_bedrock_evaluation_job} Resource.
 func NewBedrockEvaluationJob_Override(b BedrockEvaluationJob, scope constructs.Construct, id *string, config *BedrockEvaluationJobConfig) {
 	_init_.Initialize()
 

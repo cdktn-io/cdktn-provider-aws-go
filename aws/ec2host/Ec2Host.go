@@ -5,14 +5,14 @@ package ec2host
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ec2host/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ec2host/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_host aws_ec2_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_host aws_ec2_host}.
 type Ec2Host interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -653,7 +653,7 @@ func (j *jsiiProxy_Ec2Host) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_host aws_ec2_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_host aws_ec2_host} Resource.
 func NewEc2Host(scope constructs.Construct, id *string, config *Ec2HostConfig) Ec2Host {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewEc2Host(scope constructs.Construct, id *string, config *Ec2HostConfig) E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_host aws_ec2_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_host aws_ec2_host} Resource.
 func NewEc2Host_Override(e Ec2Host, scope constructs.Construct, id *string, config *Ec2HostConfig) {
 	_init_.Initialize()
 

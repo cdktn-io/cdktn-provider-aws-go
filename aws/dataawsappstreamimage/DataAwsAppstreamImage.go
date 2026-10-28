@@ -5,14 +5,14 @@ package dataawsappstreamimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsappstreamimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsappstreamimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/appstream_image aws_appstream_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/appstream_image aws_appstream_image}.
 type DataAwsAppstreamImage interface {
 	cdktn.TerraformDataSource
 	Applications() DataAwsAppstreamImageApplicationsList
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsAppstreamImage) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) DataAwsAppstreamImage {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewDataAwsAppstreamImage(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/appstream_image aws_appstream_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/appstream_image aws_appstream_image} Data Source.
 func NewDataAwsAppstreamImage_Override(d DataAwsAppstreamImage, scope constructs.Construct, id *string, config *DataAwsAppstreamImageConfig) {
 	_init_.Initialize()
 

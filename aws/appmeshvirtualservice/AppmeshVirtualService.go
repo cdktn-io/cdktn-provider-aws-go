@@ -5,14 +5,14 @@ package appmeshvirtualservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/appmeshvirtualservice/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/appmeshvirtualservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appmesh_virtual_service aws_appmesh_virtual_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appmesh_virtual_service aws_appmesh_virtual_service}.
 type AppmeshVirtualService interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_AppmeshVirtualService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appmesh_virtual_service aws_appmesh_virtual_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appmesh_virtual_service aws_appmesh_virtual_service} Resource.
 func NewAppmeshVirtualService(scope constructs.Construct, id *string, config *AppmeshVirtualServiceConfig) AppmeshVirtualService {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewAppmeshVirtualService(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/appmesh_virtual_service aws_appmesh_virtual_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/appmesh_virtual_service aws_appmesh_virtual_service} Resource.
 func NewAppmeshVirtualService_Override(a AppmeshVirtualService, scope constructs.Construct, id *string, config *AppmeshVirtualServiceConfig) {
 	_init_.Initialize()
 

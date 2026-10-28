@@ -5,14 +5,14 @@ package dataawsodbcloudvmclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsodbcloudvmclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsodbcloudvmclusters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_cloud_vm_clusters aws_odb_cloud_vm_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_cloud_vm_clusters aws_odb_cloud_vm_clusters}.
 type DataAwsOdbCloudVmClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAwsOdbCloudVmClusters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_cloud_vm_clusters aws_odb_cloud_vm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_cloud_vm_clusters aws_odb_cloud_vm_clusters} Data Source.
 func NewDataAwsOdbCloudVmClusters(scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClustersConfig) DataAwsOdbCloudVmClusters {
 	_init_.Initialize()
 
@@ -316,7 +316,7 @@ func NewDataAwsOdbCloudVmClusters(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_cloud_vm_clusters aws_odb_cloud_vm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_cloud_vm_clusters aws_odb_cloud_vm_clusters} Data Source.
 func NewDataAwsOdbCloudVmClusters_Override(d DataAwsOdbCloudVmClusters, scope constructs.Construct, id *string, config *DataAwsOdbCloudVmClustersConfig) {
 	_init_.Initialize()
 

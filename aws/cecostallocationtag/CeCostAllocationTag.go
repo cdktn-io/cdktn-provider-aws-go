@@ -5,14 +5,14 @@ package cecostallocationtag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cecostallocationtag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cecostallocationtag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag}.
 type CeCostAllocationTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_CeCostAllocationTag) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) CeCostAllocationTag {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewCeCostAllocationTag(scope constructs.Construct, id *string, config *CeCo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ce_cost_allocation_tag aws_ce_cost_allocation_tag} Resource.
 func NewCeCostAllocationTag_Override(c CeCostAllocationTag, scope constructs.Construct, id *string, config *CeCostAllocationTagConfig) {
 	_init_.Initialize()
 

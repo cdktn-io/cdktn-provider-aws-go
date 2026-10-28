@@ -5,14 +5,14 @@ package sesconfigurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sesconfigurationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sesconfigurationset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_configuration_set aws_ses_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_configuration_set aws_ses_configuration_set}.
 type SesConfigurationSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_SesConfigurationSet) TrackingOptionsInput() *SesConfiguration
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_configuration_set aws_ses_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_configuration_set aws_ses_configuration_set} Resource.
 func NewSesConfigurationSet(scope constructs.Construct, id *string, config *SesConfigurationSetConfig) SesConfigurationSet {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewSesConfigurationSet(scope constructs.Construct, id *string, config *SesC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_configuration_set aws_ses_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_configuration_set aws_ses_configuration_set} Resource.
 func NewSesConfigurationSet_Override(s SesConfigurationSet, scope constructs.Construct, id *string, config *SesConfigurationSetConfig) {
 	_init_.Initialize()
 

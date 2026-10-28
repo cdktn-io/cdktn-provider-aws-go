@@ -5,14 +5,14 @@ package neptunegraphprivategraphendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/neptunegraphprivategraphendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/neptunegraphprivategraphendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint}.
 type NeptunegraphPrivateGraphEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_NeptunegraphPrivateGraphEndpoint) VpcSecurityGroupIdsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
 func NewNeptunegraphPrivateGraphEndpoint(scope constructs.Construct, id *string, config *NeptunegraphPrivateGraphEndpointConfig) NeptunegraphPrivateGraphEndpoint {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewNeptunegraphPrivateGraphEndpoint(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/neptunegraph_private_graph_endpoint aws_neptunegraph_private_graph_endpoint} Resource.
 func NewNeptunegraphPrivateGraphEndpoint_Override(n NeptunegraphPrivateGraphEndpoint, scope constructs.Construct, id *string, config *NeptunegraphPrivateGraphEndpointConfig) {
 	_init_.Initialize()
 

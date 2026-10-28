@@ -5,14 +5,14 @@ package cloudfrontconnectionfunction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudfrontconnectionfunction/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudfrontconnectionfunction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function}.
 type CloudfrontConnectionFunction interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_CloudfrontConnectionFunction) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function} Resource.
 func NewCloudfrontConnectionFunction(scope constructs.Construct, id *string, config *CloudfrontConnectionFunctionConfig) CloudfrontConnectionFunction {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewCloudfrontConnectionFunction(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudfront_connection_function aws_cloudfront_connection_function} Resource.
 func NewCloudfrontConnectionFunction_Override(c CloudfrontConnectionFunction, scope constructs.Construct, id *string, config *CloudfrontConnectionFunctionConfig) {
 	_init_.Initialize()
 

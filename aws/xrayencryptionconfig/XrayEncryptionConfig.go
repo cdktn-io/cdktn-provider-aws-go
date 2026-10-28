@@ -5,14 +5,14 @@ package xrayencryptionconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/xrayencryptionconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/xrayencryptionconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/xray_encryption_config aws_xray_encryption_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/xray_encryption_config aws_xray_encryption_config}.
 type XrayEncryptionConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_XrayEncryptionConfig) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
 func NewXrayEncryptionConfig(scope constructs.Construct, id *string, config *XrayEncryptionConfigConfig) XrayEncryptionConfig {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewXrayEncryptionConfig(scope constructs.Construct, id *string, config *Xra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/xray_encryption_config aws_xray_encryption_config} Resource.
 func NewXrayEncryptionConfig_Override(x XrayEncryptionConfig, scope constructs.Construct, id *string, config *XrayEncryptionConfigConfig) {
 	_init_.Initialize()
 

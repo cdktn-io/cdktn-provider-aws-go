@@ -5,14 +5,14 @@ package sesv2dedicatedipassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sesv2dedicatedipassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sesv2dedicatedipassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment}.
 type Sesv2DedicatedIpAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_Sesv2DedicatedIpAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
 func NewSesv2DedicatedIpAssignment(scope constructs.Construct, id *string, config *Sesv2DedicatedIpAssignmentConfig) Sesv2DedicatedIpAssignment {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewSesv2DedicatedIpAssignment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sesv2_dedicated_ip_assignment aws_sesv2_dedicated_ip_assignment} Resource.
 func NewSesv2DedicatedIpAssignment_Override(s Sesv2DedicatedIpAssignment, scope constructs.Construct, id *string, config *Sesv2DedicatedIpAssignmentConfig) {
 	_init_.Initialize()
 

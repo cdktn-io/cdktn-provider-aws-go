@@ -5,14 +5,14 @@ package memorydbsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/memorydbsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/memorydbsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/memorydb_snapshot aws_memorydb_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot}.
 type MemorydbSnapshot interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_MemorydbSnapshot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
 func NewMemorydbSnapshot(scope constructs.Construct, id *string, config *MemorydbSnapshotConfig) MemorydbSnapshot {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewMemorydbSnapshot(scope constructs.Construct, id *string, config *Memoryd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/memorydb_snapshot aws_memorydb_snapshot} Resource.
 func NewMemorydbSnapshot_Override(m MemorydbSnapshot, scope constructs.Construct, id *string, config *MemorydbSnapshotConfig) {
 	_init_.Initialize()
 

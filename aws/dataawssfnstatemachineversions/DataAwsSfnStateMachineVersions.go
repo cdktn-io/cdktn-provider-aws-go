@@ -5,14 +5,14 @@ package dataawssfnstatemachineversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawssfnstatemachineversions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawssfnstatemachineversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions}.
 type DataAwsSfnStateMachineVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsSfnStateMachineVersions) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
 func NewDataAwsSfnStateMachineVersions(scope constructs.Construct, id *string, config *DataAwsSfnStateMachineVersionsConfig) DataAwsSfnStateMachineVersions {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsSfnStateMachineVersions(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/sfn_state_machine_versions aws_sfn_state_machine_versions} Data Source.
 func NewDataAwsSfnStateMachineVersions_Override(d DataAwsSfnStateMachineVersions, scope constructs.Construct, id *string, config *DataAwsSfnStateMachineVersionsConfig) {
 	_init_.Initialize()
 

@@ -199,6 +199,10 @@ func (j *jsiiProxy_NeptuneCluster) validateSetNeptuneSubnetGroupNameParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_NeptuneCluster) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NeptuneCluster) validateSetPortParameters(val *float64) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package ssmquicksetupconfigurationmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ssmquicksetupconfigurationmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ssmquicksetupconfigurationmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager}.
 type SsmquicksetupConfigurationManager interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_SsmquicksetupConfigurationManager) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
 func NewSsmquicksetupConfigurationManager(scope constructs.Construct, id *string, config *SsmquicksetupConfigurationManagerConfig) SsmquicksetupConfigurationManager {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewSsmquicksetupConfigurationManager(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssmquicksetup_configuration_manager aws_ssmquicksetup_configuration_manager} Resource.
 func NewSsmquicksetupConfigurationManager_Override(s SsmquicksetupConfigurationManager, scope constructs.Construct, id *string, config *SsmquicksetupConfigurationManagerConfig) {
 	_init_.Initialize()
 

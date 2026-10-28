@@ -5,9 +5,9 @@ package arcregionswitchplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/arcregionswitchplan/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/arcregionswitchplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -71,6 +71,8 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	RdsCreateCrossRegionReadReplicaConfigInput() interface{}
 	RdsPromoteReadReplicaConfig() ArcregionswitchPlanWorkflowStepRdsPromoteReadReplicaConfigList
 	RdsPromoteReadReplicaConfigInput() interface{}
+	RdsSwitchoverReadReplicaConfig() ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigList
+	RdsSwitchoverReadReplicaConfigInput() interface{}
 	RegionSwitchPlanConfig() ArcregionswitchPlanWorkflowStepRegionSwitchPlanConfigList
 	RegionSwitchPlanConfigInput() interface{}
 	Route53HealthCheckConfig() ArcregionswitchPlanWorkflowStepRoute53HealthCheckConfigList
@@ -122,6 +124,7 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	PutParallelConfig(value interface{})
 	PutRdsCreateCrossRegionReadReplicaConfig(value interface{})
 	PutRdsPromoteReadReplicaConfig(value interface{})
+	PutRdsSwitchoverReadReplicaConfig(value interface{})
 	PutRegionSwitchPlanConfig(value interface{})
 	PutRoute53HealthCheckConfig(value interface{})
 	ResetArcRoutingControlConfig()
@@ -140,6 +143,7 @@ type ArcregionswitchPlanWorkflowStepOutputReference interface {
 	ResetParallelConfig()
 	ResetRdsCreateCrossRegionReadReplicaConfig()
 	ResetRdsPromoteReadReplicaConfig()
+	ResetRdsSwitchoverReadReplicaConfig()
 	ResetRegionSwitchPlanConfig()
 	ResetRoute53HealthCheckConfig()
 	// Produce the Token's value at resolution time.
@@ -562,6 +566,26 @@ func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) RdsPromoteRea
 	_jsii_.Get(
 		j,
 		"rdsPromoteReadReplicaConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) RdsSwitchoverReadReplicaConfig() ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigList {
+	var returns ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfigList
+	_jsii_.Get(
+		j,
+		"rdsSwitchoverReadReplicaConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) RdsSwitchoverReadReplicaConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rdsSwitchoverReadReplicaConfigInput",
 		&returns,
 	)
 	return returns
@@ -1094,6 +1118,17 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutRdsPromote
 	)
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutRdsSwitchoverReadReplicaConfig(value interface{}) {
+	if err := a.validatePutRdsSwitchoverReadReplicaConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putRdsSwitchoverReadReplicaConfig",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) PutRegionSwitchPlanConfig(value interface{}) {
 	if err := a.validatePutRegionSwitchPlanConfigParameters(value); err != nil {
 		panic(err)
@@ -1240,6 +1275,14 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetRdsPromo
 	_jsii_.InvokeVoid(
 		a,
 		"resetRdsPromoteReadReplicaConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) ResetRdsSwitchoverReadReplicaConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRdsSwitchoverReadReplicaConfig",
 		nil, // no parameters
 	)
 }

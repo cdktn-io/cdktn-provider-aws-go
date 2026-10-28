@@ -5,14 +5,14 @@ package dataawssyntheticsruntimeversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawssyntheticsruntimeversions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawssyntheticsruntimeversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/synthetics_runtime_versions aws_synthetics_runtime_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/synthetics_runtime_versions aws_synthetics_runtime_versions}.
 type DataAwsSyntheticsRuntimeVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAwsSyntheticsRuntimeVersions) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/synthetics_runtime_versions aws_synthetics_runtime_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/synthetics_runtime_versions aws_synthetics_runtime_versions} Data Source.
 func NewDataAwsSyntheticsRuntimeVersions(scope constructs.Construct, id *string, config *DataAwsSyntheticsRuntimeVersionsConfig) DataAwsSyntheticsRuntimeVersions {
 	_init_.Initialize()
 
@@ -327,7 +327,7 @@ func NewDataAwsSyntheticsRuntimeVersions(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/synthetics_runtime_versions aws_synthetics_runtime_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/synthetics_runtime_versions aws_synthetics_runtime_versions} Data Source.
 func NewDataAwsSyntheticsRuntimeVersions_Override(d DataAwsSyntheticsRuntimeVersions, scope constructs.Construct, id *string, config *DataAwsSyntheticsRuntimeVersionsConfig) {
 	_init_.Initialize()
 

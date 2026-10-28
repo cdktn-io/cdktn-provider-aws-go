@@ -5,14 +5,14 @@ package codedeploydeploymentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/codedeploydeploymentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/codedeploydeploymentgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/codedeploy_deployment_group aws_codedeploy_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/codedeploy_deployment_group aws_codedeploy_deployment_group}.
 type CodedeployDeploymentGroup interface {
 	cdktn.TerraformResource
 	AlarmConfiguration() CodedeployDeploymentGroupAlarmConfigurationOutputReference
@@ -878,7 +878,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroup) TriggerConfigurationInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/codedeploy_deployment_group aws_codedeploy_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/codedeploy_deployment_group aws_codedeploy_deployment_group} Resource.
 func NewCodedeployDeploymentGroup(scope constructs.Construct, id *string, config *CodedeployDeploymentGroupConfig) CodedeployDeploymentGroup {
 	_init_.Initialize()
 
@@ -896,7 +896,7 @@ func NewCodedeployDeploymentGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/codedeploy_deployment_group aws_codedeploy_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/codedeploy_deployment_group aws_codedeploy_deployment_group} Resource.
 func NewCodedeployDeploymentGroup_Override(c CodedeployDeploymentGroup, scope constructs.Construct, id *string, config *CodedeployDeploymentGroupConfig) {
 	_init_.Initialize()
 

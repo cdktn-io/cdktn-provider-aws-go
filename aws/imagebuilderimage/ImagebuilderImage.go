@@ -5,14 +5,14 @@ package imagebuilderimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/imagebuilderimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/imagebuilderimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/imagebuilder_image aws_imagebuilder_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/imagebuilder_image aws_imagebuilder_image}.
 type ImagebuilderImage interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -780,7 +780,7 @@ func (j *jsiiProxy_ImagebuilderImage) WorkflowInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
 func NewImagebuilderImage(scope constructs.Construct, id *string, config *ImagebuilderImageConfig) ImagebuilderImage {
 	_init_.Initialize()
 
@@ -798,7 +798,7 @@ func NewImagebuilderImage(scope constructs.Construct, id *string, config *Imageb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/imagebuilder_image aws_imagebuilder_image} Resource.
 func NewImagebuilderImage_Override(i ImagebuilderImage, scope constructs.Construct, id *string, config *ImagebuilderImageConfig) {
 	_init_.Initialize()
 

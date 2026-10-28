@@ -5,14 +5,14 @@ package opensearchapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/opensearchapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/opensearchapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_application aws_opensearch_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_application aws_opensearch_application}.
 type OpensearchApplication interface {
 	cdktn.TerraformResource
 	AppConfig() OpensearchApplicationAppConfigList
@@ -579,7 +579,7 @@ func (j *jsiiProxy_OpensearchApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_application aws_opensearch_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_application aws_opensearch_application} Resource.
 func NewOpensearchApplication(scope constructs.Construct, id *string, config *OpensearchApplicationConfig) OpensearchApplication {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewOpensearchApplication(scope constructs.Construct, id *string, config *Op
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_application aws_opensearch_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_application aws_opensearch_application} Resource.
 func NewOpensearchApplication_Override(o OpensearchApplication, scope constructs.Construct, id *string, config *OpensearchApplicationConfig) {
 	_init_.Initialize()
 

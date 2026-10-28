@@ -5,14 +5,14 @@ package spotdatafeedsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/spotdatafeedsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/spotdatafeedsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription}.
 type SpotDatafeedSubscription interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -439,7 +439,7 @@ func (j *jsiiProxy_SpotDatafeedSubscription) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
 func NewSpotDatafeedSubscription(scope constructs.Construct, id *string, config *SpotDatafeedSubscriptionConfig) SpotDatafeedSubscription {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewSpotDatafeedSubscription(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/spot_datafeed_subscription aws_spot_datafeed_subscription} Resource.
 func NewSpotDatafeedSubscription_Override(s SpotDatafeedSubscription, scope constructs.Construct, id *string, config *SpotDatafeedSubscriptionConfig) {
 	_init_.Initialize()
 

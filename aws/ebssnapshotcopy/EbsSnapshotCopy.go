@@ -5,14 +5,14 @@ package ebssnapshotcopy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ebssnapshotcopy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ebssnapshotcopy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy}.
 type EbsSnapshotCopy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -755,7 +755,7 @@ func (j *jsiiProxy_EbsSnapshotCopy) VolumeSize() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
 func NewEbsSnapshotCopy(scope constructs.Construct, id *string, config *EbsSnapshotCopyConfig) EbsSnapshotCopy {
 	_init_.Initialize()
 
@@ -773,7 +773,7 @@ func NewEbsSnapshotCopy(scope constructs.Construct, id *string, config *EbsSnaps
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ebs_snapshot_copy aws_ebs_snapshot_copy} Resource.
 func NewEbsSnapshotCopy_Override(e EbsSnapshotCopy, scope constructs.Construct, id *string, config *EbsSnapshotCopyConfig) {
 	_init_.Initialize()
 

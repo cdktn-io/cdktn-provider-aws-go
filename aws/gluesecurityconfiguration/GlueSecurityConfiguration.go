@@ -5,14 +5,14 @@ package gluesecurityconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/gluesecurityconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/gluesecurityconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/glue_security_configuration aws_glue_security_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/glue_security_configuration aws_glue_security_configuration}.
 type GlueSecurityConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_GlueSecurityConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
 func NewGlueSecurityConfiguration(scope constructs.Construct, id *string, config *GlueSecurityConfigurationConfig) GlueSecurityConfiguration {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewGlueSecurityConfiguration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/glue_security_configuration aws_glue_security_configuration} Resource.
 func NewGlueSecurityConfiguration_Override(g GlueSecurityConfiguration, scope constructs.Construct, id *string, config *GlueSecurityConfigurationConfig) {
 	_init_.Initialize()
 

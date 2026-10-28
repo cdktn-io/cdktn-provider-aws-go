@@ -5,14 +5,14 @@ package dataawsorganizationsorganizationalunitchildaccounts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsorganizationsorganizationalunitchildaccounts/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsorganizationsorganizationalunitchildaccounts/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts}.
 type DataAwsOrganizationsOrganizationalUnitChildAccounts interface {
 	cdktn.TerraformDataSource
 	Accounts() DataAwsOrganizationsOrganizationalUnitChildAccountsAccountsList
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsOrganizationsOrganizationalUnitChildAccounts) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitChildAccounts(scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitChildAccountsConfig) DataAwsOrganizationsOrganizationalUnitChildAccounts {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsOrganizationsOrganizationalUnitChildAccounts(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/organizations_organizational_unit_child_accounts aws_organizations_organizational_unit_child_accounts} Data Source.
 func NewDataAwsOrganizationsOrganizationalUnitChildAccounts_Override(d DataAwsOrganizationsOrganizationalUnitChildAccounts, scope constructs.Construct, id *string, config *DataAwsOrganizationsOrganizationalUnitChildAccountsConfig) {
 	_init_.Initialize()
 

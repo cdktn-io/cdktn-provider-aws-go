@@ -5,14 +5,14 @@ package bedrockagentcoregateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockagentcoregateway/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockagentcoregateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway}.
 type BedrockagentcoreGateway interface {
 	cdktn.TerraformResource
 	AuthorizerConfiguration() BedrockagentcoreGatewayAuthorizerConfigurationList
@@ -732,7 +732,7 @@ func (j *jsiiProxy_BedrockagentcoreGateway) WorkloadIdentityDetails() Bedrockage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) BedrockagentcoreGateway {
 	_init_.Initialize()
 
@@ -750,7 +750,7 @@ func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_gateway aws_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway_Override(b BedrockagentcoreGateway, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawss3controlaccesspoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawss3controlaccesspoints/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawss3controlaccesspoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/s3control_access_points aws_s3control_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/s3control_access_points aws_s3control_access_points}.
 type DataAwsS3ControlAccessPoints interface {
 	cdktn.TerraformDataSource
 	AccessPoints() DataAwsS3ControlAccessPointsAccessPointsList
@@ -394,7 +394,7 @@ func (j *jsiiProxy_DataAwsS3ControlAccessPoints) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) DataAwsS3ControlAccessPoints {
 	_init_.Initialize()
 
@@ -412,7 +412,7 @@ func NewDataAwsS3ControlAccessPoints(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/s3control_access_points aws_s3control_access_points} Data Source.
 func NewDataAwsS3ControlAccessPoints_Override(d DataAwsS3ControlAccessPoints, scope constructs.Construct, id *string, config *DataAwsS3ControlAccessPointsConfig) {
 	_init_.Initialize()
 

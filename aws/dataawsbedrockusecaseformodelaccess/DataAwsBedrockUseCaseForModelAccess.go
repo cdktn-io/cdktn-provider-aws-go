@@ -5,14 +5,14 @@ package dataawsbedrockusecaseformodelaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsbedrockusecaseformodelaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsbedrockusecaseformodelaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access}.
 type DataAwsBedrockUseCaseForModelAccess interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -274,7 +274,7 @@ func (j *jsiiProxy_DataAwsBedrockUseCaseForModelAccess) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Data Source.
 func NewDataAwsBedrockUseCaseForModelAccess(scope constructs.Construct, id *string, config *DataAwsBedrockUseCaseForModelAccessConfig) DataAwsBedrockUseCaseForModelAccess {
 	_init_.Initialize()
 
@@ -292,7 +292,7 @@ func NewDataAwsBedrockUseCaseForModelAccess(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_use_case_for_model_access aws_bedrock_use_case_for_model_access} Data Source.
 func NewDataAwsBedrockUseCaseForModelAccess_Override(d DataAwsBedrockUseCaseForModelAccess, scope constructs.Construct, id *string, config *DataAwsBedrockUseCaseForModelAccessConfig) {
 	_init_.Initialize()
 

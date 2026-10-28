@@ -5,14 +5,14 @@ package dataawsacmpcacertificateauthority
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsacmpcacertificateauthority/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsacmpcacertificateauthority/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority}.
 type DataAwsAcmpcaCertificateAuthority interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -479,7 +479,7 @@ func (j *jsiiProxy_DataAwsAcmpcaCertificateAuthority) UsageMode() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
 func NewDataAwsAcmpcaCertificateAuthority(scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateAuthorityConfig) DataAwsAcmpcaCertificateAuthority {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewDataAwsAcmpcaCertificateAuthority(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/acmpca_certificate_authority aws_acmpca_certificate_authority} Data Source.
 func NewDataAwsAcmpcaCertificateAuthority_Override(d DataAwsAcmpcaCertificateAuthority, scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateAuthorityConfig) {
 	_init_.Initialize()
 

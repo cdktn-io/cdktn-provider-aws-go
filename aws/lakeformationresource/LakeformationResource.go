@@ -5,14 +5,14 @@ package lakeformationresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lakeformationresource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lakeformationresource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lakeformation_resource aws_lakeformation_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lakeformation_resource aws_lakeformation_resource}.
 type LakeformationResource interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_LakeformationResource) WithPrivilegedAccessInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lakeformation_resource aws_lakeformation_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lakeformation_resource aws_lakeformation_resource} Resource.
 func NewLakeformationResource(scope constructs.Construct, id *string, config *LakeformationResourceConfig) LakeformationResource {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewLakeformationResource(scope constructs.Construct, id *string, config *La
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lakeformation_resource aws_lakeformation_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lakeformation_resource aws_lakeformation_resource} Resource.
 func NewLakeformationResource_Override(l LakeformationResource, scope constructs.Construct, id *string, config *LakeformationResourceConfig) {
 	_init_.Initialize()
 

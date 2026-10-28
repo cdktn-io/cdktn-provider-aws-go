@@ -5,14 +5,14 @@ package s3bucketpublicaccessblock
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/s3bucketpublicaccessblock/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/s3bucketpublicaccessblock/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3_bucket_public_access_block aws_s3_bucket_public_access_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3_bucket_public_access_block aws_s3_bucket_public_access_block}.
 type S3BucketPublicAccessBlock interface {
 	cdktn.TerraformResource
 	BlockPublicAcls() interface{}
@@ -535,7 +535,7 @@ func (j *jsiiProxy_S3BucketPublicAccessBlock) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3_bucket_public_access_block aws_s3_bucket_public_access_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3_bucket_public_access_block aws_s3_bucket_public_access_block} Resource.
 func NewS3BucketPublicAccessBlock(scope constructs.Construct, id *string, config *S3BucketPublicAccessBlockConfig) S3BucketPublicAccessBlock {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewS3BucketPublicAccessBlock(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3_bucket_public_access_block aws_s3_bucket_public_access_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3_bucket_public_access_block aws_s3_bucket_public_access_block} Resource.
 func NewS3BucketPublicAccessBlock_Override(s S3BucketPublicAccessBlock, scope constructs.Construct, id *string, config *S3BucketPublicAccessBlockConfig) {
 	_init_.Initialize()
 

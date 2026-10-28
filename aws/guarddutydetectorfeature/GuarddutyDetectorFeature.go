@@ -5,14 +5,14 @@ package guarddutydetectorfeature
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/guarddutydetectorfeature/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/guarddutydetectorfeature/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature}.
 type GuarddutyDetectorFeature interface {
 	cdktn.TerraformResource
 	AdditionalConfiguration() GuarddutyDetectorFeatureAdditionalConfigurationList
@@ -485,7 +485,7 @@ func (j *jsiiProxy_GuarddutyDetectorFeature) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
 func NewGuarddutyDetectorFeature(scope constructs.Construct, id *string, config *GuarddutyDetectorFeatureConfig) GuarddutyDetectorFeature {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewGuarddutyDetectorFeature(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/guardduty_detector_feature aws_guardduty_detector_feature} Resource.
 func NewGuarddutyDetectorFeature_Override(g GuarddutyDetectorFeature, scope constructs.Construct, id *string, config *GuarddutyDetectorFeatureConfig) {
 	_init_.Initialize()
 

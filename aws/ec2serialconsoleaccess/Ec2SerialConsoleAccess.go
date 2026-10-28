@@ -5,14 +5,14 @@ package ec2serialconsoleaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ec2serialconsoleaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ec2serialconsoleaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access}.
 type Ec2SerialConsoleAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_Ec2SerialConsoleAccess) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
 func NewEc2SerialConsoleAccess(scope constructs.Construct, id *string, config *Ec2SerialConsoleAccessConfig) Ec2SerialConsoleAccess {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewEc2SerialConsoleAccess(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_serial_console_access aws_ec2_serial_console_access} Resource.
 func NewEc2SerialConsoleAccess_Override(e Ec2SerialConsoleAccess, scope constructs.Construct, id *string, config *Ec2SerialConsoleAccessConfig) {
 	_init_.Initialize()
 

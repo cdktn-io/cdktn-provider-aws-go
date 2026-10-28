@@ -5,14 +5,14 @@ package dataawsnetworkmanagercorenetworkpolicydocument
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsnetworkmanagercorenetworkpolicydocument/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsnetworkmanagercorenetworkpolicydocument/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document}.
 type DataAwsNetworkmanagerCoreNetworkPolicyDocument interface {
 	cdktn.TerraformDataSource
 	AttachmentPolicies() DataAwsNetworkmanagerCoreNetworkPolicyDocumentAttachmentPoliciesList
@@ -488,7 +488,7 @@ func (j *jsiiProxy_DataAwsNetworkmanagerCoreNetworkPolicyDocument) VersionInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
 func NewDataAwsNetworkmanagerCoreNetworkPolicyDocument(scope constructs.Construct, id *string, config *DataAwsNetworkmanagerCoreNetworkPolicyDocumentConfig) DataAwsNetworkmanagerCoreNetworkPolicyDocument {
 	_init_.Initialize()
 
@@ -506,7 +506,7 @@ func NewDataAwsNetworkmanagerCoreNetworkPolicyDocument(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/networkmanager_core_network_policy_document aws_networkmanager_core_network_policy_document} Data Source.
 func NewDataAwsNetworkmanagerCoreNetworkPolicyDocument_Override(d DataAwsNetworkmanagerCoreNetworkPolicyDocument, scope constructs.Construct, id *string, config *DataAwsNetworkmanagerCoreNetworkPolicyDocumentConfig) {
 	_init_.Initialize()
 

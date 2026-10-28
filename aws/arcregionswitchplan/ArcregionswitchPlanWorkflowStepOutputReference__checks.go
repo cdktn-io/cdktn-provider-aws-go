@@ -558,6 +558,37 @@ func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutRd
 	return nil
 }
 
+func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutRdsSwitchoverReadReplicaConfigParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfig:
+		value := value.(*[]*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfig)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfig:
+		value_ := value.([]*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfig)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ArcregionswitchPlanWorkflowStepRdsSwitchoverReadReplicaConfig; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_ArcregionswitchPlanWorkflowStepOutputReference) validatePutRegionSwitchPlanConfigParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

@@ -5,14 +5,14 @@ package ecrrepositorycreationtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ecrrepositorycreationtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ecrrepositorycreationtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template}.
 type EcrRepositoryCreationTemplate interface {
 	cdktn.TerraformResource
 	AppliedFor() *[]*string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_EcrRepositoryCreationTemplate) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
 func NewEcrRepositoryCreationTemplate(scope constructs.Construct, id *string, config *EcrRepositoryCreationTemplateConfig) EcrRepositoryCreationTemplate {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewEcrRepositoryCreationTemplate(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecr_repository_creation_template aws_ecr_repository_creation_template} Resource.
 func NewEcrRepositoryCreationTemplate_Override(e EcrRepositoryCreationTemplate, scope constructs.Construct, id *string, config *EcrRepositoryCreationTemplateConfig) {
 	_init_.Initialize()
 

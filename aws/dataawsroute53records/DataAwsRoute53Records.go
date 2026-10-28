@@ -5,14 +5,14 @@ package dataawsroute53records
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsroute53records/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsroute53records/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/route53_records aws_route53_records}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/route53_records aws_route53_records}.
 type DataAwsRoute53Records interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsRoute53Records) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/route53_records aws_route53_records} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/route53_records aws_route53_records} Data Source.
 func NewDataAwsRoute53Records(scope constructs.Construct, id *string, config *DataAwsRoute53RecordsConfig) DataAwsRoute53Records {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsRoute53Records(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/route53_records aws_route53_records} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/route53_records aws_route53_records} Data Source.
 func NewDataAwsRoute53Records_Override(d DataAwsRoute53Records, scope constructs.Construct, id *string, config *DataAwsRoute53RecordsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package pinpointemailchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/pinpointemailchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/pinpointemailchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel}.
 type PinpointEmailChannel interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -568,7 +568,7 @@ func (j *jsiiProxy_PinpointEmailChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel} Resource.
 func NewPinpointEmailChannel(scope constructs.Construct, id *string, config *PinpointEmailChannelConfig) PinpointEmailChannel {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewPinpointEmailChannel(scope constructs.Construct, id *string, config *Pin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpoint_email_channel aws_pinpoint_email_channel} Resource.
 func NewPinpointEmailChannel_Override(p PinpointEmailChannel, scope constructs.Construct, id *string, config *PinpointEmailChannelConfig) {
 	_init_.Initialize()
 

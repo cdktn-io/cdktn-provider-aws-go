@@ -5,14 +5,14 @@ package wafregionalxssmatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/wafregionalxssmatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/wafregionalxssmatchset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set}.
 type WafregionalXssMatchSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_WafregionalXssMatchSet) XssMatchTupleInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
 func NewWafregionalXssMatchSet(scope constructs.Construct, id *string, config *WafregionalXssMatchSetConfig) WafregionalXssMatchSet {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewWafregionalXssMatchSet(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_xss_match_set aws_wafregional_xss_match_set} Resource.
 func NewWafregionalXssMatchSet_Override(w WafregionalXssMatchSet, scope constructs.Construct, id *string, config *WafregionalXssMatchSetConfig) {
 	_init_.Initialize()
 

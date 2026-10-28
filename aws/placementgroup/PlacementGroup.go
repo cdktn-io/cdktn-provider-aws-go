@@ -5,14 +5,14 @@ package placementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/placementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/placementgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/placement_group aws_placement_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/placement_group aws_placement_group}.
 type PlacementGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_PlacementGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/placement_group aws_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/placement_group aws_placement_group} Resource.
 func NewPlacementGroup(scope constructs.Construct, id *string, config *PlacementGroupConfig) PlacementGroup {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewPlacementGroup(scope constructs.Construct, id *string, config *Placement
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/placement_group aws_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/placement_group aws_placement_group} Resource.
 func NewPlacementGroup_Override(p PlacementGroup, scope constructs.Construct, id *string, config *PlacementGroupConfig) {
 	_init_.Initialize()
 

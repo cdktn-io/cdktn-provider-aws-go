@@ -5,14 +5,14 @@ package transferuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/transferuser/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/transferuser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_user aws_transfer_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_user aws_transfer_user}.
 type TransferUser interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -664,7 +664,7 @@ func (j *jsiiProxy_TransferUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_user aws_transfer_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_user aws_transfer_user} Resource.
 func NewTransferUser(scope constructs.Construct, id *string, config *TransferUserConfig) TransferUser {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewTransferUser(scope constructs.Construct, id *string, config *TransferUse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/transfer_user aws_transfer_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/transfer_user aws_transfer_user} Resource.
 func NewTransferUser_Override(t TransferUser, scope constructs.Construct, id *string, config *TransferUserConfig) {
 	_init_.Initialize()
 

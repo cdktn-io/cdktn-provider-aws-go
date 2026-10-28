@@ -5,14 +5,14 @@ package dxhostedprivatevirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dxhostedprivatevirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dxhostedprivatevirtualinterface/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface}.
 type DxHostedPrivateVirtualInterface interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -765,7 +765,7 @@ func (j *jsiiProxy_DxHostedPrivateVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface} Resource.
 func NewDxHostedPrivateVirtualInterface(scope constructs.Construct, id *string, config *DxHostedPrivateVirtualInterfaceConfig) DxHostedPrivateVirtualInterface {
 	_init_.Initialize()
 
@@ -783,7 +783,7 @@ func NewDxHostedPrivateVirtualInterface(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface} Resource.
 func NewDxHostedPrivateVirtualInterface_Override(d DxHostedPrivateVirtualInterface, scope constructs.Construct, id *string, config *DxHostedPrivateVirtualInterfaceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package s3controlaccessgrantslocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/s3controlaccessgrantslocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/s3controlaccessgrantslocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location}.
 type S3ControlAccessGrantsLocation interface {
 	cdktn.TerraformResource
 	AccessGrantsLocationArn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_S3ControlAccessGrantsLocation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
 func NewS3ControlAccessGrantsLocation(scope constructs.Construct, id *string, config *S3ControlAccessGrantsLocationConfig) S3ControlAccessGrantsLocation {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewS3ControlAccessGrantsLocation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/s3control_access_grants_location aws_s3control_access_grants_location} Resource.
 func NewS3ControlAccessGrantsLocation_Override(s S3ControlAccessGrantsLocation, scope constructs.Construct, id *string, config *S3ControlAccessGrantsLocationConfig) {
 	_init_.Initialize()
 

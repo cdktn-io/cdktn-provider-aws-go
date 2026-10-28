@@ -5,14 +5,14 @@ package dataawsappmeshmesh
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsappmeshmesh/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsappmeshmesh/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/appmesh_mesh aws_appmesh_mesh}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/appmesh_mesh aws_appmesh_mesh}.
 type DataAwsAppmeshMesh interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_DataAwsAppmeshMesh) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/appmesh_mesh aws_appmesh_mesh} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/appmesh_mesh aws_appmesh_mesh} Data Source.
 func NewDataAwsAppmeshMesh(scope constructs.Construct, id *string, config *DataAwsAppmeshMeshConfig) DataAwsAppmeshMesh {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewDataAwsAppmeshMesh(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/appmesh_mesh aws_appmesh_mesh} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/appmesh_mesh aws_appmesh_mesh} Data Source.
 func NewDataAwsAppmeshMesh_Override(d DataAwsAppmeshMesh, scope constructs.Construct, id *string, config *DataAwsAppmeshMeshConfig) {
 	_init_.Initialize()
 

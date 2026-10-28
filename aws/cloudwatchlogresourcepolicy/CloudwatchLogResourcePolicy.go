@@ -5,14 +5,14 @@ package cloudwatchlogresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatchlogresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatchlogresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy}.
 type CloudwatchLogResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_CloudwatchLogResourcePolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
 func NewCloudwatchLogResourcePolicy(scope constructs.Construct, id *string, config *CloudwatchLogResourcePolicyConfig) CloudwatchLogResourcePolicy {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewCloudwatchLogResourcePolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_resource_policy aws_cloudwatch_log_resource_policy} Resource.
 func NewCloudwatchLogResourcePolicy_Override(c CloudwatchLogResourcePolicy, scope constructs.Construct, id *string, config *CloudwatchLogResourcePolicyConfig) {
 	_init_.Initialize()
 

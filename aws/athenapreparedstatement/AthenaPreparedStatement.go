@@ -5,14 +5,14 @@ package athenapreparedstatement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/athenapreparedstatement/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/athenapreparedstatement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/athena_prepared_statement aws_athena_prepared_statement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement}.
 type AthenaPreparedStatement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_AthenaPreparedStatement) WorkgroupInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
 func NewAthenaPreparedStatement(scope constructs.Construct, id *string, config *AthenaPreparedStatementConfig) AthenaPreparedStatement {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewAthenaPreparedStatement(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/athena_prepared_statement aws_athena_prepared_statement} Resource.
 func NewAthenaPreparedStatement_Override(a AthenaPreparedStatement, scope constructs.Construct, id *string, config *AthenaPreparedStatementConfig) {
 	_init_.Initialize()
 

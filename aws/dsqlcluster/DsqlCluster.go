@@ -5,14 +5,14 @@ package dsqlcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dsqlcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dsqlcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dsql_cluster aws_dsql_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dsql_cluster aws_dsql_cluster}.
 type DsqlCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DsqlCluster) VpcEndpointServiceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dsql_cluster aws_dsql_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dsql_cluster aws_dsql_cluster} Resource.
 func NewDsqlCluster(scope constructs.Construct, id *string, config *DsqlClusterConfig) DsqlCluster {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewDsqlCluster(scope constructs.Construct, id *string, config *DsqlClusterC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dsql_cluster aws_dsql_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dsql_cluster aws_dsql_cluster} Resource.
 func NewDsqlCluster_Override(d DsqlCluster, scope constructs.Construct, id *string, config *DsqlClusterConfig) {
 	_init_.Initialize()
 

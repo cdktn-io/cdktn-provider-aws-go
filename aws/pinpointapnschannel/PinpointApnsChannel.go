@@ -5,14 +5,14 @@ package pinpointapnschannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/pinpointapnschannel/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/pinpointapnschannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel}.
 type PinpointApnsChannel interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -607,7 +607,7 @@ func (j *jsiiProxy_PinpointApnsChannel) TokenKeyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
 func NewPinpointApnsChannel(scope constructs.Construct, id *string, config *PinpointApnsChannelConfig) PinpointApnsChannel {
 	_init_.Initialize()
 
@@ -625,7 +625,7 @@ func NewPinpointApnsChannel(scope constructs.Construct, id *string, config *Pinp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpoint_apns_channel aws_pinpoint_apns_channel} Resource.
 func NewPinpointApnsChannel_Override(p PinpointApnsChannel, scope constructs.Construct, id *string, config *PinpointApnsChannelConfig) {
 	_init_.Initialize()
 

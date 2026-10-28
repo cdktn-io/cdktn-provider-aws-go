@@ -5,14 +5,14 @@ package dataawssecurityhubstandardscontrolassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawssecurityhubstandardscontrolassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawssecurityhubstandardscontrolassociations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations}.
 type DataAwsSecurityhubStandardsControlAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAwsSecurityhubStandardsControlAssociations) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
 func NewDataAwsSecurityhubStandardsControlAssociations(scope constructs.Construct, id *string, config *DataAwsSecurityhubStandardsControlAssociationsConfig) DataAwsSecurityhubStandardsControlAssociations {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAwsSecurityhubStandardsControlAssociations(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/securityhub_standards_control_associations aws_securityhub_standards_control_associations} Data Source.
 func NewDataAwsSecurityhubStandardsControlAssociations_Override(d DataAwsSecurityhubStandardsControlAssociations, scope constructs.Construct, id *string, config *DataAwsSecurityhubStandardsControlAssociationsConfig) {
 	_init_.Initialize()
 

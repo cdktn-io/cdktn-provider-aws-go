@@ -5,14 +5,14 @@ package configconfigurationrecorder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/configconfigurationrecorder/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/configconfigurationrecorder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/config_configuration_recorder aws_config_configuration_recorder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/config_configuration_recorder aws_config_configuration_recorder}.
 type ConfigConfigurationRecorder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -487,7 +487,7 @@ func (j *jsiiProxy_ConfigConfigurationRecorder) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/config_configuration_recorder aws_config_configuration_recorder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/config_configuration_recorder aws_config_configuration_recorder} Resource.
 func NewConfigConfigurationRecorder(scope constructs.Construct, id *string, config *ConfigConfigurationRecorderConfig) ConfigConfigurationRecorder {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewConfigConfigurationRecorder(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/config_configuration_recorder aws_config_configuration_recorder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/config_configuration_recorder aws_config_configuration_recorder} Resource.
 func NewConfigConfigurationRecorder_Override(c ConfigConfigurationRecorder, scope constructs.Construct, id *string, config *ConfigConfigurationRecorderConfig) {
 	_init_.Initialize()
 

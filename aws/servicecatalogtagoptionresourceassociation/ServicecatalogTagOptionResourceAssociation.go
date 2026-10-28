@@ -5,14 +5,14 @@ package servicecatalogtagoptionresourceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/servicecatalogtagoptionresourceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/servicecatalogtagoptionresourceassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/servicecatalog_tag_option_resource_association aws_servicecatalog_tag_option_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/servicecatalog_tag_option_resource_association aws_servicecatalog_tag_option_resource_association}.
 type ServicecatalogTagOptionResourceAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_ServicecatalogTagOptionResourceAssociation) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/servicecatalog_tag_option_resource_association aws_servicecatalog_tag_option_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/servicecatalog_tag_option_resource_association aws_servicecatalog_tag_option_resource_association} Resource.
 func NewServicecatalogTagOptionResourceAssociation(scope constructs.Construct, id *string, config *ServicecatalogTagOptionResourceAssociationConfig) ServicecatalogTagOptionResourceAssociation {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewServicecatalogTagOptionResourceAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/servicecatalog_tag_option_resource_association aws_servicecatalog_tag_option_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/servicecatalog_tag_option_resource_association aws_servicecatalog_tag_option_resource_association} Resource.
 func NewServicecatalogTagOptionResourceAssociation_Override(s ServicecatalogTagOptionResourceAssociation, scope constructs.Construct, id *string, config *ServicecatalogTagOptionResourceAssociationConfig) {
 	_init_.Initialize()
 

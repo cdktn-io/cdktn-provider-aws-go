@@ -5,14 +5,14 @@ package vpclatticedomainverification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpclatticedomainverification/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpclatticedomainverification/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification}.
 type VpclatticeDomainVerification interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_VpclatticeDomainVerification) TxtRecordValue() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
 func NewVpclatticeDomainVerification(scope constructs.Construct, id *string, config *VpclatticeDomainVerificationConfig) VpclatticeDomainVerification {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewVpclatticeDomainVerification(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_domain_verification aws_vpclattice_domain_verification} Resource.
 func NewVpclatticeDomainVerification_Override(v VpclatticeDomainVerification, scope constructs.Construct, id *string, config *VpclatticeDomainVerificationConfig) {
 	_init_.Initialize()
 

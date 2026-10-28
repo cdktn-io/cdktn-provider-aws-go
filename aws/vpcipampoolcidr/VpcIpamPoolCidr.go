@@ -5,14 +5,14 @@ package vpcipampoolcidr
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpcipampoolcidr/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpcipampoolcidr/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr}.
 type VpcIpamPoolCidr interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_VpcIpamPoolCidr) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
 func NewVpcIpamPoolCidr(scope constructs.Construct, id *string, config *VpcIpamPoolCidrConfig) VpcIpamPoolCidr {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewVpcIpamPoolCidr(scope constructs.Construct, id *string, config *VpcIpamP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam_pool_cidr aws_vpc_ipam_pool_cidr} Resource.
 func NewVpcIpamPoolCidr_Override(v VpcIpamPoolCidr, scope constructs.Construct, id *string, config *VpcIpamPoolCidrConfig) {
 	_init_.Initialize()
 

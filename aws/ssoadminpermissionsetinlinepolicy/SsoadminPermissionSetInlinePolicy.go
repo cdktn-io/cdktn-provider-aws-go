@@ -5,14 +5,14 @@ package ssoadminpermissionsetinlinepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ssoadminpermissionsetinlinepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ssoadminpermissionsetinlinepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_permission_set_inline_policy aws_ssoadmin_permission_set_inline_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_permission_set_inline_policy aws_ssoadmin_permission_set_inline_policy}.
 type SsoadminPermissionSetInlinePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SsoadminPermissionSetInlinePolicy) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_permission_set_inline_policy aws_ssoadmin_permission_set_inline_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_permission_set_inline_policy aws_ssoadmin_permission_set_inline_policy} Resource.
 func NewSsoadminPermissionSetInlinePolicy(scope constructs.Construct, id *string, config *SsoadminPermissionSetInlinePolicyConfig) SsoadminPermissionSetInlinePolicy {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSsoadminPermissionSetInlinePolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_permission_set_inline_policy aws_ssoadmin_permission_set_inline_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_permission_set_inline_policy aws_ssoadmin_permission_set_inline_policy} Resource.
 func NewSsoadminPermissionSetInlinePolicy_Override(s SsoadminPermissionSetInlinePolicy, scope constructs.Construct, id *string, config *SsoadminPermissionSetInlinePolicyConfig) {
 	_init_.Initialize()
 

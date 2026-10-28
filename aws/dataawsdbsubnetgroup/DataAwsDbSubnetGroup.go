@@ -5,14 +5,14 @@ package dataawsdbsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsdbsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsdbsubnetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/db_subnet_group aws_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/db_subnet_group aws_db_subnet_group}.
 type DataAwsDbSubnetGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataAwsDbSubnetGroup) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
 func NewDataAwsDbSubnetGroup(scope constructs.Construct, id *string, config *DataAwsDbSubnetGroupConfig) DataAwsDbSubnetGroup {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewDataAwsDbSubnetGroup(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/db_subnet_group aws_db_subnet_group} Data Source.
 func NewDataAwsDbSubnetGroup_Override(d DataAwsDbSubnetGroup, scope constructs.Construct, id *string, config *DataAwsDbSubnetGroupConfig) {
 	_init_.Initialize()
 

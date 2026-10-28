@@ -5,14 +5,14 @@ package vpclatticeauthpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpclatticeauthpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpclatticeauthpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_auth_policy aws_vpclattice_auth_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_auth_policy aws_vpclattice_auth_policy}.
 type VpclatticeAuthPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_VpclatticeAuthPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_auth_policy aws_vpclattice_auth_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_auth_policy aws_vpclattice_auth_policy} Resource.
 func NewVpclatticeAuthPolicy(scope constructs.Construct, id *string, config *VpclatticeAuthPolicyConfig) VpclatticeAuthPolicy {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewVpclatticeAuthPolicy(scope constructs.Construct, id *string, config *Vpc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_auth_policy aws_vpclattice_auth_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_auth_policy aws_vpclattice_auth_policy} Resource.
 func NewVpclatticeAuthPolicy_Override(v VpclatticeAuthPolicy, scope constructs.Construct, id *string, config *VpclatticeAuthPolicyConfig) {
 	_init_.Initialize()
 

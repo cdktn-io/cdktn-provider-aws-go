@@ -5,14 +5,14 @@ package dataawslakeformationresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawslakeformationresource/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawslakeformationresource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lakeformation_resource aws_lakeformation_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lakeformation_resource aws_lakeformation_resource}.
 type DataAwsLakeformationResource interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataAwsLakeformationResource) WithPrivilegedAccess() cdktn.IR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lakeformation_resource aws_lakeformation_resource} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lakeformation_resource aws_lakeformation_resource} Data Source.
 func NewDataAwsLakeformationResource(scope constructs.Construct, id *string, config *DataAwsLakeformationResourceConfig) DataAwsLakeformationResource {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDataAwsLakeformationResource(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/lakeformation_resource aws_lakeformation_resource} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/lakeformation_resource aws_lakeformation_resource} Data Source.
 func NewDataAwsLakeformationResource_Override(d DataAwsLakeformationResource, scope constructs.Construct, id *string, config *DataAwsLakeformationResourceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsrdscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsrdscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsrdscluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/rds_cluster aws_rds_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/rds_cluster aws_rds_cluster}.
 type DataAwsRdsCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -754,7 +754,7 @@ func (j *jsiiProxy_DataAwsRdsCluster) VpcSecurityGroupIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
 func NewDataAwsRdsCluster(scope constructs.Construct, id *string, config *DataAwsRdsClusterConfig) DataAwsRdsCluster {
 	_init_.Initialize()
 
@@ -772,7 +772,7 @@ func NewDataAwsRdsCluster(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/rds_cluster aws_rds_cluster} Data Source.
 func NewDataAwsRdsCluster_Override(d DataAwsRdsCluster, scope constructs.Construct, id *string, config *DataAwsRdsClusterConfig) {
 	_init_.Initialize()
 

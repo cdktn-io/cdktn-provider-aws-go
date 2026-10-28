@@ -5,14 +5,14 @@ package dataawseksnodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawseksnodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawseksnodegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_node_group aws_eks_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_node_group aws_eks_node_group}.
 type DataAwsEksNodeGroup interface {
 	cdktn.TerraformDataSource
 	AmiType() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_DataAwsEksNodeGroup) WarmPoolConfig() DataAwsEksNodeGroupWarm
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
 func NewDataAwsEksNodeGroup(scope constructs.Construct, id *string, config *DataAwsEksNodeGroupConfig) DataAwsEksNodeGroup {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewDataAwsEksNodeGroup(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/eks_node_group aws_eks_node_group} Data Source.
 func NewDataAwsEksNodeGroup_Override(d DataAwsEksNodeGroup, scope constructs.Construct, id *string, config *DataAwsEksNodeGroupConfig) {
 	_init_.Initialize()
 

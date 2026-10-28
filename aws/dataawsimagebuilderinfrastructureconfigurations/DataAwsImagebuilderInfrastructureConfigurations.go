@@ -5,14 +5,14 @@ package dataawsimagebuilderinfrastructureconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsimagebuilderinfrastructureconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsimagebuilderinfrastructureconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/imagebuilder_infrastructure_configurations aws_imagebuilder_infrastructure_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/imagebuilder_infrastructure_configurations aws_imagebuilder_infrastructure_configurations}.
 type DataAwsImagebuilderInfrastructureConfigurations interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -357,7 +357,7 @@ func (j *jsiiProxy_DataAwsImagebuilderInfrastructureConfigurations) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/imagebuilder_infrastructure_configurations aws_imagebuilder_infrastructure_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/imagebuilder_infrastructure_configurations aws_imagebuilder_infrastructure_configurations} Data Source.
 func NewDataAwsImagebuilderInfrastructureConfigurations(scope constructs.Construct, id *string, config *DataAwsImagebuilderInfrastructureConfigurationsConfig) DataAwsImagebuilderInfrastructureConfigurations {
 	_init_.Initialize()
 
@@ -375,7 +375,7 @@ func NewDataAwsImagebuilderInfrastructureConfigurations(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/imagebuilder_infrastructure_configurations aws_imagebuilder_infrastructure_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/imagebuilder_infrastructure_configurations aws_imagebuilder_infrastructure_configurations} Data Source.
 func NewDataAwsImagebuilderInfrastructureConfigurations_Override(d DataAwsImagebuilderInfrastructureConfigurations, scope constructs.Construct, id *string, config *DataAwsImagebuilderInfrastructureConfigurationsConfig) {
 	_init_.Initialize()
 

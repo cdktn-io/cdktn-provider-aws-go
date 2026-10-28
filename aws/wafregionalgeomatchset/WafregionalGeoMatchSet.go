@@ -5,14 +5,14 @@ package wafregionalgeomatchset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/wafregionalgeomatchset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/wafregionalgeomatchset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set}.
 type WafregionalGeoMatchSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -439,7 +439,7 @@ func (j *jsiiProxy_WafregionalGeoMatchSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
 func NewWafregionalGeoMatchSet(scope constructs.Construct, id *string, config *WafregionalGeoMatchSetConfig) WafregionalGeoMatchSet {
 	_init_.Initialize()
 
@@ -457,7 +457,7 @@ func NewWafregionalGeoMatchSet(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafregional_geo_match_set aws_wafregional_geo_match_set} Resource.
 func NewWafregionalGeoMatchSet_Override(w WafregionalGeoMatchSet, scope constructs.Construct, id *string, config *WafregionalGeoMatchSetConfig) {
 	_init_.Initialize()
 

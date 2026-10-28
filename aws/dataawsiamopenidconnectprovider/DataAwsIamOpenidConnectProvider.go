@@ -5,14 +5,14 @@ package dataawsiamopenidconnectprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsiamopenidconnectprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsiamopenidconnectprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/iam_openid_connect_provider aws_iam_openid_connect_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/iam_openid_connect_provider aws_iam_openid_connect_provider}.
 type DataAwsIamOpenidConnectProvider interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAwsIamOpenidConnectProvider) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/iam_openid_connect_provider aws_iam_openid_connect_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/iam_openid_connect_provider aws_iam_openid_connect_provider} Data Source.
 func NewDataAwsIamOpenidConnectProvider(scope constructs.Construct, id *string, config *DataAwsIamOpenidConnectProviderConfig) DataAwsIamOpenidConnectProvider {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAwsIamOpenidConnectProvider(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/iam_openid_connect_provider aws_iam_openid_connect_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/iam_openid_connect_provider aws_iam_openid_connect_provider} Data Source.
 func NewDataAwsIamOpenidConnectProvider_Override(d DataAwsIamOpenidConnectProvider, scope constructs.Construct, id *string, config *DataAwsIamOpenidConnectProviderConfig) {
 	_init_.Initialize()
 

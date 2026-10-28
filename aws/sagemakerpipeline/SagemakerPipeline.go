@@ -5,14 +5,14 @@ package sagemakerpipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sagemakerpipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sagemakerpipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_pipeline aws_sagemaker_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_pipeline aws_sagemaker_pipeline}.
 type SagemakerPipeline interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_SagemakerPipeline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_pipeline aws_sagemaker_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_pipeline aws_sagemaker_pipeline} Resource.
 func NewSagemakerPipeline(scope constructs.Construct, id *string, config *SagemakerPipelineConfig) SagemakerPipeline {
 	_init_.Initialize()
 
@@ -635,7 +635,7 @@ func NewSagemakerPipeline(scope constructs.Construct, id *string, config *Sagema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sagemaker_pipeline aws_sagemaker_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_pipeline aws_sagemaker_pipeline} Resource.
 func NewSagemakerPipeline_Override(s SagemakerPipeline, scope constructs.Construct, id *string, config *SagemakerPipelineConfig) {
 	_init_.Initialize()
 

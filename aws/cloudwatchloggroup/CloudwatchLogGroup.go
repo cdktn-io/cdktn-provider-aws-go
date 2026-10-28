@@ -5,14 +5,14 @@ package cloudwatchloggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatchloggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatchloggroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group}.
 type CloudwatchLogGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -619,7 +619,7 @@ func (j *jsiiProxy_CloudwatchLogGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
 func NewCloudwatchLogGroup(scope constructs.Construct, id *string, config *CloudwatchLogGroupConfig) CloudwatchLogGroup {
 	_init_.Initialize()
 
@@ -637,7 +637,7 @@ func NewCloudwatchLogGroup(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_log_group aws_cloudwatch_log_group} Resource.
 func NewCloudwatchLogGroup_Override(c CloudwatchLogGroup, scope constructs.Construct, id *string, config *CloudwatchLogGroupConfig) {
 	_init_.Initialize()
 

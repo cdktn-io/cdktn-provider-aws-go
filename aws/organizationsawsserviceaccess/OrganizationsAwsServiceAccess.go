@@ -5,14 +5,14 @@ package organizationsawsserviceaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/organizationsawsserviceaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/organizationsawsserviceaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access}.
 type OrganizationsAwsServiceAccess interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -378,7 +378,7 @@ func (j *jsiiProxy_OrganizationsAwsServiceAccess) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
 func NewOrganizationsAwsServiceAccess(scope constructs.Construct, id *string, config *OrganizationsAwsServiceAccessConfig) OrganizationsAwsServiceAccess {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewOrganizationsAwsServiceAccess(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/organizations_aws_service_access aws_organizations_aws_service_access} Resource.
 func NewOrganizationsAwsServiceAccess_Override(o OrganizationsAwsServiceAccess, scope constructs.Construct, id *string, config *OrganizationsAwsServiceAccessConfig) {
 	_init_.Initialize()
 

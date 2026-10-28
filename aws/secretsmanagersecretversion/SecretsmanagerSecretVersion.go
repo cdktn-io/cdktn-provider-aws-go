@@ -5,14 +5,14 @@ package secretsmanagersecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/secretsmanagersecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/secretsmanagersecretversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/secretsmanager_secret_version aws_secretsmanager_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/secretsmanager_secret_version aws_secretsmanager_secret_version}.
 type SecretsmanagerSecretVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_SecretsmanagerSecretVersion) VersionStagesInput() *[]*string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/secretsmanager_secret_version aws_secretsmanager_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/secretsmanager_secret_version aws_secretsmanager_secret_version} Resource.
 func NewSecretsmanagerSecretVersion(scope constructs.Construct, id *string, config *SecretsmanagerSecretVersionConfig) SecretsmanagerSecretVersion {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewSecretsmanagerSecretVersion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/secretsmanager_secret_version aws_secretsmanager_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/secretsmanager_secret_version aws_secretsmanager_secret_version} Resource.
 func NewSecretsmanagerSecretVersion_Override(s SecretsmanagerSecretVersion, scope constructs.Construct, id *string, config *SecretsmanagerSecretVersionConfig) {
 	_init_.Initialize()
 

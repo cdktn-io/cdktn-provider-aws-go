@@ -5,14 +5,14 @@ package sesdomaindkim
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/sesdomaindkim/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/sesdomaindkim/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_domain_dkim aws_ses_domain_dkim}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim}.
 type SesDomainDkim interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_SesDomainDkim) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
 func NewSesDomainDkim(scope constructs.Construct, id *string, config *SesDomainDkimConfig) SesDomainDkim {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewSesDomainDkim(scope constructs.Construct, id *string, config *SesDomainD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ses_domain_dkim aws_ses_domain_dkim} Resource.
 func NewSesDomainDkim_Override(s SesDomainDkim, scope constructs.Construct, id *string, config *SesDomainDkimConfig) {
 	_init_.Initialize()
 

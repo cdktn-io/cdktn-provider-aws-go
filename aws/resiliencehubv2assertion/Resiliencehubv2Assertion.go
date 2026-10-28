@@ -5,14 +5,14 @@ package resiliencehubv2assertion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/resiliencehubv2assertion/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/resiliencehubv2assertion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/resiliencehubv2_assertion aws_resiliencehubv2_assertion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/resiliencehubv2_assertion aws_resiliencehubv2_assertion}.
 type Resiliencehubv2Assertion interface {
 	cdktn.TerraformResource
 	AssertionId() *string
@@ -425,7 +425,7 @@ func (j *jsiiProxy_Resiliencehubv2Assertion) TextInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/resiliencehubv2_assertion aws_resiliencehubv2_assertion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/resiliencehubv2_assertion aws_resiliencehubv2_assertion} Resource.
 func NewResiliencehubv2Assertion(scope constructs.Construct, id *string, config *Resiliencehubv2AssertionConfig) Resiliencehubv2Assertion {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewResiliencehubv2Assertion(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/resiliencehubv2_assertion aws_resiliencehubv2_assertion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/resiliencehubv2_assertion aws_resiliencehubv2_assertion} Resource.
 func NewResiliencehubv2Assertion_Override(r Resiliencehubv2Assertion, scope constructs.Construct, id *string, config *Resiliencehubv2AssertionConfig) {
 	_init_.Initialize()
 

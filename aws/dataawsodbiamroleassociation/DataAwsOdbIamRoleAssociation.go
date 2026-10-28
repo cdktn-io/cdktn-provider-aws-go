@@ -5,14 +5,14 @@ package dataawsodbiamroleassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsodbiamroleassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsodbiamroleassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_iam_role_association aws_odb_iam_role_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_iam_role_association aws_odb_iam_role_association}.
 type DataAwsOdbIamRoleAssociation interface {
 	cdktn.TerraformDataSource
 	AwsIntegration() *string
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DataAwsOdbIamRoleAssociation) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_iam_role_association aws_odb_iam_role_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_iam_role_association aws_odb_iam_role_association} Data Source.
 func NewDataAwsOdbIamRoleAssociation(scope constructs.Construct, id *string, config *DataAwsOdbIamRoleAssociationConfig) DataAwsOdbIamRoleAssociation {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDataAwsOdbIamRoleAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_iam_role_association aws_odb_iam_role_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_iam_role_association aws_odb_iam_role_association} Data Source.
 func NewDataAwsOdbIamRoleAssociation_Override(d DataAwsOdbIamRoleAssociation, scope constructs.Construct, id *string, config *DataAwsOdbIamRoleAssociationConfig) {
 	_init_.Initialize()
 

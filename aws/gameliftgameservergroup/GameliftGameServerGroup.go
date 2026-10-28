@@ -5,14 +5,14 @@ package gameliftgameservergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/gameliftgameservergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/gameliftgameservergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group}.
 type GameliftGameServerGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -720,7 +720,7 @@ func (j *jsiiProxy_GameliftGameServerGroup) VpcSubnetsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) GameliftGameServerGroup {
 	_init_.Initialize()
 
@@ -738,7 +738,7 @@ func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/gamelift_game_server_group aws_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup_Override(g GameliftGameServerGroup, scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) {
 	_init_.Initialize()
 

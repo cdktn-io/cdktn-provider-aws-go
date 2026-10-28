@@ -5,14 +5,14 @@ package vpngatewayroutepropagation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpngatewayroutepropagation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpngatewayroutepropagation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation}.
 type VpnGatewayRoutePropagation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_VpnGatewayRoutePropagation) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation} Resource.
 func NewVpnGatewayRoutePropagation(scope constructs.Construct, id *string, config *VpnGatewayRoutePropagationConfig) VpnGatewayRoutePropagation {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewVpnGatewayRoutePropagation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpn_gateway_route_propagation aws_vpn_gateway_route_propagation} Resource.
 func NewVpnGatewayRoutePropagation_Override(v VpnGatewayRoutePropagation, scope constructs.Construct, id *string, config *VpnGatewayRoutePropagationConfig) {
 	_init_.Initialize()
 

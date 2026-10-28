@@ -5,14 +5,14 @@ package dataawsshieldprotection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsshieldprotection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsshieldprotection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/shield_protection aws_shield_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/shield_protection aws_shield_protection}.
 type DataAwsShieldProtection interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataAwsShieldProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/shield_protection aws_shield_protection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/shield_protection aws_shield_protection} Data Source.
 func NewDataAwsShieldProtection(scope constructs.Construct, id *string, config *DataAwsShieldProtectionConfig) DataAwsShieldProtection {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataAwsShieldProtection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/shield_protection aws_shield_protection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/shield_protection aws_shield_protection} Data Source.
 func NewDataAwsShieldProtection_Override(d DataAwsShieldProtection, scope constructs.Construct, id *string, config *DataAwsShieldProtectionConfig) {
 	_init_.Initialize()
 

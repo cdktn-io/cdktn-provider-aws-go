@@ -5,14 +5,14 @@ package route53zoneassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/route53zoneassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/route53zoneassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_zone_association aws_route53_zone_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_zone_association aws_route53_zone_association}.
 type Route53ZoneAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_Route53ZoneAssociation) ZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_zone_association aws_route53_zone_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_zone_association aws_route53_zone_association} Resource.
 func NewRoute53ZoneAssociation(scope constructs.Construct, id *string, config *Route53ZoneAssociationConfig) Route53ZoneAssociation {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewRoute53ZoneAssociation(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_zone_association aws_route53_zone_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_zone_association aws_route53_zone_association} Resource.
 func NewRoute53ZoneAssociation_Override(r Route53ZoneAssociation, scope constructs.Construct, id *string, config *Route53ZoneAssociationConfig) {
 	_init_.Initialize()
 

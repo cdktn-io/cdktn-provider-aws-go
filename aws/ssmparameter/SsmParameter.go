@@ -5,14 +5,14 @@ package ssmparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ssmparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ssmparameter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssm_parameter aws_ssm_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssm_parameter aws_ssm_parameter}.
 type SsmParameter interface {
 	cdktn.TerraformResource
 	AllowedPattern() *string
@@ -774,7 +774,7 @@ func (j *jsiiProxy_SsmParameter) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
 func NewSsmParameter(scope constructs.Construct, id *string, config *SsmParameterConfig) SsmParameter {
 	_init_.Initialize()
 
@@ -792,7 +792,7 @@ func NewSsmParameter(scope constructs.Construct, id *string, config *SsmParamete
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssm_parameter aws_ssm_parameter} Resource.
 func NewSsmParameter_Override(s SsmParameter, scope constructs.Construct, id *string, config *SsmParameterConfig) {
 	_init_.Initialize()
 

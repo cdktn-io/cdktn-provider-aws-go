@@ -5,14 +5,14 @@ package neptunecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/neptunecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/neptunecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/neptune_cluster aws_neptune_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/neptune_cluster aws_neptune_cluster}.
 type NeptuneCluster interface {
 	cdktn.TerraformResource
 	AllowMajorVersionUpgrade() interface{}
@@ -108,6 +108,9 @@ type NeptuneCluster interface {
 	NeptuneSubnetGroupName() *string
 	SetNeptuneSubnetGroupName(val *string)
 	NeptuneSubnetGroupNameInput() *string
+	NetworkType() *string
+	SetNetworkType(val *string)
+	NetworkTypeInput() *string
 	// The tree node.
 	Node() constructs.Node
 	Port() *float64
@@ -281,6 +284,7 @@ type NeptuneCluster interface {
 	ResetNeptuneClusterParameterGroupName()
 	ResetNeptuneInstanceParameterGroupName()
 	ResetNeptuneSubnetGroupName()
+	ResetNetworkType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -865,6 +869,26 @@ func (j *jsiiProxy_NeptuneCluster) NeptuneSubnetGroupNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NeptuneCluster) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NeptuneCluster) NetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NeptuneCluster) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -1226,7 +1250,7 @@ func (j *jsiiProxy_NeptuneCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
 func NewNeptuneCluster(scope constructs.Construct, id *string, config *NeptuneClusterConfig) NeptuneCluster {
 	_init_.Initialize()
 
@@ -1244,7 +1268,7 @@ func NewNeptuneCluster(scope constructs.Construct, id *string, config *NeptuneCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/neptune_cluster aws_neptune_cluster} Resource.
 func NewNeptuneCluster_Override(n NeptuneCluster, scope constructs.Construct, id *string, config *NeptuneClusterConfig) {
 	_init_.Initialize()
 
@@ -1520,6 +1544,17 @@ func (j *jsiiProxy_NeptuneCluster)SetNeptuneSubnetGroupName(val *string) {
 	_jsii_.Set(
 		j,
 		"neptuneSubnetGroupName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NeptuneCluster)SetNetworkType(val *string) {
+	if err := j.validateSetNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkType",
 		val,
 	)
 }
@@ -2233,6 +2268,14 @@ func (n *jsiiProxy_NeptuneCluster) ResetNeptuneSubnetGroupName() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetNeptuneSubnetGroupName",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NeptuneCluster) ResetNetworkType() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNetworkType",
 		nil, // no parameters
 	)
 }

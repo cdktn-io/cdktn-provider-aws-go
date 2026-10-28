@@ -5,14 +5,14 @@ package pinpointsmsvoicev2senderid
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/pinpointsmsvoicev2senderid/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/pinpointsmsvoicev2senderid/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id}.
 type Pinpointsmsvoicev2SenderId interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2SenderId) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
 func NewPinpointsmsvoicev2SenderId(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2SenderIdConfig) Pinpointsmsvoicev2SenderId {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewPinpointsmsvoicev2SenderId(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_sender_id aws_pinpointsmsvoicev2_sender_id} Resource.
 func NewPinpointsmsvoicev2SenderId_Override(p Pinpointsmsvoicev2SenderId, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2SenderIdConfig) {
 	_init_.Initialize()
 

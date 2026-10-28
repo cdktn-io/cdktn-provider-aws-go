@@ -271,7 +271,39 @@ func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCakParameters(val *string)
 	return nil
 }
 
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCakWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCakWoVersionParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCknParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCknWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DxMacsecKeyAssociation) validateSetCknWoVersionParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

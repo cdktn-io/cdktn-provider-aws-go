@@ -5,14 +5,14 @@ package dataawsec2publicipv4pool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsec2publicipv4pool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsec2publicipv4pool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_public_ipv4_pool aws_ec2_public_ipv4_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_public_ipv4_pool aws_ec2_public_ipv4_pool}.
 type DataAwsEc2PublicIpv4Pool interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DataAwsEc2PublicIpv4Pool) TotalAvailableAddressCount() *float
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_public_ipv4_pool aws_ec2_public_ipv4_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_public_ipv4_pool aws_ec2_public_ipv4_pool} Data Source.
 func NewDataAwsEc2PublicIpv4Pool(scope constructs.Construct, id *string, config *DataAwsEc2PublicIpv4PoolConfig) DataAwsEc2PublicIpv4Pool {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDataAwsEc2PublicIpv4Pool(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_public_ipv4_pool aws_ec2_public_ipv4_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_public_ipv4_pool aws_ec2_public_ipv4_pool} Data Source.
 func NewDataAwsEc2PublicIpv4Pool_Override(d DataAwsEc2PublicIpv4Pool, scope constructs.Construct, id *string, config *DataAwsEc2PublicIpv4PoolConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package quicksightnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/quicksightnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/quicksightnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_namespace aws_quicksight_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_namespace aws_quicksight_namespace}.
 type QuicksightNamespace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_QuicksightNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
 func NewQuicksightNamespace(scope constructs.Construct, id *string, config *QuicksightNamespaceConfig) QuicksightNamespace {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewQuicksightNamespace(scope constructs.Construct, id *string, config *Quic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/quicksight_namespace aws_quicksight_namespace} Resource.
 func NewQuicksightNamespace_Override(q QuicksightNamespace, scope constructs.Construct, id *string, config *QuicksightNamespaceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsefsaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsefsaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsefsaccesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/efs_access_point aws_efs_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/efs_access_point aws_efs_access_point}.
 type DataAwsEfsAccessPoint interface {
 	cdktn.TerraformDataSource
 	AccessPointId() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAwsEfsAccessPoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/efs_access_point aws_efs_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/efs_access_point aws_efs_access_point} Data Source.
 func NewDataAwsEfsAccessPoint(scope constructs.Construct, id *string, config *DataAwsEfsAccessPointConfig) DataAwsEfsAccessPoint {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataAwsEfsAccessPoint(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/efs_access_point aws_efs_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/efs_access_point aws_efs_access_point} Data Source.
 func NewDataAwsEfsAccessPoint_Override(d DataAwsEfsAccessPoint, scope constructs.Construct, id *string, config *DataAwsEfsAccessPointConfig) {
 	_init_.Initialize()
 

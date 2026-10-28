@@ -5,14 +5,14 @@ package opensearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/opensearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/opensearchdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_domain aws_opensearch_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_domain aws_opensearch_domain}.
 type OpensearchDomain interface {
 	cdktn.TerraformResource
 	AccessPolicies() *string
@@ -1044,7 +1044,7 @@ func (j *jsiiProxy_OpensearchDomain) VpcOptionsInput() *OpensearchDomainVpcOptio
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
 func NewOpensearchDomain(scope constructs.Construct, id *string, config *OpensearchDomainConfig) OpensearchDomain {
 	_init_.Initialize()
 
@@ -1062,7 +1062,7 @@ func NewOpensearchDomain(scope constructs.Construct, id *string, config *Opensea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/opensearch_domain aws_opensearch_domain} Resource.
 func NewOpensearchDomain_Override(o OpensearchDomain, scope constructs.Construct, id *string, config *OpensearchDomainConfig) {
 	_init_.Initialize()
 

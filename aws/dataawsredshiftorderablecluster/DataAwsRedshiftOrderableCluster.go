@@ -5,14 +5,14 @@ package dataawsredshiftorderablecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsredshiftorderablecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsredshiftorderablecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshift_orderable_cluster aws_redshift_orderable_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshift_orderable_cluster aws_redshift_orderable_cluster}.
 type DataAwsRedshiftOrderableCluster interface {
 	cdktn.TerraformDataSource
 	AvailabilityZones() *[]*string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsRedshiftOrderableCluster) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshift_orderable_cluster aws_redshift_orderable_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshift_orderable_cluster aws_redshift_orderable_cluster} Data Source.
 func NewDataAwsRedshiftOrderableCluster(scope constructs.Construct, id *string, config *DataAwsRedshiftOrderableClusterConfig) DataAwsRedshiftOrderableCluster {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsRedshiftOrderableCluster(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshift_orderable_cluster aws_redshift_orderable_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshift_orderable_cluster aws_redshift_orderable_cluster} Data Source.
 func NewDataAwsRedshiftOrderableCluster_Override(d DataAwsRedshiftOrderableCluster, scope constructs.Construct, id *string, config *DataAwsRedshiftOrderableClusterConfig) {
 	_init_.Initialize()
 

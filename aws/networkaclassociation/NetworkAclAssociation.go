@@ -5,14 +5,14 @@ package networkaclassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/networkaclassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/networkaclassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/network_acl_association aws_network_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/network_acl_association aws_network_acl_association}.
 type NetworkAclAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_NetworkAclAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/network_acl_association aws_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
 func NewNetworkAclAssociation(scope constructs.Construct, id *string, config *NetworkAclAssociationConfig) NetworkAclAssociation {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewNetworkAclAssociation(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/network_acl_association aws_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/network_acl_association aws_network_acl_association} Resource.
 func NewNetworkAclAssociation_Override(n NetworkAclAssociation, scope constructs.Construct, id *string, config *NetworkAclAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package chatbotteamschannelconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/chatbotteamschannelconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/chatbotteamschannelconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration}.
 type ChatbotTeamsChannelConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -697,7 +697,7 @@ func (j *jsiiProxy_ChatbotTeamsChannelConfiguration) UserAuthorizationRequiredIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
 func NewChatbotTeamsChannelConfiguration(scope constructs.Construct, id *string, config *ChatbotTeamsChannelConfigurationConfig) ChatbotTeamsChannelConfiguration {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewChatbotTeamsChannelConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/chatbot_teams_channel_configuration aws_chatbot_teams_channel_configuration} Resource.
 func NewChatbotTeamsChannelConfiguration_Override(c ChatbotTeamsChannelConfiguration, scope constructs.Construct, id *string, config *ChatbotTeamsChannelConfigurationConfig) {
 	_init_.Initialize()
 

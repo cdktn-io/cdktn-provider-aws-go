@@ -5,14 +5,14 @@ package alblistenercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/alblistenercertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/alblistenercertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/alb_listener_certificate aws_alb_listener_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate}.
 type AlbListenerCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_AlbListenerCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
 func NewAlbListenerCertificate(scope constructs.Construct, id *string, config *AlbListenerCertificateConfig) AlbListenerCertificate {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewAlbListenerCertificate(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/alb_listener_certificate aws_alb_listener_certificate} Resource.
 func NewAlbListenerCertificate_Override(a AlbListenerCertificate, scope constructs.Construct, id *string, config *AlbListenerCertificateConfig) {
 	_init_.Initialize()
 

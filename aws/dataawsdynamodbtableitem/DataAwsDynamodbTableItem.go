@@ -5,14 +5,14 @@ package dataawsdynamodbtableitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsdynamodbtableitem/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsdynamodbtableitem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/dynamodb_table_item aws_dynamodb_table_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/dynamodb_table_item aws_dynamodb_table_item}.
 type DataAwsDynamodbTableItem interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataAwsDynamodbTableItem) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/dynamodb_table_item aws_dynamodb_table_item} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/dynamodb_table_item aws_dynamodb_table_item} Data Source.
 func NewDataAwsDynamodbTableItem(scope constructs.Construct, id *string, config *DataAwsDynamodbTableItemConfig) DataAwsDynamodbTableItem {
 	_init_.Initialize()
 
@@ -434,7 +434,7 @@ func NewDataAwsDynamodbTableItem(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/dynamodb_table_item aws_dynamodb_table_item} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/dynamodb_table_item aws_dynamodb_table_item} Data Source.
 func NewDataAwsDynamodbTableItem_Override(d DataAwsDynamodbTableItem, scope constructs.Construct, id *string, config *DataAwsDynamodbTableItemConfig) {
 	_init_.Initialize()
 

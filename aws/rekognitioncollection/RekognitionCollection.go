@@ -5,14 +5,14 @@ package rekognitioncollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/rekognitioncollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/rekognitioncollection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/rekognition_collection aws_rekognition_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/rekognition_collection aws_rekognition_collection}.
 type RekognitionCollection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_RekognitionCollection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
 func NewRekognitionCollection(scope constructs.Construct, id *string, config *RekognitionCollectionConfig) RekognitionCollection {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewRekognitionCollection(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/rekognition_collection aws_rekognition_collection} Resource.
 func NewRekognitionCollection_Override(r RekognitionCollection, scope constructs.Construct, id *string, config *RekognitionCollectionConfig) {
 	_init_.Initialize()
 

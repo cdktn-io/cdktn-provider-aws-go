@@ -5,14 +5,14 @@ package workspaceswebsessionloggerassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/workspaceswebsessionloggerassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/workspaceswebsessionloggerassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_session_logger_association aws_workspacesweb_session_logger_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_session_logger_association aws_workspacesweb_session_logger_association}.
 type WorkspaceswebSessionLoggerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_WorkspaceswebSessionLoggerAssociation) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_session_logger_association aws_workspacesweb_session_logger_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_session_logger_association aws_workspacesweb_session_logger_association} Resource.
 func NewWorkspaceswebSessionLoggerAssociation(scope constructs.Construct, id *string, config *WorkspaceswebSessionLoggerAssociationConfig) WorkspaceswebSessionLoggerAssociation {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewWorkspaceswebSessionLoggerAssociation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_session_logger_association aws_workspacesweb_session_logger_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_session_logger_association aws_workspacesweb_session_logger_association} Resource.
 func NewWorkspaceswebSessionLoggerAssociation_Override(w WorkspaceswebSessionLoggerAssociation, scope constructs.Construct, id *string, config *WorkspaceswebSessionLoggerAssociationConfig) {
 	_init_.Initialize()
 

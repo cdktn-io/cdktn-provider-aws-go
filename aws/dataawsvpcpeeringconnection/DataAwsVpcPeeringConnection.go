@@ -5,14 +5,14 @@ package dataawsvpcpeeringconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsvpcpeeringconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsvpcpeeringconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpc_peering_connection aws_vpc_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpc_peering_connection aws_vpc_peering_connection}.
 type DataAwsVpcPeeringConnection interface {
 	cdktn.TerraformDataSource
 	Accepter() cdktn.BooleanMap
@@ -626,7 +626,7 @@ func (j *jsiiProxy_DataAwsVpcPeeringConnection) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpc_peering_connection aws_vpc_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpc_peering_connection aws_vpc_peering_connection} Data Source.
 func NewDataAwsVpcPeeringConnection(scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionConfig) DataAwsVpcPeeringConnection {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewDataAwsVpcPeeringConnection(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/vpc_peering_connection aws_vpc_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/vpc_peering_connection aws_vpc_peering_connection} Data Source.
 func NewDataAwsVpcPeeringConnection_Override(d DataAwsVpcPeeringConnection, scope constructs.Construct, id *string, config *DataAwsVpcPeeringConnectionConfig) {
 	_init_.Initialize()
 

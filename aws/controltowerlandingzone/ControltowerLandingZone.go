@@ -5,14 +5,14 @@ package controltowerlandingzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/controltowerlandingzone/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/controltowerlandingzone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/controltower_landing_zone aws_controltower_landing_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone}.
 type ControltowerLandingZone interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_ControltowerLandingZone) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
 func NewControltowerLandingZone(scope constructs.Construct, id *string, config *ControltowerLandingZoneConfig) ControltowerLandingZone {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewControltowerLandingZone(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/controltower_landing_zone aws_controltower_landing_zone} Resource.
 func NewControltowerLandingZone_Override(c ControltowerLandingZone, scope constructs.Construct, id *string, config *ControltowerLandingZoneConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ssoadmincustomermanagedpolicyattachmentsexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ssoadmincustomermanagedpolicyattachmentsexclusive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ssoadmincustomermanagedpolicyattachmentsexclusive/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive}.
 type SsoadminCustomerManagedPolicyAttachmentsExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SsoadminCustomerManagedPolicyAttachmentsExclusive) TimeoutsIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminCustomerManagedPolicyAttachmentsExclusive(scope constructs.Construct, id *string, config *SsoadminCustomerManagedPolicyAttachmentsExclusiveConfig) SsoadminCustomerManagedPolicyAttachmentsExclusive {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewSsoadminCustomerManagedPolicyAttachmentsExclusive(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ssoadmin_customer_managed_policy_attachments_exclusive aws_ssoadmin_customer_managed_policy_attachments_exclusive} Resource.
 func NewSsoadminCustomerManagedPolicyAttachmentsExclusive_Override(s SsoadminCustomerManagedPolicyAttachmentsExclusive, scope constructs.Construct, id *string, config *SsoadminCustomerManagedPolicyAttachmentsExclusiveConfig) {
 	_init_.Initialize()
 

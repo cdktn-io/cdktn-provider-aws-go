@@ -5,14 +5,14 @@ package lbtruststorerevocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lbtruststorerevocation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lbtruststorerevocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation}.
 type LbTrustStoreRevocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_LbTrustStoreRevocation) TrustStoreArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
 func NewLbTrustStoreRevocation(scope constructs.Construct, id *string, config *LbTrustStoreRevocationConfig) LbTrustStoreRevocation {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewLbTrustStoreRevocation(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lb_trust_store_revocation aws_lb_trust_store_revocation} Resource.
 func NewLbTrustStoreRevocation_Override(l LbTrustStoreRevocation, scope constructs.Construct, id *string, config *LbTrustStoreRevocationConfig) {
 	_init_.Initialize()
 

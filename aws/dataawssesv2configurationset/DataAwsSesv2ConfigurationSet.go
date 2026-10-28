@@ -5,14 +5,14 @@ package dataawssesv2configurationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawssesv2configurationset/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawssesv2configurationset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set}.
 type DataAwsSesv2ConfigurationSet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAwsSesv2ConfigurationSet) VdmOptions() DataAwsSesv2Config
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
 func NewDataAwsSesv2ConfigurationSet(scope constructs.Construct, id *string, config *DataAwsSesv2ConfigurationSetConfig) DataAwsSesv2ConfigurationSet {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewDataAwsSesv2ConfigurationSet(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/sesv2_configuration_set aws_sesv2_configuration_set} Data Source.
 func NewDataAwsSesv2ConfigurationSet_Override(d DataAwsSesv2ConfigurationSet, scope constructs.Construct, id *string, config *DataAwsSesv2ConfigurationSetConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package mskchannel
 
 
 type MskChannelIcebergDestinationTableCreation struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}.
 	EnableTableCreation interface{} `field:"optional" json:"enableTableCreation" yaml:"enableTableCreation"`
 }
 

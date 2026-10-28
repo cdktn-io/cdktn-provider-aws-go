@@ -5,14 +5,14 @@ package connectcontactflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/connectcontactflow/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/connectcontactflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_contact_flow aws_connect_contact_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_contact_flow aws_connect_contact_flow}.
 type ConnectContactFlow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_ConnectContactFlow) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
 func NewConnectContactFlow(scope constructs.Construct, id *string, config *ConnectContactFlowConfig) ConnectContactFlow {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewConnectContactFlow(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_contact_flow aws_connect_contact_flow} Resource.
 func NewConnectContactFlow_Override(c ConnectContactFlow, scope constructs.Construct, id *string, config *ConnectContactFlowConfig) {
 	_init_.Initialize()
 

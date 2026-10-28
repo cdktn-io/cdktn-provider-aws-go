@@ -5,14 +5,14 @@ package vpcipampool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpcipampool/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpcipampool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool}.
 type VpcIpamPool interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -866,7 +866,7 @@ func (j *jsiiProxy_VpcIpamPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
 func NewVpcIpamPool(scope constructs.Construct, id *string, config *VpcIpamPoolConfig) VpcIpamPool {
 	_init_.Initialize()
 
@@ -884,7 +884,7 @@ func NewVpcIpamPool(scope constructs.Construct, id *string, config *VpcIpamPoolC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpc_ipam_pool aws_vpc_ipam_pool} Resource.
 func NewVpcIpamPool_Override(v VpcIpamPool, scope constructs.Construct, id *string, config *VpcIpamPoolConfig) {
 	_init_.Initialize()
 

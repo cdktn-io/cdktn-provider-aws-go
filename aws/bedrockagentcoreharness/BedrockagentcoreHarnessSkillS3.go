@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessSkillS3 struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_harness#uri BedrockagentcoreHarness#uri}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_harness#uri BedrockagentcoreHarness#uri}.
 	Uri *string `field:"required" json:"uri" yaml:"uri"`
 }
 

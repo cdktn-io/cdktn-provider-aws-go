@@ -5,14 +5,14 @@ package ecscapacityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ecscapacityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ecscapacityprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider}.
 type EcsCapacityProvider interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -546,7 +546,7 @@ func (j *jsiiProxy_EcsCapacityProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider} Resource.
 func NewEcsCapacityProvider(scope constructs.Construct, id *string, config *EcsCapacityProviderConfig) EcsCapacityProvider {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewEcsCapacityProvider(scope constructs.Construct, id *string, config *EcsC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_capacity_provider aws_ecs_capacity_provider} Resource.
 func NewEcsCapacityProvider_Override(e EcsCapacityProvider, scope constructs.Construct, id *string, config *EcsCapacityProviderConfig) {
 	_init_.Initialize()
 

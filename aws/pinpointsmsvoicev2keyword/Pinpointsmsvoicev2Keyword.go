@@ -5,14 +5,14 @@ package pinpointsmsvoicev2keyword
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/pinpointsmsvoicev2keyword/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/pinpointsmsvoicev2keyword/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword}.
 type Pinpointsmsvoicev2Keyword interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2Keyword) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
 func NewPinpointsmsvoicev2Keyword(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2KeywordConfig) Pinpointsmsvoicev2Keyword {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewPinpointsmsvoicev2Keyword(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_keyword aws_pinpointsmsvoicev2_keyword} Resource.
 func NewPinpointsmsvoicev2Keyword_Override(p Pinpointsmsvoicev2Keyword, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2KeywordConfig) {
 	_init_.Initialize()
 

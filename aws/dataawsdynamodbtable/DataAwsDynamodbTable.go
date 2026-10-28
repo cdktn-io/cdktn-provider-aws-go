@@ -5,14 +5,14 @@ package dataawsdynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsdynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsdynamodbtable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/dynamodb_table aws_dynamodb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/dynamodb_table aws_dynamodb_table}.
 type DataAwsDynamodbTable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -602,7 +602,7 @@ func (j *jsiiProxy_DataAwsDynamodbTable) WriteCapacity() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
 func NewDataAwsDynamodbTable(scope constructs.Construct, id *string, config *DataAwsDynamodbTableConfig) DataAwsDynamodbTable {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewDataAwsDynamodbTable(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/dynamodb_table aws_dynamodb_table} Data Source.
 func NewDataAwsDynamodbTable_Override(d DataAwsDynamodbTable, scope constructs.Construct, id *string, config *DataAwsDynamodbTableConfig) {
 	_init_.Initialize()
 

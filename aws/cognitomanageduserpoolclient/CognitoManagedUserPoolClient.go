@@ -5,14 +5,14 @@ package cognitomanageduserpoolclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cognitomanageduserpoolclient/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cognitomanageduserpoolclient/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client}.
 type CognitoManagedUserPoolClient interface {
 	cdktn.TerraformResource
 	AccessTokenValidity() *float64
@@ -952,7 +952,7 @@ func (j *jsiiProxy_CognitoManagedUserPoolClient) WriteAttributesInput() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
 func NewCognitoManagedUserPoolClient(scope constructs.Construct, id *string, config *CognitoManagedUserPoolClientConfig) CognitoManagedUserPoolClient {
 	_init_.Initialize()
 
@@ -970,7 +970,7 @@ func NewCognitoManagedUserPoolClient(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cognito_managed_user_pool_client aws_cognito_managed_user_pool_client} Resource.
 func NewCognitoManagedUserPoolClient_Override(c CognitoManagedUserPoolClient, scope constructs.Construct, id *string, config *CognitoManagedUserPoolClientConfig) {
 	_init_.Initialize()
 

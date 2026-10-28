@@ -5,14 +5,14 @@ package bedrockagentcoreregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/bedrockagentcoreregistry/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/bedrockagentcoreregistry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry}.
 type BedrockagentcoreRegistry interface {
 	cdktn.TerraformResource
 	ApprovalConfiguration() BedrockagentcoreRegistryApprovalConfigurationList
@@ -533,7 +533,7 @@ func (j *jsiiProxy_BedrockagentcoreRegistry) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
 func NewBedrockagentcoreRegistry(scope constructs.Construct, id *string, config *BedrockagentcoreRegistryConfig) BedrockagentcoreRegistry {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewBedrockagentcoreRegistry(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/bedrockagentcore_registry aws_bedrockagentcore_registry} Resource.
 func NewBedrockagentcoreRegistry_Override(b BedrockagentcoreRegistry, scope constructs.Construct, id *string, config *BedrockagentcoreRegistryConfig) {
 	_init_.Initialize()
 

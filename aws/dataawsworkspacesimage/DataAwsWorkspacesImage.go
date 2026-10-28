@@ -5,14 +5,14 @@ package dataawsworkspacesimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsworkspacesimage/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsworkspacesimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/workspaces_image aws_workspaces_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/workspaces_image aws_workspaces_image}.
 type DataAwsWorkspacesImage interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataAwsWorkspacesImage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/workspaces_image aws_workspaces_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/workspaces_image aws_workspaces_image} Data Source.
 func NewDataAwsWorkspacesImage(scope constructs.Construct, id *string, config *DataAwsWorkspacesImageConfig) DataAwsWorkspacesImage {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDataAwsWorkspacesImage(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/workspaces_image aws_workspaces_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/workspaces_image aws_workspaces_image} Data Source.
 func NewDataAwsWorkspacesImage_Override(d DataAwsWorkspacesImage, scope constructs.Construct, id *string, config *DataAwsWorkspacesImageConfig) {
 	_init_.Initialize()
 

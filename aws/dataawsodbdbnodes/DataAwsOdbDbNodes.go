@@ -5,14 +5,14 @@ package dataawsodbdbnodes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsodbdbnodes/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsodbdbnodes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_db_nodes aws_odb_db_nodes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes}.
 type DataAwsOdbDbNodes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -321,7 +321,7 @@ func (j *jsiiProxy_DataAwsOdbDbNodes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
 func NewDataAwsOdbDbNodes(scope constructs.Construct, id *string, config *DataAwsOdbDbNodesConfig) DataAwsOdbDbNodes {
 	_init_.Initialize()
 
@@ -339,7 +339,7 @@ func NewDataAwsOdbDbNodes(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/odb_db_nodes aws_odb_db_nodes} Data Source.
 func NewDataAwsOdbDbNodes_Override(d DataAwsOdbDbNodes, scope constructs.Construct, id *string, config *DataAwsOdbDbNodesConfig) {
 	_init_.Initialize()
 

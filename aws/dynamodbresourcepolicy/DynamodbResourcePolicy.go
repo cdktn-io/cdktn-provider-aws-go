@@ -5,14 +5,14 @@ package dynamodbresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dynamodbresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dynamodbresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dynamodb_resource_policy aws_dynamodb_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dynamodb_resource_policy aws_dynamodb_resource_policy}.
 type DynamodbResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DynamodbResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dynamodb_resource_policy aws_dynamodb_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dynamodb_resource_policy aws_dynamodb_resource_policy} Resource.
 func NewDynamodbResourcePolicy(scope constructs.Construct, id *string, config *DynamodbResourcePolicyConfig) DynamodbResourcePolicy {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewDynamodbResourcePolicy(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dynamodb_resource_policy aws_dynamodb_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dynamodb_resource_policy aws_dynamodb_resource_policy} Resource.
 func NewDynamodbResourcePolicy_Override(d DynamodbResourcePolicy, scope constructs.Construct, id *string, config *DynamodbResourcePolicyConfig) {
 	_init_.Initialize()
 

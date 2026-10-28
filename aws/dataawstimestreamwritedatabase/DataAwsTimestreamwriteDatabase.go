@@ -5,14 +5,14 @@ package dataawstimestreamwritedatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawstimestreamwritedatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawstimestreamwritedatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/timestreamwrite_database aws_timestreamwrite_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/timestreamwrite_database aws_timestreamwrite_database}.
 type DataAwsTimestreamwriteDatabase interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -365,7 +365,7 @@ func (j *jsiiProxy_DataAwsTimestreamwriteDatabase) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/timestreamwrite_database aws_timestreamwrite_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/timestreamwrite_database aws_timestreamwrite_database} Data Source.
 func NewDataAwsTimestreamwriteDatabase(scope constructs.Construct, id *string, config *DataAwsTimestreamwriteDatabaseConfig) DataAwsTimestreamwriteDatabase {
 	_init_.Initialize()
 
@@ -383,7 +383,7 @@ func NewDataAwsTimestreamwriteDatabase(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/timestreamwrite_database aws_timestreamwrite_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/timestreamwrite_database aws_timestreamwrite_database} Data Source.
 func NewDataAwsTimestreamwriteDatabase_Override(d DataAwsTimestreamwriteDatabase, scope constructs.Construct, id *string, config *DataAwsTimestreamwriteDatabaseConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsopensearchserverlesscollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsopensearchserverlesscollection/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsopensearchserverlesscollection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/opensearchserverless_collection aws_opensearchserverless_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/opensearchserverless_collection aws_opensearchserverless_collection}.
 type DataAwsOpensearchserverlessCollection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -467,7 +467,7 @@ func (j *jsiiProxy_DataAwsOpensearchserverlessCollection) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/opensearchserverless_collection aws_opensearchserverless_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/opensearchserverless_collection aws_opensearchserverless_collection} Data Source.
 func NewDataAwsOpensearchserverlessCollection(scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessCollectionConfig) DataAwsOpensearchserverlessCollection {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewDataAwsOpensearchserverlessCollection(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/opensearchserverless_collection aws_opensearchserverless_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/opensearchserverless_collection aws_opensearchserverless_collection} Data Source.
 func NewDataAwsOpensearchserverlessCollection_Override(d DataAwsOpensearchserverlessCollection, scope constructs.Construct, id *string, config *DataAwsOpensearchserverlessCollectionConfig) {
 	_init_.Initialize()
 

@@ -24,11 +24,11 @@ type OdbAutonomousDatabaseSecretsManagerIntegrationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database_secrets_manager_integration#region OdbAutonomousDatabaseSecretsManagerIntegration#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database_secrets_manager_integration#region OdbAutonomousDatabaseSecretsManagerIntegration#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database_secrets_manager_integration#timeouts OdbAutonomousDatabaseSecretsManagerIntegration#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database_secrets_manager_integration#timeouts OdbAutonomousDatabaseSecretsManagerIntegration#timeouts}
 	Timeouts *OdbAutonomousDatabaseSecretsManagerIntegrationTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

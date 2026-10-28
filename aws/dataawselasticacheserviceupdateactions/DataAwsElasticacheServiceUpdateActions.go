@@ -5,14 +5,14 @@ package dataawselasticacheserviceupdateactions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawselasticacheserviceupdateactions/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawselasticacheserviceupdateactions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/elasticache_service_update_actions aws_elasticache_service_update_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/elasticache_service_update_actions aws_elasticache_service_update_actions}.
 type DataAwsElasticacheServiceUpdateActions interface {
 	cdktn.TerraformDataSource
 	CacheClusterId() *string
@@ -370,7 +370,7 @@ func (j *jsiiProxy_DataAwsElasticacheServiceUpdateActions) UpdateActions() DataA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/elasticache_service_update_actions aws_elasticache_service_update_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/elasticache_service_update_actions aws_elasticache_service_update_actions} Data Source.
 func NewDataAwsElasticacheServiceUpdateActions(scope constructs.Construct, id *string, config *DataAwsElasticacheServiceUpdateActionsConfig) DataAwsElasticacheServiceUpdateActions {
 	_init_.Initialize()
 
@@ -388,7 +388,7 @@ func NewDataAwsElasticacheServiceUpdateActions(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/elasticache_service_update_actions aws_elasticache_service_update_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/elasticache_service_update_actions aws_elasticache_service_update_actions} Data Source.
 func NewDataAwsElasticacheServiceUpdateActions_Override(d DataAwsElasticacheServiceUpdateActions, scope constructs.Construct, id *string, config *DataAwsElasticacheServiceUpdateActionsConfig) {
 	_init_.Initialize()
 

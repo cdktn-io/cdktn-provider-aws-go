@@ -5,14 +5,14 @@ package dataawsec2instancetype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsec2instancetype/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsec2instancetype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_instance_type aws_ec2_instance_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type}.
 type DataAwsEc2InstanceType interface {
 	cdktn.TerraformDataSource
 	AutoRecoverySupported() cdktn.IResolvable
@@ -1040,7 +1040,7 @@ func (j *jsiiProxy_DataAwsEc2InstanceType) ValidThreadsPerCore() *[]*float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
 func NewDataAwsEc2InstanceType(scope constructs.Construct, id *string, config *DataAwsEc2InstanceTypeConfig) DataAwsEc2InstanceType {
 	_init_.Initialize()
 
@@ -1058,7 +1058,7 @@ func NewDataAwsEc2InstanceType(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/ec2_instance_type aws_ec2_instance_type} Data Source.
 func NewDataAwsEc2InstanceType_Override(d DataAwsEc2InstanceType, scope constructs.Construct, id *string, config *DataAwsEc2InstanceTypeConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package pinpointsmsvoicev2optoutlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/pinpointsmsvoicev2optoutlist/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/pinpointsmsvoicev2optoutlist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list}.
 type Pinpointsmsvoicev2OptOutList interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_Pinpointsmsvoicev2OptOutList) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
 func NewPinpointsmsvoicev2OptOutList(scope constructs.Construct, id *string, config *Pinpointsmsvoicev2OptOutListConfig) Pinpointsmsvoicev2OptOutList {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewPinpointsmsvoicev2OptOutList(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pinpointsmsvoicev2_opt_out_list aws_pinpointsmsvoicev2_opt_out_list} Resource.
 func NewPinpointsmsvoicev2OptOutList_Override(p Pinpointsmsvoicev2OptOutList, scope constructs.Construct, id *string, config *Pinpointsmsvoicev2OptOutListConfig) {
 	_init_.Initialize()
 

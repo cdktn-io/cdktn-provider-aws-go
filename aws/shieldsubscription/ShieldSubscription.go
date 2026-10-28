@@ -5,14 +5,14 @@ package shieldsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/shieldsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/shieldsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/shield_subscription aws_shield_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/shield_subscription aws_shield_subscription}.
 type ShieldSubscription interface {
 	cdktn.TerraformResource
 	AutoRenew() *string
@@ -403,7 +403,7 @@ func (j *jsiiProxy_ShieldSubscription) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/shield_subscription aws_shield_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/shield_subscription aws_shield_subscription} Resource.
 func NewShieldSubscription(scope constructs.Construct, id *string, config *ShieldSubscriptionConfig) ShieldSubscription {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewShieldSubscription(scope constructs.Construct, id *string, config *Shiel
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/shield_subscription aws_shield_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/shield_subscription aws_shield_subscription} Resource.
 func NewShieldSubscription_Override(s ShieldSubscription, scope constructs.Construct, id *string, config *ShieldSubscriptionConfig) {
 	_init_.Initialize()
 

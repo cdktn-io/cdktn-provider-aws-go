@@ -5,14 +5,14 @@ package licensemanagergrantaccepter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/licensemanagergrantaccepter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/licensemanagergrantaccepter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter}.
 type LicensemanagerGrantAccepter interface {
 	cdktn.TerraformResource
 	AllowedOperations() *[]*string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_LicensemanagerGrantAccepter) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
 func NewLicensemanagerGrantAccepter(scope constructs.Construct, id *string, config *LicensemanagerGrantAccepterConfig) LicensemanagerGrantAccepter {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewLicensemanagerGrantAccepter(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/licensemanager_grant_accepter aws_licensemanager_grant_accepter} Resource.
 func NewLicensemanagerGrantAccepter_Override(l LicensemanagerGrantAccepter, scope constructs.Construct, id *string, config *LicensemanagerGrantAccepterConfig) {
 	_init_.Initialize()
 

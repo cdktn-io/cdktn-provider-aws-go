@@ -5,14 +5,14 @@ package cloudsearchdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudsearchdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudsearchdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudsearch_domain aws_cloudsearch_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudsearch_domain aws_cloudsearch_domain}.
 type CloudsearchDomain interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_CloudsearchDomain) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudsearch_domain aws_cloudsearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudsearch_domain aws_cloudsearch_domain} Resource.
 func NewCloudsearchDomain(scope constructs.Construct, id *string, config *CloudsearchDomainConfig) CloudsearchDomain {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewCloudsearchDomain(scope constructs.Construct, id *string, config *Clouds
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudsearch_domain aws_cloudsearch_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudsearch_domain aws_cloudsearch_domain} Resource.
 func NewCloudsearchDomain_Override(c CloudsearchDomain, scope constructs.Construct, id *string, config *CloudsearchDomainConfig) {
 	_init_.Initialize()
 

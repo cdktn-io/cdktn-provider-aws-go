@@ -5,14 +5,14 @@ package dxlag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dxlag/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dxlag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_lag aws_dx_lag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_lag aws_dx_lag}.
 type DxLag interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -636,7 +636,7 @@ func (j *jsiiProxy_DxLag) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_lag aws_dx_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_lag aws_dx_lag} Resource.
 func NewDxLag(scope constructs.Construct, id *string, config *DxLagConfig) DxLag {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewDxLag(scope constructs.Construct, id *string, config *DxLagConfig) DxLag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_lag aws_dx_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_lag aws_dx_lag} Resource.
 func NewDxLag_Override(d DxLag, scope constructs.Construct, id *string, config *DxLagConfig) {
 	_init_.Initialize()
 

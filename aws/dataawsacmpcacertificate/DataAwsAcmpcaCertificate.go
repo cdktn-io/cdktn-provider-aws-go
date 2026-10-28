@@ -5,14 +5,14 @@ package dataawsacmpcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsacmpcacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsacmpcacertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/acmpca_certificate aws_acmpca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate}.
 type DataAwsAcmpcaCertificate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAwsAcmpcaCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
 func NewDataAwsAcmpcaCertificate(scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateConfig) DataAwsAcmpcaCertificate {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataAwsAcmpcaCertificate(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/acmpca_certificate aws_acmpca_certificate} Data Source.
 func NewDataAwsAcmpcaCertificate_Override(d DataAwsAcmpcaCertificate, scope constructs.Construct, id *string, config *DataAwsAcmpcaCertificateConfig) {
 	_init_.Initialize()
 

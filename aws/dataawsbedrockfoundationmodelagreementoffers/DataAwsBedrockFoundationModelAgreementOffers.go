@@ -5,14 +5,14 @@ package dataawsbedrockfoundationmodelagreementoffers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsbedrockfoundationmodelagreementoffers/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsbedrockfoundationmodelagreementoffers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_foundation_model_agreement_offers aws_bedrock_foundation_model_agreement_offers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_foundation_model_agreement_offers aws_bedrock_foundation_model_agreement_offers}.
 type DataAwsBedrockFoundationModelAgreementOffers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -345,7 +345,7 @@ func (j *jsiiProxy_DataAwsBedrockFoundationModelAgreementOffers) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_foundation_model_agreement_offers aws_bedrock_foundation_model_agreement_offers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_foundation_model_agreement_offers aws_bedrock_foundation_model_agreement_offers} Data Source.
 func NewDataAwsBedrockFoundationModelAgreementOffers(scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelAgreementOffersConfig) DataAwsBedrockFoundationModelAgreementOffers {
 	_init_.Initialize()
 
@@ -363,7 +363,7 @@ func NewDataAwsBedrockFoundationModelAgreementOffers(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/bedrock_foundation_model_agreement_offers aws_bedrock_foundation_model_agreement_offers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/bedrock_foundation_model_agreement_offers aws_bedrock_foundation_model_agreement_offers} Data Source.
 func NewDataAwsBedrockFoundationModelAgreementOffers_Override(d DataAwsBedrockFoundationModelAgreementOffers, scope constructs.Construct, id *string, config *DataAwsBedrockFoundationModelAgreementOffersConfig) {
 	_init_.Initialize()
 

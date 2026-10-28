@@ -5,14 +5,14 @@ package route53resolverfirewallrulegroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/route53resolverfirewallrulegroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/route53resolverfirewallrulegroupassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association}.
 type Route53ResolverFirewallRuleGroupAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRuleGroupAssociation) VpcIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Resource.
 func NewRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleGroupAssociationConfig) Route53ResolverFirewallRuleGroupAssociation {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/route53_resolver_firewall_rule_group_association aws_route53_resolver_firewall_rule_group_association} Resource.
 func NewRoute53ResolverFirewallRuleGroupAssociation_Override(r Route53ResolverFirewallRuleGroupAssociation, scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleGroupAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lakeformationdatacellsfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lakeformationdatacellsfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lakeformationdatacellsfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter}.
 type LakeformationDataCellsFilter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_LakeformationDataCellsFilter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
 func NewLakeformationDataCellsFilter(scope constructs.Construct, id *string, config *LakeformationDataCellsFilterConfig) LakeformationDataCellsFilter {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewLakeformationDataCellsFilter(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lakeformation_data_cells_filter aws_lakeformation_data_cells_filter} Resource.
 func NewLakeformationDataCellsFilter_Override(l LakeformationDataCellsFilter, scope constructs.Construct, id *string, config *LakeformationDataCellsFilterConfig) {
 	_init_.Initialize()
 

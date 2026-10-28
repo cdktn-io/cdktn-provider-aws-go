@@ -5,14 +5,14 @@ package loadbalancerpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/loadbalancerpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/loadbalancerpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/load_balancer_policy aws_load_balancer_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/load_balancer_policy aws_load_balancer_policy}.
 type LoadBalancerPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_LoadBalancerPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/load_balancer_policy aws_load_balancer_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/load_balancer_policy aws_load_balancer_policy} Resource.
 func NewLoadBalancerPolicy(scope constructs.Construct, id *string, config *LoadBalancerPolicyConfig) LoadBalancerPolicy {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewLoadBalancerPolicy(scope constructs.Construct, id *string, config *LoadB
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/load_balancer_policy aws_load_balancer_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/load_balancer_policy aws_load_balancer_policy} Resource.
 func NewLoadBalancerPolicy_Override(l LoadBalancerPolicy, scope constructs.Construct, id *string, config *LoadBalancerPolicyConfig) {
 	_init_.Initialize()
 

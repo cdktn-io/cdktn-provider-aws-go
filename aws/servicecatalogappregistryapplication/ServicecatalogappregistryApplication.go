@@ -5,14 +5,14 @@ package servicecatalogappregistryapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/servicecatalogappregistryapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/servicecatalogappregistryapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/servicecatalogappregistry_application aws_servicecatalogappregistry_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/servicecatalogappregistry_application aws_servicecatalogappregistry_application}.
 type ServicecatalogappregistryApplication interface {
 	cdktn.TerraformResource
 	ApplicationTag() cdktn.StringMap
@@ -483,7 +483,7 @@ func (j *jsiiProxy_ServicecatalogappregistryApplication) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Resource.
 func NewServicecatalogappregistryApplication(scope constructs.Construct, id *string, config *ServicecatalogappregistryApplicationConfig) ServicecatalogappregistryApplication {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewServicecatalogappregistryApplication(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/servicecatalogappregistry_application aws_servicecatalogappregistry_application} Resource.
 func NewServicecatalogappregistryApplication_Override(s ServicecatalogappregistryApplication, scope constructs.Construct, id *string, config *ServicecatalogappregistryApplicationConfig) {
 	_init_.Initialize()
 

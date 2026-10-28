@@ -5,14 +5,14 @@ package apigatewaybasepathmapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/apigatewaybasepathmapping/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/apigatewaybasepathmapping/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping}.
 type ApiGatewayBasePathMapping interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ApiGatewayBasePathMapping) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
 func NewApiGatewayBasePathMapping(scope constructs.Construct, id *string, config *ApiGatewayBasePathMappingConfig) ApiGatewayBasePathMapping {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewApiGatewayBasePathMapping(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_base_path_mapping aws_api_gateway_base_path_mapping} Resource.
 func NewApiGatewayBasePathMapping_Override(a ApiGatewayBasePathMapping, scope constructs.Construct, id *string, config *ApiGatewayBasePathMappingConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dbinstanceautomatedbackupsreplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dbinstanceautomatedbackupsreplication/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dbinstanceautomatedbackupsreplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication}.
 type DbInstanceAutomatedBackupsReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -511,7 +511,7 @@ func (j *jsiiProxy_DbInstanceAutomatedBackupsReplication) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
 func NewDbInstanceAutomatedBackupsReplication(scope constructs.Construct, id *string, config *DbInstanceAutomatedBackupsReplicationConfig) DbInstanceAutomatedBackupsReplication {
 	_init_.Initialize()
 
@@ -529,7 +529,7 @@ func NewDbInstanceAutomatedBackupsReplication(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance_automated_backups_replication aws_db_instance_automated_backups_replication} Resource.
 func NewDbInstanceAutomatedBackupsReplication_Override(d DbInstanceAutomatedBackupsReplication, scope constructs.Construct, id *string, config *DbInstanceAutomatedBackupsReplicationConfig) {
 	_init_.Initialize()
 

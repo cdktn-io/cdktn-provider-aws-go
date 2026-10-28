@@ -5,14 +5,14 @@ package eipdomainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/eipdomainname/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/eipdomainname/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eip_domain_name aws_eip_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eip_domain_name aws_eip_domain_name}.
 type EipDomainName interface {
 	cdktn.TerraformResource
 	AllocationId() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_EipDomainName) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
 func NewEipDomainName(scope constructs.Construct, id *string, config *EipDomainNameConfig) EipDomainName {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewEipDomainName(scope constructs.Construct, id *string, config *EipDomainN
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/eip_domain_name aws_eip_domain_name} Resource.
 func NewEipDomainName_Override(e EipDomainName, scope constructs.Construct, id *string, config *EipDomainNameConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package workspaceswebipaccesssettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/workspaceswebipaccesssettings/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/workspaceswebipaccesssettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings}.
 type WorkspaceswebIpAccessSettings interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_WorkspaceswebIpAccessSettings) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
 func NewWorkspaceswebIpAccessSettings(scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsConfig) WorkspaceswebIpAccessSettings {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewWorkspaceswebIpAccessSettings(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/workspacesweb_ip_access_settings aws_workspacesweb_ip_access_settings} Resource.
 func NewWorkspaceswebIpAccessSettings_Override(w WorkspaceswebIpAccessSettings, scope constructs.Construct, id *string, config *WorkspaceswebIpAccessSettingsConfig) {
 	_init_.Initialize()
 

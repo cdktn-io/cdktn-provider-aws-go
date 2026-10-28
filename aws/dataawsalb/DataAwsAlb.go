@@ -5,14 +5,14 @@ package dataawsalb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsalb/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsalb/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/alb aws_alb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/alb aws_alb}.
 type DataAwsAlb interface {
 	cdktn.TerraformDataSource
 	AccessLogs() DataAwsAlbAccessLogsList
@@ -759,7 +759,7 @@ func (j *jsiiProxy_DataAwsAlb) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/alb aws_alb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/alb aws_alb} Data Source.
 func NewDataAwsAlb(scope constructs.Construct, id *string, config *DataAwsAlbConfig) DataAwsAlb {
 	_init_.Initialize()
 
@@ -777,7 +777,7 @@ func NewDataAwsAlb(scope constructs.Construct, id *string, config *DataAwsAlbCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/alb aws_alb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/alb aws_alb} Data Source.
 func NewDataAwsAlb_Override(d DataAwsAlb, scope constructs.Construct, id *string, config *DataAwsAlbConfig) {
 	_init_.Initialize()
 

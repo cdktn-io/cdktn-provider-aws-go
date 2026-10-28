@@ -5,14 +5,14 @@ package lightsaillbhttpsredirectionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/lightsaillbhttpsredirectionpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/lightsaillbhttpsredirectionpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_lb_https_redirection_policy aws_lightsail_lb_https_redirection_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_lb_https_redirection_policy aws_lightsail_lb_https_redirection_policy}.
 type LightsailLbHttpsRedirectionPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_LightsailLbHttpsRedirectionPolicy) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_lb_https_redirection_policy aws_lightsail_lb_https_redirection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_lb_https_redirection_policy aws_lightsail_lb_https_redirection_policy} Resource.
 func NewLightsailLbHttpsRedirectionPolicy(scope constructs.Construct, id *string, config *LightsailLbHttpsRedirectionPolicyConfig) LightsailLbHttpsRedirectionPolicy {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewLightsailLbHttpsRedirectionPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/lightsail_lb_https_redirection_policy aws_lightsail_lb_https_redirection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/lightsail_lb_https_redirection_policy aws_lightsail_lb_https_redirection_policy} Resource.
 func NewLightsailLbHttpsRedirectionPolicy_Override(l LightsailLbHttpsRedirectionPolicy, scope constructs.Construct, id *string, config *LightsailLbHttpsRedirectionPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package vpclatticeservicenetworkresourceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/vpclatticeservicenetworkresourceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/vpclatticeservicenetworkresourceassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association}.
 type VpclatticeServiceNetworkResourceAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
 func NewVpclatticeServiceNetworkResourceAssociation(scope constructs.Construct, id *string, config *VpclatticeServiceNetworkResourceAssociationConfig) VpclatticeServiceNetworkResourceAssociation {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewVpclatticeServiceNetworkResourceAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/vpclattice_service_network_resource_association aws_vpclattice_service_network_resource_association} Resource.
 func NewVpclatticeServiceNetworkResourceAssociation_Override(v VpclatticeServiceNetworkResourceAssociation, scope constructs.Construct, id *string, config *VpclatticeServiceNetworkResourceAssociationConfig) {
 	_init_.Initialize()
 

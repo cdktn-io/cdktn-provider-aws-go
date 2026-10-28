@@ -5,14 +5,14 @@ package securityhubfeaturev2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/securityhubfeaturev2/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/securityhubfeaturev2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2}.
 type SecurityhubFeatureV2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SecurityhubFeatureV2) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
 func NewSecurityhubFeatureV2(scope constructs.Construct, id *string, config *SecurityhubFeatureV2Config) SecurityhubFeatureV2 {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewSecurityhubFeatureV2(scope constructs.Construct, id *string, config *Sec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/securityhub_feature_v2 aws_securityhub_feature_v2} Resource.
 func NewSecurityhubFeatureV2_Override(s SecurityhubFeatureV2, scope constructs.Construct, id *string, config *SecurityhubFeatureV2Config) {
 	_init_.Initialize()
 

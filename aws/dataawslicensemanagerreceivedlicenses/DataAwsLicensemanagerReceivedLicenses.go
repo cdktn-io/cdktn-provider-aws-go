@@ -5,14 +5,14 @@ package dataawslicensemanagerreceivedlicenses
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawslicensemanagerreceivedlicenses/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawslicensemanagerreceivedlicenses/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/licensemanager_received_licenses aws_licensemanager_received_licenses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/licensemanager_received_licenses aws_licensemanager_received_licenses}.
 type DataAwsLicensemanagerReceivedLicenses interface {
 	cdktn.TerraformDataSource
 	Arns() *[]*string
@@ -346,7 +346,7 @@ func (j *jsiiProxy_DataAwsLicensemanagerReceivedLicenses) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/licensemanager_received_licenses aws_licensemanager_received_licenses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/licensemanager_received_licenses aws_licensemanager_received_licenses} Data Source.
 func NewDataAwsLicensemanagerReceivedLicenses(scope constructs.Construct, id *string, config *DataAwsLicensemanagerReceivedLicensesConfig) DataAwsLicensemanagerReceivedLicenses {
 	_init_.Initialize()
 
@@ -364,7 +364,7 @@ func NewDataAwsLicensemanagerReceivedLicenses(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/licensemanager_received_licenses aws_licensemanager_received_licenses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/licensemanager_received_licenses aws_licensemanager_received_licenses} Data Source.
 func NewDataAwsLicensemanagerReceivedLicenses_Override(d DataAwsLicensemanagerReceivedLicenses, scope constructs.Construct, id *string, config *DataAwsLicensemanagerReceivedLicensesConfig) {
 	_init_.Initialize()
 

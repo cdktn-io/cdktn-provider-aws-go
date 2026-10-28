@@ -5,14 +5,14 @@ package macie2findingsfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/macie2findingsfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/macie2findingsfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/macie2_findings_filter aws_macie2_findings_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter}.
 type Macie2FindingsFilter interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -617,7 +617,7 @@ func (j *jsiiProxy_Macie2FindingsFilter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
 func NewMacie2FindingsFilter(scope constructs.Construct, id *string, config *Macie2FindingsFilterConfig) Macie2FindingsFilter {
 	_init_.Initialize()
 
@@ -635,7 +635,7 @@ func NewMacie2FindingsFilter(scope constructs.Construct, id *string, config *Mac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/macie2_findings_filter aws_macie2_findings_filter} Resource.
 func NewMacie2FindingsFilter_Override(m Macie2FindingsFilter, scope constructs.Construct, id *string, config *Macie2FindingsFilterConfig) {
 	_init_.Initialize()
 

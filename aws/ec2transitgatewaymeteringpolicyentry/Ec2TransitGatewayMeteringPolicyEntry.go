@@ -5,14 +5,14 @@ package ec2transitgatewaymeteringpolicyentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ec2transitgatewaymeteringpolicyentry/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ec2transitgatewaymeteringpolicyentry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_transit_gateway_metering_policy_entry aws_ec2_transit_gateway_metering_policy_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_transit_gateway_metering_policy_entry aws_ec2_transit_gateway_metering_policy_entry}.
 type Ec2TransitGatewayMeteringPolicyEntry interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -677,7 +677,7 @@ func (j *jsiiProxy_Ec2TransitGatewayMeteringPolicyEntry) TransitGatewayMeteringP
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_transit_gateway_metering_policy_entry aws_ec2_transit_gateway_metering_policy_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_transit_gateway_metering_policy_entry aws_ec2_transit_gateway_metering_policy_entry} Resource.
 func NewEc2TransitGatewayMeteringPolicyEntry(scope constructs.Construct, id *string, config *Ec2TransitGatewayMeteringPolicyEntryConfig) Ec2TransitGatewayMeteringPolicyEntry {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewEc2TransitGatewayMeteringPolicyEntry(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ec2_transit_gateway_metering_policy_entry aws_ec2_transit_gateway_metering_policy_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ec2_transit_gateway_metering_policy_entry aws_ec2_transit_gateway_metering_policy_entry} Resource.
 func NewEc2TransitGatewayMeteringPolicyEntry_Override(e Ec2TransitGatewayMeteringPolicyEntry, scope constructs.Construct, id *string, config *Ec2TransitGatewayMeteringPolicyEntryConfig) {
 	_init_.Initialize()
 

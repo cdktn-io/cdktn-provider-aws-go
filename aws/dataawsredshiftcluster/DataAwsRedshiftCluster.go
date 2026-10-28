@@ -5,14 +5,14 @@ package dataawsredshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/dataawsredshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/dataawsredshiftcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshift_cluster aws_redshift_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshift_cluster aws_redshift_cluster}.
 type DataAwsRedshiftCluster interface {
 	cdktn.TerraformDataSource
 	AllowVersionUpgrade() cdktn.IResolvable
@@ -776,7 +776,7 @@ func (j *jsiiProxy_DataAwsRedshiftCluster) VpcSecurityGroupIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
 func NewDataAwsRedshiftCluster(scope constructs.Construct, id *string, config *DataAwsRedshiftClusterConfig) DataAwsRedshiftCluster {
 	_init_.Initialize()
 
@@ -794,7 +794,7 @@ func NewDataAwsRedshiftCluster(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/data-sources/redshift_cluster aws_redshift_cluster} Data Source.
 func NewDataAwsRedshiftCluster_Override(d DataAwsRedshiftCluster, scope constructs.Construct, id *string, config *DataAwsRedshiftClusterConfig) {
 	_init_.Initialize()
 

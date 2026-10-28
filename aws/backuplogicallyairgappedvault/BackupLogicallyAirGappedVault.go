@@ -5,14 +5,14 @@ package backuplogicallyairgappedvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/backuplogicallyairgappedvault/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/backuplogicallyairgappedvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault}.
 type BackupLogicallyAirGappedVault interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_BackupLogicallyAirGappedVault) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
 func NewBackupLogicallyAirGappedVault(scope constructs.Construct, id *string, config *BackupLogicallyAirGappedVaultConfig) BackupLogicallyAirGappedVault {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewBackupLogicallyAirGappedVault(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/backup_logically_air_gapped_vault aws_backup_logically_air_gapped_vault} Resource.
 func NewBackupLogicallyAirGappedVault_Override(b BackupLogicallyAirGappedVault, scope constructs.Construct, id *string, config *BackupLogicallyAirGappedVaultConfig) {
 	_init_.Initialize()
 

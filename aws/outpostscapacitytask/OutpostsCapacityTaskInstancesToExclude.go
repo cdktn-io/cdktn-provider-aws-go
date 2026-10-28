@@ -5,7 +5,7 @@ package outpostscapacitytask
 
 
 type OutpostsCapacityTaskInstancesToExclude struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/outposts_capacity_task#instances OutpostsCapacityTask#instances}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/outposts_capacity_task#instances OutpostsCapacityTask#instances}.
 	Instances *[]*string `field:"required" json:"instances" yaml:"instances"`
 }
 

@@ -5,14 +5,14 @@ package mailmanagerarchive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/mailmanagerarchive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/mailmanagerarchive/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/mailmanager_archive aws_mailmanager_archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/mailmanager_archive aws_mailmanager_archive}.
 type MailmanagerArchive interface {
 	cdktn.TerraformResource
 	ArchiveState() *string
@@ -540,7 +540,7 @@ func (j *jsiiProxy_MailmanagerArchive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/mailmanager_archive aws_mailmanager_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/mailmanager_archive aws_mailmanager_archive} Resource.
 func NewMailmanagerArchive(scope constructs.Construct, id *string, config *MailmanagerArchiveConfig) MailmanagerArchive {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewMailmanagerArchive(scope constructs.Construct, id *string, config *Mailm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/mailmanager_archive aws_mailmanager_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/mailmanager_archive aws_mailmanager_archive} Resource.
 func NewMailmanagerArchive_Override(m MailmanagerArchive, scope constructs.Construct, id *string, config *MailmanagerArchiveConfig) {
 	_init_.Initialize()
 

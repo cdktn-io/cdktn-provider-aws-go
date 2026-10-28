@@ -5,14 +5,14 @@ package ecrregistrypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ecrregistrypolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ecrregistrypolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecr_registry_policy aws_ecr_registry_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy}.
 type EcrRegistryPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_EcrRegistryPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
 func NewEcrRegistryPolicy(scope constructs.Construct, id *string, config *EcrRegistryPolicyConfig) EcrRegistryPolicy {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewEcrRegistryPolicy(scope constructs.Construct, id *string, config *EcrReg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecr_registry_policy aws_ecr_registry_policy} Resource.
 func NewEcrRegistryPolicy_Override(e EcrRegistryPolicy, scope constructs.Construct, id *string, config *EcrRegistryPolicyConfig) {
 	_init_.Initialize()
 

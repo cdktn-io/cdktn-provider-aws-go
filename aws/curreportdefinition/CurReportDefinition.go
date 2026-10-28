@@ -5,14 +5,14 @@ package curreportdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/curreportdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/curreportdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cur_report_definition aws_cur_report_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cur_report_definition aws_cur_report_definition}.
 type CurReportDefinition interface {
 	cdktn.TerraformResource
 	AdditionalArtifacts() *[]*string
@@ -683,7 +683,7 @@ func (j *jsiiProxy_CurReportDefinition) TimeUnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
 func NewCurReportDefinition(scope constructs.Construct, id *string, config *CurReportDefinitionConfig) CurReportDefinition {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewCurReportDefinition(scope constructs.Construct, id *string, config *CurR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cur_report_definition aws_cur_report_definition} Resource.
 func NewCurReportDefinition_Override(c CurReportDefinition, scope constructs.Construct, id *string, config *CurReportDefinitionConfig) {
 	_init_.Initialize()
 

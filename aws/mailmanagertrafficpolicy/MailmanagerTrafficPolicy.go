@@ -5,14 +5,14 @@ package mailmanagertrafficpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/mailmanagertrafficpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/mailmanagertrafficpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/mailmanager_traffic_policy aws_mailmanager_traffic_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/mailmanager_traffic_policy aws_mailmanager_traffic_policy}.
 type MailmanagerTrafficPolicy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_MailmanagerTrafficPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/mailmanager_traffic_policy aws_mailmanager_traffic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/mailmanager_traffic_policy aws_mailmanager_traffic_policy} Resource.
 func NewMailmanagerTrafficPolicy(scope constructs.Construct, id *string, config *MailmanagerTrafficPolicyConfig) MailmanagerTrafficPolicy {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewMailmanagerTrafficPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/mailmanager_traffic_policy aws_mailmanager_traffic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/mailmanager_traffic_policy aws_mailmanager_traffic_policy} Resource.
 func NewMailmanagerTrafficPolicy_Override(m MailmanagerTrafficPolicy, scope constructs.Construct, id *string, config *MailmanagerTrafficPolicyConfig) {
 	_init_.Initialize()
 

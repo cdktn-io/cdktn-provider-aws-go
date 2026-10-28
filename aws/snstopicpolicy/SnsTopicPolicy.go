@@ -5,14 +5,14 @@ package snstopicpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/snstopicpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/snstopicpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sns_topic_policy aws_sns_topic_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sns_topic_policy aws_sns_topic_policy}.
 type SnsTopicPolicy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_SnsTopicPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sns_topic_policy aws_sns_topic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sns_topic_policy aws_sns_topic_policy} Resource.
 func NewSnsTopicPolicy(scope constructs.Construct, id *string, config *SnsTopicPolicyConfig) SnsTopicPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewSnsTopicPolicy(scope constructs.Construct, id *string, config *SnsTopicP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/sns_topic_policy aws_sns_topic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sns_topic_policy aws_sns_topic_policy} Resource.
 func NewSnsTopicPolicy_Override(s SnsTopicPolicy, scope constructs.Construct, id *string, config *SnsTopicPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package iamrolepoliciesexclusive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/iamrolepoliciesexclusive/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/iamrolepoliciesexclusive/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive}.
 type IamRolePoliciesExclusive interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_IamRolePoliciesExclusive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
 func NewIamRolePoliciesExclusive(scope constructs.Construct, id *string, config *IamRolePoliciesExclusiveConfig) IamRolePoliciesExclusive {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewIamRolePoliciesExclusive(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/iam_role_policies_exclusive aws_iam_role_policies_exclusive} Resource.
 func NewIamRolePoliciesExclusive_Override(i IamRolePoliciesExclusive, scope constructs.Construct, id *string, config *IamRolePoliciesExclusiveConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package apigatewaygatewayresponse
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/apigatewaygatewayresponse/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/apigatewaygatewayresponse/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_gateway_response aws_api_gateway_gateway_response}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_gateway_response aws_api_gateway_gateway_response}.
 type ApiGatewayGatewayResponse interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ApiGatewayGatewayResponse) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_gateway_response aws_api_gateway_gateway_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_gateway_response aws_api_gateway_gateway_response} Resource.
 func NewApiGatewayGatewayResponse(scope constructs.Construct, id *string, config *ApiGatewayGatewayResponseConfig) ApiGatewayGatewayResponse {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewApiGatewayGatewayResponse(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/api_gateway_gateway_response aws_api_gateway_gateway_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/api_gateway_gateway_response aws_api_gateway_gateway_response} Resource.
 func NewApiGatewayGatewayResponse_Override(a ApiGatewayGatewayResponse, scope constructs.Construct, id *string, config *ApiGatewayGatewayResponseConfig) {
 	_init_.Initialize()
 

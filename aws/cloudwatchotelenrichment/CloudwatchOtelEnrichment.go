@@ -5,14 +5,14 @@ package cloudwatchotelenrichment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/cloudwatchotelenrichment/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/cloudwatchotelenrichment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment}.
 type CloudwatchOtelEnrichment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_CloudwatchOtelEnrichment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
 func NewCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config *CloudwatchOtelEnrichmentConfig) CloudwatchOtelEnrichment {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_otel_enrichment aws_cloudwatch_otel_enrichment} Resource.
 func NewCloudwatchOtelEnrichment_Override(c CloudwatchOtelEnrichment, scope constructs.Construct, id *string, config *CloudwatchOtelEnrichmentConfig) {
 	_init_.Initialize()
 

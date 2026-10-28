@@ -5,14 +5,14 @@ package ephemeralawsssmparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/ephemeralawsssmparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/ephemeralawsssmparameter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter}.
 type EphemeralAwsSsmParameter interface {
 	cdktn.TerraformEphemeralResource
 	Arn() *string
@@ -377,7 +377,7 @@ func (j *jsiiProxy_EphemeralAwsSsmParameter) WithDecryptionInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter} Ephemeral Resource.
 func NewEphemeralAwsSsmParameter(scope constructs.Construct, id *string, config *EphemeralAwsSsmParameterConfig) EphemeralAwsSsmParameter {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewEphemeralAwsSsmParameter(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/ephemeral-resources/ssm_parameter aws_ssm_parameter} Ephemeral Resource.
 func NewEphemeralAwsSsmParameter_Override(e EphemeralAwsSsmParameter, scope constructs.Construct, id *string, config *EphemeralAwsSsmParameterConfig) {
 	_init_.Initialize()
 

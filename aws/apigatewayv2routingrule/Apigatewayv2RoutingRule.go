@@ -5,14 +5,14 @@ package apigatewayv2routingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/apigatewayv2routingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/apigatewayv2routingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule}.
 type Apigatewayv2RoutingRule interface {
 	cdktn.TerraformResource
 	Action() Apigatewayv2RoutingRuleActionList
@@ -484,7 +484,7 @@ func (j *jsiiProxy_Apigatewayv2RoutingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
 func NewApigatewayv2RoutingRule(scope constructs.Construct, id *string, config *Apigatewayv2RoutingRuleConfig) Apigatewayv2RoutingRule {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewApigatewayv2RoutingRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/apigatewayv2_routing_rule aws_apigatewayv2_routing_rule} Resource.
 func NewApigatewayv2RoutingRule_Override(a Apigatewayv2RoutingRule, scope constructs.Construct, id *string, config *Apigatewayv2RoutingRuleConfig) {
 	_init_.Initialize()
 

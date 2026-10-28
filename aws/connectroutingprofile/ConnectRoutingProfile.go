@@ -5,14 +5,14 @@ package connectroutingprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v25/connectroutingprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-aws-go/aws/v26/connectroutingprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_routing_profile aws_connect_routing_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_routing_profile aws_connect_routing_profile}.
 type ConnectRoutingProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_ConnectRoutingProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_routing_profile aws_connect_routing_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_routing_profile aws_connect_routing_profile} Resource.
 func NewConnectRoutingProfile(scope constructs.Construct, id *string, config *ConnectRoutingProfileConfig) ConnectRoutingProfile {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewConnectRoutingProfile(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/connect_routing_profile aws_connect_routing_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/connect_routing_profile aws_connect_routing_profile} Resource.
 func NewConnectRoutingProfile_Override(c ConnectRoutingProfile, scope constructs.Construct, id *string, config *ConnectRoutingProfileConfig) {
 	_init_.Initialize()
 
