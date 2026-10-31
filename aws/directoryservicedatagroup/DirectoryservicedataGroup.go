@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/directoryservicedata_group aws_directoryservicedata_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/directoryservicedata_group aws_directoryservicedata_group}.
 type DirectoryservicedataGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DirectoryservicedataGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/directoryservicedata_group aws_directoryservicedata_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/directoryservicedata_group aws_directoryservicedata_group} Resource.
 func NewDirectoryservicedataGroup(scope constructs.Construct, id *string, config *DirectoryservicedataGroupConfig) DirectoryservicedataGroup {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDirectoryservicedataGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/directoryservicedata_group aws_directoryservicedata_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/directoryservicedata_group aws_directoryservicedata_group} Resource.
 func NewDirectoryservicedataGroup_Override(d DirectoryservicedataGroup, scope constructs.Construct, id *string, config *DirectoryservicedataGroupConfig) {
 	_init_.Initialize()
 

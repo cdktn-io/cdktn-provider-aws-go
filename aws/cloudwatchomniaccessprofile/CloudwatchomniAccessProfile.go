@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_access_profile aws_cloudwatchomni_access_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatchomni_access_profile aws_cloudwatchomni_access_profile}.
 type CloudwatchomniAccessProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_CloudwatchomniAccessProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_access_profile aws_cloudwatchomni_access_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatchomni_access_profile aws_cloudwatchomni_access_profile} Resource.
 func NewCloudwatchomniAccessProfile(scope constructs.Construct, id *string, config *CloudwatchomniAccessProfileConfig) CloudwatchomniAccessProfile {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewCloudwatchomniAccessProfile(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_access_profile aws_cloudwatchomni_access_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatchomni_access_profile aws_cloudwatchomni_access_profile} Resource.
 func NewCloudwatchomniAccessProfile_Override(c CloudwatchomniAccessProfile, scope constructs.Construct, id *string, config *CloudwatchomniAccessProfileConfig) {
 	_init_.Initialize()
 

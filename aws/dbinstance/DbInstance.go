@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance aws_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/db_instance aws_db_instance}.
 type DbInstance interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -188,6 +188,9 @@ type DbInstance interface {
 	MultiAz() interface{}
 	SetMultiAz(val interface{})
 	MultiAzInput() interface{}
+	MultiTenant() interface{}
+	SetMultiTenant(val interface{})
+	MultiTenantInput() interface{}
 	NcharCharacterSetName() *string
 	SetNcharCharacterSetName(val *string)
 	NcharCharacterSetNameInput() *string
@@ -440,6 +443,7 @@ type DbInstance interface {
 	ResetMonitoringInterval()
 	ResetMonitoringRoleArn()
 	ResetMultiAz()
+	ResetMultiTenant()
 	ResetNcharCharacterSetName()
 	ResetNetworkType()
 	ResetOptionGroupName()
@@ -1590,6 +1594,26 @@ func (j *jsiiProxy_DbInstance) MultiAzInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DbInstance) MultiTenant() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"multiTenant",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DbInstance) MultiTenantInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"multiTenantInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DbInstance) NcharCharacterSetName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2301,7 +2325,7 @@ func (j *jsiiProxy_DbInstance) WarningEventCategoriesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance aws_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/db_instance aws_db_instance} Resource.
 func NewDbInstance(scope constructs.Construct, id *string, config *DbInstanceConfig) DbInstance {
 	_init_.Initialize()
 
@@ -2319,7 +2343,7 @@ func NewDbInstance(scope constructs.Construct, id *string, config *DbInstanceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/db_instance aws_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/db_instance aws_db_instance} Resource.
 func NewDbInstance_Override(d DbInstance, scope constructs.Construct, id *string, config *DbInstanceConfig) {
 	_init_.Initialize()
 
@@ -2870,6 +2894,17 @@ func (j *jsiiProxy_DbInstance)SetMultiAz(val interface{}) {
 	_jsii_.Set(
 		j,
 		"multiAz",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DbInstance)SetMultiTenant(val interface{}) {
+	if err := j.validateSetMultiTenantParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"multiTenant",
 		val,
 	)
 }
@@ -3970,6 +4005,14 @@ func (d *jsiiProxy_DbInstance) ResetMultiAz() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetMultiAz",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DbInstance) ResetMultiTenant() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMultiTenant",
 		nil, // no parameters
 	)
 }

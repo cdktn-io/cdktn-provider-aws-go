@@ -5954,6 +5954,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putMotionGraphicsConfiguration", GoMethod: "PutMotionGraphicsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putNielsenConfiguration", GoMethod: "PutNielsenConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putOutputGroups", GoMethod: "PutOutputGroups"},
+			_jsii_.MemberMethod{JsiiMethod: "putThumbnailConfiguration", GoMethod: "PutThumbnailConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimecodeConfig", GoMethod: "PutTimecodeConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putVideoDescriptions", GoMethod: "PutVideoDescriptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAudioDescriptions", GoMethod: "ResetAudioDescriptions"},
@@ -5962,10 +5963,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetGlobalConfiguration", GoMethod: "ResetGlobalConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMotionGraphicsConfiguration", GoMethod: "ResetMotionGraphicsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNielsenConfiguration", GoMethod: "ResetNielsenConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetThumbnailConfiguration", GoMethod: "ResetThumbnailConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVideoDescriptions", GoMethod: "ResetVideoDescriptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "thumbnailConfiguration", GoGetter: "ThumbnailConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "thumbnailConfigurationInput", GoGetter: "ThumbnailConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "timecodeConfig", GoGetter: "TimecodeConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "timecodeConfigInput", GoGetter: "TimecodeConfigInput"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
@@ -5974,6 +5978,44 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_MedialiveChannelEncoderSettingsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.medialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfiguration",
+		reflect.TypeOf((*MedialiveChannelEncoderSettingsThumbnailConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.medialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference",
+		reflect.TypeOf((*MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
+			_jsii_.MemberProperty{JsiiProperty: "stateInput", GoGetter: "StateInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -37,6 +37,7 @@ type DataAwsBackupPlanRuleOutputReference interface {
 	SetInternalValue(val *DataAwsBackupPlanRule)
 	Lifecycle() DataAwsBackupPlanRuleLifecycleList
 	RecoveryPointTags() cdktn.StringMap
+	RuleId() *string
 	RuleName() *string
 	ScanAction() DataAwsBackupPlanRuleScanActionList
 	Schedule() *string
@@ -186,6 +187,16 @@ func (j *jsiiProxy_DataAwsBackupPlanRuleOutputReference) RecoveryPointTags() cdk
 	_jsii_.Get(
 		j,
 		"recoveryPointTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsBackupPlanRuleOutputReference) RuleId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ruleId",
 		&returns,
 	)
 	return returns

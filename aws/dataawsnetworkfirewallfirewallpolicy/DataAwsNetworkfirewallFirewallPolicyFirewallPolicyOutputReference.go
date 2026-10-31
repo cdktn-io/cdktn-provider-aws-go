@@ -34,6 +34,7 @@ type DataAwsNetworkfirewallFirewallPolicyFirewallPolicyOutputReference interface
 	InternalValue() *DataAwsNetworkfirewallFirewallPolicyFirewallPolicy
 	SetInternalValue(val *DataAwsNetworkfirewallFirewallPolicyFirewallPolicy)
 	PolicyVariables() DataAwsNetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesList
+	Route53ResolvedIpValidation() DataAwsNetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationList
 	StatefulDefaultActions() *[]*string
 	StatefulEngineOptions() DataAwsNetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsList
 	StatefulRuleGroupReference() DataAwsNetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferenceList
@@ -154,6 +155,16 @@ func (j *jsiiProxy_DataAwsNetworkfirewallFirewallPolicyFirewallPolicyOutputRefer
 	_jsii_.Get(
 		j,
 		"policyVariables",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsNetworkfirewallFirewallPolicyFirewallPolicyOutputReference) Route53ResolvedIpValidation() DataAwsNetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationList {
+	var returns DataAwsNetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationList
+	_jsii_.Get(
+		j,
+		"route53ResolvedIpValidation",
 		&returns,
 	)
 	return returns

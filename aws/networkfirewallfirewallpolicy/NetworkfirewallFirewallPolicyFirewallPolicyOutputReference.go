@@ -37,6 +37,8 @@ type NetworkfirewallFirewallPolicyFirewallPolicyOutputReference interface {
 	SetInternalValue(val *NetworkfirewallFirewallPolicyFirewallPolicy)
 	PolicyVariables() NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesOutputReference
 	PolicyVariablesInput() *NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables
+	Route53ResolvedIpValidation() NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference
+	Route53ResolvedIpValidationInput() *NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation
 	StatefulDefaultActions() *[]*string
 	SetStatefulDefaultActions(val *[]*string)
 	StatefulDefaultActionsInput() *[]*string
@@ -90,12 +92,14 @@ type NetworkfirewallFirewallPolicyFirewallPolicyOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPolicyVariables(value *NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables)
+	PutRoute53ResolvedIpValidation(value *NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation)
 	PutStatefulEngineOptions(value *NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions)
 	PutStatefulRuleGroupReference(value interface{})
 	PutStatelessCustomAction(value interface{})
 	PutStatelessRuleGroupReference(value interface{})
 	ResetEnableTlsSessionHolding()
 	ResetPolicyVariables()
+	ResetRoute53ResolvedIpValidation()
 	ResetStatefulDefaultActions()
 	ResetStatefulEngineOptions()
 	ResetStatefulRuleGroupReference()
@@ -202,6 +206,26 @@ func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) P
 	_jsii_.Get(
 		j,
 		"policyVariablesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) Route53ResolvedIpValidation() NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference {
+	var returns NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference
+	_jsii_.Get(
+		j,
+		"route53ResolvedIpValidation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) Route53ResolvedIpValidationInput() *NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation {
+	var returns *NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation
+	_jsii_.Get(
+		j,
+		"route53ResolvedIpValidationInput",
 		&returns,
 	)
 	return returns
@@ -722,6 +746,17 @@ func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) P
 	)
 }
 
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PutRoute53ResolvedIpValidation(value *NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation) {
+	if err := n.validatePutRoute53ResolvedIpValidationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putRoute53ResolvedIpValidation",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PutStatefulEngineOptions(value *NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions) {
 	if err := n.validatePutStatefulEngineOptionsParameters(value); err != nil {
 		panic(err)
@@ -778,6 +813,14 @@ func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) R
 	_jsii_.InvokeVoid(
 		n,
 		"resetPolicyVariables",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetRoute53ResolvedIpValidation() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetRoute53ResolvedIpValidation",
 		nil, // no parameters
 	)
 }

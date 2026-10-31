@@ -104,6 +104,17 @@ func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) v
 	return nil
 }
 
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) validatePutRoute53ResolvedIpValidationParameters(value *NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) validatePutStatefulEngineOptionsParameters(value *NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

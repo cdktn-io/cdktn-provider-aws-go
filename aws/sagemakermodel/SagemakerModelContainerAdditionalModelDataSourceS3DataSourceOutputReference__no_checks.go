@@ -47,6 +47,10 @@ func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceO
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference) validatePutHubAccessConfigParameters(value *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference) validatePutModelAccessConfigParameters(value *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig) error {
 	return nil
 }

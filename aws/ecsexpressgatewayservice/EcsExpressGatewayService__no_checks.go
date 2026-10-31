@@ -131,6 +131,10 @@ func (j *jsiiProxy_EcsExpressGatewayService) validateSetCpuParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_EcsExpressGatewayService) validateSetCpuArchitectureParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EcsExpressGatewayService) validateSetExecutionRoleArnParameters(val *string) error {
 	return nil
 }

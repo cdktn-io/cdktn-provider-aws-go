@@ -229,6 +229,14 @@ func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 	return nil
 }
 
+func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference) validateSetS3BucketOwnerParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference) validateSetS3PrefixParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

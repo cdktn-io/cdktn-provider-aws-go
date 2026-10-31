@@ -35,6 +35,9 @@ type LambdaFunctionDurableConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *LambdaFunctionDurableConfig
 	SetInternalValue(val *LambdaFunctionDurableConfig)
+	KmsKeyArn() *string
+	SetKmsKeyArn(val *string)
+	KmsKeyArnInput() *string
 	RetentionPeriod() *float64
 	SetRetentionPeriod(val *float64)
 	RetentionPeriodInput() *float64
@@ -70,6 +73,7 @@ type LambdaFunctionDurableConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetKmsKeyArn()
 	ResetRetentionPeriod()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -151,6 +155,26 @@ func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference) InternalValue() *
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference) KmsKeyArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference) KmsKeyArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArnInput",
 		&returns,
 	)
 	return returns
@@ -264,6 +288,17 @@ func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference)SetInternalValue(v
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference)SetKmsKeyArn(val *string) {
+	if err := j.validateSetKmsKeyArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyArn",
 		val,
 	)
 }
@@ -485,6 +520,14 @@ func (l *jsiiProxy_LambdaFunctionDurableConfigOutputReference) InterpolationForA
 	)
 
 	return returns
+}
+
+func (l *jsiiProxy_LambdaFunctionDurableConfigOutputReference) ResetKmsKeyArn() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetKmsKeyArn",
+		nil, // no parameters
+	)
 }
 
 func (l *jsiiProxy_LambdaFunctionDurableConfigOutputReference) ResetRetentionPeriod() {

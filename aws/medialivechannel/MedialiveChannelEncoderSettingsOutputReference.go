@@ -54,6 +54,8 @@ type MedialiveChannelEncoderSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ThumbnailConfiguration() MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference
+	ThumbnailConfigurationInput() *MedialiveChannelEncoderSettingsThumbnailConfiguration
 	TimecodeConfig() MedialiveChannelEncoderSettingsTimecodeConfigOutputReference
 	TimecodeConfigInput() *MedialiveChannelEncoderSettingsTimecodeConfig
 	VideoDescriptions() MedialiveChannelEncoderSettingsVideoDescriptionsList
@@ -89,6 +91,7 @@ type MedialiveChannelEncoderSettingsOutputReference interface {
 	PutMotionGraphicsConfiguration(value *MedialiveChannelEncoderSettingsMotionGraphicsConfiguration)
 	PutNielsenConfiguration(value *MedialiveChannelEncoderSettingsNielsenConfiguration)
 	PutOutputGroups(value interface{})
+	PutThumbnailConfiguration(value *MedialiveChannelEncoderSettingsThumbnailConfiguration)
 	PutTimecodeConfig(value *MedialiveChannelEncoderSettingsTimecodeConfig)
 	PutVideoDescriptions(value interface{})
 	ResetAudioDescriptions()
@@ -97,6 +100,7 @@ type MedialiveChannelEncoderSettingsOutputReference interface {
 	ResetGlobalConfiguration()
 	ResetMotionGraphicsConfiguration()
 	ResetNielsenConfiguration()
+	ResetThumbnailConfiguration()
 	ResetVideoDescriptions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -318,6 +322,26 @@ func (j *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) TerraformReso
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) ThumbnailConfiguration() MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference {
+	var returns MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"thumbnailConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) ThumbnailConfigurationInput() *MedialiveChannelEncoderSettingsThumbnailConfiguration {
+	var returns *MedialiveChannelEncoderSettingsThumbnailConfiguration
+	_jsii_.Get(
+		j,
+		"thumbnailConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -709,6 +733,17 @@ func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) PutOutputGrou
 	)
 }
 
+func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) PutThumbnailConfiguration(value *MedialiveChannelEncoderSettingsThumbnailConfiguration) {
+	if err := m.validatePutThumbnailConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putThumbnailConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) PutTimecodeConfig(value *MedialiveChannelEncoderSettingsTimecodeConfig) {
 	if err := m.validatePutTimecodeConfigParameters(value); err != nil {
 		panic(err)
@@ -775,6 +810,14 @@ func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) ResetNielsenC
 	_jsii_.InvokeVoid(
 		m,
 		"resetNielsenConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) ResetThumbnailConfiguration() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetThumbnailConfiguration",
 		nil, // no parameters
 	)
 }

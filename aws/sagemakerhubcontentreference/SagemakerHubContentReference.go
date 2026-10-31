@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference}.
 type SagemakerHubContentReference interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -86,6 +86,7 @@ type SagemakerHubContentReference interface {
 	TerraformResourceType() *string
 	Timeouts() SagemakerHubContentReferenceTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	VersionedHubContentArn() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -563,8 +564,18 @@ func (j *jsiiProxy_SagemakerHubContentReference) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_SagemakerHubContentReference) VersionedHubContentArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"versionedHubContentArn",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
 func NewSagemakerHubContentReference(scope constructs.Construct, id *string, config *SagemakerHubContentReferenceConfig) SagemakerHubContentReference {
 	_init_.Initialize()
 
@@ -582,7 +593,7 @@ func NewSagemakerHubContentReference(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_hub_content_reference aws_sagemaker_hub_content_reference} Resource.
 func NewSagemakerHubContentReference_Override(s SagemakerHubContentReference, scope constructs.Construct, id *string, config *SagemakerHubContentReferenceConfig) {
 	_init_.Initialize()
 

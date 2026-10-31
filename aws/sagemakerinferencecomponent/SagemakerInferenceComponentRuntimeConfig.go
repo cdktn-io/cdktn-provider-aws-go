@@ -5,7 +5,7 @@ package sagemakerinferencecomponent
 
 
 type SagemakerInferenceComponentRuntimeConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#copy_count SagemakerInferenceComponent#copy_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#copy_count SagemakerInferenceComponent#copy_count}.
 	CopyCount *float64 `field:"required" json:"copyCount" yaml:"copyCount"`
 }
 

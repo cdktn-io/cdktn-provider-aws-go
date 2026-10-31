@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_connection_confirmation aws_dx_connection_confirmation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/dx_connection_confirmation aws_dx_connection_confirmation}.
 type DxConnectionConfirmation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -70,6 +70,8 @@ type DxConnectionConfirmation interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Timeouts() DxConnectionConfirmationTimeoutsOutputReference
+	TimeoutsInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -149,6 +151,7 @@ type DxConnectionConfirmation interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutTimeouts(value *DxConnectionConfirmationTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -167,6 +170,7 @@ type DxConnectionConfirmation interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegion()
+	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -414,8 +418,28 @@ func (j *jsiiProxy_DxConnectionConfirmation) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DxConnectionConfirmation) Timeouts() DxConnectionConfirmationTimeoutsOutputReference {
+	var returns DxConnectionConfirmationTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_connection_confirmation aws_dx_connection_confirmation} Resource.
+func (j *jsiiProxy_DxConnectionConfirmation) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/dx_connection_confirmation aws_dx_connection_confirmation} Resource.
 func NewDxConnectionConfirmation(scope constructs.Construct, id *string, config *DxConnectionConfirmationConfig) DxConnectionConfirmation {
 	_init_.Initialize()
 
@@ -433,7 +457,7 @@ func NewDxConnectionConfirmation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_connection_confirmation aws_dx_connection_confirmation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/dx_connection_confirmation aws_dx_connection_confirmation} Resource.
 func NewDxConnectionConfirmation_Override(d DxConnectionConfirmation, scope constructs.Construct, id *string, config *DxConnectionConfirmationConfig) {
 	_init_.Initialize()
 
@@ -914,6 +938,17 @@ func (d *jsiiProxy_DxConnectionConfirmation) OverrideLogicalId(newLogicalId *str
 	)
 }
 
+func (d *jsiiProxy_DxConnectionConfirmation) PutTimeouts(value *DxConnectionConfirmationTimeouts) {
+	if err := d.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DxConnectionConfirmation) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -945,6 +980,14 @@ func (d *jsiiProxy_DxConnectionConfirmation) ResetRegion() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DxConnectionConfirmation) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTimeouts",
 		nil, // no parameters
 	)
 }

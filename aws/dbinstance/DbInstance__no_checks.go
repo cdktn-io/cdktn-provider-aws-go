@@ -307,6 +307,10 @@ func (j *jsiiProxy_DbInstance) validateSetMultiAzParameters(val interface{}) err
 	return nil
 }
 
+func (j *jsiiProxy_DbInstance) validateSetMultiTenantParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DbInstance) validateSetNcharCharacterSetNameParameters(val *string) error {
 	return nil
 }

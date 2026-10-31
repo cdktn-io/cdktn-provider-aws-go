@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_access_grant aws_cloudwatchomni_access_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatchomni_access_grant aws_cloudwatchomni_access_grant}.
 type CloudwatchomniAccessGrant interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -576,7 +576,7 @@ func (j *jsiiProxy_CloudwatchomniAccessGrant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_access_grant aws_cloudwatchomni_access_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatchomni_access_grant aws_cloudwatchomni_access_grant} Resource.
 func NewCloudwatchomniAccessGrant(scope constructs.Construct, id *string, config *CloudwatchomniAccessGrantConfig) CloudwatchomniAccessGrant {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewCloudwatchomniAccessGrant(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_access_grant aws_cloudwatchomni_access_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatchomni_access_grant aws_cloudwatchomni_access_grant} Resource.
 func NewCloudwatchomniAccessGrant_Override(c CloudwatchomniAccessGrant, scope constructs.Construct, id *string, config *CloudwatchomniAccessGrantConfig) {
 	_init_.Initialize()
 

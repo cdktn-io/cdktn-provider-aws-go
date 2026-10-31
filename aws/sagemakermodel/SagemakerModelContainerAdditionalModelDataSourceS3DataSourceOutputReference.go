@@ -33,6 +33,8 @@ type SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	HubAccessConfig() SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfigOutputReference
+	HubAccessConfigInput() *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	ModelAccessConfig() SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference
@@ -75,7 +77,9 @@ type SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutHubAccessConfig(value *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig)
 	PutModelAccessConfig(value *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig)
+	ResetHubAccessConfig()
 	ResetModelAccessConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -147,6 +151,26 @@ func (j *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceO
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference) HubAccessConfig() SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfigOutputReference {
+	var returns SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfigOutputReference
+	_jsii_.Get(
+		j,
+		"hubAccessConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference) HubAccessConfigInput() *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig {
+	var returns *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig
+	_jsii_.Get(
+		j,
+		"hubAccessConfigInput",
 		&returns,
 	)
 	return returns
@@ -544,6 +568,17 @@ func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceO
 	return returns
 }
 
+func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference) PutHubAccessConfig(value *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig) {
+	if err := s.validatePutHubAccessConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putHubAccessConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference) PutModelAccessConfig(value *SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig) {
 	if err := s.validatePutModelAccessConfigParameters(value); err != nil {
 		panic(err)
@@ -552,6 +587,14 @@ func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceO
 		s,
 		"putModelAccessConfig",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerModelContainerAdditionalModelDataSourceS3DataSourceOutputReference) ResetHubAccessConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetHubAccessConfig",
+		nil, // no parameters
 	)
 }
 

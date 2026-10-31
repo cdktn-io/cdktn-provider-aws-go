@@ -13,6 +13,8 @@ import (
 
 type Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference interface {
 	cdktn.ComplexObject
+	AndStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementAndStatementList
+	AndStatementInput() interface{}
 	AsnMatchStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementAsnMatchStatementList
 	AsnMatchStatementInput() interface{}
 	ByteMatchStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementByteMatchStatementList
@@ -42,6 +44,10 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputRe
 	IpSetReferenceStatementInput() interface{}
 	LabelMatchStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementLabelMatchStatementList
 	LabelMatchStatementInput() interface{}
+	NotStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementNotStatementList
+	NotStatementInput() interface{}
+	OrStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOrStatementList
+	OrStatementInput() interface{}
 	RegexMatchStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementRegexMatchStatementList
 	RegexMatchStatementInput() interface{}
 	RegexPatternSetReferenceStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementRegexPatternSetReferenceStatementList
@@ -84,21 +90,27 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputRe
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAndStatement(value interface{})
 	PutAsnMatchStatement(value interface{})
 	PutByteMatchStatement(value interface{})
 	PutGeoMatchStatement(value interface{})
 	PutIpSetReferenceStatement(value interface{})
 	PutLabelMatchStatement(value interface{})
+	PutNotStatement(value interface{})
+	PutOrStatement(value interface{})
 	PutRegexMatchStatement(value interface{})
 	PutRegexPatternSetReferenceStatement(value interface{})
 	PutSizeConstraintStatement(value interface{})
 	PutSqliMatchStatement(value interface{})
 	PutXssMatchStatement(value interface{})
+	ResetAndStatement()
 	ResetAsnMatchStatement()
 	ResetByteMatchStatement()
 	ResetGeoMatchStatement()
 	ResetIpSetReferenceStatement()
 	ResetLabelMatchStatement()
+	ResetNotStatement()
+	ResetOrStatement()
 	ResetRegexMatchStatement()
 	ResetRegexPatternSetReferenceStatement()
 	ResetSizeConstraintStatement()
@@ -117,6 +129,26 @@ type Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputRe
 // The jsii proxy struct for Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference
 type jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) AndStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementAndStatementList {
+	var returns Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementAndStatementList
+	_jsii_.Get(
+		j,
+		"andStatement",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) AndStatementInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"andStatementInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) AsnMatchStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementAsnMatchStatementList {
@@ -264,6 +296,46 @@ func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownSta
 	_jsii_.Get(
 		j,
 		"labelMatchStatementInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) NotStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementNotStatementList {
+	var returns Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementNotStatementList
+	_jsii_.Get(
+		j,
+		"notStatement",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) NotStatementInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"notStatementInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) OrStatement() Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOrStatementList {
+	var returns Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOrStatementList
+	_jsii_.Get(
+		j,
+		"orStatement",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) OrStatementInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"orStatementInput",
 		&returns,
 	)
 	return returns
@@ -658,6 +730,17 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownSta
 	return returns
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) PutAndStatement(value interface{}) {
+	if err := w.validatePutAndStatementParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putAndStatement",
+		[]interface{}{value},
+	)
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) PutAsnMatchStatement(value interface{}) {
 	if err := w.validatePutAsnMatchStatementParameters(value); err != nil {
 		panic(err)
@@ -709,6 +792,28 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownSta
 	_jsii_.InvokeVoid(
 		w,
 		"putLabelMatchStatement",
+		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) PutNotStatement(value interface{}) {
+	if err := w.validatePutNotStatementParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putNotStatement",
+		[]interface{}{value},
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) PutOrStatement(value interface{}) {
+	if err := w.validatePutOrStatementParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		w,
+		"putOrStatement",
 		[]interface{}{value},
 	)
 }
@@ -768,6 +873,14 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownSta
 	)
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) ResetAndStatement() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetAndStatement",
+		nil, // no parameters
+	)
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) ResetAsnMatchStatement() {
 	_jsii_.InvokeVoid(
 		w,
@@ -804,6 +917,22 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownSta
 	_jsii_.InvokeVoid(
 		w,
 		"resetLabelMatchStatement",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) ResetNotStatement() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetNotStatement",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementManagedRuleGroupStatementScopeDownStatementOutputReference) ResetOrStatement() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetOrStatement",
 		nil, // no parameters
 	)
 }

@@ -5,7 +5,7 @@ package sagemakerinferencecomponent
 
 
 type SagemakerInferenceComponentSpecificationDataCacheConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#enable_caching SagemakerInferenceComponent#enable_caching}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#enable_caching SagemakerInferenceComponent#enable_caching}.
 	EnableCaching interface{} `field:"required" json:"enableCaching" yaml:"enableCaching"`
 }
 

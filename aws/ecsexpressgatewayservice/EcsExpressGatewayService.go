@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service}.
 type EcsExpressGatewayService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -32,6 +32,9 @@ type EcsExpressGatewayService interface {
 	SetCount(val interface{})
 	Cpu() *string
 	SetCpu(val *string)
+	CpuArchitecture() *string
+	SetCpuArchitecture(val *string)
+	CpuArchitectureInput() *string
 	CpuInput() *string
 	CurrentDeployment() *string
 	// Experimental.
@@ -205,6 +208,7 @@ type EcsExpressGatewayService interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCluster()
 	ResetCpu()
+	ResetCpuArchitecture()
 	ResetHealthCheckPath()
 	ResetMemory()
 	ResetNetworkConfiguration()
@@ -311,6 +315,26 @@ func (j *jsiiProxy_EcsExpressGatewayService) Cpu() *string {
 	_jsii_.Get(
 		j,
 		"cpu",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsExpressGatewayService) CpuArchitecture() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cpuArchitecture",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsExpressGatewayService) CpuArchitectureInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"cpuArchitectureInput",
 		&returns,
 	)
 	return returns
@@ -757,7 +781,7 @@ func (j *jsiiProxy_EcsExpressGatewayService) WaitForSteadyStateInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) EcsExpressGatewayService {
 	_init_.Initialize()
 
@@ -775,7 +799,7 @@ func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/ecs_express_gateway_service aws_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService_Override(e EcsExpressGatewayService, scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) {
 	_init_.Initialize()
 
@@ -826,6 +850,17 @@ func (j *jsiiProxy_EcsExpressGatewayService)SetCpu(val *string) {
 	_jsii_.Set(
 		j,
 		"cpu",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EcsExpressGatewayService)SetCpuArchitecture(val *string) {
+	if err := j.validateSetCpuArchitectureParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cpuArchitecture",
 		val,
 	)
 }
@@ -1411,6 +1446,14 @@ func (e *jsiiProxy_EcsExpressGatewayService) ResetCpu() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetCpu",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsExpressGatewayService) ResetCpuArchitecture() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetCpuArchitecture",
 		nil, // no parameters
 	)
 }

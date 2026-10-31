@@ -79,6 +79,10 @@ func (d *jsiiProxy_DxConnection) validateOverrideLogicalIdParameters(newLogicalI
 	return nil
 }
 
+func (d *jsiiProxy_DxConnection) validatePutTimeoutsParameters(value *DxConnectionTimeouts) error {
+	return nil
+}
+
 func (d *jsiiProxy_DxConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

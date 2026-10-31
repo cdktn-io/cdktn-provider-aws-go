@@ -75,6 +75,10 @@ func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) validatePutOu
 	return nil
 }
 
+func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) validatePutThumbnailConfigurationParameters(value *MedialiveChannelEncoderSettingsThumbnailConfiguration) error {
+	return nil
+}
+
 func (m *jsiiProxy_MedialiveChannelEncoderSettingsOutputReference) validatePutTimecodeConfigParameters(value *MedialiveChannelEncoderSettingsTimecodeConfig) error {
 	return nil
 }

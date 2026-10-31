@@ -166,12 +166,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "policyVariables", GoGetter: "PolicyVariables"},
 			_jsii_.MemberProperty{JsiiProperty: "policyVariablesInput", GoGetter: "PolicyVariablesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putPolicyVariables", GoMethod: "PutPolicyVariables"},
+			_jsii_.MemberMethod{JsiiMethod: "putRoute53ResolvedIpValidation", GoMethod: "PutRoute53ResolvedIpValidation"},
 			_jsii_.MemberMethod{JsiiMethod: "putStatefulEngineOptions", GoMethod: "PutStatefulEngineOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putStatefulRuleGroupReference", GoMethod: "PutStatefulRuleGroupReference"},
 			_jsii_.MemberMethod{JsiiMethod: "putStatelessCustomAction", GoMethod: "PutStatelessCustomAction"},
 			_jsii_.MemberMethod{JsiiMethod: "putStatelessRuleGroupReference", GoMethod: "PutStatelessRuleGroupReference"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableTlsSessionHolding", GoMethod: "ResetEnableTlsSessionHolding"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPolicyVariables", GoMethod: "ResetPolicyVariables"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRoute53ResolvedIpValidation", GoMethod: "ResetRoute53ResolvedIpValidation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatefulDefaultActions", GoMethod: "ResetStatefulDefaultActions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatefulEngineOptions", GoMethod: "ResetStatefulEngineOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatefulRuleGroupReference", GoMethod: "ResetStatefulRuleGroupReference"},
@@ -179,6 +181,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetStatelessRuleGroupReference", GoMethod: "ResetStatelessRuleGroupReference"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTlsInspectionConfigurationArn", GoMethod: "ResetTlsInspectionConfigurationArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "route53ResolvedIpValidation", GoGetter: "Route53ResolvedIpValidation"},
+			_jsii_.MemberProperty{JsiiProperty: "route53ResolvedIpValidationInput", GoGetter: "Route53ResolvedIpValidationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "statefulDefaultActions", GoGetter: "StatefulDefaultActions"},
 			_jsii_.MemberProperty{JsiiProperty: "statefulDefaultActionsInput", GoGetter: "StatefulDefaultActionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "statefulEngineOptions", GoGetter: "StatefulEngineOptions"},
@@ -342,6 +346,54 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesRuleVariablesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation",
+		reflect.TypeOf((*NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference",
+		reflect.TypeOf((*NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
+			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "bypassDestinationValidationIpRanges", GoGetter: "BypassDestinationValidationIpRanges"},
+			_jsii_.MemberProperty{JsiiProperty: "bypassDestinationValidationIpRangesInput", GoGetter: "BypassDestinationValidationIpRangesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsExpiryExceptionPolicy", GoGetter: "DnsExpiryExceptionPolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsExpiryExceptionPolicyInput", GoGetter: "DnsExpiryExceptionPolicyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsFirewallRuleGroupId", GoGetter: "DnsFirewallRuleGroupId"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsFirewallRuleGroupIdInput", GoGetter: "DnsFirewallRuleGroupIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBypassDestinationValidationIpRanges", GoMethod: "ResetBypassDestinationValidationIpRanges"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceIpRanges", GoMethod: "ResetSourceIpRanges"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceIpRanges", GoGetter: "SourceIpRanges"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceIpRangesInput", GoGetter: "SourceIpRangesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -383,6 +383,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetStartWindow", GoMethod: "ResetStartWindow"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTargetLogicallyAirGappedBackupVaultArn", GoMethod: "ResetTargetLogicallyAirGappedBackupVaultArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "ruleId", GoGetter: "RuleId"},
 			_jsii_.MemberProperty{JsiiProperty: "ruleName", GoGetter: "RuleName"},
 			_jsii_.MemberProperty{JsiiProperty: "ruleNameInput", GoGetter: "RuleNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "scanAction", GoGetter: "ScanAction"},

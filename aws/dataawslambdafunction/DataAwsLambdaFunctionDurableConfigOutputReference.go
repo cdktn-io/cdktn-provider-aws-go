@@ -33,6 +33,7 @@ type DataAwsLambdaFunctionDurableConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsLambdaFunctionDurableConfig
 	SetInternalValue(val *DataAwsLambdaFunctionDurableConfig)
+	KmsKeyArn() *string
 	RetentionPeriod() *float64
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsLambdaFunctionDurableConfigOutputReference) InternalVa
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsLambdaFunctionDurableConfigOutputReference) KmsKeyArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArn",
 		&returns,
 	)
 	return returns

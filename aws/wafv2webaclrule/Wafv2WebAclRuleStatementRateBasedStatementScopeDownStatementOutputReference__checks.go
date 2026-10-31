@@ -93,6 +93,37 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementO
 	return nil
 }
 
+func (w *jsiiProxy_Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOutputReference) validatePutAndStatementParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementAndStatement:
+		value := value.(*[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementAndStatement)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementAndStatement:
+		value_ := value.([]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementAndStatement)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementAndStatement; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (w *jsiiProxy_Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOutputReference) validatePutAsnMatchStatementParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -242,6 +273,68 @@ func (w *jsiiProxy_Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementO
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementLabelMatchStatement; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOutputReference) validatePutNotStatementParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementNotStatement:
+		value := value.(*[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementNotStatement)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementNotStatement:
+		value_ := value.([]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementNotStatement)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementNotStatement; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOutputReference) validatePutOrStatementParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOrStatement:
+		value := value.(*[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOrStatement)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOrStatement:
+		value_ := value.([]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOrStatement)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatementOrStatement; received %#v (a %T)", value, value)
 		}
 	}
 

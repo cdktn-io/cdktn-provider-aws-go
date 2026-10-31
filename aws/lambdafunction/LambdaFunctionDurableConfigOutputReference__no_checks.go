@@ -67,6 +67,10 @@ func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference) validateSetIntern
 	return nil
 }
 
+func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference) validateSetKmsKeyArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LambdaFunctionDurableConfigOutputReference) validateSetRetentionPeriodParameters(val *float64) error {
 	return nil
 }

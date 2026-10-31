@@ -7,7 +7,7 @@ package cloudwatchomniaccessgrant
 type CloudwatchomniAccessGrantScopedActionResourceRowScopeGroup struct {
 	// row_scope block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_access_grant#row_scope CloudwatchomniAccessGrant#row_scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatchomni_access_grant#row_scope CloudwatchomniAccessGrant#row_scope}
 	RowScope interface{} `field:"optional" json:"rowScope" yaml:"rowScope"`
 }
 

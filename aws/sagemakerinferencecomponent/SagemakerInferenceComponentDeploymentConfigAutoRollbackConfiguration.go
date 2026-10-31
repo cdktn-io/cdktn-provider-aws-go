@@ -7,7 +7,7 @@ package sagemakerinferencecomponent
 type SagemakerInferenceComponentDeploymentConfigAutoRollbackConfiguration struct {
 	// alarms block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#alarms SagemakerInferenceComponent#alarms}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#alarms SagemakerInferenceComponent#alarms}
 	Alarms interface{} `field:"optional" json:"alarms" yaml:"alarms"`
 }
 

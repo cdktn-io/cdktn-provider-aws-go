@@ -35,6 +35,9 @@ type BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputRefer
 	S3Bucket() *string
 	SetS3Bucket(val *string)
 	S3BucketInput() *string
+	S3BucketOwner() *string
+	SetS3BucketOwner(val *string)
+	S3BucketOwnerInput() *string
 	S3OutputConfigurations() BcmdataexportsExportExportDestinationConfigurationsS3DestinationS3OutputConfigurationsList
 	S3OutputConfigurationsInput() interface{}
 	S3Prefix() *string
@@ -76,6 +79,7 @@ type BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputRefer
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutS3OutputConfigurations(value interface{})
+	ResetS3BucketOwner()
 	ResetS3OutputConfigurations()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -157,6 +161,26 @@ func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 	_jsii_.Get(
 		j,
 		"s3BucketInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference) S3BucketOwner() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3BucketOwner",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference) S3BucketOwnerInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3BucketOwnerInput",
 		&returns,
 	)
 	return returns
@@ -310,6 +334,17 @@ func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 	_jsii_.Set(
 		j,
 		"s3Bucket",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference)SetS3BucketOwner(val *string) {
+	if err := j.validateSetS3BucketOwnerParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"s3BucketOwner",
 		val,
 	)
 }
@@ -552,6 +587,14 @@ func (b *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3Destinat
 		b,
 		"putS3OutputConfigurations",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BcmdataexportsExportExportDestinationConfigurationsS3DestinationOutputReference) ResetS3BucketOwner() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetS3BucketOwner",
+		nil, // no parameters
 	)
 }
 

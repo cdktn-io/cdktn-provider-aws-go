@@ -45,6 +45,7 @@ type BackupPlanRuleOutputReference interface {
 	RecoveryPointTags() *map[string]*string
 	SetRecoveryPointTags(val *map[string]*string)
 	RecoveryPointTagsInput() *map[string]*string
+	RuleId() *string
 	RuleName() *string
 	SetRuleName(val *string)
 	RuleNameInput() *string
@@ -270,6 +271,16 @@ func (j *jsiiProxy_BackupPlanRuleOutputReference) RecoveryPointTagsInput() *map[
 	_jsii_.Get(
 		j,
 		"recoveryPointTagsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupPlanRuleOutputReference) RuleId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ruleId",
 		&returns,
 	)
 	return returns
